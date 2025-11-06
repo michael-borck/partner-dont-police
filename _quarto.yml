@@ -24,6 +24,7 @@ book:
     - appendix-a-prompt-library.qmd
     - appendix-b-workshop-guide.qmd
     - appendix-c-curtin-alignment.qmd
+    - appendix-d-advanced-prompt-engineering.qmd
 
 format:
   html:
