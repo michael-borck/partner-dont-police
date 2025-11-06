@@ -18,8 +18,9 @@ book:
     - chapter-09-virtual-company.qmd
     - chapter-10-unit-design.qmd
     - chapter-11-research-assistant.qmd
-    - chapter-12-conclusion.qmd
-    - chapter-13-static-to-interactive.qmd
+    - chapter-12-static-to-interactive.qmd
+    - chapter-13-conclusion.qmd
+  appendices:
     - appendix-a-prompt-library.qmd
     - appendix-b-workshop-guide.qmd
     - appendix-c-curtin-alignment.qmd
