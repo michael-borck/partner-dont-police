@@ -22,23 +22,41 @@
 
 ### 1. **Conversation Practice**
 ```
-You are [HR role]. I am practicing [skill].
-Give me realistic responses and feedback.
+You are an experienced HR manager conducting a termination meeting for poor performance. I am the employee being terminated.
+
+Start conversation professionally but with empathy. Include:
+- Clear explanation of decision
+- Specific performance issues
+- Next steps for employee
+- Support resources available
+
+Begin the conversation now.
 ```
 
-### 2. **Instant Feedback**  
+### 2. **Critical Thinking Developer**  
 ```
-Review this HR response:
-"[paste student work]"
-Focus on: tone, clarity, legal compliance.
+Present this HR scenario to students:
+"An employee has been consistently late for work, affecting team performance. Their manager wants to terminate them immediately."
+
+First ask: "What should HR do and why?"
+
+Then provide:
+1. Multiple perspectives (legal, ethical, practical)
+2. Pros and cons of different approaches
+3. Stakeholder analysis
+4. Long-term consequences
+5. Professional standards
+
+Ask students to evaluate your analysis.
 ```
 
-### 3. **Scenario Generation**
+### 3. **AI Debate Partner**
 ```
-Create 3 different [HR situation] scenarios:
-- [Context 1]
-- [Context 2] 
-- [Context 3]
+Present this HR policy: "Remote work should be available to all employees permanently."
+
+You argue FOR this policy. I will argue AGAINST it.
+After 3 rounds, summarize strongest arguments from both sides.
+Then ask me to identify which arguments are most persuasive and why.
 ```
 
 ## 🔄 Activity Upgrade Examples

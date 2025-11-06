@@ -38,25 +38,50 @@
 
 ### 1. **Conversation Starter** (2 minutes)
 ```
-You are an HR manager conducting a termination meeting. 
-I am the employee being terminated. 
-Start the conversation professionally but with empathy.
+You are an experienced HR manager conducting a termination meeting for poor performance. I am the employee being terminated. 
+
+Start the conversation professionally but with empathy. Include:
+- Clear explanation of the decision
+- Specific performance issues that led to this outcome
+- Next steps for the employee
+- Support resources available
+
+Begin the conversation now.
 ```
 
 ### 2. **Instant Feedback Generator** (2 minutes)  
 ```
-Review this HR response and suggest improvements:
+Review this HR response and provide constructive feedback:
+
 "[paste student response here]"
-Focus on: tone, legal compliance, clarity.
+
+Evaluate and suggest improvements for:
+1. **Tone and professionalism** - Is it appropriate for the situation?
+2. **Legal compliance** - Any potential employment law issues?
+3. **Clarity and structure** - Is the message clear and well-organized?
+4. **Stakeholder impact** - How might this affect employees/organization?
+5. **Alternative approaches** - What other ways could this be handled?
+
+Provide specific, actionable suggestions for improvement.
 ```
 
-### 3. **Scenario Creator** (2 minutes)
+### 3. **Critical Thinking Developer** (2 minutes)
 ```
-Create 3 different performance review scenarios:
-- Entry-level employee
-- Senior manager  
-- Remote worker
-Include specific challenges for each.
+I need you to help develop critical thinking skills in HR education.
+
+Present this HR scenario to students:
+"An employee has been consistently late for work, affecting team performance. Their manager wants to terminate them immediately."
+
+First, ask students: "What should HR do and why?"
+
+After they respond, provide:
+1. **Multiple perspectives** - Legal, ethical, practical, cultural viewpoints
+2. **Pros and cons** of different approaches (immediate termination vs. warning vs. support)
+3. **Stakeholder analysis** - Impact on employee, team, manager, organization
+4. **Long-term consequences** of each option
+5. **Professional standards** - What HR best practices suggest
+
+Then ask students to evaluate your analysis and identify any missing considerations.
 ```
 
 ---
@@ -75,6 +100,64 @@ Include specific challenges for each.
 
 **Before:** "Group role-play (3 students participate)"
 **After:** "Individual AI practice, then share insights"
+
+---
+
+## 🧠 Building Critical Thinking with AI (5 minutes)
+
+### How AI Develops Higher-Order Thinking
+
+**Traditional Approach:** Students read one perspective
+**AI-Enhanced:** Students evaluate multiple perspectives
+
+### Critical Thinking Techniques
+
+#### 1. **AI as Debate Partner**
+```
+Present this HR policy: "Remote work should be available to all employees permanently."
+
+You argue FOR this policy. I will argue AGAINST it.
+After 3 rounds of debate, summarize the strongest arguments from both sides.
+Then ask me to identify which arguments are most persuasive and why.
+```
+
+#### 2. **Pros/Cons Analysis**
+```
+Analyze this HR decision: "Implementing AI-powered resume screening."
+
+Provide:
+- 5 potential benefits (efficiency, consistency, cost)
+- 5 potential risks (bias, legal issues, dehumanization)
+- 3 mitigation strategies for the risks
+- Final recommendation with reasoning
+
+Then ask students to critique your analysis.
+```
+
+#### 3. **Perspective-Taking Exercise**
+```
+This HR scenario: "Employee refuses COVID vaccine for medical reasons."
+
+Analyze from 4 perspectives:
+1. **Employee rights** - Legal, ethical, personal autonomy
+2. **Employer obligations** - Workplace safety, business continuity  
+3. **Team impact** - Colleague safety, team dynamics
+4. **Societal context** - Public health, organizational responsibility
+
+Ask students: Which perspective carries most weight and why?
+```
+
+### Why This Works
+
+**Students learn to:**
+- **Evaluate multiple viewpoints** - not just their initial reaction
+- **Identify bias** - in AI responses and their own thinking
+- **Construct arguments** - by critiquing AI reasoning
+- **Make evidence-based decisions** - weighing pros and cons
+- **Consider stakeholders** - beyond obvious parties
+
+**Example Learning Outcome:**
+Instead of "What would you do?" → "Evaluate these 4 approaches and justify your choice using professional standards."
 
 ---
 
