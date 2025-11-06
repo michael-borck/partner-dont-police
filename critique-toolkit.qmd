@@ -51,14 +51,11 @@ The difference between good HR professionals and great ones isn't whether they u
 **Example**:
 ```
 # ❌ AI gives you this:
-> "We recommend implementing a holistic performance ecosystem leveraging 
-> synergistic feedback loops and agile recalibration mechanisms."
+"We recommend implementing a holistic performance ecosystem leveraging"
+"synergistic feedback loops and agile recalibration mechanisms."
 
 # ✅ Ask for this instead:
-> "We recommend creating a performance management system where employees 
-> get feedback from multiple sources throughout the year, not just once 
-> annually. This includes regular check-ins with managers, peer feedback 
-> on projects, and quarterly progress reviews against clear goals."
+"We recommend creating a performance management system where employees get feedback from multiple sources throughout the year, not just once annually. This includes regular check-ins with managers, peer feedback on projects, and quarterly progress reviews against clear goals."
 ```
 
 ---
