@@ -8,13 +8,13 @@ book:
     - index.qmd
     - chapter-01-introduction.qmd
     - chapter-02-getting-started.qmd
+    - chapter-08-first-steps.qmd
     - chapter-03-five-techniques.qmd
     - chapter-04-flight-simulator.qmd
     - chapter-05-self-assessment.qmd
-    - chapter-06-virtual-company.qmd
-    - chapter-07-process-assessment.qmd
-    - chapter-08-first-steps.qmd
     - chapter-09-ethics-integrity.qmd
+    - chapter-07-process-assessment.qmd
+    - chapter-06-virtual-company.qmd
     - chapter-10-unit-design.qmd
     - chapter-11-research-assistant.qmd
     - chapter-12-conclusion.qmd

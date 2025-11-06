@@ -51,11 +51,11 @@ You won't need to code, install complex software, or understand how AI works tec
 ### If you're completely new to AI:
 Start with **Chapter 1** (motivation) and **Chapter 2** (your first AI conversation). Work through the basics before exploring advanced applications.
 
-### If you're ready to experiment:
-Jump to **Chapter 3** (six essential techniques) and pick one to try immediately. Refer to **Appendix A** for copy-paste prompts.
+### If you want to implement AI in your teaching:
+Read **Chapter 3** (your first steps) for a practical implementation plan. Then move to **Chapter 4** (six essential techniques) and pick one to try immediately. Refer to **Appendix A** for copy-paste prompts.
 
 ### If you're designing assessments:
-Read **Chapter 7** (process-based assessment models) and **Chapter 10** (complete unit design). Use these frameworks to redesign existing assignments.
+Read **Chapter 8** (process-based assessment models) and **Chapter 10** (complete unit design). Use these frameworks to redesign existing assignments.
 
 ### If you teach postgraduate students:
 Focus on **Chapter 11** (AI as research assistant) for guidance on appropriate AI use in research contexts.
@@ -174,9 +174,16 @@ Let's begin.
 - Practice Exercise: Your Turn
 - Troubleshooting Common Issues
 
+**Chapter 3: Your First Steps - A Practical Implementation Guide** ..................... 28
+- Phase 1: Personal Experimentation
+- Phase 2: Low-Stakes Student Introduction
+- Phase 3: Pilot Assessment
+- Phase 4: Gather Feedback and Iterate
+- Phase 5: Expand and Integrate
+
 ## Part 2: Core Techniques - The Teaching Toolkit
 
-**Chapter 3: Six Essential Prompt Techniques for HR Teaching** ..................... 28
+**Chapter 4: Six Essential Prompt Techniques for HR Teaching** ..................... 45
 - Technique 1: Reverse Prompting (for Scoping and Policy Design)
 - Technique 2: Pros and Cons (for Decision Making)
 - Technique 3: Stepwise Chain of Thought (for Process Management)
@@ -188,21 +195,38 @@ Let's begin.
 
 ## Part 3: Practical Applications - What You Can Do Tomorrow
 
-**Chapter 4: The Flight Simulator - Conversation Simulations** ..................... 52
+**Chapter 5: The Flight Simulator - Conversation Simulations** ..................... 69
 - The Three-Phase System (Setup, Simulation, Debrief)
 - Complete Worked Example: The Performance Improvement Plan Meeting
 - Adapting This for Different HR Topics
 - How to Use This as an Assessment
 - Common Questions and Answers
 
-**Chapter 5: AI as Study Buddy - Self-Assessment Tool** ..................... 78
+**Chapter 6: AI as Study Buddy - Self-Assessment Tool** ..................... 95
 - The Academic Integrity Challenge
 - The Transparency Model
 - Complete Worked Example (Assignment → Rubric → Self-Assessment)
 - Variations and Adaptations
 - Teaching AI Literacy
 
-**Chapter 6: Virtual Company Simulation (Future Horizon)** ..................... 95
+**Chapter 7: The Ethics & Integrity Question** ..................... 112
+- Reframing the Question (Prevention vs. Preparation)
+- The Three-Part Framework for Ethical AI Use
+- Student-Facing Language: Setting Expectations
+- Designing "Integrity-Resistant" Assignments
+- Red Flags for AI Misuse (And How to Address Them)
+- Teaching AI Ethics Through HR Scenarios
+
+## Part 4: Assessment Revolution - Rethinking How We Evaluate
+
+**Chapter 8: Process Over Product - Rethinking Assessment** ..................... 139
+- The Fundamental Question (What Are We Really Assessing?)
+- Assessment Model 1: Simulated HR Consultation and Process Audit
+- Assessment Model 2: Evidence-Based Strategic Intervention Plan
+- Assessment Model 3: Competency-Based Recruitment Portfolio
+- The Common Thread: Process as Evidence
+
+**Chapter 9: Virtual Company Simulation (Future Horizon)** ..................... 166
 - Level 1: Single Employee Persona (Master Prompt)
 - Level 2: Multiple Employee Personas (Cast of Characters)
 - Level 3: Persistent Context (Company Memory)
@@ -210,37 +234,7 @@ Let's begin.
 - Semester-Long Virtual Company Project
 - Practical Implementation Guidance
 
-## Part 4: Assessment Revolution - Rethinking How We Evaluate
-
-**Chapter 7: Process Over Product - Rethinking Assessment** ..................... 118
-- The Fundamental Question (What Are We Really Assessing?)
-- Assessment Model 1: Simulated HR Consultation and Process Audit
-- Assessment Model 2: Evidence-Based Strategic Intervention Plan
-- Assessment Model 3: Competency-Based Recruitment Portfolio
-- The Common Thread: Process as Evidence
-
-## Part 5: Implementation - Making It Real
-
-**Chapter 8: Your First Steps - A Practical Guide** ..................... 145
-- Phase 1: Personal Experimentation (Before Your Next Class)
-- Phase 2: Low-Stakes Student Introduction (First Month)
-- Phase 3: Pilot Assessment (Mid-Semester)
-- Phase 4: Gather Feedback and Iterate (End of Semester)
-- Phase 5: Expand and Integrate (Next Semester)
-- Managing Common Challenges
-- Measuring Success
-
-**Chapter 9: The Ethics & Integrity Question** ..................... 168
-- Reframing the Question (Prevention vs. Preparation)
-- The Three-Part Framework for Ethical AI Use
-- Student-Facing Language: Setting Expectations
-- Designing "Integrity-Resistant" Assignments
-- Red Flags for AI Misuse (And How to Address Them)
-- Teaching AI Ethics Through HR Scenarios
-- Responding to Colleague and Administrator Concerns
-- AI Literacy as Graduate Capability
-
-## Part 6: Advanced Applications - Going Deeper
+## Part 5: Advanced Applications - Going Deeper
 
 **Chapter 10: Designing an AI-Integrated Unit** ..................... 192
 - Beyond Individual Assignments: Whole-Unit Design
@@ -251,7 +245,7 @@ Let's begin.
 - Supporting Student AI Literacy Development
 - Common Design Mistakes to Avoid
 
-**Chapter 11: The Research Assistant (Postgraduate Focus)** ..................... 218
+**Chapter 11: The Research Assistant (Postgraduate Focus)** ..................... 219
 - AI in Research: Promise and Peril
 - The Core Principle: AI for Process, Human for Insight
 - Application 1: Literature Review
@@ -264,7 +258,7 @@ Let's begin.
 
 ## Appendices - Ready-to-Use Resources
 
-**Appendix A: Ready-to-Use Prompt Library** ..................... 245
+**Appendix A: Ready-to-Use Prompt Library** ..................... 246
 - Section 1: Content Generation Prompts (5 prompts)
 - Section 2: Conversation Simulation Prompts (4 prompts)
 - Section 3: Assessment and Critique Prompts (3 prompts)
@@ -273,7 +267,7 @@ Let's begin.
 - How to Adapt These Prompts
 - Testing Your Prompts
 
-**Appendix B: One-Hour Faculty Workshop Guide** ..................... 268
+**Appendix B: One-Hour Faculty Workshop Guide** ..................... 269
 - Pre-Workshop Preparation
 - Workshop Agenda (60 minutes)
 - Quick Start Guide (Handout Template)
@@ -282,7 +276,7 @@ Let's begin.
 - Facilitation Tips
 - Success Indicators
 
-**Appendix C: Alignment with Curtin University Learning Outcomes** ..................... 289
+**Appendix C: Alignment with Curtin University Learning Outcomes** ..................... 290
 - Curtin University Strategic Context
 - HR Program Overview
 - Learning Outcome Alignment Matrix (9 Core Outcomes)
@@ -298,13 +292,13 @@ Let's begin.
 ## List of Figures and Tables
 
 ### Figures
-- Figure 1: The Three-Phase Conversation Simulation System (Chapter 4)
+- Figure 1: The Three-Phase Conversation Simulation System (Chapter 5)
 - Figure 2: AI Integration Progression Model (Chapter 10)
 - Figure 3: Research AI Use Framework (Chapter 11)
 
 ### Tables
-- Table 1: Technique Selection Guide (Chapter 3)
-- Table 2: Assessment Model Comparison (Chapter 7)
+- Table 1: Technique Selection Guide (Chapter 4)
+- Table 2: Assessment Model Comparison (Chapter 8)
 - Table 3: Weekly AI Complexity Progression (Chapter 10)
 - Table 4: Learning Outcome Alignment Matrix (Appendix C)
 
@@ -314,16 +308,16 @@ Let's begin.
 
 ### For the Busy Lecturer (Where to Start)
 1. **Never used AI before?** → Chapter 2 (15 minutes)
-2. **Want to try something today?** → Chapter 3 + Appendix A (30 minutes)
+2. **Want to try something today?** → Chapter 4 + Appendix A (30 minutes)
 3. **Planning next semester?** → Chapter 10 (60 minutes)
-4. **Facing assessment redesign?** → Chapter 7 (45 minutes)
+4. **Facing assessment redesign?** → Chapter 8 (45 minutes)
 5. **Need to convince colleagues?** → Appendix B + Appendix C (30 minutes)
 
 ### For Students (If You Share This Resource)
 - Chapter 2: Learn how to use AI tools
-- Chapter 3: Six techniques for better learning
-- Chapter 5: Using AI for self-assessment
-- Chapter 9: Using AI ethically and responsibly
+- Chapter 4: Six techniques for better learning
+- Chapter 6: Using AI for self-assessment
+- Chapter 7: Using AI ethically and responsibly
 - Chapter 11: AI as research assistant (postgraduate)
 
 ---
