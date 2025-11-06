@@ -77,7 +77,7 @@ First, ask students: "What should HR do and why?"
 After they respond, provide:
 1. **Multiple perspectives** - Legal, ethical, practical, cultural viewpoints
 2. **Pros and cons** of different approaches (immediate termination vs. warning vs. support)
-3. **Stakeholder analysis** - Impact on employee, team, manager, organization
+3. **Stakeholder analysis** - Impact on employee, team, manager, organisation
 4. **Long-term consequences** of each option
 5. **Professional standards** - What HR best practices suggest
 
@@ -123,7 +123,7 @@ Then ask me to identify which arguments are most persuasive and why.
 
 #### 2. **Pros/Cons Analysis**
 ```
-Analyze this HR decision: "Implementing AI-powered resume screening."
+Analyse this HR decision: "Implementing AI-powered resume screening."
 
 Provide:
 - 5 potential benefits (efficiency, consistency, cost)
@@ -138,11 +138,11 @@ Then ask students to critique your analysis.
 ```
 This HR scenario: "Employee refuses COVID vaccine for medical reasons."
 
-Analyze from 4 perspectives:
+Analyse from 4 perspectives:
 1. **Employee rights** - Legal, ethical, personal autonomy
 2. **Employer obligations** - Workplace safety, business continuity  
 3. **Team impact** - Colleague safety, team dynamics
-4. **Societal context** - Public health, organizational responsibility
+4. **Societal context** - Public health, organisational responsibility
 
 Ask students: Which perspective carries most weight and why?
 ```

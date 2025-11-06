@@ -22,26 +22,31 @@ Every good prompt has four key components:
 ```
 Basic: "Review this HR policy"
 Advanced: "You are a senior HR consultant with 15 years of experience in 
-          employment law and organizational development. You specialise in 
+          employment law and organisational development. You specialise in 
           policy compliance and risk management for multinational corporations."
 ```
 
 #### 2. **Context Setting**
 ```
 Basic: "for a tech company"
-Advanced: "for a 500-employee software development company operating in Australia, with 40% remote workers, facing challenges with retention and performance management across distributed teams."
+Advanced: "for a 500-employee software development company operating in Australia, 
+           with 40% remote workers, facing challenges with retention and performance 
+           management across distributed teams."
 ```
 
 #### 3. **Task Specification**
 ```
 Basic: "give me some ideas"
-Advanced: "Generate 5 specific, actionable strategies to improve remote team performance, each with implementation steps, required resources, and potential risks."
+Advanced: "Generate 5 specific, actionable strategies to improve remote team 
+           performance, each with implementation steps, required resources, 
+           and potential risks."
 ```
 
 #### 4. **Format Control**
 ```
 Basic: "list them"
-Advanced: "Present each strategy in a table with columns: Strategy, Implementation Steps, Timeline, Required Resources, Risk Mitigation, Success Metrics."
+Advanced: "Present each strategy in a table with columns: Strategy, Implementation 
+           Steps, Timeline, Required Resources, Risk Mitigation, Success Metrics."
 ```
 
 ---
@@ -60,12 +65,14 @@ Now, please [next task].
 
 #### **Method 2: Explicit Context Carry**
 ```
-Based on the previous scenario where [key details], now analyze [new situation] considering the same organizational context and constraints.
+Based on the previous scenario where [key details], now analyse [new situation] 
+considering the same organisational context and constraints.
 ```
 
 #### **Method 3: Reference Points**
 ```
-Refer back to the performance management framework we developed in Chapter 2. Apply those principles to this new termination scenario.
+Refer back to the performance management framework we developed in Chapter 2. 
+Apply those principles to this new termination scenario.
 ```
 
 ### Setting Scenario Parameters
@@ -95,12 +102,13 @@ Use [simple/technical/advanced] language.
 ```
 You are an experienced HR business partner with the following characteristics:
 - 12+ years of HR experience across multiple industries
-- Expertise in employment law, employee relations, and organizational development
+- Expertise in employment law, employee relations, and organisational development
 - Communication style: professional yet approachable, legally aware but practical
 - Decision-making approach: balances employee needs with business requirements
-- Ethical framework: prioritizes fairness, compliance, and organizational health
+- Ethical framework: prioritizes fairness, compliance, and organisational health
 
-Maintain this persona throughout our conversation. When providing advice, consider legal implications, practical feasibility, and stakeholder impact.
+Maintain this persona throughout our conversation. When providing advice, consider 
+legal implications, practical feasibility, and stakeholder impact.
 ```
 
 #### **Persona Reinforcement**
@@ -112,7 +120,7 @@ Remember your role as [persona description]. Apply that perspective to [new scen
 
 #### **Stakeholder Persona Set**
 ```
-Analyze this situation from three perspectives:
+Analyse this situation from three perspectives:
 
 1. **HR Manager**: [persona details]
 2. **Legal Counsel**: [persona details] 
@@ -129,7 +137,7 @@ Present each viewpoint separately, then provide a balanced recommendation.
 
 #### **Step-by-Step Reasoning**
 ```
-When analyzing this HR situation, please:
+When analysing this HR situation, please:
 1. First identify the key facts and stakeholders
 2. Then consider relevant legal and policy frameworks
 3. Next evaluate potential risks and consequences
@@ -162,12 +170,14 @@ Example 1: [good example]
 Example 2: [good example]
 Example 3: [good example]
 
-Now, write a similar communication for [new situation] following the same style and quality standards.
+Now, write a similar communication for [new situation] following the same style 
+and quality standards.
 ```
 
 #### **Quality Calibration**
 ```
-Rate these HR responses on a scale of 1-10 for professionalism, legal compliance, and clarity:
+Rate these HR responses on a scale of 1-10 for professionalism, legal compliance, 
+and clarity:
 
 Response A: [example response]
 Response B: [example response]
@@ -194,7 +204,7 @@ For any HR recommendation you provide, always include:
 **Ethical Considerations:**
 - Fairness implications
 - Stakeholder impact
-- Organizational values alignment
+- Organisational values alignment
 ```
 
 #### **Jurisdiction Specification**
@@ -222,7 +232,7 @@ Show how each principle influences your recommendation.
 
 #### **Stakeholder Impact Analysis**
 ```
-For any proposed HR action, analyze impact on:
+For any proposed HR action, analyse impact on:
 
 **Primary Stakeholders:**
 - Employees affected: [number/type]
@@ -360,7 +370,8 @@ Please ensure your response maintains professional HR standards.
 #### **Content Filters**
 ```
 If asked about [inappropriate topics], respond with:
-"I cannot provide specific advice on this topic. Please consult with [appropriate professional: legal counsel, medical professional, etc.]."
+"I cannot provide specific advice on this topic. Please consult with 
+[appropriate professional: legal counsel, medical professional, etc.]."
 
 Do not provide guidance on [restricted topics].
 ```
@@ -375,9 +386,10 @@ Do not provide guidance on [restricted topics].
 ```
 **Beginner Level:** Explain [concept] in simple terms with basic examples.
 
-**Intermediate Level:** Analyze [scenario] applying [concept] with some complexity.
+**Intermediate Level:** Analyse [scenario] applying [concept] with some complexity.
 
-**Advanced Level:** Evaluate [complex situation] requiring synthesis of multiple concepts and professional judgment.
+**Advanced Level:** Evaluate [complex situation] requiring synthesis of multiple 
+concepts and professional judgment.
 ```
 
 #### **Differentiated Instruction**
@@ -496,7 +508,8 @@ The techniques in this appendix help you:
 - **Create educational materials** with structured formatting
 - **Save time** with templates and patterns
 
-**Remember:** The goal is better HR education, not perfect AI prompts. Use these techniques as they serve your teaching objectives.
+**Remember:** The goal is better HR education, not perfect AI prompts. Use these 
+techniques as they serve your teaching objectives.
 
 ---
 
