@@ -1,0 +1,139 @@
+/* Custom styles for AI Teaching Partner HR Book */
+
+/* Cover image styling */
+.cover-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Title page improvements */
+.title-page {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.title-page .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.title-page .subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.title-page .author {
+  font-size: 1.1rem;
+  color: #34495e;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+/* Chapter styling improvements */
+.chapter-title {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Better navigation */
+.sidebar-navigation {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.sidebar-navigation .nav-link {
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-navigation .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+/* Callout boxes for important content */
+.callout {
+  border-left: 4px solid #3498db;
+  background-color: #ebf3fd;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.callout.warning {
+  border-left-color: #e74c3c;
+  background-color: #fdeaea;
+}
+
+.callout.tip {
+  border-left-color: #27ae60;
+  background-color: #eafaf1;
+}
+
+/* Prompt examples styling */
+.prompt-example {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.prompt-example::before {
+  content: "Prompt:";
+  position: absolute;
+  top: -0.5rem;
+  left: 0.5rem;
+  background: #3498db;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .title-page .title {
+    font-size: 2rem;
+  }
+  
+  .cover-image {
+    max-height: 300px;
+  }
+  
+  .sidebar-navigation {
+    padding: 1rem;
+  }
+}
+
+/* Print optimizations */
+@media print {
+  .cover-image {
+    max-height: 300px;
+  }
+  
+  .sidebar-navigation {
+    background: none;
+    color: #2c3e50;
+  }
+}
