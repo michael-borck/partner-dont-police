@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A practical guide for HR educators on integrating AI into teaching">
+
+<title>14&nbsp; Chapter 13: From Static to Interactive - AI-Powered Activity Transformation – AI as a Teaching Partner: Practical Applications for Human Resource Education</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./appendix-a-prompt-library.html" rel="next">
+<link href="./chapter-12-conclusion.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="custom.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter-13-static-to-interactive.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Chapter 13: From Static to Interactive - AI-Powered Activity Transformation</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">AI as a Teaching Partner: Practical Applications for Human Resource Education</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">AI as a Teaching Partner</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-01-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chapter 1: Introduction - Why AI Matters for HR Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-02-getting-started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Chapter 2: Getting Started - Your First AI Conversation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-03-first-steps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Chapter 8: Your First Steps - A Practical Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-04-five-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Chapter 3: Seven Essential Prompt Techniques for HR Teaching</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-05-flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Chapter 4: The Flight Simulator - Conversation Simulations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-06-self-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Chapter 5: AI as Study Buddy - Self-Assessment Tool</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-07-ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Chapter 9: The Ethics &amp; Integrity Question</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-08-process-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Chapter 7: Process Over Product - Rethinking Assessment</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-09-virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Chapter 6: Virtual Company Simulation (Future Horizon)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-10-unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Chapter 10: Designing an AI-Integrated Unit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-11-research-assistant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Chapter 11: The Research Assistant (Postgraduate Focus)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-12-conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter-13-static-to-interactive.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Chapter 13: From Static to Interactive - AI-Powered Activity Transformation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-a-prompt-library.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Appendix A: Ready-to-Use Prompt Library</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-b-workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Appendix B: One-Hour Faculty Workshop Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-c-curtin-alignment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Appendix C: Alignment with Curtin University Learning Outcomes</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-challenge-static-documents-dont-engage" id="toc-the-challenge-static-documents-dont-engage" class="nav-link active" data-scroll-target="#the-challenge-static-documents-dont-engage"><span class="header-section-number">14.1</span> The Challenge: Static Documents Don’t Engage</a></li>
+  <li><a href="#the-solution-ai-generated-interactive-html" id="toc-the-solution-ai-generated-interactive-html" class="nav-link" data-scroll-target="#the-solution-ai-generated-interactive-html"><span class="header-section-number">14.2</span> The Solution: AI-Generated Interactive HTML</a>
+  <ul class="collapse">
+  <li><a href="#what-it-looks-like" id="toc-what-it-looks-like" class="nav-link" data-scroll-target="#what-it-looks-like"><span class="header-section-number">14.2.1</span> What It Looks Like</a></li>
+  <li><a href="#why-html" id="toc-why-html" class="nav-link" data-scroll-target="#why-html"><span class="header-section-number">14.2.2</span> Why HTML?</a></li>
+  </ul></li>
+  <li><a href="#the-transformation-process" id="toc-the-transformation-process" class="nav-link" data-scroll-target="#the-transformation-process"><span class="header-section-number">14.3</span> 🛠️ The Transformation Process</a>
+  <ul class="collapse">
+  <li><a href="#step-1-prepare-your-static-content" id="toc-step-1-prepare-your-static-content" class="nav-link" data-scroll-target="#step-1-prepare-your-static-content"><span class="header-section-number">14.3.1</span> Step 1: Prepare Your Static Content</a></li>
+  <li><a href="#step-2-use-ai-to-generate-interactive-html" id="toc-step-2-use-ai-to-generate-interactive-html" class="nav-link" data-scroll-target="#step-2-use-ai-to-generate-interactive-html"><span class="header-section-number">14.3.2</span> Step 2: Use AI to Generate Interactive HTML</a></li>
+  </ul></li>
+  <li><a href="#example-transformations" id="toc-example-transformations" class="nav-link" data-scroll-target="#example-transformations"><span class="header-section-number">14.4</span> 📋 Example Transformations</a>
+  <ul class="collapse">
+  <li><a href="#before-static-case-study" id="toc-before-static-case-study" class="nav-link" data-scroll-target="#before-static-case-study"><span class="header-section-number">14.4.1</span> Before: Static Case Study</a></li>
+  <li><a href="#after-interactive-simulation" id="toc-after-interactive-simulation" class="nav-link" data-scroll-target="#after-interactive-simulation"><span class="header-section-number">14.4.2</span> After: Interactive Simulation</a></li>
+  <li><a href="#before-worksheet" id="toc-before-worksheet" class="nav-link" data-scroll-target="#before-worksheet"><span class="header-section-number">14.4.3</span> Before: Worksheet</a></li>
+  <li><a href="#after-interactive-form" id="toc-after-interactive-form" class="nav-link" data-scroll-target="#after-interactive-form"><span class="header-section-number">14.4.4</span> After: Interactive Form</a></li>
+  </ul></li>
+  <li><a href="#practical-examples-for-hr-education" id="toc-practical-examples-for-hr-education" class="nav-link" data-scroll-target="#practical-examples-for-hr-education"><span class="header-section-number">14.5</span> 🎯 Practical Examples for HR Education</a>
+  <ul class="collapse">
+  <li><a href="#performance-review-simulation" id="toc-performance-review-simulation" class="nav-link" data-scroll-target="#performance-review-simulation"><span class="header-section-number">14.5.1</span> 1. <strong>Performance Review Simulation</strong></a></li>
+  <li><a href="#policy-analysis-tool" id="toc-policy-analysis-tool" class="nav-link" data-scroll-target="#policy-analysis-tool"><span class="header-section-number">14.5.2</span> 2. <strong>Policy Analysis Tool</strong></a></li>
+  <li><a href="#recruitment-decision-tree" id="toc-recruitment-decision-tree" class="nav-link" data-scroll-target="#recruitment-decision-tree"><span class="header-section-number">14.5.3</span> 3. <strong>Recruitment Decision Tree</strong></a></li>
+  </ul></li>
+  <li><a href="#uploading-to-blackboard" id="toc-uploading-to-blackboard" class="nav-link" data-scroll-target="#uploading-to-blackboard"><span class="header-section-number">14.6</span> 📤 Uploading to Blackboard</a>
+  <ul class="collapse">
+  <li><a href="#simple-steps" id="toc-simple-steps" class="nav-link" data-scroll-target="#simple-steps"><span class="header-section-number">14.6.1</span> Simple Steps</a></li>
+  <li><a href="#alternative-embed-directly" id="toc-alternative-embed-directly" class="nav-link" data-scroll-target="#alternative-embed-directly"><span class="header-section-number">14.6.2</span> Alternative: Embed Directly</a></li>
+  </ul></li>
+  <li><a href="#design-best-practices" id="toc-design-best-practices" class="nav-link" data-scroll-target="#design-best-practices"><span class="header-section-number">14.7</span> 🎨 Design Best Practices</a>
+  <ul class="collapse">
+  <li><a href="#keep-it-professional" id="toc-keep-it-professional" class="nav-link" data-scroll-target="#keep-it-professional"><span class="header-section-number">14.7.1</span> Keep It Professional</a></li>
+  <li><a href="#ensure-accessibility" id="toc-ensure-accessibility" class="nav-link" data-scroll-target="#ensure-accessibility"><span class="header-section-number">14.7.2</span> Ensure Accessibility</a></li>
+  <li><a href="#mobile-optimization" id="toc-mobile-optimization" class="nav-link" data-scroll-target="#mobile-optimization"><span class="header-section-number">14.7.3</span> Mobile Optimization</a></li>
+  </ul></li>
+  <li><a href="#getting-started-template" id="toc-getting-started-template" class="nav-link" data-scroll-target="#getting-started-template"><span class="header-section-number">14.8</span> 🚀 Getting Started Template</a>
+  <ul class="collapse">
+  <li><a href="#quick-start-prompt" id="toc-quick-start-prompt" class="nav-link" data-scroll-target="#quick-start-prompt"><span class="header-section-number">14.8.1</span> Quick Start Prompt</a></li>
+  <li><a href="#advanced-features-prompt" id="toc-advanced-features-prompt" class="nav-link" data-scroll-target="#advanced-features-prompt"><span class="header-section-number">14.8.2</span> Advanced Features Prompt</a></li>
+  </ul></li>
+  <li><a href="#integration-with-existing-activities" id="toc-integration-with-existing-activities" class="nav-link" data-scroll-target="#integration-with-existing-activities"><span class="header-section-number">14.9</span> 📚 Integration with Existing Activities</a>
+  <ul class="collapse">
+  <li><a href="#activity-upgrade-path" id="toc-activity-upgrade-path" class="nav-link" data-scroll-target="#activity-upgrade-path"><span class="header-section-number">14.9.1</span> Activity Upgrade Path</a></li>
+  <li><a href="#scaling-up" id="toc-scaling-up" class="nav-link" data-scroll-target="#scaling-up"><span class="header-section-number">14.9.2</span> Scaling Up</a></li>
+  </ul></li>
+  <li><a href="#success-stories" id="toc-success-stories" class="nav-link" data-scroll-target="#success-stories"><span class="header-section-number">14.10</span> 🎯 Success Stories</a>
+  <ul class="collapse">
+  <li><a href="#case-study-performance-management-unit" id="toc-case-study-performance-management-unit" class="nav-link" data-scroll-target="#case-study-performance-management-unit"><span class="header-section-number">14.10.1</span> Case Study: Performance Management Unit</a></li>
+  <li><a href="#case-study-hr-policy-compliance" id="toc-case-study-hr-policy-compliance" class="nav-link" data-scroll-target="#case-study-hr-policy-compliance"><span class="header-section-number">14.10.2</span> Case Study: HR Policy Compliance</a></li>
+  </ul></li>
+  <li><a href="#technical-tips" id="toc-technical-tips" class="nav-link" data-scroll-target="#technical-tips"><span class="header-section-number">14.11</span> 🛠️ Technical Tips</a>
+  <ul class="collapse">
+  <li><a href="#testing-your-html" id="toc-testing-your-html" class="nav-link" data-scroll-target="#testing-your-html"><span class="header-section-number">14.11.1</span> Testing Your HTML</a></li>
+  <li><a href="#common-issues-solutions" id="toc-common-issues-solutions" class="nav-link" data-scroll-target="#common-issues-solutions"><span class="header-section-number">14.11.2</span> Common Issues &amp; Solutions</a></li>
+  </ul></li>
+  <li><a href="#measuring-success" id="toc-measuring-success" class="nav-link" data-scroll-target="#measuring-success"><span class="header-section-number">14.12</span> 📈 Measuring Success</a>
+  <ul class="collapse">
+  <li><a href="#engagement-metrics" id="toc-engagement-metrics" class="nav-link" data-scroll-target="#engagement-metrics"><span class="header-section-number">14.12.1</span> Engagement Metrics</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">14.12.2</span> Learning Outcomes</a></li>
+  </ul></li>
+  <li><a href="#continuous-improvement" id="toc-continuous-improvement" class="nav-link" data-scroll-target="#continuous-improvement"><span class="header-section-number">14.13</span> 🔄 Continuous Improvement</a>
+  <ul class="collapse">
+  <li><a href="#student-feedback-loop" id="toc-student-feedback-loop" class="nav-link" data-scroll-target="#student-feedback-loop"><span class="header-section-number">14.13.1</span> Student Feedback Loop</a></li>
+  <li><a href="#technical-maintenance" id="toc-technical-maintenance" class="nav-link" data-scroll-target="#technical-maintenance"><span class="header-section-number">14.13.2</span> Technical Maintenance</a></li>
+  </ul></li>
+  <li><a href="#ready-to-use-prompt-library" id="toc-ready-to-use-prompt-library" class="nav-link" data-scroll-target="#ready-to-use-prompt-library"><span class="header-section-number">14.14</span> 🎁 Ready-to-Use Prompt Library</a>
+  <ul class="collapse">
+  <li><a href="#basic-transformation" id="toc-basic-transformation" class="nav-link" data-scroll-target="#basic-transformation"><span class="header-section-number">14.14.1</span> Basic Transformation</a></li>
+  <li><a href="#scenario-simulation" id="toc-scenario-simulation" class="nav-link" data-scroll-target="#scenario-simulation"><span class="header-section-number">14.14.2</span> Scenario Simulation</a></li>
+  <li><a href="#assessment-tool" id="toc-assessment-tool" class="nav-link" data-scroll-target="#assessment-tool"><span class="header-section-number">14.14.3</span> Assessment Tool</a></li>
+  </ul></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps"><span class="header-section-number">14.15</span> 🚀 Next Steps</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Chapter 13: From Static to Interactive - AI-Powered Activity Transformation</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-challenge-static-documents-dont-engage" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="the-challenge-static-documents-dont-engage"><span class="header-section-number">14.1</span> The Challenge: Static Documents Don’t Engage</h2>
+<p>You have a well-designed case study in Word or PDF. Students read it, maybe discuss it, then move on. The learning moment is brief and passive.</p>
+<p><strong>What if you could transform that static document into an interactive experience where every student actively engages with the content?</strong></p>
+<hr>
+</section>
+<section id="the-solution-ai-generated-interactive-html" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="the-solution-ai-generated-interactive-html"><span class="header-section-number">14.2</span> The Solution: AI-Generated Interactive HTML</h2>
+<section id="what-it-looks-like" class="level3" data-number="14.2.1">
+<h3 data-number="14.2.1" class="anchored" data-anchor-id="what-it-looks-like"><span class="header-section-number">14.2.1</span> What It Looks Like</h3>
+<ul>
+<li><strong>Interactive case studies</strong> with input fields for student responses</li>
+<li><strong>Decision trees</strong> where choices lead to different outcomes<br>
+</li>
+<li><strong>Reflection prompts</strong> with saveable responses</li>
+<li><strong>Self-assessment checklists</strong> with immediate feedback</li>
+<li><strong>Scenario simulations</strong> with branching paths</li>
+</ul>
+</section>
+<section id="why-html" class="level3" data-number="14.2.2">
+<h3 data-number="14.2.2" class="anchored" data-anchor-id="why-html"><span class="header-section-number">14.2.2</span> Why HTML?</h3>
+<ul>
+<li><strong>LMS-friendly</strong> - Upload directly to Blackboard</li>
+<li><strong>No installation</strong> - Works in any web browser</li>
+<li><strong>Accessible</strong> - Screen reader compatible</li>
+<li><strong>Printable</strong> - Students can save their work</li>
+<li><strong>Offline capable</strong> - Download for later use</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-transformation-process" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="the-transformation-process"><span class="header-section-number">14.3</span> 🛠️ The Transformation Process</h2>
+<section id="step-1-prepare-your-static-content" class="level3" data-number="14.3.1">
+<h3 data-number="14.3.1" class="anchored" data-anchor-id="step-1-prepare-your-static-content"><span class="header-section-number">14.3.1</span> Step 1: Prepare Your Static Content</h3>
+<ol type="1">
+<li><strong>Identify the document</strong> (case study, worksheet, activity guide)</li>
+<li><strong>Locate interaction points</strong> (questions, decisions, reflections)</li>
+<li><strong>Mark enhancement opportunities</strong> (where could students input/respond?)</li>
+</ol>
+</section>
+<section id="step-2-use-ai-to-generate-interactive-html" class="level3" data-number="14.3.2">
+<h3 data-number="14.3.2" class="anchored" data-anchor-id="step-2-use-ai-to-generate-interactive-html"><span class="header-section-number">14.3.2</span> Step 2: Use AI to Generate Interactive HTML</h3>
+<section id="prompt-template-for-basic-transformation" class="level4" data-number="14.3.2.1">
+<h4 data-number="14.3.2.1" class="anchored" data-anchor-id="prompt-template-for-basic-transformation"><span class="header-section-number">14.3.2.1</span> <strong>Prompt Template for Basic Transformation</strong></h4>
+<pre><code>Transform this static [document type] into an interactive HTML webpage:
+
+[Paste your document content here]
+
+Create:
+1. Professional HTML structure with CSS styling
+2. Input fields for each question/reflection point
+3. Save/print functionality for student responses
+4. Professional appearance suitable for university students
+5. Mobile-responsive design
+
+Requirements:
+- All CSS embedded (no external files)
+- JavaScript for save/print functionality
+- Clear instructions for students
+- Professional academic styling
+- Form validation where appropriate
+
+Output: Complete HTML file that can be uploaded directly to Blackboard.</code></pre>
+</section>
+<section id="advanced-prompt-for-scenario-based-activities" class="level4" data-number="14.3.2.2">
+<h4 data-number="14.3.2.2" class="anchored" data-anchor-id="advanced-prompt-for-scenario-based-activities"><span class="header-section-number">14.3.2.2</span> <strong>Advanced Prompt for Scenario-Based Activities</strong></h4>
+<pre><code>Create an interactive HTML simulation based on this HR scenario:
+
+[Paste your case study/scenario]
+
+Features needed:
+1. Branching decision tree - student choices affect outcomes
+2. Progress tracking - show completion status
+3. Feedback system - provide guidance for each choice
+4. Score/assessment summary at the end
+5. Reset functionality to retry scenarios
+6. Print/save complete simulation with responses
+
+Technical requirements:
+- Single HTML file (embedded CSS/JavaScript)
+- Professional university styling
+- Mobile-responsive design
+- Accessible form elements
+- Local storage for saving progress
+
+Make it engaging but academically rigorous.</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="example-transformations" class="level2" data-number="14.4">
+<h2 data-number="14.4" class="anchored" data-anchor-id="example-transformations"><span class="header-section-number">14.4</span> 📋 Example Transformations</h2>
+<section id="before-static-case-study" class="level3" data-number="14.4.1">
+<h3 data-number="14.4.1" class="anchored" data-anchor-id="before-static-case-study"><span class="header-section-number">14.4.1</span> Before: Static Case Study</h3>
+<blockquote class="blockquote">
+<p>“Read the following termination scenario and answer questions 1-5…”</p>
+</blockquote>
+</section>
+<section id="after-interactive-simulation" class="level3" data-number="14.4.2">
+<h3 data-number="14.4.2" class="anchored" data-anchor-id="after-interactive-simulation"><span class="header-section-number">14.4.2</span> After: Interactive Simulation</h3>
+<ul>
+<li><strong>Scenario unfolds</strong> step-by-step</li>
+<li><strong>Student makes decisions</strong> at key points</li>
+<li><strong>Immediate consequences</strong> for each choice</li>
+<li><strong>Reflection prompts</strong> after each decision</li>
+<li><strong>Complete transcript</strong> for submission</li>
+</ul>
+</section>
+<section id="before-worksheet" class="level3" data-number="14.4.3">
+<h3 data-number="14.4.3" class="anchored" data-anchor-id="before-worksheet"><span class="header-section-number">14.4.3</span> Before: Worksheet</h3>
+<blockquote class="blockquote">
+<p>“Complete the performance review template…”</p>
+</blockquote>
+</section>
+<section id="after-interactive-form" class="level3" data-number="14.4.4">
+<h3 data-number="14.4.4" class="anchored" data-anchor-id="after-interactive-form"><span class="header-section-number">14.4.4</span> After: Interactive Form</h3>
+<ul>
+<li><strong>Guided input</strong> with help text</li>
+<li><strong>Real-time validation</strong></li>
+<li><strong>Example responses</strong> for guidance</li>
+<li><strong>Save progress</strong> functionality</li>
+<li><strong>Print-ready format</strong></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="practical-examples-for-hr-education" class="level2" data-number="14.5">
+<h2 data-number="14.5" class="anchored" data-anchor-id="practical-examples-for-hr-education"><span class="header-section-number">14.5</span> 🎯 Practical Examples for HR Education</h2>
+<section id="performance-review-simulation" class="level3" data-number="14.5.1">
+<h3 data-number="14.5.1" class="anchored" data-anchor-id="performance-review-simulation"><span class="header-section-number">14.5.1</span> 1. <strong>Performance Review Simulation</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Student inputs employee performance details --&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Gets AI-generated suggestions --&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Practices difficult conversation --&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Saves complete review --&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="policy-analysis-tool" class="level3" data-number="14.5.2">
+<h3 data-number="14.5.2" class="anchored" data-anchor-id="policy-analysis-tool"><span class="header-section-number">14.5.2</span> 2. <strong>Policy Analysis Tool</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Student reads policy scenario --&gt;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Identifies compliance issues --&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Gets immediate feedback --&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Saves analysis report --&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="recruitment-decision-tree" class="level3" data-number="14.5.3">
+<h3 data-number="14.5.3" class="anchored" data-anchor-id="recruitment-decision-tree"><span class="header-section-number">14.5.3</span> 3. <strong>Recruitment Decision Tree</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Student evaluates candidates --&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Makes hiring decisions --&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Sees consequences --&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Saves decision rationale --&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="uploading-to-blackboard" class="level2" data-number="14.6">
+<h2 data-number="14.6" class="anchored" data-anchor-id="uploading-to-blackboard"><span class="header-section-number">14.6</span> 📤 Uploading to Blackboard</h2>
+<section id="simple-steps" class="level3" data-number="14.6.1">
+<h3 data-number="14.6.1" class="anchored" data-anchor-id="simple-steps"><span class="header-section-number">14.6.1</span> Simple Steps</h3>
+<ol type="1">
+<li><strong>Generate HTML file</strong> using AI prompt</li>
+<li><strong>Test locally</strong> - open in browser</li>
+<li><strong>Upload to Blackboard</strong>:
+<ul>
+<li>Create new content item</li>
+<li>Attach HTML file</li>
+<li>Set “Open in New Window”</li>
+</ul></li>
+<li><strong>Student experience</strong> - click link, interact, save/print</li>
+</ol>
+</section>
+<section id="alternative-embed-directly" class="level3" data-number="14.6.2">
+<h3 data-number="14.6.2" class="anchored" data-anchor-id="alternative-embed-directly"><span class="header-section-number">14.6.2</span> Alternative: Embed Directly</h3>
+<ul>
+<li>Use Blackboard’s “Create Content → HTML”</li>
+<li>Paste generated HTML code</li>
+<li>Interactive content appears directly in LMS</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="design-best-practices" class="level2" data-number="14.7">
+<h2 data-number="14.7" class="anchored" data-anchor-id="design-best-practices"><span class="header-section-number">14.7</span> 🎨 Design Best Practices</h2>
+<section id="keep-it-professional" class="level3" data-number="14.7.1">
+<h3 data-number="14.7.1" class="anchored" data-anchor-id="keep-it-professional"><span class="header-section-number">14.7.1</span> Keep It Professional</h3>
+<ul>
+<li><strong>University branding</strong> colors/logos</li>
+<li><strong>Clean typography</strong> - readable fonts</li>
+<li><strong>Consistent spacing</strong> - not cluttered</li>
+<li><strong>Academic tone</strong> - professional language</li>
+</ul>
+</section>
+<section id="ensure-accessibility" class="level3" data-number="14.7.2">
+<h3 data-number="14.7.2" class="anchored" data-anchor-id="ensure-accessibility"><span class="header-section-number">14.7.2</span> Ensure Accessibility</h3>
+<ul>
+<li><strong>Alt text</strong> for images</li>
+<li><strong>Semantic HTML</strong> - proper headings</li>
+<li><strong>Keyboard navigation</strong> - tab order</li>
+<li><strong>Screen reader</strong> compatibility</li>
+</ul>
+</section>
+<section id="mobile-optimization" class="level3" data-number="14.7.3">
+<h3 data-number="14.7.3" class="anchored" data-anchor-id="mobile-optimization"><span class="header-section-number">14.7.3</span> Mobile Optimization</h3>
+<ul>
+<li><strong>Responsive design</strong> - works on phones</li>
+<li><strong>Touch-friendly</strong> - large buttons</li>
+<li><strong>Readable text</strong> - no pinching required</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="getting-started-template" class="level2" data-number="14.8">
+<h2 data-number="14.8" class="anchored" data-anchor-id="getting-started-template"><span class="header-section-number">14.8</span> 🚀 Getting Started Template</h2>
+<section id="quick-start-prompt" class="level3" data-number="14.8.1">
+<h3 data-number="14.8.1" class="anchored" data-anchor-id="quick-start-prompt"><span class="header-section-number">14.8.1</span> Quick Start Prompt</h3>
+<pre><code>I need to convert this HR activity into an interactive HTML webpage for university students:
+
+[Paste your activity content]
+
+Please create:
+1. Professional, clean HTML design
+2. Input fields for student responses
+3. Save and print functionality
+4. Mobile-responsive layout
+5. Instructions for students
+
+Make it suitable for uploading to Blackboard LMS.</code></pre>
+</section>
+<section id="advanced-features-prompt" class="level3" data-number="14.8.2">
+<h3 data-number="14.8.2" class="anchored" data-anchor-id="advanced-features-prompt"><span class="header-section-number">14.8.2</span> Advanced Features Prompt</h3>
+<pre><code>Enhance this interactive HTML with additional features:
+
+[Base HTML content]
+
+Add:
+1. Progress tracking
+2. Score calculation
+3. Immediate feedback system
+4. Branching scenarios
+5. Data persistence (save progress)
+
+Keep everything in a single HTML file.</code></pre>
+<hr>
+</section>
+</section>
+<section id="integration-with-existing-activities" class="level2" data-number="14.9">
+<h2 data-number="14.9" class="anchored" data-anchor-id="integration-with-existing-activities"><span class="header-section-number">14.9</span> 📚 Integration with Existing Activities</h2>
+<section id="activity-upgrade-path" class="level3" data-number="14.9.1">
+<h3 data-number="14.9.1" class="anchored" data-anchor-id="activity-upgrade-path"><span class="header-section-number">14.9.1</span> Activity Upgrade Path</h3>
+<ol type="1">
+<li><strong>Identify static activity</strong> (Word/PDF)</li>
+<li><strong>Choose interaction level</strong> (basic → advanced)</li>
+<li><strong>Generate with AI</strong> (using templates above)</li>
+<li><strong>Test and refine</strong> (browser testing)</li>
+<li><strong>Deploy to LMS</strong> (Blackboard upload)</li>
+<li><strong>Collect feedback</strong> (student experience)</li>
+</ol>
+</section>
+<section id="scaling-up" class="level3" data-number="14.9.2">
+<h3 data-number="14.9.2" class="anchored" data-anchor-id="scaling-up"><span class="header-section-number">14.9.2</span> Scaling Up</h3>
+<ul>
+<li><strong>Start simple</strong> - basic forms and inputs</li>
+<li><strong>Add complexity</strong> - branching, scoring</li>
+<li><strong>Include media</strong> - images, videos</li>
+<li><strong>Connect systems</strong> - grade book integration</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="success-stories" class="level2" data-number="14.10">
+<h2 data-number="14.10" class="anchored" data-anchor-id="success-stories"><span class="header-section-number">14.10</span> 🎯 Success Stories</h2>
+<section id="case-study-performance-management-unit" class="level3" data-number="14.10.1">
+<h3 data-number="14.10.1" class="anchored" data-anchor-id="case-study-performance-management-unit"><span class="header-section-number">14.10.1</span> Case Study: Performance Management Unit</h3>
+<p><strong>Before:</strong> Static PDF case study, 20% engagement <strong>After:</strong> Interactive simulation, 85% completion rate <strong>Result:</strong> Higher student satisfaction, better learning outcomes</p>
+</section>
+<section id="case-study-hr-policy-compliance" class="level3" data-number="14.10.2">
+<h3 data-number="14.10.2" class="anchored" data-anchor-id="case-study-hr-policy-compliance"><span class="header-section-number">14.10.2</span> Case Study: HR Policy Compliance</h3>
+<p><strong>Before:</strong> Textbook reading, quiz assessment <strong>After:</strong> Interactive policy analysis tool <strong>Result:</strong> Deeper understanding, practical application</p>
+<hr>
+</section>
+</section>
+<section id="technical-tips" class="level2" data-number="14.11">
+<h2 data-number="14.11" class="anchored" data-anchor-id="technical-tips"><span class="header-section-number">14.11</span> 🛠️ Technical Tips</h2>
+<section id="testing-your-html" class="level3" data-number="14.11.1">
+<h3 data-number="14.11.1" class="anchored" data-anchor-id="testing-your-html"><span class="header-section-number">14.11.1</span> Testing Your HTML</h3>
+<ol type="1">
+<li><strong>Local testing</strong> - open file in browser</li>
+<li><strong>Multiple browsers</strong> - Chrome, Firefox, Safari</li>
+<li><strong>Mobile testing</strong> - phone/tablet view</li>
+<li><strong>Accessibility check</strong> - screen reader testing</li>
+</ol>
+</section>
+<section id="common-issues-solutions" class="level3" data-number="14.11.2">
+<h3 data-number="14.11.2" class="anchored" data-anchor-id="common-issues-solutions"><span class="header-section-number">14.11.2</span> Common Issues &amp; Solutions</h3>
+<ul>
+<li><strong>CSS not loading</strong> - ensure styles are embedded</li>
+<li><strong>JavaScript errors</strong> - check browser console</li>
+<li><strong>Save not working</strong> - verify browser permissions</li>
+<li><strong>Mobile layout</strong> - test responsive design</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="measuring-success" class="level2" data-number="14.12">
+<h2 data-number="14.12" class="anchored" data-anchor-id="measuring-success"><span class="header-section-number">14.12</span> 📈 Measuring Success</h2>
+<section id="engagement-metrics" class="level3" data-number="14.12.1">
+<h3 data-number="14.12.1" class="anchored" data-anchor-id="engagement-metrics"><span class="header-section-number">14.12.1</span> Engagement Metrics</h3>
+<ul>
+<li><strong>Completion rates</strong> - students finishing activities</li>
+<li><strong>Time spent</strong> - engagement duration</li>
+<li><strong>Interaction quality</strong> - depth of responses</li>
+<li><strong>Replay value</strong> - students retrying scenarios</li>
+</ul>
+</section>
+<section id="learning-outcomes" class="level3" data-number="14.12.2">
+<h3 data-number="14.12.2" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">14.12.2</span> Learning Outcomes</h3>
+<ul>
+<li><strong>Knowledge retention</strong> - better understanding</li>
+<li><strong>Skill development</strong> - practical application</li>
+<li><strong>Critical thinking</strong> - deeper analysis</li>
+<li><strong>Professional readiness</strong> - workplace preparation</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="continuous-improvement" class="level2" data-number="14.13">
+<h2 data-number="14.13" class="anchored" data-anchor-id="continuous-improvement"><span class="header-section-number">14.13</span> 🔄 Continuous Improvement</h2>
+<section id="student-feedback-loop" class="level3" data-number="14.13.1">
+<h3 data-number="14.13.1" class="anchored" data-anchor-id="student-feedback-loop"><span class="header-section-number">14.13.1</span> Student Feedback Loop</h3>
+<ol type="1">
+<li><strong>Collect responses</strong> - what worked/didn’t</li>
+<li><strong>Analyze usage</strong> - where students struggle</li>
+<li><strong>Refine content</strong> - improve weak areas</li>
+<li><strong>Update annually</strong> - keep content current</li>
+</ol>
+</section>
+<section id="technical-maintenance" class="level3" data-number="14.13.2">
+<h3 data-number="14.13.2" class="anchored" data-anchor-id="technical-maintenance"><span class="header-section-number">14.13.2</span> Technical Maintenance</h3>
+<ul>
+<li><strong>Browser updates</strong> - ensure compatibility</li>
+<li><strong>LMS changes</strong> - adapt to Blackboard updates</li>
+<li><strong>Accessibility standards</strong> - maintain compliance</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="ready-to-use-prompt-library" class="level2" data-number="14.14">
+<h2 data-number="14.14" class="anchored" data-anchor-id="ready-to-use-prompt-library"><span class="header-section-number">14.14</span> 🎁 Ready-to-Use Prompt Library</h2>
+<section id="basic-transformation" class="level3" data-number="14.14.1">
+<h3 data-number="14.14.1" class="anchored" data-anchor-id="basic-transformation"><span class="header-section-number">14.14.1</span> Basic Transformation</h3>
+<pre><code>Convert this [document type] to interactive HTML for Blackboard:
+[paste content]
+
+Include input fields, save/print, professional styling.</code></pre>
+</section>
+<section id="scenario-simulation" class="level3" data-number="14.14.2">
+<h3 data-number="14.14.2" class="anchored" data-anchor-id="scenario-simulation"><span class="header-section-number">14.14.2</span> Scenario Simulation</h3>
+<pre><code>Create branching HTML simulation from this scenario:
+[paste content]
+
+Add decision points, consequences, feedback system.</code></pre>
+</section>
+<section id="assessment-tool" class="level3" data-number="14.14.3">
+<h3 data-number="14.14.3" class="anchored" data-anchor-id="assessment-tool"><span class="header-section-number">14.14.3</span> Assessment Tool</h3>
+<pre><code>Build interactive assessment from this worksheet:
+[paste content]
+
+Include scoring, feedback, progress tracking.</code></pre>
+<hr>
+</section>
+</section>
+<section id="next-steps" class="level2" data-number="14.15">
+<h2 data-number="14.15" class="anchored" data-anchor-id="next-steps"><span class="header-section-number">14.15</span> 🚀 Next Steps</h2>
+<ol type="1">
+<li><strong>Choose one activity</strong> to transform</li>
+<li><strong>Use basic prompt</strong> to generate HTML</li>
+<li><strong>Test locally</strong> before uploading</li>
+<li><strong>Deploy to Blackboard</strong></li>
+<li><strong>Gather student feedback</strong></li>
+<li><strong>Iterate and improve</strong></li>
+</ol>
+<p><strong>Start small, think big, transform gradually.</strong></p>
+<hr>
+<p><em>This chapter bridges the gap between static content and interactive learning experiences, making your HR education materials more engaging and effective.</em></p>
+
+
+<!-- -->
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter-12-conclusion.html" class="pagination-link" aria-label="Conclusion: Where Do We Go From Here?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./appendix-a-prompt-library.html" class="pagination-link" aria-label="Appendix A: Ready-to-Use Prompt Library">
+        <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Appendix A: Ready-to-Use Prompt Library</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Chapter 13: From Static to Interactive - AI-Powered Activity Transformation</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Challenge: Static Documents Don't Engage</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>You have a well-designed case study in Word or PDF. Students read it, maybe discuss it, then move on. The learning moment is brief and passive.</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>**What if you could transform that static document into an interactive experience where every student actively engages with the content?**</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Solution: AI-Generated Interactive HTML</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### What It Looks Like</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Interactive case studies** with input fields for student responses</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Decision trees** where choices lead to different outcomes  </span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Reflection prompts** with saveable responses</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Self-assessment checklists** with immediate feedback</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Scenario simulations** with branching paths</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Why HTML?</span></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**LMS-friendly** - Upload directly to Blackboard</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**No installation** - Works in any web browser</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Accessible** - Screen reader compatible</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Printable** - Students can save their work</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Offline capable** - Download for later use</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🛠️ The Transformation Process</span></span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 1: Prepare Your Static Content</span></span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Identify the document** (case study, worksheet, activity guide)</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Locate interaction points** (questions, decisions, reflections)</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Mark enhancement opportunities** (where could students input/respond?)</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 2: Use AI to Generate Interactive HTML</span></span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Prompt Template for Basic Transformation**</span></span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a><span class="in">Transform this static [document type] into an interactive HTML webpage:</span></span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="in">[Paste your document content here]</span></span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a><span class="in">Create:</span></span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a><span class="in">1. Professional HTML structure with CSS styling</span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a><span class="in">2. Input fields for each question/reflection point</span></span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a><span class="in">3. Save/print functionality for student responses</span></span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a><span class="in">4. Professional appearance suitable for university students</span></span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a><span class="in">5. Mobile-responsive design</span></span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a><span class="in">Requirements:</span></span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a><span class="in">- All CSS embedded (no external files)</span></span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a><span class="in">- JavaScript for save/print functionality</span></span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a><span class="in">- Clear instructions for students</span></span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a><span class="in">- Professional academic styling</span></span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a><span class="in">- Form validation where appropriate</span></span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a><span class="in">Output: Complete HTML file that can be uploaded directly to Blackboard.</span></span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Advanced Prompt for Scenario-Based Activities**</span></span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a><span class="in">Create an interactive HTML simulation based on this HR scenario:</span></span>
+<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a><span class="in">[Paste your case study/scenario]</span></span>
+<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a><span class="in">Features needed:</span></span>
+<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a><span class="in">1. Branching decision tree - student choices affect outcomes</span></span>
+<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a><span class="in">2. Progress tracking - show completion status</span></span>
+<span id="cb11-70"><a href="#cb11-70" aria-hidden="true" tabindex="-1"></a><span class="in">3. Feedback system - provide guidance for each choice</span></span>
+<span id="cb11-71"><a href="#cb11-71" aria-hidden="true" tabindex="-1"></a><span class="in">4. Score/assessment summary at the end</span></span>
+<span id="cb11-72"><a href="#cb11-72" aria-hidden="true" tabindex="-1"></a><span class="in">5. Reset functionality to retry scenarios</span></span>
+<span id="cb11-73"><a href="#cb11-73" aria-hidden="true" tabindex="-1"></a><span class="in">6. Print/save complete simulation with responses</span></span>
+<span id="cb11-74"><a href="#cb11-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-75"><a href="#cb11-75" aria-hidden="true" tabindex="-1"></a><span class="in">Technical requirements:</span></span>
+<span id="cb11-76"><a href="#cb11-76" aria-hidden="true" tabindex="-1"></a><span class="in">- Single HTML file (embedded CSS/JavaScript)</span></span>
+<span id="cb11-77"><a href="#cb11-77" aria-hidden="true" tabindex="-1"></a><span class="in">- Professional university styling</span></span>
+<span id="cb11-78"><a href="#cb11-78" aria-hidden="true" tabindex="-1"></a><span class="in">- Mobile-responsive design</span></span>
+<span id="cb11-79"><a href="#cb11-79" aria-hidden="true" tabindex="-1"></a><span class="in">- Accessible form elements</span></span>
+<span id="cb11-80"><a href="#cb11-80" aria-hidden="true" tabindex="-1"></a><span class="in">- Local storage for saving progress</span></span>
+<span id="cb11-81"><a href="#cb11-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-82"><a href="#cb11-82" aria-hidden="true" tabindex="-1"></a><span class="in">Make it engaging but academically rigorous.</span></span>
+<span id="cb11-83"><a href="#cb11-83" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-84"><a href="#cb11-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-85"><a href="#cb11-85" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-86"><a href="#cb11-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-87"><a href="#cb11-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📋 Example Transformations</span></span>
+<span id="cb11-88"><a href="#cb11-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-89"><a href="#cb11-89" aria-hidden="true" tabindex="-1"></a><span class="fu">### Before: Static Case Study</span></span>
+<span id="cb11-90"><a href="#cb11-90" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Read the following termination scenario and answer questions 1-5..."</span></span>
+<span id="cb11-91"><a href="#cb11-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-92"><a href="#cb11-92" aria-hidden="true" tabindex="-1"></a><span class="fu">### After: Interactive Simulation</span></span>
+<span id="cb11-93"><a href="#cb11-93" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Scenario unfolds** step-by-step</span>
+<span id="cb11-94"><a href="#cb11-94" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Student makes decisions** at key points</span>
+<span id="cb11-95"><a href="#cb11-95" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Immediate consequences** for each choice</span>
+<span id="cb11-96"><a href="#cb11-96" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Reflection prompts** after each decision</span>
+<span id="cb11-97"><a href="#cb11-97" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Complete transcript** for submission</span>
+<span id="cb11-98"><a href="#cb11-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-99"><a href="#cb11-99" aria-hidden="true" tabindex="-1"></a><span class="fu">### Before: Worksheet</span></span>
+<span id="cb11-100"><a href="#cb11-100" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Complete the performance review template..."</span></span>
+<span id="cb11-101"><a href="#cb11-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-102"><a href="#cb11-102" aria-hidden="true" tabindex="-1"></a><span class="fu">### After: Interactive Form</span></span>
+<span id="cb11-103"><a href="#cb11-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Guided input** with help text</span>
+<span id="cb11-104"><a href="#cb11-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Real-time validation** </span>
+<span id="cb11-105"><a href="#cb11-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Example responses** for guidance</span>
+<span id="cb11-106"><a href="#cb11-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Save progress** functionality</span>
+<span id="cb11-107"><a href="#cb11-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Print-ready format**</span>
+<span id="cb11-108"><a href="#cb11-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-109"><a href="#cb11-109" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-110"><a href="#cb11-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-111"><a href="#cb11-111" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Practical Examples for HR Education</span></span>
+<span id="cb11-112"><a href="#cb11-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-113"><a href="#cb11-113" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. **Performance Review Simulation**</span></span>
+<span id="cb11-114"><a href="#cb11-114" aria-hidden="true" tabindex="-1"></a><span class="in">```html</span></span>
+<span id="cb11-115"><a href="#cb11-115" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Student inputs employee performance details <span class="op">--&gt;</span></span>
+<span id="cb11-116"><a href="#cb11-116" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Gets AI<span class="op">-</span>generated suggestions <span class="op">--&gt;</span></span>
+<span id="cb11-117"><a href="#cb11-117" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Practices difficult conversation <span class="op">--&gt;</span></span>
+<span id="cb11-118"><a href="#cb11-118" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Saves complete review <span class="op">--&gt;</span></span>
+<span id="cb11-119"><a href="#cb11-119" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-120"><a href="#cb11-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-121"><a href="#cb11-121" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. **Policy Analysis Tool**</span></span>
+<span id="cb11-122"><a href="#cb11-122" aria-hidden="true" tabindex="-1"></a><span class="in">```html</span></span>
+<span id="cb11-123"><a href="#cb11-123" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Student reads policy scenario <span class="op">--&gt;</span></span>
+<span id="cb11-124"><a href="#cb11-124" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Identifies compliance issues <span class="op">--&gt;</span></span>
+<span id="cb11-125"><a href="#cb11-125" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Gets immediate feedback <span class="op">--&gt;</span></span>
+<span id="cb11-126"><a href="#cb11-126" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Saves analysis report <span class="op">--&gt;</span></span>
+<span id="cb11-127"><a href="#cb11-127" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-128"><a href="#cb11-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-129"><a href="#cb11-129" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. **Recruitment Decision Tree**</span></span>
+<span id="cb11-130"><a href="#cb11-130" aria-hidden="true" tabindex="-1"></a><span class="in">```html</span></span>
+<span id="cb11-131"><a href="#cb11-131" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Student evaluates candidates <span class="op">--&gt;</span></span>
+<span id="cb11-132"><a href="#cb11-132" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Makes hiring decisions <span class="op">--&gt;</span></span>
+<span id="cb11-133"><a href="#cb11-133" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Sees consequences <span class="op">--&gt;</span></span>
+<span id="cb11-134"><a href="#cb11-134" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Saves decision rationale <span class="op">--&gt;</span></span>
+<span id="cb11-135"><a href="#cb11-135" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-136"><a href="#cb11-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-137"><a href="#cb11-137" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-138"><a href="#cb11-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-139"><a href="#cb11-139" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📤 Uploading to Blackboard</span></span>
+<span id="cb11-140"><a href="#cb11-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-141"><a href="#cb11-141" aria-hidden="true" tabindex="-1"></a><span class="fu">### Simple Steps</span></span>
+<span id="cb11-142"><a href="#cb11-142" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Generate HTML file** using AI prompt</span>
+<span id="cb11-143"><a href="#cb11-143" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Test locally** - open in browser</span>
+<span id="cb11-144"><a href="#cb11-144" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Upload to Blackboard**:</span>
+<span id="cb11-145"><a href="#cb11-145" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Create new content item</span>
+<span id="cb11-146"><a href="#cb11-146" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Attach HTML file</span>
+<span id="cb11-147"><a href="#cb11-147" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Set "Open in New Window"</span>
+<span id="cb11-148"><a href="#cb11-148" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Student experience** - click link, interact, save/print</span>
+<span id="cb11-149"><a href="#cb11-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-150"><a href="#cb11-150" aria-hidden="true" tabindex="-1"></a><span class="fu">### Alternative: Embed Directly</span></span>
+<span id="cb11-151"><a href="#cb11-151" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use Blackboard's "Create Content → HTML"</span>
+<span id="cb11-152"><a href="#cb11-152" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Paste generated HTML code</span>
+<span id="cb11-153"><a href="#cb11-153" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Interactive content appears directly in LMS</span>
+<span id="cb11-154"><a href="#cb11-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-155"><a href="#cb11-155" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-156"><a href="#cb11-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-157"><a href="#cb11-157" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎨 Design Best Practices</span></span>
+<span id="cb11-158"><a href="#cb11-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-159"><a href="#cb11-159" aria-hidden="true" tabindex="-1"></a><span class="fu">### Keep It Professional</span></span>
+<span id="cb11-160"><a href="#cb11-160" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**University branding** colors/logos</span>
+<span id="cb11-161"><a href="#cb11-161" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Clean typography** - readable fonts</span>
+<span id="cb11-162"><a href="#cb11-162" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Consistent spacing** - not cluttered</span>
+<span id="cb11-163"><a href="#cb11-163" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Academic tone** - professional language</span>
+<span id="cb11-164"><a href="#cb11-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-165"><a href="#cb11-165" aria-hidden="true" tabindex="-1"></a><span class="fu">### Ensure Accessibility</span></span>
+<span id="cb11-166"><a href="#cb11-166" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Alt text** for images</span>
+<span id="cb11-167"><a href="#cb11-167" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Semantic HTML** - proper headings</span>
+<span id="cb11-168"><a href="#cb11-168" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Keyboard navigation** - tab order</span>
+<span id="cb11-169"><a href="#cb11-169" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Screen reader** compatibility</span>
+<span id="cb11-170"><a href="#cb11-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-171"><a href="#cb11-171" aria-hidden="true" tabindex="-1"></a><span class="fu">### Mobile Optimization</span></span>
+<span id="cb11-172"><a href="#cb11-172" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Responsive design** - works on phones</span>
+<span id="cb11-173"><a href="#cb11-173" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Touch-friendly** - large buttons</span>
+<span id="cb11-174"><a href="#cb11-174" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Readable text** - no pinching required</span>
+<span id="cb11-175"><a href="#cb11-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-176"><a href="#cb11-176" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-177"><a href="#cb11-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-178"><a href="#cb11-178" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🚀 Getting Started Template</span></span>
+<span id="cb11-179"><a href="#cb11-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-180"><a href="#cb11-180" aria-hidden="true" tabindex="-1"></a><span class="fu">### Quick Start Prompt</span></span>
+<span id="cb11-181"><a href="#cb11-181" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-182"><a href="#cb11-182" aria-hidden="true" tabindex="-1"></a><span class="in">I need to convert this HR activity into an interactive HTML webpage for university students:</span></span>
+<span id="cb11-183"><a href="#cb11-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-184"><a href="#cb11-184" aria-hidden="true" tabindex="-1"></a><span class="in">[Paste your activity content]</span></span>
+<span id="cb11-185"><a href="#cb11-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-186"><a href="#cb11-186" aria-hidden="true" tabindex="-1"></a><span class="in">Please create:</span></span>
+<span id="cb11-187"><a href="#cb11-187" aria-hidden="true" tabindex="-1"></a><span class="in">1. Professional, clean HTML design</span></span>
+<span id="cb11-188"><a href="#cb11-188" aria-hidden="true" tabindex="-1"></a><span class="in">2. Input fields for student responses</span></span>
+<span id="cb11-189"><a href="#cb11-189" aria-hidden="true" tabindex="-1"></a><span class="in">3. Save and print functionality</span></span>
+<span id="cb11-190"><a href="#cb11-190" aria-hidden="true" tabindex="-1"></a><span class="in">4. Mobile-responsive layout</span></span>
+<span id="cb11-191"><a href="#cb11-191" aria-hidden="true" tabindex="-1"></a><span class="in">5. Instructions for students</span></span>
+<span id="cb11-192"><a href="#cb11-192" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-193"><a href="#cb11-193" aria-hidden="true" tabindex="-1"></a><span class="in">Make it suitable for uploading to Blackboard LMS.</span></span>
+<span id="cb11-194"><a href="#cb11-194" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-195"><a href="#cb11-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-196"><a href="#cb11-196" aria-hidden="true" tabindex="-1"></a><span class="fu">### Advanced Features Prompt</span></span>
+<span id="cb11-197"><a href="#cb11-197" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-198"><a href="#cb11-198" aria-hidden="true" tabindex="-1"></a><span class="in">Enhance this interactive HTML with additional features:</span></span>
+<span id="cb11-199"><a href="#cb11-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-200"><a href="#cb11-200" aria-hidden="true" tabindex="-1"></a><span class="in">[Base HTML content]</span></span>
+<span id="cb11-201"><a href="#cb11-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-202"><a href="#cb11-202" aria-hidden="true" tabindex="-1"></a><span class="in">Add:</span></span>
+<span id="cb11-203"><a href="#cb11-203" aria-hidden="true" tabindex="-1"></a><span class="in">1. Progress tracking</span></span>
+<span id="cb11-204"><a href="#cb11-204" aria-hidden="true" tabindex="-1"></a><span class="in">2. Score calculation</span></span>
+<span id="cb11-205"><a href="#cb11-205" aria-hidden="true" tabindex="-1"></a><span class="in">3. Immediate feedback system</span></span>
+<span id="cb11-206"><a href="#cb11-206" aria-hidden="true" tabindex="-1"></a><span class="in">4. Branching scenarios</span></span>
+<span id="cb11-207"><a href="#cb11-207" aria-hidden="true" tabindex="-1"></a><span class="in">5. Data persistence (save progress)</span></span>
+<span id="cb11-208"><a href="#cb11-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-209"><a href="#cb11-209" aria-hidden="true" tabindex="-1"></a><span class="in">Keep everything in a single HTML file.</span></span>
+<span id="cb11-210"><a href="#cb11-210" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-211"><a href="#cb11-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-212"><a href="#cb11-212" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-213"><a href="#cb11-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-214"><a href="#cb11-214" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📚 Integration with Existing Activities</span></span>
+<span id="cb11-215"><a href="#cb11-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-216"><a href="#cb11-216" aria-hidden="true" tabindex="-1"></a><span class="fu">### Activity Upgrade Path</span></span>
+<span id="cb11-217"><a href="#cb11-217" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Identify static activity** (Word/PDF)</span>
+<span id="cb11-218"><a href="#cb11-218" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Choose interaction level** (basic → advanced)</span>
+<span id="cb11-219"><a href="#cb11-219" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Generate with AI** (using templates above)</span>
+<span id="cb11-220"><a href="#cb11-220" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Test and refine** (browser testing)</span>
+<span id="cb11-221"><a href="#cb11-221" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Deploy to LMS** (Blackboard upload)</span>
+<span id="cb11-222"><a href="#cb11-222" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Collect feedback** (student experience)</span>
+<span id="cb11-223"><a href="#cb11-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-224"><a href="#cb11-224" aria-hidden="true" tabindex="-1"></a><span class="fu">### Scaling Up</span></span>
+<span id="cb11-225"><a href="#cb11-225" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Start simple** - basic forms and inputs</span>
+<span id="cb11-226"><a href="#cb11-226" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Add complexity** - branching, scoring</span>
+<span id="cb11-227"><a href="#cb11-227" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Include media** - images, videos</span>
+<span id="cb11-228"><a href="#cb11-228" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Connect systems** - grade book integration</span>
+<span id="cb11-229"><a href="#cb11-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-230"><a href="#cb11-230" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-231"><a href="#cb11-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-232"><a href="#cb11-232" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Success Stories</span></span>
+<span id="cb11-233"><a href="#cb11-233" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-234"><a href="#cb11-234" aria-hidden="true" tabindex="-1"></a><span class="fu">### Case Study: Performance Management Unit</span></span>
+<span id="cb11-235"><a href="#cb11-235" aria-hidden="true" tabindex="-1"></a>**Before:** Static PDF case study, 20% engagement</span>
+<span id="cb11-236"><a href="#cb11-236" aria-hidden="true" tabindex="-1"></a>**After:** Interactive simulation, 85% completion rate</span>
+<span id="cb11-237"><a href="#cb11-237" aria-hidden="true" tabindex="-1"></a>**Result:** Higher student satisfaction, better learning outcomes</span>
+<span id="cb11-238"><a href="#cb11-238" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-239"><a href="#cb11-239" aria-hidden="true" tabindex="-1"></a><span class="fu">### Case Study: HR Policy Compliance  </span></span>
+<span id="cb11-240"><a href="#cb11-240" aria-hidden="true" tabindex="-1"></a>**Before:** Textbook reading, quiz assessment</span>
+<span id="cb11-241"><a href="#cb11-241" aria-hidden="true" tabindex="-1"></a>**After:** Interactive policy analysis tool</span>
+<span id="cb11-242"><a href="#cb11-242" aria-hidden="true" tabindex="-1"></a>**Result:** Deeper understanding, practical application</span>
+<span id="cb11-243"><a href="#cb11-243" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-244"><a href="#cb11-244" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-245"><a href="#cb11-245" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-246"><a href="#cb11-246" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🛠️ Technical Tips</span></span>
+<span id="cb11-247"><a href="#cb11-247" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-248"><a href="#cb11-248" aria-hidden="true" tabindex="-1"></a><span class="fu">### Testing Your HTML</span></span>
+<span id="cb11-249"><a href="#cb11-249" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Local testing** - open file in browser</span>
+<span id="cb11-250"><a href="#cb11-250" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Multiple browsers** - Chrome, Firefox, Safari</span>
+<span id="cb11-251"><a href="#cb11-251" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Mobile testing** - phone/tablet view</span>
+<span id="cb11-252"><a href="#cb11-252" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Accessibility check** - screen reader testing</span>
+<span id="cb11-253"><a href="#cb11-253" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-254"><a href="#cb11-254" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common Issues &amp; Solutions</span></span>
+<span id="cb11-255"><a href="#cb11-255" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**CSS not loading** - ensure styles are embedded</span>
+<span id="cb11-256"><a href="#cb11-256" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**JavaScript errors** - check browser console</span>
+<span id="cb11-257"><a href="#cb11-257" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Save not working** - verify browser permissions</span>
+<span id="cb11-258"><a href="#cb11-258" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Mobile layout** - test responsive design</span>
+<span id="cb11-259"><a href="#cb11-259" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-260"><a href="#cb11-260" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-261"><a href="#cb11-261" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-262"><a href="#cb11-262" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📈 Measuring Success</span></span>
+<span id="cb11-263"><a href="#cb11-263" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-264"><a href="#cb11-264" aria-hidden="true" tabindex="-1"></a><span class="fu">### Engagement Metrics</span></span>
+<span id="cb11-265"><a href="#cb11-265" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Completion rates** - students finishing activities</span>
+<span id="cb11-266"><a href="#cb11-266" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Time spent** - engagement duration</span>
+<span id="cb11-267"><a href="#cb11-267" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Interaction quality** - depth of responses</span>
+<span id="cb11-268"><a href="#cb11-268" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Replay value** - students retrying scenarios</span>
+<span id="cb11-269"><a href="#cb11-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-270"><a href="#cb11-270" aria-hidden="true" tabindex="-1"></a><span class="fu">### Learning Outcomes</span></span>
+<span id="cb11-271"><a href="#cb11-271" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Knowledge retention** - better understanding</span>
+<span id="cb11-272"><a href="#cb11-272" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Skill development** - practical application</span>
+<span id="cb11-273"><a href="#cb11-273" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Critical thinking** - deeper analysis</span>
+<span id="cb11-274"><a href="#cb11-274" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Professional readiness** - workplace preparation</span>
+<span id="cb11-275"><a href="#cb11-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-276"><a href="#cb11-276" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-277"><a href="#cb11-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-278"><a href="#cb11-278" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔄 Continuous Improvement</span></span>
+<span id="cb11-279"><a href="#cb11-279" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-280"><a href="#cb11-280" aria-hidden="true" tabindex="-1"></a><span class="fu">### Student Feedback Loop</span></span>
+<span id="cb11-281"><a href="#cb11-281" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Collect responses** - what worked/didn't</span>
+<span id="cb11-282"><a href="#cb11-282" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Analyze usage** - where students struggle</span>
+<span id="cb11-283"><a href="#cb11-283" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Refine content** - improve weak areas</span>
+<span id="cb11-284"><a href="#cb11-284" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Update annually** - keep content current</span>
+<span id="cb11-285"><a href="#cb11-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-286"><a href="#cb11-286" aria-hidden="true" tabindex="-1"></a><span class="fu">### Technical Maintenance</span></span>
+<span id="cb11-287"><a href="#cb11-287" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Browser updates** - ensure compatibility</span>
+<span id="cb11-288"><a href="#cb11-288" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**LMS changes** - adapt to Blackboard updates</span>
+<span id="cb11-289"><a href="#cb11-289" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Accessibility standards** - maintain compliance</span>
+<span id="cb11-290"><a href="#cb11-290" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-291"><a href="#cb11-291" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-292"><a href="#cb11-292" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-293"><a href="#cb11-293" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎁 Ready-to-Use Prompt Library</span></span>
+<span id="cb11-294"><a href="#cb11-294" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-295"><a href="#cb11-295" aria-hidden="true" tabindex="-1"></a><span class="fu">### Basic Transformation</span></span>
+<span id="cb11-296"><a href="#cb11-296" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-297"><a href="#cb11-297" aria-hidden="true" tabindex="-1"></a><span class="in">Convert this [document type] to interactive HTML for Blackboard:</span></span>
+<span id="cb11-298"><a href="#cb11-298" aria-hidden="true" tabindex="-1"></a><span class="in">[paste content]</span></span>
+<span id="cb11-299"><a href="#cb11-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-300"><a href="#cb11-300" aria-hidden="true" tabindex="-1"></a><span class="in">Include input fields, save/print, professional styling.</span></span>
+<span id="cb11-301"><a href="#cb11-301" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-302"><a href="#cb11-302" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-303"><a href="#cb11-303" aria-hidden="true" tabindex="-1"></a><span class="fu">### Scenario Simulation</span></span>
+<span id="cb11-304"><a href="#cb11-304" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-305"><a href="#cb11-305" aria-hidden="true" tabindex="-1"></a><span class="in">Create branching HTML simulation from this scenario:</span></span>
+<span id="cb11-306"><a href="#cb11-306" aria-hidden="true" tabindex="-1"></a><span class="in">[paste content]</span></span>
+<span id="cb11-307"><a href="#cb11-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-308"><a href="#cb11-308" aria-hidden="true" tabindex="-1"></a><span class="in">Add decision points, consequences, feedback system.</span></span>
+<span id="cb11-309"><a href="#cb11-309" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-310"><a href="#cb11-310" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-311"><a href="#cb11-311" aria-hidden="true" tabindex="-1"></a><span class="fu">### Assessment Tool</span></span>
+<span id="cb11-312"><a href="#cb11-312" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-313"><a href="#cb11-313" aria-hidden="true" tabindex="-1"></a><span class="in">Build interactive assessment from this worksheet:</span></span>
+<span id="cb11-314"><a href="#cb11-314" aria-hidden="true" tabindex="-1"></a><span class="in">[paste content]</span></span>
+<span id="cb11-315"><a href="#cb11-315" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-316"><a href="#cb11-316" aria-hidden="true" tabindex="-1"></a><span class="in">Include scoring, feedback, progress tracking.</span></span>
+<span id="cb11-317"><a href="#cb11-317" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb11-318"><a href="#cb11-318" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-319"><a href="#cb11-319" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-320"><a href="#cb11-320" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-321"><a href="#cb11-321" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🚀 Next Steps</span></span>
+<span id="cb11-322"><a href="#cb11-322" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-323"><a href="#cb11-323" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Choose one activity** to transform</span>
+<span id="cb11-324"><a href="#cb11-324" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Use basic prompt** to generate HTML</span>
+<span id="cb11-325"><a href="#cb11-325" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Test locally** before uploading</span>
+<span id="cb11-326"><a href="#cb11-326" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Deploy to Blackboard** </span>
+<span id="cb11-327"><a href="#cb11-327" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Gather student feedback**</span>
+<span id="cb11-328"><a href="#cb11-328" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Iterate and improve**</span>
+<span id="cb11-329"><a href="#cb11-329" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-330"><a href="#cb11-330" aria-hidden="true" tabindex="-1"></a>**Start small, think big, transform gradually.**</span>
+<span id="cb11-331"><a href="#cb11-331" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-332"><a href="#cb11-332" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb11-333"><a href="#cb11-333" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-334"><a href="#cb11-334" aria-hidden="true" tabindex="-1"></a>*This chapter bridges the gap between static content and interactive learning experiences, making your HR education materials more engaging and effective.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

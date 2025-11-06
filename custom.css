@@ -47,25 +47,7 @@
   margin-bottom: 2rem;
 }
 
-/* Better navigation */
-.sidebar-navigation {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 1.5rem;
-  border-radius: 12px;
-}
-
-.sidebar-navigation .nav-link {
-  color: white;
-  font-weight: 500;
-  padding: 0.5rem 0;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.sidebar-navigation .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateX(5px);
-}
+/* Sidebar styling removed - keeping default Quarto appearance */
 
 /* Callout boxes for important content */
 .callout {
