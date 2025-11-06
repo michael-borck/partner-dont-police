@@ -8,7 +8,7 @@ The main chapters focus on practical applications - what you can do tomorrow wit
 
 ---
 
-## 🏗️ Prompt Structure Fundamentals
+## Prompt Structure Fundamentals
 
 ### The Anatomy of an Effective Prompt
 
@@ -21,7 +21,9 @@ Every good prompt has four key components:
 #### 1. **Role Definition**
 ```
 Basic: "Review this HR policy"
-Advanced: "You are a senior HR consultant with 15 years of experience in employment law and organizational development. You specialize in policy compliance and risk management for multinational corporations."
+Advanced: "You are a senior HR consultant with 15 years of experience in 
+          employment law and organizational development. You specialise in 
+          policy compliance and risk management for multinational corporations."
 ```
 
 #### 2. **Context Setting**
@@ -44,7 +46,7 @@ Advanced: "Present each strategy in a table with columns: Strategy, Implementati
 
 ---
 
-## 🎯 Context Management Techniques
+## Context Management Techniques
 
 ### Maintaining Conversation History
 
@@ -85,7 +87,7 @@ Use [simple/technical/advanced] language.
 
 ---
 
-## 🎭 Persona Control Strategies
+## Persona Control Strategies
 
 ### Consistent HR Professional Persona
 
@@ -121,7 +123,7 @@ Present each viewpoint separately, then provide a balanced recommendation.
 
 ---
 
-## 🔧 Advanced Prompting Techniques
+## Advanced Prompting Techniques
 
 ### Chain-of-Thought for HR Scenarios
 
@@ -175,7 +177,7 @@ Explain your ratings. Then write an excellent response for [new scenario].
 
 ---
 
-## ⚖️ HR-Specific Prompting Patterns
+## HR-Specific Prompting Patterns
 
 ### Legal Compliance Integration
 
@@ -235,7 +237,7 @@ For any proposed HR action, analyze impact on:
 
 ---
 
-## 🎛️ Output Control and Formatting
+## Output Control and Formatting
 
 ### Structured Response Templates
 
@@ -304,7 +306,7 @@ Target [specific audience] level of understanding.
 
 ---
 
-## 🔍 Troubleshooting Common Issues
+## Troubleshooting Common Issues
 
 ### AI Going Off-Topic
 
@@ -365,7 +367,7 @@ Do not provide guidance on [restricted topics].
 
 ---
 
-## 🎓 Educational Applications
+## Educational Applications
 
 ### Scaffolding Complexity
 
@@ -424,7 +426,7 @@ Review this student response and provide feedback in this format:
 
 ---
 
-## 🚀 Putting It All Together
+## Putting It All Together
 
 ### Master Prompt Template
 
@@ -459,7 +461,7 @@ Before sending any prompt, ask yourself:
 
 ---
 
-## 📚 Integration with Main Chapters
+## Integration with Main Chapters
 
 ### Chapter Cross-Reference
 
@@ -483,7 +485,7 @@ Before sending any prompt, ask yourself:
 
 ---
 
-## 🎯 Final Thoughts
+## Final Thoughts
 
 **Advanced prompt engineering isn't about complexity - it's about precision.**
 
