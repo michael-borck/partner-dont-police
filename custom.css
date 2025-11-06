@@ -49,6 +49,17 @@
 
 /* Sidebar styling removed - keeping default Quarto appearance */
 
+/* Remove any custom link underlining in sidebar */
+.sidebar a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.sidebar a:hover {
+  text-decoration: underline !important;
+  border-bottom: none !important;
+}
+
 /* Callout boxes for important content */
 .callout {
   border-left: 4px solid #3498db;
