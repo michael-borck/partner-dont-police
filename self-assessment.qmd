@@ -8,7 +8,7 @@ That's a legitimate concern. Students could paste assignment questions into Chat
 
 **This chapter proposes a radically different approach: Give students the AI tools openly, teach them to use AI ethically, and grade them on their ability to critically improve AI outputs.**
 
-Why? Because in their professional HR careers, they *will* use AI tools. Our job isn't to prevent that—it's to ensure they use them responsibly, understand their limitations, and maintain human judgment on critical matters.
+Why? Because in their professional careers across all business disciplines, they *will* use AI tools. Our job isn't to prevent that—it's to ensure they use them responsibly, understand their limitations, and maintain human judgment on critical matters.
 
 ## The Transparency Model
 
@@ -29,7 +29,7 @@ When you give students the rubric and the AI critique tool:
 - They take ownership of their learning (self-directed improvement)
 - The focus shifts from "fooling the teacher" to "meeting the standard"
 
-This is pedagogically powerful for HR education because **reflective practice** and **self-directed learning** are core competencies in the field.
+This is pedagogically powerful across all business disciplines because **reflective practice**, **self-directed learning**, and **continuous improvement** are core professional competencies.
 
 ---
 
@@ -623,7 +623,7 @@ This assignment includes access to an AI feedback tool. Here's how to use it eth
 - Revise your work based on the feedback
 - Run multiple drafts through the AI as you improve
 - Think critically about whether the AI's suggestions are correct
-- Use the AI to learn HR concepts and improve your analytical skills
+- Use the AI to learn discipline-specific concepts and improve your analytical skills
 
 **DON'T:**
 - Ask the AI to write the assignment for you
@@ -632,7 +632,7 @@ This assignment includes access to an AI feedback tool. Here's how to use it eth
 - Treat the AI's feedback as infallible—it can be wrong
 
 **REMEMBER:**
-The goal is not to "beat the AI" or trick it into giving you a good score. The goal is to use the AI as a learning tool so that YOU understand HR analysis better by the time you submit.
+The goal is not to "beat the AI" or trick it into giving you a good score. The goal is to use the AI as a learning tool so that YOU understand the concepts and develop professional judgment better by the time you submit.
 
 You will submit evidence of your revision process, so I can see your learning journey. The quality of your final work AND your learning process will both be graded.
 
@@ -669,11 +669,12 @@ If equity is a concern, you can:
 
 This transparency approach does something more important than preventing cheating: **it teaches students how to work with AI responsibly.**
 
-In their HR careers, they'll have access to AI tools that can:
-- Draft policies
-- Analyse employment data
-- Generate interview questions
-- Summarize legal requirements
+In their professional careers, they'll have access to AI tools that can:
+- Analyse complex datasets and generate insights
+- Draft strategies, policies, and recommendations
+- Generate scenarios and simulations
+- Summarize regulations, standards, and best practices
+- (discipline-specific applications too numerous to list)
 
 Your job isn't to prevent them from using these tools. It's to teach them:
 - When AI is helpful and when it's risky
@@ -687,7 +688,7 @@ By making AI use transparent and educational, you're preparing them for professi
 
 ## Your Action Step
 
-Before Chapter 6, try this:
+Before moving to the next chapter, try this:
 
 1. **Choose one assignment** you currently give students
 2. **Write the AI critique prompt** based on your existing rubric
@@ -699,4 +700,4 @@ Once you've tested it, you're ready to introduce this model in your class.
 
 ---
 
-**Next Chapter Preview:** In Chapter 6, we'll explore the "future horizon"—creating a virtual HR company staffed by AI employees. Students interact with multiple AI personas (difficult employees, union representatives, senior managers) in an ongoing simulation that builds complexity over time. This is the most ambitious application, but it's becoming increasingly feasible with current technology.
+**Next Chapter Preview:** In the next chapter, we'll explore advanced applications and considerations for scaling AI-enhanced teaching across your program. We'll discuss how to maintain quality, support different student needs, and prepare students for an AI-integrated professional landscape.

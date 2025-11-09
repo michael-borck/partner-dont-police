@@ -60,7 +60,7 @@ Output: Complete HTML file that can be uploaded directly to Blackboard.
 
 #### **Advanced Prompt for Scenario-Based Activities**
 ```
-Create an interactive HTML simulation based on this HR scenario:
+Create an interactive HTML simulation based on this professional scenario:
 
 [Paste your case study/scenario]
 
@@ -79,7 +79,7 @@ Technical requirements:
 - Accessible form elements
 - Local storage for saving progress
 
-Make it engaging but academically rigorous.
+Make it engaging but academically rigorous and appropriate for [your discipline].
 ```
 
 ---
@@ -108,31 +108,32 @@ Make it engaging but academically rigorous.
 
 ---
 
-## 🎯 Practical Examples for HR Education
+## 🎯 Practical Examples by Discipline
 
-### 1. **Performance Review Simulation**
-```html
-<!-- Student inputs employee performance details -->
-<!-- Gets AI-generated suggestions -->
-<!-- Practices difficult conversation -->
-<!-- Saves complete review -->
-```
+Depending on your field, here are typical interactive transformations:
 
-### 2. **Policy Analysis Tool**
-```html
-<!-- Student reads policy scenario -->
-<!-- Identifies compliance issues -->
-<!-- Gets immediate feedback -->
-<!-- Saves analysis report -->
-```
+### HR Education Examples
+1. **Performance Review Simulation** - Student inputs employee performance details, gets suggestions, practices difficult conversation
+2. **Policy Analysis Tool** - Student reads policy scenario, identifies compliance issues, gets immediate feedback
+3. **Recruitment Decision Tree** - Student evaluates candidates, makes hiring decisions, sees consequences
 
-### 3. **Recruitment Decision Tree**
-```html
-<!-- Student evaluates candidates -->
-<!-- Makes hiring decisions -->
-<!-- Sees consequences -->
-<!-- Saves decision rationale -->
-```
+### Business & Marketing Examples
+1. **Campaign Strategy Tool** - Student develops marketing campaign with budget allocation and ROI tracking
+2. **Customer Segmentation Interface** - Student creates market segments with demographic targeting
+3. **Competitor Analysis Matrix** - Student positions competitors and develops differentiation strategies
+
+### Accounting & Finance Examples
+1. **Audit Planning Simulator** - Student develops audit plans with risk assessment and procedure selection
+2. **Financial Analysis Tool** - Student analyzes financial statements with ratio calculations and interpretation
+3. **Valuation Decision Tree** - Student applies valuation methods with assumptions and sensitivity analysis
+
+### Management Examples
+1. **Change Management Simulator** - Student plans organizational change with stakeholder mapping
+2. **Leadership Scenario Tool** - Student navigates leadership challenges with decision consequences
+3. **Conflict Resolution Simulation** - Student manages team conflicts with resolution strategy selection
+
+### More Examples
+See the Cross-Discipline Applications section below for additional detailed examples for Supply Chain, Information Systems, Tourism & Hospitality, and Analytics.
 
 ---
 
@@ -179,7 +180,7 @@ Make it engaging but academically rigorous.
 
 ### Quick Start Prompt
 ```
-I need to convert this HR activity into an interactive HTML webpage for university students:
+I need to convert this [your discipline] activity into an interactive HTML webpage for university students:
 
 [Paste your activity content]
 
@@ -190,7 +191,7 @@ Please create:
 4. Mobile-responsive layout
 5. Instructions for students
 
-Make it suitable for uploading to Blackboard LMS.
+Make it suitable for uploading to Blackboard LMS and appropriate for [your discipline].
 ```
 
 ### Advanced Features Prompt
@@ -625,4 +626,4 @@ Include organizational development theory and change management frameworks.
 
 ---
 
-*This chapter bridges the gap between static content and interactive learning experiences, making your HR education materials more engaging and effective.*
+*This chapter bridges the gap between static content and interactive learning experiences, making your teaching materials more engaging and effective across all business disciplines.*

@@ -16,18 +16,52 @@ The traditional framing:
 > "How do we prevent students from using AI inappropriately?"
 
 The professional framing:
-> "How do we teach students to use AI responsibly in their HR careers?"
+> "How do we teach students to use AI responsibly in their professional careers?"
 
 **The shift matters.**
 
 The first framing treats AI as a threat to be controlled. The second treats AI literacy as a learning objective to be developed.
 
-As an HR educator, you're not preparing students for a world without AI. You're preparing them for a world where AI tools will:
+As a business educator across any discipline, you're not preparing students for a world without AI. You're preparing them for a world where AI tools will be discipline-specific but ubiquitous. Your graduates will use these tools:
+
+::: {.panel-tabset}
+
+## HR
 - Screen resumes and identify candidates
 - Draft employment contracts and policies
 - Analyse workforce data and predict turnover
 - Generate interview questions and assessment criteria
 - Summarize complex legislation and case law
+
+## Finance
+- Analyse financial statements and identify anomalies
+- Generate investment recommendations
+- Perform risk assessments and stress testing
+- Summarize regulatory requirements and tax implications
+- Forecast financial performance
+
+## Supply Chain
+- Forecast demand and optimize inventory
+- Identify supplier risks and opportunities
+- Optimize logistics networks and routes
+- Analyse supply chain resilience
+- Generate sourcing recommendations
+
+## Marketing
+- Analyse customer data and segment audiences
+- Generate campaign strategies and content
+- Predict customer behavior and preferences
+- Optimize pricing and promotional strategies
+- Analyse competitive positioning
+
+## Information Systems
+- Generate code and identify bugs
+- Design system architectures
+- Assess technology risks and security
+- Create project plans and estimates
+- Analyse requirements and specifications
+
+:::
 
 Your graduates will use these tools. The question is: **Will they use them competently and ethically, or incompetently and recklessly?**
 
@@ -89,39 +123,42 @@ You need clear, direct communication about AI use. Here's a model you can adapt:
 ```
 ARTIFICIAL INTELLIGENCE USE IN THIS UNIT
 
-In professional HR practice, you will use AI tools to support decision-making,
-analysis, and communication. This unit teaches you to use AI responsibly and
-critically.
+In professional practice across all business disciplines, you will use AI tools
+to support decision-making, analysis, and communication. This unit teaches you to
+use AI responsibly and critically.
 
 WHEN AI USE IS EXPECTED:
-- Assignment 2 (Conversation Simulation): You will interact with an AI persona
-  and submit transcripts
+- Assignment 2 (Conversation Simulation / Scenario Analysis): You will interact
+  with AI-generated scenarios or personas and demonstrate your professional skills
 - Assignment 3 (Self-Assessment): You will use the provided AI critique prompt
   to assess your draft before submission
+- [Any other assignments where AI engagement is part of learning objectives]
 
 WHEN AI USE IS PERMITTED:
-- Brainstorming ideas for case study analysis
-- Generating practice questions for exam preparation
+- Brainstorming ideas and approaches
+- Generating practice questions and scenarios for exam preparation
 - Checking grammar and clarity in written work
 - Exploring concepts you don't fully understand yet
+- Researching and understanding professional standards and frameworks
 
 WHEN AI USE IS NOT PERMITTED:
-- Final exam (closed book, no technology)
+- Final exam (closed book, no technology unless specified)
 - Any assignment where instructions explicitly state "no AI tools"
+- Any assessment explicitly designed to test recall or your unaided thinking
 
 WHAT YOU MUST DO WHEN USING AI:
 - Use it as a tool that supports YOUR thinking, not replaces it
 - Critically evaluate AI outputs—don't assume they're correct
 - Be able to explain and justify any AI-assisted work in your own words
-- Acknowledge AI use where required (e.g., "I used ChatGPT to generate
-  initial interview questions, which I then revised based on...")
+- Acknowledge AI use where required (e.g., "I used Claude to generate initial
+  analysis, which I then critically reviewed and revised based on...")
 
 ACADEMIC INTEGRITY EXPECTATIONS:
-Using AI inappropriately (e.g., submitting AI-generated work as your own
-without critical engagement) is academic misconduct, just like plagiarism.
+Using AI inappropriately (e.g., submitting AI-generated work as your own without
+critical engagement) is academic misconduct, just like plagiarism.
 
-If you're ever unsure whether your AI use is appropriate, ask before
-submitting. I'm here to help you learn to use these tools well.
+If you're ever unsure whether your AI use is appropriate, ask before submitting.
+I'm here to help you learn to use these tools well and ethically.
 ```
 
 ### Example: First-Day Class Discussion
@@ -130,11 +167,11 @@ submitting. I'm here to help you learn to use these tools well.
 
 > "Let's talk about AI. Some of you are probably already using ChatGPT or similar tools. Some of you are worried that using AI is cheating. Some of you are wondering if I'm going to try to detect and punish AI use.
 >
-> Here's my position: **AI tools exist, and you'll use them in HR jobs. My job is to teach you to use them wisely and ethically.**
+> Here's my position: **AI tools exist, and you'll use them in your professional careers. My job is to teach you to use them wisely and ethically.**
 >
-> In this unit, we'll use AI openly in some assignments. You'll learn when AI is helpful, when it's risky, and when human judgment must override AI recommendations. That's a professional skill.
+> In this unit, we'll use AI openly in some assignments. You'll learn when AI is helpful, when it's risky, and when human judgment must override AI recommendations. That's a professional skill you'll need.
 >
-> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent HR practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know—because your work won't demonstrate understanding.
+> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent professional practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know—because your work won't demonstrate understanding.
 >
 > Questions or concerns about this approach?"
 
@@ -163,7 +200,7 @@ Some assignments are easier to misuse with AI than others. Here's how to design 
 
 ### Principle 2: Require Evidence of Thinking
 
-**Vulnerable design:** "Recommend a solution to this HR problem."
+**Vulnerable design:** "Recommend a solution to this [discipline] problem."
 - AI can generate a plausible recommendation
 
 **Integrity-resistant design:** "AI generated three solutions to this problem [provide them]. Critique each option, identify which one is best and why, and explain what the AI got wrong."
@@ -171,15 +208,27 @@ Some assignments are easier to misuse with AI than others. Here's how to design 
 - Requires critical evaluation, not just generation
 - Makes AI outputs the starting point, not the end point
 
+**Examples by discipline:**
+- HR: "Critique three AI-generated performance management approaches"
+- Finance: "Critique three AI-generated investment recommendations"
+- Supply Chain: "Critique three AI-generated supplier selection strategies"
+- Marketing: "Critique three AI-generated campaign strategies"
+
 ### Principle 3: Make Personal Context Essential
 
-**Vulnerable design:** "Analyse the pros and cons of flexible work policies."
+**Vulnerable design:** "Analyse the pros and cons of [generic professional concept]."
 - Generic question AI can answer generally
 
-**Integrity-resistant design:** "Based on your conversation with the AI employee 'Jamie' (from your Week 4 simulation), analyse what flexible work approach would address Jamie's specific situation while meeting organisational needs."
-- Requires integration of previous personalised work
+**Integrity-resistant design:** "Based on your earlier [simulation/analysis/project], analyse how [concept] would address the specific situation while meeting [organizational/business requirement]."
+- Requires integration of previous personalized work
 - Context is unique to each student
 - Generic AI response won't fit
+
+**Examples by discipline:**
+- HR: "Based on your PIP simulation with Jamie, analyze flexible work approaches"
+- Finance: "Based on your company analysis, evaluate investment timing strategies"
+- Supply Chain: "Based on your supplier evaluation, analyze relationship strategies"
+- Marketing: "Based on your segment analysis, evaluate messaging approaches"
 
 ### Principle 4: Assess Revision and Iteration
 
@@ -255,11 +304,13 @@ Even with well-designed assignments, some students will try to misuse AI. Here's
 
 ---
 
-## Teaching AI Ethics Through HR Scenarios
+## Teaching AI Ethics Through Professional Scenarios
 
-One of the most powerful ways to address integrity is to make it a learning objective. Teach students to identify ethical problems with AI use *through HR scenarios*.
+One of the most powerful ways to address integrity is to make it a learning objective. Teach students to identify ethical problems with AI use *through discipline-specific scenarios*.
 
-### Exercise 1: The Flawed AI Termination Memo
+::: {.panel-tabset}
+
+## HR Exercise: The Flawed AI Termination Memo
 
 **Assignment:**
 
@@ -278,39 +329,176 @@ One of the most powerful ways to address integrity is to make it a learning obje
 - They must verify and correct AI outputs
 - Professional accountability can't be delegated to AI
 
-### Exercise 2: The Biased Resume Screening Tool
+## Finance Exercise: The Flawed AI Investment Recommendation
 
-**Scenario:**
+**Assignment:**
 
-> "Your company uses an AI resume screening tool. You notice that it consistently ranks candidates from certain universities higher and flags career gaps as negative. Three rejected candidates have complained that the process seems unfair.
+> "Use AI to recommend an investment portfolio allocation. Then conduct a critical audit:
+> - What assumptions did the AI make about risk tolerance and time horizon?
+> - What did the AI miss about current market conditions?
+> - What tax or regulatory implications are overlooked?
+> - How would you revise this recommendation with your professional judgment?
+>
+> Your grade is based on how thoroughly you identify problems and limitations, not on the quality of AI's original output."
+
+**What students learn:**
+- AI can confidently recommend financially risky strategies
+- Assumptions must be verified and challenged
+- Professional accountability for recommendations can't be delegated
+
+## Supply Chain Exercise: The Flawed AI Supplier Strategy
+
+**Assignment:**
+
+> "Use AI to recommend a supplier consolidation strategy. Then conduct a critical audit:
+> - What supply chain risks did the AI overlook?
+> - What supplier relationship and quality considerations are missing?
+> - What operational constraints wasn't the AI aware of?
+> - How would you revise this strategy with on-the-ground knowledge?
+>
+> Your grade is based on how thoroughly you identify problems and improvements."
+
+**What students learn:**
+- AI can oversimplify complex supply chain decisions
+- Operational reality must inform strategy
+- Professional judgment about supplier relationships is essential
+
+## Marketing Exercise: The Flawed AI Campaign Strategy
+
+**Assignment:**
+
+> "Use AI to generate a campaign strategy for a target market. Then conduct a critical audit:
+> - What customer insights did the AI miss or misinterpret?
+> - What competitive or market factors aren't addressed?
+> - What cultural or regional sensitivities might cause problems?
+> - How would you revise this with real market knowledge?
+>
+> Your grade is based on how thoroughly you identify problems and improvements."
+
+**What students learn:**
+- AI can generate culturally insensitive or market-misaligned strategies
+- Customer understanding must verify AI outputs
+- Professional judgment about market nuance is irreplaceable
+
+## Information Systems Exercise: The Flawed AI System Design
+
+**Assignment:**
+
+> "Use AI to generate system requirements and architecture for a business problem. Then conduct a critical audit:
+> - What technical feasibility concerns exist?
+> - What security or compliance risks are overlooked?
+> - What integration challenges with existing systems aren't considered?
+> - How would you revise this design with technical expertise?
+>
+> Your grade is based on how thoroughly you identify problems and improvements."
+
+**What students learn:**
+- AI can generate technically unrealistic designs
+- Feasibility and constraints must be verified
+- Professional technical judgment is essential
+
+:::
+
+**Common Learning Outcome Across All Disciplines:**
+- AI can confidently generate problematic recommendations
+- Critical verification and improvement is necessary
+- Professional accountability can't be delegated to AI
+
+### Exercise 2: The AI Bias and Fairness Challenge
+
+**Discipline-specific scenarios:**
+
+::: {.panel-tabset}
+
+## HR: The Biased Resume Screening Tool
+
+> "Your company uses an AI resume screening tool. You notice it consistently ranks candidates from certain universities higher and flags career gaps as negative. Three rejected candidates have complained the process seems unfair.
 >
 > As the HR manager:
 > 1. What are the ethical concerns with this AI tool?
 > 2. What's your legal risk?
-> 3. Who is accountable for the AI's decisions—the vendor, the company, you personally?
+> 3. Who is accountable for the AI's decisions?
 > 4. What would you do to address this situation?"
 
-**What students learn:**
+## Finance: The Biased Credit Risk Model
+
+> "Your company uses an AI credit risk model for loan decisions. You discover it systematically rates applicants from certain zip codes as higher risk, even when other factors are equivalent. Multiple applicants have filed complaints.
+>
+> As the finance manager:
+> 1. What are the ethical and legal concerns?
+> 2. What's the regulatory risk?
+> 3. Who is accountable for discriminatory decisions?
+> 4. What would you do to address this?"
+
+## Supply Chain: The Biased Supplier Rating System
+
+> "Your AI supplier rating system consistently rates suppliers from certain regions lower, even when quality metrics are equivalent. Key suppliers have complained and are considering leaving.
+>
+> As the supply chain manager:
+> 1. What are the fairness and business risks?
+> 2. What relationship and reputational damage might occur?
+> 3. Who is accountable for biased evaluations?
+> 4. How would you address this?"
+
+## Marketing: The Biased Customer Segmentation
+
+> "Your AI customer segmentation tool shows significant demographic bias in targeting. Certain groups are consistently excluded from high-value segment classifications. Customer advocacy groups have raised concerns.
+>
+> As the marketing manager:
+> 1. What are the ethical and business risks?
+> 2. What's the reputational impact?
+> 3. Who is accountable for discriminatory targeting?
+> 4. How would you address this?"
+
+:::
+
+**What students learn (across all disciplines):**
 - Algorithmic bias is a real professional issue
 - Using AI doesn't eliminate human responsibility
-- HR professionals must advocate for fair processes even when technology is involved
+- Professionals must advocate for fair processes even when using technology
 
 ### Exercise 3: The Over-Reliance Problem
 
-**Scenario:**
+**Discipline-specific scenarios:**
 
-> "You used AI to analyse exit interview data and generate recommendations for reducing turnover. You presented the AI's recommendations to senior management, and they were implemented. Six months later, turnover has increased.
+::: {.panel-tabset}
+
+## HR: The Over-Reliance on Turnover Analysis
+
+> "You used AI to analyze exit interview data and generate turnover reduction recommendations. You presented them to senior management and implemented them. Six months later, turnover has increased.
 >
 > Reflection questions:
 > 1. What might the AI have missed in its analysis?
 > 2. What was your professional responsibility before presenting AI recommendations?
 > 3. How do you explain this outcome to management?
-> 4. What does this teach you about using AI in strategic decision-making?"
+> 4. What does this teach you about using AI in strategic decisions?"
 
-**What students learn:**
+## Finance: The Over-Reliance on Market Forecasting
+
+> "You used AI to forecast market conditions and recommend investment positions. You presented them to the board and implemented them. Three months later, markets moved contrary to the forecast and positions are significantly underwater.
+>
+> Reflection questions:
+> 1. What factors might the AI have missed?
+> 2. What was your professional responsibility in validating the forecast?
+> 3. How do you explain this to the board?
+> 4. What does this teach you about AI-assisted decisions?"
+
+## Supply Chain: The Over-Reliance on Demand Forecasting
+
+> "You used AI to forecast demand and optimize inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.
+>
+> Reflection questions:
+> 1. What assumptions might the AI have made incorrectly?
+> 2. What was your responsibility to validate the forecast?
+> 3. How do you explain this to operations and customers?
+> 4. What does this teach you about AI forecasting?"
+
+:::
+
+**What students learn (across all disciplines):**
 - AI analysis isn't inherently correct
 - Professional judgment can't be outsourced
-- They're accountable for recommendations they present, regardless of how they were generated
+- They're accountable for recommendations they present, regardless of AI assistance
 
 ---
 
@@ -353,30 +541,33 @@ You may need to justify your approach to colleagues or administrators who are sk
 
 Position AI literacy as a graduate capability alongside communication, critical thinking, and ethical practice.
 
-### What AI Literacy Means for HR Graduates
+### What AI Literacy Means for Business Graduates (All Disciplines)
 
-**Competent HR graduates should be able to:**
+**Competent graduates across all disciplines should be able to:**
 
 1. **Identify appropriate use cases**
-   - When is AI helpful? (data analysis, initial drafts, generating options)
-   - When is AI risky? (sensitive employee conversations, final legal decisions)
-   - When is human judgment essential? (ethical dilemmas, complex interpersonal situations)
+   - When is AI helpful? (data analysis, initial drafts, generating options, research)
+   - When is AI risky? (sensitive decisions, final strategic recommendations, high-stakes judgments)
+   - When is human judgment essential? (ethical dilemmas, complex stakeholder situations, judgment calls)
 
 2. **Evaluate AI outputs critically**
-   - Does this align with legal requirements?
+   - Does this align with legal/regulatory/professional requirements?
    - Is this ethically sound?
    - What assumptions has the AI made?
-   - What context is missing?
+   - What context or domain expertise is missing?
 
 3. **Maintain accountability**
-   - Understanding that using AI doesn't eliminate responsibility
-   - Knowing when to verify AI recommendations with experts
-   - Documenting decision-making processes
+   - Understanding that using AI doesn't eliminate professional responsibility
+   - Knowing when to verify AI recommendations with subject matter experts
+   - Documenting decision-making processes and AI role
 
 4. **Recognize bias and limitations**
-   - Algorithmic bias in recruitment tools
-   - Cultural insensitivity in AI-generated policies
-   - Over-generalization of complex situations
+   - **HR:** Algorithmic bias in recruitment, performance, compensation
+   - **Finance:** Bias in risk models, forecasting overconfidence
+   - **Supply Chain:** Oversimplification of complex relationships, geopolitical blindspots
+   - **Marketing:** Demographic bias in targeting, cultural insensitivity
+   - **IT:** Technical feasibility blindness, security oversights
+   - **All disciplines:** Over-generalization of complex situations, missing domain context
 
 **This is professional education, not just academic integrity management.**
 
@@ -386,15 +577,45 @@ Position AI literacy as a graduate capability alongside communication, critical 
 
 Here's a question to leave with:
 
-**Is it ethical to graduate HR professionals who don't know how to use AI responsibly?**
+**Is it ethical to graduate professionals who don't know how to use AI responsibly in their field?**
 
-When your graduates enter the workforce, they will encounter:
+When your graduates enter the workforce across all business disciplines, they will encounter AI in their work:
+
+::: {.panel-tabset}
+
+## HR
 - AI-powered recruitment systems making hiring decisions
-- Automated performance monitoring tools
+- Automated performance monitoring and evaluation tools
 - AI chatbots handling employee queries
 - Algorithmic workforce management systems
 
-If they don't understand how to evaluate these tools critically, advocate for fair processes, and identify when human oversight is essential, **they will cause harm**—not through malice, but through incompetence.
+## Finance
+- AI-powered investment recommendation systems
+- Automated risk assessment and credit scoring
+- Algorithmic trading and portfolio management
+- AI-generated financial forecasts and analysis
+
+## Supply Chain
+- AI demand forecasting and inventory optimization
+- Algorithmic supplier selection and evaluation
+- Automated logistics optimization
+- AI-driven supply chain risk assessment
+
+## Marketing
+- AI-powered customer segmentation and targeting
+- Algorithmic campaign optimization
+- AI-generated content and recommendations
+- Automated personalization at scale
+
+## Information Systems
+- AI-assisted code generation and testing
+- Automated system design and architecture
+- AI-powered security threat detection
+- Algorithmic project planning and estimation
+
+:::
+
+If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**—not through malice, but through incompetence.
 
 Your responsibility as an educator isn't to protect students from AI. It's to prepare them to be ethical, competent professionals in an AI-augmented world.
 

@@ -2,7 +2,7 @@
 
 ## The Three-Phase System
 
-In Chapter 3, you learned the Role Play technique. Now we're going to transform that into a complete professional practice system with three distinct phases:
+In the previous chapter, you learned the Role Play technique. Now we're going to transform that into a complete professional practice system with three distinct phases:
 
 **Phase 1: The Setup** (You or the student designs the scenario)
 **Phase 2: The Simulation** (Student practices the conversation)
@@ -31,7 +31,7 @@ Let's walk through a complete example.
 ## Complete Worked Example: The Performance Improvement Plan Meeting
 
 ### Context
-This is a common high-stakes conversation that HR professionals and managers must conduct. It's legally sensitive, emotionally difficult, and requires balancing empathy with accountability.
+This is a common high-stakes conversation in HR. It's legally sensitive, emotionally difficult, and requires balancing empathy with accountability. (We'll show examples from other disciplines at the end of this chapter.)
 
 **Learning Objectives:**
 - Apply principles of procedural fairness
@@ -365,17 +365,21 @@ You have several options for how to structure this as a graded assignment:
 
 ---
 
-## Adapting This for Different HR Topics
+## Adapting This for Different Conversational Skills
 
-The three-phase system works for any conversational HR skill:
+The three-phase system works for any high-stakes conversation in business. Below are examples across different skills and disciplines:
 
-| HR Skill Area | Simulation Scenario | Key Learning Focus |
+| Skill Area | Simulation Scenario | Key Learning Focus |
 |---|---|---|
-| **Recruitment** | AI plays a job candidate who gives vague answers | Behavioural interviewing, probing questions, bias awareness |
-| **Conflict Resolution** | AI plays an employee making a bullying complaint | Investigative process, empathy, impartiality, documentation |
-| **Negotiation** | AI plays a union representative in enterprise bargaining | Interest-based negotiation, legal boundaries, compromise |
-| **Change Management** | AI plays a resistant manager during restructure | Communication, stakeholder management, emotional intelligence |
-| **Termination** | AI plays an employee being made redundant | Procedural fairness, legal compliance, empathy in difficult situations |
+| **HR: Recruitment** | AI plays a candidate with vague answers | Behavioral interviewing, probing, bias awareness |
+| **HR: Conflict Resolution** | AI plays employee making complaint | Investigation, empathy, impartiality, documentation |
+| **HR: Negotiation** | AI plays union representative | Interest-based negotiation, legal boundaries, compromise |
+| **Management: Change Leadership** | AI plays resistant manager | Communication, stakeholder management, emotional intelligence |
+| **Marketing: Client Negotiation** | AI plays demanding client | Persuasion, objection handling, value communication |
+| **Supply Chain: Supplier Crisis** | AI plays supplier announcing delay | Problem-solving, negotiation, relationship management |
+| **Information Systems: Implementation** | AI plays resistant end-user | Change management, technical communication, adoption strategies |
+| **Accounting: Audit Findings** | AI plays finance manager | Compliance communication, relationship management, remediation planning |
+| **Business: Board Presentation** | AI plays questioning board member | Executive communication, strategic thinking, confidence |
 
 For each scenario, you simply adjust:
 1. The persona and context in the **Setup Prompt**
@@ -650,10 +654,10 @@ A: Yes! Many AI tools now support voice conversation mode. Students can literall
 
 ## Your Action Step
 
-Before moving to Chapter 5, try this:
+Before moving to the next chapter, try this:
 
-1. **Choose one difficult conversation** from your HR curriculum
-2. **Write a setup prompt** that creates a realistic scenario (use the Alex Chen example as a template)
+1. **Choose one difficult conversation** from your curriculum (in your discipline)
+2. **Write a setup prompt** that creates a realistic scenario (use the examples in this chapter as templates)
 3. **Test it yourself**—have the conversation with the AI
 4. **Generate a critique** of your own performance
 5. **Reflect:** Would this be valuable for your students?
@@ -662,4 +666,4 @@ Once you've experienced the full cycle yourself, you'll be ready to introduce it
 
 ---
 
-**Next Chapter Preview:** In Chapter 5, we'll explore how to use AI as a transparent, ethical self-assessment tool. You'll learn how to give students both the grading rubric *and* the AI critique prompt upfront, teaching them to use AI responsibly as an advanced editing and analysis tool rather than a shortcut. This shifts the conversation from "preventing AI cheating" to "teaching AI literacy."
+**Next Chapter Preview:** In the next chapter, we'll explore how to use AI as a transparent, ethical self-assessment tool. You'll learn how to give students both the grading rubric *and* the AI critique prompt upfront, teaching them to use AI responsibly as an advanced editing and analysis tool rather than a shortcut. This shifts the conversation from "preventing AI cheating" to "teaching AI literacy."

@@ -1,10 +1,10 @@
 # AI as a Teaching Partner
 
-## Practical Applications for Human Resource Education
+## Practical Applications for Multidisciplinary Business Education
 
 ---
 
-### A Guide for HR Lecturers
+### A Guide for Business Lecturers
 
 **Curtin University Edition**
 
@@ -16,17 +16,50 @@
 
 ## About This Booklet
 
-This booklet is designed for Human Resource Management lecturers who want to enhance their teaching with Artificial Intelligence but don't consider themselves "tech people."
+This booklet is designed for business lecturers across all disciplines who want to enhance their teaching with Artificial Intelligence but don't consider themselves "tech people."
 
 You won't need to code, install complex software, or understand how AI works technically. What you will learn is how to use simple, plain-language instructions (called "prompts") to create powerful learning experiences for your students.
 
 ### Who This Is For
 
-- HR lecturers at Curtin University teaching undergraduate or postgraduate students
-- Academics interested in innovative pedagogy for professional education
+- Business lecturers at Curtin University teaching undergraduate or postgraduate students
+- Academics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain
 - Unit coordinators exploring AI integration aligned with learning outcomes
-- Research supervisors supporting MCom students
-- Anyone curious about practical, non-technical AI applications in education
+- Research supervisors supporting business students
+- Anyone curious about practical, non-technical AI applications in business education
+
+#### Discipline-Specific Pathways
+
+This booklet is designed for multiple business disciplines. While the core principles and techniques are universal, examples and prompts are tailored to your field:
+
+::: {.panel-tabset}
+
+## Business & Marketing
+Examples include market analysis, customer behavior modeling, campaign strategy, brand positioning, and competitive intelligence simulations.
+
+## Management & Organization Studies
+Examples include organizational design, change management, team dynamics, leadership scenarios, and process improvement workflows.
+
+## Human Resources
+Examples include recruitment workflows, performance management scenarios, employee relations simulations, talent development, and organizational behavior case studies.
+
+## Tourism & Hospitality
+Examples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.
+
+## Supply Chain & Logistics
+Examples include demand forecasting, inventory optimization, supplier negotiations, network design, and supply chain risk scenarios.
+
+## Information Systems
+Examples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.
+
+## Accounting & Finance
+Examples include financial analysis, audit workflows, budget management, taxation scenarios, and financial reporting simulations.
+
+## Economics
+Examples include economic modeling, policy analysis, market equilibrium scenarios, microeconomic analysis, and behavioral economics simulations.
+
+:::
+
 
 ### What You Won't Find Here
 
@@ -38,11 +71,11 @@ You won't need to code, install complex software, or understand how AI works tec
 
 ### What You Will Find Here
 
-- **Concrete examples**: Every chapter includes ready-to-use prompts and scenarios
+- **Concrete examples**: Every chapter includes ready-to-use prompts and scenarios tailored to multiple business disciplines
 - **Practical guidance**: Step-by-step implementation for busy lecturers
-- **Real pedagogical value**: AI applications directly support existing learning outcomes
+- **Real pedagogical value**: AI applications directly support existing learning outcomes across business programs
 - **Honest assessment**: What AI does well, what it doesn't, and what requires human judgment
-- **Ethical frameworks**: How to integrate AI responsibly and teach students to do the same
+- **Ethical frameworks**: How to integrate AI responsibly and teach students to do the same in professional practice
 
 ---
 
@@ -76,9 +109,40 @@ Three principles underpin everything in this booklet:
 
 You are the expert educator. AI is a tool that helps you scale what you already know works—personalized practice, immediate feedback, realistic simulations. AI builds the framework quickly; you ensure it's pedagogically sound and academically rigorous.
 
+*How this applies to your discipline:*
+
+::: {.panel-tabset}
+
+## Business & Marketing
+AI generates competitive analysis frameworks and customer segmentation scenarios. You validate the business logic, ensure market assumptions are sound, and teach students to question data sources and market trends.
+
+## Management
+AI creates organizational scenarios and change management workflows. You ensure they reflect real organizational complexity, teach students about stakeholder dynamics, and guide reflection on ethical leadership implications.
+
+## Human Resources
+AI generates candidate profiles and HR scenarios. You ensure they reflect realistic workplace situations, teach students about bias in hiring, and guide ethical decision-making about employee relations.
+
+## Tourism & Hospitality
+AI creates customer journey scenarios and service recovery simulations. You ensure they reflect authentic tourism contexts, teach cultural sensitivity, and guide experience design thinking.
+
+## Supply Chain
+AI generates demand forecasts and logistics scenarios. You validate the economic logic, teach supply chain trade-offs, and guide systems thinking about global complexity.
+
+## Information Systems
+AI generates system requirements and IT scenarios. You ensure technical feasibility, teach about legacy system constraints, and guide project management realities.
+
+## Accounting & Finance
+AI generates financial scenarios and compliance workflows. You ensure accuracy, teach professional standards, and guide ethical judgment in ambiguous situations.
+
+## Economics
+AI generates economic scenarios and policy simulations. You ensure theoretical soundness, teach empirical rigor, and guide students to understand limitations of models.
+
+:::
+
+
 **2. Transparency Over Prohibition**
 
-Rather than trying to prevent AI use (impossible and counterproductive), we teach students to use AI openly, critically, and ethically. This prepares them for professional HR practice where AI tools are standard.
+Rather than trying to prevent AI use (impossible and counterproductive), we teach students to use AI openly, critically, and ethically. This prepares them for professional practice where AI tools are standard across all business disciplines.
 
 **3. Start Small, Scale Gradually**
 
@@ -93,10 +157,10 @@ This booklet synthesizes ideas from multiple sources:
 - Prompt engineering techniques adapted for professional education contexts
 - Curtin University program information and learning outcomes
 - Pedagogical frameworks from experiential learning, reflective practice, and authentic assessment
-- Professional HR practice standards and ethical guidelines
+- Professional practice standards and ethical guidelines across business disciplines
 - Emerging research on AI in higher education
 
-The goal is not to be cutting-edge or technically impressive. The goal is to help HR educators do their work better—prepare confident, competent, ethical professionals for complex workplaces.
+The goal is not to be cutting-edge or technically impressive. The goal is to help business educators do their work better—prepare confident, competent, ethical professionals for complex workplaces.
 
 ---
 
@@ -108,7 +172,7 @@ AI tools evolve quickly. Specific platform names (ChatGPT, Claude, etc.) and cap
 
 ### Context Matters
 
-This booklet was developed for Curtin University's HR programs. If you're at a different institution or teaching a different discipline, you'll need to adapt examples, learning outcomes, and institutional references. The frameworks are transferable; the specifics may not be.
+This booklet was developed for Curtin University's business programs. If you're at a different institution or teaching a different discipline, you'll need to adapt examples, learning outcomes, and institutional references. The frameworks are transferable; the specifics may not be.
 
 ### This Is a Starting Point
 
@@ -143,7 +207,7 @@ If you're concerned about losing control of your teaching, you won't. You'll gai
 
 The goal of this booklet is simple: **by the end, you should feel excited and equipped to try one new thing in your next class.**
 
-That's it. One simulation. One new assessment approach. One conversation where a student gets to practice being an HR professional in a safe environment before they face real workplace challenges.
+That's it. One simulation. One new assessment approach. One conversation where a student gets to practice being a business professional in a safe environment before they face real workplace challenges.
 
 Because ultimately, that's what we're here for.
 
@@ -159,9 +223,9 @@ Let's begin.
 
 # Table of Contents
 
-## Part 1: Foundation - Understanding AI for HR Education
+## Part 1: Foundation - Understanding AI for Business Education
 
-**Chapter 1: Introduction - Why AI Matters for HR Education** ..................... 1
+**Chapter 1: Introduction - Why AI Matters for Business Education** ..................... 1
 - The Problem We're Solving
 - The Flight Simulator Concept
 - What Makes This Different from Traditional Teaching
@@ -183,7 +247,7 @@ Let's begin.
 
 ## Part 2: Core Techniques - The Teaching Toolkit
 
-**Chapter 4: Six Essential Prompt Techniques for HR Teaching** ..................... 45
+**Chapter 4: Six Essential Prompt Techniques for Business Teaching** ..................... 45
 - Technique 1: Reverse Prompting (for Scoping and Policy Design)
 - Technique 2: Pros and Cons (for Decision Making)
 - Technique 3: Stepwise Chain of Thought (for Process Management)
@@ -197,8 +261,8 @@ Let's begin.
 
 **Chapter 5: The Flight Simulator - Conversation Simulations** ..................... 69
 - The Three-Phase System (Setup, Simulation, Debrief)
-- Complete Worked Example: The Performance Improvement Plan Meeting
-- Adapting This for Different HR Topics
+- Complete Worked Example: Professional Client Meeting
+- Adapting This for Different Business Topics
 - How to Use This as an Assessment
 - Common Questions and Answers
 
@@ -215,20 +279,20 @@ Let's begin.
 - Student-Facing Language: Setting Expectations
 - Designing "Integrity-Resistant" Assignments
 - Red Flags for AI Misuse (And How to Address Them)
-- Teaching AI Ethics Through HR Scenarios
+- Teaching AI Ethics Through Business Scenarios
 
 ## Part 4: Assessment Revolution - Rethinking How We Evaluate
 
 **Chapter 8: Process Over Product - Rethinking Assessment** ..................... 139
 - The Fundamental Question (What Are We Really Assessing?)
-- Assessment Model 1: Simulated HR Consultation and Process Audit
+- Assessment Model 1: Simulated Business Consultation and Process Audit
 - Assessment Model 2: Evidence-Based Strategic Intervention Plan
-- Assessment Model 3: Competency-Based Recruitment Portfolio
+- Assessment Model 3: Competency-Based Professional Portfolio
 - The Common Thread: Process as Evidence
 
 **Chapter 9: Virtual Company Simulation (Future Horizon)** ..................... 166
-- Level 1: Single Employee Persona (Master Prompt)
-- Level 2: Multiple Employee Personas (Cast of Characters)
+- Level 1: Single Stakeholder Persona (Master Prompt)
+- Level 2: Multiple Stakeholder Personas (Cast of Characters)
 - Level 3: Persistent Context (Company Memory)
 - Level 4: Dynamic Events (Evolving Scenarios)
 - Semester-Long Virtual Company Project
@@ -278,11 +342,11 @@ Let's begin.
 
 **Appendix C: Alignment with Curtin University Learning Outcomes** ..................... 290
 - Curtin University Strategic Context
-- HR Program Overview
+- Business Program Overview
 - Learning Outcome Alignment Matrix (9 Core Outcomes)
 - Alignment with Professional Career Outcomes
 - Addressing Potential Institutional Concerns
-- Implementation Recommendations for Curtin HR Programs
+- Implementation Recommendations for Curtin Business Programs
 - Alignment with Curtin University Strategic Priorities
 
 **Conclusion: Where Do We Go From Here?** ..................... 310

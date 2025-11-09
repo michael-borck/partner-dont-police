@@ -4,16 +4,16 @@
 
 Over the course of this booklet, you've explored:
 
-- **Why AI matters** for preparing HR professionals for real-world practice
+- **Why AI matters** for preparing business professionals across all disciplines for real-world practice
 - **How to use AI** through simple prompts that anyone can write
-- **Six core techniques** that develop critical thinking and professional skills
+- **Seven core techniques** that develop critical thinking and professional skills
 - **Three major applications**: conversation simulations, self-assessment tools, and virtual company scenarios
 - **New assessment models** that evaluate process and methodology, not just knowledge recall
 - **Practical implementation** from your first experiment through full unit redesign
 - **Ethical frameworks** for responsible AI integration and academic integrity
 - **Advanced applications** for unit design and postgraduate research support
 
-You now have the knowledge and tools to integrate AI into your HR teaching in meaningful, pedagogically sound ways.
+You now have the knowledge and tools to integrate AI into your teaching in meaningful, pedagogically sound ways—regardless of your discipline.
 
 **But knowledge alone isn't enough.**
 
@@ -31,11 +31,11 @@ You're busy. You have existing materials that work well enough. You're comfortab
 
 These are legitimate concerns.
 
-But consider this: **Your students will use AI in their HR careers whether you teach them to or not.**
+But consider this: **Your students will use AI in their professional careers—regardless of their discipline—whether you teach them to or not.**
 
-The question isn't "Should AI be part of professional HR practice?" It already is.
+The question isn't "Should AI be part of professional practice?" It already is, across all business disciplines.
 
-The question is: **"Will my graduates know how to use AI responsibly, critically, and ethically?"**
+The question is: **"Will my graduates know how to use AI responsibly, critically, and ethically in their field?"**
 
 If the answer is "I hope so" or "They'll figure it out," you're sending students into professional practice unprepared.
 
@@ -258,39 +258,39 @@ You don't have to do this alone.
 
 ---
 
-## The Bigger Picture: Transforming HR Education
+## The Bigger Picture: Transforming Business Education
 
 Individual educators trying new things is important. But the real transformation happens when entire programs evolve.
 
-### Vision for HR Education with AI Integration
+### Vision for Business Education with AI Integration
 
 **Year 1 (Undergraduate):**
-Students develop AI literacy alongside foundational HR knowledge. They learn to use AI for exploration, practice, and self-assessment. They develop critical evaluation skills.
+Students develop AI literacy alongside foundational disciplinary knowledge. They learn to use AI for exploration, practice, and self-assessment. They develop critical evaluation skills specific to their field.
 
 **Year 2-3 (Undergraduate):**
-Students apply AI tools to complex scenarios. They use conversation simulations extensively. They demonstrate competence through process-based assessments. They critique AI outputs and improve on them.
+Students apply AI tools to complex scenarios in their discipline. They use conversation simulations and decision-making activities extensively. They demonstrate competence through process-based assessments. They critique AI outputs and improve on them.
 
-**Year 4-5 (Undergraduate/Honours/MCom):**
-Students use AI as a professional tool. They integrate AI into strategic thinking and research. They teach others how to use AI responsibly. They understand when AI helps and when human judgment must override technology.
+**Year 4-5 (Undergraduate/Honours/Research Programs):**
+Students use AI as a professional tool. They integrate AI into strategic thinking and research in their discipline. They teach others how to use AI responsibly. They understand when AI helps and when human judgment must override technology.
 
 **Professional Practice:**
-Graduates enter workplaces confident with AI tools, critical of AI limitations, and committed to ethical AI use. They advocate for fairness when organisations implement AI systems. They maintain human accountability for AI-assisted decisions.
+Graduates enter workplaces confident with AI tools, critical of AI limitations, and committed to ethical AI use. They advocate for fairness when organisations implement AI systems in their field. They maintain human accountability for AI-assisted decisions.
 
 **This is the future we're building.**
 
-Not a future where AI replaces HR professionals, but where HR professionals use AI skillfully and ethically to do their work better—to serve people, organizations, and society more effectively.
+Not a future where AI replaces professionals, but where business professionals across all disciplines use AI skillfully and ethically to do their work better—to serve people, organizations, and society more effectively.
 
 ---
 
 ## Your Legacy
 
-Every student you teach will work with AI in their careers.
+Every student you teach will work with AI in their careers, regardless of their discipline.
 
 **The question is: Will they be competent or incompetent? Ethical or reckless? Critical or credulous?**
 
 That's in your hands.
 
-When you integrate AI into your teaching—transparently, critically, and pedagogically—you're not just adopting a new tool. You're preparing the next generation of HR professionals for a world that will be shaped by technology but must still be guided by human wisdom.
+When you integrate AI into your teaching—transparently, critically, and pedagogically—you're not just adopting a new tool. You're preparing the next generation of business professionals for a world that will be shaped by technology but must still be guided by human wisdom.
 
 That's not a small thing.
 
@@ -348,7 +348,7 @@ That's how transformation happens.
 
 One experiment. One refinement. One semester at a time.
 
-**Welcome to the future of HR education.**
+**Welcome to the future of business education.**
 
 **You're ready.**
 
@@ -378,7 +378,7 @@ One experiment. One refinement. One semester at a time.
 **Version:** 1.0
 **Published:** 2025
 **Institution:** Curtin University
-**Discipline:** Human Resource Management Education
+**Scope:** Multidisciplinary Business Education (HR, Marketing, Accounting, Management, Tourism & Hospitality, Supply Chain, Information Systems, Economics, and Business Analytics)
 
 **Technologies Referenced:**
 - ChatGPT (OpenAI)
@@ -391,8 +391,9 @@ One experiment. One refinement. One semester at a time.
 - Reflective Practice (Schön)
 - Authentic Assessment
 - Self-Directed Learning
+- Process-Based Assessment
 
-**Disclaimer:** AI technology evolves rapidly. Specific tools and capabilities described in this booklet reflect the state of technology in early 2025. Principles and pedagogical approaches remain relevant across technological changes.
+**Disclaimer:** AI technology evolves rapidly. Specific tools and capabilities described in this booklet reflect the state of technology in early 2025. Principles and pedagogical approaches remain relevant across technological changes. This booklet is designed for application across multiple business disciplines with context-specific adaptations.
 
 **Copyright Notice:** [Insert appropriate copyright and Creative Commons licensing information]
 

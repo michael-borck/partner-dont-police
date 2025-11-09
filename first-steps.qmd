@@ -2,7 +2,7 @@
 
 ## The Implementation Challenge
 
-You've now seen what's possible with AI in HR education. You're probably feeling a mix of excitement and overwhelm.
+You've now seen what's possible with AI in business education across multiple disciplines. You're probably feeling a mix of excitement and overwhelm.
 
 The previous chapters showed you ambitious applications: conversation simulations, virtual companies, process-based assessments. But you're thinking: *"Where do I actually start? How do I introduce this to my students? What if it doesn't work?"*
 
@@ -20,12 +20,53 @@ Before you introduce AI to students, you need to be comfortable with it yourself
 
 **Time investment: 1-2 hours**
 
-**Task:** Generate three teaching resources you currently need using the techniques from Chapter 3.
+**Task:** Generate three teaching resources you currently need using AI prompts.
 
-**Examples:**
-- Use the **Pros and Cons** technique to create a comparative analysis of performance review models (you can use this as lecture content or a discussion prompt)
-- Use the **Role Play** technique to create a practice scenario for difficult conversations
-- Use the **Reverse Prompting** technique to help you scope out a complex policy assignment
+**Examples by discipline:**
+
+::: {.panel-tabset}
+
+## Business & Marketing
+- Create a competitive analysis framework comparing 3+ competitors in your industry
+- Generate customer objection scenarios for role-play practice
+- Draft a market positioning analysis for a case study
+
+## Management
+- Create an organizational change scenario showing stakeholder resistance
+- Generate examples of poor delegation decisions students must analyze
+- Draft a leadership case study with team dynamics
+
+## Human Resources
+- Create recruitment interview questions and evaluate for bias
+- Generate performance management scenarios with difficult employees
+- Draft an employee relations problem students must solve
+
+## Tourism & Hospitality
+- Create demanding guest service scenarios for practice
+- Generate service recovery situations showing poor responses
+- Draft hospitality crisis scenarios students must navigate
+
+## Supply Chain & Logistics
+- Create demand disruption scenarios with multiple constraints
+- Generate supplier negotiation dialogues students must evaluate
+- Draft logistics network problems with optimization challenges
+
+## Information Systems
+- Create stakeholder requirement scenarios with conflicting needs
+- Generate project scope creep situations students must manage
+- Draft systems implementation risks students must identify
+
+## Accounting & Finance
+- Create financial statements with deliberate errors to audit
+- Generate valuation scenarios with ambiguous accounting treatment
+- Draft forensic analysis problems students must solve
+
+## Economics
+- Create policy recommendation scenarios with trade-offs
+- Generate economic forecasting problems students must analyze
+- Draft scenarios comparing competing economic models
+
+:::
 
 **Success metric:** You created at least one resource that's good enough to use in your teaching (even if it needs minor adjustments).
 
@@ -40,10 +81,51 @@ Before you introduce AI to students, you need to be comfortable with it yourself
 
 **Task:** Conduct a conversation simulation yourself using the Flight Simulator model from Chapter 4.
 
-**Steps:**
-1. Write a setup prompt for a scenario you teach (performance management, conflict resolution, recruitment interview, etc.)
-2. Have the conversation with the AI—actually practice the skill yourself
-3. Generate a critique of your performance using the debrief prompt
+**Discipline-specific scenario ideas:**
+
+::: {.panel-tabset}
+
+## Business & Marketing
+1. Write a setup prompt: "Role-play as a demanding customer questioning our product price"
+2. Have the conversation with the AI as if you're the salesperson
+3. Generate a critique of your persuasion and needs-identification approach
+
+## Management
+1. Write a setup prompt: "Role-play as a resistant employee during organizational change announcement"
+2. Have the conversation with the AI as if you're the manager
+3. Generate a critique of your stakeholder engagement approach
+
+## Human Resources
+1. Write a setup prompt: "Role-play as a candidate with difficult behavioral issues in an interview"
+2. Have the conversation with the AI as if you're the recruiter
+3. Generate a critique of your questioning technique and bias awareness
+
+## Tourism & Hospitality
+1. Write a setup prompt: "Role-play as an upset guest with service complaints"
+2. Have the conversation with the AI as if you're the manager
+3. Generate a critique of your service recovery approach
+
+## Supply Chain & Logistics
+1. Write a setup prompt: "Role-play as a supplier announcing a major delivery delay"
+2. Have the conversation with the AI as if you're the procurement manager
+3. Generate a critique of your negotiation and problem-solving approach
+
+## Information Systems
+1. Write a setup prompt: "Role-play as a stakeholder with unclear and changing requirements"
+2. Have the conversation with the AI as if you're the analyst
+3. Generate a critique of your elicitation and scope management approach
+
+## Accounting & Finance
+1. Write a setup prompt: "Role-play as a CFO questioning a valuation treatment"
+2. Have the conversation with the AI as if you're the auditor
+3. Generate a critique of your professional skepticism and judgment
+
+## Economics
+1. Write a setup prompt: "Role-play as a policy maker challenging your economic recommendation"
+2. Have the conversation with the AI as if you're the economist
+3. Generate a critique of your analysis and persuasion approach
+
+:::
 
 **Success metric:** The AI stayed in character throughout, and the critique provided specific, useful feedback.
 
@@ -82,13 +164,35 @@ You're now ready to introduce AI to students. Start with optional, low-stakes ac
 
 Introduce AI as a **practice tool** for an upcoming assignment.
 
-**Example announcement to students:**
+**Example announcement to students—choose one from your discipline:**
 
-> "For the case study assignment due in Week 8, I want to give you a chance to practice your analytical skills first. I've created an AI critique prompt that you can use to check your draft before submission.
->
-> Here's how it works: Write your draft analysis, paste it into ChatGPT or Claude along with this critique prompt [provide prompt], and see what feedback you get. Then revise based on the feedback.
->
-> This is completely optional—I won't know whether you used it or not. But I encourage you to try it at least once to see if it helps you improve your work."
+::: {.panel-tabset}
+
+## Business & Marketing
+> "For the competitive strategy assignment due in Week 8, I want to give you a chance to practice your analysis first. I've created an AI analysis prompt that you can use to check your draft positioning before submission. Write your draft, paste it into ChatGPT or Claude along with the critique prompt, and see what feedback you get. Then revise. This is optional—I won't grade based on whether you used it. But you might find the market perspective helpful."
+
+## Management
+> "For the change management plan due in Week 8, I want to give you practice feedback before submission. I've created an AI prompt that reviews your plan for stakeholder engagement and communication strategy. Write your draft, paste it with the prompt, and revise based on feedback. Completely optional, but it might help you think through stakeholder complexity."
+
+## Human Resources
+> "For the HR problem-solving assignment due in Week 8, I've created an AI prompt that provides preliminary feedback on your approach—whether you've identified compliance issues, considered employee perspective, and thought about equity. Write your draft, get AI feedback, revise. Optional, but students who use it usually score higher because they catch issues early."
+
+## Tourism & Hospitality
+> "For the service management case study due in Week 8, I've created an AI prompt that critiques your proposed solution against service recovery principles. Write your draft, paste with the prompt, and see what gaps the AI identifies. Optional, but helpful for thinking through guest experience holistically."
+
+## Supply Chain & Logistics
+> "For the supply chain optimization problem due in Week 8, I've created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss."
+
+## Information Systems
+> "For the project plan due in Week 8, I've created an AI review prompt that evaluates your scope management and risk identification. Write your draft, paste with the prompt, and get preliminary feedback. Completely optional, but many students find it helps identify scope creep risks."
+
+## Accounting & Finance
+> "For the financial analysis assignment due in Week 8, I've created an AI review prompt that checks your accounting treatment and valuation assumptions. Write your draft, get preliminary feedback, revise. Optional, but it's good practice for thinking through judgment calls before final submission."
+
+## Economics
+> "For the policy recommendation due in Week 8, I've created an AI prompt that reviews your analysis for model assumptions and stakeholder considerations. Write your draft, get feedback on your reasoning, revise. Optional, but helpful for strengthening your economic argument."
+
+:::
 
 **Why this works:**
 - No pressure—students who are skeptical can ignore it
@@ -102,11 +206,35 @@ Introduce AI as a **practice tool** for an upcoming assignment.
 
 During a lecture, demonstrate AI in action as a teaching tool.
 
-**Example:**
+**Discipline-specific live demonstrations:**
 
-> "Today we're learning about procedural fairness in disciplinary processes. Let me show you something interesting. I'm going to ask an AI to role-play an employee going through a disciplinary meeting, and I want you to watch and critique my process."
+::: {.panel-tabset}
 
-Then conduct a live conversation with the AI projected on screen. Students observe and analyse your performance in real-time.
+## Business & Marketing
+> "Today we're learning about customer needs analysis. Let me show you something interesting. I'm going to ask an AI to role-play a demanding customer with objections, and I want you to watch and critique my sales approach." Conduct a live negotiation with the AI projected on screen.
+
+## Management
+> "Today we're learning about change leadership. I'm going to ask an AI to role-play a resistant employee, and I want you to watch and critique how I communicate the change." Conduct a live conversation with the AI.
+
+## Human Resources
+> "Today we're learning about fair hiring practices. I'm going to ask an AI to role-play a candidate, and I want you to watch and critique my interview technique for bias." Conduct a live interview with the AI projected.
+
+## Tourism & Hospitality
+> "Today we're learning about service recovery. I'm going to ask an AI to role-play an upset guest, and I want you to watch and critique how I handle the complaint." Conduct a live service interaction with the AI.
+
+## Supply Chain & Logistics
+> "Today we're learning about supply chain disruption response. I'm going to ask an AI to role-play a supplier with a major problem, and I want you to watch and critique my decision-making." Conduct a live negotiation with the AI.
+
+## Information Systems
+> "Today we're learning about requirements gathering. I'm going to ask an AI to role-play a stakeholder with unclear needs, and I want you to watch and critique how I elicit requirements." Conduct a live requirements session with the AI.
+
+## Accounting & Finance
+> "Today we're learning about audit judgment. I'm going to ask an AI to role-play a questionable accounting treatment, and I want you to watch and critique my skepticism and analysis." Conduct a live audit discussion with the AI.
+
+## Economics
+> "Today we're learning about economic policy analysis. I'm going to ask an AI to role-play a policymaker challenging my recommendation, and I want you to watch and critique my reasoning." Conduct a live policy discussion with the AI.
+
+:::
 
 **Follow-up:**
 - Ask students: "What did I do well? What did I miss?"
@@ -125,20 +253,61 @@ Then conduct a live conversation with the AI projected on screen. Students obser
 
 Assign a short, reflective writing task where students *experiment with* AI rather than complete a traditional assignment.
 
-**Example assignment:**
+**Discipline-specific reflection assignments:**
 
-> **Assignment: Exploring AI as an HR Tool (5% of grade)**
->
-> **Task:**
-> 1. Choose one HR skill we've covered this semester (e.g., conducting an investigation, drafting a policy, analysing turnover data)
-> 2. Use an AI tool (ChatGPT, Claude, or similar) to help you practice or analyse that skill
-> 3. Write a 500-word reflection answering:
->    - What task did you ask the AI to help with?
->    - What was useful about the AI's response?
->    - What was wrong, missing, or oversimplified in the AI's response?
->    - How would you use (or not use) AI for this kind of task in professional practice?
->
-> **Grading:** You're being graded on your critical reflection, not on the AI's performance. Honest critique of AI's limitations will score higher than uncritical praise.
+::: {.panel-tabset}
+
+## Business & Marketing
+> **Assignment: AI for Market Analysis (5% of grade)**
+> 1. Choose one market analysis skill we've covered (competitive analysis, customer segmentation, positioning strategy)
+> 2. Use an AI tool to help you practice or analyze that skill
+> 3. Write a 500-word reflection: What task did you ask AI to help with? What was useful? What was wrong or oversimplified? How would you use AI professionally?
+
+## Management
+> **Assignment: AI for Organizational Analysis (5% of grade)**
+> 1. Choose one management skill we've covered (change analysis, stakeholder mapping, decision-making)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What was useful about AI? What did AI miss about organizational complexity? How would you apply this professionally?
+
+## Human Resources
+> **Assignment: AI as an HR Tool (5% of grade)**
+> 1. Choose one HR skill we've covered (recruitment, performance management, employee relations)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What was useful? What was wrong or risky about AI's approach? How would you use AI responsibly as an HR professional?
+
+## Tourism & Hospitality
+> **Assignment: AI for Service Management (5% of grade)**
+> 1. Choose one service skill we've covered (guest handling, service recovery, experience design)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What did AI get right? What missed the human element of service? How would you use AI in hospitality?
+
+## Supply Chain & Logistics
+> **Assignment: AI for Supply Chain Analysis (5% of grade)**
+> 1. Choose one supply chain skill we've covered (demand forecasting, network design, disruption response)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What was useful? What constraints did AI miss? How would you apply AI professionally?
+
+## Information Systems
+> **Assignment: AI for Systems Analysis (5% of grade)**
+> 1. Choose one IT skill we've covered (requirements gathering, project planning, risk analysis)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What was useful? What was technically unrealistic? How would you use AI in IT practice?
+
+## Accounting & Finance
+> **Assignment: AI for Financial Analysis (5% of grade)**
+> 1. Choose one accounting/finance skill we've covered (analysis, audit, valuation)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What was useful? What was inaccurate or risky? How would you use AI professionally while maintaining standards?
+
+## Economics
+> **Assignment: AI for Economic Analysis (5% of grade)**
+> 1. Choose one economics skill we've covered (forecasting, policy analysis, modeling)
+> 2. Use an AI tool to help you practice that skill
+> 3. Write a 500-word reflection: What assumptions did AI make? What did it get wrong? How would you use AI in economic analysis professionally?
+
+:::
+
+**Grading:** You're being graded on your critical reflection, not on the AI's performance. Honest critique of AI's limitations will score higher than uncritical praise.
 
 **Why this works:**
 - Low stakes (only 5% of grade)
@@ -199,11 +368,38 @@ If you're ready to redesign an entire unit from the ground up rather than piloti
 
 **Dedicate 15-20 minutes of class time to:**
 
-1. **Explain the "why"**
-   > "We're trying something new with this assignment because I want you to practice professional skills, not just write about them. In HR work, you'll use AI tools, so learning to use them critically is part of your education."
+1. **Explain the "why"—discipline-specific language:**
+
+::: {.panel-tabset}
+
+## Business & Marketing
+> "We're trying something new because I want you to practice real business skills—customer analysis, persuasion, strategy—not just write about them. In professional marketing, you'll use AI for analysis and insights, so learning to use AI critically is part of your education."
+
+## Management
+> "We're trying something new because I want you to practice real management challenges—stakeholder navigation, change communication, decision-making—not just theorize about them. Managers use AI for analysis and planning, so learning to use it critically matters."
+
+## Human Resources
+> "We're trying something new because I want you to practice actual HR skills—interviewing, problem-solving, fair judgment—not just describe processes. In HR work, you'll use AI tools, so learning to use them responsibly is part of your professional practice."
+
+## Tourism & Hospitality
+> "We're trying something new because I want you to practice real service scenarios—guest handling, recovery, experience design—not just learn theory. In hospitality management, you'll use AI for operations and guests, so understanding it critically matters."
+
+## Supply Chain & Logistics
+> "We're trying something new because I want you to practice actual supply chain decisions—under uncertainty, with constraints, with real consequences—not just solve textbook problems. Supply chain professionals use AI for forecasting and optimization, so learning to use it critically is essential."
+
+## Information Systems
+> "We're trying something new because I want you to practice real IT challenges—requirements, scope management, technical trade-offs—not just memorize methodology. IT professionals use AI extensively, so learning to use it critically for code and analysis is part of your skill set."
+
+## Accounting & Finance
+> "We're trying something new because I want you to practice real accounting judgment—analysis, professional skepticism, complex treatment decisions—not just follow rules. Finance professionals use AI for analysis, so learning to use it critically while maintaining standards is important."
+
+## Economics
+> "We're trying something new because I want you to practice real economic analysis—policy reasoning, modeling, evidence evaluation—not just recite theory. Economists use AI for research and analysis, so learning to use it critically for your work is essential."
+
+:::
 
 2. **Address the anxiety**
-   > "Some of you might be worried this is too technical—it's not. If you can copy and paste text, you can do this assignment. Some of you might be thinking this makes things easier—actually, it makes things harder, because I'm assessing your thinking process, not just your final answer."
+   > "Some of you might be worried this is too technical—it's not. If you can copy and paste text, you can do this assignment. Some of you might be thinking this makes things easier—actually, it makes things harder, because I'm assessing your thinking process and professional judgment, not just your final answer."
 
 3. **Do a live demo**
    - Show exactly how to access the AI tool
@@ -254,17 +450,107 @@ If you're ready to redesign an entire unit from the ground up rather than piloti
 
 **Time-saving tip:** Use AI itself to help with initial feedback:
 
-**Your prompt to AI:**
-```
-You are assisting with grading. Review this student's submission against
-the rubric [paste rubric]. Provide an initial assessment and draft
-feedback comments.
+**Your prompt to AI—discipline-specific version:**
 
-I will review your assessment and make final decisions—do not assign
-final grades, just provide recommendations.
+::: {.panel-tabset}
+
+## Business & Marketing
+```
+You are assisting with grading market strategy assignments. Review this
+student's competitive positioning analysis against the rubric [paste rubric].
+Assess whether they demonstrated sound market analysis, valid assumptions,
+and strategic thinking. Provide an initial assessment and draft feedback.
+
+I will review your assessment and make final decisions.
 
 [paste student work]
 ```
+
+## Management
+```
+You are assisting with grading change management plans. Review this
+student's stakeholder engagement strategy against the rubric [paste rubric].
+Assess whether they demonstrated understanding of complexity, stakeholder
+perspective, and communication strategy. Provide an initial assessment.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+## Human Resources
+```
+You are assisting with grading HR problem-solving assignments. Review this
+student's solution against the rubric [paste rubric]. Assess whether they
+demonstrated legal compliance awareness, employee perspective, and fair judgment.
+Provide an initial assessment and draft feedback.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+## Tourism & Hospitality
+```
+You are assisting with grading service management cases. Review this
+student's proposed solution against the rubric [paste rubric]. Assess whether
+they demonstrated understanding of guest experience, service recovery principles,
+and operational feasibility. Provide an initial assessment.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+## Supply Chain & Logistics
+```
+You are assisting with grading supply chain analysis. Review this
+student's solution against the rubric [paste rubric]. Assess whether they
+demonstrated understanding of constraints, trade-offs, risk, and resilience.
+Provide an initial assessment and draft feedback.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+## Information Systems
+```
+You are assisting with grading IT project plans. Review this
+student's plan against the rubric [paste rubric]. Assess whether they
+demonstrated scope management, technical feasibility, and stakeholder
+awareness. Provide an initial assessment and draft feedback.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+## Accounting & Finance
+```
+You are assisting with grading financial analysis assignments. Review this
+student's analysis against the rubric [paste rubric]. Assess whether they
+demonstrated professional judgment, compliance awareness, and accounting
+accuracy. Provide an initial assessment and draft feedback.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+## Economics
+```
+You are assisting with grading economic policy recommendations. Review this
+student's analysis against the rubric [paste rubric]. Assess whether they
+demonstrated understanding of competing models, evidence quality, and
+stakeholder trade-offs. Provide an initial assessment and draft feedback.
+
+I will review your assessment and make final decisions.
+
+[paste student work]
+```
+
+:::
 
 Then you review AI's suggestions, adjust where needed, and add your own judgment. This can cut grading time by 30-40%.
 
@@ -276,14 +562,76 @@ After students submit the pilot assessment, collect structured feedback.
 
 ### Student Survey (5 minutes for students to complete)
 
-**Questions to ask:**
+**Questions to ask—select those relevant to your discipline:**
 
-1. How useful was AI for learning in this assignment? (1-5 scale)
-2. What worked well about using AI for this task?
+::: {.panel-tabset}
+
+## Business & Marketing
+1. How useful was AI for practicing market analysis skills? (1-5 scale)
+2. What worked well about using AI for competitive strategy?
 3. What was confusing or frustrating?
-4. Would you want to use AI in future assignments? Why or why not?
-5. Do you feel this assignment helped you develop practical HR skills? (1-5 scale)
-6. Any other comments or suggestions?
+4. Would you use AI tools for market analysis in your career?
+5. Did this assignment help you develop practical business skills? (1-5 scale)
+6. Any comments on using AI for strategy work?
+
+## Management
+1. How useful was AI for practicing management skills? (1-5 scale)
+2. What worked well about using AI for organizational challenges?
+3. What was confusing or frustrating?
+4. Would you use AI for management analysis in your career?
+5. Did this assignment help you develop practical management skills? (1-5 scale)
+6. Any comments on using AI for organizational work?
+
+## Human Resources
+1. How useful was AI for practicing HR skills? (1-5 scale)
+2. What worked well about using AI for HR scenarios?
+3. What was confusing or frustrating?
+4. Would you use AI tools as an HR professional?
+5. Did this assignment help you develop practical HR skills? (1-5 scale)
+6. Any comments on using AI in HR practice?
+
+## Tourism & Hospitality
+1. How useful was AI for practicing hospitality management? (1-5 scale)
+2. What worked well about using AI for service scenarios?
+3. What was confusing or frustrating?
+4. Would you use AI in hospitality management?
+5. Did this help you develop practical service skills? (1-5 scale)
+6. Any comments on using AI in hospitality?
+
+## Supply Chain & Logistics
+1. How useful was AI for supply chain analysis? (1-5 scale)
+2. What worked well about using AI for supply chain problems?
+3. What was confusing or frustrating?
+4. Would you use AI as a supply chain professional?
+5. Did this help you develop practical supply chain skills? (1-5 scale)
+6. Any comments on using AI for supply chain work?
+
+## Information Systems
+1. How useful was AI for IT project work? (1-5 scale)
+2. What worked well about using AI for IT scenarios?
+3. What was confusing or frustrating?
+4. Would you use AI in IT project management?
+5. Did this help you develop practical IT skills? (1-5 scale)
+6. Any comments on using AI in information systems?
+
+## Accounting & Finance
+1. How useful was AI for financial analysis? (1-5 scale)
+2. What worked well about using AI for accounting/finance scenarios?
+3. What was confusing or frustrating?
+4. Would you use AI as an accounting/finance professional?
+5. Did this help you develop practical finance skills? (1-5 scale)
+6. Any comments on using AI in accounting/finance?
+
+## Economics
+1. How useful was AI for economic analysis? (1-5 scale)
+2. What worked well about using AI for economics?
+3. What was confusing or frustrating?
+4. Would you use AI as an economist?
+5. Did this help you develop practical economics skills? (1-5 scale)
+6. Any comments on using AI in economic analysis?
+
+:::
+
 
 ### Self-Reflection Questions (For You)
 
@@ -343,13 +691,40 @@ Make your existing AI assignment more sophisticated:
 
 **"This is unfair—I didn't sign up for an AI class"**
 
-**Response:**
-> "I understand this is different. But in HR work, you'll use AI tools whether you like them or not. My job is to prepare you for professional practice, and that now includes knowing when and how to use AI responsibly. I'm not asking you to become an AI expert—just to be a critical user."
+**Response—discipline-specific version:**
+
+::: {.panel-tabset}
+
+## Business & Marketing
+> "I understand this is different. But in marketing work, you'll use AI tools for analysis, forecasting, and customer insights. My job is to prepare you for professional practice, and that now includes knowing when and how to use AI responsibly for market work. You don't need to become an AI expert—just a critical user."
+
+## Management
+> "I understand this is different. But in management, you'll use AI for organizational analysis and decision support. My job is to prepare you for professional practice where AI is a standard tool. I'm not asking you to become a tech expert—just to understand AI's role in organizational work."
+
+## Human Resources
+> "I understand this is different. But in HR work, you'll use AI tools in recruitment, analytics, and decision support. My job is to prepare you for professional practice, and that includes knowing when and how to use AI responsibly. You don't become an AI expert—just a critical, ethical user."
+
+## Tourism & Hospitality
+> "I understand this is different. But in hospitality management, you'll use AI for operations and guest analytics. My job is to prepare you for professional practice where AI is increasingly common. I'm not asking you to become tech-savvy—just to understand AI's role critically."
+
+## Supply Chain & Logistics
+> "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimization, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist—just know how to use and evaluate AI tools."
+
+## Information Systems
+> "I understand this is different. But IT professionals use AI extensively for code, analysis, and systems work. My job is to prepare you for professional practice where AI literacy is essential. You don't need to become a machine learning expert—just know how to use AI tools critically."
+
+## Accounting & Finance
+> "I understand this is different. But finance professionals use AI for analysis, forecasting, and risk assessment. My job is to prepare you for professional practice where AI tools are standard. You don't need to be a programmer—just know how to use and validate AI outputs."
+
+## Economics
+> "I understand this is different. But economists use AI for research, forecasting, and policy analysis. My job is to prepare you for professional practice in an AI-integrated field. You don't need to be a computer scientist—just a critical user of AI tools."
+
+:::
 
 **"I don't trust AI / I think AI is unethical"**
 
 **Response:**
-> "That's actually a valuable perspective. This assignment is a chance for you to critically evaluate AI's limitations and biases. In fact, students who identify what AI gets wrong often score highest, because that demonstrates critical thinking. You don't have to like AI—you just need to understand it."
+> "That's actually a valuable perspective. This assignment is a chance for you to critically evaluate AI's limitations and biases in your field. Students who identify what AI gets wrong often score highest, because that demonstrates critical thinking. You don't have to like AI—you just need to understand it and use it responsibly."
 
 ### Challenge 2: Resistance from Colleagues
 
@@ -409,7 +784,7 @@ How do you know if this is working? Look for these indicators:
 - Higher quality of work on related assessments
 - Students citing practical experiences ("when I practiced the conversation simulation...") in reflections
 - Fewer students making basic procedural errors
-- More sophisticated understanding of HR complexity
+- More sophisticated understanding of discipline-specific complexity (organizational dynamics, market forces, supply chain trade-offs, etc.)
 
 **Student engagement:**
 - Students asking for more AI-enhanced activities

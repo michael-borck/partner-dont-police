@@ -2,19 +2,19 @@
 
 ## The Fundamental Question
 
-What are you really trying to assess in HR education?
+What are you really trying to assess in business education?
 
-**Traditional approach:** Can the student define procedural fairness? Can they list the steps in a disciplinary process? Can they identify relevant legislation?
+**Traditional approach:** Can the student define key concepts? Can they list the steps in a process? Can they identify relevant frameworks or regulations?
 
 **This is assessing product—the knowledge artifact.**
 
-**Process-based approach:** Watch the student conduct a disciplinary meeting. Did they *actually demonstrate* procedural fairness? Did they follow the correct process? Did they apply the legislation appropriately in real-time?
+**Process-based approach:** Watch the student conduct a professional task (negotiation, analysis, consultation, design). Did they *actually demonstrate* the competency? Did they follow sound methodology? Did they apply frameworks appropriately in real-time?
 
 **This is assessing process—the professional methodology.**
 
-The difference matters enormously. A student can memorize the definition of "active listening" and still conduct a terrible investigation interview. They can recite employment law and still make decisions that expose an organisation to legal risk.
+The difference matters enormously. A student can memorize definitions and still conduct a terrible negotiation. They can recite frameworks and still make decisions that expose an organization to risk.
 
-**HR is a process profession.** The value lies not in what you know, but in what you *do* with what you know—how you investigate, how you communicate, how you analyse evidence, how you make decisions under uncertainty.
+**Professional work is a process discipline.** The value lies not in what you know, but in what you *do* with what you know—how you investigate, how you communicate, how you analyse evidence, how you make decisions under uncertainty.
 
 AI makes it possible, for the first time, to assess process at scale.
 
@@ -420,7 +420,7 @@ These assessments are more cognitively demanding than traditional exams. Student
 
 ### Align with Professional Standards
 
-Where possible, connect your assessment criteria to professional HR standards or competency frameworks. This helps students see the real-world relevance.
+Where possible, connect your assessment criteria to professional standards or competency frameworks in your discipline. This helps students see the real-world relevance.
 
 ### Use AI for Initial Review (Optional)
 
@@ -428,15 +428,15 @@ You can use AI to do a first-pass review of student submissions, then you review
 
 **Lecturer prompt:**
 ```
-You are assisting with grading a student's HR consultation transcript.
+You are assisting with grading a student's professional submission (conversation transcript, analysis, portfolio, etc.).
 
-Review the transcript against these criteria:
+Review the submission against these criteria:
 [paste your rubric]
 
 Provide an initial assessment and score. Identify strengths and weaknesses.
 I will review your assessment and make the final grading decision.
 
-[paste student transcript]
+[paste student work]
 ```
 
 This can reduce your workload while maintaining quality control.
@@ -793,7 +793,7 @@ The three process-based assessment models can be adapted for any business discip
 
 ## Your Action Step
 
-Before Chapter 8, choose one assessment in your current curriculum that could be redesigned using one of these models:
+Before the next chapter, choose one assessment in your current curriculum that could be redesigned using one of these models:
 
 1. **Identify the assessment** (exam question, essay, case study, etc.)
 2. **Identify what you're really trying to measure** (knowledge recall? professional judgment? process skill?)
@@ -804,4 +804,4 @@ You don't have to implement it immediately—just think through how the shift fr
 
 ---
 
-**Next Chapter Preview:** In Chapter 8, we get practical about implementation. You'll learn how to introduce these ideas to your students, pilot AI-enhanced assignments without overwhelming yourself, gather feedback, iterate, and gradually build confidence with these new approaches. This chapter is all about managing change—for yourself and for your students.
+**Next Chapter Preview:** In the next chapter, we get practical about implementation. You'll learn how to introduce these ideas to your students, pilot AI-enhanced assignments without overwhelming yourself, gather feedback, iterate, and gradually build confidence with these new approaches. This chapter is all about managing change—for yourself and for your students.

@@ -2,23 +2,28 @@
 
 ## How to Use This Appendix
 
-This is your copy-paste resource. Each prompt in this library has been designed for HR education and is ready to use immediately. Simply:
+This is your copy-paste resource. Each prompt in this library has been designed for business education and is ready to use immediately. Simply:
 
-1. **Find the prompt that matches your need**
-2. **Copy the entire prompt**
-3. **Customize the bracketed sections [like this] with your specific content**
-4. **Paste into ChatGPT, Claude, or your preferred AI tool**
+1. **Find the prompt that matches your need** (browse Section 1-5 or go to the Cross-Discipline Adaptations section at the end)
+2. **Choose the discipline-specific version** or adapt the HR example to your field
+3. **Copy the entire prompt**
+4. **Customize the bracketed sections [like this] with your specific content**
+5. **Paste into ChatGPT, Claude, or your preferred AI tool**
 
 The prompts are organised by purpose:
 - **Section 1:** Content Generation (for creating teaching materials)
 - **Section 2:** Conversation Simulations (for role-play scenarios)
 - **Section 3:** Assessment and Critique (for providing feedback)
 - **Section 4:** Student Self-Assessment (for students to use directly)
-- **Section 5:** Ethical Analysis (for exploring AI issues in HR)
+- **Section 5:** Ethical Analysis (for exploring AI issues in your discipline)
+- **Section 6:** Research and Postgraduate Prompts (for research support)
+- **Cross-Discipline Adaptations:** Complete examples adapted for Marketing, Accounting, Business Analytics, Tourism & Hospitality, Information Systems, and Management
 
 ---
 
 ## Section 1: Content Generation Prompts
+
+**Note:** The examples below show HR-specific prompts. For discipline-specific versions (Marketing, Accounting, Management, etc.), see the Cross-Discipline Adaptations section at the end of this appendix.
 
 ### 1.1 Case Study Generator
 
@@ -1440,11 +1445,14 @@ Begin your feedback.
 ## Final Notes
 
 This prompt library will grow as you experiment. Treat it as a living document:
-- Add successful prompts you create
+- Add successful prompts you create (adapted for your discipline)
 - Note which prompts work well with specific student cohorts
-- Share effective prompts with colleagues
+- Share effective prompts with colleagues in your field
 - Refine based on student feedback
+- Document discipline-specific adaptations that work particularly well
 
-The goal isn't to find the "perfect" prompt—it's to build a collection of reliable tools that make your teaching more effective and your students' learning more engaging.
+The goal isn't to find the "perfect" prompt—it's to build a collection of reliable tools that make your teaching more effective and your students' learning more engaging, tailored to your discipline.
+
+**Remember:** These prompts are starting points. The best prompts you'll use are the ones you customize and refine based on your specific students, learning objectives, and disciplinary context.
 
 **Good luck, and happy prompting!**

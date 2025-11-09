@@ -1,10 +1,10 @@
 # One-Hour Faculty Workshop Guide
 
 ## Workshop Title
-**"AI as a Teaching Partner: Practical Applications for HR Education"**
+**"AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education"**
 
 ## Target Audience
-HR lecturers and faculty members who want to understand how AI can enhance their teaching, particularly those with limited technical experience.
+Business faculty members across all disciplines (HR, Marketing, Accounting, Management, Tourism & Hospitality, Supply Chain, Information Systems, Economics) who want to understand how AI can enhance their teaching, particularly those with limited technical experience.
 
 ## Workshop Goals
 
@@ -45,14 +45,46 @@ By the end of this 60-minute session, participants will:
 ### Segment 1: Opening and Context (10 minutes)
 
 **Slide 1: Title Slide**
-"AI as a Teaching Partner: Practical Applications for HR Education"
+"AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education"
 
 **Slide 2: The Challenge We Face**
 
-Show this scenario:
+Show a scenario relevant to your discipline:
+
+::: {.panel-tabset}
+
+## HR
 > "You have 60 students. They all need practice with difficult conversations—disciplinary meetings, investigation interviews, conflict resolution. Traditional role-play allows 5 students to practice per 2-hour session. It would take 12 weeks to give everyone one turn.
 >
 > **What if every student could practice 10 times before the real assessment?**"
+
+## Marketing
+> "You have 60 students. They all need practice with customer negotiations and competitive analysis. Traditional case study allows whole-class analysis but limited individual practice.
+>
+> **What if every student could practice pitching to difficult customers 10 times before their real assessment?**"
+
+## Management
+> "You have 60 students. They all need practice with change management and stakeholder negotiation. Traditional simulations require extensive preparation.
+>
+> **What if every student could practice managing resistance 10 times before their actual project?**"
+
+## Accounting & Finance
+> "You have 60 students. They all need practice with audit judgment and financial analysis. Traditional case studies are static and passive.
+>
+> **What if every student could practice financial decision-making 10 times before real assessments?**"
+
+## Supply Chain & Logistics
+> "You have 60 students. They all need practice with supply disruption decisions and supplier negotiations. Real-world scenarios are limited.
+>
+> **What if every student could practice crisis response 10 times before they face real situations?**"
+
+## Information Systems
+> "You have 60 students. They all need practice with requirements gathering and stakeholder management. IT projects are unpredictable and rare.
+>
+> **What if every student could practice managing difficult implementations 10 times before real projects?**"
+
+:::
+
 
 **Key message:** AI isn't about replacing teaching—it's about scaling things we know work but can't do for everyone.
 
@@ -86,7 +118,11 @@ Write a case study about HR.
 **Say:**
 > "This is what happens when we're vague. The AI has to guess what we want. Now watch what happens when we're specific."
 
-*Good Prompt:*
+*Good Prompt (Discipline-Specific Example):*
+
+::: {.panel-tabset}
+
+## HR
 ```
 You are an expert lecturer in Human Resource Management.
 
@@ -99,6 +135,50 @@ Include 3 discussion questions that require critical analysis.
 
 Begin.
 ```
+
+## Marketing
+```
+You are an expert lecturer in Marketing.
+
+Create a 400-word case study for third-year undergraduate students about a
+brand crisis and competitive response. The scenario should involve a marketing
+failure and require students to apply competitive strategy and crisis management
+theory.
+
+Include 3 discussion questions that require critical analysis.
+
+Begin.
+```
+
+## Accounting
+```
+You are an expert lecturer in Accounting.
+
+Create a 400-word case study for third-year undergraduate students about a
+financial reporting dilemma. The scenario should involve ambiguous accounting
+treatment and require students to apply relevant standards and professional
+judgment.
+
+Include 3 discussion questions that require critical analysis.
+
+Begin.
+```
+
+## Management
+```
+You are an expert lecturer in Management.
+
+Create a 400-word case study for third-year undergraduate students about a
+change management challenge. The scenario should involve stakeholder resistance
+and require students to apply leadership and organizational change theory.
+
+Include 3 discussion questions that require critical analysis.
+
+Begin.
+```
+
+:::
+
 
 **Type it live. Show the much better result.**
 
@@ -272,7 +352,7 @@ Here is the student's response:
 
 ---
 
-### **QUICK START GUIDE: AI IN HR TEACHING**
+### **QUICK START GUIDE: AI IN BUSINESS TEACHING**
 
 **What you need:**
 - ChatGPT (chat.openai.com) or Claude (claude.ai) – both have free versions
@@ -281,23 +361,25 @@ Here is the student's response:
 **Basic Prompt Template:**
 
 ```
-You are [role: e.g., an expert HR lecturer].
+You are [role: e.g., an expert lecturer in YOUR DISCIPLINE].
 
-I need you to [specific task: e.g., create a case study, role-play an
-employee, evaluate a student response] for my [audience: e.g., third-year
+I need you to [specific task: e.g., create a case study, role-play a client,
+evaluate a student response] for my [audience: e.g., third-year
 undergraduate students].
 
 Requirements:
 - [Requirement 1: e.g., 400 words]
-- [Requirement 2: e.g., focus on performance management]
-- [Requirement 3: e.g., include legal considerations]
+- [Requirement 2: e.g., focus on YOUR DISCIPLINE-SPECIFIC TOPIC]
+- [Requirement 3: e.g., include relevant considerations for your field]
 
 Begin.
 ```
 
-**Three starter prompts to try:**
+**Three starter prompts to try (choose the one matching your discipline):**
 
-**1. Generate a Case Study:**
+::: {.panel-tabset}
+
+## HR
 ```
 You are an expert HR lecturer. Create a 400-word case study for
 undergraduate students about a workplace conflict involving alleged
@@ -305,17 +387,41 @@ discrimination. Set it in an Australian context. Include 3 discussion
 questions requiring critical analysis. Begin.
 ```
 
-**2. Create a Role-Play Persona:**
+## Marketing
 ```
-You are a customer service employee who believes you've been unfairly
-criticized by your manager. You're defensive but professional. I am the HR
-representative meeting with you to investigate. Stay in character. I'll
-start: "Thank you for meeting with me today..."
+You are an expert Marketing lecturer. Create a 400-word case study for
+undergraduate students about a brand crisis and competitive response.
+Focus on marketing strategy and customer perception. Include 3 discussion
+questions requiring critical analysis. Begin.
 ```
 
-**3. Generate Feedback on Student Work:**
+## Accounting
 ```
-You are an HR lecturer. Evaluate this student's case study response. Tell
+You are an expert Accounting lecturer. Create a 400-word case study for
+undergraduate students about a financial reporting dilemma with ambiguous
+accounting treatment. Include 3 discussion questions requiring critical
+analysis. Begin.
+```
+
+## Management
+```
+You are an expert Management lecturer. Create a 400-word case study for
+undergraduate students about an organizational change facing stakeholder
+resistance. Include 3 discussion questions requiring critical analysis. Begin.
+```
+
+:::
+
+**Create a Role-Play Persona:**
+```
+You are [character relevant to your discipline] who [has a realistic challenge
+or concern]. You're [emotional state]. I am the [relevant professional] meeting
+with you. Stay in character. I'll start: "[opening statement]..."
+```
+
+**Generate Feedback on Student Work:**
+```
+You are a [YOUR DISCIPLINE] lecturer. Evaluate this student's response. Tell
 them what they did well and what needs improvement. Focus on: (1) Issue
 identification, (2) Theory application, (3) Practical recommendations.
 

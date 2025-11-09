@@ -28,6 +28,8 @@ Start here, always. What should students be able to do by the end of the unit?
 
 **Note:** These outcomes don't mention AI. They describe professional competencies. AI is the *means*, not the *end*.
 
+**Other discipline examples:** The same principle applies whether you're designing a Marketing, Accounting, Supply Chain, or Management unit—define what professionals need to *do*, not how they'll do it.
+
 ---
 
 ### Step 2: Design Assessments (How Will Students Demonstrate Mastery?)
@@ -521,14 +523,14 @@ Students need to understand the pedagogical design—it helps them engage meanin
 
 > "This unit uses AI tools as part of your learning. Here's why:
 >
-> In your HR careers, you'll use AI for data analysis, policy drafting, and decision support. Our job is to prepare you to use those tools competently and ethically.
+> In your [professional field] careers, you'll use AI for analysis, strategy development, decision support, and other professional tasks. Our job is to prepare you to use those tools competently and ethically.
 >
 > You'll notice the AI activities progress across the semester:
 > - Early weeks: You'll practice basic skills in safe, low-stakes environments
 > - Mid-semester: You'll apply those skills in realistic scenarios for assessment
 > - Late semester: You'll use AI independently as a professional tool
 >
-> By the end, you'll have practiced difficult conversations dozens of times—something that would be impossible without AI. You'll also know when to trust AI, when to question it, and when human judgment must override technology.
+> By the end, you'll have practiced complex professional scenarios dozens of times—something that would be impossible without AI. You'll also know when to trust AI, when to question it, and when human judgment must override technology.
 >
 > This isn't about making your degree easier. It's about preparing you for professional practice in an AI-augmented world."
 
@@ -837,4 +839,4 @@ You can refine each semester based on what you learn.
 
 ---
 
-**Next Chapter Preview:** In Chapter 11, we shift focus to postgraduate students and research contexts. You'll learn how to use AI as a research assistant—for literature review, data analysis, research question development, and critical synthesis—while maintaining academic rigor and original thinking. This is particularly relevant for MCom students and thesis supervision.
+**Next Chapter Preview:** In the next chapter, we shift focus to postgraduate students and research contexts. You'll learn how to use AI as a research assistant—for literature review, data analysis, research question development, and critical synthesis—while maintaining academic rigor and original thinking. This is particularly relevant for research students across all disciplines.

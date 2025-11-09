@@ -1,10 +1,12 @@
-# Advanced Prompt Engineering for HR Education
+# Advanced Prompt Engineering for Business Education
 
 ## Why This Appendix Exists
 
-The main chapters focus on practical applications - what you can do tomorrow with AI in your HR teaching. This appendix is for those who want to go deeper: how to craft more sophisticated prompts that give you better control, consistency, and results.
+The main chapters focus on practical applications - what you can do tomorrow with AI in your teaching across all business disciplines. This appendix is for those who want to go deeper: how to craft more sophisticated prompts that give you better control, consistency, and results specific to your discipline.
 
 **Think of this as the "advanced techniques" section - optional but powerful once you're comfortable with the basics.**
+
+While this appendix uses HR examples, the prompting principles apply equally to marketing, accounting, management, supply chain, information systems, tourism & hospitality, economics, and other business disciplines. The underlying techniques for role definition, context management, and output control work across all professional fields.
 
 ---
 
@@ -187,9 +189,18 @@ Explain your ratings. Then write an excellent response for [new scenario].
 
 ---
 
-## HR-Specific Prompting Patterns
+## Discipline-Specific Prompting Patterns
 
-### Legal Compliance Integration
+The prompting patterns below show HR examples, but the same structures apply across business disciplines:
+
+- **Accounting**: Legal and regulatory frameworks become compliance with accounting standards (IFRS, GAAP)
+- **Marketing**: Ethical considerations become consumer protection and brand reputation management
+- **Management**: Stakeholder analysis becomes organizational hierarchy and change management considerations
+- **Supply Chain**: Risk assessment becomes logistics disruption and vendor management
+- **Information Systems**: Professional boundaries become data security and system reliability requirements
+- **Tourism & Hospitality**: Compliance integration becomes service standards and guest satisfaction regulations
+
+### Discipline-Appropriate Compliance Integration
 
 #### **Risk Assessment Framework**
 ```
@@ -502,15 +513,20 @@ Before sending any prompt, ask yourself:
 **Advanced prompt engineering isn't about complexity - it's about precision.**
 
 The techniques in this appendix help you:
-- **Get more consistent responses** through better context
-- **Maintain professional standards** with persona control
-- **Generate appropriate content** with constraints and boundaries
-- **Create educational materials** with structured formatting
-- **Save time** with templates and patterns
+- **Get more consistent responses** through better context—adapted to your discipline's terminology and frameworks
+- **Maintain professional standards** with persona control—reflecting expertise in your professional field
+- **Generate appropriate content** with constraints and boundaries—respecting discipline-specific ethical standards
+- **Create educational materials** with structured formatting—matching your discipline's learning outcomes
+- **Save time** with templates and patterns—customizable for your teaching context
 
-**Remember:** The goal is better HR education, not perfect AI prompts. Use these 
-techniques as they serve your teaching objectives.
+**Remember:** The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students' professional preparation.
+
+Adapt these HR-focused examples to your discipline by:
+1. Replacing HR terminology with your field's professional language
+2. Substituting HR frameworks with discipline-specific standards and best practices
+3. Adjusting persona definitions to match your profession's expertise areas
+4. Modifying risk and ethical considerations to reflect your field's priorities
 
 ---
 
-*Return to main chapters for practical applications, or continue experimenting with these advanced techniques as your confidence grows.*
+*Return to main chapters for practical applications, or continue experimenting with these advanced techniques as your confidence grows. Your discipline-specific expertise will make these prompts even more powerful.*

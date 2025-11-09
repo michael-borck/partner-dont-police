@@ -2,24 +2,25 @@
 
 ## The Big Idea
 
-Imagine this: Your students don't just read case studies about HR challenges—they actually work as HR professionals in a simulated company where they interact with AI-powered employees, managers, and stakeholders over weeks or even an entire semester.
+Imagine this: Your students don't just read case studies about professional challenges in their field—they actually work as professionals in a simulated company/environment where they interact with AI-powered colleagues, clients, stakeholders, and partners over weeks or even an entire semester.
 
-They receive complaints, conduct investigations, negotiate with union representatives, handle performance issues, and make strategic recommendations. Each interaction builds on previous ones. The "employees" remember past conversations. The company has policies, culture, and ongoing challenges.
+They handle real scenarios, make decisions, negotiate, solve problems, and make strategic recommendations. Each interaction builds on previous ones. The AI personas remember past conversations. The organization has policies, culture, and ongoing challenges that evolve.
 
-**This is the virtual company simulation—the most ambitious application of AI in HR education.**
+**This is the virtual company simulation—the most ambitious application of AI in business education.**
 
 It's more complex than a single conversation simulation, but it's increasingly feasible with current AI technology. This chapter will show you how to build toward this vision progressively, starting simple and adding layers of complexity.
 
 ## Why This Matters
 
-Traditional case studies are static snapshots. Students analyse what *already happened* and recommend what *should have happened*. But HR work is dynamic:
+Traditional case studies are static snapshots. Students analyse what *already happened* and recommend what *should have happened*. But professional work across all business disciplines is dynamic:
 
 - You don't get all the information at once
 - Your decisions have consequences that unfold over time
 - Stakeholders react to your actions
 - You must navigate politics, personalities, and competing priorities simultaneously
+- External events force you to adapt and reconsider strategies
 
-A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* HR work—they practice *doing* HR work in a realistic context.
+A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* professional work in their field—they practice *doing* it in a realistic context.
 
 ## The Progressive Implementation Model
 
@@ -735,15 +736,16 @@ A: Yes! Unlike traditional case studies that students might find online, AI simu
 
 ---
 
-## The Vision: HR Education Transformed
+## The Vision: Business Education Transformed
 
 Imagine your graduates leaving university having:
 
 - Conducted dozens of difficult conversations in safe, realistic environments
-- Managed complex investigations with conflicting accounts
-- Made strategic HR decisions and seen their consequences unfold
+- Managed complex scenarios with conflicting stakeholder interests
+- Made strategic decisions in their field and seen their consequences unfold
 - Practiced recovery from mistakes without real-world harm
 - Developed confidence in their professional judgment
+- Experienced emergent complexity in professional contexts
 
 This is what virtual company simulations can achieve. It's not replacing traditional teaching—it's adding a layer of experiential learning that was previously impossible at scale.
 
@@ -751,7 +753,7 @@ This is what virtual company simulations can achieve. It's not replacing traditi
 
 ## Your Action Step
 
-Before Chapter 7, decide your level of ambition:
+Before the next chapter, decide your level of ambition:
 
 **Conservative Start:** Create one Level 1 persona (single character) for a single assignment. Test it in one class.
 
@@ -763,4 +765,4 @@ Choose what feels manageable for your current teaching load and technical comfor
 
 ---
 
-**Next Chapter Preview:** In Chapter 7, we shift from "how to use AI tools" to "how to rethink assessment." We'll explore the fundamental difference between assessing **process** (professional methodology) versus **product** (theoretical knowledge), and show you three complete assessment models specifically designed for HR education: the Simulated HR Consultation, the Evidence-Based Strategic Intervention Plan, and the Competency-Based Recruitment Portfolio. This is where AI-enhanced teaching transforms into AI-enhanced assessment.
+**Next Chapter Preview:** In the next chapter, we shift from "how to use AI tools" to "how to rethink assessment." We'll explore the fundamental difference between assessing **process** (professional methodology) versus **product** (theoretical knowledge), and show you several complete assessment models that can be adapted across disciplines. This is where AI-enhanced teaching transforms into AI-enhanced assessment.

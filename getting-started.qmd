@@ -49,56 +49,191 @@ Let's see this in action.
 Open your chosen AI tool and type this exactly:
 
 ```
-Write a case study about HR.
+Write a case study about business.
 ```
 
 Hit enter and see what you get.
 
-You'll probably receive something generic—maybe a story about employee conflict or a hiring scenario. It's *fine*, but it's not particularly useful for your specific teaching needs.
+You'll probably receive something generic—maybe a story about a marketing campaign or a financial decision. It's *fine*, but it's not particularly useful for your specific teaching needs.
 
-**Why was this weak?** Because the prompt was vague. "HR" covers everything from payroll to industrial relations. "A case study" could be 100 words or 5,000 words. The AI had to guess what you wanted.
+**Why was this weak?** Because the prompt was vague. "Business" covers everything from accounting to marketing. "A case study" could be 100 words or 5,000 words. The AI had to guess what you wanted.
 
 ## Your Second Prompt: The Powerful Version
 
-Now try this. Copy and paste this entire prompt:
+Now try this. Copy and paste the prompt that matches your discipline:
 
+::: {.panel-tabset}
+
+## Business & Marketing
 ```
-You are an expert lecturer in Human Resource Management at a university level.
+You are an expert marketing lecturer at a university level.
 
-I need you to create a case study for my undergraduate students that will help them practice applying employment law to a workplace conflict.
+I need you to create a case study for my undergraduate students that will help them practice strategic market analysis and competitive positioning.
 
 Here are the requirements:
-- The scenario should involve a performance management issue where the employee claims the process was unfair
-- Include enough detail that students need to identify which legal principles apply
+- The scenario should involve a product launch decision where the company faces competitive threats
+- Include enough detail that students need to identify which market analysis principles apply
 - The scenario should be 300-400 words
-- End with three discussion questions that require students to analyse whether the employer followed procedural fairness
+- End with three discussion questions requiring students to analyse the market strategy and positioning
 
 Begin.
 ```
 
+## Management
+```
+You are an expert organizational management lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice applying change management principles to a real organizational challenge.
+
+Here are the requirements:
+- The scenario should involve organizational change where managers face stakeholder resistance
+- Include enough detail that students need to identify which change management principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse how leadership handled change effectively
+
+Begin.
+```
+
+## Human Resources
+```
+You are an expert HR lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice applying HR strategy to organizational challenges.
+
+Here are the requirements:
+- The scenario should involve a talent management or employee relations decision with legal/ethical complexity
+- Include enough detail that students need to identify which HR principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse HR decision-making and compliance
+
+Begin.
+```
+
+## Tourism & Hospitality
+```
+You are an expert hospitality management lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice customer experience management and service strategy.
+
+Here are the requirements:
+- The scenario should involve a service failure or revenue management challenge in a hospitality context
+- Include enough detail that students need to identify which service principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse service strategy and customer recovery
+
+Begin.
+```
+
+## Supply Chain & Logistics
+```
+You are an expert supply chain management lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice supply chain decision-making under uncertainty.
+
+Here are the requirements:
+- The scenario should involve a supply disruption or network optimization challenge
+- Include enough detail that students need to identify which supply chain principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse trade-offs and resilience strategies
+
+Begin.
+```
+
+## Information Systems
+```
+You are an expert IT project management lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice systems analysis and project management decision-making.
+
+Here are the requirements:
+- The scenario should involve a systems implementation challenge with scope and stakeholder complexity
+- Include enough detail that students need to identify which project management principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse technical and managerial trade-offs
+
+Begin.
+```
+
+## Accounting & Finance
+```
+You are an expert accounting and finance lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice financial analysis and professional judgment.
+
+Here are the requirements:
+- The scenario should involve a financial analysis decision with ambiguous accounting or valuation treatment
+- Include enough detail that students need to identify which accounting principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse accounting judgments and compliance
+
+Begin.
+```
+
+## Economics
+```
+You are an expert economics lecturer at a university level.
+
+I need you to create a case study for my undergraduate students that will help them practice economic analysis and policy reasoning.
+
+Here are the requirements:
+- The scenario should involve an economic policy decision with competing stakeholder interests
+- Include enough detail that students need to identify which economic principles apply
+- The scenario should be 300-400 words
+- End with three discussion questions requiring students to analyse trade-offs between economic models
+
+Begin.
+```
+
+:::
+
 Hit enter.
 
 **Notice the difference?** The AI now knows:
-- What role to adopt (expert HR lecturer)
+- What role to adopt (expert lecturer in YOUR discipline)
 - Who the audience is (undergraduate students)
-- What specific learning objective you're targeting (applying employment law)
-- What the scenario should contain (performance management + fairness claims)
+- What specific learning objective you're targeting (discipline-specific skill)
+- What the scenario should contain (field-specific challenge)
 - How long it should be (300-400 words)
 - What format you want (scenario + three discussion questions)
 
-The output should be dramatically more useful. It's tailored, specific, and ready to use in your class (with your refinement, of course).
+The output should be dramatically more useful. It's tailored to your discipline, specific, and ready to use in your class (with your refinement, of course).
 
 ## The Anatomy of a Good Prompt
 
 Let's break down what made that second prompt powerful:
 
 ### 1. **Set the Role**
-> "You are an expert lecturer in Human Resource Management..."
+> "You are an expert lecturer in Business Management..."
 
-This tells the AI what perspective to adopt. You could also say:
-- "You are an experienced HR Business Partner coaching a new manager"
-- "You are a union representative negotiating with management"
-- "You are a frustrated employee who believes they've been unfairly treated"
+This tells the AI what perspective to adopt. Effective roles depend on your discipline:
+
+::: {.panel-tabset}
+
+## Business & Marketing
+"You are an experienced marketing director launching a new product" or "You are a market research analyst evaluating competitive positioning"
+
+## Management
+"You are a senior manager navigating organizational change" or "You are an executive coach helping with team dynamics"
+
+## Human Resources
+"You are an HR business partner handling sensitive employee situations" or "You are a recruitment specialist evaluating candidate fit"
+
+## Tourism & Hospitality
+"You are a hotel general manager managing service delivery" or "You are a guest services trainer improving customer experience"
+
+## Supply Chain & Logistics
+"You are a supply chain manager handling network optimization" or "You are a logistics director managing disruption"
+
+## Information Systems
+"You are an IT project manager implementing enterprise systems" or "You are a systems analyst gathering requirements"
+
+## Accounting & Finance
+"You are an auditor evaluating financial statements" or "You are a financial analyst making investment recommendations"
+
+## Economics
+"You are an economist advising on policy decisions" or "You are a researcher analyzing economic trends"
+
+:::
 
 The role shapes the tone, vocabulary, and approach of the response.
 
@@ -108,9 +243,9 @@ The role shapes the tone, vocabulary, and approach of the response.
 Who is this for? What's the purpose? This prevents the AI from pitching the content at the wrong level (too simple for postgrads, too complex for first-years).
 
 ### 3. **Specify the Task Clearly**
-> "...that will help them practice applying employment law to a workplace conflict."
+> "...that will help them practice applying strategic decision-making to a business challenge."
 
-What exactly do you want? Don't just say "write something about employment law." Say what the student should *do* with it.
+What exactly do you want? Don't just say "write something about business strategy." Say what the student should *do* with it.
 
 ### 4. **Provide Constraints and Requirements**
 > "The scenario should involve..." "Include enough detail..." "300-400 words..." "End with three discussion questions..."
@@ -124,7 +259,7 @@ This tells the AI to execute the task now. Simple, but effective.
 
 ## Practice Exercise: Your Turn
 
-Now it's your turn to write a prompt from scratch. Think of something you currently teach in your HR course—a topic where you wish you had more practice materials or better scenarios.
+Now it's your turn to write a prompt from scratch. Think of something you currently teach in your business course—a topic where you wish you had more practice materials or better scenarios.
 
 Use this template:
 
@@ -143,11 +278,59 @@ Here are the requirements:
 Begin.
 ```
 
-**Example topics to try:**
-- Generate interview questions for a recruitment consultant role
-- Create a dialogue showing poor conflict resolution that students must critique
-- Draft a policy outline for flexible work arrangements with deliberate gaps students must identify
-- Write a performance review conversation that contains multiple communication errors
+**Example topics to try—pick one from your discipline:**
+
+::: {.panel-tabset}
+
+## Business & Marketing
+- Generate market analysis questions for a product launch
+- Create a customer objection scenario that students must handle
+- Draft a competitive intelligence report with bias students must identify
+- Write a customer feedback scenario requiring strategic response
+
+## Management
+- Create a team conflict scenario showing poor leadership
+- Draft a change management plan for students to evaluate
+- Generate a delegation scenario showing poor decision-making
+- Write a stakeholder meeting dialogue with communication errors
+
+## Human Resources
+- Generate interview questions with bias that students must identify
+- Create a termination scenario showing poor HR judgment
+- Draft a performance management conversation with legal risks
+- Write an employee relations scenario requiring ethical judgment
+
+## Tourism & Hospitality
+- Generate demanding guest scenarios students must handle
+- Create a service recovery situation showing poor response
+- Draft a revenue management decision students must evaluate
+- Write a cultural sensitivity scenario for hospitality context
+
+## Supply Chain & Logistics
+- Generate demand disruption scenarios with trade-offs
+- Create a supplier negotiation dialogue students must evaluate
+- Draft an inventory optimization problem with constraints
+- Write a logistics crisis scenario requiring real-time decisions
+
+## Information Systems
+- Generate stakeholder requirement scenarios with conflicts
+- Create a project scope creep situation students must manage
+- Draft a systems implementation plan with risks students must identify
+- Write a technical trade-off scenario requiring judgment
+
+## Accounting & Finance
+- Generate financial statements with accounting errors to find
+- Create a valuation decision with ambiguous treatments
+- Draft an audit report with missed red flags
+- Write a fraud detection scenario students must analyze
+
+## Economics
+- Generate economic policy scenarios with competing interests
+- Create a market analysis with model disagreements
+- Draft an economic forecast students must evaluate
+- Write a trade-off scenario between economic objectives
+
+:::
 
 Type your prompt into the AI tool and see what happens.
 
@@ -174,19 +357,47 @@ As you experiment, keep these realities in mind:
 ## Troubleshooting Common Issues
 
 **"The AI gave me something too simple/complex."**
-→ Add to your prompt: "Pitch this at the level of a third-year undergraduate student" or "This is for students who already understand basic employment law."
+→ Add to your prompt: "Pitch this at the level of a third-year undergraduate student" or specify your context: "This is for students with no prior supply chain experience" or "Students already understand financial statement analysis."
 
 **"The response was too short/long."**
-→ Specify word count or structure: "Provide 500 words" or "Write exactly 5 paragraphs."
+→ Specify word count or structure: "Provide 500 words" or "Write exactly 5 paragraphs" or "Create a scenario followed by 4 discussion questions."
 
 **"It's too generic—not specific to Australia/my context."**
-→ Add context: "Set this scenario in an Australian workplace context, referencing the Fair Work Act" or "The company is based in Perth, Western Australia."
+→ Add context relevant to your discipline:
+
+::: {.panel-tabset}
+
+## Business & Marketing
+"Set this in an Australian retail context" or "Reference Australian Consumer Law and ACCC regulations"
+
+## Management
+"Set this in an Australian public sector organization" or "Reference Fair Work Act requirements"
+
+## Human Resources
+"Include Australian employment law and Fair Work Commission context" or "Reference Australian workplace discrimination law"
+
+## Tourism & Hospitality
+"Set this in an Australian hotel/tourism context" or "Reference Australian tourism industry standards"
+
+## Supply Chain
+"Set this in an Australian manufacturing context" or "Reference Australian logistics regulations"
+
+## Information Systems
+"Reference Australian Privacy Act and data protection requirements" or "Set in Australian banking context"
+
+## Accounting & Finance
+"Reference Australian Accounting Standards and ASIC rules" or "Use Australian tax law context"
+
+## Economics
+"Reference Australian economic policy and RBA context" or "Use Australian labor market data"
+
+:::
 
 **"The AI ignored part of my prompt."**
 → This happens sometimes. Just follow up: "Please revise that to include [the missing element]."
 
 **"I want to change just one part."**
-→ You can have a conversation: "Keep everything the same, but make the employee more defensive in tone" or "Add a section about cultural considerations."
+→ You can have a conversation: "Keep everything the same, but make the scenario more realistic" or "Add a section about the ethical considerations" or discipline-specific tweaks like "Include regulatory compliance issues" or "Add supply chain complexity."
 
 ## Your First Win
 
@@ -199,12 +410,51 @@ That's not a small thing. You've learned the fundamental skill that everything e
 
 ## Before You Move On
 
-Try this homework before Chapter 3:
+Try this homework before Chapter 3. Choose three prompts from your discipline:
 
-**Experiment with three different prompts:**
-1. One that generates content for your students (a case study, a scenario, a set of questions)
-2. One that asks the AI to role-play someone (an angry employee, a nervous manager, a compliance officer)
-3. One that asks the AI to analyse or critique something (feed it a sample student response or a policy and ask it to evaluate against specific criteria)
+::: {.panel-tabset}
+
+## Business & Marketing
+1. Generate market research questions for a competitor analysis
+2. Role-play a demanding customer objecting to your product pricing
+3. Analyze a marketing plan for strategic alignment and competitive position
+
+## Management
+1. Generate an organizational change scenario for students to analyze
+2. Role-play a resistant employee in a change management conversation
+3. Analyze a leadership decision for stakeholder impact
+
+## Human Resources
+1. Generate interview questions and evaluate them for bias
+2. Role-play a difficult performance management conversation
+3. Analyze an HR policy for legal compliance and fairness
+
+## Tourism & Hospitality
+1. Generate guest complaint scenarios for service recovery
+2. Role-play a demanding guest in a difficult service situation
+3. Analyze a service strategy for customer experience effectiveness
+
+## Supply Chain & Logistics
+1. Generate supply chain disruption scenarios with constraints
+2. Role-play a demanding supplier in a negotiation
+3. Analyze a logistics plan for efficiency and resilience
+
+## Information Systems
+1. Generate IT project requirements with stakeholder conflicts
+2. Role-play a demanding stakeholder with unclear needs
+3. Analyze a project plan for scope management and risk
+
+## Accounting & Finance
+1. Generate financial statements with errors for audit analysis
+2. Role-play an auditor questioning a financial treatment
+3. Analyze a valuation decision for accounting judgment
+
+## Economics
+1. Generate economic policy scenarios with trade-offs
+2. Role-play an economist presenting competing models
+3. Analyze an economic forecast for assumptions and limitations
+
+:::
 
 Get comfortable with the basic rhythm: prompt → response → refine → use.
 
@@ -212,4 +462,4 @@ The more you practice, the more natural it becomes. And the more specific your p
 
 ---
 
-**Next Chapter Preview:** In Chapter 3, you'll learn five specific prompting techniques that are perfectly suited to HR education. Each one is designed to develop a different critical thinking skill in your students: scoping problems, evaluating options, following processes, practicing conversations, and debating ethical positions. These aren't just "AI tricks"—they're pedagogical strategies that AI makes scalable.
+**Next Chapter Preview:** In Chapter 3, you'll learn several specific prompting techniques tailored to your discipline. Each technique is designed to develop a different critical thinking skill in your students. These aren't just "AI tricks"—they're pedagogical strategies that AI makes scalable.

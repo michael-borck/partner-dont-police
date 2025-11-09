@@ -2,7 +2,7 @@
 
 ## AI in Research: Promise and Peril
 
-If you teach postgraduate HR students—particularly those in the Human Resources Major (MCom) or supervising research projects—you face a distinct challenge:
+If you teach postgraduate students across business disciplines—particularly those in research-focused programs (MCom, MBA, research projects) or supervising theses—you face a distinct challenge:
 
 **How do students use AI to support research without undermining the fundamental purpose of research: original thinking, critical synthesis, and contribution to knowledge?**
 
@@ -414,13 +414,13 @@ AI frequently hallucinates citations—inventing papers that don't exist or misa
 
 ## Application 5: Research Proposal Development
 
-### Assignment: MCom Research Proposal with AI Documentation
+### Assignment: Research Proposal with AI Documentation
 
-This assignment teaches appropriate AI use while maintaining academic rigor.
+This assignment teaches appropriate AI use while maintaining academic rigor. (Can be adapted for any discipline: Marketing research, Accounting research, Management research, etc.)
 
 **Student Task:**
 
-Develop a research proposal (2500 words) for an HR research project including:
+Develop a research proposal (2500 words) for a research project in your discipline including:
 1. Research question and justification
 2. Literature review (15-20 sources)
 3. Methodology and research design
@@ -550,9 +550,9 @@ Students who've done the work can answer. Students who relied on AI can't.
 
 ---
 
-## Sample Unit: Research Methods in HR (MCom)
+## Sample Unit: Research Methods (Postgraduate)
 
-Here's how to integrate AI into a postgraduate research methods unit:
+Here's how to integrate AI into a postgraduate research methods unit (examples are discipline-agnostic but can be adapted for HR, Marketing, Accounting, Management, etc.):
 
 ### Week 1: Introduction to Research and AI
 - What is research? What makes it original?
@@ -1147,4 +1147,4 @@ Don't assume students will figure this out on their own. Teach it explicitly.
 
 ---
 
-**Next Steps:** We now have comprehensive content covering undergraduate teaching, postgraduate research, unit design, and all core applications. Next we'll expand Chapter 3 with the Formative Assessment Generator technique, then create front matter and a conclusion chapter to complete the booklet.
+**Next Chapter Preview:** In the next chapter, we explore how to make static teaching content interactive—transforming traditional lectures, readings, and materials into dynamic, AI-enhanced learning experiences. This includes live demonstrations, interactive scenarios, and engaging activities that maintain the human connection while leveraging AI's strengths.

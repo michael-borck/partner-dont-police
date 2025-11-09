@@ -1,8 +1,8 @@
-# Seven Essential Prompt Techniques for HR Teaching
+# Seven Essential Prompt Techniques for Business Teaching
 
 ## Why These Seven?
 
-These aren't random AI tricks. These are seven proven prompting techniques specifically chosen because they develop critical thinking skills that HR professionals need:
+These aren't random AI tricks. These are seven proven prompting techniques specifically chosen because they develop critical thinking skills that business professionals across all disciplines need:
 
 1. **Reverse Prompting** → Teaches comprehensive scoping and requirement gathering
 2. **Pros and Cons** → Builds analytical decision-making skills
@@ -21,8 +21,16 @@ Each technique is easy to adapt and can be used by students directly or by you t
 ### What It Does
 Instead of the student immediately solving a problem, the AI asks *them* questions to help scope out all the requirements, considerations, and potential issues. This mirrors real HR work, where defining the problem properly is half the battle.
 
-### Why It Works for HR
-HR policy and program design require thinking through multiple stakeholders, legal requirements, operational constraints, and fairness implications. This technique forces students to move beyond obvious surface issues and consider the full complexity.
+### Why It Works Across Disciplines
+Complex problem scoping is fundamental to all business disciplines. Whether designing policies, strategies, systems, or solutions, professionals must think through multiple stakeholders, constraints, legal/ethical implications, and trade-offs. This technique forces students to move beyond obvious surface issues and consider the full complexity before starting to solve.
+
+**Discipline-specific contexts:**
+- **HR:** Policy and program design with stakeholder, legal, operational, and fairness considerations
+- **Business/Marketing:** Strategy development with market, competitive, financial, and capability considerations
+- **Management:** Organizational change with stakeholder, cultural, operational, and risk considerations
+- **Supply Chain:** Network design with cost, resilience, sustainability, and operational considerations
+- **Accounting/Finance:** Audit or valuation scope with compliance, materiality, and stakeholder considerations
+- **Economics:** Policy design with trade-offs, stakeholder impacts, and evidence considerations
 
 ### The Student Prompt (Ready to Use)
 
@@ -52,10 +60,47 @@ The AI will start asking questions like:
 
 The student must think through each question before responding. By the end, they've been guided to consider fairness, logistics, legal compliance, technology needs, and cultural impact—all before drafting a single policy sentence.
 
-### Variations for Different Topics
+### Variations for Different Disciplines
+
+::: {.panel-tabset}
+
+## HR
 - "I need to design an onboarding program for graduate hires. Ask me questions to ensure I've thought through all the key elements."
 - "I'm planning a diversity and inclusion initiative. Help me identify all the stakeholders and considerations through questioning."
 - "I need to restructure our performance review process. What questions should I be asking myself to ensure it's fair and effective?"
+
+## Business & Marketing
+- "I need to develop a market entry strategy for a new geographic region. Ask me questions to help me think through all the market, competitive, and operational considerations."
+- "I'm launching a new product. Ask me questions to ensure I've scoped out the customer, competitive, and capability requirements."
+- "I need to design a customer loyalty program. What questions should I be asking to ensure it's viable and profitable?"
+
+## Management
+- "I need to plan an organizational restructure. Ask me questions to help me think through all the stakeholder, cultural, and operational impacts."
+- "I'm implementing a new management model. What questions should I ask myself about change management, training, and stakeholder readiness?"
+- "I need to design a change management strategy. Help me identify all the resistance points and engagement considerations."
+
+## Supply Chain & Logistics
+- "I need to redesign our supply chain network. Ask me questions to help me think through cost, resilience, sustainability, and service considerations."
+- "I'm evaluating a supplier consolidation strategy. What questions should I be asking about risk, quality, and financial implications?"
+- "I need to implement demand planning. Ask me questions about data, systems, and organizational capability requirements."
+
+## Information Systems
+- "I need to plan a systems implementation. Ask me questions to help me think through stakeholder requirements, technical feasibility, and change management."
+- "I'm designing an IT governance framework. What questions should I be asking about risk, compliance, and organizational adoption?"
+- "I need to scope a digital transformation initiative. Help me identify all the technical, organizational, and capability considerations."
+
+## Accounting & Finance
+- "I need to plan an audit approach for a complex client. Ask me questions to help me scope the audit scope, materiality, and key risks."
+- "I'm designing a financial reporting control system. What questions should I be asking about stakeholders, compliance, and operational constraints?"
+- "I need to evaluate a valuation approach. Ask me questions about assumptions, stakeholders, and regulatory considerations."
+
+## Economics
+- "I need to design a policy recommendation to address economic inequality. Ask me questions to help me think through trade-offs, stakeholders, and evidence."
+- "I'm analyzing an economic model. What questions should I ask about assumptions, limitations, and stakeholder impacts?"
+- "I need to scope an economic impact analysis. Help me identify all the affected parties and considerations."
+
+:::
+
 
 ### Teaching Tip
 Use this as a **pre-writing exercise**. Have students complete the AI questioning session, then require them to submit both the transcript and their subsequent policy draft. You can assess whether they actually incorporated the insights from the questions.
@@ -65,10 +110,10 @@ Use this as a **pre-writing exercise**. Have students complete the AI questionin
 ## Technique 2: Pros and Cons (for Decision Making)
 
 ### What It Does
-The AI systematically analyzes multiple approaches to an HR problem, evaluating each option against specific criteria. This develops the ability to make justified recommendations rather than just stating preferences.
+The AI systematically analyzes multiple approaches to a business problem, evaluating each option against specific criteria. This develops the ability to make justified recommendations rather than just stating preferences.
 
-### Why It Works for HR
-HR professionals constantly evaluate competing strategies—Should we outsource recruitment? Which performance model should we adopt? How should we handle redundancy? This technique builds the muscle for balanced, evidence-based decision-making.
+### Why It Works Across Disciplines
+All business professionals must evaluate competing strategies and make balanced, evidence-based recommendations. This technique builds the muscle for weighing trade-offs, considering multiple stakeholder perspectives, and justifying strategic choices.
 
 ### The Student Prompt (Ready to Use)
 
@@ -102,10 +147,47 @@ Don't let students simply accept the AI's recommendation. Require them to:
 
 This transforms the AI output from an answer into a starting point for deeper analysis.
 
-### Variations for Different Topics
+### Variations for Different Disciplines
+
+::: {.panel-tabset}
+
+## HR
 - "Compare different approaches to managing workplace conflict: mediation, formal grievance process, restorative justice. Evaluate each for speed, fairness, and relationship preservation."
 - "Analyze three different redundancy selection methods. What are the legal risks and ethical considerations of each?"
 - "What are the pros and cons of using AI-powered resume screening tools versus traditional human review?"
+
+## Business & Marketing
+- "Compare different market entry strategies: direct investment, partnership, acquisition. Evaluate each for speed to market, cost, risk, and control."
+- "Analyze different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?"
+- "What are the pros and cons of expanding through new products versus new markets?"
+
+## Management
+- "Compare different organizational structures: functional, divisional, matrix, networked. Evaluate each for agility, accountability, and collaboration."
+- "Analyze different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?"
+- "What are the pros and cons of different leadership models: directive, participative, delegative?"
+
+## Supply Chain & Logistics
+- "Compare different supply chain strategies: make-to-stock, make-to-order, mass customization. Evaluate each for cost, responsiveness, and flexibility."
+- "Analyze different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?"
+- "What are the pros and cons of vertical integration versus outsourcing key functions?"
+
+## Information Systems
+- "Compare different systems implementation approaches: big bang, phased, modular. Evaluate each for speed, risk, and user adoption."
+- "Analyze different IT governance models: centralized, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?"
+- "What are the pros and cons of cloud-based versus on-premises systems?"
+
+## Accounting & Finance
+- "Compare different valuation methods: discounted cash flow, comparable companies, precedent transactions. What are the pros and cons of each?"
+- "Analyze different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships."
+- "What are the pros and cons of different capital structure options: debt, equity, retained earnings?"
+
+## Economics
+- "Compare different policy approaches to addressing unemployment: fiscal stimulus, labor market training, labor market deregulation. Evaluate each for effectiveness, cost, and trade-offs."
+- "Analyze different economic models: Keynesian, neoclassical, behavioral. What assumptions and limitations does each have?"
+- "What are the pros and cons of different monetary policy tools: interest rates, quantitative easing, forward guidance?"
+
+:::
+
 
 ### Teaching Tip
 This technique works brilliantly for **in-class discussions**. Project the AI's analysis on screen, then divide students into groups where each group must argue for one of the models. They have to use the AI's framework but add their own reasoning.
@@ -115,10 +197,10 @@ This technique works brilliantly for **in-class discussions**. Project the AI's 
 ## Technique 3: Stepwise Chain of Thought (for Process Management)
 
 ### What It Does
-The AI walks through a complex HR process one step at a time, pausing after each step until the student signals they're ready to continue. This slows down high-stakes processes that students often rush through.
+The AI walks through a complex business process one step at a time, pausing after each step until the student signals they're ready to continue. This slows down high-stakes processes that students often rush through.
 
-### Why It Works for HR
-Many HR processes—disciplinary action, grievance handling, redundancy consultation—are legally and ethically sensitive. Students need to understand *why* each step exists and what documentation or legal considerations apply at that stage. This technique forces deliberate, sequential thinking.
+### Why It Works Across Disciplines
+Many professional processes are legally, ethically, or operationally sensitive. Students need to understand *why* each step exists and what considerations apply at that stage. This technique forces deliberate, sequential thinking and deep engagement with process logic.
 
 ### The Student Prompt (Ready to Use)
 
@@ -154,10 +236,47 @@ The AI will provide the first step:
 
 The student must actively engage with each step before progressing. This prevents them from skipping to "just fire them" without understanding the required process.
 
-### Variations for Different Topics
+### Variations for Different Disciplines
+
+::: {.panel-tabset}
+
+## HR
 - "Walk me through conducting a workplace investigation into a bullying complaint. One step at a time."
 - "Take me through the proper process for making an employee redundant in Australia. Pause after each step."
 - "Show me the recruitment process from job analysis through to onboarding, step by step with legal checkpoints."
+
+## Business & Marketing
+- "Walk me through developing a market entry strategy for a new region. Pause after each step so I can understand the rationale."
+- "Take me through the customer journey mapping process step by step, explaining the key decisions at each stage."
+- "Show me the new product development process from concept through launch, pausing to explain checkpoints and risk mitigation."
+
+## Management
+- "Walk me through conducting an organizational change initiative. Explain each step and the risk if we skip it."
+- "Take me through creating a strategic plan from situational analysis through execution. Pause after each step."
+- "Show me the merger integration process step by step, explaining what happens if we get the sequencing wrong."
+
+## Supply Chain & Logistics
+- "Walk me through designing a demand planning process. Pause after each step to explain the dependencies."
+- "Take me through establishing a supplier relationship from selection through strategic partnership. One step at a time."
+- "Show me the logistics network optimization process step by step, explaining decisions at each stage."
+
+## Information Systems
+- "Walk me through a systems implementation project from requirements through go-live. Pause after each step."
+- "Take me through the software development lifecycle step by step, explaining quality controls at each stage."
+- "Show me the IT disaster recovery process step by step, explaining what could go wrong at each stage."
+
+## Accounting & Finance
+- "Walk me through the financial close process. Explain each step and why it matters."
+- "Take me through an audit engagement from planning through audit opinion. Pause after each phase."
+- "Show me the capital budgeting process step by step, from proposal through post-implementation review."
+
+## Economics
+- "Walk me through conducting an economic impact analysis. Explain each step and the assumptions involved."
+- "Take me through developing a policy recommendation. Pause after each step to explain the reasoning."
+- "Show me how to construct an economic model from theory through validation. One step at a time."
+
+:::
+
 
 ### Teaching Tip
 This is excellent for **individual revision or exam prep**. Students can practice the process multiple times, and each time they can ask the AI to introduce complications: "In Step 3, what if the employee refuses to sign the written warning?" The AI will explain how to handle variations.
@@ -169,10 +288,10 @@ You can also use this to **generate assessment materials**: Have the AI walk thr
 ## Technique 4: Role Play (for Skill Building)
 
 ### What It Does
-The AI adopts a specific persona (an employee, a union representative, a difficult stakeholder) and engages in a realistic conversation with the student. This is the "flight simulator" concept in action.
+The AI adopts a specific persona and engages in a realistic conversation with the student. This is the "flight simulator" concept in action.
 
-### Why It Works for HR
-HR work is fundamentally conversational. Students can memorize conflict resolution theory, but until they practice *actually having* a difficult conversation where someone pushes back, gets emotional, or uses manipulative tactics, they won't develop genuine competence.
+### Why It Works Across Disciplines
+Business work is fundamentally about interaction—with clients, stakeholders, teams, and colleagues. Students can memorize theory, but until they practice *actually having* difficult conversations where others push back, get emotional, or raise objections, they won't develop genuine interpersonal competence.
 
 ### The Student Prompt (Ready to Use)
 
@@ -236,11 +355,54 @@ Begin the meeting. I will speak first.
 
 Now the student has to manage a realistic, emotionally charged scenario. They must practice de-escalation, empathy, procedural fairness, and documentation—all while the AI responds dynamically to what they say.
 
-### Variations for Different Topics
+### Variations for Different Disciplines
+
+::: {.panel-tabset}
+
+## HR
 - AI plays a union representative in an enterprise bargaining negotiation
-- AI plays a candidate in a behavioural interview who gives weak answers that need probing
+- AI plays a candidate in a behavioral interview who gives weak answers that need probing
 - AI plays a manager who resists implementing a diversity initiative
 - AI plays an employee making an informal discrimination complaint
+
+## Business & Marketing
+- AI plays a difficult customer objecting to pricing and demanding better terms
+- AI plays a competitor in a market negotiation
+- AI plays a skeptical internal stakeholder who needs to be convinced of a strategy
+- AI plays a partner company executive in a partnership negotiation
+
+## Management
+- AI plays an employee resistant to organizational change
+- AI plays a union representative in a labor negotiation
+- AI plays a direct report who is underperforming and defensive
+- AI plays a peer manager with competing priorities
+
+## Supply Chain & Logistics
+- AI plays a demanding supplier or customer
+- AI plays an internal stakeholder questioning cost cuts
+- AI plays a logistics partner with implementation concerns
+- AI plays a regulator questioning compliance
+
+## Information Systems
+- AI plays a resistant end-user during system implementation
+- AI plays a business stakeholder with changing requirements
+- AI plays a project team member questioning a technical decision
+- AI plays a vendor in a software licensing negotiation
+
+## Accounting & Finance
+- AI plays a client questioning an audit finding
+- AI plays a board member scrutinizing a financial decision
+- AI plays an internal stakeholder challenging a budget proposal
+- AI plays a regulator questioning financial reporting
+
+## Economics
+- AI plays a policymaker questioning an economic recommendation
+- AI plays a stakeholder affected by proposed policy
+- AI plays a peer economist with a competing analysis
+- AI plays a business leader concerned about economic impacts
+
+:::
+
 
 ### Teaching Tip
 **Assessment approach:** Require students to submit the full transcript of the conversation along with a reflective analysis answering:
@@ -256,10 +418,10 @@ This makes the process visible and assessable.
 ## Technique 5: Debating (for Strategic and Ethical Analysis)
 
 ### What It Does
-The AI examines multiple perspectives on a contentious HR issue, argues for and against different positions, and helps students see the complexity and trade-offs in strategic decisions.
+The AI examines multiple perspectives on a contentious issue, argues for and against different positions, and helps students see the complexity and trade-offs in strategic decisions.
 
-### Why It Works for HR
-Modern HR work exists in gray areas where legal, ethical, business, and human considerations often conflict. Students need to develop the ability to argue multiple sides of an issue before making a recommendation.
+### Why It Works Across Disciplines
+Modern business work exists in gray areas where competing legitimate perspectives exist. Whether addressing HR challenges, business strategy, operational trade-offs, financial decisions, or policy questions, professionals need to develop the ability to argue multiple sides of an issue before making a defensible recommendation.
 
 ### Variation A: Critique and Compare
 
@@ -711,11 +873,11 @@ Student must design an implementation plan that addresses all concerns.
 
 ### Why This Is Powerful
 
-Most HR teaching presents one "correct" approach. But professional practice requires navigating competing legitimate perspectives.
+Most business teaching presents one "correct" approach. But professional practice requires navigating competing legitimate perspectives.
 
 **This technique teaches:**
 - No single expert has the complete answer
-- Good HR decisions balance multiple priorities
+- Good business decisions balance multiple priorities and perspectives
 - Strategic thinking means choosing which perspective to prioritize when
 - Justification matters more than the specific choice
 - Real problems require synthesis, not just analysis
@@ -766,12 +928,12 @@ This sequence takes the student through analysis, decision-making, communication
 
 ## Your Action Step
 
-Before moving to Chapter 4, choose **one technique** from this chapter and try it yourself. Pick the one that feels most immediately useful for a topic you're currently teaching.
+Before moving to the next chapter, choose **one technique** from this chapter and try it yourself. Pick the one that feels most immediately useful for a topic you're currently teaching.
 
-Copy one of the example prompts, adapt it to your specific content, and see what happens. Get comfortable with at least one of these techniques before we move into the more complex applications in the next chapters.
+Copy one of the example prompts in your discipline's tab, adapt it to your specific content, and see what happens. Get comfortable with at least one of these techniques before we move into the more complex applications in the next chapters.
 
 Remember: these aren't just AI tools—they're pedagogical strategies. The AI just makes them scalable and available to every student, any time they want to practice.
 
 ---
 
-**Next Chapter Preview:** In Chapter 4, we'll take the Role Play technique and expand it into a full "Flight Simulator" system for HR conversations. You'll learn how to design high-fidelity simulations, structure the debrief and critique phase, and turn the entire experience into a powerful assessment tool. We'll work through a complete example from start to finish.
+**Next Chapter Preview:** In the next chapter, we'll take the Role Play technique and expand it into a full "Flight Simulator" system. You'll learn how to design high-fidelity simulations, structure the debrief and critique phase, and turn the entire experience into a powerful assessment tool. We'll work through complete examples across disciplines.

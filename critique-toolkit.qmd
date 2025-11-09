@@ -1,36 +1,72 @@
-# The AI Critique Toolkit - Becoming a Smart HR Director
+# The AI Critique Toolkit - Becoming a Smart Business Professional
 
-## Why HR Students Need Critique Skills
+## Why Business Students Need Critique Skills
 
-Imagine you just hired a brilliant but inexperienced HR assistant. They work fast, have lots of ideas, but sometimes:
+Imagine you just hired a brilliant but inexperienced analyst or consultant. They work fast, have lots of ideas, but sometimes:
 
-- Overcomplicate simple policy solutions
-- Miss important legal considerations
+- Overcomplicate simple solutions
+- Miss important legal, technical, or operational considerations
 - Write recommendations that sound good but have practical flaws
-- Make assumptions about your workplace culture or employee needs
+- Make assumptions about your workplace context, capacity, or constraints
 
-**This is exactly how AI behaves.** Your job as the HR professional is to review, question, and improve AI-generated advice before it impacts real people and real organisations.
+**This is exactly how AI behaves.** Your job as a business professional is to review, question, and improve AI-generated advice before it impacts real people and real organisations.
 
-The difference between good HR professionals and great ones isn't whether they use AI tools—it's how critically they evaluate AI outputs. In HR work, bad advice can lead to legal challenges, damaged employee relationships, and failed organisational change initiatives.
+The difference between good business professionals and great ones isn't whether they use AI tools—it's how critically they evaluate AI outputs. In professional work across all disciplines, bad advice can lead to legal challenges, damaged relationships, failed initiatives, or strategic missteps.
 
 ## The Business Impact of Uncritical AI Acceptance
 
-**Scenario**: Your AI assistant generates a new performance review policy. You implement it without thorough review and present it to management. Three months later you discover:
+**Scenario Examples Across Disciplines**:
 
-- The policy doesn't comply with Fair Work Act requirements for consultation
-- It creates unintended pay equity issues between departments
-- Managers are spending 15 hours per employee on reviews instead of 2
-- Employee satisfaction scores have dropped 20%
+::: {.panel-tabset}
 
-**Lesson**: Always critique AI-generated HR solutions before implementing them in your organisation.
+## HR
+Your AI assistant generates a new performance review policy. You implement it without thorough review. Three months later:
+- Policy doesn't comply with Fair Work Act requirements
+- Creates unintended pay equity issues
+- Managers spend 15 hours per employee instead of 2
+- Employee satisfaction drops 20%
+
+## Finance
+Your AI generates an investment recommendation. You present it to the board without validating assumptions. Later you discover:
+- Key financial assumptions were outdated
+- Risk profile didn't match your organization's tolerance
+- Tax implications weren't considered
+- Portfolio is now exposed to unexpected losses
+
+## Supply Chain
+Your AI recommends a supplier consolidation strategy. You implement without operational testing. Results:
+- Single supplier can't actually scale to your volumes
+- Quality issues emerge under real-world conditions
+- You've lost relationship with backup suppliers
+- Delivery disruptions cascade through operations
+
+## Management
+Your AI generates a change management plan. You follow it without stakeholder testing. Outcomes:
+- Key influencers weren't engaged early enough
+- Communication messaging doesn't resonate with your culture
+- Implementation timeline is unrealistic given other priorities
+- Change initiative stalls after initial enthusiasm
+
+## Marketing
+Your AI recommends a campaign strategy. You launch without market validation. Results:
+- Assumptions about target audience are incorrect
+- Budget allocation doesn't match actual customer behavior
+- Messaging alienates key segments
+- Campaign underperforms significantly
+
+:::
+
+**Lesson**: Always critique AI-generated recommendations thoroughly before implementation, regardless of discipline.
 
 ---
 
-## Your 5-Step HR Critique Framework
+## Your 5-Step Business Critique Framework
+
+This framework applies across all business disciplines:
 
 1. **Comprehension Check** - "Do I understand this completely?"
-2. **Simplicity Check** - "Is this practical for my workplace?"
-3. **Legal & Risk Check** - "What are the legal and ethical implications?"
+2. **Simplicity Check** - "Is this practical for my workplace/situation?"
+3. **Legal, Technical & Risk Check** - "What are the legal, technical, ethical, and operational implications?"
 4. **Context Check** - "What assumptions is AI making about my organisation?"
 5. **Stakeholder Check** - "How will different groups react to this?"
 
@@ -77,25 +113,55 @@ AI suggests a sophisticated 360-degree feedback system with custom software, ext
 
 ---
 
-## Step 3: Legal & Risk Check - "What are the legal and ethical implications?"
+## Step 3: Legal, Technical & Risk Check - "What are the implications?"
 
-**Red Flags**:
-- No mention of legal compliance or employment law considerations
-- Recommendations that could discriminate against certain employee groups
-- Privacy implications that aren't addressed
-- No consideration of industrial relations or union requirements
+**Red Flags** (vary by discipline):
+- No mention of compliance, legal, technical, or regulatory considerations
+- Recommendations that could harm certain groups (employees, customers, stakeholders)
+- Risk implications that aren't addressed
+- No consideration of organizational constraints or industry requirements
 
-**Your Response**:
-- "How does this comply with Fair Work Act requirements?"
-- "What are the potential discrimination risks with this approach?"
-- "What privacy considerations need to be addressed?"
-- "How would unions or employee representatives respond to this?"
+**Your Response** (discipline-specific examples):
 
-**Critical Questions to Always Ask**:
-- Does this create any adverse impact on protected groups?
-- Are we meeting our consultation obligations?
-- What happens if this goes wrong—what's our legal exposure?
-- Does this align with our industry awards and enterprise agreements?
+::: {.panel-tabset}
+
+## HR
+- "How does this comply with employment law and our awards?"
+- "What are discrimination and privacy risks?"
+- "What union/employee representative concerns might arise?"
+
+## Finance
+- "What are the tax, accounting, and audit implications?"
+- "What regulatory compliance issues need addressing?"
+- "What financial and counterparty risks exist?"
+
+## Supply Chain
+- "What are the operational and financial risks?"
+- "How does this affect compliance and sustainability?"
+- "What supply chain resilience issues exist?"
+
+## Information Systems
+- "What are the security and data protection implications?"
+- "What systems integration and technical risks exist?"
+- "What compliance standards apply (GDPR, industry-specific)?"
+
+## Marketing
+- "What consumer protection and advertising law issues apply?"
+- "What reputation and brand risks exist?"
+- "What data privacy considerations are relevant?"
+
+## Management
+- "What change management and organizational risks exist?"
+- "What stakeholder and communication risks could arise?"
+- "What strategic alignment and feasibility issues exist?"
+
+:::
+
+**Critical Questions to Always Ask** (across all disciplines):
+- What could go wrong and what's the exposure?
+- Are we meeting our compliance and governance obligations?
+- What organizational constraints or capabilities might we lack?
+- Who might be negatively affected and how?
 
 ---
 
@@ -132,53 +198,125 @@ AI recommends an employee engagement app with daily mood tracking and gamified r
 - "What resistance should we anticipate and how can we address it?"
 - "What communication and training would be needed for successful implementation?"
 
-**Stakeholder Mapping**:
+**Stakeholder Mapping** (adjust by discipline):
 Always consider:
-- **Senior Leadership**: Will they see the business value?
-- **Middle Managers**: Do they have the skills and capacity to implement?
-- **Employees**: Will this feel fair, transparent, and beneficial?
-- **HR Team**: Do we have the capability to sustain this?
-- **Unions/Employee Representatives**: Will they support or oppose this?
+- **Senior Leadership**: Will they see the business value and strategic alignment?
+- **Operational Staff/Managers**: Do they have skills, capacity, and buy-in to implement?
+- **Affected Groups**: Will this feel fair, transparent, and beneficial to them?
+- **Functional Teams**: Do we have the capability and resources to sustain this?
+- **External Stakeholders**: Unions, regulators, partners, customers—will they support or oppose?
 
 ---
 
-## Common AI HR Issues and How to Fix Them
+## Common AI Issues Across Disciplines and How to Fix Them
 
-### Issue 1: Overcomplicated Policy Solutions
+### Issue 1: Overcomplicated Solutions
 
-**AI Tendency**: Creates comprehensive but unimplementable policies
-```
-AI might suggest: A 45-page remote work policy covering every possible scenario
-```
+**AI Tendency**: Creates comprehensive but unimplementable recommendations
 
-**Your Direction**: "Start with the 80/20 rule—what 20% of the policy will address 80% of situations?"
-```
-Better: A 3-page policy covering core principles, common scenarios, and escalation procedures
-```
+::: {.panel-tabset}
 
-### Issue 2: Ignoring Legal Compliance
-
-**AI Tendency**: Focuses on best practices without legal foundations
+## HR
 ```
-AI might write: "Implement flexible work arrangements based on employee preferences"
+AI might suggest: A 45-page policy covering every scenario
+Better: A 3-page policy with core principles and escalation procedures
 ```
 
-**Your Direction**: "What are our legal obligations and how do we ensure compliance?"
+## Finance
 ```
-Better: "Implement flexible work arrangements in accordance with Fair Work Act provisions, ensuring consistent application and proper documentation of requests and decisions"
+AI might suggest: Comprehensive 10-step investment analysis process
+Better: A streamlined 4-step analysis focusing on key decision factors
 ```
+
+## Supply Chain
+```
+AI might suggest: Complex multi-supplier strategy with extensive metrics
+Better: A phased approach starting with pilot suppliers
+```
+
+## Marketing
+```
+AI might suggest: 15-channel integrated campaign across all platforms
+Better: Focus on 3-4 highest-ROI channels aligned with target audience
+```
+
+## Management
+```
+AI might suggest: Comprehensive change plan with daily activities
+Better: Milestone-based plan with key decision gates
+```
+
+:::
+
+**Your Direction**: "Start with the 80/20 rule—what 20% will address 80% of situations?"
+
+### Issue 2: Ignoring Compliance and Constraints
+
+**AI Tendency**: Focuses on best practices without considering legal, technical, or operational realities
+
+::: {.panel-tabset}
+
+## HR
+```
+AI might write: "Implement flexible work arrangements based on preferences"
+Better: "Implement flexible work in accordance with Fair Work Act, with consistent documentation and approval processes"
+```
+
+## Finance
+```
+AI might write: "Optimize portfolio for maximum returns"
+Better: "Optimize portfolio within our risk tolerance, liquidity needs, and tax constraints"
+```
+
+## IT
+```
+AI might write: "Migrate to cloud-based systems for efficiency"
+Better: "Migrate to cloud while maintaining security standards, data residency requirements, and legacy system integration"
+```
+
+## Supply Chain
+```
+AI might write: "Consolidate to single suppliers for cost savings"
+Better: "Evaluate consolidation considering resilience, backup capacity, and regulatory requirements"
+```
+
+:::
+
+**Your Direction**: "What are our legal/technical/operational obligations and constraints?"
 
 ### Issue 3: One-Size-Fits-All Recommendations
 
-**AI Tendency**: Provides generic advice without organisational context
+**AI Tendency**: Provides generic advice without organizational context
+
+::: {.panel-tabset}
+
+## HR
 ```
-AI might suggest: "Implement a standard performance review process across all departments"
+AI might suggest: "Implement standard performance review across all departments"
+Better: "Implement core framework with adaptations for customer-facing, technical, and creative roles"
 ```
 
-**Your Direction**: "How should this be adapted for different types of work and teams?"
+## Finance
 ```
-Better: "Implement a core performance framework with department-specific adaptations for customer-facing roles, technical positions, and creative teams"
+AI might suggest: "Apply standard financial ratios for all investment decisions"
+Better: "Apply ratios adjusted for industry, company stage, and investment type"
 ```
+
+## Marketing
+```
+AI might suggest: "Use same messaging for all customer segments"
+Better: "Develop segment-specific messaging aligned with different customer priorities"
+```
+
+## Supply Chain
+```
+AI might suggest: "Implement same metrics for all suppliers"
+Better: "Use differentiated metrics based on supplier criticality and category"
+```
+
+:::
+
+**Your Direction**: "How should this be adapted for our specific context, constraints, and different situations?"
 
 ---
 
@@ -226,16 +364,16 @@ After each AI interaction, document your critique process:
 
 ---
 
-## Red Flag Checklist for HR Recommendations
+## Red Flag Checklist for Any Recommendation
 
-Before accepting any AI-generated HR solution, ask:
+Before accepting any AI-generated recommendation, ask:
 
-- ☐ **Can I explain this solution to a line manager in 2 minutes?**
-- ☐ **Does this comply with relevant employment law and our enterprise agreement?**
+- ☐ **Can I explain this solution clearly to key stakeholders in a few minutes?**
+- ☐ **Does this comply with relevant laws, regulations, and company policies?**
 - ☐ **Do we have the resources and capability to implement this?**
-- ☐ **How would employees experience this change—is it fair and transparent?**
+- ☐ **How will affected stakeholders experience this—is it fair and transparent?**
 - ☐ **What are the risks if this implementation goes poorly?**
-- ☐ **Have I considered how different departments or employee groups might be affected?**
+- ☐ **Have I considered how different groups or departments might be affected?**
 - ☐ **Is there a simpler version that would achieve 80% of the benefits?**
 
 ---
@@ -271,44 +409,45 @@ To improve employee engagement, implement a comprehensive recognition program in
 
 ## Teaching Students to Critique AI
 
-### Classroom Exercise: The AI HR Consultant
+### Classroom Exercise: The AI Consultant Swap
 
-**Setup**: Divide students into small groups. Give each group a different HR problem (high turnover, poor performance management, conflict resolution, etc.).
+**Setup**: Divide students into small groups. Give each group a different business problem relevant to their discipline (e.g., HR: turnover; Finance: investment strategy; Supply Chain: supplier consolidation; Marketing: campaign strategy; Management: change management).
 
-**Task**: 
+**Task**:
 1. Each group uses AI to generate a solution to their problem
-2. Groups then swap their AI-generated solutions with another group
+2. Groups swap their AI-generated solutions with another group
 3. Each group must critique the other group's AI solution using the 5-step framework
 4. Groups present both the original AI solution and their critique to the class
 
 **Learning Outcome**: Students experience both generating AI solutions and critically evaluating them, understanding that the real value lies in the critique process.
 
-### Assessment Idea: AI Solution Analysis
+### Assessment Idea: AI Solution Critique
 
-**Assignment Requirements**:
-1. Choose an HR challenge relevant to your workplace or placement organisation
+**Assignment Requirements** (adapted by discipline):
+1. Choose a business challenge relevant to your workplace or placement organisation
 2. Use AI to generate three different approaches to solving this challenge
 3. Critique each approach using the 5-step framework
 4. Recommend which approach (or combination) is most suitable for your specific context
-5. Justify your recommendation with reference to HR theory, legal requirements, and organisational considerations
+5. Justify your recommendation with reference to discipline-specific theory, compliance requirements, and organizational considerations
 
 **What You're Assessing**:
 - Critical thinking about AI-generated solutions
-- Understanding of organisational context and constraints
-- Legal and ethical awareness
+- Understanding of organizational context and constraints
+- Legal/technical/operational and ethical awareness
 - Ability to translate theory into practical recommendations
+- Professional judgment in evaluating AI outputs
 
 ---
 
-## Why This Matters for HR Careers
+## Why This Matters for Professional Careers
 
-In the next five years, every HR professional will work alongside AI tools. The ones who thrive won't be those who can generate the most impressive AI outputs—they'll be those who can skillfully evaluate, adapt, and improve AI recommendations.
+In the next five years, professionals in every business discipline will work alongside AI tools. The ones who thrive won't be those who can generate the most impressive AI outputs—they'll be those who can skillfully evaluate, adapt, and improve AI recommendations.
 
-**Critical thinking about AI is becoming a core HR competency.**
+**Critical thinking about AI is becoming a core professional competency across all disciplines.**
 
 Employers will increasingly ask:
-- "How do you use AI in your HR work?"
-- "How do you ensure AI recommendations are appropriate for our organisation?"
+- "How do you use AI in your work?"
+- "How do you ensure AI recommendations are appropriate for our organization?"
 - "Can you give an example of when you identified problems with an AI-generated solution?"
 
 Students who master the critique framework will have compelling answers to these questions. They'll demonstrate that they're not just AI users—they're AI-savvy professionals who can leverage technology while maintaining professional judgment and ethical standards.
@@ -319,7 +458,7 @@ Students who master the critique framework will have compelling answers to these
 
 Before moving to the next chapter, practice the critique framework:
 
-1. **Choose an HR challenge** you're currently facing or teaching about
+1. **Choose a business challenge** in your discipline that you're currently facing or teaching about
 2. **Ask an AI tool** for a recommendation or solution
 3. **Apply the 5-step critique framework** to identify issues and improvements
 4. **Iterate with the AI** until you have a solution you'd actually implement
@@ -329,4 +468,4 @@ This hands-on experience will help you teach students to be thoughtful, critical
 
 ---
 
-**Next Chapter Preview:** In Chapter 7, we tackle the ethics and integrity question head-on. You'll learn how to talk to students about AI use, how to design assignments that build AI literacy rather than trying to prevent AI use, and how to frame "academic integrity" in the context of preparing students for professional practice where AI tools will be commonplace.
+**Next Chapter Preview:** In the next chapter, we tackle the ethics and integrity question head-on. You'll learn how to talk to students about AI use, how to design assignments that build AI literacy rather than trying to prevent AI use, and how to frame academic integrity in the context of preparing students for professional practice where AI tools will be commonplace.
