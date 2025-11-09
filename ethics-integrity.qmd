@@ -1,4 +1,4 @@
-# The Ethics & Integrity Question
+# Ethics, Data Governance & Integrity
 
 ## The Conversation You Must Have
 
@@ -111,6 +111,176 @@ Students learn that using AI thoughtfully is harder than avoiding it. They devel
 
 **Why this builds integrity:**
 When students see AI use as professional skill development rather than academic shortcut, they engage differently. They're not "cheating the system"—they're practicing for their careers.
+
+---
+
+## Data Governance: The Practical Reality
+
+While your institution may have an approved enterprise LLM with data protections, the reality is that students will use multiple tools. Some will have strong data governance; others won't. This section addresses the data governance considerations you need to discuss with students and build into your assignment design.
+
+### The Data Governance Landscape
+
+Different LLMs handle data differently:
+
+**Enterprise/Approved Tools** (e.g., MS Copilot Enterprise with Curtin license)
+- Data is siloed and protected within the enterprise
+- Individual user data is isolated
+- Training data exclusions in place
+- Compliance with institutional requirements
+- **Appropriate for:** Course materials, assignments, institutional data
+
+**Consumer/Free Tools** (e.g., ChatGPT free tier, Bing Chat, standard Claude)
+- User conversations may be retained for model improvement
+- Data could potentially be used for training future models
+- Less transparency about data handling
+- No institutional protection or agreement
+- **Risk:** Course materials, assignment content, student work uploaded here can be incorporated into training data
+
+**The Student Reality**
+While you may recommend (or require) students use MS Copilot Enterprise, students will inevitably use other tools:
+- More familiar interfaces
+- No Curtin login required
+- Access on personal devices/accounts
+- Peer recommendations
+- "Just quickly checking" with ChatGPT
+
+This isn't a failure of your instruction—it's the reality of tool adoption. Your role is to help students make informed choices, not to prevent use of other tools entirely.
+
+### Institutional Context: Curtin University
+
+At Curtin University, staff have the Enterprise license for MS Copilot specifically because:
+- **Data Protection**: Your data and your students' work is siloed within Curtin's instance
+- **Institutional Compliance**: Meets Curtin's data governance and privacy requirements
+- **Professional Standard**: Reflects how enterprise professionals use AI tools
+- **Approved Use**: This is the officially sanctioned tool for institutional work
+
+**What This Means in Practice:**
+- Course materials and institutional data should be processed through MS Copilot Enterprise
+- Student assignments containing course content are safer in MS Copilot Enterprise
+- Sensitive institutional information should never go into consumer LLMs
+- Teaching students to use the enterprise tool is teaching them to work like professionals
+
+### Data Governance Considerations for Assignment Design
+
+Rather than prohibiting certain tools (impossible to enforce), design assignments that naturally encourage responsible data handling:
+
+#### Strategy 1: Use Generic/Fictional Scenarios
+
+Instead of: "Upload this real case study and ask the AI to analyze it"
+
+Try: "Here's a fictional scenario. Analyze it using the provided AI tool. What would you need to verify before applying this to real data?"
+
+**Benefit:** Students practice with realistic scenarios without uploading sensitive materials.
+
+#### Strategy 2: De-Identification Before Upload
+
+If students need to work with real or realistic data:
+- Require them to remove identifying information first
+- Create assignment steps: "1) Anonymize data, 2) Upload to AI, 3) Document what you removed"
+- Assess their decision-making about what constitutes sensitive information
+
+**Benefit:** Students learn data governance practices they'll use professionally.
+
+#### Strategy 3: Process Documentation Over Output Sharing
+
+Instead of: "Submit your full AI conversation transcript"
+
+Try: "Show the three key prompts you used and explain why you modified your approach between each"
+
+**Benefit:** Students demonstrate thinking without uploading entire conversations with potentially sensitive content.
+
+#### Strategy 4: Explicit Tool Choices in Assignment Design
+
+Be clear about which tool to use:
+- "Use MS Copilot Enterprise for this assignment (login with your Curtin credentials)"
+- "You may use any AI tool for brainstorming, but final analysis should use MS Copilot Enterprise"
+- "If using a non-approved tool, anonymize all case data first"
+
+**Benefit:** Students make informed choices and understand why tool selection matters.
+
+#### Strategy 5: Structured Prompts in Approved Tools
+
+Rather than leaving students to compose prompts in any tool they choose, provide:
+- Prepared prompts already in MS Copilot Enterprise
+- Shared workspace conversations students can access
+- Pre-configured scenarios they interact with, rather than create
+
+**Benefit:** You control what data enters the system while students still develop prompting skills.
+
+### Student-Facing Guidance on Data Governance
+
+Here's language you can adapt for student-facing materials:
+
+```
+DATA GOVERNANCE AND AI TOOL SELECTION
+
+We have approved MS Copilot Enterprise for coursework because it protects your data
+and the university's data. Here's what this means:
+
+WHAT HAPPENS WITH YOUR DATA:
+- MS Copilot Enterprise: Your conversations are siloed within Curtin's secure instance.
+  Your data is not used to train other models. Your work is protected.
+
+- Other AI tools (ChatGPT, etc.): Your conversations may be retained and potentially
+  used to improve those services. Anything you upload could theoretically be seen
+  by the company or used in their training.
+
+WHAT THIS MEANS FOR THIS COURSE:
+
+DO use MS Copilot Enterprise when:
+- Working with course materials or case studies
+- Analyzing real (or realistic) business scenarios
+- Uploading assignment drafts for feedback
+- Working with any data you wouldn't want public
+
+DO use other tools when:
+- Brainstorming general ideas
+- Exploring concepts with simple, generic examples
+- Personal learning outside formal assignments
+
+DON'T upload to any AI tool:
+- Course materials before they're public
+- Student work (yours or classmates') without permission
+- Real company data or confidential information
+- Anything marked as confidential or proprietary
+
+IF YOU USE OTHER TOOLS:
+- Remove identifying information first (anonymize real data)
+- Document what you removed and why
+- Be prepared to explain your tool choice in class discussion
+- Understand that your data may not be protected the same way
+
+PROFESSIONAL PRACTICE:
+In your careers, you'll work with different tools in different contexts. This course
+teaches you to think about data governance: Where does data go? Who can see it?
+What risks exist? These are questions you'll ask professionally, not just in class.
+```
+
+### Red Flags: Data Governance Issues
+
+Watch for assignments or discussions where students might be uploading sensitive information inappropriately:
+
+**Red Flag:** Student uploads course materials verbatim into consumer tool
+- **Response:** Not acceptable for this assignment. Use MS Copilot Enterprise, or anonymize first.
+
+**Red Flag:** Student shares screenshot of conversation with real client names/data
+- **Response:** Opportunity to discuss professional confidentiality and data governance in context.
+
+**Red Flag:** Assignment design that assumes students will upload confidential materials
+- **Response:** Redesign to use fictional scenarios or require de-identification first.
+
+**Red Flag:** No mention of data governance in unit outline or assignment instructions
+- **Response:** Add explicit guidance about which tools to use and why.
+
+### Institutional Policy Reference
+
+As a Curtin educator, you can reference:
+- Curtin's Data Governance Policy
+- The terms of the MS Copilot Enterprise license
+- Professional standards in your discipline about data handling
+- Privacy and confidentiality principles relevant to your field
+
+This grounds data governance in institutional reality, not abstract rules.
 
 ---
 
