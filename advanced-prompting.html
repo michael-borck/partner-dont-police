@@ -1,0 +1,2103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+
+<title>Appendix D — Advanced Prompting for Business Education – AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./curtin-alignment.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./advanced-prompting.html"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Advanced Prompting for Business Education</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About This Book</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction - Why AI Matters for Business Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./getting-started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started - Your First AI Conversation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovering-your-strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Discovering Your Teaching Strategy: Using AI to Help You Use AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./first-steps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Your First Steps - A Practical Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./seven-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./managing-context.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./critique-toolkit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./process-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Process Over Product - Rethinking Assessment</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./self-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Virtual Company Simulation (Future Horizon)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Designing an AI-Integrated Unit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./static-to-interactive.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">From Static to Interactive - AI-Powered Activity Transformation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./from-conversation-to-document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">From Conversation to Document: AI-Generated Office Suite Deliverables</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research-assistant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">The Research Assistant (Postgraduate Focus)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./advanced-frontiers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Advanced Frontiers: Agents, Automation &amp; Emerging Capabilities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prompt-library.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Ready-to-Use Prompt Library</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">One-Hour Faculty Workshop Guide</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./curtin-alignment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Alignment with Curtin University Learning Outcomes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./advanced-prompting.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Advanced Prompting for Business Education</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#why-this-appendix-exists" id="toc-why-this-appendix-exists" class="nav-link active" data-scroll-target="#why-this-appendix-exists"><span class="header-section-number">D.1</span> Why This Appendix Exists</a></li>
+  <li><a href="#prompt-structure-fundamentals" id="toc-prompt-structure-fundamentals" class="nav-link" data-scroll-target="#prompt-structure-fundamentals"><span class="header-section-number">D.2</span> Prompt Structure Fundamentals</a>
+  <ul class="collapse">
+  <li><a href="#the-anatomy-of-an-effective-prompt" id="toc-the-anatomy-of-an-effective-prompt" class="nav-link" data-scroll-target="#the-anatomy-of-an-effective-prompt"><span class="header-section-number">D.2.1</span> The Anatomy of an Effective Prompt</a></li>
+  </ul></li>
+  <li><a href="#context-management-techniques" id="toc-context-management-techniques" class="nav-link" data-scroll-target="#context-management-techniques"><span class="header-section-number">D.3</span> Context Management Techniques</a>
+  <ul class="collapse">
+  <li><a href="#maintaining-conversation-history" id="toc-maintaining-conversation-history" class="nav-link" data-scroll-target="#maintaining-conversation-history"><span class="header-section-number">D.3.1</span> Maintaining Conversation History</a></li>
+  <li><a href="#setting-scenario-parameters" id="toc-setting-scenario-parameters" class="nav-link" data-scroll-target="#setting-scenario-parameters"><span class="header-section-number">D.3.2</span> Setting Scenario Parameters</a></li>
+  </ul></li>
+  <li><a href="#persona-control-strategies" id="toc-persona-control-strategies" class="nav-link" data-scroll-target="#persona-control-strategies"><span class="header-section-number">D.4</span> Persona Control Strategies</a>
+  <ul class="collapse">
+  <li><a href="#consistent-hr-professional-persona" id="toc-consistent-hr-professional-persona" class="nav-link" data-scroll-target="#consistent-hr-professional-persona"><span class="header-section-number">D.4.1</span> Consistent HR Professional Persona</a></li>
+  <li><a href="#multiple-perspective-analysis" id="toc-multiple-perspective-analysis" class="nav-link" data-scroll-target="#multiple-perspective-analysis"><span class="header-section-number">D.4.2</span> Multiple Perspective Analysis</a></li>
+  </ul></li>
+  <li><a href="#advanced-prompting-techniques" id="toc-advanced-prompting-techniques" class="nav-link" data-scroll-target="#advanced-prompting-techniques"><span class="header-section-number">D.5</span> Advanced Prompting Techniques</a>
+  <ul class="collapse">
+  <li><a href="#chain-of-thought-for-hr-scenarios" id="toc-chain-of-thought-for-hr-scenarios" class="nav-link" data-scroll-target="#chain-of-thought-for-hr-scenarios"><span class="header-section-number">D.5.1</span> Chain-of-Thought for HR Scenarios</a></li>
+  <li><a href="#few-shot-learning-examples" id="toc-few-shot-learning-examples" class="nav-link" data-scroll-target="#few-shot-learning-examples"><span class="header-section-number">D.5.2</span> Few-Shot Learning Examples</a></li>
+  </ul></li>
+  <li><a href="#discipline-specific-prompting-patterns" id="toc-discipline-specific-prompting-patterns" class="nav-link" data-scroll-target="#discipline-specific-prompting-patterns"><span class="header-section-number">D.6</span> Discipline-Specific Prompting Patterns</a>
+  <ul class="collapse">
+  <li><a href="#discipline-appropriate-compliance-integration" id="toc-discipline-appropriate-compliance-integration" class="nav-link" data-scroll-target="#discipline-appropriate-compliance-integration"><span class="header-section-number">D.6.1</span> Discipline-Appropriate Compliance Integration</a></li>
+  <li><a href="#ethical-framework-integration" id="toc-ethical-framework-integration" class="nav-link" data-scroll-target="#ethical-framework-integration"><span class="header-section-number">D.6.2</span> Ethical Framework Integration</a></li>
+  </ul></li>
+  <li><a href="#output-control-and-formatting" id="toc-output-control-and-formatting" class="nav-link" data-scroll-target="#output-control-and-formatting"><span class="header-section-number">D.7</span> Output Control and Formatting</a>
+  <ul class="collapse">
+  <li><a href="#structured-response-templates" id="toc-structured-response-templates" class="nav-link" data-scroll-target="#structured-response-templates"><span class="header-section-number">D.7.1</span> Structured Response Templates</a></li>
+  <li><a href="#response-quality-control" id="toc-response-quality-control" class="nav-link" data-scroll-target="#response-quality-control"><span class="header-section-number">D.7.2</span> Response Quality Control</a></li>
+  </ul></li>
+  <li><a href="#troubleshooting-common-issues" id="toc-troubleshooting-common-issues" class="nav-link" data-scroll-target="#troubleshooting-common-issues"><span class="header-section-number">D.8</span> Troubleshooting Common Issues</a>
+  <ul class="collapse">
+  <li><a href="#ai-going-off-topic" id="toc-ai-going-off-topic" class="nav-link" data-scroll-target="#ai-going-off-topic"><span class="header-section-number">D.8.1</span> AI Going Off-Topic</a></li>
+  <li><a href="#inconsistent-responses" id="toc-inconsistent-responses" class="nav-link" data-scroll-target="#inconsistent-responses"><span class="header-section-number">D.8.2</span> Inconsistent Responses</a></li>
+  <li><a href="#inappropriate-content-generation" id="toc-inappropriate-content-generation" class="nav-link" data-scroll-target="#inappropriate-content-generation"><span class="header-section-number">D.8.3</span> Inappropriate Content Generation</a></li>
+  </ul></li>
+  <li><a href="#educational-applications" id="toc-educational-applications" class="nav-link" data-scroll-target="#educational-applications"><span class="header-section-number">D.9</span> Educational Applications</a>
+  <ul class="collapse">
+  <li><a href="#scaffolding-complexity" id="toc-scaffolding-complexity" class="nav-link" data-scroll-target="#scaffolding-complexity"><span class="header-section-number">D.9.1</span> Scaffolding Complexity</a></li>
+  <li><a href="#assessment-design-support" id="toc-assessment-design-support" class="nav-link" data-scroll-target="#assessment-design-support"><span class="header-section-number">D.9.2</span> Assessment Design Support</a></li>
+  </ul></li>
+  <li><a href="#putting-it-all-together" id="toc-putting-it-all-together" class="nav-link" data-scroll-target="#putting-it-all-together"><span class="header-section-number">D.10</span> Putting It All Together</a>
+  <ul class="collapse">
+  <li><a href="#master-prompt-template" id="toc-master-prompt-template" class="nav-link" data-scroll-target="#master-prompt-template"><span class="header-section-number">D.10.1</span> Master Prompt Template</a></li>
+  <li><a href="#quick-reference-checklist" id="toc-quick-reference-checklist" class="nav-link" data-scroll-target="#quick-reference-checklist"><span class="header-section-number">D.10.2</span> Quick Reference Checklist</a></li>
+  </ul></li>
+  <li><a href="#context-management-for-advanced-prompting" id="toc-context-management-for-advanced-prompting" class="nav-link" data-scroll-target="#context-management-for-advanced-prompting"><span class="header-section-number">D.11</span> Context Management for Advanced Prompting</a>
+  <ul class="collapse">
+  <li><a href="#why-context-management-matters-for-advanced-prompts" id="toc-why-context-management-matters-for-advanced-prompts" class="nav-link" data-scroll-target="#why-context-management-matters-for-advanced-prompts"><span class="header-section-number">D.11.1</span> Why Context Management Matters for Advanced Prompts</a></li>
+  <li><a href="#key-strategies-for-advanced-prompts" id="toc-key-strategies-for-advanced-prompts" class="nav-link" data-scroll-target="#key-strategies-for-advanced-prompts"><span class="header-section-number">D.11.2</span> Key Strategies for Advanced Prompts</a></li>
+  <li><a href="#for-advanced-teaching-sequences" id="toc-for-advanced-teaching-sequences" class="nav-link" data-scroll-target="#for-advanced-teaching-sequences"><span class="header-section-number">D.11.3</span> For Advanced Teaching Sequences</a></li>
+  <li><a href="#cross-reference" id="toc-cross-reference" class="nav-link" data-scroll-target="#cross-reference"><span class="header-section-number">D.11.4</span> Cross-Reference</a></li>
+  </ul></li>
+  <li><a href="#integration-with-main-chapters" id="toc-integration-with-main-chapters" class="nav-link" data-scroll-target="#integration-with-main-chapters"><span class="header-section-number">D.12</span> Integration with Main Chapters</a>
+  <ul class="collapse">
+  <li><a href="#chapter-cross-reference" id="toc-chapter-cross-reference" class="nav-link" data-scroll-target="#chapter-cross-reference"><span class="header-section-number">D.12.1</span> Chapter Cross-Reference</a></li>
+  <li><a href="#progressive-learning-path" id="toc-progressive-learning-path" class="nav-link" data-scroll-target="#progressive-learning-path"><span class="header-section-number">D.12.2</span> Progressive Learning Path</a></li>
+  </ul></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts"><span class="header-section-number">D.13</span> Final Thoughts</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./advanced-prompting.html"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Advanced Prompting for Business Education</span></a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Appendix D — Advanced Prompting for Business Education</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="why-this-appendix-exists" class="level2" data-number="D.1">
+<h2 data-number="D.1" class="anchored" data-anchor-id="why-this-appendix-exists"><span class="header-section-number">D.1</span> Why This Appendix Exists</h2>
+<p>The main chapters focus on practical applications - what you can do tomorrow with AI in your teaching across all business disciplines. This appendix is for those who want to go deeper: how to craft more sophisticated prompts that give you better control, consistency, and results specific to your discipline.</p>
+<p><strong>Think of this as the “advanced techniques” section - optional but powerful once you’re comfortable with the basics.</strong></p>
+<p>While this appendix uses HR examples, the prompting principles apply equally to marketing, accounting, management, supply chain, information systems, tourism &amp; hospitality, economics, and other business disciplines. The underlying techniques for role definition, context management, and output control work across all professional fields.</p>
+<hr>
+</section>
+<section id="prompt-structure-fundamentals" class="level2" data-number="D.2">
+<h2 data-number="D.2" class="anchored" data-anchor-id="prompt-structure-fundamentals"><span class="header-section-number">D.2</span> Prompt Structure Fundamentals</h2>
+<section id="the-anatomy-of-an-effective-prompt" class="level3" data-number="D.2.1">
+<h3 data-number="D.2.1" class="anchored" data-anchor-id="the-anatomy-of-an-effective-prompt"><span class="header-section-number">D.2.1</span> The Anatomy of an Effective Prompt</h3>
+<p>Every good prompt has four key components:</p>
+<pre><code>[ROLE] + [CONTEXT] + [TASK] + [FORMAT] = Quality Response</code></pre>
+<section id="role-definition" class="level4" data-number="D.2.1.1">
+<h4 data-number="D.2.1.1" class="anchored" data-anchor-id="role-definition"><span class="header-section-number">D.2.1.1</span> 1. <strong>Role Definition</strong></h4>
+<pre><code>Basic: "Review this HR policy"
+Advanced: "You are a senior HR consultant with 15 years of experience in 
+          employment law and organisational development. You specialise in 
+          policy compliance and risk management for multinational corporations."</code></pre>
+</section>
+<section id="context-setting" class="level4" data-number="D.2.1.2">
+<h4 data-number="D.2.1.2" class="anchored" data-anchor-id="context-setting"><span class="header-section-number">D.2.1.2</span> 2. <strong>Context Setting</strong></h4>
+<pre><code>Basic: "for a tech company"
+Advanced: "for a 500-employee software development company operating in Australia, 
+           with 40% remote workers, facing challenges with retention and performance 
+           management across distributed teams."</code></pre>
+</section>
+<section id="task-specification" class="level4" data-number="D.2.1.3">
+<h4 data-number="D.2.1.3" class="anchored" data-anchor-id="task-specification"><span class="header-section-number">D.2.1.3</span> 3. <strong>Task Specification</strong></h4>
+<pre><code>Basic: "give me some ideas"
+Advanced: "Generate 5 specific, actionable strategies to improve remote team 
+           performance, each with implementation steps, required resources, 
+           and potential risks."</code></pre>
+</section>
+<section id="format-control" class="level4" data-number="D.2.1.4">
+<h4 data-number="D.2.1.4" class="anchored" data-anchor-id="format-control"><span class="header-section-number">D.2.1.4</span> 4. <strong>Format Control</strong></h4>
+<pre><code>Basic: "list them"
+Advanced: "Present each strategy in a table with columns: Strategy, Implementation 
+           Steps, Timeline, Required Resources, Risk Mitigation, Success Metrics."</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="context-management-techniques" class="level2" data-number="D.3">
+<h2 data-number="D.3" class="anchored" data-anchor-id="context-management-techniques"><span class="header-section-number">D.3</span> Context Management Techniques</h2>
+<section id="maintaining-conversation-history" class="level3" data-number="D.3.1">
+<h3 data-number="D.3.1" class="anchored" data-anchor-id="maintaining-conversation-history"><span class="header-section-number">D.3.1</span> Maintaining Conversation History</h3>
+<section id="method-1-summary-refresh" class="level4" data-number="D.3.1.1">
+<h4 data-number="D.3.1.1" class="anchored" data-anchor-id="method-1-summary-refresh"><span class="header-section-number">D.3.1.1</span> <strong>Method 1: Summary Refresh</strong></h4>
+<pre><code>Continue our conversation about [topic]. Here's what we've covered so far:
+[brief summary of previous points]
+
+Now, please [next task].</code></pre>
+</section>
+<section id="method-2-explicit-context-carry" class="level4" data-number="D.3.1.2">
+<h4 data-number="D.3.1.2" class="anchored" data-anchor-id="method-2-explicit-context-carry"><span class="header-section-number">D.3.1.2</span> <strong>Method 2: Explicit Context Carry</strong></h4>
+<pre><code>Based on the previous scenario where [key details], now analyse [new situation] 
+considering the same organisational context and constraints.</code></pre>
+</section>
+<section id="method-3-reference-points" class="level4" data-number="D.3.1.3">
+<h4 data-number="D.3.1.3" class="anchored" data-anchor-id="method-3-reference-points"><span class="header-section-number">D.3.1.3</span> <strong>Method 3: Reference Points</strong></h4>
+<pre><code>Refer back to the performance management framework we developed in Chapter 2. 
+Apply those principles to this new termination scenario.</code></pre>
+</section>
+</section>
+<section id="setting-scenario-parameters" class="level3" data-number="D.3.2">
+<h3 data-number="D.3.2" class="anchored" data-anchor-id="setting-scenario-parameters"><span class="header-section-number">D.3.2</span> Setting Scenario Parameters</h3>
+<section id="organizational-context-template" class="level4" data-number="D.3.2.1">
+<h4 data-number="D.3.2.1" class="anchored" data-anchor-id="organizational-context-template"><span class="header-section-number">D.3.2.1</span> <strong>Organizational Context Template</strong></h4>
+<pre><code>You are advising [company type] with [employee count] employees in [industry/sector]. 
+Key characteristics: [list 3-4 relevant factors]
+Current challenges: [specific HR issues]
+Legal framework: [relevant employment laws/countries]</code></pre>
+</section>
+<section id="student-level-calibration" class="level4" data-number="D.3.2.2">
+<h4 data-number="D.3.2.2" class="anchored" data-anchor-id="student-level-calibration"><span class="header-section-number">D.3.2.2</span> <strong>Student Level Calibration</strong></h4>
+<pre><code>Explain this at [undergraduate/postgraduate/professional] level.
+Assume the audience has [prior knowledge/experience].
+Use [simple/technical/advanced] language.</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="persona-control-strategies" class="level2" data-number="D.4">
+<h2 data-number="D.4" class="anchored" data-anchor-id="persona-control-strategies"><span class="header-section-number">D.4</span> Persona Control Strategies</h2>
+<section id="consistent-hr-professional-persona" class="level3" data-number="D.4.1">
+<h3 data-number="D.4.1" class="anchored" data-anchor-id="consistent-hr-professional-persona"><span class="header-section-number">D.4.1</span> Consistent HR Professional Persona</h3>
+<section id="master-persona-prompt" class="level4" data-number="D.4.1.1">
+<h4 data-number="D.4.1.1" class="anchored" data-anchor-id="master-persona-prompt"><span class="header-section-number">D.4.1.1</span> <strong>Master Persona Prompt</strong></h4>
+<pre><code>You are an experienced HR business partner with the following characteristics:
+- 12+ years of HR experience across multiple industries
+- Expertise in employment law, employee relations, and organisational development
+- Communication style: professional yet approachable, legally aware but practical
+- Decision-making approach: balances employee needs with business requirements
+- Ethical framework: prioritizes fairness, compliance, and organisational health
+
+Maintain this persona throughout our conversation. When providing advice, consider 
+legal implications, practical feasibility, and stakeholder impact.</code></pre>
+</section>
+<section id="persona-reinforcement" class="level4" data-number="D.4.1.2">
+<h4 data-number="D.4.1.2" class="anchored" data-anchor-id="persona-reinforcement"><span class="header-section-number">D.4.1.2</span> <strong>Persona Reinforcement</strong></h4>
+<pre><code>Remember your role as [persona description]. Apply that perspective to [new scenario].</code></pre>
+</section>
+</section>
+<section id="multiple-perspective-analysis" class="level3" data-number="D.4.2">
+<h3 data-number="D.4.2" class="anchored" data-anchor-id="multiple-perspective-analysis"><span class="header-section-number">D.4.2</span> Multiple Perspective Analysis</h3>
+<section id="stakeholder-persona-set" class="level4" data-number="D.4.2.1">
+<h4 data-number="D.4.2.1" class="anchored" data-anchor-id="stakeholder-persona-set"><span class="header-section-number">D.4.2.1</span> <strong>Stakeholder Persona Set</strong></h4>
+<pre><code>Analyse this situation from three perspectives:
+
+1. **HR Manager**: [persona details]
+2. **Legal Counsel**: [persona details] 
+3. **Employee Representative**: [persona details]
+
+Present each viewpoint separately, then provide a balanced recommendation.</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="advanced-prompting-techniques" class="level2" data-number="D.5">
+<h2 data-number="D.5" class="anchored" data-anchor-id="advanced-prompting-techniques"><span class="header-section-number">D.5</span> Advanced Prompting Techniques</h2>
+<section id="chain-of-thought-for-hr-scenarios" class="level3" data-number="D.5.1">
+<h3 data-number="D.5.1" class="anchored" data-anchor-id="chain-of-thought-for-hr-scenarios"><span class="header-section-number">D.5.1</span> Chain-of-Thought for HR Scenarios</h3>
+<section id="step-by-step-reasoning" class="level4" data-number="D.5.1.1">
+<h4 data-number="D.5.1.1" class="anchored" data-anchor-id="step-by-step-reasoning"><span class="header-section-number">D.5.1.1</span> <strong>Step-by-Step Reasoning</strong></h4>
+<pre><code>When analysing this HR situation, please:
+1. First identify the key facts and stakeholders
+2. Then consider relevant legal and policy frameworks
+3. Next evaluate potential risks and consequences
+4. Then generate multiple solution options
+5. Finally recommend the best approach with justification
+
+Show your reasoning for each step.</code></pre>
+</section>
+<section id="decision-tree-prompting" class="level4" data-number="D.5.1.2">
+<h4 data-number="D.5.1.2" class="anchored" data-anchor-id="decision-tree-prompting"><span class="header-section-number">D.5.1.2</span> <strong>Decision Tree Prompting</strong></h4>
+<pre><code>Create a decision tree for [HR situation]:
+
+Start with the initial decision point. For each option, show:
+- Immediate consequences
+- Follow-up decisions required
+- Potential outcomes (best/worst/most likely)
+- Risk factors to consider
+
+Use this format: [Decision] → [Option A/B/C] → [Consequences] → [Next Decision]</code></pre>
+</section>
+</section>
+<section id="few-shot-learning-examples" class="level3" data-number="D.5.2">
+<h3 data-number="D.5.2" class="anchored" data-anchor-id="few-shot-learning-examples"><span class="header-section-number">D.5.2</span> Few-Shot Learning Examples</h3>
+<section id="pattern-recognition" class="level4" data-number="D.5.2.1">
+<h4 data-number="D.5.2.1" class="anchored" data-anchor-id="pattern-recognition"><span class="header-section-number">D.5.2.1</span> <strong>Pattern Recognition</strong></h4>
+<pre><code>Here are examples of well-written HR communications:
+
+Example 1: [good example]
+Example 2: [good example]
+Example 3: [good example]
+
+Now, write a similar communication for [new situation] following the same style 
+and quality standards.</code></pre>
+</section>
+<section id="quality-calibration" class="level4" data-number="D.5.2.2">
+<h4 data-number="D.5.2.2" class="anchored" data-anchor-id="quality-calibration"><span class="header-section-number">D.5.2.2</span> <strong>Quality Calibration</strong></h4>
+<pre><code>Rate these HR responses on a scale of 1-10 for professionalism, legal compliance, 
+and clarity:
+
+Response A: [example response]
+Response B: [example response]
+
+Explain your ratings. Then write an excellent response for [new scenario].</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="discipline-specific-prompting-patterns" class="level2" data-number="D.6">
+<h2 data-number="D.6" class="anchored" data-anchor-id="discipline-specific-prompting-patterns"><span class="header-section-number">D.6</span> Discipline-Specific Prompting Patterns</h2>
+<p>The prompting patterns below show HR examples, but the same structures apply across business disciplines:</p>
+<ul>
+<li><strong>Accounting</strong>: Legal and regulatory frameworks become compliance with accounting standards (IFRS, GAAP)</li>
+<li><strong>Marketing</strong>: Ethical considerations become consumer protection and brand reputation management</li>
+<li><strong>Management</strong>: Stakeholder analysis becomes organisational hierarchy and change management considerations</li>
+<li><strong>Supply Chain</strong>: Risk assessment becomes logistics disruption and vendor management</li>
+<li><strong>Information Systems</strong>: Professional boundaries become data security and system reliability requirements</li>
+<li><strong>Tourism &amp; Hospitality</strong>: Compliance integration becomes service standards and guest satisfaction regulations</li>
+</ul>
+<section id="discipline-appropriate-compliance-integration" class="level3" data-number="D.6.1">
+<h3 data-number="D.6.1" class="anchored" data-anchor-id="discipline-appropriate-compliance-integration"><span class="header-section-number">D.6.1</span> Discipline-Appropriate Compliance Integration</h3>
+<section id="risk-assessment-framework" class="level4" data-number="D.6.1.1">
+<h4 data-number="D.6.1.1" class="anchored" data-anchor-id="risk-assessment-framework"><span class="header-section-number">D.6.1.1</span> <strong>Risk Assessment Framework</strong></h4>
+<pre><code>For any HR recommendation you provide, always include:
+
+**Legal Risk Assessment:**
+- Employment law considerations: [specific laws/regulations]
+- Compliance requirements: [mandatory steps]
+- Potential liabilities: [legal risks]
+- Mitigation strategies: [risk reduction]
+
+**Ethical Considerations:**
+- Fairness implications
+- Stakeholder impact
+- Organisational values alignment</code></pre>
+</section>
+<section id="jurisdiction-specification" class="level4" data-number="D.6.1.2">
+<h4 data-number="D.6.1.2" class="anchored" data-anchor-id="jurisdiction-specification"><span class="header-section-number">D.6.1.2</span> <strong>Jurisdiction Specification</strong></h4>
+<pre><code>Provide advice for [specific country/state/province] considering:
+- Relevant employment legislation
+- Recent case law developments
+- Regulatory body guidelines
+- Industry-specific requirements</code></pre>
+</section>
+</section>
+<section id="ethical-framework-integration" class="level3" data-number="D.6.2">
+<h3 data-number="D.6.2" class="anchored" data-anchor-id="ethical-framework-integration"><span class="header-section-number">D.6.2</span> Ethical Framework Integration</h3>
+<section id="values-based-prompting" class="level4" data-number="D.6.2.1">
+<h4 data-number="D.6.2.1" class="anchored" data-anchor-id="values-based-prompting"><span class="header-section-number">D.6.2.1</span> <strong>Values-Based Prompting</strong></h4>
+<pre><code>When addressing this HR issue, apply these ethical principles:
+1. **Respect for human dignity**
+2. **Fairness and consistency** 
+3. **Transparency and honesty**
+4. **Confidentiality and privacy**
+5. **Organizational responsibility**
+
+Show how each principle influences your recommendation.</code></pre>
+</section>
+<section id="stakeholder-impact-analysis" class="level4" data-number="D.6.2.2">
+<h4 data-number="D.6.2.2" class="anchored" data-anchor-id="stakeholder-impact-analysis"><span class="header-section-number">D.6.2.2</span> <strong>Stakeholder Impact Analysis</strong></h4>
+<pre><code>For any proposed HR action, analyse impact on:
+
+**Primary Stakeholders:**
+- Employees affected: [number/type]
+- Direct impact: [immediate effects]
+- Long-term consequences: [future implications]
+
+**Secondary Stakeholders:**
+- Team dynamics: [group effects]
+- Customer impact: [external effects]
+- Community considerations: [broader implications]</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="output-control-and-formatting" class="level2" data-number="D.7">
+<h2 data-number="D.7" class="anchored" data-anchor-id="output-control-and-formatting"><span class="header-section-number">D.7</span> Output Control and Formatting</h2>
+<section id="structured-response-templates" class="level3" data-number="D.7.1">
+<h3 data-number="D.7.1" class="anchored" data-anchor-id="structured-response-templates"><span class="header-section-number">D.7.1</span> Structured Response Templates</h3>
+<section id="hr-report-format" class="level4" data-number="D.7.1.1">
+<h4 data-number="D.7.1.1" class="anchored" data-anchor-id="hr-report-format"><span class="header-section-number">D.7.1.1</span> <strong>HR Report Format</strong></h4>
+<pre><code>Present your analysis in this format:
+
+## Executive Summary
+[2-3 sentence overview]
+
+## Situation Analysis
+[Key facts and context]
+
+## Legal and Policy Considerations
+[Relevant frameworks and requirements]
+
+## Recommended Actions
+1. [Action 1] - [Timeline] - [Responsibility]
+2. [Action 2] - [Timeline] - [Responsibility]
+3. [Action 3] - [Timeline] - [Responsibility]
+
+## Risk Mitigation
+[Potential problems and solutions]
+
+## Success Metrics
+[How to measure effectiveness]</code></pre>
+</section>
+<section id="teaching-material-format" class="level4" data-number="D.7.1.2">
+<h4 data-number="D.7.1.2" class="anchored" data-anchor-id="teaching-material-format"><span class="header-section-number">D.7.1.2</span> <strong>Teaching Material Format</strong></h4>
+<pre><code>Structure this educational content as:
+
+## Learning Objectives
+[What students will be able to do]
+
+## Key Concepts
+[Main theoretical frameworks]
+
+## Real-World Example
+[Practical application scenario]
+
+## Practice Activity
+[Exercise for students]
+
+## Discussion Questions
+[Critical thinking prompts]</code></pre>
+</section>
+</section>
+<section id="response-quality-control" class="level3" data-number="D.7.2">
+<h3 data-number="D.7.2" class="anchored" data-anchor-id="response-quality-control"><span class="header-section-number">D.7.2</span> Response Quality Control</h3>
+<section id="specificity-prompts" class="level4" data-number="D.7.2.1">
+<h4 data-number="D.7.2.1" class="anchored" data-anchor-id="specificity-prompts"><span class="header-section-number">D.7.2.1</span> <strong>Specificity Prompts</strong></h4>
+<pre><code>Instead of general advice, provide:
+- Exact wording for communications
+- Specific numbers and timelines
+- Detailed step-by-step processes
+- Concrete examples and templates</code></pre>
+</section>
+<section id="constraining-scope" class="level4" data-number="D.7.2.2">
+<h4 data-number="D.7.2.2" class="anchored" data-anchor-id="constraining-scope"><span class="header-section-number">D.7.2.2</span> <strong>Constraining Scope</strong></h4>
+<pre><code>Focus only on [specific aspect]. Do not address [topics to avoid].
+Keep your response to [word/time limit].
+Target [specific audience] level of understanding.</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="troubleshooting-common-issues" class="level2" data-number="D.8">
+<h2 data-number="D.8" class="anchored" data-anchor-id="troubleshooting-common-issues"><span class="header-section-number">D.8</span> Troubleshooting Common Issues</h2>
+<section id="ai-going-off-topic" class="level3" data-number="D.8.1">
+<h3 data-number="D.8.1" class="anchored" data-anchor-id="ai-going-off-topic"><span class="header-section-number">D.8.1</span> AI Going Off-Topic</h3>
+<section id="refocusing-prompts" class="level4" data-number="D.8.1.1">
+<h4 data-number="D.8.1.1" class="anchored" data-anchor-id="refocusing-prompts"><span class="header-section-number">D.8.1.1</span> <strong>Refocusing Prompts</strong></h4>
+<pre><code>That's not quite what I need. Let's refocus on [specific topic].
+Please address [original question] without discussing [distracting topics].</code></pre>
+</section>
+<section id="boundary-setting" class="level4" data-number="D.8.1.2">
+<h4 data-number="D.8.1.2" class="anchored" data-anchor-id="boundary-setting"><span class="header-section-number">D.8.1.2</span> <strong>Boundary Setting</strong></h4>
+<pre><code>For this conversation, please limit your responses to:
+- HR-related topics only
+- Practical workplace applications
+- [specific time period/industry]
+Avoid: [topics to exclude]</code></pre>
+</section>
+</section>
+<section id="inconsistent-responses" class="level3" data-number="D.8.2">
+<h3 data-number="D.8.2" class="anchored" data-anchor-id="inconsistent-responses"><span class="header-section-number">D.8.2</span> Inconsistent Responses</h3>
+<section id="consistency-prompts" class="level4" data-number="D.8.2.1">
+<h4 data-number="D.8.2.1" class="anchored" data-anchor-id="consistency-prompts"><span class="header-section-number">D.8.2.1</span> <strong>Consistency Prompts</strong></h4>
+<pre><code>Remember the framework we established earlier: [reference previous framework].
+Apply the same approach to this new situation.
+Maintain consistency with your previous advice on [similar topic].</code></pre>
+</section>
+<section id="quality-control" class="level4" data-number="D.8.2.2">
+<h4 data-number="D.8.2.2" class="anchored" data-anchor-id="quality-control"><span class="header-section-number">D.8.2.2</span> <strong>Quality Control</strong></h4>
+<pre><code>Before responding, please ensure your answer:
+- Aligns with HR best practices
+- Considers legal implications
+- Is practical and actionable
+- Addresses the specific question asked
+
+If any of these criteria aren't met, revise your response.</code></pre>
+</section>
+</section>
+<section id="inappropriate-content-generation" class="level3" data-number="D.8.3">
+<h3 data-number="D.8.3" class="anchored" data-anchor-id="inappropriate-content-generation"><span class="header-section-number">D.8.3</span> Inappropriate Content Generation</h3>
+<section id="professional-boundaries" class="level4" data-number="D.8.3.1">
+<h4 data-number="D.8.3.1" class="anchored" data-anchor-id="professional-boundaries"><span class="header-section-number">D.8.3.1</span> <strong>Professional Boundaries</strong></h4>
+<pre><code>As an HR professional, certain topics require specific handling:
+- Legal advice must include "consult with legal counsel"
+- Medical situations require privacy considerations
+- Personal issues need appropriate boundaries
+
+Please ensure your response maintains professional HR standards.</code></pre>
+</section>
+<section id="content-filters" class="level4" data-number="D.8.3.2">
+<h4 data-number="D.8.3.2" class="anchored" data-anchor-id="content-filters"><span class="header-section-number">D.8.3.2</span> <strong>Content Filters</strong></h4>
+<pre><code>If asked about [inappropriate topics], respond with:
+"I cannot provide specific advice on this topic. Please consult with 
+[appropriate professional: legal counsel, medical professional, etc.]."
+
+Do not provide guidance on [restricted topics].</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="educational-applications" class="level2" data-number="D.9">
+<h2 data-number="D.9" class="anchored" data-anchor-id="educational-applications"><span class="header-section-number">D.9</span> Educational Applications</h2>
+<section id="scaffolding-complexity" class="level3" data-number="D.9.1">
+<h3 data-number="D.9.1" class="anchored" data-anchor-id="scaffolding-complexity"><span class="header-section-number">D.9.1</span> Scaffolding Complexity</h3>
+<section id="progressive-difficulty-prompts" class="level4" data-number="D.9.1.1">
+<h4 data-number="D.9.1.1" class="anchored" data-anchor-id="progressive-difficulty-prompts"><span class="header-section-number">D.9.1.1</span> <strong>Progressive Difficulty Prompts</strong></h4>
+<pre><code>**Beginner Level:** Explain [concept] in simple terms with basic examples.
+
+**Intermediate Level:** Analyse [scenario] applying [concept] with some complexity.
+
+**Advanced Level:** Evaluate [complex situation] requiring synthesis of multiple 
+concepts and professional judgment.</code></pre>
+</section>
+<section id="differentiated-instruction" class="level4" data-number="D.9.1.2">
+<h4 data-number="D.9.1.2" class="anchored" data-anchor-id="differentiated-instruction"><span class="header-section-number">D.9.1.2</span> <strong>Differentiated Instruction</strong></h4>
+<pre><code>Provide three versions of this HR exercise:
+
+**Version 1 (Foundation):** [simpler scenario, guided questions]
+**Version 2 (Application):** [moderate complexity, some independence]
+**Version 3 (Advanced):** [complex scenario, minimal guidance]</code></pre>
+</section>
+</section>
+<section id="assessment-design-support" class="level3" data-number="D.9.2">
+<h3 data-number="D.9.2" class="anchored" data-anchor-id="assessment-design-support"><span class="header-section-number">D.9.2</span> Assessment Design Support</h3>
+<section id="rubric-generation" class="level4" data-number="D.9.2.1">
+<h4 data-number="D.9.2.1" class="anchored" data-anchor-id="rubric-generation"><span class="header-section-number">D.9.2.1</span> <strong>Rubric Generation</strong></h4>
+<pre><code>Create a rubric for assessing [HR skill] with these criteria:
+
+**Performance Levels:**
+- Exemplary (90-100%): [description]
+- Proficient (80-89%): [description]
+- Developing (70-79%): [description]
+- Beginning (60-69%): [description]
+
+**Criteria:**
+1. [Skill 1] - [weight%]
+2. [Skill 2] - [weight%]
+3. [Skill 3] - [weight%]</code></pre>
+</section>
+<section id="feedback-generation" class="level4" data-number="D.9.2.2">
+<h4 data-number="D.9.2.2" class="anchored" data-anchor-id="feedback-generation"><span class="header-section-number">D.9.2.2</span> <strong>Feedback Generation</strong></h4>
+<pre><code>Review this student response and provide feedback in this format:
+
+**Strengths:**
+- [specific positive aspects]
+- [demonstrated skills]
+
+**Areas for Improvement:**
+- [specific suggestions]
+- [skill gaps to address]
+
+**Next Steps:**
+- [how to improve]
+- [additional practice needed]</code></pre>
+<hr>
+</section>
+</section>
+</section>
+<section id="putting-it-all-together" class="level2" data-number="D.10">
+<h2 data-number="D.10" class="anchored" data-anchor-id="putting-it-all-together"><span class="header-section-number">D.10</span> Putting It All Together</h2>
+<section id="master-prompt-template" class="level3" data-number="D.10.1">
+<h3 data-number="D.10.1" class="anchored" data-anchor-id="master-prompt-template"><span class="header-section-number">D.10.1</span> Master Prompt Template</h3>
+<pre><code>You are [detailed persona] with expertise in [specific areas].
+
+Context: [comprehensive situation description]
+Constraints: [legal, ethical, practical limitations]
+Audience: [who will receive this response]
+Purpose: [what you want to achieve]
+
+Please provide [specific type of response] that:
+- Addresses [key requirements]
+- Considers [stakeholder impacts]
+- Includes [necessary elements]
+- Follows [format specifications]
+
+Additional considerations: [any other relevant factors]
+
+Show your reasoning process and justify your recommendations.</code></pre>
+</section>
+<section id="quick-reference-checklist" class="level3" data-number="D.10.2">
+<h3 data-number="D.10.2" class="anchored" data-anchor-id="quick-reference-checklist"><span class="header-section-number">D.10.2</span> Quick Reference Checklist</h3>
+<p>Before sending any prompt, ask yourself: - [ ] <strong>Role</strong>: Is the AI’s persona clearly defined? - [ ] <strong>Context</strong>: Have I provided sufficient background? - [ ] <strong>Task</strong>: Is the desired outcome specific? - [ ] <strong>Format</strong>: Have I specified the response structure? - [ ] <strong>Constraints</strong>: Are there limits or boundaries needed? - [ ] <strong>Quality</strong>: What makes a “good” response?</p>
+<hr>
+</section>
+</section>
+<section id="context-management-for-advanced-prompting" class="level2" data-number="D.11">
+<h2 data-number="D.11" class="anchored" data-anchor-id="context-management-for-advanced-prompting"><span class="header-section-number">D.11</span> Context Management for Advanced Prompting</h2>
+<section id="why-context-management-matters-for-advanced-prompts" class="level3" data-number="D.11.1">
+<h3 data-number="D.11.1" class="anchored" data-anchor-id="why-context-management-matters-for-advanced-prompts"><span class="header-section-number">D.11.1</span> Why Context Management Matters for Advanced Prompts</h3>
+<p>As your prompting becomes more sophisticated—combining multiple techniques, working through longer sequences, managing complex educational scenarios—the quality of context management becomes critical.</p>
+<p><strong>Advanced prompts demand focused conversations:</strong> - Sophisticated personas require consistent framing across exchanges - Complex discipline-specific scenarios need clear boundaries - Multi-step educational sequences benefit from structured progression - Quality control over professional materials demands careful output management</p>
+</section>
+<section id="key-strategies-for-advanced-prompts" class="level3" data-number="D.11.2">
+<h3 data-number="D.11.2" class="anchored" data-anchor-id="key-strategies-for-advanced-prompts"><span class="header-section-number">D.11.2</span> Key Strategies for Advanced Prompts</h3>
+<p><strong>1. Structure Complex Tasks as Multi-Step Sequences</strong></p>
+<p>Instead of asking for everything at once, break advanced prompts into focused steps:</p>
+<pre><code>PROMPT 1: "Help me structure a capstone project on [topic]"
+[Get: high-level plan]
+
+PROMPT 2: "Using that structure, define learning outcomes"
+[Get: aligned outcomes]
+
+PROMPT 3: "Now design the assessment rubric"
+[Get: quality rubric focused on outcomes]
+
+PROMPT 4: "Create student instructions based on the rubric"
+[Get: clear, actionable instructions]</code></pre>
+<p>Each prompt gets full attention. Quality increases because output tokens aren’t split among competing demands.</p>
+<p><strong>2. Maintain Context Across Conversations</strong></p>
+<p>When you need to continue advanced work in a new conversation:</p>
+<pre><code>I'm continuing work on [project name]. Here's what we've already designed:
+- [Element 1]: [brief description]
+- [Element 2]: [brief description]
+
+Here's what we've decided about [important constraint]:
+[key decision or principle]
+
+Now let's design [next element]. Keep consistency with [previous element].</code></pre>
+<p>This prevents hallucination and maintains continuity in sophisticated work.</p>
+<p><strong>3. Use Output Constraints Strategically</strong></p>
+<p>For advanced prompts requesting multiple components, specify allocation:</p>
+<pre><code>I need a complete course design including three components:
+
+1. Learning outcomes (150–200 words total) - prioritize clarity and measurability
+2. Assessment strategy (200–250 words) - must align with outcomes
+3. Facilitator notes (250–300 words) - include teaching tips and common student challenges
+
+Keep total output around 600–750 words. Prioritize depth of thought over comprehensive coverage.</code></pre>
+<p>This prevents shallow outputs and ensures each component receives adequate focus.</p>
+<p><strong>4. Archive and Reference Advanced Work</strong></p>
+<p>For complex materials that take multiple conversations to develop:</p>
+<pre><code>I've developed course materials across 3 conversations. Here's the complete
+resource library I've built:
+
+**Session 1 outputs:**
+- Course outline (created [date])
+- Learning outcomes framework (created [date])
+
+**Session 2 outputs:**
+- Assessment rubric (created [date])
+- Unit 1 detailed design (created [date])
+
+I'm continuing with Unit 2. Keep consistency with the patterns established
+in Unit 1. Here's Unit 1 for reference: [paste]
+
+Now design Unit 2 following the same structure and pedagogical approach.</code></pre>
+<p>This maintains coherence across extended development work.</p>
+</section>
+<section id="for-advanced-teaching-sequences" class="level3" data-number="D.11.3">
+<h3 data-number="D.11.3" class="anchored" data-anchor-id="for-advanced-teaching-sequences"><span class="header-section-number">D.11.3</span> For Advanced Teaching Sequences</h3>
+<p>When designing complex learning sequences (like the prompt chaining in Chapter 8 or multi-week simulations), context management keeps quality consistent:</p>
+<p><strong>Break it into phases:</strong> 1. <strong>Phase 1 (Conversation 1):</strong> Design the learning arc and sequence 2. <strong>Phase 2 (Conversation 2):</strong> Develop Phase 1 components in detail 3. <strong>Phase 3 (Conversation 3):</strong> Develop Phase 2 components, referring back to Phase 1 4. <strong>Integration (Conversation 4):</strong> Ensure all phases connect coherently</p>
+<p>This modular approach produces more coherent educational experiences than trying to design everything at once.</p>
+</section>
+<section id="cross-reference" class="level3" data-number="D.11.4">
+<h3 data-number="D.11.4" class="anchored" data-anchor-id="cross-reference"><span class="header-section-number">D.11.4</span> Cross-Reference</h3>
+<p>For comprehensive context management strategies, see <strong>Chapter 6: Managing LLM Context</strong>. That chapter covers: - Breaking complex tasks into focused steps - Managing conversation length effectively - Explicit context specification - Batching similar tasks - Summarizing and handing off for extended projects</p>
+<hr>
+</section>
+</section>
+<section id="integration-with-main-chapters" class="level2" data-number="D.12">
+<h2 data-number="D.12" class="anchored" data-anchor-id="integration-with-main-chapters"><span class="header-section-number">D.12</span> Integration with Main Chapters</h2>
+<section id="chapter-cross-reference" class="level3" data-number="D.12.1">
+<h3 data-number="D.12.1" class="anchored" data-anchor-id="chapter-cross-reference"><span class="header-section-number">D.12.1</span> Chapter Cross-Reference</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Chapter</th>
+<th>Advanced Prompting Application</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ch 4: Five Techniques</td>
+<td>Use persona control and context management</td>
+</tr>
+<tr class="even">
+<td>Ch 5: Flight Simulator</td>
+<td>Apply chain-of-thought and decision trees</td>
+</tr>
+<tr class="odd">
+<td>Ch 6: Self-Assessment</td>
+<td>Implement rubric generation and feedback templates</td>
+</tr>
+<tr class="even">
+<td>Ch 7: Ethics</td>
+<td>Integrate values-based prompting and stakeholder analysis</td>
+</tr>
+<tr class="odd">
+<td>Ch 8: Process Assessment</td>
+<td>Use structured response formats and quality control</td>
+</tr>
+<tr class="even">
+<td>Ch 9: Virtual Company</td>
+<td>Apply consistent persona management and context continuity</td>
+</tr>
+<tr class="odd">
+<td>Ch 12: Static to Interactive</td>
+<td>Use educational formatting and scaffolding patterns</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="progressive-learning-path" class="level3" data-number="D.12.2">
+<h3 data-number="D.12.2" class="anchored" data-anchor-id="progressive-learning-path"><span class="header-section-number">D.12.2</span> Progressive Learning Path</h3>
+<ol type="1">
+<li><strong>Start with basic prompts</strong> (Chapters 2-3)</li>
+<li><strong>Add context management</strong> (Chapter 4 applications)</li>
+<li><strong>Incorporate persona control</strong> (Chapter 5-6)</li>
+<li><strong>Apply ethical frameworks</strong> (Chapter 7)</li>
+<li><strong>Master advanced techniques</strong> (This appendix)</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="final-thoughts" class="level2" data-number="D.13">
+<h2 data-number="D.13" class="anchored" data-anchor-id="final-thoughts"><span class="header-section-number">D.13</span> Final Thoughts</h2>
+<p><strong>Advanced prompting isn’t about complexity - it’s about precision.</strong></p>
+<p>The techniques in this appendix help you: - <strong>Get more consistent responses</strong> through better context—adapted to your discipline’s terminology and frameworks - <strong>Maintain professional standards</strong> with persona control—reflecting expertise in your professional field - <strong>Generate appropriate content</strong> with constraints and boundaries—respecting discipline-specific ethical standards - <strong>Create educational materials</strong> with structured formatting—matching your discipline’s learning outcomes - <strong>Save time</strong> with templates and patterns—customizable for your teaching context</p>
+<p><strong>Remember:</strong> The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students’ professional preparation.</p>
+<p>Adapt these HR-focused examples to your discipline by: 1. Replacing HR terminology with your field’s professional language 2. Substituting HR frameworks with discipline-specific standards and best practices 3. Adjusting persona definitions to match your profession’s expertise areas 4. Modifying risk and ethical considerations to reflect your field’s priorities</p>
+<hr>
+<p><em>Return to main chapters for practical applications, or continue experimenting with these advanced techniques as your confidence grows. Your discipline-specific expertise will make these prompts even more powerful.</em></p>
+
+
+<!-- -->
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./curtin-alignment.html" class="pagination-link" aria-label="Alignment with Curtin University Learning Outcomes">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Alignment with Curtin University Learning Outcomes</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb41" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Advanced Prompting for Business Education</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why This Appendix Exists</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>The main chapters focus on practical applications - what you can do tomorrow with AI in your teaching across all business disciplines. This appendix is for those who want to go deeper: how to craft more sophisticated prompts that give you better control, consistency, and results specific to your discipline.</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>**Think of this as the "advanced techniques" section - optional but powerful once you're comfortable with the basics.**</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>While this appendix uses HR examples, the prompting principles apply equally to marketing, accounting, management, supply chain, information systems, tourism &amp; hospitality, economics, and other business disciplines. The underlying techniques for role definition, context management, and output control work across all professional fields.</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Prompt Structure Fundamentals</span></span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Anatomy of an Effective Prompt</span></span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>Every good prompt has four key components:</span>
+<span id="cb41-18"><a href="#cb41-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-19"><a href="#cb41-19" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-20"><a href="#cb41-20" aria-hidden="true" tabindex="-1"></a><span class="in">[ROLE] + [CONTEXT] + [TASK] + [FORMAT] = Quality Response</span></span>
+<span id="cb41-21"><a href="#cb41-21" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-22"><a href="#cb41-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-23"><a href="#cb41-23" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 1. **Role Definition**</span></span>
+<span id="cb41-24"><a href="#cb41-24" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-25"><a href="#cb41-25" aria-hidden="true" tabindex="-1"></a><span class="in">Basic: "Review this HR policy"</span></span>
+<span id="cb41-26"><a href="#cb41-26" aria-hidden="true" tabindex="-1"></a><span class="in">Advanced: "You are a senior HR consultant with 15 years of experience in </span></span>
+<span id="cb41-27"><a href="#cb41-27" aria-hidden="true" tabindex="-1"></a><span class="in">          employment law and organisational development. You specialise in </span></span>
+<span id="cb41-28"><a href="#cb41-28" aria-hidden="true" tabindex="-1"></a><span class="in">          policy compliance and risk management for multinational corporations."</span></span>
+<span id="cb41-29"><a href="#cb41-29" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-30"><a href="#cb41-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-31"><a href="#cb41-31" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 2. **Context Setting**</span></span>
+<span id="cb41-32"><a href="#cb41-32" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-33"><a href="#cb41-33" aria-hidden="true" tabindex="-1"></a><span class="in">Basic: "for a tech company"</span></span>
+<span id="cb41-34"><a href="#cb41-34" aria-hidden="true" tabindex="-1"></a><span class="in">Advanced: "for a 500-employee software development company operating in Australia, </span></span>
+<span id="cb41-35"><a href="#cb41-35" aria-hidden="true" tabindex="-1"></a><span class="in">           with 40% remote workers, facing challenges with retention and performance </span></span>
+<span id="cb41-36"><a href="#cb41-36" aria-hidden="true" tabindex="-1"></a><span class="in">           management across distributed teams."</span></span>
+<span id="cb41-37"><a href="#cb41-37" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-38"><a href="#cb41-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-39"><a href="#cb41-39" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 3. **Task Specification**</span></span>
+<span id="cb41-40"><a href="#cb41-40" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-41"><a href="#cb41-41" aria-hidden="true" tabindex="-1"></a><span class="in">Basic: "give me some ideas"</span></span>
+<span id="cb41-42"><a href="#cb41-42" aria-hidden="true" tabindex="-1"></a><span class="in">Advanced: "Generate 5 specific, actionable strategies to improve remote team </span></span>
+<span id="cb41-43"><a href="#cb41-43" aria-hidden="true" tabindex="-1"></a><span class="in">           performance, each with implementation steps, required resources, </span></span>
+<span id="cb41-44"><a href="#cb41-44" aria-hidden="true" tabindex="-1"></a><span class="in">           and potential risks."</span></span>
+<span id="cb41-45"><a href="#cb41-45" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-46"><a href="#cb41-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-47"><a href="#cb41-47" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 4. **Format Control**</span></span>
+<span id="cb41-48"><a href="#cb41-48" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-49"><a href="#cb41-49" aria-hidden="true" tabindex="-1"></a><span class="in">Basic: "list them"</span></span>
+<span id="cb41-50"><a href="#cb41-50" aria-hidden="true" tabindex="-1"></a><span class="in">Advanced: "Present each strategy in a table with columns: Strategy, Implementation </span></span>
+<span id="cb41-51"><a href="#cb41-51" aria-hidden="true" tabindex="-1"></a><span class="in">           Steps, Timeline, Required Resources, Risk Mitigation, Success Metrics."</span></span>
+<span id="cb41-52"><a href="#cb41-52" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-53"><a href="#cb41-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-54"><a href="#cb41-54" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-55"><a href="#cb41-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-56"><a href="#cb41-56" aria-hidden="true" tabindex="-1"></a><span class="fu">## Context Management Techniques</span></span>
+<span id="cb41-57"><a href="#cb41-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-58"><a href="#cb41-58" aria-hidden="true" tabindex="-1"></a><span class="fu">### Maintaining Conversation History</span></span>
+<span id="cb41-59"><a href="#cb41-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-60"><a href="#cb41-60" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Method 1: Summary Refresh**</span></span>
+<span id="cb41-61"><a href="#cb41-61" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-62"><a href="#cb41-62" aria-hidden="true" tabindex="-1"></a><span class="in">Continue our conversation about [topic]. Here's what we've covered so far:</span></span>
+<span id="cb41-63"><a href="#cb41-63" aria-hidden="true" tabindex="-1"></a><span class="in">[brief summary of previous points]</span></span>
+<span id="cb41-64"><a href="#cb41-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-65"><a href="#cb41-65" aria-hidden="true" tabindex="-1"></a><span class="in">Now, please [next task].</span></span>
+<span id="cb41-66"><a href="#cb41-66" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-67"><a href="#cb41-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-68"><a href="#cb41-68" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Method 2: Explicit Context Carry**</span></span>
+<span id="cb41-69"><a href="#cb41-69" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-70"><a href="#cb41-70" aria-hidden="true" tabindex="-1"></a><span class="in">Based on the previous scenario where [key details], now analyse [new situation] </span></span>
+<span id="cb41-71"><a href="#cb41-71" aria-hidden="true" tabindex="-1"></a><span class="in">considering the same organisational context and constraints.</span></span>
+<span id="cb41-72"><a href="#cb41-72" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-73"><a href="#cb41-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-74"><a href="#cb41-74" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Method 3: Reference Points**</span></span>
+<span id="cb41-75"><a href="#cb41-75" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-76"><a href="#cb41-76" aria-hidden="true" tabindex="-1"></a><span class="in">Refer back to the performance management framework we developed in Chapter 2. </span></span>
+<span id="cb41-77"><a href="#cb41-77" aria-hidden="true" tabindex="-1"></a><span class="in">Apply those principles to this new termination scenario.</span></span>
+<span id="cb41-78"><a href="#cb41-78" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-79"><a href="#cb41-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-80"><a href="#cb41-80" aria-hidden="true" tabindex="-1"></a><span class="fu">### Setting Scenario Parameters</span></span>
+<span id="cb41-81"><a href="#cb41-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-82"><a href="#cb41-82" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Organizational Context Template**</span></span>
+<span id="cb41-83"><a href="#cb41-83" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-84"><a href="#cb41-84" aria-hidden="true" tabindex="-1"></a><span class="in">You are advising [company type] with [employee count] employees in [industry/sector]. </span></span>
+<span id="cb41-85"><a href="#cb41-85" aria-hidden="true" tabindex="-1"></a><span class="in">Key characteristics: [list 3-4 relevant factors]</span></span>
+<span id="cb41-86"><a href="#cb41-86" aria-hidden="true" tabindex="-1"></a><span class="in">Current challenges: [specific HR issues]</span></span>
+<span id="cb41-87"><a href="#cb41-87" aria-hidden="true" tabindex="-1"></a><span class="in">Legal framework: [relevant employment laws/countries]</span></span>
+<span id="cb41-88"><a href="#cb41-88" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-89"><a href="#cb41-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-90"><a href="#cb41-90" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Student Level Calibration**</span></span>
+<span id="cb41-91"><a href="#cb41-91" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-92"><a href="#cb41-92" aria-hidden="true" tabindex="-1"></a><span class="in">Explain this at [undergraduate/postgraduate/professional] level.</span></span>
+<span id="cb41-93"><a href="#cb41-93" aria-hidden="true" tabindex="-1"></a><span class="in">Assume the audience has [prior knowledge/experience].</span></span>
+<span id="cb41-94"><a href="#cb41-94" aria-hidden="true" tabindex="-1"></a><span class="in">Use [simple/technical/advanced] language.</span></span>
+<span id="cb41-95"><a href="#cb41-95" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-96"><a href="#cb41-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-97"><a href="#cb41-97" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-98"><a href="#cb41-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-99"><a href="#cb41-99" aria-hidden="true" tabindex="-1"></a><span class="fu">## Persona Control Strategies</span></span>
+<span id="cb41-100"><a href="#cb41-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-101"><a href="#cb41-101" aria-hidden="true" tabindex="-1"></a><span class="fu">### Consistent HR Professional Persona</span></span>
+<span id="cb41-102"><a href="#cb41-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-103"><a href="#cb41-103" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Master Persona Prompt**</span></span>
+<span id="cb41-104"><a href="#cb41-104" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-105"><a href="#cb41-105" aria-hidden="true" tabindex="-1"></a><span class="in">You are an experienced HR business partner with the following characteristics:</span></span>
+<span id="cb41-106"><a href="#cb41-106" aria-hidden="true" tabindex="-1"></a><span class="in">- 12+ years of HR experience across multiple industries</span></span>
+<span id="cb41-107"><a href="#cb41-107" aria-hidden="true" tabindex="-1"></a><span class="in">- Expertise in employment law, employee relations, and organisational development</span></span>
+<span id="cb41-108"><a href="#cb41-108" aria-hidden="true" tabindex="-1"></a><span class="in">- Communication style: professional yet approachable, legally aware but practical</span></span>
+<span id="cb41-109"><a href="#cb41-109" aria-hidden="true" tabindex="-1"></a><span class="in">- Decision-making approach: balances employee needs with business requirements</span></span>
+<span id="cb41-110"><a href="#cb41-110" aria-hidden="true" tabindex="-1"></a><span class="in">- Ethical framework: prioritizes fairness, compliance, and organisational health</span></span>
+<span id="cb41-111"><a href="#cb41-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-112"><a href="#cb41-112" aria-hidden="true" tabindex="-1"></a><span class="in">Maintain this persona throughout our conversation. When providing advice, consider </span></span>
+<span id="cb41-113"><a href="#cb41-113" aria-hidden="true" tabindex="-1"></a><span class="in">legal implications, practical feasibility, and stakeholder impact.</span></span>
+<span id="cb41-114"><a href="#cb41-114" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-115"><a href="#cb41-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-116"><a href="#cb41-116" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Persona Reinforcement**</span></span>
+<span id="cb41-117"><a href="#cb41-117" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-118"><a href="#cb41-118" aria-hidden="true" tabindex="-1"></a><span class="in">Remember your role as [persona description]. Apply that perspective to [new scenario].</span></span>
+<span id="cb41-119"><a href="#cb41-119" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-120"><a href="#cb41-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-121"><a href="#cb41-121" aria-hidden="true" tabindex="-1"></a><span class="fu">### Multiple Perspective Analysis</span></span>
+<span id="cb41-122"><a href="#cb41-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-123"><a href="#cb41-123" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Stakeholder Persona Set**</span></span>
+<span id="cb41-124"><a href="#cb41-124" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-125"><a href="#cb41-125" aria-hidden="true" tabindex="-1"></a><span class="in">Analyse this situation from three perspectives:</span></span>
+<span id="cb41-126"><a href="#cb41-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-127"><a href="#cb41-127" aria-hidden="true" tabindex="-1"></a><span class="in">1. **HR Manager**: [persona details]</span></span>
+<span id="cb41-128"><a href="#cb41-128" aria-hidden="true" tabindex="-1"></a><span class="in">2. **Legal Counsel**: [persona details] </span></span>
+<span id="cb41-129"><a href="#cb41-129" aria-hidden="true" tabindex="-1"></a><span class="in">3. **Employee Representative**: [persona details]</span></span>
+<span id="cb41-130"><a href="#cb41-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-131"><a href="#cb41-131" aria-hidden="true" tabindex="-1"></a><span class="in">Present each viewpoint separately, then provide a balanced recommendation.</span></span>
+<span id="cb41-132"><a href="#cb41-132" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-133"><a href="#cb41-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-134"><a href="#cb41-134" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-135"><a href="#cb41-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-136"><a href="#cb41-136" aria-hidden="true" tabindex="-1"></a><span class="fu">## Advanced Prompting Techniques</span></span>
+<span id="cb41-137"><a href="#cb41-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-138"><a href="#cb41-138" aria-hidden="true" tabindex="-1"></a><span class="fu">### Chain-of-Thought for HR Scenarios</span></span>
+<span id="cb41-139"><a href="#cb41-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-140"><a href="#cb41-140" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Step-by-Step Reasoning**</span></span>
+<span id="cb41-141"><a href="#cb41-141" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-142"><a href="#cb41-142" aria-hidden="true" tabindex="-1"></a><span class="in">When analysing this HR situation, please:</span></span>
+<span id="cb41-143"><a href="#cb41-143" aria-hidden="true" tabindex="-1"></a><span class="in">1. First identify the key facts and stakeholders</span></span>
+<span id="cb41-144"><a href="#cb41-144" aria-hidden="true" tabindex="-1"></a><span class="in">2. Then consider relevant legal and policy frameworks</span></span>
+<span id="cb41-145"><a href="#cb41-145" aria-hidden="true" tabindex="-1"></a><span class="in">3. Next evaluate potential risks and consequences</span></span>
+<span id="cb41-146"><a href="#cb41-146" aria-hidden="true" tabindex="-1"></a><span class="in">4. Then generate multiple solution options</span></span>
+<span id="cb41-147"><a href="#cb41-147" aria-hidden="true" tabindex="-1"></a><span class="in">5. Finally recommend the best approach with justification</span></span>
+<span id="cb41-148"><a href="#cb41-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-149"><a href="#cb41-149" aria-hidden="true" tabindex="-1"></a><span class="in">Show your reasoning for each step.</span></span>
+<span id="cb41-150"><a href="#cb41-150" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-151"><a href="#cb41-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-152"><a href="#cb41-152" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Decision Tree Prompting**</span></span>
+<span id="cb41-153"><a href="#cb41-153" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-154"><a href="#cb41-154" aria-hidden="true" tabindex="-1"></a><span class="in">Create a decision tree for [HR situation]:</span></span>
+<span id="cb41-155"><a href="#cb41-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-156"><a href="#cb41-156" aria-hidden="true" tabindex="-1"></a><span class="in">Start with the initial decision point. For each option, show:</span></span>
+<span id="cb41-157"><a href="#cb41-157" aria-hidden="true" tabindex="-1"></a><span class="in">- Immediate consequences</span></span>
+<span id="cb41-158"><a href="#cb41-158" aria-hidden="true" tabindex="-1"></a><span class="in">- Follow-up decisions required</span></span>
+<span id="cb41-159"><a href="#cb41-159" aria-hidden="true" tabindex="-1"></a><span class="in">- Potential outcomes (best/worst/most likely)</span></span>
+<span id="cb41-160"><a href="#cb41-160" aria-hidden="true" tabindex="-1"></a><span class="in">- Risk factors to consider</span></span>
+<span id="cb41-161"><a href="#cb41-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-162"><a href="#cb41-162" aria-hidden="true" tabindex="-1"></a><span class="in">Use this format: [Decision] → [Option A/B/C] → [Consequences] → [Next Decision]</span></span>
+<span id="cb41-163"><a href="#cb41-163" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-164"><a href="#cb41-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-165"><a href="#cb41-165" aria-hidden="true" tabindex="-1"></a><span class="fu">### Few-Shot Learning Examples</span></span>
+<span id="cb41-166"><a href="#cb41-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-167"><a href="#cb41-167" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Pattern Recognition**</span></span>
+<span id="cb41-168"><a href="#cb41-168" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-169"><a href="#cb41-169" aria-hidden="true" tabindex="-1"></a><span class="in">Here are examples of well-written HR communications:</span></span>
+<span id="cb41-170"><a href="#cb41-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-171"><a href="#cb41-171" aria-hidden="true" tabindex="-1"></a><span class="in">Example 1: [good example]</span></span>
+<span id="cb41-172"><a href="#cb41-172" aria-hidden="true" tabindex="-1"></a><span class="in">Example 2: [good example]</span></span>
+<span id="cb41-173"><a href="#cb41-173" aria-hidden="true" tabindex="-1"></a><span class="in">Example 3: [good example]</span></span>
+<span id="cb41-174"><a href="#cb41-174" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-175"><a href="#cb41-175" aria-hidden="true" tabindex="-1"></a><span class="in">Now, write a similar communication for [new situation] following the same style </span></span>
+<span id="cb41-176"><a href="#cb41-176" aria-hidden="true" tabindex="-1"></a><span class="in">and quality standards.</span></span>
+<span id="cb41-177"><a href="#cb41-177" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-178"><a href="#cb41-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-179"><a href="#cb41-179" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Quality Calibration**</span></span>
+<span id="cb41-180"><a href="#cb41-180" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-181"><a href="#cb41-181" aria-hidden="true" tabindex="-1"></a><span class="in">Rate these HR responses on a scale of 1-10 for professionalism, legal compliance, </span></span>
+<span id="cb41-182"><a href="#cb41-182" aria-hidden="true" tabindex="-1"></a><span class="in">and clarity:</span></span>
+<span id="cb41-183"><a href="#cb41-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-184"><a href="#cb41-184" aria-hidden="true" tabindex="-1"></a><span class="in">Response A: [example response]</span></span>
+<span id="cb41-185"><a href="#cb41-185" aria-hidden="true" tabindex="-1"></a><span class="in">Response B: [example response]</span></span>
+<span id="cb41-186"><a href="#cb41-186" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-187"><a href="#cb41-187" aria-hidden="true" tabindex="-1"></a><span class="in">Explain your ratings. Then write an excellent response for [new scenario].</span></span>
+<span id="cb41-188"><a href="#cb41-188" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-189"><a href="#cb41-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-190"><a href="#cb41-190" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-191"><a href="#cb41-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-192"><a href="#cb41-192" aria-hidden="true" tabindex="-1"></a><span class="fu">## Discipline-Specific Prompting Patterns</span></span>
+<span id="cb41-193"><a href="#cb41-193" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-194"><a href="#cb41-194" aria-hidden="true" tabindex="-1"></a>The prompting patterns below show HR examples, but the same structures apply across business disciplines:</span>
+<span id="cb41-195"><a href="#cb41-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-196"><a href="#cb41-196" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Accounting**: Legal and regulatory frameworks become compliance with accounting standards (IFRS, GAAP)</span>
+<span id="cb41-197"><a href="#cb41-197" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Marketing**: Ethical considerations become consumer protection and brand reputation management</span>
+<span id="cb41-198"><a href="#cb41-198" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Management**: Stakeholder analysis becomes organisational hierarchy and change management considerations</span>
+<span id="cb41-199"><a href="#cb41-199" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Supply Chain**: Risk assessment becomes logistics disruption and vendor management</span>
+<span id="cb41-200"><a href="#cb41-200" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Information Systems**: Professional boundaries become data security and system reliability requirements</span>
+<span id="cb41-201"><a href="#cb41-201" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Tourism &amp; Hospitality**: Compliance integration becomes service standards and guest satisfaction regulations</span>
+<span id="cb41-202"><a href="#cb41-202" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-203"><a href="#cb41-203" aria-hidden="true" tabindex="-1"></a><span class="fu">### Discipline-Appropriate Compliance Integration</span></span>
+<span id="cb41-204"><a href="#cb41-204" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-205"><a href="#cb41-205" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Risk Assessment Framework**</span></span>
+<span id="cb41-206"><a href="#cb41-206" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-207"><a href="#cb41-207" aria-hidden="true" tabindex="-1"></a><span class="in">For any HR recommendation you provide, always include:</span></span>
+<span id="cb41-208"><a href="#cb41-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-209"><a href="#cb41-209" aria-hidden="true" tabindex="-1"></a><span class="in">**Legal Risk Assessment:**</span></span>
+<span id="cb41-210"><a href="#cb41-210" aria-hidden="true" tabindex="-1"></a><span class="in">- Employment law considerations: [specific laws/regulations]</span></span>
+<span id="cb41-211"><a href="#cb41-211" aria-hidden="true" tabindex="-1"></a><span class="in">- Compliance requirements: [mandatory steps]</span></span>
+<span id="cb41-212"><a href="#cb41-212" aria-hidden="true" tabindex="-1"></a><span class="in">- Potential liabilities: [legal risks]</span></span>
+<span id="cb41-213"><a href="#cb41-213" aria-hidden="true" tabindex="-1"></a><span class="in">- Mitigation strategies: [risk reduction]</span></span>
+<span id="cb41-214"><a href="#cb41-214" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-215"><a href="#cb41-215" aria-hidden="true" tabindex="-1"></a><span class="in">**Ethical Considerations:**</span></span>
+<span id="cb41-216"><a href="#cb41-216" aria-hidden="true" tabindex="-1"></a><span class="in">- Fairness implications</span></span>
+<span id="cb41-217"><a href="#cb41-217" aria-hidden="true" tabindex="-1"></a><span class="in">- Stakeholder impact</span></span>
+<span id="cb41-218"><a href="#cb41-218" aria-hidden="true" tabindex="-1"></a><span class="in">- Organisational values alignment</span></span>
+<span id="cb41-219"><a href="#cb41-219" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-220"><a href="#cb41-220" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-221"><a href="#cb41-221" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Jurisdiction Specification**</span></span>
+<span id="cb41-222"><a href="#cb41-222" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-223"><a href="#cb41-223" aria-hidden="true" tabindex="-1"></a><span class="in">Provide advice for [specific country/state/province] considering:</span></span>
+<span id="cb41-224"><a href="#cb41-224" aria-hidden="true" tabindex="-1"></a><span class="in">- Relevant employment legislation</span></span>
+<span id="cb41-225"><a href="#cb41-225" aria-hidden="true" tabindex="-1"></a><span class="in">- Recent case law developments</span></span>
+<span id="cb41-226"><a href="#cb41-226" aria-hidden="true" tabindex="-1"></a><span class="in">- Regulatory body guidelines</span></span>
+<span id="cb41-227"><a href="#cb41-227" aria-hidden="true" tabindex="-1"></a><span class="in">- Industry-specific requirements</span></span>
+<span id="cb41-228"><a href="#cb41-228" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-229"><a href="#cb41-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-230"><a href="#cb41-230" aria-hidden="true" tabindex="-1"></a><span class="fu">### Ethical Framework Integration</span></span>
+<span id="cb41-231"><a href="#cb41-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-232"><a href="#cb41-232" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Values-Based Prompting**</span></span>
+<span id="cb41-233"><a href="#cb41-233" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-234"><a href="#cb41-234" aria-hidden="true" tabindex="-1"></a><span class="in">When addressing this HR issue, apply these ethical principles:</span></span>
+<span id="cb41-235"><a href="#cb41-235" aria-hidden="true" tabindex="-1"></a><span class="in">1. **Respect for human dignity**</span></span>
+<span id="cb41-236"><a href="#cb41-236" aria-hidden="true" tabindex="-1"></a><span class="in">2. **Fairness and consistency** </span></span>
+<span id="cb41-237"><a href="#cb41-237" aria-hidden="true" tabindex="-1"></a><span class="in">3. **Transparency and honesty**</span></span>
+<span id="cb41-238"><a href="#cb41-238" aria-hidden="true" tabindex="-1"></a><span class="in">4. **Confidentiality and privacy**</span></span>
+<span id="cb41-239"><a href="#cb41-239" aria-hidden="true" tabindex="-1"></a><span class="in">5. **Organizational responsibility**</span></span>
+<span id="cb41-240"><a href="#cb41-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-241"><a href="#cb41-241" aria-hidden="true" tabindex="-1"></a><span class="in">Show how each principle influences your recommendation.</span></span>
+<span id="cb41-242"><a href="#cb41-242" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-243"><a href="#cb41-243" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-244"><a href="#cb41-244" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Stakeholder Impact Analysis**</span></span>
+<span id="cb41-245"><a href="#cb41-245" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-246"><a href="#cb41-246" aria-hidden="true" tabindex="-1"></a><span class="in">For any proposed HR action, analyse impact on:</span></span>
+<span id="cb41-247"><a href="#cb41-247" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-248"><a href="#cb41-248" aria-hidden="true" tabindex="-1"></a><span class="in">**Primary Stakeholders:**</span></span>
+<span id="cb41-249"><a href="#cb41-249" aria-hidden="true" tabindex="-1"></a><span class="in">- Employees affected: [number/type]</span></span>
+<span id="cb41-250"><a href="#cb41-250" aria-hidden="true" tabindex="-1"></a><span class="in">- Direct impact: [immediate effects]</span></span>
+<span id="cb41-251"><a href="#cb41-251" aria-hidden="true" tabindex="-1"></a><span class="in">- Long-term consequences: [future implications]</span></span>
+<span id="cb41-252"><a href="#cb41-252" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-253"><a href="#cb41-253" aria-hidden="true" tabindex="-1"></a><span class="in">**Secondary Stakeholders:**</span></span>
+<span id="cb41-254"><a href="#cb41-254" aria-hidden="true" tabindex="-1"></a><span class="in">- Team dynamics: [group effects]</span></span>
+<span id="cb41-255"><a href="#cb41-255" aria-hidden="true" tabindex="-1"></a><span class="in">- Customer impact: [external effects]</span></span>
+<span id="cb41-256"><a href="#cb41-256" aria-hidden="true" tabindex="-1"></a><span class="in">- Community considerations: [broader implications]</span></span>
+<span id="cb41-257"><a href="#cb41-257" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-258"><a href="#cb41-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-259"><a href="#cb41-259" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-260"><a href="#cb41-260" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-261"><a href="#cb41-261" aria-hidden="true" tabindex="-1"></a><span class="fu">## Output Control and Formatting</span></span>
+<span id="cb41-262"><a href="#cb41-262" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-263"><a href="#cb41-263" aria-hidden="true" tabindex="-1"></a><span class="fu">### Structured Response Templates</span></span>
+<span id="cb41-264"><a href="#cb41-264" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-265"><a href="#cb41-265" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **HR Report Format**</span></span>
+<span id="cb41-266"><a href="#cb41-266" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-267"><a href="#cb41-267" aria-hidden="true" tabindex="-1"></a><span class="in">Present your analysis in this format:</span></span>
+<span id="cb41-268"><a href="#cb41-268" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-269"><a href="#cb41-269" aria-hidden="true" tabindex="-1"></a><span class="in">## Executive Summary</span></span>
+<span id="cb41-270"><a href="#cb41-270" aria-hidden="true" tabindex="-1"></a><span class="in">[2-3 sentence overview]</span></span>
+<span id="cb41-271"><a href="#cb41-271" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-272"><a href="#cb41-272" aria-hidden="true" tabindex="-1"></a><span class="in">## Situation Analysis</span></span>
+<span id="cb41-273"><a href="#cb41-273" aria-hidden="true" tabindex="-1"></a><span class="in">[Key facts and context]</span></span>
+<span id="cb41-274"><a href="#cb41-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-275"><a href="#cb41-275" aria-hidden="true" tabindex="-1"></a><span class="in">## Legal and Policy Considerations</span></span>
+<span id="cb41-276"><a href="#cb41-276" aria-hidden="true" tabindex="-1"></a><span class="in">[Relevant frameworks and requirements]</span></span>
+<span id="cb41-277"><a href="#cb41-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-278"><a href="#cb41-278" aria-hidden="true" tabindex="-1"></a><span class="in">## Recommended Actions</span></span>
+<span id="cb41-279"><a href="#cb41-279" aria-hidden="true" tabindex="-1"></a><span class="in">1. [Action 1] - [Timeline] - [Responsibility]</span></span>
+<span id="cb41-280"><a href="#cb41-280" aria-hidden="true" tabindex="-1"></a><span class="in">2. [Action 2] - [Timeline] - [Responsibility]</span></span>
+<span id="cb41-281"><a href="#cb41-281" aria-hidden="true" tabindex="-1"></a><span class="in">3. [Action 3] - [Timeline] - [Responsibility]</span></span>
+<span id="cb41-282"><a href="#cb41-282" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-283"><a href="#cb41-283" aria-hidden="true" tabindex="-1"></a><span class="in">## Risk Mitigation</span></span>
+<span id="cb41-284"><a href="#cb41-284" aria-hidden="true" tabindex="-1"></a><span class="in">[Potential problems and solutions]</span></span>
+<span id="cb41-285"><a href="#cb41-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-286"><a href="#cb41-286" aria-hidden="true" tabindex="-1"></a><span class="in">## Success Metrics</span></span>
+<span id="cb41-287"><a href="#cb41-287" aria-hidden="true" tabindex="-1"></a><span class="in">[How to measure effectiveness]</span></span>
+<span id="cb41-288"><a href="#cb41-288" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-289"><a href="#cb41-289" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-290"><a href="#cb41-290" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Teaching Material Format**</span></span>
+<span id="cb41-291"><a href="#cb41-291" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-292"><a href="#cb41-292" aria-hidden="true" tabindex="-1"></a><span class="in">Structure this educational content as:</span></span>
+<span id="cb41-293"><a href="#cb41-293" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-294"><a href="#cb41-294" aria-hidden="true" tabindex="-1"></a><span class="in">## Learning Objectives</span></span>
+<span id="cb41-295"><a href="#cb41-295" aria-hidden="true" tabindex="-1"></a><span class="in">[What students will be able to do]</span></span>
+<span id="cb41-296"><a href="#cb41-296" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-297"><a href="#cb41-297" aria-hidden="true" tabindex="-1"></a><span class="in">## Key Concepts</span></span>
+<span id="cb41-298"><a href="#cb41-298" aria-hidden="true" tabindex="-1"></a><span class="in">[Main theoretical frameworks]</span></span>
+<span id="cb41-299"><a href="#cb41-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-300"><a href="#cb41-300" aria-hidden="true" tabindex="-1"></a><span class="in">## Real-World Example</span></span>
+<span id="cb41-301"><a href="#cb41-301" aria-hidden="true" tabindex="-1"></a><span class="in">[Practical application scenario]</span></span>
+<span id="cb41-302"><a href="#cb41-302" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-303"><a href="#cb41-303" aria-hidden="true" tabindex="-1"></a><span class="in">## Practice Activity</span></span>
+<span id="cb41-304"><a href="#cb41-304" aria-hidden="true" tabindex="-1"></a><span class="in">[Exercise for students]</span></span>
+<span id="cb41-305"><a href="#cb41-305" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-306"><a href="#cb41-306" aria-hidden="true" tabindex="-1"></a><span class="in">## Discussion Questions</span></span>
+<span id="cb41-307"><a href="#cb41-307" aria-hidden="true" tabindex="-1"></a><span class="in">[Critical thinking prompts]</span></span>
+<span id="cb41-308"><a href="#cb41-308" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-309"><a href="#cb41-309" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-310"><a href="#cb41-310" aria-hidden="true" tabindex="-1"></a><span class="fu">### Response Quality Control</span></span>
+<span id="cb41-311"><a href="#cb41-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-312"><a href="#cb41-312" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Specificity Prompts**</span></span>
+<span id="cb41-313"><a href="#cb41-313" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-314"><a href="#cb41-314" aria-hidden="true" tabindex="-1"></a><span class="in">Instead of general advice, provide:</span></span>
+<span id="cb41-315"><a href="#cb41-315" aria-hidden="true" tabindex="-1"></a><span class="in">- Exact wording for communications</span></span>
+<span id="cb41-316"><a href="#cb41-316" aria-hidden="true" tabindex="-1"></a><span class="in">- Specific numbers and timelines</span></span>
+<span id="cb41-317"><a href="#cb41-317" aria-hidden="true" tabindex="-1"></a><span class="in">- Detailed step-by-step processes</span></span>
+<span id="cb41-318"><a href="#cb41-318" aria-hidden="true" tabindex="-1"></a><span class="in">- Concrete examples and templates</span></span>
+<span id="cb41-319"><a href="#cb41-319" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-320"><a href="#cb41-320" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-321"><a href="#cb41-321" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Constraining Scope**</span></span>
+<span id="cb41-322"><a href="#cb41-322" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-323"><a href="#cb41-323" aria-hidden="true" tabindex="-1"></a><span class="in">Focus only on [specific aspect]. Do not address [topics to avoid].</span></span>
+<span id="cb41-324"><a href="#cb41-324" aria-hidden="true" tabindex="-1"></a><span class="in">Keep your response to [word/time limit].</span></span>
+<span id="cb41-325"><a href="#cb41-325" aria-hidden="true" tabindex="-1"></a><span class="in">Target [specific audience] level of understanding.</span></span>
+<span id="cb41-326"><a href="#cb41-326" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-327"><a href="#cb41-327" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-328"><a href="#cb41-328" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-329"><a href="#cb41-329" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-330"><a href="#cb41-330" aria-hidden="true" tabindex="-1"></a><span class="fu">## Troubleshooting Common Issues</span></span>
+<span id="cb41-331"><a href="#cb41-331" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-332"><a href="#cb41-332" aria-hidden="true" tabindex="-1"></a><span class="fu">### AI Going Off-Topic</span></span>
+<span id="cb41-333"><a href="#cb41-333" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-334"><a href="#cb41-334" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Refocusing Prompts**</span></span>
+<span id="cb41-335"><a href="#cb41-335" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-336"><a href="#cb41-336" aria-hidden="true" tabindex="-1"></a><span class="in">That's not quite what I need. Let's refocus on [specific topic].</span></span>
+<span id="cb41-337"><a href="#cb41-337" aria-hidden="true" tabindex="-1"></a><span class="in">Please address [original question] without discussing [distracting topics].</span></span>
+<span id="cb41-338"><a href="#cb41-338" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-339"><a href="#cb41-339" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-340"><a href="#cb41-340" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Boundary Setting**</span></span>
+<span id="cb41-341"><a href="#cb41-341" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-342"><a href="#cb41-342" aria-hidden="true" tabindex="-1"></a><span class="in">For this conversation, please limit your responses to:</span></span>
+<span id="cb41-343"><a href="#cb41-343" aria-hidden="true" tabindex="-1"></a><span class="in">- HR-related topics only</span></span>
+<span id="cb41-344"><a href="#cb41-344" aria-hidden="true" tabindex="-1"></a><span class="in">- Practical workplace applications</span></span>
+<span id="cb41-345"><a href="#cb41-345" aria-hidden="true" tabindex="-1"></a><span class="in">- [specific time period/industry]</span></span>
+<span id="cb41-346"><a href="#cb41-346" aria-hidden="true" tabindex="-1"></a><span class="in">Avoid: [topics to exclude]</span></span>
+<span id="cb41-347"><a href="#cb41-347" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-348"><a href="#cb41-348" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-349"><a href="#cb41-349" aria-hidden="true" tabindex="-1"></a><span class="fu">### Inconsistent Responses</span></span>
+<span id="cb41-350"><a href="#cb41-350" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-351"><a href="#cb41-351" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Consistency Prompts**</span></span>
+<span id="cb41-352"><a href="#cb41-352" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-353"><a href="#cb41-353" aria-hidden="true" tabindex="-1"></a><span class="in">Remember the framework we established earlier: [reference previous framework].</span></span>
+<span id="cb41-354"><a href="#cb41-354" aria-hidden="true" tabindex="-1"></a><span class="in">Apply the same approach to this new situation.</span></span>
+<span id="cb41-355"><a href="#cb41-355" aria-hidden="true" tabindex="-1"></a><span class="in">Maintain consistency with your previous advice on [similar topic].</span></span>
+<span id="cb41-356"><a href="#cb41-356" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-357"><a href="#cb41-357" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-358"><a href="#cb41-358" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Quality Control**</span></span>
+<span id="cb41-359"><a href="#cb41-359" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-360"><a href="#cb41-360" aria-hidden="true" tabindex="-1"></a><span class="in">Before responding, please ensure your answer:</span></span>
+<span id="cb41-361"><a href="#cb41-361" aria-hidden="true" tabindex="-1"></a><span class="in">- Aligns with HR best practices</span></span>
+<span id="cb41-362"><a href="#cb41-362" aria-hidden="true" tabindex="-1"></a><span class="in">- Considers legal implications</span></span>
+<span id="cb41-363"><a href="#cb41-363" aria-hidden="true" tabindex="-1"></a><span class="in">- Is practical and actionable</span></span>
+<span id="cb41-364"><a href="#cb41-364" aria-hidden="true" tabindex="-1"></a><span class="in">- Addresses the specific question asked</span></span>
+<span id="cb41-365"><a href="#cb41-365" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-366"><a href="#cb41-366" aria-hidden="true" tabindex="-1"></a><span class="in">If any of these criteria aren't met, revise your response.</span></span>
+<span id="cb41-367"><a href="#cb41-367" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-368"><a href="#cb41-368" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-369"><a href="#cb41-369" aria-hidden="true" tabindex="-1"></a><span class="fu">### Inappropriate Content Generation</span></span>
+<span id="cb41-370"><a href="#cb41-370" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-371"><a href="#cb41-371" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Professional Boundaries**</span></span>
+<span id="cb41-372"><a href="#cb41-372" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-373"><a href="#cb41-373" aria-hidden="true" tabindex="-1"></a><span class="in">As an HR professional, certain topics require specific handling:</span></span>
+<span id="cb41-374"><a href="#cb41-374" aria-hidden="true" tabindex="-1"></a><span class="in">- Legal advice must include "consult with legal counsel"</span></span>
+<span id="cb41-375"><a href="#cb41-375" aria-hidden="true" tabindex="-1"></a><span class="in">- Medical situations require privacy considerations</span></span>
+<span id="cb41-376"><a href="#cb41-376" aria-hidden="true" tabindex="-1"></a><span class="in">- Personal issues need appropriate boundaries</span></span>
+<span id="cb41-377"><a href="#cb41-377" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-378"><a href="#cb41-378" aria-hidden="true" tabindex="-1"></a><span class="in">Please ensure your response maintains professional HR standards.</span></span>
+<span id="cb41-379"><a href="#cb41-379" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-380"><a href="#cb41-380" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-381"><a href="#cb41-381" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Content Filters**</span></span>
+<span id="cb41-382"><a href="#cb41-382" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-383"><a href="#cb41-383" aria-hidden="true" tabindex="-1"></a><span class="in">If asked about [inappropriate topics], respond with:</span></span>
+<span id="cb41-384"><a href="#cb41-384" aria-hidden="true" tabindex="-1"></a><span class="in">"I cannot provide specific advice on this topic. Please consult with </span></span>
+<span id="cb41-385"><a href="#cb41-385" aria-hidden="true" tabindex="-1"></a><span class="in">[appropriate professional: legal counsel, medical professional, etc.]."</span></span>
+<span id="cb41-386"><a href="#cb41-386" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-387"><a href="#cb41-387" aria-hidden="true" tabindex="-1"></a><span class="in">Do not provide guidance on [restricted topics].</span></span>
+<span id="cb41-388"><a href="#cb41-388" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-389"><a href="#cb41-389" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-390"><a href="#cb41-390" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-391"><a href="#cb41-391" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-392"><a href="#cb41-392" aria-hidden="true" tabindex="-1"></a><span class="fu">## Educational Applications</span></span>
+<span id="cb41-393"><a href="#cb41-393" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-394"><a href="#cb41-394" aria-hidden="true" tabindex="-1"></a><span class="fu">### Scaffolding Complexity</span></span>
+<span id="cb41-395"><a href="#cb41-395" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-396"><a href="#cb41-396" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Progressive Difficulty Prompts**</span></span>
+<span id="cb41-397"><a href="#cb41-397" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-398"><a href="#cb41-398" aria-hidden="true" tabindex="-1"></a><span class="in">**Beginner Level:** Explain [concept] in simple terms with basic examples.</span></span>
+<span id="cb41-399"><a href="#cb41-399" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-400"><a href="#cb41-400" aria-hidden="true" tabindex="-1"></a><span class="in">**Intermediate Level:** Analyse [scenario] applying [concept] with some complexity.</span></span>
+<span id="cb41-401"><a href="#cb41-401" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-402"><a href="#cb41-402" aria-hidden="true" tabindex="-1"></a><span class="in">**Advanced Level:** Evaluate [complex situation] requiring synthesis of multiple </span></span>
+<span id="cb41-403"><a href="#cb41-403" aria-hidden="true" tabindex="-1"></a><span class="in">concepts and professional judgment.</span></span>
+<span id="cb41-404"><a href="#cb41-404" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-405"><a href="#cb41-405" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-406"><a href="#cb41-406" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Differentiated Instruction**</span></span>
+<span id="cb41-407"><a href="#cb41-407" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-408"><a href="#cb41-408" aria-hidden="true" tabindex="-1"></a><span class="in">Provide three versions of this HR exercise:</span></span>
+<span id="cb41-409"><a href="#cb41-409" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-410"><a href="#cb41-410" aria-hidden="true" tabindex="-1"></a><span class="in">**Version 1 (Foundation):** [simpler scenario, guided questions]</span></span>
+<span id="cb41-411"><a href="#cb41-411" aria-hidden="true" tabindex="-1"></a><span class="in">**Version 2 (Application):** [moderate complexity, some independence]</span></span>
+<span id="cb41-412"><a href="#cb41-412" aria-hidden="true" tabindex="-1"></a><span class="in">**Version 3 (Advanced):** [complex scenario, minimal guidance]</span></span>
+<span id="cb41-413"><a href="#cb41-413" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-414"><a href="#cb41-414" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-415"><a href="#cb41-415" aria-hidden="true" tabindex="-1"></a><span class="fu">### Assessment Design Support</span></span>
+<span id="cb41-416"><a href="#cb41-416" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-417"><a href="#cb41-417" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Rubric Generation**</span></span>
+<span id="cb41-418"><a href="#cb41-418" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-419"><a href="#cb41-419" aria-hidden="true" tabindex="-1"></a><span class="in">Create a rubric for assessing [HR skill] with these criteria:</span></span>
+<span id="cb41-420"><a href="#cb41-420" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-421"><a href="#cb41-421" aria-hidden="true" tabindex="-1"></a><span class="in">**Performance Levels:**</span></span>
+<span id="cb41-422"><a href="#cb41-422" aria-hidden="true" tabindex="-1"></a><span class="in">- Exemplary (90-100%): [description]</span></span>
+<span id="cb41-423"><a href="#cb41-423" aria-hidden="true" tabindex="-1"></a><span class="in">- Proficient (80-89%): [description]</span></span>
+<span id="cb41-424"><a href="#cb41-424" aria-hidden="true" tabindex="-1"></a><span class="in">- Developing (70-79%): [description]</span></span>
+<span id="cb41-425"><a href="#cb41-425" aria-hidden="true" tabindex="-1"></a><span class="in">- Beginning (60-69%): [description]</span></span>
+<span id="cb41-426"><a href="#cb41-426" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-427"><a href="#cb41-427" aria-hidden="true" tabindex="-1"></a><span class="in">**Criteria:**</span></span>
+<span id="cb41-428"><a href="#cb41-428" aria-hidden="true" tabindex="-1"></a><span class="in">1. [Skill 1] - [weight%]</span></span>
+<span id="cb41-429"><a href="#cb41-429" aria-hidden="true" tabindex="-1"></a><span class="in">2. [Skill 2] - [weight%]</span></span>
+<span id="cb41-430"><a href="#cb41-430" aria-hidden="true" tabindex="-1"></a><span class="in">3. [Skill 3] - [weight%]</span></span>
+<span id="cb41-431"><a href="#cb41-431" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-432"><a href="#cb41-432" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-433"><a href="#cb41-433" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Feedback Generation**</span></span>
+<span id="cb41-434"><a href="#cb41-434" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-435"><a href="#cb41-435" aria-hidden="true" tabindex="-1"></a><span class="in">Review this student response and provide feedback in this format:</span></span>
+<span id="cb41-436"><a href="#cb41-436" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-437"><a href="#cb41-437" aria-hidden="true" tabindex="-1"></a><span class="in">**Strengths:**</span></span>
+<span id="cb41-438"><a href="#cb41-438" aria-hidden="true" tabindex="-1"></a><span class="in">- [specific positive aspects]</span></span>
+<span id="cb41-439"><a href="#cb41-439" aria-hidden="true" tabindex="-1"></a><span class="in">- [demonstrated skills]</span></span>
+<span id="cb41-440"><a href="#cb41-440" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-441"><a href="#cb41-441" aria-hidden="true" tabindex="-1"></a><span class="in">**Areas for Improvement:**</span></span>
+<span id="cb41-442"><a href="#cb41-442" aria-hidden="true" tabindex="-1"></a><span class="in">- [specific suggestions]</span></span>
+<span id="cb41-443"><a href="#cb41-443" aria-hidden="true" tabindex="-1"></a><span class="in">- [skill gaps to address]</span></span>
+<span id="cb41-444"><a href="#cb41-444" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-445"><a href="#cb41-445" aria-hidden="true" tabindex="-1"></a><span class="in">**Next Steps:**</span></span>
+<span id="cb41-446"><a href="#cb41-446" aria-hidden="true" tabindex="-1"></a><span class="in">- [how to improve]</span></span>
+<span id="cb41-447"><a href="#cb41-447" aria-hidden="true" tabindex="-1"></a><span class="in">- [additional practice needed]</span></span>
+<span id="cb41-448"><a href="#cb41-448" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-449"><a href="#cb41-449" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-450"><a href="#cb41-450" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-451"><a href="#cb41-451" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-452"><a href="#cb41-452" aria-hidden="true" tabindex="-1"></a><span class="fu">## Putting It All Together</span></span>
+<span id="cb41-453"><a href="#cb41-453" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-454"><a href="#cb41-454" aria-hidden="true" tabindex="-1"></a><span class="fu">### Master Prompt Template</span></span>
+<span id="cb41-455"><a href="#cb41-455" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-456"><a href="#cb41-456" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-457"><a href="#cb41-457" aria-hidden="true" tabindex="-1"></a><span class="in">You are [detailed persona] with expertise in [specific areas].</span></span>
+<span id="cb41-458"><a href="#cb41-458" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-459"><a href="#cb41-459" aria-hidden="true" tabindex="-1"></a><span class="in">Context: [comprehensive situation description]</span></span>
+<span id="cb41-460"><a href="#cb41-460" aria-hidden="true" tabindex="-1"></a><span class="in">Constraints: [legal, ethical, practical limitations]</span></span>
+<span id="cb41-461"><a href="#cb41-461" aria-hidden="true" tabindex="-1"></a><span class="in">Audience: [who will receive this response]</span></span>
+<span id="cb41-462"><a href="#cb41-462" aria-hidden="true" tabindex="-1"></a><span class="in">Purpose: [what you want to achieve]</span></span>
+<span id="cb41-463"><a href="#cb41-463" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-464"><a href="#cb41-464" aria-hidden="true" tabindex="-1"></a><span class="in">Please provide [specific type of response] that:</span></span>
+<span id="cb41-465"><a href="#cb41-465" aria-hidden="true" tabindex="-1"></a><span class="in">- Addresses [key requirements]</span></span>
+<span id="cb41-466"><a href="#cb41-466" aria-hidden="true" tabindex="-1"></a><span class="in">- Considers [stakeholder impacts]</span></span>
+<span id="cb41-467"><a href="#cb41-467" aria-hidden="true" tabindex="-1"></a><span class="in">- Includes [necessary elements]</span></span>
+<span id="cb41-468"><a href="#cb41-468" aria-hidden="true" tabindex="-1"></a><span class="in">- Follows [format specifications]</span></span>
+<span id="cb41-469"><a href="#cb41-469" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-470"><a href="#cb41-470" aria-hidden="true" tabindex="-1"></a><span class="in">Additional considerations: [any other relevant factors]</span></span>
+<span id="cb41-471"><a href="#cb41-471" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-472"><a href="#cb41-472" aria-hidden="true" tabindex="-1"></a><span class="in">Show your reasoning process and justify your recommendations.</span></span>
+<span id="cb41-473"><a href="#cb41-473" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-474"><a href="#cb41-474" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-475"><a href="#cb41-475" aria-hidden="true" tabindex="-1"></a><span class="fu">### Quick Reference Checklist</span></span>
+<span id="cb41-476"><a href="#cb41-476" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-477"><a href="#cb41-477" aria-hidden="true" tabindex="-1"></a>Before sending any prompt, ask yourself:</span>
+<span id="cb41-478"><a href="#cb41-478" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> **Role**: Is the AI's persona clearly defined?</span>
+<span id="cb41-479"><a href="#cb41-479" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> **Context**: Have I provided sufficient background?</span>
+<span id="cb41-480"><a href="#cb41-480" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> **Task**: Is the desired outcome specific?</span>
+<span id="cb41-481"><a href="#cb41-481" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> **Format**: Have I specified the response structure?</span>
+<span id="cb41-482"><a href="#cb41-482" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> **Constraints**: Are there limits or boundaries needed?</span>
+<span id="cb41-483"><a href="#cb41-483" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> **Quality**: What makes a "good" response?</span>
+<span id="cb41-484"><a href="#cb41-484" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-485"><a href="#cb41-485" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-486"><a href="#cb41-486" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-487"><a href="#cb41-487" aria-hidden="true" tabindex="-1"></a><span class="fu">## Context Management for Advanced Prompting</span></span>
+<span id="cb41-488"><a href="#cb41-488" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-489"><a href="#cb41-489" aria-hidden="true" tabindex="-1"></a><span class="fu">### Why Context Management Matters for Advanced Prompts</span></span>
+<span id="cb41-490"><a href="#cb41-490" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-491"><a href="#cb41-491" aria-hidden="true" tabindex="-1"></a>As your prompting becomes more sophisticated—combining multiple techniques, working through longer sequences, managing complex educational scenarios—the quality of context management becomes critical.</span>
+<span id="cb41-492"><a href="#cb41-492" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-493"><a href="#cb41-493" aria-hidden="true" tabindex="-1"></a>**Advanced prompts demand focused conversations:**</span>
+<span id="cb41-494"><a href="#cb41-494" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Sophisticated personas require consistent framing across exchanges</span>
+<span id="cb41-495"><a href="#cb41-495" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Complex discipline-specific scenarios need clear boundaries</span>
+<span id="cb41-496"><a href="#cb41-496" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Multi-step educational sequences benefit from structured progression</span>
+<span id="cb41-497"><a href="#cb41-497" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quality control over professional materials demands careful output management</span>
+<span id="cb41-498"><a href="#cb41-498" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-499"><a href="#cb41-499" aria-hidden="true" tabindex="-1"></a><span class="fu">### Key Strategies for Advanced Prompts</span></span>
+<span id="cb41-500"><a href="#cb41-500" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-501"><a href="#cb41-501" aria-hidden="true" tabindex="-1"></a>**1. Structure Complex Tasks as Multi-Step Sequences**</span>
+<span id="cb41-502"><a href="#cb41-502" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-503"><a href="#cb41-503" aria-hidden="true" tabindex="-1"></a>Instead of asking for everything at once, break advanced prompts into focused steps:</span>
+<span id="cb41-504"><a href="#cb41-504" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-505"><a href="#cb41-505" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-506"><a href="#cb41-506" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 1: "Help me structure a capstone project on [topic]"</span></span>
+<span id="cb41-507"><a href="#cb41-507" aria-hidden="true" tabindex="-1"></a><span class="in">[Get: high-level plan]</span></span>
+<span id="cb41-508"><a href="#cb41-508" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-509"><a href="#cb41-509" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 2: "Using that structure, define learning outcomes"</span></span>
+<span id="cb41-510"><a href="#cb41-510" aria-hidden="true" tabindex="-1"></a><span class="in">[Get: aligned outcomes]</span></span>
+<span id="cb41-511"><a href="#cb41-511" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-512"><a href="#cb41-512" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 3: "Now design the assessment rubric"</span></span>
+<span id="cb41-513"><a href="#cb41-513" aria-hidden="true" tabindex="-1"></a><span class="in">[Get: quality rubric focused on outcomes]</span></span>
+<span id="cb41-514"><a href="#cb41-514" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-515"><a href="#cb41-515" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 4: "Create student instructions based on the rubric"</span></span>
+<span id="cb41-516"><a href="#cb41-516" aria-hidden="true" tabindex="-1"></a><span class="in">[Get: clear, actionable instructions]</span></span>
+<span id="cb41-517"><a href="#cb41-517" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-518"><a href="#cb41-518" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-519"><a href="#cb41-519" aria-hidden="true" tabindex="-1"></a>Each prompt gets full attention. Quality increases because output tokens aren't split among competing demands.</span>
+<span id="cb41-520"><a href="#cb41-520" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-521"><a href="#cb41-521" aria-hidden="true" tabindex="-1"></a>**2. Maintain Context Across Conversations**</span>
+<span id="cb41-522"><a href="#cb41-522" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-523"><a href="#cb41-523" aria-hidden="true" tabindex="-1"></a>When you need to continue advanced work in a new conversation:</span>
+<span id="cb41-524"><a href="#cb41-524" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-525"><a href="#cb41-525" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-526"><a href="#cb41-526" aria-hidden="true" tabindex="-1"></a><span class="in">I'm continuing work on [project name]. Here's what we've already designed:</span></span>
+<span id="cb41-527"><a href="#cb41-527" aria-hidden="true" tabindex="-1"></a><span class="in">- [Element 1]: [brief description]</span></span>
+<span id="cb41-528"><a href="#cb41-528" aria-hidden="true" tabindex="-1"></a><span class="in">- [Element 2]: [brief description]</span></span>
+<span id="cb41-529"><a href="#cb41-529" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-530"><a href="#cb41-530" aria-hidden="true" tabindex="-1"></a><span class="in">Here's what we've decided about [important constraint]:</span></span>
+<span id="cb41-531"><a href="#cb41-531" aria-hidden="true" tabindex="-1"></a><span class="in">[key decision or principle]</span></span>
+<span id="cb41-532"><a href="#cb41-532" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-533"><a href="#cb41-533" aria-hidden="true" tabindex="-1"></a><span class="in">Now let's design [next element]. Keep consistency with [previous element].</span></span>
+<span id="cb41-534"><a href="#cb41-534" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-535"><a href="#cb41-535" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-536"><a href="#cb41-536" aria-hidden="true" tabindex="-1"></a>This prevents hallucination and maintains continuity in sophisticated work.</span>
+<span id="cb41-537"><a href="#cb41-537" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-538"><a href="#cb41-538" aria-hidden="true" tabindex="-1"></a>**3. Use Output Constraints Strategically**</span>
+<span id="cb41-539"><a href="#cb41-539" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-540"><a href="#cb41-540" aria-hidden="true" tabindex="-1"></a>For advanced prompts requesting multiple components, specify allocation:</span>
+<span id="cb41-541"><a href="#cb41-541" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-542"><a href="#cb41-542" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-543"><a href="#cb41-543" aria-hidden="true" tabindex="-1"></a><span class="in">I need a complete course design including three components:</span></span>
+<span id="cb41-544"><a href="#cb41-544" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-545"><a href="#cb41-545" aria-hidden="true" tabindex="-1"></a><span class="in">1. Learning outcomes (150–200 words total) - prioritize clarity and measurability</span></span>
+<span id="cb41-546"><a href="#cb41-546" aria-hidden="true" tabindex="-1"></a><span class="in">2. Assessment strategy (200–250 words) - must align with outcomes</span></span>
+<span id="cb41-547"><a href="#cb41-547" aria-hidden="true" tabindex="-1"></a><span class="in">3. Facilitator notes (250–300 words) - include teaching tips and common student challenges</span></span>
+<span id="cb41-548"><a href="#cb41-548" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-549"><a href="#cb41-549" aria-hidden="true" tabindex="-1"></a><span class="in">Keep total output around 600–750 words. Prioritize depth of thought over comprehensive coverage.</span></span>
+<span id="cb41-550"><a href="#cb41-550" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-551"><a href="#cb41-551" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-552"><a href="#cb41-552" aria-hidden="true" tabindex="-1"></a>This prevents shallow outputs and ensures each component receives adequate focus.</span>
+<span id="cb41-553"><a href="#cb41-553" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-554"><a href="#cb41-554" aria-hidden="true" tabindex="-1"></a>**4. Archive and Reference Advanced Work**</span>
+<span id="cb41-555"><a href="#cb41-555" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-556"><a href="#cb41-556" aria-hidden="true" tabindex="-1"></a>For complex materials that take multiple conversations to develop:</span>
+<span id="cb41-557"><a href="#cb41-557" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-558"><a href="#cb41-558" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-559"><a href="#cb41-559" aria-hidden="true" tabindex="-1"></a><span class="in">I've developed course materials across 3 conversations. Here's the complete</span></span>
+<span id="cb41-560"><a href="#cb41-560" aria-hidden="true" tabindex="-1"></a><span class="in">resource library I've built:</span></span>
+<span id="cb41-561"><a href="#cb41-561" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-562"><a href="#cb41-562" aria-hidden="true" tabindex="-1"></a><span class="in">**Session 1 outputs:**</span></span>
+<span id="cb41-563"><a href="#cb41-563" aria-hidden="true" tabindex="-1"></a><span class="in">- Course outline (created [date])</span></span>
+<span id="cb41-564"><a href="#cb41-564" aria-hidden="true" tabindex="-1"></a><span class="in">- Learning outcomes framework (created [date])</span></span>
+<span id="cb41-565"><a href="#cb41-565" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-566"><a href="#cb41-566" aria-hidden="true" tabindex="-1"></a><span class="in">**Session 2 outputs:**</span></span>
+<span id="cb41-567"><a href="#cb41-567" aria-hidden="true" tabindex="-1"></a><span class="in">- Assessment rubric (created [date])</span></span>
+<span id="cb41-568"><a href="#cb41-568" aria-hidden="true" tabindex="-1"></a><span class="in">- Unit 1 detailed design (created [date])</span></span>
+<span id="cb41-569"><a href="#cb41-569" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-570"><a href="#cb41-570" aria-hidden="true" tabindex="-1"></a><span class="in">I'm continuing with Unit 2. Keep consistency with the patterns established</span></span>
+<span id="cb41-571"><a href="#cb41-571" aria-hidden="true" tabindex="-1"></a><span class="in">in Unit 1. Here's Unit 1 for reference: [paste]</span></span>
+<span id="cb41-572"><a href="#cb41-572" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-573"><a href="#cb41-573" aria-hidden="true" tabindex="-1"></a><span class="in">Now design Unit 2 following the same structure and pedagogical approach.</span></span>
+<span id="cb41-574"><a href="#cb41-574" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb41-575"><a href="#cb41-575" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-576"><a href="#cb41-576" aria-hidden="true" tabindex="-1"></a>This maintains coherence across extended development work.</span>
+<span id="cb41-577"><a href="#cb41-577" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-578"><a href="#cb41-578" aria-hidden="true" tabindex="-1"></a><span class="fu">### For Advanced Teaching Sequences</span></span>
+<span id="cb41-579"><a href="#cb41-579" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-580"><a href="#cb41-580" aria-hidden="true" tabindex="-1"></a>When designing complex learning sequences (like the prompt chaining in Chapter 8 or multi-week simulations), context management keeps quality consistent:</span>
+<span id="cb41-581"><a href="#cb41-581" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-582"><a href="#cb41-582" aria-hidden="true" tabindex="-1"></a>**Break it into phases:**</span>
+<span id="cb41-583"><a href="#cb41-583" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Phase 1 (Conversation 1):** Design the learning arc and sequence</span>
+<span id="cb41-584"><a href="#cb41-584" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Phase 2 (Conversation 2):** Develop Phase 1 components in detail</span>
+<span id="cb41-585"><a href="#cb41-585" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Phase 3 (Conversation 3):** Develop Phase 2 components, referring back to Phase 1</span>
+<span id="cb41-586"><a href="#cb41-586" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Integration (Conversation 4):** Ensure all phases connect coherently</span>
+<span id="cb41-587"><a href="#cb41-587" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-588"><a href="#cb41-588" aria-hidden="true" tabindex="-1"></a>This modular approach produces more coherent educational experiences than trying to design everything at once.</span>
+<span id="cb41-589"><a href="#cb41-589" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-590"><a href="#cb41-590" aria-hidden="true" tabindex="-1"></a><span class="fu">### Cross-Reference</span></span>
+<span id="cb41-591"><a href="#cb41-591" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-592"><a href="#cb41-592" aria-hidden="true" tabindex="-1"></a>For comprehensive context management strategies, see **Chapter 6: Managing LLM Context**. That chapter covers:</span>
+<span id="cb41-593"><a href="#cb41-593" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Breaking complex tasks into focused steps</span>
+<span id="cb41-594"><a href="#cb41-594" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Managing conversation length effectively</span>
+<span id="cb41-595"><a href="#cb41-595" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explicit context specification</span>
+<span id="cb41-596"><a href="#cb41-596" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Batching similar tasks</span>
+<span id="cb41-597"><a href="#cb41-597" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarizing and handing off for extended projects</span>
+<span id="cb41-598"><a href="#cb41-598" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-599"><a href="#cb41-599" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-600"><a href="#cb41-600" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-601"><a href="#cb41-601" aria-hidden="true" tabindex="-1"></a><span class="fu">## Integration with Main Chapters</span></span>
+<span id="cb41-602"><a href="#cb41-602" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-603"><a href="#cb41-603" aria-hidden="true" tabindex="-1"></a><span class="fu">### Chapter Cross-Reference</span></span>
+<span id="cb41-604"><a href="#cb41-604" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-605"><a href="#cb41-605" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Chapter <span class="pp">|</span> Advanced Prompting Application <span class="pp">|</span></span>
+<span id="cb41-606"><a href="#cb41-606" aria-hidden="true" tabindex="-1"></a><span class="pp">|---------|------------------------------|</span></span>
+<span id="cb41-607"><a href="#cb41-607" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 4: Five Techniques <span class="pp">|</span> Use persona control and context management <span class="pp">|</span></span>
+<span id="cb41-608"><a href="#cb41-608" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 5: Flight Simulator <span class="pp">|</span> Apply chain-of-thought and decision trees <span class="pp">|</span></span>
+<span id="cb41-609"><a href="#cb41-609" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 6: Self-Assessment <span class="pp">|</span> Implement rubric generation and feedback templates <span class="pp">|</span></span>
+<span id="cb41-610"><a href="#cb41-610" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 7: Ethics <span class="pp">|</span> Integrate values-based prompting and stakeholder analysis <span class="pp">|</span></span>
+<span id="cb41-611"><a href="#cb41-611" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 8: Process Assessment <span class="pp">|</span> Use structured response formats and quality control <span class="pp">|</span></span>
+<span id="cb41-612"><a href="#cb41-612" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 9: Virtual Company <span class="pp">|</span> Apply consistent persona management and context continuity <span class="pp">|</span></span>
+<span id="cb41-613"><a href="#cb41-613" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ch 12: Static to Interactive <span class="pp">|</span> Use educational formatting and scaffolding patterns <span class="pp">|</span></span>
+<span id="cb41-614"><a href="#cb41-614" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-615"><a href="#cb41-615" aria-hidden="true" tabindex="-1"></a><span class="fu">### Progressive Learning Path</span></span>
+<span id="cb41-616"><a href="#cb41-616" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-617"><a href="#cb41-617" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Start with basic prompts** (Chapters 2-3)</span>
+<span id="cb41-618"><a href="#cb41-618" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Add context management** (Chapter 4 applications)</span>
+<span id="cb41-619"><a href="#cb41-619" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Incorporate persona control** (Chapter 5-6)</span>
+<span id="cb41-620"><a href="#cb41-620" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Apply ethical frameworks** (Chapter 7)</span>
+<span id="cb41-621"><a href="#cb41-621" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Master advanced techniques** (This appendix)</span>
+<span id="cb41-622"><a href="#cb41-622" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-623"><a href="#cb41-623" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-624"><a href="#cb41-624" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-625"><a href="#cb41-625" aria-hidden="true" tabindex="-1"></a><span class="fu">## Final Thoughts</span></span>
+<span id="cb41-626"><a href="#cb41-626" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-627"><a href="#cb41-627" aria-hidden="true" tabindex="-1"></a>**Advanced prompting isn't about complexity - it's about precision.**</span>
+<span id="cb41-628"><a href="#cb41-628" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-629"><a href="#cb41-629" aria-hidden="true" tabindex="-1"></a>The techniques in this appendix help you:</span>
+<span id="cb41-630"><a href="#cb41-630" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Get more consistent responses** through better context—adapted to your discipline's terminology and frameworks</span>
+<span id="cb41-631"><a href="#cb41-631" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Maintain professional standards** with persona control—reflecting expertise in your professional field</span>
+<span id="cb41-632"><a href="#cb41-632" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Generate appropriate content** with constraints and boundaries—respecting discipline-specific ethical standards</span>
+<span id="cb41-633"><a href="#cb41-633" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Create educational materials** with structured formatting—matching your discipline's learning outcomes</span>
+<span id="cb41-634"><a href="#cb41-634" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Save time** with templates and patterns—customizable for your teaching context</span>
+<span id="cb41-635"><a href="#cb41-635" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-636"><a href="#cb41-636" aria-hidden="true" tabindex="-1"></a>**Remember:** The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students' professional preparation.</span>
+<span id="cb41-637"><a href="#cb41-637" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-638"><a href="#cb41-638" aria-hidden="true" tabindex="-1"></a>Adapt these HR-focused examples to your discipline by:</span>
+<span id="cb41-639"><a href="#cb41-639" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Replacing HR terminology with your field's professional language</span>
+<span id="cb41-640"><a href="#cb41-640" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Substituting HR frameworks with discipline-specific standards and best practices</span>
+<span id="cb41-641"><a href="#cb41-641" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Adjusting persona definitions to match your profession's expertise areas</span>
+<span id="cb41-642"><a href="#cb41-642" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Modifying risk and ethical considerations to reflect your field's priorities</span>
+<span id="cb41-643"><a href="#cb41-643" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-644"><a href="#cb41-644" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb41-645"><a href="#cb41-645" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-646"><a href="#cb41-646" aria-hidden="true" tabindex="-1"></a>*Return to main chapters for practical applications, or continue experimenting with these advanced techniques as your confidence grows. Your discipline-specific expertise will make these prompts even more powerful.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
