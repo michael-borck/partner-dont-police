@@ -29,7 +29,7 @@ book:
     - prompt-library.qmd
     - workshop-guide.qmd
     - curtin-alignment.qmd
-    - advanced-prompt-engineering.qmd
+    - advanced-prompting.qmd
 
 format:
   html:

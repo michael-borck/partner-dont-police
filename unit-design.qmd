@@ -396,7 +396,7 @@ Across the semester, explicitly teach AI literacy:
 - Strengths and limitations
 - When to trust vs. verify
 
-### Week 4: Prompt Engineering
+### Week 4: Advanced Prompting
 - How to write effective prompts
 - Troubleshooting poor responses
 - Iterating to improve results

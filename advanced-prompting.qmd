@@ -1,4 +1,4 @@
-# Advanced Prompt Engineering for Business Education
+# Advanced Prompting for Business Education
 
 ## Why This Appendix Exists
 
@@ -624,7 +624,7 @@ For comprehensive context management strategies, see **Chapter 6: Managing LLM C
 
 ## Final Thoughts
 
-**Advanced prompt engineering isn't about complexity - it's about precision.**
+**Advanced prompting isn't about complexity - it's about precision.**
 
 The techniques in this appendix help you:
 - **Get more consistent responses** through better context—adapted to your discipline's terminology and frameworks

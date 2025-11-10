@@ -37,7 +37,7 @@ This Quarto book provides practical, evidence-based approaches to using generati
 - **Prompt Library** - Ready-to-use prompts with cross-discipline adaptations
 - **Workshop Guide** - Practical training materials for colleagues
 - **Curtin Alignment** - Institutional alignment with learning outcomes
-- **Advanced Prompt Engineering** - Deep dive into sophisticated prompting techniques
+- **Advanced Prompting** - Deep dive into sophisticated prompting techniques
 
 ### Multidisciplinary Approach
 
@@ -93,23 +93,27 @@ The book is designed around Curtin University but can be easily adapted:
 ├── _quarto.yml                 # Quarto book configuration
 ├── index.qmd                   # Book introduction and navigation
 ├── introduction.qmd            # Chapter 1: Core concepts
-├── getting-started.qmd         # Chapter 2: First steps
-├── first-steps.qmd             # Chapter 3: Implementation timeline
-├── seven-techniques.qmd        # Chapter 4: Core techniques
-├── flight-simulator.qmd        # Chapter 5: Practice scenarios
-├── self-assessment.qmd         # Chapter 6: Student metacognition
-├── critique-toolkit.qmd        # Chapter 7: Critical evaluation
-├── ethics-integrity.qmd        # Chapter 8: Transparency & integrity
-├── process-assessment.qmd      # Chapter 9: Assessing process
-├── virtual-company.qmd         # Chapter 10: Sustained simulation
-├── unit-design.qmd             # Chapter 11: Full unit design
-├── research-assistant.qmd      # Chapter 12: Postgraduate research
-├── static-to-interactive.qmd   # Chapter 13: Converting existing content
-├── conclusion.qmd              # Chapter 14: Summary and vision
+├── getting-started.qmd         # Chapter 2: CRAFT framework
+├── discovering-your-strategy.qmd # Chapter 3: Finding your AI teaching strategy
+├── first-steps.qmd             # Chapter 4: Implementation timeline
+├── seven-techniques.qmd        # Chapter 5: Core prompting techniques
+├── managing-context.qmd        # Chapter 6: Managing LLM context
+├── flight-simulator.qmd        # Chapter 7: Practice scenarios
+├── critique-toolkit.qmd        # Chapter 8: Critical evaluation
+├── ethics-integrity.qmd        # Chapter 9: Data governance & integrity
+├── process-assessment.qmd      # Chapter 10: Assessing thinking
+├── self-assessment.qmd         # Chapter 11: Student metacognition
+├── virtual-company.qmd         # Chapter 12: Sustained simulation
+├── unit-design.qmd             # Chapter 13: Full unit design
+├── static-to-interactive.qmd   # Chapter 14: Converting static content
+├── from-conversation-to-document.qmd # Chapter 15: Creating documents from AI
+├── research-assistant.qmd      # Chapter 16: Research support
+├── advanced-frontiers.qmd      # Chapter 17: Agents & automation
+├── conclusion.qmd              # Chapter 18: Bringing it together
 ├── prompt-library.qmd          # Appendix A: Ready-to-use prompts
 ├── workshop-guide.qmd          # Appendix B: Training materials
 ├── curtin-alignment.qmd        # Appendix C: Institutional alignment
-└── advanced-prompt-engineering.qmd  # Appendix D: Advanced techniques
+└── advanced-prompting.qmd           # Appendix D: Advanced techniques
 ```
 
 ## Key Concepts
@@ -201,7 +205,7 @@ Use Appendix B (Workshop Guide) for colleague training that:
 
 ### For Advanced Users
 
-Appendix D (Advanced Prompt Engineering) provides techniques for:
+Appendix D (Advanced Prompting) provides techniques for:
 - Creating consistent persona definitions
 - Managing complex conversational contexts
 - Implementing quality control mechanisms
