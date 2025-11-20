@@ -86,19 +86,19 @@ Examples include economic modelling, policy analysis, market equilibrium scenari
 
 This book follows a carefully designed progression from foundational concepts to advanced excellence:
 
-### 1. Foundations (Chapters 1-6)
-**For educators:** Build pedagogical understanding and basic AI skills
+#### 🏗️ **Foundation Pathway** (Chapters 1-6)
+**For educators:** Build pedagogical understanding and basic AI skills  
 **For students:** Develop AI literacy and foundational capabilities
 
-### 2. Core Applications (Chapters 7-18)
-**For educators:** Practical teaching implementations across disciplines
+#### 🚀 **Core Applications Pathway** (Chapters 7-18)
+**For educators:** Practical teaching implementations across disciplines  
 **For students:** Applied learning and professional skill development
 
-### 3. Implementation Excellence (Chapters 19-22)
-**For educators:** Advanced assessment, accessibility, and global adaptation
+#### ⭐ **Implementation Excellence Pathway** (Chapters 19-22)
+**For educators:** Advanced assessment, accessibility, and global adaptation  
 **For students:** Meta-skills development and inclusive learning practices
 
-### 4. Resources (Appendices A-E)
+#### 📚 **Resources Pathway** (Appendices A-E)
 **For both audiences:** Ready-to-use materials and references
 
 ## Recommended Reading Pathways
