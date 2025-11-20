@@ -5,11 +5,13 @@ This book serves both educators and students, with different pathways designed f
 ## Audience Overview
 
 **Primary Audience: Educators and Academic Staff**
+
 - Focus: Teaching enhancement, assessment design, curriculum integration
 - Goal: Effective AI integration that maintains academic standards
 - Pathway: Progressive skill development from foundations to advanced implementation
 
 **Secondary Audience: Students and Learners**
+
 - Focus: Direct AI literacy development and learning support
 - Goal: Effective use of AI for academic success and career preparation
 - Pathway: Skill acquisition and practical application
@@ -19,6 +21,7 @@ Both audiences share a common language and approach, creating aligned understand
 ## Who This Is For
 
 ### For Educators
+
 - Business lecturers at Curtin University teaching undergraduate or postgraduate students
 - Academics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain
 - Unit coordinators exploring AI integration aligned with learning outcomes
@@ -26,6 +29,7 @@ Both audiences share a common language and approach, creating aligned understand
 - Anyone curious about practical, non-technical AI applications in business education
 
 ### For Students
+
 - Business students at all levels who want to develop AI literacy skills
 - Learners seeking to understand how to use AI effectively for academic success
 - Students preparing for professional careers where AI tools will be standard
@@ -106,12 +110,14 @@ This book follows a carefully designed progression from foundational concepts to
 ### For Educators - Teaching Excellence Path
 
 **Quick Start (if you have 1-2 hours):**
+
 1. **Chapter 1** (30 min) - Understand the problem we're solving and core principles
 2. **Chapter 2** (45 min) - Your first AI conversation and the CRAFT framework
 3. **Your discipline's examples** - Browse chapters and pick examples most relevant to your field
 
 **Comprehensive Implementation (if you have a semester):**
 Read in book order (each chapter builds on previous):
+
 1. **Introduction** - Pedagogical foundation
 2. **Getting Started** - CRAFT framework for structured prompting
 3. **Discovering Your Strategy** - Using AI to discover your personal AI strategy
@@ -138,6 +144,7 @@ Read in book order (each chapter builds on previous):
 ### For Students - Learning Excellence Path
 
 **Direct AI Literacy Development:**
+
 1. **Chapter 2** - Basic prompting skills and CRAFT framework
 2. **Chapter 5** - Seven essential techniques for effective AI interaction
 3. **Chapter 6** - Managing conversations and context
@@ -145,23 +152,27 @@ Read in book order (each chapter builds on previous):
 5. **Appendix E** - Using AI to master AI (meta-skills)
 
 **Applied Learning and Practice:**
+
 6. **Chapter 7** - Flight simulator practice scenarios
 7. **Chapter 11** - AI as research assistant
 8. **Chapter 12** - Self-assessment and metacognition
 9. **Chapter 15** - Creating professional work from AI conversations
 
 **Support and Resources:**
+
 10. **Appendix A** - Prompt library for immediate use
 11. **Quick Reference Guide** - Common questions and solutions
 
 ### For Both Audiences - Collaborative Path
 
 **Institutional Implementation:**
+
 - **Program teams:** Use curriculum planning pathway
 - **Faculty development:** Use workshop and assessment chapters
 - **Quality assurance:** Use troubleshooting and accessibility frameworks
 
 **Shared Learning Experience:**
+
 - **Coordinated approach:** Educators and students use shared frameworks
 - **Common language:** Aligned understanding of AI integration goals
 - **Feedback loops:** Both audiences benefit from shared perspectives
@@ -226,6 +237,7 @@ Examples include economic modelling, policy analysis, market equilibrium scenari
 ## A Core Concept: Prompting as Foundation
 
 Throughout this book, **prompting** is your core skill. Whether you're:
+
 - Writing direct instructions to AI tools
 - Integrating AI into familiar software (Word, PowerPoint, Teams)
 - Automating workflows with agents
@@ -332,12 +344,14 @@ Consider this book a foundation, not a complete solution. You'll discover what w
 As you implement ideas from this book, you may have questions, encounter challenges, or discover innovative applications we didn't consider.
 
 **For Curtin staff:**
+
 - Contact your Faculty Teaching and Learning team for pedagogical support
 - Consult with IT Services for technical access and troubleshooting
 - Connect with colleagues who are experimenting with AI integration
 - Consider forming a learning community around AI-enhanced teaching
 
 **For others:**
+
 - Adapt frameworks to your institutional context
 - Share successes and failures with your teaching and learning community
 - Contribute to the growing body of practice around AI in education
