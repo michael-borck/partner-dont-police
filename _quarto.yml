@@ -8,6 +8,8 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
+    - what-is-ai.qmd
+    - what-are-llms.qmd
     - getting-started.qmd
     - discovering-your-strategy.qmd
     - first-steps.qmd
