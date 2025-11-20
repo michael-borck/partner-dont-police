@@ -688,7 +688,7 @@ complexity of AI accountability.
 
 **Purpose:** These prompts support postgraduate research work. For comprehensive guidance on appropriate AI use in research contexts, see **Chapter 11: The Research Assistant**. These prompts are starting points,always maintain critical oversight and verify AI outputs.
 
-**⚠️ CRITICAL WARNING:** AI frequently hallucinates citations, inventing papers that don't exist or misattributing real papers. **Verify every reference before including in your work.** Never trust AI citations without checking them against actual databases.
+** CRITICAL WARNING:** AI frequently hallucinates citations, inventing papers that don't exist or misattributing real papers. **Verify every reference before including in your work.** Never trust AI citations without checking them against actual databases.
 
 ,
 

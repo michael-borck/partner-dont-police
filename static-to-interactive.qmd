@@ -26,7 +26,7 @@ You have a well-designed case study in Word or PDF. Students read it, maybe disc
 
 ,
 
-## 🛠️ The Transformation Process
+##  The Transformation Process
 
 ### Step 1: Prepare Your Static Content
 1. **Identify the document** (case study, worksheet, activity guide)
@@ -84,7 +84,7 @@ Make it engaging but academically rigorous and appropriate for [your discipline]
 
 ,
 
-## 📋 Example Transformations
+##  Example Transformations
 
 ### Before: Static Case Study
 > "Read the following termination scenario and answer questions 1-5..."
@@ -108,7 +108,7 @@ Make it engaging but academically rigorous and appropriate for [your discipline]
 
 ,
 
-## 🎯 Practical Examples by Discipline
+##  Practical Examples by Discipline
 
 Depending on your field, here are typical interactive transformations:
 
@@ -137,7 +137,7 @@ See the Cross-Discipline Applications section below for additional detailed exam
 
 ,
 
-## 📤 Uploading to Blackboard
+##  Uploading to Blackboard
 
 ### Simple Steps
 1. **Generate HTML file** using AI prompt
@@ -155,7 +155,7 @@ See the Cross-Discipline Applications section below for additional detailed exam
 
 ,
 
-## 🎨 Design Best Practices
+##  Design Best Practices
 
 ### Keep It Professional
 - **University branding** colors/logos
@@ -176,7 +176,7 @@ See the Cross-Discipline Applications section below for additional detailed exam
 
 ,
 
-## 🚀 Getting Started Template
+##  Getting Started Template
 
 ### Quick Start Prompt
 ```
@@ -212,7 +212,7 @@ Keep everything in a single HTML file.
 
 ,
 
-## 📚 Integration with Existing Activities
+##  Integration with Existing Activities
 
 ### Activity Upgrade Path
 1. **Identify static activity** (Word/PDF)
@@ -230,7 +230,7 @@ Keep everything in a single HTML file.
 
 ,
 
-## 🎯 Success Stories
+##  Success Stories
 
 ### Case Study: Performance Management Unit
 **Before:** Static PDF case study, 20% engagement
@@ -244,7 +244,7 @@ Keep everything in a single HTML file.
 
 ,
 
-## 🛠️ Technical Tips
+##  Technical Tips
 
 ### Testing Your HTML
 1. **Local testing** - open file in browser
@@ -260,7 +260,7 @@ Keep everything in a single HTML file.
 
 ,
 
-## 📈 Measuring Success
+##  Measuring Success
 
 ### Engagement Metrics
 - **Completion rates** - students finishing activities
@@ -276,7 +276,7 @@ Keep everything in a single HTML file.
 
 ,
 
-## 🔄 Continuous Improvement
+##  Continuous Improvement
 
 ### Student Feedback Loop
 1. **Collect responses** - what worked/didn't
@@ -291,7 +291,7 @@ Keep everything in a single HTML file.
 
 ,
 
-## 🎁 Ready-to-Use Prompt Library
+##  Ready-to-Use Prompt Library
 
 ### Basic Transformation
 ```

@@ -374,13 +374,13 @@ After each AI interaction, document your critique process:
 
 Before accepting any AI-generated recommendation, ask:
 
-- ☐ **Can I explain this solution clearly to key stakeholders in a few minutes?**
-- ☐ **Does this comply with relevant laws, regulations, and company policies?**
-- ☐ **Do we have the resources and capability to implement this?**
-- ☐ **How will affected stakeholders experience this,is it fair and transparent?**
-- ☐ **What are the risks if this implementation goes poorly?**
-- ☐ **Have I considered how different groups or departments might be affected?**
-- ☐ **Is there a simpler version that would achieve 80% of the benefits?**
+-  **Can I explain this solution clearly to key stakeholders in a few minutes?**
+-  **Does this comply with relevant laws, regulations, and company policies?**
+-  **Do we have the resources and capability to implement this?**
+-  **How will affected stakeholders experience this,is it fair and transparent?**
+-  **What are the risks if this implementation goes poorly?**
+-  **Have I considered how different groups or departments might be affected?**
+-  **Is there a simpler version that would achieve 80% of the benefits?**
 
 ,
 

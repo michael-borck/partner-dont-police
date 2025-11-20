@@ -97,10 +97,10 @@ If you prefer the Google ecosystem:
 
 | Tool | Best For | Data Protection | Office Integration |
 |,,|,,,-|,,,,,--|,,,,,,-|
-| **MS Copilot Enterprise (Curtin)** | Institutional work, course materials, student assignments | ✅ Enterprise-protected | ✅ Full MS Office Suite |
-| **ChatGPT** | General exploration, standalone use | ⚠️ Consumer retention | ✓ Manual export (Pro) |
-| **Claude** | Writing and nuanced analysis | ⚠️ Consumer retention | ✗ None |
-| **Google Gemini** | Google Workspace users | ⚠️ Google policies | ✓ Google Workspace |
+| **MS Copilot Enterprise (Curtin)** | Institutional work, course materials, student assignments |  Enterprise-protected |  Full MS Office Suite |
+| **ChatGPT** | General exploration, standalone use |  Consumer retention |  Manual export (Pro) |
+| **Claude** | Writing and nuanced analysis |  Consumer retention |  None |
+| **Google Gemini** | Google Workspace users |  Google policies |  Google Workspace |
 
 **For Curtin Staff & Students:** Use MS Copilot Enterprise for anything involving course materials, student work, or institutional data.
 

@@ -6,7 +6,7 @@
 
 ,
 
-## 🎯 Opening Hook (5 minutes)
+##  Opening Hook (5 minutes)
 
 **"What if your students could practice HR scenarios infinitely, with instant feedback?"**
 
@@ -17,7 +17,7 @@
 
 ,
 
-## 💡 The Core Concept: Chat Interface as Teaching Tool (10 minutes)
+##  The Core Concept: Chat Interface as Teaching Tool (10 minutes)
 
 ### Traditional vs. AI-Enhanced
 
@@ -34,7 +34,7 @@
 
 ,
 
-## 🚀 Live Demo: Three Quick Wins (15 minutes)
+##  Live Demo: Three Quick Wins (15 minutes)
 
 ### 1. **Conversation Starter** (2 minutes)
 ```
@@ -86,7 +86,7 @@ Then ask students to evaluate your analysis and identify any missing considerati
 
 ,
 
-## 🔄 Updating Existing Activities (10 minutes)
+##  Updating Existing Activities (10 minutes)
 
 ### Activity Makeovers
 
@@ -161,7 +161,7 @@ Instead of "What would you do?" → "Evaluate these 4 approaches and justify you
 
 ,
 
-## 📝 Student Prompt Library (5 minutes)
+##  Student Prompt Library (5 minutes)
 
 ### Give Students These "Superpowers"
 
@@ -179,7 +179,7 @@ Instead of "What would you do?" → "Evaluate these 4 approaches and justify you
 
 ,
 
-## 🎯 Assessment Design Shift (5 minutes)
+##  Assessment Design Shift (5 minutes)
 
 ### From Product to Process
 
@@ -194,7 +194,7 @@ Instead of "What would you do?" → "Evaluate these 4 approaches and justify you
 
 ,
 
-## 🛠️ Getting Started Today (5 minutes)
+##  Getting Started Today (5 minutes)
 
 ### Your First Steps
 1. **Personal experiment** (15 minutes): Try one prompt
@@ -208,7 +208,7 @@ Instead of "What would you do?" → "Evaluate these 4 approaches and justify you
 
 ,
 
-## 📚 Your Next Steps
+##  Your Next Steps
 
 **This workshop is chapter 1 of a comprehensive guide:**
 
@@ -223,7 +223,7 @@ Instead of "What would you do?" → "Evaluate these 4 approaches and justify you
 
 ,
 
-## 💬 Discussion & Questions (5 minutes)
+##  Discussion & Questions (5 minutes)
 
 **Key discussion starters:**
 - Which of your current activities could benefit from AI practice?
@@ -232,7 +232,7 @@ Instead of "What would you do?" → "Evaluate these 4 approaches and justify you
 
 ,
 
-## 🎁 Closing Thought
+##  Closing Thought
 
 **"AI doesn't replace your teaching expertise. It gives every student unlimited practice opportunities with your guidance."**
 

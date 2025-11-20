@@ -1,12 +1,12 @@
-## 🔨 0:30–0:45 , Prompt Crafting with CRAFT
+##  0:30–0:45 , Prompt Crafting with CRAFT
 
-### 🌟 Purpose
+###  Purpose
 
 Teach participants how to write better prompts that get more relevant, high-quality results , and introduce a structured framework (CRAFT) they can use repeatedly in any tool.
 
 ,
 
-### 💡 Why It Matters
+###  Why It Matters
 
 * Most disappointing AI results are due to **vague or context-free prompts**
 * Structured prompts produce better outputs with **less rework**
@@ -32,7 +32,7 @@ But also , the first prompt is rarely the final answer. Good prompts invite a **
 
 ,
 
-### 🛠 DEMO: Improving a Prompt with CRAFT
+###  DEMO: Improving a Prompt with CRAFT
 
 **Original Prompt:**
 
@@ -44,7 +44,7 @@ But also , the first prompt is rarely the final answer. Good prompts invite a **
 
 ,
 
-### 🗣 Prompting as a Conversation
+###  Prompting as a Conversation
 
 CRAFT is a great **starting point** , but don't stop there. One-shot prompting can feel transactional. The real power is in **using AI as a collaborator**.
 
@@ -60,7 +60,7 @@ You’re not just prompting. You’re **working together.**
 
 ,
 
-### 🔁 Practice Exercise (Interactive)
+###  Practice Exercise (Interactive)
 
 Give participants:
 
@@ -83,7 +83,7 @@ Then:
 
 ,
 
-### 🏛 Key Takeaway
+###  Key Takeaway
 
 > "CRAFT isn't just for writing better prompts , it's a way to start better conversations with AI. Think of it like briefing a capable Teaching Support colleague, not commanding a tool. It works best when you build on it turn by turn."
 

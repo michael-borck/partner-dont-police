@@ -811,12 +811,12 @@ As AI capabilities expand, you'll encounter new tools and possibilities. Some ar
 
 **Teaching questions to ask:**
 1. **Does this improve or replace my teaching?**
-   - ✅ Good use: AI generates draft slides that you customize for your voice/style
-   - ❌ Poor use: Uploading your content and using auto-generated output without review
+   -  Good use: AI generates draft slides that you customize for your voice/style
+   -  Poor use: Uploading your content and using auto-generated output without review
 
 2. **Do students understand the content source?**
-   - ✅ Good: "I used AI to draft these slides, then refined them based on my teaching experience"
-   - ❌ Poor: Presenting AI-generated content as your professional creation without disclosure
+   -  Good: "I used AI to draft these slides, then refined them based on my teaching experience"
+   -  Poor: Presenting AI-generated content as your professional creation without disclosure
 
 3. **Can you maintain quality control?**
    - Are you reviewing generated content for accuracy?
@@ -896,8 +896,8 @@ Wrong: "I used AI to create a deepfake of myself to trick students
 
 **Teaching questions to ask:**
 1. **Who makes the final grade decision?**
-   - ✅ Good: AI suggests score, you approve/adjust based on context
-   - ❌ Poor: AI grades submitted, you just post without review
+   -  Good: AI suggests score, you approve/adjust based on context
+   -  Poor: AI grades submitted, you just post without review
 
 2. **Is feedback actually useful to students?**
    - Generic feedback ("Good work!") wastes their time
@@ -948,16 +948,16 @@ Wrong: "AI assigns final grades, I post them without reviewing."
 **The reality:** AI handles the 80% of work that's routine and repetitive. The 20% that requires judgment, creativity, and care,that's still yours.
 
 Good use of AI agents/automation:
-- ✅ Generate multiple quiz options for you to choose from
-- ✅ Flag unusual submissions for your attention
-- ✅ Transform static documents to interactive versions
-- ✅ Provide early warning of student struggles
+-  Generate multiple quiz options for you to choose from
+-  Flag unusual submissions for your attention
+-  Transform static documents to interactive versions
+-  Provide early warning of student struggles
 
 Not good use:
-- ❌ Replace your judgment about what matters
-- ❌ Eliminate your connection with students
-- ❌ Automate away the teaching parts of teaching
-- ❌ Trust without verification
+-  Replace your judgment about what matters
+-  Eliminate your connection with students
+-  Automate away the teaching parts of teaching
+-  Trust without verification
 
 ### Maintaining Academic Judgment
 

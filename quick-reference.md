@@ -1,9 +1,9 @@
 # Quick Reference: AI Teaching Techniques
 
-## 🎯 Core Message
+##  Core Message
 **Plain English prompts → unlimited student practice**
 
-## 📚 Book Cross-Reference
+##  Book Cross-Reference
 | Concept | Book Chapter | Quick Start |
 |,,,|,,,,,|,,,,-|
 | Getting started with AI | Ch 2 | Try one prompt today |
@@ -19,7 +19,7 @@
 | Static → Interactive | Ch 13 | Transform documents to HTML |
 | Advanced Prompting | App D | Technical control techniques |
 
-## 🚀 3 Techniques to Try This Week
+##  3 Techniques to Try This Week
 
 ### 1. **Conversation Practice**
 ```
@@ -60,7 +60,7 @@ After 3 rounds, summarize strongest arguments from both sides.
 Then ask me to identify which arguments are most persuasive and why.
 ```
 
-## 🔄 Activity Upgrade Examples
+##  Activity Upgrade Examples
 
 | Traditional | AI-Enhanced |
 |,,,,|,,,,,|
@@ -68,13 +68,13 @@ Then ask me to identify which arguments are most persuasive and why.
 | Write reflection | Get AI feedback, then improve |
 | Group discussion | Individual AI practice, then share |
 
-## ⚠️ Key Principles
+##  Key Principles
 - **Process over product** - Grade thinking, not final answer
 - **Transparency** - Students disclose AI use  
 - **Scaffolding** - Start simple, build complexity
 - **Human judgment** - AI provides practice, you provide wisdom
 
-## 🌐 Access Options
+##  Access Options
 - ChatGPT: chat.openai.com
 - Claude: claude.ai  
 - Microsoft Copilot: copilot.microsoft.com
