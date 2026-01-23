@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "",
     "text": "1 About This Book\nThis book serves both educators and students, with different pathways designed for each audience’s needs and goals.",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#audience-overview",
     "href": "index.html#audience-overview",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.1 Audience Overview",
     "text": "1.1 Audience Overview\nPrimary Audience: Educators and Academic Staff\n\nFocus: Teaching enhancement, assessment design, curriculum integration\nGoal: Effective AI integration that maintains academic standards\nPathway: Progressive skill development from foundations to advanced implementation\n\nSecondary Audience: Students and Learners\n\nFocus: Direct AI literacy development and learning support\nGoal: Effective use of AI for academic success and career preparation\nPathway: Skill acquisition and practical application\n\nBoth audiences share a common language and approach, creating aligned understanding between educators and learners. Whether you’re teaching business education or learning to use AI more effectively, this book provides relevant frameworks and examples.",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#who-this-is-for",
     "href": "index.html#who-this-is-for",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.2 Who This Is For",
     "text": "1.2 Who This Is For\n\n1.2.1 For Educators\n\nBusiness lecturers at Curtin University teaching undergraduate or postgraduate students\nAcademics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain\nUnit coordinators exploring AI integration aligned with learning outcomes\nResearch supervisors supporting business students\nAnyone curious about practical, non-technical AI applications in business education\n\n\n\n1.2.2 For Students\n\nBusiness students at all levels who want to develop AI literacy skills\nLearners seeking to understand how to use AI effectively for academic success\nStudents preparing for professional careers where AI tools will be standard\nAnyone interested in developing meta-skills for learning and working with AI\n\n\n\n1.2.3 Discipline-Specific Pathways\nThis book is designed for multiple business disciplines. While the core principles and techniques are universal, examples and prompts are tailored to your field:\n\nBusiness & MarketingManagement & Organisation StudiesHuman ResourcesTourism & HospitalitySupply Chain & LogisticsInformation SystemsAccounting & FinanceEconomics\n\n\nExamples include market analysis, customer behaviour modelling, campaign strategy, brand positioning, and competitive intelligence simulations.\n\n\nExamples include organisational design, change management, team dynamics, leadership scenarios, and process improvement workflows.\n\n\nExamples include recruitment workflows, performance management scenarios, employee relations simulations, talent development, and organisational behaviour case studies.\n\n\nExamples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.\n\n\nExamples include demand forecasting, inventory optimization, supplier negotiations, network design, and supply chain risk scenarios.\n\n\nExamples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.\n\n\nExamples include financial analysis, audit workflows, budget management, taxation scenarios, and financial reporting simulations.\n\n\nExamples include economic modelling, policy analysis, market equilibrium scenarios, microeconomic analysis, and behavioural economics simulations.",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#what-you-wont-find-here",
     "href": "index.html#what-you-wont-find-here",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.3 What You Won’t Find Here",
     "text": "1.3 What You Won’t Find Here\n\nTechnical AI theory or computer science concepts\nCoding or programming requirements\nAbstract discussions about AI’s future\nComplex software installation guides\n“One size fits all” solutions",
     "crumbs": [
@@ -42,7 +42,7 @@
   {
     "objectID": "index.html#what-you-will-find-here",
     "href": "index.html#what-you-will-find-here",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.4 What You Will Find Here",
     "text": "1.4 What You Will Find Here\n\nConcrete examples: Every chapter includes ready-to-use prompts and scenarios tailored to multiple business disciplines\nPractical guidance: Step-by-step implementation for busy lecturers\nReal pedagogical value: AI applications directly support existing learning outcomes across business programs\nHonest assessment: What AI does well, what it doesn’t, and what requires human judgment\nEthical frameworks: How to integrate AI responsibly and teach students to do the same in professional practice\nDisciplinary examples: All major examples appear in 8 different business disciplines\nComplex prompts and detailed examples use Quarto’s tabbed interface so readers can see their discipline’s perspective\nCustomization guidance: How to adapt examples and approaches for different institutional contexts",
     "crumbs": [
@@ -52,7 +52,7 @@
   {
     "objectID": "index.html#progressive-learning-structure",
     "href": "index.html#progressive-learning-structure",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.5 Progressive Learning Structure",
     "text": "1.5 Progressive Learning Structure\nThis book follows a carefully designed progression from foundational concepts to advanced excellence:\n\n1.5.0.1 Foundation Pathway (Chapters 1-6)\nFor educators: Build pedagogical understanding and basic AI skills\nFor students: Develop AI literacy and foundational capabilities\n\n\n1.5.0.2 Core Applications Pathway (Chapters 7-18)\nFor educators: Practical teaching implementations across disciplines\nFor students: Applied learning and professional skill development\n\n\n1.5.0.3 Implementation Excellence Pathway (Chapters 19-22)\nFor educators: Advanced assessment, accessibility, and global adaptation\nFor students: Meta-skills development and inclusive learning practices\n\n\n1.5.0.4 Resources Pathway (Appendices A-E)\nFor both audiences: Ready-to-use materials and references",
     "crumbs": [
@@ -62,7 +62,7 @@
   {
     "objectID": "index.html#recommended-reading-pathways",
     "href": "index.html#recommended-reading-pathways",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.6 Recommended Reading Pathways",
     "text": "1.6 Recommended Reading Pathways\n\n1.6.1 For Educators - Teaching Excellence Path\nQuick Start (if you have 1-2 hours):\n\nChapter 1 (30 min) - Understand the problem we’re solving and core principles\nChapter 2 (45 min) - Your first AI conversation and the CRAFT framework\nYour discipline’s examples - Browse chapters and pick examples most relevant to your field\n\nComprehensive Implementation (if you have a semester): Read in book order (each chapter builds on previous):\n\nIntroduction - Pedagogical foundation\nGetting Started - CRAFT framework for structured prompting\nDiscovering Your Strategy - Using AI to discover your personal AI strategy\nFirst Steps - Week-by-week implementation guidance\nSeven Essential Techniques - Core prompt engineering techniques\nManaging LLM Context - Working smarter with AI conversations\nFlight Simulator - Creating realistic practice scenarios\nCritique Toolkit - Teaching students to evaluate AI critically\nEthics, Data Governance & Integrity - Transparent approaches to AI use\nProcess Assessment - Assessing thinking, not just outputs\nSelf-Assessment - Building student metacognition with AI\nVirtual Company - Sustained simulation learning\nUnit Design - Integrating AI across full units\nStatic to Interactive - Converting existing content to AI-enhanced learning\nFrom Conversation to Document - Creating professional deliverables from AI conversations\nResearch Assistant - AI for postgraduate research\nAdvanced Frontiers - Agents, automation, RAG, emerging capabilities\nAssessment Design and Evaluation Rubrics - Concrete assessment frameworks\nTechnical Troubleshooting and Risk Management - Handling technical challenges\nAccessibility and Inclusive AI Integration - Ensuring access for all students\nGlobal Perspectives and Adaptation - International context adaptation\nConclusion - Bringing it all together\n\n\n\n1.6.2 For Students - Learning Excellence Path\nDirect AI Literacy Development:\n\nChapter 2 - Basic prompting skills and CRAFT framework\nChapter 5 - Seven essential techniques for effective AI interaction\nChapter 6 - Managing conversations and context\nChapter 8 - Critical evaluation of AI outputs\nAppendix E - Using AI to master AI (meta-skills)\n\nApplied Learning and Practice:\n\nChapter 7 - Flight simulator practice scenarios\nChapter 11 - AI as research assistant\nChapter 12 - Self-assessment and metacognition\nChapter 15 - Creating professional work from AI conversations\n\nSupport and Resources:\n\nAppendix A - Prompt library for immediate use\nQuick Reference Guide - Common questions and solutions\n\n\n\n1.6.3 For Both Audiences - Collaborative Path\nInstitutional Implementation:\n\nProgram teams: Use curriculum planning pathway\nFaculty development: Use workshop and assessment chapters\nQuality assurance: Use troubleshooting and accessibility frameworks\n\nShared Learning Experience:\n\nCoordinated approach: Educators and students use shared frameworks\nCommon language: Aligned understanding of AI integration goals\nFeedback loops: Both audiences benefit from shared perspectives",
     "crumbs": [
@@ -72,7 +72,7 @@
   {
     "objectID": "index.html#who-this-is-for-1",
     "href": "index.html#who-this-is-for-1",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.7 Who This Is For",
     "text": "1.7 Who This Is For\n\nBusiness lecturers at Curtin University teaching undergraduate or postgraduate students\nAcademics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain\nUnit coordinators exploring AI integration aligned with learning outcomes\nResearch supervisors supporting business students\nAnyone curious about practical, non-technical AI applications in business education\n\n\n1.7.1 Discipline-Specific Pathways\nThis book is designed for multiple business disciplines. While the core principles and techniques are universal, examples and prompts are tailored to your field:\n\nBusiness & MarketingManagement & Organisation StudiesHuman ResourcesTourism & HospitalitySupply Chain & LogisticsInformation SystemsAccounting & FinanceEconomics\n\n\nExamples include market analysis, customer behaviour modelling, campaign strategy, brand positioning, and competitive intelligence simulations.\n\n\nExamples include organisational design, change management, team dynamics, leadership scenarios, and process improvement workflows.\n\n\nExamples include recruitment workflows, performance management scenarios, employee relations simulations, talent development, and organisational behaviour case studies.\n\n\nExamples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.\n\n\nExamples include demand forecasting, inventory optimization, supplier negotiations, network design, and supply chain risk scenarios.\n\n\nExamples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.\n\n\nExamples include financial analysis, audit workflows, budget management, taxation scenarios, and financial reporting simulations.\n\n\nExamples include economic modelling, policy analysis, market equilibrium scenarios, microeconomic analysis, and behavioural economics simulations.",
     "crumbs": [
@@ -82,7 +82,7 @@
   {
     "objectID": "index.html#what-you-wont-find-here-1",
     "href": "index.html#what-you-wont-find-here-1",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.8 What You Won’t Find Here",
     "text": "1.8 What You Won’t Find Here\n\nTechnical AI theory or computer science concepts\nCoding or programming requirements\nAbstract discussions about AI’s future\nComplex software installation guides\n“One size fits all” solutions",
     "crumbs": [
@@ -92,7 +92,7 @@
   {
     "objectID": "index.html#what-you-will-find-here-1",
     "href": "index.html#what-you-will-find-here-1",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.9 What You Will Find Here",
     "text": "1.9 What You Will Find Here\n\nConcrete examples: Every chapter includes ready-to-use prompts and scenarios tailored to multiple business disciplines\nPractical guidance: Step-by-step implementation for busy lecturers\nReal pedagogical value: AI applications directly support existing learning outcomes across business programs\nHonest assessment: What AI does well, what it doesn’t, and what requires human judgment\nEthical frameworks: How to integrate AI responsibly and teach students to do the same in professional practice",
     "crumbs": [
@@ -102,7 +102,7 @@
   {
     "objectID": "index.html#a-core-concept-prompting-as-foundation",
     "href": "index.html#a-core-concept-prompting-as-foundation",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "1.10 A Core Concept: Prompting as Foundation",
     "text": "1.10 A Core Concept: Prompting as Foundation\nThroughout this book, prompting is your core skill. Whether you’re:\n\nWriting direct instructions to AI tools\nIntegrating AI into familiar software (Word, PowerPoint, Teams)\nAutomating workflows with agents\nBuilding custom tools\n\n…you’re fundamentally communicating with AI through prompts. Master prompting, and you can adapt to any AI tool,past, present, or future. Chapters 2-4 teach you prompting as a conceptual foundation; everything else applies that foundation to specific teaching challenges.",
     "crumbs": [
@@ -112,7 +112,7 @@
   {
     "objectID": "index.html#technology-changes-rapidly",
     "href": "index.html#technology-changes-rapidly",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "5.1 Technology Changes Rapidly",
     "text": "5.1 Technology Changes Rapidly\nAI tools evolve quickly. Specific platform names (ChatGPT, Claude, etc.) and capabilities described here reflect the state of technology in early 2025. The principles and pedagogical approaches remain relevant even as specific tools change.",
     "crumbs": [
@@ -122,7 +122,7 @@
   {
     "objectID": "index.html#context-matters",
     "href": "index.html#context-matters",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "5.2 Context Matters",
     "text": "5.2 Context Matters\nThis book was developed for Curtin University’s business programs. If you’re at a different institution or teaching a different discipline, you’ll need to adapt examples, learning outcomes, and institutional references. The frameworks are transferable; the specifics may not be.",
     "crumbs": [
@@ -132,7 +132,7 @@
   {
     "objectID": "index.html#this-is-a-starting-point",
     "href": "index.html#this-is-a-starting-point",
-    "title": "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education",
+    "title": "Partner, Don’t Police: AI in the Business Classroom",
     "section": "5.3 This Is a Starting Point",
     "text": "5.3 This Is a Starting Point\nConsider this book a foundation, not a complete solution. You’ll discover what works for your students, your teaching style, and your context through experimentation. The appendices provide templates you can adapt and build upon.",
     "crumbs": [
