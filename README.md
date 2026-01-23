@@ -1,4 +1,4 @@
-# AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education
+# Partner, Don't Police: AI in the Business Classroom
 
 A comprehensive guide for educators integrating AI into teaching across business disciplines including HR, marketing, accounting, management, supply chain, information systems, tourism & hospitality, and economics.
 

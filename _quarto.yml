@@ -2,7 +2,7 @@ project:
   type: book
   
 book:
-  title: "AI as a Teaching Partner: Practical Applications for Multidisciplinary Business Education"
+  title: "Partner, Don't Police: AI in the Business Classroom"
   author: "SoMM Education Team"
   cover-image: cover.png
   chapters:
