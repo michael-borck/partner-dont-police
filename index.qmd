@@ -372,4 +372,14 @@ That's it. One simulation. One new assessment approach. One conversation where a
 
 Because ultimately, that's what we're here for.
 
+---
+
+# Related Resources
+
+The philosophy of this book - treating AI as a partner rather than something to police - shares foundations with broader approaches to human-AI collaboration. If you're interested in exploring the underlying methodology more deeply, particularly for software development contexts:
+
+**[Conversation, Not Delegation: Mastering Human-AI Development](https://michael-borck.github.io/conversation-not-delegation)** provides a comprehensive framework for intentional AI collaboration. While focused on programming, its core principles of maintaining human agency, critical evaluation of AI output, and structured interaction patterns apply across disciplines.
+
+---
+
 Let's begin.
