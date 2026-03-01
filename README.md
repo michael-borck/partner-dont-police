@@ -1,5 +1,9 @@
 # Partner, Don't Police: AI in the Business Classroom
 
+<!-- BADGES:START -->
+[![book](https://img.shields.io/badge/-book-795548?style=flat-square)](https://github.com/topics/book) [![artificial-intelligence](https://img.shields.io/badge/-artificial--intelligence-blue?style=flat-square)](https://github.com/topics/artificial-intelligence) [![assessment](https://img.shields.io/badge/-assessment-blue?style=flat-square)](https://github.com/topics/assessment) [![business-education](https://img.shields.io/badge/-business--education-blue?style=flat-square)](https://github.com/topics/business-education) [![curriculum](https://img.shields.io/badge/-curriculum-blue?style=flat-square)](https://github.com/topics/curriculum) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![generative-ai](https://img.shields.io/badge/-generative--ai-blue?style=flat-square)](https://github.com/topics/generative-ai) [![pedagogy](https://img.shields.io/badge/-pedagogy-blue?style=flat-square)](https://github.com/topics/pedagogy) [![prompt-engineering](https://img.shields.io/badge/-prompt--engineering-blue?style=flat-square)](https://github.com/topics/prompt-engineering) [![teaching](https://img.shields.io/badge/-teaching-blue?style=flat-square)](https://github.com/topics/teaching)
+<!-- BADGES:END -->
+
 A comprehensive guide for educators integrating AI into teaching across business disciplines including HR, marketing, accounting, management, supply chain, information systems, tourism & hospitality, and economics.
 
 ## Overview
