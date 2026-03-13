@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>9&nbsp; Managing LLM Context: Working Smarter with AI Conversations – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -380,7 +555,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#when-to-start-a-new-conversation" id="toc-when-to-start-a-new-conversation" class="nav-link" data-scroll-target="#when-to-start-a-new-conversation"><span class="header-section-number">9.6.1</span> When to Start a New Conversation</a></li>
   <li><a href="#when-one-conversation-is-fine" id="toc-when-one-conversation-is-fine" class="nav-link" data-scroll-target="#when-one-conversation-is-fine"><span class="header-section-number">9.6.2</span> When One Conversation Is Fine</a></li>
   </ul></li>
-  <li><a href="#core-strategy-5-summarize-and-handoff-for-long-conversations" id="toc-core-strategy-5-summarize-and-handoff-for-long-conversations" class="nav-link" data-scroll-target="#core-strategy-5-summarize-and-handoff-for-long-conversations"><span class="header-section-number">9.7</span> Core Strategy 5: Summarize and Handoff for Long Conversations</a>
+  <li><a href="#core-strategy-5-summarise-and-handoff-for-long-conversations" id="toc-core-strategy-5-summarise-and-handoff-for-long-conversations" class="nav-link" data-scroll-target="#core-strategy-5-summarise-and-handoff-for-long-conversations"><span class="header-section-number">9.7</span> Core Strategy 5: summarise and Handoff for Long Conversations</a>
   <ul class="collapse">
   <li><a href="#how-to-do-it" id="toc-how-to-do-it" class="nav-link" data-scroll-target="#how-to-do-it"><span class="header-section-number">9.7.1</span> How to Do It</a></li>
   <li><a href="#example-handoff-summary" id="toc-example-handoff-summary" class="nav-link" data-scroll-target="#example-handoff-summary"><span class="header-section-number">9.7.2</span> Example Handoff Summary</a></li>
@@ -425,6 +600,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -533,7 +709,7 @@ For each, explain:
 </section>
 <section id="example-2-semester-course-planning" class="level3" data-number="9.3.2">
 <h3 data-number="9.3.2" class="anchored" data-anchor-id="example-2-semester-course-planning"><span class="header-section-number">9.3.2</span> Example 2: Semester Course Planning</h3>
-<p><strong>Instead of:</strong> “Design a 12-week course on organisational behavior.”</p>
+<p><strong>Instead of:</strong> “Design a 12-week course on organisational behaviour.”</p>
 <p><strong>Ask for a plan first:</strong></p>
 <pre><code>I'm teaching organisational behaviour to 2nd-year business students (60 students,
 first-year of their major). Help me structure this 12-week course.
@@ -543,7 +719,7 @@ arc across the semester? What should be the rough focus of each week or pair
 of weeks?</code></pre>
 <p><strong>Then work through week-by-week or module-by-module:</strong></p>
 <pre><code>Using the plan above, let's design Week 1-2: Introduction to Organisational
-Behavior.
+behaviour.
 
 Learning focus: [paste from plan]
 
@@ -640,7 +816,7 @@ over completeness.</code></pre>
 <section id="discipline-specific-example" class="level3" data-number="9.5.3">
 <h3 data-number="9.5.3" class="anchored" data-anchor-id="discipline-specific-example"><span class="header-section-number">9.5.3</span> Discipline-Specific Example</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Human Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Supply Chain</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Accounting</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Human Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Supply Chain</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Accounting</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <pre><code>I need a comparison of recruitment approaches for a business program.
@@ -703,7 +879,7 @@ Focus on what an audit team needs to decide.</code></pre>
 <ol type="1">
 <li><strong>Topic shift:</strong> Finished designing one unit? Start a new conversation for a different unit.</li>
 <li><strong>Major context change:</strong> Moving from unit design to research methodology? New conversation.</li>
-<li><strong>Length:</strong> Conversation getting very long (50+ exchanges)? Consider summarizing and moving to a new one.</li>
+<li><strong>Length:</strong> Conversation getting very long (50+ exchanges)? Consider summarising and moving to a new one.</li>
 <li><strong>Different AI tool:</strong> Using Claude for teaching design and ChatGPT for grading assistance? Keep them separate.</li>
 </ol>
 </section>
@@ -718,15 +894,15 @@ Focus on what an audit team needs to decide.</code></pre>
 <hr>
 </section>
 </section>
-<section id="core-strategy-5-summarize-and-handoff-for-long-conversations" class="level2" data-number="9.7">
-<h2 data-number="9.7" class="anchored" data-anchor-id="core-strategy-5-summarize-and-handoff-for-long-conversations"><span class="header-section-number">9.7</span> Core Strategy 5: Summarize and Handoff for Long Conversations</h2>
-<p><strong>The Principle:</strong> When a conversation gets long, ask AI to summarize what you’ve accomplished, then start fresh in a new conversation.</p>
+<section id="core-strategy-5-summarise-and-handoff-for-long-conversations" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="core-strategy-5-summarise-and-handoff-for-long-conversations"><span class="header-section-number">9.7</span> Core Strategy 5: summarise and Handoff for Long Conversations</h2>
+<p><strong>The Principle:</strong> When a conversation gets long, ask AI to summarise what you’ve accomplished, then start fresh in a new conversation.</p>
 <p><strong>Why it works:</strong> - Resets the “attention freshness” (AI isn’t tracking 30+ old exchanges) - Gives you a clean document of what you’ve done (useful archive) - Reduces hallucination in the new conversation - Allows you to build on work without repeating context</p>
 <section id="how-to-do-it" class="level3" data-number="9.7.1">
 <h3 data-number="9.7.1" class="anchored" data-anchor-id="how-to-do-it"><span class="header-section-number">9.7.1</span> How to Do It</h3>
 <p><strong>In the long conversation, when it feels unwieldy:</strong></p>
 <pre><code>We've been working on [project name: e.g., "redesigning the HR management
-unit"] for a while. Can you summarize what we've accomplished?
+unit"] for a while. Can you summarise what we've accomplished?
 
 Include:
 - What problem or task we started with
@@ -918,7 +1094,7 @@ differently than in Western business tradition.</code></pre>
 <tr class="odd">
 <td><strong>Starting a new conversation when context is long</strong></td>
 <td>Lost work and having to re-explain everything</td>
-<td>Summarize first— then paste summary into new chat</td>
+<td>summarise first— then paste summary into new chat</td>
 </tr>
 </tbody>
 </table>
@@ -1046,7 +1222,7 @@ outcomes?</code></pre>
 </section>
 <section id="when-context-management-matters-most" class="level2" data-number="9.14">
 <h2 data-number="9.14" class="anchored" data-anchor-id="when-context-management-matters-most"><span class="header-section-number">9.14</span> When Context Management Matters Most</h2>
-<p>Context management is most important when: - <strong>You’re doing complex, multi-step projects</strong> (unit redesigns, curriculum overhauls) - <strong>Quality matters</strong> (teaching materials, student-facing work) - <strong>You need consistency</strong> (prompt libraries, course coherence) - <strong>You’re iterating</strong> (refining approaches based on feedback) - <strong>You’re teaching students to use AI</strong> (modeling good context management)</p>
+<p>Context management is most important when: - <strong>You’re doing complex, multi-step projects</strong> (unit redesigns, curriculum overhauls) - <strong>Quality matters</strong> (teaching materials, student-facing work) - <strong>You need consistency</strong> (prompt libraries, course coherence) - <strong>You’re iterating</strong> (refining approaches based on feedback) - <strong>You’re teaching students to use AI</strong> (modelling good context management)</p>
 <p>For quick, one-off tasks (generating a single prompt, quick idea generation), context management is less critical. But for the substantial work you do as an educator, managing context improves quality dramatically.</p>
 <hr>
 </section>
@@ -1057,20 +1233,20 @@ outcomes?</code></pre>
 <li><strong>One task per prompt (usually)</strong> - Give output tokens to focus on one thing</li>
 <li><strong>Use output constraints</strong> - Specify length and format to manage token allocation</li>
 <li><strong>Keep conversations focused</strong> - One major project per conversation</li>
-<li><strong>Summarize and handoff</strong> - When conversations get long (50+ exchanges), reset with a summary</li>
+<li><strong>summarise and handoff</strong> - When conversations get long (50+ exchanges), reset with a summary</li>
 <li><strong>Make context explicit</strong> - Don’t assume AI understands implicit information</li>
 <li><strong>Batch similar tasks</strong> - If you need 5 of the same thing, ask for all 5 at once</li>
 <li><strong>Review everything</strong> - Always quality-check outputs</li>
 </ol>
 <blockquote class="blockquote">
-<p><strong>The underlying principle:</strong> Context management is about respecting the AI’s limitations while maximizing its strengths. You’re not trying to have perfect conversations; you’re trying to have <em>focused</em> conversations that produce high-quality outputs consistently.</p>
+<p><strong>The underlying principle:</strong> Context management is about respecting the AI’s limitations while maximising its strengths. You’re not trying to have perfect conversations; you’re trying to have <em>focused</em> conversations that produce high-quality outputs consistently.</p>
 </blockquote>
 <hr>
 </section>
 <section id="why-students-should-learn-this" class="level2" data-number="9.16">
 <h2 data-number="9.16" class="anchored" data-anchor-id="why-students-should-learn-this"><span class="header-section-number">9.16</span> Why Students Should Learn This</h2>
 <p>As you teach students to use AI, context management becomes a critical skill. Students who understand context management will: - <strong>Get better results</strong> from AI (more usable outputs, fewer iterations) - <strong>Work more efficiently</strong> (fewer wasted conversations) - <strong>Produce higher-quality work</strong> (depth over breadth) - <strong>Develop professional AI literacy</strong> (understanding how to work with AI tools effectively)</p>
-<p>Consider teaching context management explicitly: - Show students your workflow (how you break tasks into steps) - Model managing long conversations (summarize, start fresh) - Have students practice the “one task per prompt” principle - Discuss why quality suffers when asking for too much at once</p>
+<p>Consider teaching context management explicitly: - Show students your workflow (how you break tasks into steps) - Model managing long conversations (summarise, start fresh) - Have students practice the “one task per prompt” principle - Discuss why quality suffers when asking for too much at once</p>
 <p>This transfers from classroom to professional practice. If your students graduate understanding how to manage context with AI, they’ll be more effective professionals.</p>
 <hr>
 </section>
@@ -1095,6 +1271,19 @@ outcomes?</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1690,7 +1879,7 @@ outcomes?</code></pre>
 <span id="cb32-132"><a href="#cb32-132" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-133"><a href="#cb32-133" aria-hidden="true" tabindex="-1"></a><span class="fu">### Example 2: Semester Course Planning</span></span>
 <span id="cb32-134"><a href="#cb32-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-135"><a href="#cb32-135" aria-hidden="true" tabindex="-1"></a>**Instead of:** "Design a 12-week course on organisational behavior."</span>
+<span id="cb32-135"><a href="#cb32-135" aria-hidden="true" tabindex="-1"></a>**Instead of:** "Design a 12-week course on organisational behaviour."</span>
 <span id="cb32-136"><a href="#cb32-136" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-137"><a href="#cb32-137" aria-hidden="true" tabindex="-1"></a>**Ask for a plan first:**</span>
 <span id="cb32-138"><a href="#cb32-138" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -1705,7 +1894,7 @@ outcomes?</code></pre>
 <span id="cb32-147"><a href="#cb32-147" aria-hidden="true" tabindex="-1"></a>**Then work through week-by-week or module-by-module:**</span>
 <span id="cb32-148"><a href="#cb32-148" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb32-149"><a href="#cb32-149" aria-hidden="true" tabindex="-1"></a><span class="in">Using the plan above, let's design Week 1-2: Introduction to Organisational</span></span>
-<span id="cb32-150"><a href="#cb32-150" aria-hidden="true" tabindex="-1"></a><span class="in">Behavior.</span></span>
+<span id="cb32-150"><a href="#cb32-150" aria-hidden="true" tabindex="-1"></a><span class="in">behaviour.</span></span>
 <span id="cb32-151"><a href="#cb32-151" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-152"><a href="#cb32-152" aria-hidden="true" tabindex="-1"></a><span class="in">Learning focus: [paste from plan]</span></span>
 <span id="cb32-153"><a href="#cb32-153" aria-hidden="true" tabindex="-1"></a></span>
@@ -1912,7 +2101,7 @@ outcomes?</code></pre>
 <span id="cb32-354"><a href="#cb32-354" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-355"><a href="#cb32-355" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Topic shift:** Finished designing one unit? Start a new conversation for a different unit.</span>
 <span id="cb32-356"><a href="#cb32-356" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Major context change:** Moving from unit design to research methodology? New conversation.</span>
-<span id="cb32-357"><a href="#cb32-357" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Length:** Conversation getting very long (50+ exchanges)? Consider summarizing and moving to a new one.</span>
+<span id="cb32-357"><a href="#cb32-357" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Length:** Conversation getting very long (50+ exchanges)? Consider summarising and moving to a new one.</span>
 <span id="cb32-358"><a href="#cb32-358" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Different AI tool:** Using Claude for teaching design and ChatGPT for grading assistance? Keep them separate.</span>
 <span id="cb32-359"><a href="#cb32-359" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-360"><a href="#cb32-360" aria-hidden="true" tabindex="-1"></a><span class="fu">### When One Conversation Is Fine</span></span>
@@ -1925,9 +2114,9 @@ outcomes?</code></pre>
 <span id="cb32-367"><a href="#cb32-367" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-368"><a href="#cb32-368" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb32-369"><a href="#cb32-369" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-370"><a href="#cb32-370" aria-hidden="true" tabindex="-1"></a><span class="fu">## Core Strategy 5: Summarize and Handoff for Long Conversations</span></span>
+<span id="cb32-370"><a href="#cb32-370" aria-hidden="true" tabindex="-1"></a><span class="fu">## Core Strategy 5: summarise and Handoff for Long Conversations</span></span>
 <span id="cb32-371"><a href="#cb32-371" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-372"><a href="#cb32-372" aria-hidden="true" tabindex="-1"></a>**The Principle:** When a conversation gets long, ask AI to summarize what you've accomplished, then start fresh in a new conversation.</span>
+<span id="cb32-372"><a href="#cb32-372" aria-hidden="true" tabindex="-1"></a>**The Principle:** When a conversation gets long, ask AI to summarise what you've accomplished, then start fresh in a new conversation.</span>
 <span id="cb32-373"><a href="#cb32-373" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-374"><a href="#cb32-374" aria-hidden="true" tabindex="-1"></a>**Why it works:**</span>
 <span id="cb32-375"><a href="#cb32-375" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Resets the "attention freshness" (AI isn't tracking 30+ old exchanges)</span>
@@ -1941,7 +2130,7 @@ outcomes?</code></pre>
 <span id="cb32-383"><a href="#cb32-383" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-384"><a href="#cb32-384" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb32-385"><a href="#cb32-385" aria-hidden="true" tabindex="-1"></a><span class="in">We've been working on [project name: e.g., "redesigning the HR management</span></span>
-<span id="cb32-386"><a href="#cb32-386" aria-hidden="true" tabindex="-1"></a><span class="in">unit"] for a while. Can you summarize what we've accomplished?</span></span>
+<span id="cb32-386"><a href="#cb32-386" aria-hidden="true" tabindex="-1"></a><span class="in">unit"] for a while. Can you summarise what we've accomplished?</span></span>
 <span id="cb32-387"><a href="#cb32-387" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-388"><a href="#cb32-388" aria-hidden="true" tabindex="-1"></a><span class="in">Include:</span></span>
 <span id="cb32-389"><a href="#cb32-389" aria-hidden="true" tabindex="-1"></a><span class="in">- What problem or task we started with</span></span>
@@ -2106,7 +2295,7 @@ outcomes?</code></pre>
 <span id="cb32-548"><a href="#cb32-548" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Asking "what am I missing?"** <span class="pp">|</span> AI invents irrelevant things <span class="pp">|</span> Be specific: "What am I missing in my assessment of <span class="co">[</span><span class="ot">specific skill</span><span class="co">]</span>?" <span class="pp">|</span></span>
 <span id="cb32-549"><a href="#cb32-549" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Forgetting to review outputs** <span class="pp">|</span> Errors and hallucinations slip through <span class="pp">|</span> Always quality-check--- especially facts/citations <span class="pp">|</span></span>
 <span id="cb32-550"><a href="#cb32-550" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Pasting entire documents without framing** <span class="pp">|</span> AI doesn't know what to focus on <span class="pp">|</span> Add a sentence: "Here's my unit outline. Focus on the assessment section." <span class="pp">|</span></span>
-<span id="cb32-551"><a href="#cb32-551" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Starting a new conversation when context is long** <span class="pp">|</span> Lost work and having to re-explain everything <span class="pp">|</span> Summarize first--- then paste summary into new chat <span class="pp">|</span></span>
+<span id="cb32-551"><a href="#cb32-551" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Starting a new conversation when context is long** <span class="pp">|</span> Lost work and having to re-explain everything <span class="pp">|</span> summarise first--- then paste summary into new chat <span class="pp">|</span></span>
 <span id="cb32-552"><a href="#cb32-552" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-553"><a href="#cb32-553" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb32-554"><a href="#cb32-554" aria-hidden="true" tabindex="-1"></a></span>
@@ -2268,7 +2457,7 @@ outcomes?</code></pre>
 <span id="cb32-710"><a href="#cb32-710" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Quality matters** (teaching materials, student-facing work)</span>
 <span id="cb32-711"><a href="#cb32-711" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**You need consistency** (prompt libraries, course coherence)</span>
 <span id="cb32-712"><a href="#cb32-712" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**You're iterating** (refining approaches based on feedback)</span>
-<span id="cb32-713"><a href="#cb32-713" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**You're teaching students to use AI** (modeling good context management)</span>
+<span id="cb32-713"><a href="#cb32-713" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**You're teaching students to use AI** (modelling good context management)</span>
 <span id="cb32-714"><a href="#cb32-714" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-715"><a href="#cb32-715" aria-hidden="true" tabindex="-1"></a>For quick, one-off tasks (generating a single prompt, quick idea generation), context management is less critical. But for the substantial work you do as an educator, managing context improves quality dramatically.</span>
 <span id="cb32-716"><a href="#cb32-716" aria-hidden="true" tabindex="-1"></a></span>
@@ -2280,12 +2469,12 @@ outcomes?</code></pre>
 <span id="cb32-722"><a href="#cb32-722" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**One task per prompt (usually)** - Give output tokens to focus on one thing</span>
 <span id="cb32-723"><a href="#cb32-723" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Use output constraints** - Specify length and format to manage token allocation</span>
 <span id="cb32-724"><a href="#cb32-724" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Keep conversations focused** - One major project per conversation</span>
-<span id="cb32-725"><a href="#cb32-725" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Summarize and handoff** - When conversations get long (50+ exchanges), reset with a summary</span>
+<span id="cb32-725"><a href="#cb32-725" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**summarise and handoff** - When conversations get long (50+ exchanges), reset with a summary</span>
 <span id="cb32-726"><a href="#cb32-726" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Make context explicit** - Don't assume AI understands implicit information</span>
 <span id="cb32-727"><a href="#cb32-727" aria-hidden="true" tabindex="-1"></a><span class="ss">7. </span>**Batch similar tasks** - If you need 5 of the same thing, ask for all 5 at once</span>
 <span id="cb32-728"><a href="#cb32-728" aria-hidden="true" tabindex="-1"></a><span class="ss">8. </span>**Review everything** - Always quality-check outputs</span>
 <span id="cb32-729"><a href="#cb32-729" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-730"><a href="#cb32-730" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; **The underlying principle:** Context management is about respecting the AI's limitations while maximizing its strengths. You're not trying to have perfect conversations; you're trying to have *focused* conversations that produce high-quality outputs consistently.</span></span>
+<span id="cb32-730"><a href="#cb32-730" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; **The underlying principle:** Context management is about respecting the AI's limitations while maximising its strengths. You're not trying to have perfect conversations; you're trying to have *focused* conversations that produce high-quality outputs consistently.</span></span>
 <span id="cb32-731"><a href="#cb32-731" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-732"><a href="#cb32-732" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb32-733"><a href="#cb32-733" aria-hidden="true" tabindex="-1"></a></span>
@@ -2299,7 +2488,7 @@ outcomes?</code></pre>
 <span id="cb32-741"><a href="#cb32-741" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-742"><a href="#cb32-742" aria-hidden="true" tabindex="-1"></a>Consider teaching context management explicitly:</span>
 <span id="cb32-743"><a href="#cb32-743" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Show students your workflow (how you break tasks into steps)</span>
-<span id="cb32-744"><a href="#cb32-744" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Model managing long conversations (summarize, start fresh)</span>
+<span id="cb32-744"><a href="#cb32-744" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Model managing long conversations (summarise, start fresh)</span>
 <span id="cb32-745"><a href="#cb32-745" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Have students practice the "one task per prompt" principle</span>
 <span id="cb32-746"><a href="#cb32-746" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Discuss why quality suffers when asking for too much at once</span>
 <span id="cb32-747"><a href="#cb32-747" aria-hidden="true" tabindex="-1"></a></span>

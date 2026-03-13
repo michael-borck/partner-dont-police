@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>Appendix D — Advanced Prompting for Business Education – Partner, Don’t Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -415,6 +590,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./advanced-prompting.html"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Advanced Prompting for Business Education</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -957,7 +1133,7 @@ Now design Unit 2 following the same structure and pedagogical approach.</code><
 </section>
 <section id="cross-reference" class="level3" data-number="D.11.4">
 <h3 data-number="D.11.4" class="anchored" data-anchor-id="cross-reference"><span class="header-section-number">D.11.4</span> Cross-Reference</h3>
-<p>For comprehensive context management strategies, see <strong>Chapter 6: Managing LLM Context</strong>. That chapter covers: - Breaking complex tasks into focused steps - Managing conversation length effectively - Explicit context specification - Batching similar tasks - Summarizing and handing off for extended projects</p>
+<p>For comprehensive context management strategies, see <strong>Chapter 6: Managing LLM Context</strong>. That chapter covers: - Breaking complex tasks into focused steps - Managing conversation length effectively - Explicit context specification - Batching similar tasks - summarising and handing off for extended projects</p>
 <hr>
 </section>
 </section>
@@ -1023,7 +1199,7 @@ Now design Unit 2 following the same structure and pedagogical approach.</code><
 <section id="final-thoughts" class="level2" data-number="D.13">
 <h2 data-number="D.13" class="anchored" data-anchor-id="final-thoughts"><span class="header-section-number">D.13</span> Final Thoughts</h2>
 <p><strong>Advanced prompting isn’t about complexity - it’s about precision.</strong></p>
-<p>The techniques in this appendix help you: - <strong>Get more consistent responses</strong> through better context,adapted to your discipline’s terminology and frameworks - <strong>Maintain professional standards</strong> with persona control,reflecting expertise in your professional field - <strong>Generate appropriate content</strong> with constraints and boundaries,respecting discipline-specific ethical standards - <strong>Create educational materials</strong> with structured formatting,matching your discipline’s learning outcomes - <strong>Save time</strong> with templates and patterns,customizable for your teaching context</p>
+<p>The techniques in this appendix help you: - <strong>Get more consistent responses</strong> through better context,adapted to your discipline’s terminology and frameworks - <strong>Maintain professional standards</strong> with persona control,reflecting expertise in your professional field - <strong>Generate appropriate content</strong> with constraints and boundaries,respecting discipline-specific ethical standards - <strong>Create educational materials</strong> with structured formatting,matching your discipline’s learning outcomes - <strong>Save time</strong> with templates and patterns,customisable for your teaching context</p>
 <p><strong>Remember:</strong> The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students’ professional preparation.</p>
 <p>Adapt these HR-focused examples to your discipline by: 1. Replacing HR terminology with your field’s professional language 2. Substituting HR frameworks with discipline-specific standards and best practices 3. Adjusting persona definitions to match your profession’s expertise areas 4. Modifying risk and ethical considerations to reflect your field’s priorities</p>
 <hr>
@@ -1037,6 +1213,19 @@ Now design Unit 2 following the same structure and pedagogical approach.</code><
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -2094,7 +2283,7 @@ Now design Unit 2 following the same structure and pedagogical approach.</code><
 <span id="cb41-594"><a href="#cb41-594" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Managing conversation length effectively</span>
 <span id="cb41-595"><a href="#cb41-595" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explicit context specification</span>
 <span id="cb41-596"><a href="#cb41-596" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Batching similar tasks</span>
-<span id="cb41-597"><a href="#cb41-597" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarizing and handing off for extended projects</span>
+<span id="cb41-597"><a href="#cb41-597" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarising and handing off for extended projects</span>
 <span id="cb41-598"><a href="#cb41-598" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb41-599"><a href="#cb41-599" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb41-600"><a href="#cb41-600" aria-hidden="true" tabindex="-1"></a></span>
@@ -2131,7 +2320,7 @@ Now design Unit 2 following the same structure and pedagogical approach.</code><
 <span id="cb41-631"><a href="#cb41-631" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Maintain professional standards** with persona control,reflecting expertise in your professional field</span>
 <span id="cb41-632"><a href="#cb41-632" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Generate appropriate content** with constraints and boundaries,respecting discipline-specific ethical standards</span>
 <span id="cb41-633"><a href="#cb41-633" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Create educational materials** with structured formatting,matching your discipline's learning outcomes</span>
-<span id="cb41-634"><a href="#cb41-634" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Save time** with templates and patterns,customizable for your teaching context</span>
+<span id="cb41-634"><a href="#cb41-634" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Save time** with templates and patterns,customisable for your teaching context</span>
 <span id="cb41-635"><a href="#cb41-635" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb41-636"><a href="#cb41-636" aria-hidden="true" tabindex="-1"></a>**Remember:** The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students' professional preparation.</span>
 <span id="cb41-637"><a href="#cb41-637" aria-hidden="true" tabindex="-1"></a></span>

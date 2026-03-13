@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>7&nbsp; Your First Steps - A Practical Guide – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -399,6 +574,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Your First Steps - A Practical Guide</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -435,7 +611,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Task:</strong> Generate three teaching resources you currently need using AI prompts.</p>
 <p><strong>Examples by discipline:</strong></p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Business &amp; Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Management</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Human Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Supply Chain &amp; Logistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Accounting &amp; Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Economics</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Business &amp; Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Management</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Human Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Supply Chain &amp; Logistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Accounting &amp; Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Economics</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ul>
@@ -469,7 +645,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Create demand disruption scenarios with multiple constraints</li>
 <li>Generate supplier negotiation dialogues students must evaluate</li>
-<li>Draft logistics network problems with optimization challenges</li>
+<li>Draft logistics network problems with optimisation challenges</li>
 </ul>
 </div>
 <div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
@@ -610,7 +786,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
 <blockquote class="blockquote">
-<p>“For the supply chain optimization problem due in Week 8, I’ve created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss.”</p>
+<p>“For the supply chain optimisation problem due in Week 8, I’ve created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss.”</p>
 </blockquote>
 </div>
 <div id="tabset-3-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-6-tab">
@@ -795,7 +971,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div id="tabset-6-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-5-tab">
 <blockquote class="blockquote">
-<p>“We’re trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimization, so learning to use it critically is essential.”</p>
+<p>“We’re trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimisation, so learning to use it critically is essential.”</p>
 </blockquote>
 </div>
 <div id="tabset-6-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-6-tab">
@@ -1116,7 +1292,7 @@ I will review your assessment and make final decisions.
 </div>
 <div id="tabset-9-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-5-tab">
 <blockquote class="blockquote">
-<p>“I understand this is different. But in supply chain work, you’ll use AI for forecasting, optimization, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don’t need to be a data scientist,just know how to use and evaluate AI tools.”</p>
+<p>“I understand this is different. But in supply chain work, you’ll use AI for forecasting, optimisation, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don’t need to be a data scientist,just know how to use and evaluate AI tools.”</p>
 </blockquote>
 </div>
 <div id="tabset-9-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-6-tab">
@@ -1185,7 +1361,7 @@ I will review your assessment and make final decisions.
 <p>The chapters before this showed you what’s possible. This chapter showed you how to make it real.</p>
 <p>Now it’s time to choose your first small experiment and try it.</p>
 <hr>
-<p><strong>Next Chapter Preview:</strong> In Chapter 9, we directly address the academic integrity and ethics question. You’ll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximizing learning, and how to reframe “preventing AI cheating” as “teaching AI literacy and professional ethics.” This is the conversation you’ll need to have with students, colleagues, and possibly administrators.</p>
+<p><strong>Next Chapter Preview:</strong> In Chapter 9, we directly address the academic integrity and ethics question. You’ll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximising learning, and how to reframe “preventing AI cheating” as “teaching AI literacy and professional ethics.” This is the conversation you’ll need to have with students, colleagues, and possibly administrators.</p>
 
 
 <!-- -->
@@ -1195,6 +1371,19 @@ I will review your assessment and make final decisions.
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1707,7 +1896,7 @@ I will review your assessment and make final decisions.
 <span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
 <span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Create demand disruption scenarios with multiple constraints</span>
 <span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate supplier negotiation dialogues students must evaluate</span>
-<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Draft logistics network problems with optimization challenges</span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Draft logistics network problems with optimisation challenges</span>
 <span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Create stakeholder requirement scenarios with conflicting needs</span>
@@ -1839,7 +2028,7 @@ I will review your assessment and make final decisions.
 <span id="cb9-181"><a href="#cb9-181" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "For the service management case study due in Week 8, I've created an AI prompt that critiques your proposed solution against service recovery principles. Write your draft, paste with the prompt, and see what gaps the AI identifies. Optional, but helpful for thinking through guest experience holistically."</span></span>
 <span id="cb9-182"><a href="#cb9-182" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-183"><a href="#cb9-183" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
-<span id="cb9-184"><a href="#cb9-184" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "For the supply chain optimization problem due in Week 8, I've created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss."</span></span>
+<span id="cb9-184"><a href="#cb9-184" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "For the supply chain optimisation problem due in Week 8, I've created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss."</span></span>
 <span id="cb9-185"><a href="#cb9-185" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-186"><a href="#cb9-186" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb9-187"><a href="#cb9-187" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "For the project plan due in Week 8, I've created an AI review prompt that evaluates your scope management and risk identification. Write your draft, paste with the prompt, and get preliminary feedback. Completely optional, but many students find it helps identify scope creep risks."</span></span>
@@ -2043,7 +2232,7 @@ I will review your assessment and make final decisions.
 <span id="cb9-385"><a href="#cb9-385" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "We're trying something new because I want you to practice real service scenarios,guest handling, recovery, experience design,not just learn theory. In hospitality management, you'll use AI for operations and guests, so understanding it critically matters."</span></span>
 <span id="cb9-386"><a href="#cb9-386" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-387"><a href="#cb9-387" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
-<span id="cb9-388"><a href="#cb9-388" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "We're trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimization, so learning to use it critically is essential."</span></span>
+<span id="cb9-388"><a href="#cb9-388" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "We're trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimisation, so learning to use it critically is essential."</span></span>
 <span id="cb9-389"><a href="#cb9-389" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-390"><a href="#cb9-390" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb9-391"><a href="#cb9-391" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "We're trying something new because I want you to practice real IT challenges,requirements, scope management, technical trade-offs,not just memorize methodology. IT professionals use AI extensively, so learning to use it critically for code and analysis is part of your skill set."</span></span>
@@ -2366,7 +2555,7 @@ I will review your assessment and make final decisions.
 <span id="cb9-708"><a href="#cb9-708" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I understand this is different. But in hospitality management, you'll use AI for operations and guest analytics. My job is to prepare you for professional practice where AI is increasingly common. I'm not asking you to become tech-savvy,just to understand AI's role critically."</span></span>
 <span id="cb9-709"><a href="#cb9-709" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-710"><a href="#cb9-710" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
-<span id="cb9-711"><a href="#cb9-711" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimization, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist,just know how to use and evaluate AI tools."</span></span>
+<span id="cb9-711"><a href="#cb9-711" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimisation, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist,just know how to use and evaluate AI tools."</span></span>
 <span id="cb9-712"><a href="#cb9-712" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-713"><a href="#cb9-713" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb9-714"><a href="#cb9-714" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I understand this is different. But IT professionals use AI extensively for code, analysis, and systems work. My job is to prepare you for professional practice where AI literacy is essential. You don't need to become a machine learning expert,just know how to use AI tools critically."</span></span>
@@ -2477,7 +2666,7 @@ I will review your assessment and make final decisions.
 <span id="cb9-819"><a href="#cb9-819" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-820"><a href="#cb9-820" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb9-821"><a href="#cb9-821" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-822"><a href="#cb9-822" aria-hidden="true" tabindex="-1"></a>**Next Chapter Preview:** In Chapter 9, we directly address the academic integrity and ethics question. You'll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximizing learning, and how to reframe "preventing AI cheating" as "teaching AI literacy and professional ethics." This is the conversation you'll need to have with students, colleagues, and possibly administrators.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb9-822"><a href="#cb9-822" aria-hidden="true" tabindex="-1"></a>**Next Chapter Preview:** In Chapter 9, we directly address the academic integrity and ethics question. You'll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximising learning, and how to reframe "preventing AI cheating" as "teaching AI literacy and professional ethics." This is the conversation you'll need to have with students, colleagues, and possibly administrators.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

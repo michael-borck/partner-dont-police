@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>8&nbsp; Seven Essential Prompt Techniques for Business Teaching – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -447,6 +622,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -523,7 +699,7 @@ Begin with your first question.</code></pre>
 <section id="variations-for-different-disciplines" class="level3" data-number="8.2.5">
 <h3 data-number="8.2.5" class="anchored" data-anchor-id="variations-for-different-disciplines"><span class="header-section-number">8.2.5</span> Variations for Different Disciplines</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">HR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Business &amp; Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Management</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Supply Chain &amp; Logistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Accounting &amp; Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Economics</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">HR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Business &amp; Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Management</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Supply Chain &amp; Logistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Accounting &amp; Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Economics</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ul>
@@ -634,42 +810,42 @@ and justify your recommendation.</code></pre>
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <ul>
 <li>“Compare different approaches to managing workplace conflict: mediation, formal grievance process, restorative justice. Evaluate each for speed, fairness, and relationship preservation.”</li>
-<li>“Analyze three different redundancy selection methods. What are the legal risks and ethical considerations of each?”</li>
+<li>“analyse three different redundancy selection methods. What are the legal risks and ethical considerations of each?”</li>
 <li>“What are the pros and cons of using AI-powered resume screening tools versus traditional human review?”</li>
 </ul>
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <ul>
 <li>“Compare different market entry strategies: direct investment, partnership, acquisition. Evaluate each for speed to market, cost, risk, and control.”</li>
-<li>“Analyze different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?”</li>
+<li>“analyse different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?”</li>
 <li>“What are the pros and cons of expanding through new products versus new markets?”</li>
 </ul>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <ul>
 <li>“Compare different organisational structures: functional, divisional, matrix, networked. Evaluate each for agility, accountability, and collaboration.”</li>
-<li>“Analyze different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?”</li>
+<li>“analyse different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?”</li>
 <li>“What are the pros and cons of different leadership models: directive, participative, delegative?”</li>
 </ul>
 </div>
 <div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
 <ul>
-<li>“Compare different supply chain strategies: make-to-stock, make-to-order, mass customization. Evaluate each for cost, responsiveness, and flexibility.”</li>
-<li>“Analyze different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?”</li>
+<li>“Compare different supply chain strategies: make-to-stock, make-to-order, mass customisation. Evaluate each for cost, responsiveness, and flexibility.”</li>
+<li>“analyse different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?”</li>
 <li>“What are the pros and cons of vertical integration versus outsourcing key functions?”</li>
 </ul>
 </div>
 <div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
 <ul>
 <li>“Compare different systems implementation approaches: big bang, phased, modular. Evaluate each for speed, risk, and user adoption.”</li>
-<li>“Analyze different IT governance models: centralized, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?”</li>
+<li>“analyse different IT governance models: centralised, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?”</li>
 <li>“What are the pros and cons of cloud-based versus on-premises systems?”</li>
 </ul>
 </div>
 <div id="tabset-2-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-6-tab">
 <ul>
 <li>“Compare different valuation methods: discounted cash flow, comparable companies, precedent transactions. What are the pros and cons of each?”</li>
-<li>“Analyze different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships.”</li>
+<li>“analyse different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships.”</li>
 <li>“What are the pros and cons of different capital structure options: debt, equity, retained earnings?”</li>
 </ul>
 </div>
@@ -758,7 +934,7 @@ Begin with Step 1.</code></pre>
 <ul>
 <li>“Walk me through designing a demand planning process. Pause after each step to explain the dependencies.”</li>
 <li>“Take me through establishing a supplier relationship from selection through strategic partnership. One step at a time.”</li>
-<li>“Show me the logistics network optimization process step by step, explaining decisions at each stage.”</li>
+<li>“Show me the logistics network optimisation process step by step, explaining decisions at each stage.”</li>
 </ul>
 </div>
 <div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
@@ -1012,7 +1188,7 @@ Have each persona make their opening argument (3-4 sentences each). Then
 have them respond to each other's points. Continue the debate through three
 rounds until they need to make a recommendation to the CEO.
 
-After the debate, summarize the key tension points and what a compromise
+After the debate, summarise the key tension points and what a compromise
 policy might look like.
 
 Begin the debate.</code></pre>
@@ -1036,7 +1212,7 @@ Begin the debate.</code></pre>
 </section>
 <section id="why-it-works-for-hr" class="level3" data-number="8.7.2">
 <h3 data-number="8.7.2" class="anchored" data-anchor-id="why-it-works-for-hr"><span class="header-section-number">8.7.2</span> Why It Works for HR</h3>
-<p>Many HR competencies require both knowledge (legislation, theory) and application (recognizing situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.</p>
+<p>Many HR competencies require both knowledge (legislation, theory) and application (recognising situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.</p>
 </section>
 <section id="use-case-1-self-testing-knowledge" class="level3" data-number="8.7.3">
 <h3 data-number="8.7.3" class="anchored" data-anchor-id="use-case-1-self-testing-knowledge"><span class="header-section-number">8.7.3</span> Use Case 1: Self-Testing Knowledge</h3>
@@ -1237,7 +1413,7 @@ Begin with Expert 1: Organisational Psychologist.</code></pre>
 <section id="what-happens-4" class="level3" data-number="8.8.4">
 <h3 data-number="8.8.4" class="anchored" data-anchor-id="what-happens-4"><span class="header-section-number">8.8.4</span> What Happens</h3>
 <p><strong>The AI creates three distinct voices:</strong></p>
-<p><strong>Organizational Psychologist:</strong> &gt; “The 35% turnover suggests a breakdown in psychological contract or poor person-organization fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes…”</p>
+<p><strong>Organizational Psychologist:</strong> &gt; “The 35% turnover suggests a breakdown in psychological contract or poor person-organisation fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes…”</p>
 <p><strong>Compensation Specialist:</strong> &gt; “At 35% turnover, you’re likely seeing pay inequity or uncompetitive base/commission structures. Sales talent is mobile and market-driven. I recommend: (1) Conduct compensation benchmarking against competitors, (2) Analyse pay dispersion within the team, (3) Review commission structures for fairness and achievability…”</p>
 <p><strong>Talent Management Strategist:</strong> &gt; “High turnover in sales suggests limited growth opportunities or unclear career paths. Top performers leave when they plateau. I recommend: (1) Map career progression pathways, (2) Implement mentoring for high-potentials, (3) Create lateral development opportunities…”</p>
 </section>
@@ -1562,6 +1738,19 @@ Assessment: Evaluation at each step ensures quality throughout</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -2180,32 +2369,32 @@ Assessment: Evaluation at each step ensures quality throughout</code></pre>
 <span id="cb21-155"><a href="#cb21-155" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-156"><a href="#cb21-156" aria-hidden="true" tabindex="-1"></a><span class="fu">## HR</span></span>
 <span id="cb21-157"><a href="#cb21-157" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different approaches to managing workplace conflict: mediation, formal grievance process, restorative justice. Evaluate each for speed, fairness, and relationship preservation."</span>
-<span id="cb21-158"><a href="#cb21-158" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Analyze three different redundancy selection methods. What are the legal risks and ethical considerations of each?"</span>
+<span id="cb21-158"><a href="#cb21-158" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"analyse three different redundancy selection methods. What are the legal risks and ethical considerations of each?"</span>
 <span id="cb21-159"><a href="#cb21-159" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"What are the pros and cons of using AI-powered resume screening tools versus traditional human review?"</span>
 <span id="cb21-160"><a href="#cb21-160" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-161"><a href="#cb21-161" aria-hidden="true" tabindex="-1"></a><span class="fu">## Business &amp; Marketing</span></span>
 <span id="cb21-162"><a href="#cb21-162" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different market entry strategies: direct investment, partnership, acquisition. Evaluate each for speed to market, cost, risk, and control."</span>
-<span id="cb21-163"><a href="#cb21-163" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Analyze different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?"</span>
+<span id="cb21-163"><a href="#cb21-163" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"analyse different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?"</span>
 <span id="cb21-164"><a href="#cb21-164" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"What are the pros and cons of expanding through new products versus new markets?"</span>
 <span id="cb21-165"><a href="#cb21-165" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-166"><a href="#cb21-166" aria-hidden="true" tabindex="-1"></a><span class="fu">## Management</span></span>
 <span id="cb21-167"><a href="#cb21-167" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different organisational structures: functional, divisional, matrix, networked. Evaluate each for agility, accountability, and collaboration."</span>
-<span id="cb21-168"><a href="#cb21-168" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Analyze different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?"</span>
+<span id="cb21-168"><a href="#cb21-168" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"analyse different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?"</span>
 <span id="cb21-169"><a href="#cb21-169" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"What are the pros and cons of different leadership models: directive, participative, delegative?"</span>
 <span id="cb21-170"><a href="#cb21-170" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-171"><a href="#cb21-171" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
-<span id="cb21-172"><a href="#cb21-172" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different supply chain strategies: make-to-stock, make-to-order, mass customization. Evaluate each for cost, responsiveness, and flexibility."</span>
-<span id="cb21-173"><a href="#cb21-173" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Analyze different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?"</span>
+<span id="cb21-172"><a href="#cb21-172" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different supply chain strategies: make-to-stock, make-to-order, mass customisation. Evaluate each for cost, responsiveness, and flexibility."</span>
+<span id="cb21-173"><a href="#cb21-173" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"analyse different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?"</span>
 <span id="cb21-174"><a href="#cb21-174" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"What are the pros and cons of vertical integration versus outsourcing key functions?"</span>
 <span id="cb21-175"><a href="#cb21-175" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-176"><a href="#cb21-176" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb21-177"><a href="#cb21-177" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different systems implementation approaches: big bang, phased, modular. Evaluate each for speed, risk, and user adoption."</span>
-<span id="cb21-178"><a href="#cb21-178" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Analyze different IT governance models: centralized, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?"</span>
+<span id="cb21-178"><a href="#cb21-178" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"analyse different IT governance models: centralised, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?"</span>
 <span id="cb21-179"><a href="#cb21-179" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"What are the pros and cons of cloud-based versus on-premises systems?"</span>
 <span id="cb21-180"><a href="#cb21-180" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-181"><a href="#cb21-181" aria-hidden="true" tabindex="-1"></a><span class="fu">## Accounting &amp; Finance</span></span>
 <span id="cb21-182"><a href="#cb21-182" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Compare different valuation methods: discounted cash flow, comparable companies, precedent transactions. What are the pros and cons of each?"</span>
-<span id="cb21-183"><a href="#cb21-183" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Analyze different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships."</span>
+<span id="cb21-183"><a href="#cb21-183" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"analyse different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships."</span>
 <span id="cb21-184"><a href="#cb21-184" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"What are the pros and cons of different capital structure options: debt, equity, retained earnings?"</span>
 <span id="cb21-185"><a href="#cb21-185" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-186"><a href="#cb21-186" aria-hidden="true" tabindex="-1"></a><span class="fu">## Economics</span></span>
@@ -2285,7 +2474,7 @@ Assessment: Evaluation at each step ensures quality throughout</code></pre>
 <span id="cb21-260"><a href="#cb21-260" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
 <span id="cb21-261"><a href="#cb21-261" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Walk me through designing a demand planning process. Pause after each step to explain the dependencies."</span>
 <span id="cb21-262"><a href="#cb21-262" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Take me through establishing a supplier relationship from selection through strategic partnership. One step at a time."</span>
-<span id="cb21-263"><a href="#cb21-263" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Show me the logistics network optimization process step by step, explaining decisions at each stage."</span>
+<span id="cb21-263"><a href="#cb21-263" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Show me the logistics network optimisation process step by step, explaining decisions at each stage."</span>
 <span id="cb21-264"><a href="#cb21-264" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-265"><a href="#cb21-265" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb21-266"><a href="#cb21-266" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>"Walk me through a systems implementation project from requirements through go-live. Pause after each step."</span>
@@ -2526,7 +2715,7 @@ Assessment: Evaluation at each step ensures quality throughout</code></pre>
 <span id="cb21-501"><a href="#cb21-501" aria-hidden="true" tabindex="-1"></a><span class="in">have them respond to each other's points. Continue the debate through three</span></span>
 <span id="cb21-502"><a href="#cb21-502" aria-hidden="true" tabindex="-1"></a><span class="in">rounds until they need to make a recommendation to the CEO.</span></span>
 <span id="cb21-503"><a href="#cb21-503" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-504"><a href="#cb21-504" aria-hidden="true" tabindex="-1"></a><span class="in">After the debate, summarize the key tension points and what a compromise</span></span>
+<span id="cb21-504"><a href="#cb21-504" aria-hidden="true" tabindex="-1"></a><span class="in">After the debate, summarise the key tension points and what a compromise</span></span>
 <span id="cb21-505"><a href="#cb21-505" aria-hidden="true" tabindex="-1"></a><span class="in">policy might look like.</span></span>
 <span id="cb21-506"><a href="#cb21-506" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-507"><a href="#cb21-507" aria-hidden="true" tabindex="-1"></a><span class="in">Begin the debate.</span></span>
@@ -2554,7 +2743,7 @@ Assessment: Evaluation at each step ensures quality throughout</code></pre>
 <span id="cb21-529"><a href="#cb21-529" aria-hidden="true" tabindex="-1"></a>The AI generates unlimited practice questions, scenarios, or quizzes that students can use to test their knowledge and build confidence. This provides low-stakes repetition and immediate feedback,essential for skill development.</span>
 <span id="cb21-530"><a href="#cb21-530" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-531"><a href="#cb21-531" aria-hidden="true" tabindex="-1"></a><span class="fu">### Why It Works for HR</span></span>
-<span id="cb21-532"><a href="#cb21-532" aria-hidden="true" tabindex="-1"></a>Many HR competencies require both knowledge (legislation, theory) and application (recognizing situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.</span>
+<span id="cb21-532"><a href="#cb21-532" aria-hidden="true" tabindex="-1"></a>Many HR competencies require both knowledge (legislation, theory) and application (recognising situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.</span>
 <span id="cb21-533"><a href="#cb21-533" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-534"><a href="#cb21-534" aria-hidden="true" tabindex="-1"></a><span class="fu">### Use Case 1: Self-Testing Knowledge</span></span>
 <span id="cb21-535"><a href="#cb21-535" aria-hidden="true" tabindex="-1"></a></span>
@@ -2815,7 +3004,7 @@ Assessment: Evaluation at each step ensures quality throughout</code></pre>
 <span id="cb21-790"><a href="#cb21-790" aria-hidden="true" tabindex="-1"></a>**The AI creates three distinct voices:**</span>
 <span id="cb21-791"><a href="#cb21-791" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-792"><a href="#cb21-792" aria-hidden="true" tabindex="-1"></a>**Organizational Psychologist:**</span>
-<span id="cb21-793"><a href="#cb21-793" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "The 35% turnover suggests a breakdown in psychological contract or poor person-organization fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."</span></span>
+<span id="cb21-793"><a href="#cb21-793" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "The 35% turnover suggests a breakdown in psychological contract or poor person-organisation fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."</span></span>
 <span id="cb21-794"><a href="#cb21-794" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-795"><a href="#cb21-795" aria-hidden="true" tabindex="-1"></a>**Compensation Specialist:**</span>
 <span id="cb21-796"><a href="#cb21-796" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "At 35% turnover, you're likely seeing pay inequity or uncompetitive base/commission structures. Sales talent is mobile and market-driven. I recommend: (1) Conduct compensation benchmarking against competitors, (2) Analyse pay dispersion within the team, (3) Review commission structures for fairness and achievability..."</span></span>

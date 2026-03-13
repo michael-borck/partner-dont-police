@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>17&nbsp; From Static to Interactive - AI-Powered Activity Transformation – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -386,7 +561,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#keep-it-professional" id="toc-keep-it-professional" class="nav-link" data-scroll-target="#keep-it-professional"><span class="header-section-number">17.7.1</span> Keep It Professional</a></li>
   <li><a href="#ensure-accessibility" id="toc-ensure-accessibility" class="nav-link" data-scroll-target="#ensure-accessibility"><span class="header-section-number">17.7.2</span> Ensure Accessibility</a></li>
-  <li><a href="#mobile-optimization" id="toc-mobile-optimization" class="nav-link" data-scroll-target="#mobile-optimization"><span class="header-section-number">17.7.3</span> Mobile Optimization</a></li>
+  <li><a href="#mobile-optimisation" id="toc-mobile-optimisation" class="nav-link" data-scroll-target="#mobile-optimisation"><span class="header-section-number">17.7.3</span> Mobile optimisation</a></li>
   </ul></li>
   <li><a href="#getting-started-template" id="toc-getting-started-template" class="nav-link" data-scroll-target="#getting-started-template"><span class="header-section-number">17.8</span> Getting Started Template</a>
   <ul class="collapse">
@@ -471,6 +646,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -705,8 +881,8 @@ Make it engaging but academically rigorous and appropriate for [your discipline]
 <li><strong>Screen reader</strong> compatibility</li>
 </ul>
 </section>
-<section id="mobile-optimization" class="level3" data-number="17.7.3">
-<h3 data-number="17.7.3" class="anchored" data-anchor-id="mobile-optimization"><span class="header-section-number">17.7.3</span> Mobile Optimization</h3>
+<section id="mobile-optimisation" class="level3" data-number="17.7.3">
+<h3 data-number="17.7.3" class="anchored" data-anchor-id="mobile-optimisation"><span class="header-section-number">17.7.3</span> Mobile optimisation</h3>
 <ul>
 <li><strong>Responsive design</strong> - works on phones</li>
 <li><strong>Touch-friendly</strong> - large buttons</li>
@@ -835,7 +1011,7 @@ Keep everything in a single HTML file.</code></pre>
 <h3 data-number="17.13.1" class="anchored" data-anchor-id="student-feedback-loop"><span class="header-section-number">17.13.1</span> Student Feedback Loop</h3>
 <ol type="1">
 <li><strong>Collect responses</strong> - what worked/didn’t</li>
-<li><strong>Analyze usage</strong> - where students struggle</li>
+<li><strong>analyse usage</strong> - where students struggle</li>
 <li><strong>Refine content</strong> - improve weak areas</li>
 <li><strong>Update annually</strong> - keep content current</li>
 </ol>
@@ -879,7 +1055,7 @@ Include scoring, feedback, progress tracking.</code></pre>
 <h2 data-number="17.15" class="anchored" data-anchor-id="cross-discipline-applications-interactive-content-transformation"><span class="header-section-number">17.15</span> Cross-Discipline Applications: Interactive Content Transformation</h2>
 <p>The static-to-interactive transformation approach can be adapted for any business discipline. Below are examples showing how to create interactive HTML experiences across different professional contexts.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="campaign-strategy-simulation" class="level3" data-number="17.15.1">
@@ -1069,8 +1245,8 @@ Include organisational development theory and change management frameworks.</cod
 <h3 data-number="17.17.1" class="anchored" data-anchor-id="converting-pdfs-to-interactive-learning-guides-using-rag"><span class="header-section-number">17.17.1</span> Converting PDFs to Interactive Learning Guides (Using RAG)</h3>
 <p><strong>The Challenge:</strong> Students have 50-page PDF reading. How do you make this interactive without asking them to read differently?</p>
 <p><strong>The Solution:</strong> Use AI with Retrieval-Augmented Generation (RAG) to create interactive guides from documents.</p>
-<p><strong>Tools:</strong> - <strong>NotebookLM</strong> - Google’s tool for uploading documents and generating interactive guides - <strong>Copilot with Notebooks</strong> - MS Copilot with document integration - <strong>Custom RAG workflows</strong> - More advanced but fully customizable</p>
-<p><strong>What You Can Generate:</strong> 1. <strong>Interactive study guides</strong> with key concepts and discussion questions 2. <strong>Quiz generators</strong> - AI creates questions from the PDF 3. <strong>Concept maps</strong> - Visual relationship between ideas 4. <strong>Flashcard decks</strong> - Auto-generated from document content 5. <strong>Lecture summaries</strong> - AI extracts and summarizes key points 6. <strong>Discussion prompts</strong> - Higher-order thinking questions</p>
+<p><strong>Tools:</strong> - <strong>NotebookLM</strong> - Google’s tool for uploading documents and generating interactive guides - <strong>Copilot with Notebooks</strong> - MS Copilot with document integration - <strong>Custom RAG workflows</strong> - More advanced but fully customisable</p>
+<p><strong>What You Can Generate:</strong> 1. <strong>Interactive study guides</strong> with key concepts and discussion questions 2. <strong>Quiz generators</strong> - AI creates questions from the PDF 3. <strong>Concept maps</strong> - Visual relationship between ideas 4. <strong>Flashcard decks</strong> - Auto-generated from document content 5. <strong>Lecture summaries</strong> - AI extracts and summarises key points 6. <strong>Discussion prompts</strong> - Higher-order thinking questions</p>
 <p><strong>Practical Example:</strong></p>
 <pre><code>
 Upload: Your 30-page textbook chapter to NotebookLM
@@ -1111,7 +1287,7 @@ Result: Connected diagram showing relationships between ratio categories</code><
 <p><strong>Practical Workflow:</strong></p>
 <pre><code>
 1. Record lecture (video or audio)
-2. Use AI to transcribe and summarize key points
+2. Use AI to transcribe and summarise key points
 3. Generate study questions from transcript
 4. Create visual summary infographic
 5. Combine into multimedia learning package</code></pre>
@@ -1149,7 +1325,7 @@ Make it engaging but educationally rigorous.</code></pre>
 Upload: Your course readings/lecture notes
 Ask NotebookLM: "Generate flashcard questions covering key concepts"
 
-Result: Pre-made flashcards with retrieval practice optimization
+Result: Pre-made flashcards with retrieval practice optimisation
 
 Then import into Anki or Quizlet for spaced repetition learning</code></pre>
 </section>
@@ -1363,7 +1539,7 @@ Format as a technical report suitable for [stakeholder type].</code></pre>
 "Write a 2000-word report analysing [case study]"
 
 Try:
-"Analyze [case study] with AI's help, then request AI generate a
+"analyse [case study] with AI's help, then request AI generate a
 professional report of your analysis. Submit:
 
 1. A summary of your analysis process (500 words)
@@ -1432,6 +1608,19 @@ professional report of your analysis. Submit:
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -2064,7 +2253,7 @@ professional report of your analysis. Submit:
 <span id="cb37-169"><a href="#cb37-169" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Keyboard navigation** - tab order</span>
 <span id="cb37-170"><a href="#cb37-170" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Screen reader** compatibility</span>
 <span id="cb37-171"><a href="#cb37-171" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb37-172"><a href="#cb37-172" aria-hidden="true" tabindex="-1"></a><span class="fu">### Mobile Optimization</span></span>
+<span id="cb37-172"><a href="#cb37-172" aria-hidden="true" tabindex="-1"></a><span class="fu">### Mobile optimisation</span></span>
 <span id="cb37-173"><a href="#cb37-173" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Responsive design** - works on phones</span>
 <span id="cb37-174"><a href="#cb37-174" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Touch-friendly** - large buttons</span>
 <span id="cb37-175"><a href="#cb37-175" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Readable text** - no pinching required</span>
@@ -2175,7 +2364,7 @@ professional report of your analysis. Submit:
 <span id="cb37-280"><a href="#cb37-280" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-281"><a href="#cb37-281" aria-hidden="true" tabindex="-1"></a><span class="fu">### Student Feedback Loop</span></span>
 <span id="cb37-282"><a href="#cb37-282" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Collect responses** - what worked/didn't</span>
-<span id="cb37-283"><a href="#cb37-283" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Analyze usage** - where students struggle</span>
+<span id="cb37-283"><a href="#cb37-283" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**analyse usage** - where students struggle</span>
 <span id="cb37-284"><a href="#cb37-284" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Refine content** - improve weak areas</span>
 <span id="cb37-285"><a href="#cb37-285" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Update annually** - keep content current</span>
 <span id="cb37-286"><a href="#cb37-286" aria-hidden="true" tabindex="-1"></a></span>
@@ -2523,14 +2712,14 @@ professional report of your analysis. Submit:
 <span id="cb37-628"><a href="#cb37-628" aria-hidden="true" tabindex="-1"></a>**Tools:**</span>
 <span id="cb37-629"><a href="#cb37-629" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**NotebookLM** - Google's tool for uploading documents and generating interactive guides</span>
 <span id="cb37-630"><a href="#cb37-630" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Copilot with Notebooks** - MS Copilot with document integration</span>
-<span id="cb37-631"><a href="#cb37-631" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Custom RAG workflows** - More advanced but fully customizable</span>
+<span id="cb37-631"><a href="#cb37-631" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Custom RAG workflows** - More advanced but fully customisable</span>
 <span id="cb37-632"><a href="#cb37-632" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-633"><a href="#cb37-633" aria-hidden="true" tabindex="-1"></a>**What You Can Generate:**</span>
 <span id="cb37-634"><a href="#cb37-634" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Interactive study guides** with key concepts and discussion questions</span>
 <span id="cb37-635"><a href="#cb37-635" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Quiz generators** - AI creates questions from the PDF</span>
 <span id="cb37-636"><a href="#cb37-636" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Concept maps** - Visual relationship between ideas</span>
 <span id="cb37-637"><a href="#cb37-637" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Flashcard decks** - Auto-generated from document content</span>
-<span id="cb37-638"><a href="#cb37-638" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Lecture summaries** - AI extracts and summarizes key points</span>
+<span id="cb37-638"><a href="#cb37-638" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Lecture summaries** - AI extracts and summarises key points</span>
 <span id="cb37-639"><a href="#cb37-639" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Discussion prompts** - Higher-order thinking questions</span>
 <span id="cb37-640"><a href="#cb37-640" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-641"><a href="#cb37-641" aria-hidden="true" tabindex="-1"></a>**Practical Example:**</span>
@@ -2603,7 +2792,7 @@ professional report of your analysis. Submit:
 <span id="cb37-708"><a href="#cb37-708" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb37-709"><a href="#cb37-709" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-710"><a href="#cb37-710" aria-hidden="true" tabindex="-1"></a><span class="in">1. Record lecture (video or audio)</span></span>
-<span id="cb37-711"><a href="#cb37-711" aria-hidden="true" tabindex="-1"></a><span class="in">2. Use AI to transcribe and summarize key points</span></span>
+<span id="cb37-711"><a href="#cb37-711" aria-hidden="true" tabindex="-1"></a><span class="in">2. Use AI to transcribe and summarise key points</span></span>
 <span id="cb37-712"><a href="#cb37-712" aria-hidden="true" tabindex="-1"></a><span class="in">3. Generate study questions from transcript</span></span>
 <span id="cb37-713"><a href="#cb37-713" aria-hidden="true" tabindex="-1"></a><span class="in">4. Create visual summary infographic</span></span>
 <span id="cb37-714"><a href="#cb37-714" aria-hidden="true" tabindex="-1"></a><span class="in">5. Combine into multimedia learning package</span></span>
@@ -2650,7 +2839,7 @@ professional report of your analysis. Submit:
 <span id="cb37-755"><a href="#cb37-755" aria-hidden="true" tabindex="-1"></a><span class="in">Upload: Your course readings/lecture notes</span></span>
 <span id="cb37-756"><a href="#cb37-756" aria-hidden="true" tabindex="-1"></a><span class="in">Ask NotebookLM: "Generate flashcard questions covering key concepts"</span></span>
 <span id="cb37-757"><a href="#cb37-757" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb37-758"><a href="#cb37-758" aria-hidden="true" tabindex="-1"></a><span class="in">Result: Pre-made flashcards with retrieval practice optimization</span></span>
+<span id="cb37-758"><a href="#cb37-758" aria-hidden="true" tabindex="-1"></a><span class="in">Result: Pre-made flashcards with retrieval practice optimisation</span></span>
 <span id="cb37-759"><a href="#cb37-759" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-760"><a href="#cb37-760" aria-hidden="true" tabindex="-1"></a><span class="in">Then import into Anki or Quizlet for spaced repetition learning</span></span>
 <span id="cb37-761"><a href="#cb37-761" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -2921,7 +3110,7 @@ professional report of your analysis. Submit:
 <span id="cb37-1026"><a href="#cb37-1026" aria-hidden="true" tabindex="-1"></a><span class="in">"Write a 2000-word report analysing [case study]"</span></span>
 <span id="cb37-1027"><a href="#cb37-1027" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-1028"><a href="#cb37-1028" aria-hidden="true" tabindex="-1"></a><span class="in">Try:</span></span>
-<span id="cb37-1029"><a href="#cb37-1029" aria-hidden="true" tabindex="-1"></a><span class="in">"Analyze [case study] with AI's help, then request AI generate a</span></span>
+<span id="cb37-1029"><a href="#cb37-1029" aria-hidden="true" tabindex="-1"></a><span class="in">"analyse [case study] with AI's help, then request AI generate a</span></span>
 <span id="cb37-1030"><a href="#cb37-1030" aria-hidden="true" tabindex="-1"></a><span class="in">professional report of your analysis. Submit:</span></span>
 <span id="cb37-1031"><a href="#cb37-1031" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-1032"><a href="#cb37-1032" aria-hidden="true" tabindex="-1"></a><span class="in">1. A summary of your analysis process (500 words)</span></span>

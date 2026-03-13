@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>Appendix A — Ready-to-Use Prompt Library – Partner, Don’t Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -352,12 +527,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#how-to-use-this-appendix" id="toc-how-to-use-this-appendix" class="nav-link active" data-scroll-target="#how-to-use-this-appendix"><span class="header-section-number">A.1</span> How to Use This Appendix</a></li>
-  <li><a href="#meta-framework-using-craft-to-customize-or-create-your-own-prompts" id="toc-meta-framework-using-craft-to-customize-or-create-your-own-prompts" class="nav-link" data-scroll-target="#meta-framework-using-craft-to-customize-or-create-your-own-prompts"><span class="header-section-number">A.2</span> Meta-Framework: Using CRAFT to Customize or Create Your Own Prompts</a>
+  <li><a href="#meta-framework-using-craft-to-customise-or-create-your-own-prompts" id="toc-meta-framework-using-craft-to-customise-or-create-your-own-prompts" class="nav-link" data-scroll-target="#meta-framework-using-craft-to-customise-or-create-your-own-prompts"><span class="header-section-number">A.2</span> Meta-Framework: Using CRAFT to customise or Create Your Own Prompts</a>
   <ul class="collapse">
   <li><a href="#quick-craft-reminder" id="toc-quick-craft-reminder" class="nav-link" data-scroll-target="#quick-craft-reminder"><span class="header-section-number">A.2.1</span> Quick CRAFT Reminder</a></li>
   <li><a href="#how-to-use-craft-with-these-prompts" id="toc-how-to-use-craft-with-these-prompts" class="nav-link" data-scroll-target="#how-to-use-craft-with-these-prompts"><span class="header-section-number">A.2.2</span> How to Use CRAFT with These Prompts</a></li>
   <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters"><span class="header-section-number">A.2.3</span> Why This Matters</a></li>
-  <li><a href="#customization-patterns" id="toc-customization-patterns" class="nav-link" data-scroll-target="#customization-patterns"><span class="header-section-number">A.2.4</span> Customization Patterns</a></li>
+  <li><a href="#customisation-patterns" id="toc-customisation-patterns" class="nav-link" data-scroll-target="#customisation-patterns"><span class="header-section-number">A.2.4</span> customisation Patterns</a></li>
   <li><a href="#pro-tip-combine-craft-with-follow-up-conversations" id="toc-pro-tip-combine-craft-with-follow-up-conversations" class="nav-link" data-scroll-target="#pro-tip-combine-craft-with-follow-up-conversations"><span class="header-section-number">A.2.5</span> Pro Tip: Combine CRAFT with Follow-Up Conversations</a></li>
   </ul></li>
   <li><a href="#section-1-content-generation-prompts" id="toc-section-1-content-generation-prompts" class="nav-link" data-scroll-target="#section-1-content-generation-prompts"><span class="header-section-number">A.3</span> Section 1: Content Generation Prompts</a>
@@ -418,6 +593,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./prompt-library.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Ready-to-Use Prompt Library</span></a></li></ol></nav>
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title">Appendix A — Ready-to-Use Prompt Library</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -444,15 +620,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Find the prompt that matches your need</strong> (browse Section 1-5 or go to the Cross-Discipline Adaptations section at the end)</li>
 <li><strong>Choose the discipline-specific version</strong> or adapt the HR example to your field</li>
 <li><strong>Copy the entire prompt</strong></li>
-<li><strong>Customize the bracketed sections [like this] with your specific content</strong></li>
+<li><strong>customise the bracketed sections [like this] with your specific content</strong></li>
 <li><strong>Paste into ChatGPT, Claude, or your preferred AI tool</strong></li>
 </ol>
 <p>The prompts are organised by purpose: - <strong>Section 1:</strong> Content Generation (for creating teaching materials) - <strong>Section 2:</strong> Conversation Simulations (for role-play scenarios) - <strong>Section 3:</strong> Assessment and Critique (for providing feedback) - <strong>Section 4:</strong> Student Self-Assessment (for students to use directly) - <strong>Section 5:</strong> Ethical Analysis (for exploring AI issues in your discipline) - <strong>Section 6:</strong> Research and Postgraduate Prompts (for research support) - <strong>Cross-Discipline Adaptations:</strong> Complete examples adapted for Marketing, Accounting, Business Analytics, Tourism &amp; Hospitality, Information Systems, and Management</p>
 <hr>
 </section>
-<section id="meta-framework-using-craft-to-customize-or-create-your-own-prompts" class="level2" data-number="A.2">
-<h2 data-number="A.2" class="anchored" data-anchor-id="meta-framework-using-craft-to-customize-or-create-your-own-prompts"><span class="header-section-number">A.2</span> Meta-Framework: Using CRAFT to Customize or Create Your Own Prompts</h2>
-<p>The prompts in this library are ready to use. But the real power comes from <strong>customizing them using the CRAFT framework</strong> (from Chapter 2).</p>
+<section id="meta-framework-using-craft-to-customise-or-create-your-own-prompts" class="level2" data-number="A.2">
+<h2 data-number="A.2" class="anchored" data-anchor-id="meta-framework-using-craft-to-customise-or-create-your-own-prompts"><span class="header-section-number">A.2</span> Meta-Framework: Using CRAFT to customise or Create Your Own Prompts</h2>
+<p>The prompts in this library are ready to use. But the real power comes from <strong>customising them using the CRAFT framework</strong> (from Chapter 2).</p>
 <p>If you want to: - Adapt a prompt for your specific context - Create a variation for your discipline - Build a completely new prompt - Make a prompt work exactly the way you need</p>
 <p>…use CRAFT to structure your thinking:</p>
 <section id="quick-craft-reminder" class="level3" data-number="A.2.1">
@@ -465,7 +641,7 @@ T | <strong>Tone/Target</strong> | “Professional and suitable for…” |</div
 </section>
 <section id="how-to-use-craft-with-these-prompts" class="level3" data-number="A.2.2">
 <h3 data-number="A.2.2" class="anchored" data-anchor-id="how-to-use-craft-with-these-prompts"><span class="header-section-number">A.2.2</span> How to Use CRAFT with These Prompts</h3>
-<p><strong>Example 1: Customizing an Existing Prompt</strong></p>
+<p><strong>Example 1: customising an Existing Prompt</strong></p>
 <p>The Case Study Generator (Section 1.1) shows an HR version. To adapt it for your discipline using CRAFT:</p>
 <pre><code>ORIGINAL (HR):
 "You are an expert lecturer in Human Resource Management...
@@ -509,21 +685,21 @@ Begin."</code></pre>
 CRAFT structure:
 C: This is for my applied supply chain unit where students work with real
    companies on live projects
-R: You are a supply chain consultant advising on optimization
+R: You are a supply chain consultant advising on optimisation
 A: Analyse this supply chain problem and recommend solutions
 F: 2000-word analysis with data tables, visualizations, and implementation plan
 T: Professional consultant-level analysis
 
 Your new prompt:
-"You are a supply chain consultant with 15+ years of experience optimizing
+"You are a supply chain consultant with 15+ years of experience optimising
 global supply chains.
 
-I'm working with a supply chain team on a real optimization challenge.
+I'm working with a supply chain team on a real optimisation challenge.
 They've provided raw data on their current network.
 
 Please provide a comprehensive analysis including:
 1. Current state assessment (cost, delivery time, resilience)
-2. Comparison of three optimization scenarios
+2. Comparison of three optimisation scenarios
 3. Implementation roadmap with timeline
 4. Key risks and mitigation strategies
 5. Expected outcomes and metrics
@@ -542,8 +718,8 @@ Begin."</code></pre>
 <p><strong>Without CRAFT thinking:</strong> - Your prompt might be vague - AI outputs might miss your context - You might need multiple back-and-forths to get what you want - Result: generic “AI sameness”</p>
 <p><strong>With CRAFT structure:</strong> - Your prompt is clear and specific - AI understands your exact context - Results are often usable on the first try - If you need to refine, you know exactly what element to adjust - Result: content tailored to YOUR teaching</p>
 </section>
-<section id="customization-patterns" class="level3" data-number="A.2.4">
-<h3 data-number="A.2.4" class="anchored" data-anchor-id="customization-patterns"><span class="header-section-number">A.2.4</span> Customization Patterns</h3>
+<section id="customisation-patterns" class="level3" data-number="A.2.4">
+<h3 data-number="A.2.4" class="anchored" data-anchor-id="customisation-patterns"><span class="header-section-number">A.2.4</span> customisation Patterns</h3>
 <p><strong>Pattern 1: Changing the Role</strong> Keep everything the same, change who the AI is:</p>
 <pre><code>ORIGINAL: "You are an expert lecturer in HR..."
 YOUR VERSION: "You are an experienced supply chain manager..."</code></pre>
@@ -561,7 +737,7 @@ YOUR VERSION: "2000-word detailed analysis with tables and visualizations"</code
 <h3 data-number="A.2.5" class="anchored" data-anchor-id="pro-tip-combine-craft-with-follow-up-conversations"><span class="header-section-number">A.2.5</span> Pro Tip: Combine CRAFT with Follow-Up Conversations</h3>
 <p>Remember from Chapter 2: <strong>CRAFT is a starting point, not the endpoint.</strong></p>
 <p>After you send your CRAFT-structured prompt: 1. Review the first output 2. Follow up with refinements: “Good, but make it more [specific]” 3. Adapt based on what you see: “I like that approach, now add…” 4. Iterate until it’s exactly what you need</p>
-<p>The library gives you starting points. CRAFT helps you customize them. And follow-up conversations perfect them.</p>
+<p>The library gives you starting points. CRAFT helps you customise them. And follow-up conversations perfect them.</p>
 <hr>
 </section>
 </section>
@@ -590,7 +766,7 @@ The case should be challenging but appropriate for students who have covered
 theory, organisational justice].
 
 Begin.</code></pre>
-<p><strong>Customization tips:</strong> - Replace [undergraduate/postgraduate] with your level - Replace [specific topic] with what you’re teaching - Add specific legal context if needed - Adjust word count for your needs</p>
+<p><strong>customisation tips:</strong> - Replace [undergraduate/postgraduate] with your level - Replace [specific topic] with what you’re teaching - Add specific legal context if needed - Adjust word count for your needs</p>
 <hr>
 </section>
 <section id="behavioural-interview-question-generator" class="level3" data-number="A.3.2">
@@ -676,7 +852,7 @@ should include:
 
 2. Mock dataset summary including:
    - Turnover/retention rates by department, tenure, or demographic
-   - Employee satisfaction survey results (summarized, not raw data)
+   - Employee satisfaction survey results (summarised, not raw data)
    - 5-6 key findings from exit interviews
    - Relevant comparison data (industry benchmarks, historical company data)
 
@@ -730,7 +906,7 @@ Stay in character throughout. Do not break character unless I say "END
 SIMULATION."
 
 I will begin the conversation now.</code></pre>
-<p><strong>Customization guide:</strong> - Fill in all bracketed sections with your scenario details - Adjust emotional state and hidden context to match your learning objectives - Consider legal/ethical issues you want students to navigate</p>
+<p><strong>customisation guide:</strong> - Fill in all bracketed sections with your scenario details - Adjust emotional state and hidden context to match your learning objectives - Consider legal/ethical issues you want students to navigate</p>
 <hr>
 </section>
 <section id="union-representative-in-bargaining" class="level3" data-number="A.4.2">
@@ -792,7 +968,7 @@ YOUR EMOTIONAL STATE:
 - Hesitant to provide details until you trust the HR person will take you
   seriously
 
-YOUR BEHAVIOR:
+YOUR behaviour:
 - Start cautious—gauge whether HR is taking this seriously
 - Provide more detail if the HR person demonstrates understanding of
   discrimination and fair process
@@ -836,7 +1012,7 @@ YOUR CONCERNS (legitimate but not openly stated):
 - [Hidden concern: e.g., "You had a bad experience with a similar initiative
   at a previous company"]
 
-YOUR BEHAVIOR:
+YOUR behaviour:
 - Start skeptical and slightly resistant
 - Use operational pressures as justification ("We don't have time for this")
 - If HR listens to your concerns and addresses them, become more open
@@ -913,7 +1089,7 @@ Begin your critique.</code></pre>
 <pre><code>You are an HR lecturer providing detailed feedback on a student assignment.
 
 ASSIGNMENT TASK:
-[Describe what students were asked to do: e.g., "Analyze a workplace
+[Describe what students were asked to do: e.g., "analyse a workplace
 conflict scenario and recommend an HR intervention with theoretical
 justification"]
 
@@ -1030,7 +1206,7 @@ Please analyse my performance and provide feedback on:
    did or didn't.
 4. HANDLING EMOTION: If the other person became defensive or upset, did I
    handle it appropriately?
-5. CLOSING: Did I properly summarize, confirm next steps, and end
+5. CLOSING: Did I properly summarise, confirm next steps, and end
    professionally?
 
 For each area, tell me:
@@ -1054,7 +1230,7 @@ The situation is:
 [Student describes the case/scenario]
 
 I plan to apply [theory name: e.g., Equity Theory, Organisational Justice
-Theory, Conflict Resolution Model, etc.] to explain [what they're analyzing:
+Theory, Conflict Resolution Model, etc.] to explain [what they're analysing:
 e.g., why employees are demotivated, how to resolve the conflict, etc.].
 
 Please help me check my thinking:
@@ -1078,7 +1254,7 @@ I'm analysing a hypothetical AI tool used in HR for [purpose: e.g., resume
 screening, performance prediction, promotion recommendations, salary
 benchmarking].
 
-The tool works by [brief description of how it functions: e.g., "analyzing
+The tool works by [brief description of how it functions: e.g., "analysing
 text in resumes and ranking candidates based on similarity to successful
 past hires"].
 
@@ -1276,7 +1452,7 @@ Provide your structural critique.</code></pre>
 **Research Question:** [your question]
 
 **Proposed Method:** [e.g., "Qualitative interviews with 15 HR managers in
-Perth-based organizations"]
+Perth-based organisations"]
 
 **Data Collection:** [describe approach]
 
@@ -1346,7 +1522,7 @@ potential problems before I commit to this approach.</code></pre>
 </section>
 <section id="how-to-adapt-these-prompts" class="level2" data-number="A.9">
 <h2 data-number="A.9" class="anchored" data-anchor-id="how-to-adapt-these-prompts"><span class="header-section-number">A.9</span> How to Adapt These Prompts</h2>
-<p><strong>Every prompt in this library can be customized. Here’s how:</strong></p>
+<p><strong>Every prompt in this library can be customised. Here’s how:</strong></p>
 <ol type="1">
 <li><p><strong>Change the context</strong>: Adjust industry, company size, location to match what your students are studying</p></li>
 <li><p><strong>Adjust complexity</strong>: For undergraduate students, simplify scenarios and reduce the number of competing factors. For postgraduate students, add complexity and ambiguity.</p></li>
@@ -1372,7 +1548,7 @@ potential problems before I commit to this approach.</code></pre>
 <h2 data-number="A.11" class="anchored" data-anchor-id="cross-discipline-prompt-adaptations"><span class="header-section-number">A.11</span> Cross-Discipline Prompt Adaptations</h2>
 <p>The prompts in this library can be adapted for any business discipline. Below are examples showing how to modify the core prompts for Marketing, Accounting, Business Analytics, Tourism &amp; Hospitality, Information Systems, and Management.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="content-generation-adaptations" class="level3" data-number="A.11.1">
@@ -1489,7 +1665,7 @@ Begin.</code></pre>
 <pre><code>You are an Accounting lecturer providing detailed feedback on a student assignment.
 
 ASSIGNMENT TASK:
-[Describe what students were asked to do: e.g., "Analyze a financial reporting scenario and recommend appropriate accounting treatment with reference to relevant standards"]
+[Describe what students were asked to do: e.g., "analyse a financial reporting scenario and recommend appropriate accounting treatment with reference to relevant standards"]
 
 ASSESSMENT RUBRIC:
 [List criteria, e.g.,:
@@ -1526,13 +1702,13 @@ Begin your feedback.</code></pre>
 <p><strong>Case Study Generator (Adapted for Analytics):</strong></p>
 <pre><code>You are an expert lecturer in Business Analytics at university level.
 
-Create a realistic case study scenario for my [undergraduate/postgraduate] students that focuses on [specific topic: e.g., customer churn prediction, supply chain optimization, marketing attribution, risk modelling].
+Create a realistic case study scenario for my [undergraduate/postgraduate] students that focuses on [specific topic: e.g., customer churn prediction, supply chain optimisation, marketing attribution, risk modelling].
 
 Requirements:
 - The scenario should be 400-500 words
 - Set in a data-rich business context
 - Include enough ambiguity that students must analyse competing analytical approaches
-- Incorporate at least two analytical concepts [e.g., predictive modeling, segmentation analysis, A/B testing, statistical inference]
+- Incorporate at least two analytical concepts [e.g., predictive modelling, segmentation analysis, A/B testing, statistical inference]
 - End with 3-4 discussion questions that require critical thinking and application of analytical methods
 
 The case should be challenging but appropriate for students who have covered [list topics they've learned: e.g., statistics, data visualization, machine learning, business intelligence].
@@ -1602,7 +1778,7 @@ Requirements:
 - The scenario should be 400-500 words
 - Set in a contemporary hospitality context
 - Include enough ambiguity that students must analyse competing service strategies
-- Incorporate at least two hospitality concepts [e.g., service quality, customer experience, revenue optimization, cultural sensitivity]
+- Incorporate at least two hospitality concepts [e.g., service quality, customer experience, revenue optimisation, cultural sensitivity]
 - End with 3-4 discussion questions that require critical thinking and application of hospitality theory
 
 The case should be challenging but appropriate for students who have covered [list topics they've learned: e.g., hospitality operations, customer service, revenue management, cultural tourism].
@@ -1635,7 +1811,7 @@ Begin.</code></pre>
 <pre><code>You are a Hospitality lecturer providing detailed feedback on a student assignment.
 
 ASSIGNMENT TASK:
-[Describe what students were asked to do: e.g., "Analyze a service failure scenario and develop a comprehensive service recovery strategy with reference to hospitality best practices"]
+[Describe what students were asked to do: e.g., "analyse a service failure scenario and develop a comprehensive service recovery strategy with reference to hospitality best practices"]
 
 ASSESSMENT RUBRIC:
 [List criteria, e.g.,:
@@ -1833,7 +2009,7 @@ Begin your feedback.</code></pre>
 <h2 data-number="A.13" class="anchored" data-anchor-id="final-notes"><span class="header-section-number">A.13</span> Final Notes</h2>
 <p>This prompt library will grow as you experiment. Treat it as a living document: - Add successful prompts you create (adapted for your discipline) - Note which prompts work well with specific student cohorts - Share effective prompts with colleagues in your field - Refine based on student feedback - Document discipline-specific adaptations that work particularly well</p>
 <p>The goal isn’t to find the “perfect” prompt,it’s to build a collection of reliable tools that make your teaching more effective and your students’ learning more engaging, tailored to your discipline.</p>
-<p><strong>Remember:</strong> These prompts are starting points. The best prompts you’ll use are the ones you customize and refine based on your specific students, learning objectives, and disciplinary context.</p>
+<p><strong>Remember:</strong> These prompts are starting points. The best prompts you’ll use are the ones you customise and refine based on your specific students, learning objectives, and disciplinary context.</p>
 <p><strong>Good luck, and happy prompting!</strong></p>
 
 
@@ -1844,6 +2020,19 @@ Begin your feedback.</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -2314,7 +2503,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Find the prompt that matches your need** (browse Section 1-5 or go to the Cross-Discipline Adaptations section at the end)</span>
 <span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Choose the discipline-specific version** or adapt the HR example to your field</span>
 <span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Copy the entire prompt**</span>
-<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Customize the bracketed sections [like this] with your specific content**</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**customise the bracketed sections [like this] with your specific content**</span>
 <span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Paste into ChatGPT, Claude, or your preferred AI tool**</span>
 <span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>The prompts are organised by purpose:</span>
@@ -2328,9 +2517,9 @@ Begin your feedback.</code></pre>
 <span id="cb48-21"><a href="#cb48-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-22"><a href="#cb48-22" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb48-23"><a href="#cb48-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-24"><a href="#cb48-24" aria-hidden="true" tabindex="-1"></a><span class="fu">## Meta-Framework: Using CRAFT to Customize or Create Your Own Prompts</span></span>
+<span id="cb48-24"><a href="#cb48-24" aria-hidden="true" tabindex="-1"></a><span class="fu">## Meta-Framework: Using CRAFT to customise or Create Your Own Prompts</span></span>
 <span id="cb48-25"><a href="#cb48-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-26"><a href="#cb48-26" aria-hidden="true" tabindex="-1"></a>The prompts in this library are ready to use. But the real power comes from **customizing them using the CRAFT framework** (from Chapter 2).</span>
+<span id="cb48-26"><a href="#cb48-26" aria-hidden="true" tabindex="-1"></a>The prompts in this library are ready to use. But the real power comes from **customising them using the CRAFT framework** (from Chapter 2).</span>
 <span id="cb48-27"><a href="#cb48-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-28"><a href="#cb48-28" aria-hidden="true" tabindex="-1"></a>If you want to:</span>
 <span id="cb48-29"><a href="#cb48-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Adapt a prompt for your specific context</span>
@@ -2350,7 +2539,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-43"><a href="#cb48-43" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-44"><a href="#cb48-44" aria-hidden="true" tabindex="-1"></a><span class="fu">### How to Use CRAFT with These Prompts</span></span>
 <span id="cb48-45"><a href="#cb48-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-46"><a href="#cb48-46" aria-hidden="true" tabindex="-1"></a>**Example 1: Customizing an Existing Prompt**</span>
+<span id="cb48-46"><a href="#cb48-46" aria-hidden="true" tabindex="-1"></a>**Example 1: customising an Existing Prompt**</span>
 <span id="cb48-47"><a href="#cb48-47" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-48"><a href="#cb48-48" aria-hidden="true" tabindex="-1"></a>The Case Study Generator (Section 1.1) shows an HR version. To adapt it for your discipline using CRAFT:</span>
 <span id="cb48-49"><a href="#cb48-49" aria-hidden="true" tabindex="-1"></a></span>
@@ -2403,21 +2592,21 @@ Begin your feedback.</code></pre>
 <span id="cb48-96"><a href="#cb48-96" aria-hidden="true" tabindex="-1"></a><span class="in">CRAFT structure:</span></span>
 <span id="cb48-97"><a href="#cb48-97" aria-hidden="true" tabindex="-1"></a><span class="in">C: This is for my applied supply chain unit where students work with real</span></span>
 <span id="cb48-98"><a href="#cb48-98" aria-hidden="true" tabindex="-1"></a><span class="in">   companies on live projects</span></span>
-<span id="cb48-99"><a href="#cb48-99" aria-hidden="true" tabindex="-1"></a><span class="in">R: You are a supply chain consultant advising on optimization</span></span>
+<span id="cb48-99"><a href="#cb48-99" aria-hidden="true" tabindex="-1"></a><span class="in">R: You are a supply chain consultant advising on optimisation</span></span>
 <span id="cb48-100"><a href="#cb48-100" aria-hidden="true" tabindex="-1"></a><span class="in">A: Analyse this supply chain problem and recommend solutions</span></span>
 <span id="cb48-101"><a href="#cb48-101" aria-hidden="true" tabindex="-1"></a><span class="in">F: 2000-word analysis with data tables, visualizations, and implementation plan</span></span>
 <span id="cb48-102"><a href="#cb48-102" aria-hidden="true" tabindex="-1"></a><span class="in">T: Professional consultant-level analysis</span></span>
 <span id="cb48-103"><a href="#cb48-103" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-104"><a href="#cb48-104" aria-hidden="true" tabindex="-1"></a><span class="in">Your new prompt:</span></span>
-<span id="cb48-105"><a href="#cb48-105" aria-hidden="true" tabindex="-1"></a><span class="in">"You are a supply chain consultant with 15+ years of experience optimizing</span></span>
+<span id="cb48-105"><a href="#cb48-105" aria-hidden="true" tabindex="-1"></a><span class="in">"You are a supply chain consultant with 15+ years of experience optimising</span></span>
 <span id="cb48-106"><a href="#cb48-106" aria-hidden="true" tabindex="-1"></a><span class="in">global supply chains.</span></span>
 <span id="cb48-107"><a href="#cb48-107" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-108"><a href="#cb48-108" aria-hidden="true" tabindex="-1"></a><span class="in">I'm working with a supply chain team on a real optimization challenge.</span></span>
+<span id="cb48-108"><a href="#cb48-108" aria-hidden="true" tabindex="-1"></a><span class="in">I'm working with a supply chain team on a real optimisation challenge.</span></span>
 <span id="cb48-109"><a href="#cb48-109" aria-hidden="true" tabindex="-1"></a><span class="in">They've provided raw data on their current network.</span></span>
 <span id="cb48-110"><a href="#cb48-110" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-111"><a href="#cb48-111" aria-hidden="true" tabindex="-1"></a><span class="in">Please provide a comprehensive analysis including:</span></span>
 <span id="cb48-112"><a href="#cb48-112" aria-hidden="true" tabindex="-1"></a><span class="in">1. Current state assessment (cost, delivery time, resilience)</span></span>
-<span id="cb48-113"><a href="#cb48-113" aria-hidden="true" tabindex="-1"></a><span class="in">2. Comparison of three optimization scenarios</span></span>
+<span id="cb48-113"><a href="#cb48-113" aria-hidden="true" tabindex="-1"></a><span class="in">2. Comparison of three optimisation scenarios</span></span>
 <span id="cb48-114"><a href="#cb48-114" aria-hidden="true" tabindex="-1"></a><span class="in">3. Implementation roadmap with timeline</span></span>
 <span id="cb48-115"><a href="#cb48-115" aria-hidden="true" tabindex="-1"></a><span class="in">4. Key risks and mitigation strategies</span></span>
 <span id="cb48-116"><a href="#cb48-116" aria-hidden="true" tabindex="-1"></a><span class="in">5. Expected outcomes and metrics</span></span>
@@ -2448,7 +2637,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-141"><a href="#cb48-141" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>If you need to refine, you know exactly what element to adjust</span>
 <span id="cb48-142"><a href="#cb48-142" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Result: content tailored to YOUR teaching</span>
 <span id="cb48-143"><a href="#cb48-143" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-144"><a href="#cb48-144" aria-hidden="true" tabindex="-1"></a><span class="fu">### Customization Patterns</span></span>
+<span id="cb48-144"><a href="#cb48-144" aria-hidden="true" tabindex="-1"></a><span class="fu">### customisation Patterns</span></span>
 <span id="cb48-145"><a href="#cb48-145" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-146"><a href="#cb48-146" aria-hidden="true" tabindex="-1"></a>**Pattern 1: Changing the Role**</span>
 <span id="cb48-147"><a href="#cb48-147" aria-hidden="true" tabindex="-1"></a>Keep everything the same, change who the AI is:</span>
@@ -2488,7 +2677,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-181"><a href="#cb48-181" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Adapt based on what you see: "I like that approach, now add..."</span>
 <span id="cb48-182"><a href="#cb48-182" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Iterate until it's exactly what you need</span>
 <span id="cb48-183"><a href="#cb48-183" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-184"><a href="#cb48-184" aria-hidden="true" tabindex="-1"></a>The library gives you starting points. CRAFT helps you customize them. And follow-up conversations perfect them.</span>
+<span id="cb48-184"><a href="#cb48-184" aria-hidden="true" tabindex="-1"></a>The library gives you starting points. CRAFT helps you customise them. And follow-up conversations perfect them.</span>
 <span id="cb48-185"><a href="#cb48-185" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-186"><a href="#cb48-186" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb48-187"><a href="#cb48-187" aria-hidden="true" tabindex="-1"></a></span>
@@ -2521,7 +2710,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-214"><a href="#cb48-214" aria-hidden="true" tabindex="-1"></a><span class="in">Begin.</span></span>
 <span id="cb48-215"><a href="#cb48-215" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb48-216"><a href="#cb48-216" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-217"><a href="#cb48-217" aria-hidden="true" tabindex="-1"></a>**Customization tips:**</span>
+<span id="cb48-217"><a href="#cb48-217" aria-hidden="true" tabindex="-1"></a>**customisation tips:**</span>
 <span id="cb48-218"><a href="#cb48-218" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Replace <span class="co">[</span><span class="ot">undergraduate/postgraduate</span><span class="co">]</span> with your level</span>
 <span id="cb48-219"><a href="#cb48-219" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Replace <span class="co">[</span><span class="ot">specific topic</span><span class="co">]</span> with what you're teaching</span>
 <span id="cb48-220"><a href="#cb48-220" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Add specific legal context if needed</span>
@@ -2622,7 +2811,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-315"><a href="#cb48-315" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-316"><a href="#cb48-316" aria-hidden="true" tabindex="-1"></a><span class="in">2. Mock dataset summary including:</span></span>
 <span id="cb48-317"><a href="#cb48-317" aria-hidden="true" tabindex="-1"></a><span class="in">   - Turnover/retention rates by department, tenure, or demographic</span></span>
-<span id="cb48-318"><a href="#cb48-318" aria-hidden="true" tabindex="-1"></a><span class="in">   - Employee satisfaction survey results (summarized, not raw data)</span></span>
+<span id="cb48-318"><a href="#cb48-318" aria-hidden="true" tabindex="-1"></a><span class="in">   - Employee satisfaction survey results (summarised, not raw data)</span></span>
 <span id="cb48-319"><a href="#cb48-319" aria-hidden="true" tabindex="-1"></a><span class="in">   - 5-6 key findings from exit interviews</span></span>
 <span id="cb48-320"><a href="#cb48-320" aria-hidden="true" tabindex="-1"></a><span class="in">   - Relevant comparison data (industry benchmarks, historical company data)</span></span>
 <span id="cb48-321"><a href="#cb48-321" aria-hidden="true" tabindex="-1"></a></span>
@@ -2680,7 +2869,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-373"><a href="#cb48-373" aria-hidden="true" tabindex="-1"></a><span class="in">I will begin the conversation now.</span></span>
 <span id="cb48-374"><a href="#cb48-374" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb48-375"><a href="#cb48-375" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-376"><a href="#cb48-376" aria-hidden="true" tabindex="-1"></a>**Customization guide:**</span>
+<span id="cb48-376"><a href="#cb48-376" aria-hidden="true" tabindex="-1"></a>**customisation guide:**</span>
 <span id="cb48-377"><a href="#cb48-377" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fill in all bracketed sections with your scenario details</span>
 <span id="cb48-378"><a href="#cb48-378" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Adjust emotional state and hidden context to match your learning objectives</span>
 <span id="cb48-379"><a href="#cb48-379" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Consider legal/ethical issues you want students to navigate</span>
@@ -2750,7 +2939,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-443"><a href="#cb48-443" aria-hidden="true" tabindex="-1"></a><span class="in">- Hesitant to provide details until you trust the HR person will take you</span></span>
 <span id="cb48-444"><a href="#cb48-444" aria-hidden="true" tabindex="-1"></a><span class="in">  seriously</span></span>
 <span id="cb48-445"><a href="#cb48-445" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-446"><a href="#cb48-446" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR BEHAVIOR:</span></span>
+<span id="cb48-446"><a href="#cb48-446" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR behaviour:</span></span>
 <span id="cb48-447"><a href="#cb48-447" aria-hidden="true" tabindex="-1"></a><span class="in">- Start cautious—gauge whether HR is taking this seriously</span></span>
 <span id="cb48-448"><a href="#cb48-448" aria-hidden="true" tabindex="-1"></a><span class="in">- Provide more detail if the HR person demonstrates understanding of</span></span>
 <span id="cb48-449"><a href="#cb48-449" aria-hidden="true" tabindex="-1"></a><span class="in">  discrimination and fair process</span></span>
@@ -2797,7 +2986,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-490"><a href="#cb48-490" aria-hidden="true" tabindex="-1"></a><span class="in">- [Hidden concern: e.g., "You had a bad experience with a similar initiative</span></span>
 <span id="cb48-491"><a href="#cb48-491" aria-hidden="true" tabindex="-1"></a><span class="in">  at a previous company"]</span></span>
 <span id="cb48-492"><a href="#cb48-492" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-493"><a href="#cb48-493" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR BEHAVIOR:</span></span>
+<span id="cb48-493"><a href="#cb48-493" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR behaviour:</span></span>
 <span id="cb48-494"><a href="#cb48-494" aria-hidden="true" tabindex="-1"></a><span class="in">- Start skeptical and slightly resistant</span></span>
 <span id="cb48-495"><a href="#cb48-495" aria-hidden="true" tabindex="-1"></a><span class="in">- Use operational pressures as justification ("We don't have time for this")</span></span>
 <span id="cb48-496"><a href="#cb48-496" aria-hidden="true" tabindex="-1"></a><span class="in">- If HR listens to your concerns and addresses them, become more open</span></span>
@@ -2879,7 +3068,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-572"><a href="#cb48-572" aria-hidden="true" tabindex="-1"></a><span class="in">You are an HR lecturer providing detailed feedback on a student assignment.</span></span>
 <span id="cb48-573"><a href="#cb48-573" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-574"><a href="#cb48-574" aria-hidden="true" tabindex="-1"></a><span class="in">ASSIGNMENT TASK:</span></span>
-<span id="cb48-575"><a href="#cb48-575" aria-hidden="true" tabindex="-1"></a><span class="in">[Describe what students were asked to do: e.g., "Analyze a workplace</span></span>
+<span id="cb48-575"><a href="#cb48-575" aria-hidden="true" tabindex="-1"></a><span class="in">[Describe what students were asked to do: e.g., "analyse a workplace</span></span>
 <span id="cb48-576"><a href="#cb48-576" aria-hidden="true" tabindex="-1"></a><span class="in">conflict scenario and recommend an HR intervention with theoretical</span></span>
 <span id="cb48-577"><a href="#cb48-577" aria-hidden="true" tabindex="-1"></a><span class="in">justification"]</span></span>
 <span id="cb48-578"><a href="#cb48-578" aria-hidden="true" tabindex="-1"></a></span>
@@ -3007,7 +3196,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-700"><a href="#cb48-700" aria-hidden="true" tabindex="-1"></a><span class="in">   did or didn't.</span></span>
 <span id="cb48-701"><a href="#cb48-701" aria-hidden="true" tabindex="-1"></a><span class="in">4. HANDLING EMOTION: If the other person became defensive or upset, did I</span></span>
 <span id="cb48-702"><a href="#cb48-702" aria-hidden="true" tabindex="-1"></a><span class="in">   handle it appropriately?</span></span>
-<span id="cb48-703"><a href="#cb48-703" aria-hidden="true" tabindex="-1"></a><span class="in">5. CLOSING: Did I properly summarize, confirm next steps, and end</span></span>
+<span id="cb48-703"><a href="#cb48-703" aria-hidden="true" tabindex="-1"></a><span class="in">5. CLOSING: Did I properly summarise, confirm next steps, and end</span></span>
 <span id="cb48-704"><a href="#cb48-704" aria-hidden="true" tabindex="-1"></a><span class="in">   professionally?</span></span>
 <span id="cb48-705"><a href="#cb48-705" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-706"><a href="#cb48-706" aria-hidden="true" tabindex="-1"></a><span class="in">For each area, tell me:</span></span>
@@ -3034,7 +3223,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-727"><a href="#cb48-727" aria-hidden="true" tabindex="-1"></a><span class="in">[Student describes the case/scenario]</span></span>
 <span id="cb48-728"><a href="#cb48-728" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-729"><a href="#cb48-729" aria-hidden="true" tabindex="-1"></a><span class="in">I plan to apply [theory name: e.g., Equity Theory, Organisational Justice</span></span>
-<span id="cb48-730"><a href="#cb48-730" aria-hidden="true" tabindex="-1"></a><span class="in">Theory, Conflict Resolution Model, etc.] to explain [what they're analyzing:</span></span>
+<span id="cb48-730"><a href="#cb48-730" aria-hidden="true" tabindex="-1"></a><span class="in">Theory, Conflict Resolution Model, etc.] to explain [what they're analysing:</span></span>
 <span id="cb48-731"><a href="#cb48-731" aria-hidden="true" tabindex="-1"></a><span class="in">e.g., why employees are demotivated, how to resolve the conflict, etc.].</span></span>
 <span id="cb48-732"><a href="#cb48-732" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-733"><a href="#cb48-733" aria-hidden="true" tabindex="-1"></a><span class="in">Please help me check my thinking:</span></span>
@@ -3060,7 +3249,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-753"><a href="#cb48-753" aria-hidden="true" tabindex="-1"></a><span class="in">screening, performance prediction, promotion recommendations, salary</span></span>
 <span id="cb48-754"><a href="#cb48-754" aria-hidden="true" tabindex="-1"></a><span class="in">benchmarking].</span></span>
 <span id="cb48-755"><a href="#cb48-755" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-756"><a href="#cb48-756" aria-hidden="true" tabindex="-1"></a><span class="in">The tool works by [brief description of how it functions: e.g., "analyzing</span></span>
+<span id="cb48-756"><a href="#cb48-756" aria-hidden="true" tabindex="-1"></a><span class="in">The tool works by [brief description of how it functions: e.g., "analysing</span></span>
 <span id="cb48-757"><a href="#cb48-757" aria-hidden="true" tabindex="-1"></a><span class="in">text in resumes and ranking candidates based on similarity to successful</span></span>
 <span id="cb48-758"><a href="#cb48-758" aria-hidden="true" tabindex="-1"></a><span class="in">past hires"].</span></span>
 <span id="cb48-759"><a href="#cb48-759" aria-hidden="true" tabindex="-1"></a></span>
@@ -3282,7 +3471,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-975"><a href="#cb48-975" aria-hidden="true" tabindex="-1"></a><span class="in">**Research Question:** [your question]</span></span>
 <span id="cb48-976"><a href="#cb48-976" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-977"><a href="#cb48-977" aria-hidden="true" tabindex="-1"></a><span class="in">**Proposed Method:** [e.g., "Qualitative interviews with 15 HR managers in</span></span>
-<span id="cb48-978"><a href="#cb48-978" aria-hidden="true" tabindex="-1"></a><span class="in">Perth-based organizations"]</span></span>
+<span id="cb48-978"><a href="#cb48-978" aria-hidden="true" tabindex="-1"></a><span class="in">Perth-based organisations"]</span></span>
 <span id="cb48-979"><a href="#cb48-979" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-980"><a href="#cb48-980" aria-hidden="true" tabindex="-1"></a><span class="in">**Data Collection:** [describe approach]</span></span>
 <span id="cb48-981"><a href="#cb48-981" aria-hidden="true" tabindex="-1"></a></span>
@@ -3359,7 +3548,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-1052"><a href="#cb48-1052" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1053"><a href="#cb48-1053" aria-hidden="true" tabindex="-1"></a><span class="fu">## How to Adapt These Prompts</span></span>
 <span id="cb48-1054"><a href="#cb48-1054" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-1055"><a href="#cb48-1055" aria-hidden="true" tabindex="-1"></a>**Every prompt in this library can be customized. Here's how:**</span>
+<span id="cb48-1055"><a href="#cb48-1055" aria-hidden="true" tabindex="-1"></a>**Every prompt in this library can be customised. Here's how:**</span>
 <span id="cb48-1056"><a href="#cb48-1056" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1057"><a href="#cb48-1057" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Change the context**: Adjust industry, company size, location to match what your students are studying</span>
 <span id="cb48-1058"><a href="#cb48-1058" aria-hidden="true" tabindex="-1"></a></span>
@@ -3520,7 +3709,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-1213"><a href="#cb48-1213" aria-hidden="true" tabindex="-1"></a><span class="in">You are an Accounting lecturer providing detailed feedback on a student assignment.</span></span>
 <span id="cb48-1214"><a href="#cb48-1214" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1215"><a href="#cb48-1215" aria-hidden="true" tabindex="-1"></a><span class="in">ASSIGNMENT TASK:</span></span>
-<span id="cb48-1216"><a href="#cb48-1216" aria-hidden="true" tabindex="-1"></a><span class="in">[Describe what students were asked to do: e.g., "Analyze a financial reporting scenario and recommend appropriate accounting treatment with reference to relevant standards"]</span></span>
+<span id="cb48-1216"><a href="#cb48-1216" aria-hidden="true" tabindex="-1"></a><span class="in">[Describe what students were asked to do: e.g., "analyse a financial reporting scenario and recommend appropriate accounting treatment with reference to relevant standards"]</span></span>
 <span id="cb48-1217"><a href="#cb48-1217" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1218"><a href="#cb48-1218" aria-hidden="true" tabindex="-1"></a><span class="in">ASSESSMENT RUBRIC:</span></span>
 <span id="cb48-1219"><a href="#cb48-1219" aria-hidden="true" tabindex="-1"></a><span class="in">[List criteria, e.g.,:</span></span>
@@ -3559,13 +3748,13 @@ Begin your feedback.</code></pre>
 <span id="cb48-1252"><a href="#cb48-1252" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb48-1253"><a href="#cb48-1253" aria-hidden="true" tabindex="-1"></a><span class="in">You are an expert lecturer in Business Analytics at university level.</span></span>
 <span id="cb48-1254"><a href="#cb48-1254" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-1255"><a href="#cb48-1255" aria-hidden="true" tabindex="-1"></a><span class="in">Create a realistic case study scenario for my [undergraduate/postgraduate] students that focuses on [specific topic: e.g., customer churn prediction, supply chain optimization, marketing attribution, risk modelling].</span></span>
+<span id="cb48-1255"><a href="#cb48-1255" aria-hidden="true" tabindex="-1"></a><span class="in">Create a realistic case study scenario for my [undergraduate/postgraduate] students that focuses on [specific topic: e.g., customer churn prediction, supply chain optimisation, marketing attribution, risk modelling].</span></span>
 <span id="cb48-1256"><a href="#cb48-1256" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1257"><a href="#cb48-1257" aria-hidden="true" tabindex="-1"></a><span class="in">Requirements:</span></span>
 <span id="cb48-1258"><a href="#cb48-1258" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should be 400-500 words</span></span>
 <span id="cb48-1259"><a href="#cb48-1259" aria-hidden="true" tabindex="-1"></a><span class="in">- Set in a data-rich business context</span></span>
 <span id="cb48-1260"><a href="#cb48-1260" aria-hidden="true" tabindex="-1"></a><span class="in">- Include enough ambiguity that students must analyse competing analytical approaches</span></span>
-<span id="cb48-1261"><a href="#cb48-1261" aria-hidden="true" tabindex="-1"></a><span class="in">- Incorporate at least two analytical concepts [e.g., predictive modeling, segmentation analysis, A/B testing, statistical inference]</span></span>
+<span id="cb48-1261"><a href="#cb48-1261" aria-hidden="true" tabindex="-1"></a><span class="in">- Incorporate at least two analytical concepts [e.g., predictive modelling, segmentation analysis, A/B testing, statistical inference]</span></span>
 <span id="cb48-1262"><a href="#cb48-1262" aria-hidden="true" tabindex="-1"></a><span class="in">- End with 3-4 discussion questions that require critical thinking and application of analytical methods</span></span>
 <span id="cb48-1263"><a href="#cb48-1263" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1264"><a href="#cb48-1264" aria-hidden="true" tabindex="-1"></a><span class="in">The case should be challenging but appropriate for students who have covered [list topics they've learned: e.g., statistics, data visualization, machine learning, business intelligence].</span></span>
@@ -3642,7 +3831,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-1335"><a href="#cb48-1335" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should be 400-500 words</span></span>
 <span id="cb48-1336"><a href="#cb48-1336" aria-hidden="true" tabindex="-1"></a><span class="in">- Set in a contemporary hospitality context</span></span>
 <span id="cb48-1337"><a href="#cb48-1337" aria-hidden="true" tabindex="-1"></a><span class="in">- Include enough ambiguity that students must analyse competing service strategies</span></span>
-<span id="cb48-1338"><a href="#cb48-1338" aria-hidden="true" tabindex="-1"></a><span class="in">- Incorporate at least two hospitality concepts [e.g., service quality, customer experience, revenue optimization, cultural sensitivity]</span></span>
+<span id="cb48-1338"><a href="#cb48-1338" aria-hidden="true" tabindex="-1"></a><span class="in">- Incorporate at least two hospitality concepts [e.g., service quality, customer experience, revenue optimisation, cultural sensitivity]</span></span>
 <span id="cb48-1339"><a href="#cb48-1339" aria-hidden="true" tabindex="-1"></a><span class="in">- End with 3-4 discussion questions that require critical thinking and application of hospitality theory</span></span>
 <span id="cb48-1340"><a href="#cb48-1340" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1341"><a href="#cb48-1341" aria-hidden="true" tabindex="-1"></a><span class="in">The case should be challenging but appropriate for students who have covered [list topics they've learned: e.g., hospitality operations, customer service, revenue management, cultural tourism].</span></span>
@@ -3680,7 +3869,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-1373"><a href="#cb48-1373" aria-hidden="true" tabindex="-1"></a><span class="in">You are a Hospitality lecturer providing detailed feedback on a student assignment.</span></span>
 <span id="cb48-1374"><a href="#cb48-1374" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1375"><a href="#cb48-1375" aria-hidden="true" tabindex="-1"></a><span class="in">ASSIGNMENT TASK:</span></span>
-<span id="cb48-1376"><a href="#cb48-1376" aria-hidden="true" tabindex="-1"></a><span class="in">[Describe what students were asked to do: e.g., "Analyze a service failure scenario and develop a comprehensive service recovery strategy with reference to hospitality best practices"]</span></span>
+<span id="cb48-1376"><a href="#cb48-1376" aria-hidden="true" tabindex="-1"></a><span class="in">[Describe what students were asked to do: e.g., "analyse a service failure scenario and develop a comprehensive service recovery strategy with reference to hospitality best practices"]</span></span>
 <span id="cb48-1377"><a href="#cb48-1377" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1378"><a href="#cb48-1378" aria-hidden="true" tabindex="-1"></a><span class="in">ASSESSMENT RUBRIC:</span></span>
 <span id="cb48-1379"><a href="#cb48-1379" aria-hidden="true" tabindex="-1"></a><span class="in">[List criteria, e.g.,:</span></span>
@@ -3926,7 +4115,7 @@ Begin your feedback.</code></pre>
 <span id="cb48-1619"><a href="#cb48-1619" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1620"><a href="#cb48-1620" aria-hidden="true" tabindex="-1"></a>The goal isn't to find the "perfect" prompt,it's to build a collection of reliable tools that make your teaching more effective and your students' learning more engaging, tailored to your discipline.</span>
 <span id="cb48-1621"><a href="#cb48-1621" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb48-1622"><a href="#cb48-1622" aria-hidden="true" tabindex="-1"></a>**Remember:** These prompts are starting points. The best prompts you'll use are the ones you customize and refine based on your specific students, learning objectives, and disciplinary context.</span>
+<span id="cb48-1622"><a href="#cb48-1622" aria-hidden="true" tabindex="-1"></a>**Remember:** These prompts are starting points. The best prompts you'll use are the ones you customise and refine based on your specific students, learning objectives, and disciplinary context.</span>
 <span id="cb48-1623"><a href="#cb48-1623" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-1624"><a href="#cb48-1624" aria-hidden="true" tabindex="-1"></a>**Good luck, and happy prompting!**</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>

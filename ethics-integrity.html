@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>12&nbsp; Ethics, Data Governance &amp; Integrity – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -428,6 +603,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -462,7 +638,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The first framing treats AI as a threat to be controlled. The second treats AI literacy as a learning objective to be developed.</p>
 <p>As a business educator across any discipline, you’re not preparing students for a world without AI. You’re preparing them for a world where AI tools will be discipline-specific but ubiquitous. Your graduates will use these tools:</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">HR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Supply Chain</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">HR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Supply Chain</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ul>
@@ -470,7 +646,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Draft employment contracts and policies</li>
 <li>Analyse workforce data and predict turnover</li>
 <li>Generate interview questions and assessment criteria</li>
-<li>Summarize complex legislation and case law</li>
+<li>summarise complex legislation and case law</li>
 </ul>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
@@ -478,15 +654,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Analyse financial statements and identify anomalies</li>
 <li>Generate investment recommendations</li>
 <li>Perform risk assessments and stress testing</li>
-<li>Summarize regulatory requirements and tax implications</li>
+<li>summarise regulatory requirements and tax implications</li>
 <li>Forecast financial performance</li>
 </ul>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <ul>
-<li>Forecast demand and optimize inventory</li>
+<li>Forecast demand and optimise inventory</li>
 <li>Identify supplier risks and opportunities</li>
-<li>Optimize logistics networks and routes</li>
+<li>optimise logistics networks and routes</li>
 <li>Analyse supply chain resilience</li>
 <li>Generate sourcing recommendations</li>
 </ul>
@@ -496,7 +672,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Analyse customer data and segment audiences</li>
 <li>Generate campaign strategies and content</li>
 <li>Predict customer behaviour and preferences</li>
-<li>Optimize pricing and promotional strategies</li>
+<li>optimise pricing and promotional strategies</li>
 <li>Analyse competitive positioning</li>
 </ul>
 </div>
@@ -877,7 +1053,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 </div>
 <div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
 <blockquote class="blockquote">
-<p>“You used AI to forecast demand and optimize inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.</p>
+<p>“You used AI to forecast demand and optimise inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.</p>
 <p>Reflection questions: 1. What assumptions might the AI have made incorrectly? 2. What was your responsibility to validate the forecast? 3. How do you explain this to operations and customers? 4. What does this teach you about AI forecasting?”</p>
 </blockquote>
 </div>
@@ -910,7 +1086,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <blockquote class="blockquote">
 <p>“University policies typically prohibit <em>unacknowledged</em> or <em>uncritical</em> use of external sources. My approach makes AI use acknowledged and requires critical evaluation. Students aren’t hiding AI use,they’re demonstrating competent use. That’s consistent with academic integrity principles, just applied to a new tool.”</p>
 </blockquote>
-<p><strong>Supporting evidence:</strong> - Many universities are updating policies to allow appropriate AI use - Professional accreditation bodies are recognizing AI literacy as essential - Employer expectations include ability to use AI tools responsibly</p>
+<p><strong>Supporting evidence:</strong> - Many universities are updating policies to allow appropriate AI use - Professional accreditation bodies are recognising AI literacy as essential - Employer expectations include ability to use AI tools responsibly</p>
 </section>
 <section id="concern-what-if-other-lecturers-dont-agree" class="level3" data-number="12.9.4">
 <h3 data-number="12.9.4" class="anchored" data-anchor-id="concern-what-if-other-lecturers-dont-agree"><span class="header-section-number">12.9.4</span> Concern: “What if other lecturers don’t agree?”</h3>
@@ -947,7 +1123,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <li>Knowing when to verify AI recommendations with subject matter experts</li>
 <li>Documenting decision-making processes and AI role</li>
 </ul></li>
-<li><strong>Recognize bias and limitations</strong>
+<li><strong>recognise bias and limitations</strong>
 <ul>
 <li><strong>HR:</strong> Algorithmic bias in recruitment, performance, compensation</li>
 <li><strong>Finance:</strong> Bias in risk models, forecasting overconfidence</li>
@@ -987,16 +1163,16 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 </div>
 <div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
 <ul>
-<li>AI demand forecasting and inventory optimization</li>
+<li>AI demand forecasting and inventory optimisation</li>
 <li>Algorithmic supplier selection and evaluation</li>
-<li>Automated logistics optimization</li>
+<li>Automated logistics optimisation</li>
 <li>AI-driven supply chain risk assessment</li>
 </ul>
 </div>
 <div id="tabset-5-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-4-tab">
 <ul>
 <li>AI-powered customer segmentation and targeting</li>
-<li>Algorithmic campaign optimization</li>
+<li>Algorithmic campaign optimisation</li>
 <li>AI-generated content and recommendations</li>
 <li>Automated personalisation at scale</li>
 </ul>
@@ -1109,7 +1285,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
 <section id="grey-swan-events-2" class="level3" data-number="12.14.7">
 <h3 data-number="12.14.7" class="anchored" data-anchor-id="grey-swan-events-2"><span class="header-section-number">12.14.7</span> Grey Swan Events</h3>
-<p><strong>Total Supply Chain Visibility Failure:</strong> Over-reliance on AI-driven supply chain optimization creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.</p>
+<p><strong>Total Supply Chain Visibility Failure:</strong> Over-reliance on AI-driven supply chain optimisation creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.</p>
 <p><strong>Autonomous Shipping Disruption:</strong> Self-driving ships, trucks, and drones simultaneously experience a critical software failure or coordinated cyberattack, halting global logistics.</p>
 </section>
 <section id="black-swan-events-2" class="level3" data-number="12.14.8">
@@ -1157,7 +1333,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <div id="tabset-6-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-7-tab">
 <section id="grey-swan-events-6" class="level3" data-number="12.14.15">
 <h3 data-number="12.14.15" class="anchored" data-anchor-id="grey-swan-events-6"><span class="header-section-number">12.14.15</span> Grey Swan Events</h3>
-<p><strong>Experience Standardization Crisis:</strong> AI optimization makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.</p>
+<p><strong>Experience Standardization Crisis:</strong> AI optimisation makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.</p>
 <p><strong>Automated Service Revolution:</strong> AI service systems become so sophisticated that human hospitality workers become obsolete, fundamentally changing the nature of service industries.</p>
 </section>
 <section id="black-swan-events-6" class="level3" data-number="12.14.16">
@@ -1178,7 +1354,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 </section>
 <section id="strategic-planning-simulations" class="level4" data-number="12.14.17.2">
 <h4 data-number="12.14.17.2" class="anchored" data-anchor-id="strategic-planning-simulations"><span class="header-section-number">12.14.17.2</span> Strategic Planning Simulations</h4>
-<p><strong>Classroom Activity:</strong> &gt; “Your organization’s board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies.”</p>
+<p><strong>Classroom Activity:</strong> &gt; “Your organisation’s board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies.”</p>
 </section>
 <section id="ethical-decision-making-under-uncertainty" class="level4" data-number="12.14.17.3">
 <h4 data-number="12.14.17.3" class="anchored" data-anchor-id="ethical-decision-making-under-uncertainty"><span class="header-section-number">12.14.17.3</span> Ethical Decision-Making Under Uncertainty</h4>
@@ -1232,6 +1408,19 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1726,19 +1915,19 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Draft employment contracts and policies</span>
 <span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyse workforce data and predict turnover</span>
 <span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate interview questions and assessment criteria</span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarize complex legislation and case law</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarise complex legislation and case law</span>
 <span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## Finance</span></span>
 <span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyse financial statements and identify anomalies</span>
 <span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate investment recommendations</span>
 <span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Perform risk assessments and stress testing</span>
-<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarize regulatory requirements and tax implications</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarise regulatory requirements and tax implications</span>
 <span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Forecast financial performance</span>
 <span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain</span></span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Forecast demand and optimize inventory</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Forecast demand and optimise inventory</span>
 <span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Identify supplier risks and opportunities</span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optimize logistics networks and routes</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>optimise logistics networks and routes</span>
 <span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyse supply chain resilience</span>
 <span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate sourcing recommendations</span>
 <span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a></span>
@@ -1746,7 +1935,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyse customer data and segment audiences</span>
 <span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate campaign strategies and content</span>
 <span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Predict customer behaviour and preferences</span>
-<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optimize pricing and promotional strategies</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>optimise pricing and promotional strategies</span>
 <span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyse competitive positioning</span>
 <span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
@@ -2351,7 +2540,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-656"><a href="#cb3-656" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-657"><a href="#cb3-657" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain: The Over-Reliance on Demand Forecasting</span></span>
 <span id="cb3-658"><a href="#cb3-658" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-659"><a href="#cb3-659" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "You used AI to forecast demand and optimize inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.</span></span>
+<span id="cb3-659"><a href="#cb3-659" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "You used AI to forecast demand and optimise inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.</span></span>
 <span id="cb3-660"><a href="#cb3-660" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
 <span id="cb3-661"><a href="#cb3-661" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Reflection questions:</span></span>
 <span id="cb3-662"><a href="#cb3-662" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; 1. What assumptions might the AI have made incorrectly?</span></span>
@@ -2392,7 +2581,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-697"><a href="#cb3-697" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-698"><a href="#cb3-698" aria-hidden="true" tabindex="-1"></a>**Supporting evidence:**</span>
 <span id="cb3-699"><a href="#cb3-699" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Many universities are updating policies to allow appropriate AI use</span>
-<span id="cb3-700"><a href="#cb3-700" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Professional accreditation bodies are recognizing AI literacy as essential</span>
+<span id="cb3-700"><a href="#cb3-700" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Professional accreditation bodies are recognising AI literacy as essential</span>
 <span id="cb3-701"><a href="#cb3-701" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Employer expectations include ability to use AI tools responsibly</span>
 <span id="cb3-702"><a href="#cb3-702" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-703"><a href="#cb3-703" aria-hidden="true" tabindex="-1"></a><span class="fu">### Concern: "What if other lecturers don't agree?"</span></span>
@@ -2427,7 +2616,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-732"><a href="#cb3-732" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Knowing when to verify AI recommendations with subject matter experts</span>
 <span id="cb3-733"><a href="#cb3-733" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Documenting decision-making processes and AI role</span>
 <span id="cb3-734"><a href="#cb3-734" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-735"><a href="#cb3-735" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Recognize bias and limitations**</span>
+<span id="cb3-735"><a href="#cb3-735" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**recognise bias and limitations**</span>
 <span id="cb3-736"><a href="#cb3-736" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>**HR:** Algorithmic bias in recruitment, performance, compensation</span>
 <span id="cb3-737"><a href="#cb3-737" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>**Finance:** Bias in risk models, forecasting overconfidence</span>
 <span id="cb3-738"><a href="#cb3-738" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>**Supply Chain:** Oversimplification of complex relationships, geopolitical blindspots</span>
@@ -2462,14 +2651,14 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-767"><a href="#cb3-767" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI-generated financial forecasts and analysis</span>
 <span id="cb3-768"><a href="#cb3-768" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-769"><a href="#cb3-769" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain</span></span>
-<span id="cb3-770"><a href="#cb3-770" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI demand forecasting and inventory optimization</span>
+<span id="cb3-770"><a href="#cb3-770" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI demand forecasting and inventory optimisation</span>
 <span id="cb3-771"><a href="#cb3-771" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Algorithmic supplier selection and evaluation</span>
-<span id="cb3-772"><a href="#cb3-772" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Automated logistics optimization</span>
+<span id="cb3-772"><a href="#cb3-772" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Automated logistics optimisation</span>
 <span id="cb3-773"><a href="#cb3-773" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI-driven supply chain risk assessment</span>
 <span id="cb3-774"><a href="#cb3-774" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-775"><a href="#cb3-775" aria-hidden="true" tabindex="-1"></a><span class="fu">## Marketing</span></span>
 <span id="cb3-776"><a href="#cb3-776" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI-powered customer segmentation and targeting</span>
-<span id="cb3-777"><a href="#cb3-777" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Algorithmic campaign optimization</span>
+<span id="cb3-777"><a href="#cb3-777" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Algorithmic campaign optimisation</span>
 <span id="cb3-778"><a href="#cb3-778" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI-generated content and recommendations</span>
 <span id="cb3-779"><a href="#cb3-779" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Automated personalisation at scale</span>
 <span id="cb3-780"><a href="#cb3-780" aria-hidden="true" tabindex="-1"></a></span>
@@ -2603,7 +2792,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-908"><a href="#cb3-908" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-909"><a href="#cb3-909" aria-hidden="true" tabindex="-1"></a><span class="fu">### Grey Swan Events</span></span>
 <span id="cb3-910"><a href="#cb3-910" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-911"><a href="#cb3-911" aria-hidden="true" tabindex="-1"></a>**Total Supply Chain Visibility Failure:** Over-reliance on AI-driven supply chain optimization creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.</span>
+<span id="cb3-911"><a href="#cb3-911" aria-hidden="true" tabindex="-1"></a>**Total Supply Chain Visibility Failure:** Over-reliance on AI-driven supply chain optimisation creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.</span>
 <span id="cb3-912"><a href="#cb3-912" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-913"><a href="#cb3-913" aria-hidden="true" tabindex="-1"></a>**Autonomous Shipping Disruption:** Self-driving ships, trucks, and drones simultaneously experience a critical software failure or coordinated cyberattack, halting global logistics.</span>
 <span id="cb3-914"><a href="#cb3-914" aria-hidden="true" tabindex="-1"></a></span>
@@ -2659,7 +2848,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-964"><a href="#cb3-964" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-965"><a href="#cb3-965" aria-hidden="true" tabindex="-1"></a><span class="fu">### Grey Swan Events</span></span>
 <span id="cb3-966"><a href="#cb3-966" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-967"><a href="#cb3-967" aria-hidden="true" tabindex="-1"></a>**Experience Standardization Crisis:** AI optimization makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.</span>
+<span id="cb3-967"><a href="#cb3-967" aria-hidden="true" tabindex="-1"></a>**Experience Standardization Crisis:** AI optimisation makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.</span>
 <span id="cb3-968"><a href="#cb3-968" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-969"><a href="#cb3-969" aria-hidden="true" tabindex="-1"></a>**Automated Service Revolution:** AI service systems become so sophisticated that human hospitality workers become obsolete, fundamentally changing the nature of service industries.</span>
 <span id="cb3-970"><a href="#cb3-970" aria-hidden="true" tabindex="-1"></a></span>
@@ -2687,7 +2876,7 @@ I'm here to help you learn to use these tools well and ethically.</code></pre>
 <span id="cb3-992"><a href="#cb3-992" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Strategic Planning Simulations</span></span>
 <span id="cb3-993"><a href="#cb3-993" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-994"><a href="#cb3-994" aria-hidden="true" tabindex="-1"></a>**Classroom Activity:**</span>
-<span id="cb3-995"><a href="#cb3-995" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Your organization's board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies."</span></span>
+<span id="cb3-995"><a href="#cb3-995" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Your organisation's board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies."</span></span>
 <span id="cb3-996"><a href="#cb3-996" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-997"><a href="#cb3-997" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Ethical Decision-Making Under Uncertainty</span></span>
 <span id="cb3-998"><a href="#cb3-998" aria-hidden="true" tabindex="-1"></a></span>

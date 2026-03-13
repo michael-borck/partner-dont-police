@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>3&nbsp; What is AI? Foundations for Educators – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -409,6 +584,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is AI? Foundations for Educators</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -436,7 +612,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="what-intelligence-means-here"><span class="header-section-number">3.1.1</span> What “Intelligence” Means Here</h3>
 <p>When we say “intelligence,” we mean things like:</p>
 <ul>
-<li><strong>Recognizing patterns</strong> - “This photo contains a dog”</li>
+<li><strong>recognising patterns</strong> - “This photo contains a dog”</li>
 <li><strong>Making decisions</strong> - “Approve this loan application”</li>
 <li><strong>Understanding language</strong> - “The customer is asking about returns”</li>
 <li><strong>Predicting outcomes</strong> - “This customer will probably buy this product”</li>
@@ -504,8 +680,8 @@ THEN offer premium membership</code></pre>
 <p><strong>How it works:</strong> Show the AI thousands of examples, and it figures out patterns</p>
 <p><strong>Example:</strong> You don’t program rules for “what is a cat?” Instead:</p>
 <ul>
-<li>Show it 10,000 photos labeled “cat”</li>
-<li>Show it 10,000 photos labeled “not cat”</li>
+<li>Show it 10,000 photos labelled “cat”</li>
+<li>Show it 10,000 photos labelled “not cat”</li>
 <li>It learns: “Cats have pointy ears, whiskers, this shape…”</li>
 </ul>
 <p><strong>Good for:</strong></p>
@@ -535,7 +711,7 @@ THEN offer premium membership</code></pre>
 <li><strong>Layer 1:</strong> Detects edges and lines in an image</li>
 <li><strong>Layer 2:</strong> Combines edges into shapes</li>
 <li><strong>Layer 3:</strong> Combines shapes into objects</li>
-<li><strong>Layer 4:</strong> Recognizes “this is a golden retriever puppy”</li>
+<li><strong>Layer 4:</strong> recognises “this is a golden retriever puppy”</li>
 </ul>
 <p><strong>Good for:</strong></p>
 <ul>
@@ -572,7 +748,7 @@ THEN offer premium membership</code></pre>
 <ul>
 <li>Writing and editing</li>
 <li>Answering questions</li>
-<li>Summarizing documents</li>
+<li>summarising documents</li>
 <li>Explaining concepts</li>
 <li>Generating content</li>
 </ul>
@@ -612,7 +788,7 @@ THEN offer premium membership</code></pre>
 </ul>
 <p><strong>Tasks with Clear Success Metrics</strong></p>
 <ul>
-<li>Maximize clicks on ads</li>
+<li>maximise clicks on ads</li>
 <li>Minimise delivery time</li>
 <li>Predict customer churn</li>
 <li>Optimise pricing</li>
@@ -845,6 +1021,19 @@ THEN offer premium membership</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1318,7 +1507,7 @@ THEN offer premium membership</code></pre>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>When we say "intelligence," we mean things like:</span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Recognizing patterns** - "This photo contains a dog"</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**recognising patterns** - "This photo contains a dog"</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Making decisions** - "Approve this loan application"</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Understanding language** - "The customer is asking about returns"</span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Predicting outcomes** - "This customer will probably buy this product"</span>
@@ -1389,8 +1578,8 @@ THEN offer premium membership</code></pre>
 <span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>**Example:**</span>
 <span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>You don't program rules for "what is a cat?" Instead:</span>
 <span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Show it 10,000 photos labeled "cat"</span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Show it 10,000 photos labeled "not cat"</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Show it 10,000 photos labelled "cat"</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Show it 10,000 photos labelled "not cat"</span>
 <span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>It learns: "Cats have pointy ears, whiskers, this shape..."</span>
 <span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>**Good for:**</span>
@@ -1420,7 +1609,7 @@ THEN offer premium membership</code></pre>
 <span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Layer 1:** Detects edges and lines in an image</span>
 <span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Layer 2:** Combines edges into shapes</span>
 <span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Layer 3:** Combines shapes into objects</span>
-<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Layer 4:** Recognizes "this is a golden retriever puppy"</span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Layer 4:** recognises "this is a golden retriever puppy"</span>
 <span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>**Good for:**</span>
 <span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a></span>
@@ -1458,7 +1647,7 @@ THEN offer premium membership</code></pre>
 <span id="cb2-150"><a href="#cb2-150" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Writing and editing</span>
 <span id="cb2-152"><a href="#cb2-152" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Answering questions</span>
-<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarizing documents</span>
+<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarising documents</span>
 <span id="cb2-154"><a href="#cb2-154" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explaining concepts</span>
 <span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generating content</span>
 <span id="cb2-156"><a href="#cb2-156" aria-hidden="true" tabindex="-1"></a></span>
@@ -1497,7 +1686,7 @@ THEN offer premium membership</code></pre>
 <span id="cb2-189"><a href="#cb2-189" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-190"><a href="#cb2-190" aria-hidden="true" tabindex="-1"></a>**Tasks with Clear Success Metrics**</span>
 <span id="cb2-191"><a href="#cb2-191" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Maximize clicks on ads</span>
+<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>maximise clicks on ads</span>
 <span id="cb2-193"><a href="#cb2-193" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Minimise delivery time</span>
 <span id="cb2-194"><a href="#cb2-194" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Predict customer churn</span>
 <span id="cb2-195"><a href="#cb2-195" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optimise pricing</span>

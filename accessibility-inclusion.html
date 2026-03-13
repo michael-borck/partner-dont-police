@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>23&nbsp; Accessibility and Inclusive AI Integration – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -405,6 +580,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Accessibility and Inclusive AI Integration</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -452,7 +628,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="even">
 <td><strong>Sensory accommodations</strong> - Screen readers— captioning— sign language</td>
-<td><strong>AI accommodations</strong> - Alternative input methods— output customization— cognitive load management</td>
+<td><strong>AI accommodations</strong> - Alternative input methods— output customisation— cognitive load management</td>
 </tr>
 <tr class="odd">
 <td><strong>Learning support</strong> - Note-takers— extended time— alternative formats</td>
@@ -617,7 +793,7 @@ Use visual descriptions and avoid references to "listen to this" or "as I mentio
 <li><strong>Alternative input methods:</strong> Voice control, eye tracking, or adaptive devices</li>
 <li><strong>Interface simplification:</strong> Reduce clicks and complex navigation</li>
 <li><strong>Session management:</strong> Allow breaks and save conversation progress</li>
-<li><strong>Customizable interfaces:</strong> Adjustable text size, button placement, and interaction methods</li>
+<li><strong>customisable interfaces:</strong> Adjustable text size, button placement, and interaction methods</li>
 </ul>
 </section>
 </section>
@@ -662,7 +838,7 @@ Use simple language and avoid complex sentences.</code></pre>
 <h4 data-number="23.4.5.1" class="anchored" data-anchor-id="challenges-4"><span class="header-section-number">23.4.5.1</span> Challenges</h4>
 <ul>
 <li><strong>Reading comprehension:</strong> AI-generated text may be dense or complex</li>
-<li><strong>Writing organization:</strong> Difficulty structuring responses to AI prompts</li>
+<li><strong>Writing organisation:</strong> Difficulty structuring responses to AI prompts</li>
 <li><strong>Information synthesis:</strong> Combining AI input with own knowledge</li>
 <li><strong>Time management:</strong> Extended AI interactions may require sustained focus</li>
 </ul>
@@ -672,7 +848,7 @@ Use simple language and avoid complex sentences.</code></pre>
 <ul>
 <li><strong>Reading support:</strong> Text-to-speech, adjustable text size, highlighting</li>
 <li><strong>Writing assistance:</strong> Voice input, word prediction, grammar support</li>
-<li><strong>Information organization:</strong> Tools for structuring and synthesizing content</li>
+<li><strong>Information organisation:</strong> Tools for structuring and synthesizing content</li>
 <li><strong>Flexible timing:</strong> Allow extended time for AI-based assignments</li>
 </ul>
 <hr>
@@ -753,7 +929,7 @@ Use simple language and avoid complex sentences.</code></pre>
 <section id="multilingual-support" class="level4" data-number="23.6.1.1">
 <h4 data-number="23.6.1.1" class="anchored" data-anchor-id="multilingual-support"><span class="header-section-number">23.6.1.1</span> Multilingual Support</h4>
 <ul>
-<li><strong>Non-native English speakers:</strong> AI tools primarily optimized for English</li>
+<li><strong>Non-native English speakers:</strong> AI tools primarily optimised for English</li>
 <li><strong>Translation quality:</strong> AI translation may miss nuances or cultural context</li>
 <li><strong>Code-switching:</strong> Students who mix languages may face interface challenges</li>
 <li><strong>Dialect variations:</strong> Regional language differences may not be supported</li>
@@ -872,7 +1048,7 @@ Consider that English may not be my first language and avoid complex idioms or c
 <ul>
 <li><strong>Help desk:</strong> Technical support for AI accessibility issues</li>
 <li><strong>Alternative assignments:</strong> Quick deployment of non-AI options when needed</li>
-<li><strong>Individual accommodations:</strong> Customized solutions for specific barriers</li>
+<li><strong>Individual accommodations:</strong> customised solutions for specific barriers</li>
 <li><strong>Crisis response:</strong> Rapid response to major accessibility failures</li>
 </ul>
 </section>
@@ -1009,6 +1185,19 @@ Consider that English may not be my first language and avoid complex idioms or c
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1487,7 +1676,7 @@ Consider that English may not be my first language and avoid complex idioms or c
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Traditional Accessibility <span class="pp">|</span> AI-Enhanced Accessibility <span class="pp">|</span></span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|</span></span>
 <span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Physical access** - Ramps--- elevators--- accessible seating | **Digital access** - Device availability--- internet connectivity--- platform compatibility <span class="pp">|</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Sensory accommodations** - Screen readers--- captioning--- sign language | **AI accommodations** - Alternative input methods--- output customization--- cognitive load management <span class="pp">|</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Sensory accommodations** - Screen readers--- captioning--- sign language | **AI accommodations** - Alternative input methods--- output customisation--- cognitive load management <span class="pp">|</span></span>
 <span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Learning support** - Note-takers--- extended time--- alternative formats | **AI support** - Prompt assistance--- output adaptation--- personalised learning pathways <span class="pp">|</span></span>
 <span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Social inclusion** - Diverse perspectives--- inclusive language | **AI inclusion** - Bias mitigation--- cultural responsiveness--- multiple representation <span class="pp">|</span></span>
 <span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
@@ -1633,7 +1822,7 @@ Consider that English may not be my first language and avoid complex idioms or c
 <span id="cb5-161"><a href="#cb5-161" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Alternative input methods:** Voice control, eye tracking, or adaptive devices</span>
 <span id="cb5-162"><a href="#cb5-162" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Interface simplification:** Reduce clicks and complex navigation</span>
 <span id="cb5-163"><a href="#cb5-163" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Session management:** Allow breaks and save conversation progress</span>
-<span id="cb5-164"><a href="#cb5-164" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Customizable interfaces:** Adjustable text size, button placement, and interaction methods</span>
+<span id="cb5-164"><a href="#cb5-164" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**customisable interfaces:** Adjustable text size, button placement, and interaction methods</span>
 <span id="cb5-165"><a href="#cb5-165" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-166"><a href="#cb5-166" aria-hidden="true" tabindex="-1"></a><span class="fu">### Cognitive Disabilities</span></span>
 <span id="cb5-167"><a href="#cb5-167" aria-hidden="true" tabindex="-1"></a></span>
@@ -1670,14 +1859,14 @@ Consider that English may not be my first language and avoid complex idioms or c
 <span id="cb5-198"><a href="#cb5-198" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-199"><a href="#cb5-199" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Challenges</span></span>
 <span id="cb5-200"><a href="#cb5-200" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Reading comprehension:** AI-generated text may be dense or complex</span>
-<span id="cb5-201"><a href="#cb5-201" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Writing organization:** Difficulty structuring responses to AI prompts</span>
+<span id="cb5-201"><a href="#cb5-201" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Writing organisation:** Difficulty structuring responses to AI prompts</span>
 <span id="cb5-202"><a href="#cb5-202" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Information synthesis:** Combining AI input with own knowledge</span>
 <span id="cb5-203"><a href="#cb5-203" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Time management:** Extended AI interactions may require sustained focus</span>
 <span id="cb5-204"><a href="#cb5-204" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-205"><a href="#cb5-205" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Solutions</span></span>
 <span id="cb5-206"><a href="#cb5-206" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Reading support:** Text-to-speech, adjustable text size, highlighting</span>
 <span id="cb5-207"><a href="#cb5-207" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Writing assistance:** Voice input, word prediction, grammar support</span>
-<span id="cb5-208"><a href="#cb5-208" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Information organization:** Tools for structuring and synthesizing content</span>
+<span id="cb5-208"><a href="#cb5-208" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Information organisation:** Tools for structuring and synthesizing content</span>
 <span id="cb5-209"><a href="#cb5-209" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Flexible timing:** Allow extended time for AI-based assignments</span>
 <span id="cb5-210"><a href="#cb5-210" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-211"><a href="#cb5-211" aria-hidden="true" tabindex="-1"></a>---</span>
@@ -1733,7 +1922,7 @@ Consider that English may not be my first language and avoid complex idioms or c
 <span id="cb5-261"><a href="#cb5-261" aria-hidden="true" tabindex="-1"></a><span class="fu">### Language Diversity</span></span>
 <span id="cb5-262"><a href="#cb5-262" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-263"><a href="#cb5-263" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Multilingual Support</span></span>
-<span id="cb5-264"><a href="#cb5-264" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Non-native English speakers:** AI tools primarily optimized for English</span>
+<span id="cb5-264"><a href="#cb5-264" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Non-native English speakers:** AI tools primarily optimised for English</span>
 <span id="cb5-265"><a href="#cb5-265" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Translation quality:** AI translation may miss nuances or cultural context</span>
 <span id="cb5-266"><a href="#cb5-266" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Code-switching:** Students who mix languages may face interface challenges</span>
 <span id="cb5-267"><a href="#cb5-267" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Dialect variations:** Regional language differences may not be supported</span>
@@ -1821,7 +2010,7 @@ Consider that English may not be my first language and avoid complex idioms or c
 <span id="cb5-349"><a href="#cb5-349" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Reactive Support</span></span>
 <span id="cb5-350"><a href="#cb5-350" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Help desk:** Technical support for AI accessibility issues</span>
 <span id="cb5-351"><a href="#cb5-351" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Alternative assignments:** Quick deployment of non-AI options when needed</span>
-<span id="cb5-352"><a href="#cb5-352" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Individual accommodations:** Customized solutions for specific barriers</span>
+<span id="cb5-352"><a href="#cb5-352" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Individual accommodations:** customised solutions for specific barriers</span>
 <span id="cb5-353"><a href="#cb5-353" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Crisis response:** Rapid response to major accessibility failures</span>
 <span id="cb5-354"><a href="#cb5-354" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-355"><a href="#cb5-355" aria-hidden="true" tabindex="-1"></a><span class="fu">### Faculty Development</span></span>

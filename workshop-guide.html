@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>Appendix B — Workshop Guide: Training Your Colleagues – Partner, Don’t Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -407,6 +582,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./workshop-guide.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Workshop Guide: Training Your Colleagues</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -497,7 +673,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>Show generic, unhelpful result.</em></p>
 <p><strong>Good prompt (discipline-specific):</strong></p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">HR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">HR</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <pre><code>You are an expert HR lecturer. Create a 400-word case study for 
@@ -676,7 +852,7 @@ Provide immediate response plan covering:
 - Risk mitigation strategies
 
 You have 48 hours to act. Begin.</code></pre>
-<p><strong>Optimization Challenge:</strong></p>
+<p><strong>optimisation Challenge:</strong></p>
 <pre><code>Analyse this supply chain network for efficiency improvements:
 - Current bottlenecks
 - Cost reduction opportunities
@@ -721,7 +897,7 @@ Provide professional response covering:
 
 Begin your analysis.</code></pre>
 <p><strong>Ethical Reasoning:</strong></p>
-<pre><code>Present this accounting dilemma: "Your manager wants you to recognize revenue early to meet quarterly targets."
+<pre><code>Present this accounting dilemma: "Your manager wants you to recognise revenue early to meet quarterly targets."
 
 Analyse from:
 - Technical accounting standards
@@ -809,7 +985,7 @@ Design the full customer journey. Begin.</code></pre>
 <pre><code>Present this business policy: "[relevant policy]"
 
 You argue FOR this policy. I will argue AGAINST it.
-After 3 rounds, summarize strongest arguments from both sides.
+After 3 rounds, summarise strongest arguments from both sides.
 Then ask me to identify which arguments are most persuasive and why.</code></pre>
 <p><strong>2. Multiple Perspective Analysis</strong></p>
 <pre><code>Analyse this business decision from 4 perspectives:
@@ -1197,6 +1373,19 @@ Stay in character as [PROFESSIONAL I'm dealing with].</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1969,7 +2158,7 @@ Stay in character as [PROFESSIONAL I'm dealing with].</code></pre>
 <span id="cb40-309"><a href="#cb40-309" aria-hidden="true" tabindex="-1"></a><span class="in">You have 48 hours to act. Begin.</span></span>
 <span id="cb40-310"><a href="#cb40-310" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb40-311"><a href="#cb40-311" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-312"><a href="#cb40-312" aria-hidden="true" tabindex="-1"></a>**Optimization Challenge:**</span>
+<span id="cb40-312"><a href="#cb40-312" aria-hidden="true" tabindex="-1"></a>**optimisation Challenge:**</span>
 <span id="cb40-313"><a href="#cb40-313" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb40-314"><a href="#cb40-314" aria-hidden="true" tabindex="-1"></a><span class="in">Analyse this supply chain network for efficiency improvements:</span></span>
 <span id="cb40-315"><a href="#cb40-315" aria-hidden="true" tabindex="-1"></a><span class="in">- Current bottlenecks</span></span>
@@ -2025,7 +2214,7 @@ Stay in character as [PROFESSIONAL I'm dealing with].</code></pre>
 <span id="cb40-365"><a href="#cb40-365" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb40-366"><a href="#cb40-366" aria-hidden="true" tabindex="-1"></a>**Ethical Reasoning:**</span>
 <span id="cb40-367"><a href="#cb40-367" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb40-368"><a href="#cb40-368" aria-hidden="true" tabindex="-1"></a><span class="in">Present this accounting dilemma: "Your manager wants you to recognize revenue early to meet quarterly targets."</span></span>
+<span id="cb40-368"><a href="#cb40-368" aria-hidden="true" tabindex="-1"></a><span class="in">Present this accounting dilemma: "Your manager wants you to recognise revenue early to meet quarterly targets."</span></span>
 <span id="cb40-369"><a href="#cb40-369" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb40-370"><a href="#cb40-370" aria-hidden="true" tabindex="-1"></a><span class="in">Analyse from:</span></span>
 <span id="cb40-371"><a href="#cb40-371" aria-hidden="true" tabindex="-1"></a><span class="in">- Technical accounting standards</span></span>
@@ -2129,7 +2318,7 @@ Stay in character as [PROFESSIONAL I'm dealing with].</code></pre>
 <span id="cb40-469"><a href="#cb40-469" aria-hidden="true" tabindex="-1"></a><span class="in">Present this business policy: "[relevant policy]"</span></span>
 <span id="cb40-470"><a href="#cb40-470" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb40-471"><a href="#cb40-471" aria-hidden="true" tabindex="-1"></a><span class="in">You argue FOR this policy. I will argue AGAINST it.</span></span>
-<span id="cb40-472"><a href="#cb40-472" aria-hidden="true" tabindex="-1"></a><span class="in">After 3 rounds, summarize strongest arguments from both sides.</span></span>
+<span id="cb40-472"><a href="#cb40-472" aria-hidden="true" tabindex="-1"></a><span class="in">After 3 rounds, summarise strongest arguments from both sides.</span></span>
 <span id="cb40-473"><a href="#cb40-473" aria-hidden="true" tabindex="-1"></a><span class="in">Then ask me to identify which arguments are most persuasive and why.</span></span>
 <span id="cb40-474"><a href="#cb40-474" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb40-475"><a href="#cb40-475" aria-hidden="true" tabindex="-1"></a></span>

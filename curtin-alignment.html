@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>Appendix C — Alignment with Curtin University Learning Outcomes – Partner, Don’t Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -435,6 +610,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./curtin-alignment.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Alignment with Curtin University Learning Outcomes</span></a></li></ol></nav>
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title">Appendix C — Alignment with Curtin University Learning Outcomes</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -476,7 +652,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Fairness</strong> - No unfair discrimination; train on relevant, accurate datasets</li>
 <li><strong>Privacy protection and security</strong> - Comply with data protection policies and legislation</li>
 <li><strong>Reliability and safety</strong> - Operate AI systems according to approved purposes with appropriate safety measures</li>
-<li><strong>Transparency, Explainability and Contestability</strong> - Maximize transparency and allow stakeholders to contest AI decisions</li>
+<li><strong>Transparency, Explainability and Contestability</strong> - maximise transparency and allow stakeholders to contest AI decisions</li>
 <li><strong>Accountability</strong> - Implement human oversight and identify individuals accountable for AI-based decisions</li>
 <li><strong>Accuracy</strong> - Check inputs/outputs for factual reliability and disclose model limitations</li>
 </ol>
@@ -929,7 +1105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-number="C.14" class="anchored" data-anchor-id="alignment-with-professional-career-outcomes"><span class="header-section-number">C.14</span> Alignment with Professional Career Outcomes</h2>
 <p>The AI applications in this book directly prepare students for careers across all business disciplines. Examples include:</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">HR Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Business &amp; Marketing Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Accounting &amp; Finance Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Management &amp; Organisational Studies Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Supply Chain &amp; Logistics Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Information Systems Careers</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">HR Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Business &amp; Marketing Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Accounting &amp; Finance Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Management &amp; Organisational Studies Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Supply Chain &amp; Logistics Careers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Information Systems Careers</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="human-resources-officerconsultant" class="level3" data-number="C.14.1">
@@ -1025,7 +1201,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Making decisions under uncertainty (Chapters 4, 7)</li>
 <li>Negotiating with suppliers and partners (Chapters 3, 4)</li>
-<li>Analysing supply chain data for optimization (Chapter 7, Model 2)</li>
+<li>Analysing supply chain data for optimisation (Chapter 7, Model 2)</li>
 <li>Managing complex stakeholder interests (Chapter 3, Debating)</li>
 </ul>
 </section>
@@ -1034,7 +1210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Solving complex logistics problems (Chapters 3, 4)</li>
 <li>Communicating trade-offs to stakeholders (Chapters 3, 4)</li>
-<li>Using technology to optimize operations (Chapter 9)</li>
+<li>Using technology to optimise operations (Chapter 9)</li>
 <li>Handling crisis situations in supply networks (Chapters 4, 6)</li>
 </ul>
 </section>
@@ -1154,7 +1330,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="conclusion" class="level2" data-number="C.18">
 <h2 data-number="C.18" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">C.18</span> Conclusion</h2>
-<p>AI integration in business education at Curtin University is not about adopting technology for its own sake. It’s about using available tools to better achieve existing learning outcomes,to prepare confident, competent, ethical professionals across all business disciplines who can navigate the complexity of modern workplaces and organizations.</p>
+<p>AI integration in business education at Curtin University is not about adopting technology for its own sake. It’s about using available tools to better achieve existing learning outcomes,to prepare confident, competent, ethical professionals across all business disciplines who can navigate the complexity of modern workplaces and organisations.</p>
 <p>Every application in this book has been designed to support documented Curtin learning outcomes. AI enhances pedagogical practice; it doesn’t replace educational judgment or lower academic standards.</p>
 <p>This book provides Curtin business lecturers with: - Institutional justification (alignment with strategy and learning outcomes across all disciplines) - Pedagogical frameworks (grounded in learning theory and discipline-specific practice) - Practical tools (ready-to-use prompts and assignments adaptable to your discipline) - Implementation guidance (start small, scale gradually) - Academic integrity approaches (transparency and critical engagement)</p>
 <p><strong>The question is not whether AI belongs in business education at Curtin.</strong></p>
@@ -1175,6 +1351,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1662,7 +1851,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Fairness** - No unfair discrimination; train on relevant, accurate datasets</span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Privacy protection and security** - Comply with data protection policies and legislation</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Reliability and safety** - Operate AI systems according to approved purposes with appropriate safety measures</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Transparency, Explainability and Contestability** - Maximize transparency and allow stakeholders to contest AI decisions</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Transparency, Explainability and Contestability** - maximise transparency and allow stakeholders to contest AI decisions</span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">7. </span>**Accountability** - Implement human oversight and identify individuals accountable for AI-based decisions</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">8. </span>**Accuracy** - Check inputs/outputs for factual reliability and disclose model limitations</span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
@@ -1963,13 +2152,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-325"><a href="#cb1-325" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-326"><a href="#cb1-326" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Making decisions under uncertainty (Chapters 4, 7)</span>
 <span id="cb1-327"><a href="#cb1-327" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Negotiating with suppliers and partners (Chapters 3, 4)</span>
-<span id="cb1-328"><a href="#cb1-328" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analysing supply chain data for optimization (Chapter 7, Model 2)</span>
+<span id="cb1-328"><a href="#cb1-328" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analysing supply chain data for optimisation (Chapter 7, Model 2)</span>
 <span id="cb1-329"><a href="#cb1-329" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Managing complex stakeholder interests (Chapter 3, Debating)</span>
 <span id="cb1-330"><a href="#cb1-330" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-331"><a href="#cb1-331" aria-hidden="true" tabindex="-1"></a><span class="fu">### Logistics Consultant</span></span>
 <span id="cb1-332"><a href="#cb1-332" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Solving complex logistics problems (Chapters 3, 4)</span>
 <span id="cb1-333"><a href="#cb1-333" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communicating trade-offs to stakeholders (Chapters 3, 4)</span>
-<span id="cb1-334"><a href="#cb1-334" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Using technology to optimize operations (Chapter 9)</span>
+<span id="cb1-334"><a href="#cb1-334" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Using technology to optimise operations (Chapter 9)</span>
 <span id="cb1-335"><a href="#cb1-335" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Handling crisis situations in supply networks (Chapters 4, 6)</span>
 <span id="cb1-336"><a href="#cb1-336" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-337"><a href="#cb1-337" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems Careers</span></span>
@@ -2098,7 +2287,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-460"><a href="#cb1-460" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-461"><a href="#cb1-461" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conclusion</span></span>
 <span id="cb1-462"><a href="#cb1-462" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-463"><a href="#cb1-463" aria-hidden="true" tabindex="-1"></a>AI integration in business education at Curtin University is not about adopting technology for its own sake. It's about using available tools to better achieve existing learning outcomes,to prepare confident, competent, ethical professionals across all business disciplines who can navigate the complexity of modern workplaces and organizations.</span>
+<span id="cb1-463"><a href="#cb1-463" aria-hidden="true" tabindex="-1"></a>AI integration in business education at Curtin University is not about adopting technology for its own sake. It's about using available tools to better achieve existing learning outcomes,to prepare confident, competent, ethical professionals across all business disciplines who can navigate the complexity of modern workplaces and organisations.</span>
 <span id="cb1-464"><a href="#cb1-464" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-465"><a href="#cb1-465" aria-hidden="true" tabindex="-1"></a>Every application in this book has been designed to support documented Curtin learning outcomes. AI enhances pedagogical practice; it doesn't replace educational judgment or lower academic standards.</span>
 <span id="cb1-466"><a href="#cb1-466" aria-hidden="true" tabindex="-1"></a></span>

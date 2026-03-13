@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>14&nbsp; AI as Study Buddy - Self-Assessment Tool – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -398,6 +573,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -618,7 +794,7 @@ Begin your feedback.</code></pre>
 <p>This is your weakest area. You haven’t applied any specific legal principles or policies.</p>
 <p><strong>What you wrote:</strong> “This could lead to a lawsuit.”</p>
 <p><strong>The problem:</strong> This is too vague. <em>What kind</em> of lawsuit? Under what legal theory? You need to reference specific legal risks like: - Potential discrimination claim under the Fair Work Act (if there’s evidence David’s treatment relates to a protected characteristic) - Potential bullying claim under work health and safety legislation - Potential breach of the employer’s duty of care</p>
-<p>You also need to reference the organization’s obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.</p>
+<p>You also need to reference the organisation’s obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.</p>
 <hr>
 <p><strong>CRITERION 4: Theoretical Integration - Score: 1/4</strong></p>
 <p>You have not applied any psychological theory to your analysis.</p>
@@ -719,7 +895,7 @@ Begin your feedback.</code></pre>
 <h2 data-number="14.9" class="anchored" data-anchor-id="cross-discipline-applications-self-assessment-transparency"><span class="header-section-number">14.9</span> Cross-Discipline Applications: Self-Assessment Transparency</h2>
 <p>The transparency model can be adapted for any professional discipline. Below are examples showing how to implement self-assessment tools across different business contexts.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="campaign-strategy-analysis-assignment" class="level3" data-number="14.9.1">
@@ -1065,7 +1241,7 @@ Here is the student's draft:
 <section id="implementation-tips" class="level3" data-number="14.10.2">
 <h3 data-number="14.10.2" class="anchored" data-anchor-id="implementation-tips"><span class="header-section-number">14.10.2</span> Implementation Tips</h3>
 <p><strong>Rubric Development:</strong> - Adapt criteria to reflect discipline-specific competencies - Include both technical proficiency and professional judgment - Balance quantitative and qualitative assessment elements</p>
-<p><strong>AI Prompt Customization:</strong> - Modify critique criteria to match professional standards - Include discipline-specific jargon and frameworks - Ensure feedback addresses both skill development and professional practice</p>
+<p><strong>AI Prompt customisation:</strong> - Modify critique criteria to match professional standards - Include discipline-specific jargon and frameworks - Ensure feedback addresses both skill development and professional practice</p>
 <p><strong>Student Preparation:</strong> - Provide discipline-specific examples of good vs.&nbsp;poor work - Teach students how to interpret AI feedback in their professional context - Encourage reflection on how AI tools will be used in their future careers</p>
 <hr>
 </section>
@@ -1099,7 +1275,7 @@ Here is the student's draft:
 <section id="the-bigger-picture-teaching-ai-literacy" class="level2" data-number="14.13">
 <h2 data-number="14.13" class="anchored" data-anchor-id="the-bigger-picture-teaching-ai-literacy"><span class="header-section-number">14.13</span> The Bigger Picture: Teaching AI Literacy</h2>
 <p>This transparency approach does something more important than preventing cheating: <strong>it teaches students how to work with AI responsibly.</strong></p>
-<p>In their professional careers, they’ll have access to AI tools that can: - Analyse complex datasets and generate insights - Draft strategies, policies, and recommendations - Generate scenarios and simulations - Summarize regulations, standards, and best practices - (discipline-specific applications too numerous to list)</p>
+<p>In their professional careers, they’ll have access to AI tools that can: - Analyse complex datasets and generate insights - Draft strategies, policies, and recommendations - Generate scenarios and simulations - summarise regulations, standards, and best practices - (discipline-specific applications too numerous to list)</p>
 <p>Your job isn’t to prevent them from using these tools. It’s to teach them: - When AI is helpful and when it’s risky - How to critically evaluate AI outputs - When human judgment must override AI suggestions - How to use AI as a thinking partner, not a replacement for thinking</p>
 <p>By making AI use transparent and educational, you’re preparing them for professional practice in an AI-augmented world.</p>
 <hr>
@@ -1126,6 +1302,19 @@ Here is the student's draft:
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1797,7 +1986,7 @@ Here is the student's draft:
 <span id="cb9-208"><a href="#cb9-208" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Potential bullying claim under work health and safety legislation</span>
 <span id="cb9-209"><a href="#cb9-209" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Potential breach of the employer's duty of care</span>
 <span id="cb9-210"><a href="#cb9-210" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-211"><a href="#cb9-211" aria-hidden="true" tabindex="-1"></a>You also need to reference the organization's obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.</span>
+<span id="cb9-211"><a href="#cb9-211" aria-hidden="true" tabindex="-1"></a>You also need to reference the organisation's obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.</span>
 <span id="cb9-212"><a href="#cb9-212" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-213"><a href="#cb9-213" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb9-214"><a href="#cb9-214" aria-hidden="true" tabindex="-1"></a></span>
@@ -2186,7 +2375,7 @@ Here is the student's draft:
 <span id="cb9-597"><a href="#cb9-597" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Include both technical proficiency and professional judgment</span>
 <span id="cb9-598"><a href="#cb9-598" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Balance quantitative and qualitative assessment elements</span>
 <span id="cb9-599"><a href="#cb9-599" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-600"><a href="#cb9-600" aria-hidden="true" tabindex="-1"></a>**AI Prompt Customization:**</span>
+<span id="cb9-600"><a href="#cb9-600" aria-hidden="true" tabindex="-1"></a>**AI Prompt customisation:**</span>
 <span id="cb9-601"><a href="#cb9-601" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Modify critique criteria to match professional standards</span>
 <span id="cb9-602"><a href="#cb9-602" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Include discipline-specific jargon and frameworks</span>
 <span id="cb9-603"><a href="#cb9-603" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ensure feedback addresses both skill development and professional practice</span>
@@ -2263,7 +2452,7 @@ Here is the student's draft:
 <span id="cb9-674"><a href="#cb9-674" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyse complex datasets and generate insights</span>
 <span id="cb9-675"><a href="#cb9-675" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Draft strategies, policies, and recommendations</span>
 <span id="cb9-676"><a href="#cb9-676" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate scenarios and simulations</span>
-<span id="cb9-677"><a href="#cb9-677" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarize regulations, standards, and best practices</span>
+<span id="cb9-677"><a href="#cb9-677" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarise regulations, standards, and best practices</span>
 <span id="cb9-678"><a href="#cb9-678" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>(discipline-specific applications too numerous to list)</span>
 <span id="cb9-679"><a href="#cb9-679" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-680"><a href="#cb9-680" aria-hidden="true" tabindex="-1"></a>Your job isn't to prevent them from using these tools. It's to teach them:</span>

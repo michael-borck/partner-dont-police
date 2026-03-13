@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>13&nbsp; Process Over Product - Rethinking Assessment – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -400,6 +575,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -574,7 +750,7 @@ professional practice standards.
 <li>Did they ask appropriate questions?</li>
 <li>Did they handle sensitive information properly?</li>
 <li>Did they maintain professional boundaries?</li>
-<li>Did they document appropriately (taking notes, summarizing agreements)?</li>
+<li>Did they document appropriately (taking notes, summarising agreements)?</li>
 </ul>
 <p><strong>2. Quality of Reflective Analysis (40%)</strong></p>
 <p>Using the audit document:</p>
@@ -623,7 +799,7 @@ professional practice standards.
 <ul>
 <li>Identify patterns and anomalies</li>
 <li>Generate hypotheses about causes of turnover</li>
-<li>Summarize key findings</li>
+<li>summarise key findings</li>
 </ul>
 <p><strong>AI Prompt They Use:</strong></p>
 <pre><code>You are an HR analytics specialist. Analyse this dataset and provide:
@@ -815,7 +991,7 @@ idea.</code></pre>
 <p><strong>Student Override: 6/10</strong></p>
 <p><strong>Student Justification:</strong></p>
 <blockquote class="blockquote">
-<p>“While the AI score of 8/10 recognizes the positive elements, it has missed several concerning gaps in this response:</p>
+<p>“While the AI score of 8/10 recognises the positive elements, it has missed several concerning gaps in this response:</p>
 <ol type="1">
 <li><p><strong>Lack of specific behavioural detail</strong>: The candidate says they ‘explained’ and ‘offered support’ but doesn’t demonstrate <em>how</em> they delivered this feedback. What specific words did they use? How did they balance accountability with support? This vagueness suggests they might be embellishing or don’t actually remember the details,a red flag in behavioural interviewing.</p></li>
 <li><p><strong>Missing follow-up on consequences</strong>: The candidate doesn’t mention whether they documented this conversation or whether there were any agreed-upon consequences if improvement didn’t occur. In real HR practice, failing to document performance conversations creates legal risk.</p></li>
@@ -854,7 +1030,7 @@ idea.</code></pre>
 <tr class="odd">
 <td><strong>Interview Question Selection</strong></td>
 <td>15%</td>
-<td>Do they recognize good vs.&nbsp;poor behavioural questions?</td>
+<td>Do they recognise good vs.&nbsp;poor behavioural questions?</td>
 </tr>
 <tr class="even">
 <td><strong>Rubric Design</strong></td>
@@ -935,7 +1111,7 @@ I will review your assessment and make the final grading decision.
 <h2 data-number="13.8" class="anchored" data-anchor-id="cross-discipline-applications-process-based-assessment"><span class="header-section-number">13.8</span> Cross-Discipline Applications: Process-Based Assessment</h2>
 <p>The three process-based assessment models can be adapted for any business discipline. Below are examples showing how to implement these models across different professional contexts.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="model-1-simulated-client-consultation-and-process-audit" class="level3" data-number="13.8.1">
@@ -1335,6 +1511,19 @@ I will review your assessment and make the final grading decision.
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1968,7 +2157,7 @@ I will review your assessment and make the final grading decision.
 <span id="cb5-170"><a href="#cb5-170" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Did they ask appropriate questions?</span>
 <span id="cb5-171"><a href="#cb5-171" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Did they handle sensitive information properly?</span>
 <span id="cb5-172"><a href="#cb5-172" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Did they maintain professional boundaries?</span>
-<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Did they document appropriately (taking notes, summarizing agreements)?</span>
+<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Did they document appropriately (taking notes, summarising agreements)?</span>
 <span id="cb5-174"><a href="#cb5-174" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a>**2. Quality of Reflective Analysis (40%)**</span>
 <span id="cb5-176"><a href="#cb5-176" aria-hidden="true" tabindex="-1"></a></span>
@@ -2018,7 +2207,7 @@ I will review your assessment and make the final grading decision.
 <span id="cb5-220"><a href="#cb5-220" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-221"><a href="#cb5-221" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Identify patterns and anomalies</span>
 <span id="cb5-222"><a href="#cb5-222" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate hypotheses about causes of turnover</span>
-<span id="cb5-223"><a href="#cb5-223" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarize key findings</span>
+<span id="cb5-223"><a href="#cb5-223" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarise key findings</span>
 <span id="cb5-224"><a href="#cb5-224" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-225"><a href="#cb5-225" aria-hidden="true" tabindex="-1"></a>**AI Prompt They Use:**</span>
 <span id="cb5-226"><a href="#cb5-226" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -2172,7 +2361,7 @@ I will review your assessment and make the final grading decision.
 <span id="cb5-374"><a href="#cb5-374" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-375"><a href="#cb5-375" aria-hidden="true" tabindex="-1"></a>**Student Justification:**</span>
 <span id="cb5-376"><a href="#cb5-376" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-377"><a href="#cb5-377" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "While the AI score of 8/10 recognizes the positive elements, it has missed several concerning gaps in this response:</span></span>
+<span id="cb5-377"><a href="#cb5-377" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "While the AI score of 8/10 recognises the positive elements, it has missed several concerning gaps in this response:</span></span>
 <span id="cb5-378"><a href="#cb5-378" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
 <span id="cb5-379"><a href="#cb5-379" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; 1. **Lack of specific behavioural detail**: The candidate says they 'explained' and 'offered support' but doesn't demonstrate *how* they delivered this feedback. What specific words did they use? How did they balance accountability with support? This vagueness suggests they might be embellishing or don't actually remember the details,a red flag in behavioural interviewing.</span></span>
 <span id="cb5-380"><a href="#cb5-380" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
@@ -2190,7 +2379,7 @@ I will review your assessment and make the final grading decision.
 <span id="cb5-392"><a href="#cb5-392" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
 <span id="cb5-393"><a href="#cb5-393" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Job Design Quality** <span class="pp">|</span> 15% <span class="pp">|</span> Legal compliance--- appropriateness of competencies--- clarity <span class="pp">|</span></span>
 <span id="cb5-394"><a href="#cb5-394" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Justification of Revisions** <span class="pp">|</span> 15% <span class="pp">|</span> Can they articulate why AI's version needed changes? <span class="pp">|</span></span>
-<span id="cb5-395"><a href="#cb5-395" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Interview Question Selection** <span class="pp">|</span> 15% <span class="pp">|</span> Do they recognize good vs. poor behavioural questions? <span class="pp">|</span></span>
+<span id="cb5-395"><a href="#cb5-395" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Interview Question Selection** <span class="pp">|</span> 15% <span class="pp">|</span> Do they recognise good vs. poor behavioural questions? <span class="pp">|</span></span>
 <span id="cb5-396"><a href="#cb5-396" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Rubric Design** <span class="pp">|</span> 15% <span class="pp">|</span> Is their scoring system measurable and fair? <span class="pp">|</span></span>
 <span id="cb5-397"><a href="#cb5-397" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Critical Override** <span class="pp">|</span> 30% <span class="pp">|</span> Most important---do they demonstrate judgment superior to AI? <span class="pp">|</span></span>
 <span id="cb5-398"><a href="#cb5-398" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Theoretical Integration** <span class="pp">|</span> 10% <span class="pp">|</span> Have they applied knowledge of bias--- human behaviour--- legal principles? <span class="pp">|</span></span>

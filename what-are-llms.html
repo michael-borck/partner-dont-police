@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>4&nbsp; What are Large Language Models (LLMs)? – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -425,6 +600,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What are Large Language Models (LLMs)?</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -454,7 +630,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Write essays, emails, code, and poetry</li>
 <li>Answer questions about almost any topic</li>
 <li>Translate languages</li>
-<li>Summarize documents</li>
+<li>summarise documents</li>
 <li>Explain complex concepts</li>
 <li>Hold conversations</li>
 </ul>
@@ -593,7 +769,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p><strong>Example business use:</strong> Legal team reviews 500-page contracts:</p>
 <ul>
-<li>LLM summarizes key terms and risks</li>
+<li>LLM summarises key terms and risks</li>
 <li>Highlights unusual clauses</li>
 <li>Human lawyer reviews flagged items</li>
 <li><strong>Result:</strong> 70% time savings on initial review</li>
@@ -859,11 +1035,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="document-processing" class="level3" data-number="4.7.5">
 <h3 data-number="4.7.5" class="anchored" data-anchor-id="document-processing"><span class="header-section-number">4.7.5</span> <strong>Document Processing</strong></h3>
-<p><strong>Common use:</strong> Summarizing, extracting information from documents</p>
+<p><strong>Common use:</strong> summarising, extracting information from documents</p>
 <p><strong>How it works:</strong></p>
 <ol type="1">
 <li>Upload long document (contract, report, proposal)</li>
-<li>LLM summarizes key points</li>
+<li>LLM summarises key points</li>
 <li>Extracts specific information (dates, amounts, terms)</li>
 <li>Human reviews summary and makes decisions</li>
 </ol>
@@ -879,7 +1055,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Needs verification for critical documents</li>
 <li>Formatting issues with complex documents</li>
 </ul>
-<p><strong>Success example:</strong> Legal team processes 100+ contracts per week. LLM summarizes key terms, flags unusual clauses, extracts deadlines. Lawyers review summaries instead of full documents unless flagged. Time savings: 50%.</p>
+<p><strong>Success example:</strong> Legal team processes 100+ contracts per week. LLM summarises key terms, flags unusual clauses, extracts deadlines. Lawyers review summaries instead of full documents unless flagged. Time savings: 50%.</p>
 <hr>
 </section>
 </section>
@@ -915,7 +1091,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Pattern recognition in data, not language</td>
 </tr>
 <tr class="even">
-<td>Summarize customer feedback</td>
+<td>summarise customer feedback</td>
 <td>LLM</td>
 <td>Natural language understanding needed</td>
 </tr>
@@ -930,9 +1106,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Creative language generation</td>
 </tr>
 <tr class="odd">
-<td>Optimize delivery routes</td>
+<td>optimise delivery routes</td>
 <td>Traditional AI</td>
-<td>Mathematical optimization, not language</td>
+<td>Mathematical optimisation, not language</td>
 </tr>
 <tr class="even">
 <td>Chatbot conversations</td>
@@ -943,7 +1119,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 <p><strong>Rule of thumb:</strong></p>
 <ul>
-<li><strong>Use traditional AI</strong> when you need: speed, precision, mathematical optimization, simple classification</li>
+<li><strong>Use traditional AI</strong> when you need: speed, precision, mathematical optimisation, simple classification</li>
 <li><strong>Use LLMs</strong> when you need: natural language understanding, generation, summarization, or explanation</li>
 </ul>
 <hr>
@@ -1145,7 +1321,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="fine-tuned-models" class="level3" data-number="4.12.3">
 <h3 data-number="4.12.3" class="anchored" data-anchor-id="fine-tuned-models"><span class="header-section-number">4.12.3</span> <strong>Fine-Tuned Models</strong></h3>
 <ul>
-<li>LLMs customized for specific companies/industries</li>
+<li>LLMs customised for specific companies/industries</li>
 <li>Trained on your data, your style, your terminology</li>
 <li>Use: Brand-specific writing, specialized technical support</li>
 </ul>
@@ -1206,7 +1382,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="summary-five-key-takeaways" class="level2" data-number="4.14">
 <h2 data-number="4.14" class="anchored" data-anchor-id="summary-five-key-takeaways"><span class="header-section-number">4.14</span> Summary: Five Key Takeaways</h2>
 <ol type="1">
-<li><p><strong>LLMs are “autocomplete on steroids”</strong> - They predict likely next words based on massive training, which lets them write, explain, summarize, and converse.</p></li>
+<li><p><strong>LLMs are “autocomplete on steroids”</strong> - They predict likely next words based on massive training, which lets them write, explain, summarise, and converse.</p></li>
 <li><p><strong>They’re great at language tasks, not everything</strong> - Use for writing, summarization, Q&amp;A, translation. Don’t use for math, current events, or critical factual accuracy without verification.</p></li>
 <li><p><strong>Always have human oversight</strong> - LLMs hallucinate, have biases, and make mistakes. Humans review before outputs go to customers or affect decisions.</p></li>
 <li><p><strong>Start small and measure</strong> - Pilot with low-risk use cases. Track accuracy, quality, and satisfaction. Iterate based on results.</p></li>
@@ -1219,7 +1395,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Before the masterclass:</strong></p>
 <ol type="1">
 <li>Try an LLM yourself (ChatGPT, Claude, or Gemini)</li>
-<li>Ask it to explain something, write something, summarize something</li>
+<li>Ask it to explain something, write something, summarise something</li>
 <li>Notice where it’s helpful and where it’s not</li>
 <li>Think about one task at your work that might benefit</li>
 </ol>
@@ -1239,6 +1415,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1715,7 +1904,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Write essays, emails, code, and poetry</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Answer questions about almost any topic</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Translate languages</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarize documents</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarise documents</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explain complex concepts</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Hold conversations</span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
@@ -1878,7 +2067,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>**Example business use:**</span>
 <span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a>Legal team reviews 500-page contracts:</span>
 <span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>LLM summarizes key terms and risks</span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>LLM summarises key terms and risks</span>
 <span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Highlights unusual clauses</span>
 <span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Human lawyer reviews flagged items</span>
 <span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Result:** 70% time savings on initial review</span>
@@ -2187,12 +2376,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-485"><a href="#cb1-485" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-486"><a href="#cb1-486" aria-hidden="true" tabindex="-1"></a><span class="fu">### **Document Processing**</span></span>
 <span id="cb1-487"><a href="#cb1-487" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-488"><a href="#cb1-488" aria-hidden="true" tabindex="-1"></a>**Common use:** Summarizing, extracting information from documents</span>
+<span id="cb1-488"><a href="#cb1-488" aria-hidden="true" tabindex="-1"></a>**Common use:** summarising, extracting information from documents</span>
 <span id="cb1-489"><a href="#cb1-489" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-490"><a href="#cb1-490" aria-hidden="true" tabindex="-1"></a>**How it works:**</span>
 <span id="cb1-491"><a href="#cb1-491" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-492"><a href="#cb1-492" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Upload long document (contract, report, proposal)</span>
-<span id="cb1-493"><a href="#cb1-493" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>LLM summarizes key points</span>
+<span id="cb1-493"><a href="#cb1-493" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>LLM summarises key points</span>
 <span id="cb1-494"><a href="#cb1-494" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Extracts specific information (dates, amounts, terms)</span>
 <span id="cb1-495"><a href="#cb1-495" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Human reviews summary and makes decisions</span>
 <span id="cb1-496"><a href="#cb1-496" aria-hidden="true" tabindex="-1"></a></span>
@@ -2209,7 +2398,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-507"><a href="#cb1-507" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Formatting issues with complex documents</span>
 <span id="cb1-508"><a href="#cb1-508" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-509"><a href="#cb1-509" aria-hidden="true" tabindex="-1"></a>**Success example:**</span>
-<span id="cb1-510"><a href="#cb1-510" aria-hidden="true" tabindex="-1"></a>Legal team processes 100+ contracts per week. LLM summarizes key terms, flags unusual clauses, extracts deadlines. Lawyers review summaries instead of full documents unless flagged. Time savings: 50%.</span>
+<span id="cb1-510"><a href="#cb1-510" aria-hidden="true" tabindex="-1"></a>Legal team processes 100+ contracts per week. LLM summarises key terms, flags unusual clauses, extracts deadlines. Lawyers review summaries instead of full documents unless flagged. Time savings: 50%.</span>
 <span id="cb1-511"><a href="#cb1-511" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-512"><a href="#cb1-512" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-513"><a href="#cb1-513" aria-hidden="true" tabindex="-1"></a></span>
@@ -2220,15 +2409,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-518"><a href="#cb1-518" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Classify customer support tickets <span class="pp">|</span> Traditional AI (simpler) <span class="pp">|</span> Clear categories, fast, cheaper <span class="pp">|</span></span>
 <span id="cb1-519"><a href="#cb1-519" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Write personalised email responses <span class="pp">|</span> LLM <span class="pp">|</span> Needs natural language generation <span class="pp">|</span></span>
 <span id="cb1-520"><a href="#cb1-520" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Predict customer churn <span class="pp">|</span> Traditional ML <span class="pp">|</span> Pattern recognition in data, not language <span class="pp">|</span></span>
-<span id="cb1-521"><a href="#cb1-521" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Summarize customer feedback <span class="pp">|</span> LLM <span class="pp">|</span> Natural language understanding needed <span class="pp">|</span></span>
+<span id="cb1-521"><a href="#cb1-521" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> summarise customer feedback <span class="pp">|</span> LLM <span class="pp">|</span> Natural language understanding needed <span class="pp">|</span></span>
 <span id="cb1-522"><a href="#cb1-522" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Fraud detection <span class="pp">|</span> Traditional ML <span class="pp">|</span> Speed and precision critical, not language <span class="pp">|</span></span>
 <span id="cb1-523"><a href="#cb1-523" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Generate product descriptions <span class="pp">|</span> LLM <span class="pp">|</span> Creative language generation <span class="pp">|</span></span>
-<span id="cb1-524"><a href="#cb1-524" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Optimize delivery routes <span class="pp">|</span> Traditional AI <span class="pp">|</span> Mathematical optimization, not language <span class="pp">|</span></span>
+<span id="cb1-524"><a href="#cb1-524" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> optimise delivery routes <span class="pp">|</span> Traditional AI <span class="pp">|</span> Mathematical optimisation, not language <span class="pp">|</span></span>
 <span id="cb1-525"><a href="#cb1-525" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Chatbot conversations <span class="pp">|</span> LLM <span class="pp">|</span> Natural dialogue needed <span class="pp">|</span></span>
 <span id="cb1-526"><a href="#cb1-526" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-527"><a href="#cb1-527" aria-hidden="true" tabindex="-1"></a>**Rule of thumb:**</span>
 <span id="cb1-528"><a href="#cb1-528" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-529"><a href="#cb1-529" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Use traditional AI** when you need: speed, precision, mathematical optimization, simple classification</span>
+<span id="cb1-529"><a href="#cb1-529" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Use traditional AI** when you need: speed, precision, mathematical optimisation, simple classification</span>
 <span id="cb1-530"><a href="#cb1-530" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Use LLMs** when you need: natural language understanding, generation, summarization, or explanation</span>
 <span id="cb1-531"><a href="#cb1-531" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-532"><a href="#cb1-532" aria-hidden="true" tabindex="-1"></a>---</span>
@@ -2410,7 +2599,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-708"><a href="#cb1-708" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-709"><a href="#cb1-709" aria-hidden="true" tabindex="-1"></a><span class="fu">### **Fine-Tuned Models**</span></span>
 <span id="cb1-710"><a href="#cb1-710" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-711"><a href="#cb1-711" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>LLMs customized for specific companies/industries</span>
+<span id="cb1-711"><a href="#cb1-711" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>LLMs customised for specific companies/industries</span>
 <span id="cb1-712"><a href="#cb1-712" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Trained on your data, your style, your terminology</span>
 <span id="cb1-713"><a href="#cb1-713" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use: Brand-specific writing, specialized technical support</span>
 <span id="cb1-714"><a href="#cb1-714" aria-hidden="true" tabindex="-1"></a></span>
@@ -2466,7 +2655,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-764"><a href="#cb1-764" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-765"><a href="#cb1-765" aria-hidden="true" tabindex="-1"></a><span class="fu">## Summary: Five Key Takeaways</span></span>
 <span id="cb1-766"><a href="#cb1-766" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-767"><a href="#cb1-767" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**LLMs are "autocomplete on steroids"** - They predict likely next words based on massive training, which lets them write, explain, summarize, and converse.</span>
+<span id="cb1-767"><a href="#cb1-767" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**LLMs are "autocomplete on steroids"** - They predict likely next words based on massive training, which lets them write, explain, summarise, and converse.</span>
 <span id="cb1-768"><a href="#cb1-768" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-769"><a href="#cb1-769" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**They're great at language tasks, not everything** - Use for writing, summarization, Q&amp;A, translation. Don't use for math, current events, or critical factual accuracy without verification.</span>
 <span id="cb1-770"><a href="#cb1-770" aria-hidden="true" tabindex="-1"></a></span>
@@ -2483,7 +2672,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-781"><a href="#cb1-781" aria-hidden="true" tabindex="-1"></a>**Before the masterclass:**</span>
 <span id="cb1-782"><a href="#cb1-782" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-783"><a href="#cb1-783" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Try an LLM yourself (ChatGPT, Claude, or Gemini)</span>
-<span id="cb1-784"><a href="#cb1-784" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Ask it to explain something, write something, summarize something</span>
+<span id="cb1-784"><a href="#cb1-784" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Ask it to explain something, write something, summarise something</span>
 <span id="cb1-785"><a href="#cb1-785" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Notice where it's helpful and where it's not</span>
 <span id="cb1-786"><a href="#cb1-786" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Think about one task at your work that might benefit</span>
 <span id="cb1-787"><a href="#cb1-787" aria-hidden="true" tabindex="-1"></a></span>

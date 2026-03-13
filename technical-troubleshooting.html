@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>22&nbsp; Technical Troubleshooting and Risk Management – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -401,6 +576,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -585,7 +761,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Space out requests over time</li>
 <li>Use multiple accounts if appropriate</li>
-<li>Optimize prompts to reduce unnecessary requests</li>
+<li>optimise prompts to reduce unnecessary requests</li>
 <li>Batch similar requests together</li>
 </ul></li>
 </ol>
@@ -618,7 +794,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Start fresh conversations for new topics</li>
 <li>Use project-specific conversations</li>
-<li>Summarize key points for context retention</li>
+<li>summarise key points for context retention</li>
 <li>Export important conversations regularly</li>
 </ul></li>
 <li><strong>Content Filtering:</strong>
@@ -824,7 +1000,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><strong>Geopolitical complexity:</strong> AI may not understand current trade restrictions or conflicts</li>
 <li><strong>Real-time data gaps:</strong> Supply chain information changes rapidly</li>
-<li><strong>Multi-factor optimization:</strong> May oversimplify complex logistical constraints</li>
+<li><strong>Multi-factor optimisation:</strong> May oversimplify complex logistical constraints</li>
 <li><strong>Regional variations:</strong> May not account for local infrastructure differences</li>
 </ul>
 </section>
@@ -1006,7 +1182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Accessibility features:</strong> AI tools that support various disabilities</li>
 <li><strong>Alternative interfaces:</strong> Text-based, voice-based, or visual options</li>
 <li><strong>Assistive technology integration:</strong> Compatibility with screen readers and other tools</li>
-<li><strong>Individual accommodations:</strong> Customized solutions for specific needs</li>
+<li><strong>Individual accommodations:</strong> customised solutions for specific needs</li>
 </ul>
 <hr>
 </section>
@@ -1096,6 +1272,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1677,7 +1866,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Rate Limiting:**</span>
 <span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Space out requests over time</span>
 <span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Use multiple accounts if appropriate</span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Optimize prompts to reduce unnecessary requests</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>optimise prompts to reduce unnecessary requests</span>
 <span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Batch similar requests together</span>
 <span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Advanced Troubleshooting</span></span>
@@ -1698,7 +1887,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Conversation Management:**</span>
 <span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Start fresh conversations for new topics</span>
 <span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Use project-specific conversations</span>
-<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Summarize key points for context retention</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>summarise key points for context retention</span>
 <span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Export important conversations regularly</span>
 <span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Content Filtering:**</span>
@@ -1840,7 +2029,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Common Issues</span></span>
 <span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Geopolitical complexity:** AI may not understand current trade restrictions or conflicts</span>
 <span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Real-time data gaps:** Supply chain information changes rapidly</span>
-<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Multi-factor optimization:** May oversimplify complex logistical constraints</span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Multi-factor optimisation:** May oversimplify complex logistical constraints</span>
 <span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Regional variations:** May not account for local infrastructure differences</span>
 <span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Mitigation Strategies</span></span>
@@ -1963,7 +2152,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-404"><a href="#cb1-404" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Accessibility features:** AI tools that support various disabilities</span>
 <span id="cb1-405"><a href="#cb1-405" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Alternative interfaces:** Text-based, voice-based, or visual options</span>
 <span id="cb1-406"><a href="#cb1-406" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Assistive technology integration:** Compatibility with screen readers and other tools</span>
-<span id="cb1-407"><a href="#cb1-407" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Individual accommodations:** Customized solutions for specific needs</span>
+<span id="cb1-407"><a href="#cb1-407" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Individual accommodations:** customised solutions for specific needs</span>
 <span id="cb1-408"><a href="#cb1-408" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-409"><a href="#cb1-409" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-410"><a href="#cb1-410" aria-hidden="true" tabindex="-1"></a></span>

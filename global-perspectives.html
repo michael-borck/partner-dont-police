@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>24&nbsp; Global Perspectives and Adaptation – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -399,6 +574,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -560,7 +736,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><strong>Mobile learning:</strong> Leapfrogging desktop technology to mobile solutions</li>
 <li><strong>Open source solutions:</strong> Free and open AI tools to reduce cost barriers</li>
-<li><strong>Adaptive technologies:</strong> Customized solutions for local contexts</li>
+<li><strong>Adaptive technologies:</strong> customised solutions for local contexts</li>
 <li><strong>International collaboration:</strong> Partnerships with better-resourced institutions</li>
 </ul>
 <hr>
@@ -599,7 +775,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td><strong>Feedback</strong></td>
 <td>Direct criticism— explicit improvement areas</td>
 <td>Indirect suggestions— face-saving approaches</td>
-<td>Train AI to recognize cultural feedback patterns</td>
+<td>Train AI to recognise cultural feedback patterns</td>
 </tr>
 <tr class="odd">
 <td><strong>Decision-making</strong></td>
@@ -659,7 +835,7 @@ Include cultural context and indirect communication patterns.</code></pre>
 </ul>
 <p><strong>Prompt Examples:</strong></p>
 <p><strong>High Power Distance:</strong></p>
-<pre><code>You are a senior manager in a hierarchical organization.
+<pre><code>You are a senior manager in a hierarchical organisation.
 
 Communicate this decision to your team:
 - Acknowledge your authority and responsibility
@@ -669,7 +845,7 @@ Communicate this decision to your team:
 
 Consider cultural expectations about leadership and authority.</code></pre>
 <p><strong>Low Power Distance:</strong></p>
-<pre><code>You are a team leader in a collaborative organization.
+<pre><code>You are a team leader in a collaborative organisation.
 
 Discuss this decision with your team:
 - Encourage open discussion and feedback
@@ -1052,8 +1228,8 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 <li><strong>Cultural experts:</strong> Consult with cultural specialists and community leaders</li>
 </ul>
 </section>
-<section id="step-3-customization-development" class="level4" data-number="24.6.1.3">
-<h4 data-number="24.6.1.3" class="anchored" data-anchor-id="step-3-customization-development"><span class="header-section-number">24.6.1.3</span> Step 3: Customization Development</h4>
+<section id="step-3-customisation-development" class="level4" data-number="24.6.1.3">
+<h4 data-number="24.6.1.3" class="anchored" data-anchor-id="step-3-customisation-development"><span class="header-section-number">24.6.1.3</span> Step 3: customisation Development</h4>
 <ul>
 <li><strong>Content adaptation:</strong> Modify examples and scenarios for local context</li>
 <li><strong>Platform selection:</strong> Choose AI tools appropriate for local infrastructure</li>
@@ -1236,6 +1412,19 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1800,7 +1989,7 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 <span id="cb15-101"><a href="#cb15-101" aria-hidden="true" tabindex="-1"></a><span class="fu">#### AI Integration Opportunities</span></span>
 <span id="cb15-102"><a href="#cb15-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Mobile learning:** Leapfrogging desktop technology to mobile solutions</span>
 <span id="cb15-103"><a href="#cb15-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Open source solutions:** Free and open AI tools to reduce cost barriers</span>
-<span id="cb15-104"><a href="#cb15-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Adaptive technologies:** Customized solutions for local contexts</span>
+<span id="cb15-104"><a href="#cb15-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Adaptive technologies:** customised solutions for local contexts</span>
 <span id="cb15-105"><a href="#cb15-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**International collaboration:** Partnerships with better-resourced institutions</span>
 <span id="cb15-106"><a href="#cb15-106" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-107"><a href="#cb15-107" aria-hidden="true" tabindex="-1"></a>---</span>
@@ -1814,7 +2003,7 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 <span id="cb15-115"><a href="#cb15-115" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Cultural Dimension <span class="pp">|</span> Low-Context Examples <span class="pp">|</span> High-Context Examples <span class="pp">|</span> AI Adaptation Strategies <span class="pp">|</span></span>
 <span id="cb15-116"><a href="#cb15-116" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|---|</span></span>
 <span id="cb15-117"><a href="#cb15-117" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Communication** <span class="pp">|</span> Direct--- explicit--- detailed <span class="pp">|</span> Indirect--- nuanced--- relationship-based <span class="pp">|</span> Prompt for cultural context awareness <span class="pp">|</span></span>
-<span id="cb15-118"><a href="#cb15-118" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Feedback** <span class="pp">|</span> Direct criticism--- explicit improvement areas <span class="pp">|</span> Indirect suggestions--- face-saving approaches <span class="pp">|</span> Train AI to recognize cultural feedback patterns <span class="pp">|</span></span>
+<span id="cb15-118"><a href="#cb15-118" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Feedback** <span class="pp">|</span> Direct criticism--- explicit improvement areas <span class="pp">|</span> Indirect suggestions--- face-saving approaches <span class="pp">|</span> Train AI to recognise cultural feedback patterns <span class="pp">|</span></span>
 <span id="cb15-119"><a href="#cb15-119" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Decision-making** <span class="pp">|</span> Individual--- quick--- explicit <span class="pp">|</span> Group-based--- consensus-seeking <span class="pp">|</span> Include stakeholder consultation scenarios <span class="pp">|</span></span>
 <span id="cb15-120"><a href="#cb15-120" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Conflict resolution** <span class="pp">|</span> Direct confrontation--- legal frameworks <span class="pp">|</span> Mediation--- relationship preservation <span class="pp">|</span> Design culturally appropriate resolution scenarios <span class="pp">|</span></span>
 <span id="cb15-121"><a href="#cb15-121" aria-hidden="true" tabindex="-1"></a></span>
@@ -1862,7 +2051,7 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 <span id="cb15-163"><a href="#cb15-163" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-164"><a href="#cb15-164" aria-hidden="true" tabindex="-1"></a>**High Power Distance:**</span>
 <span id="cb15-165"><a href="#cb15-165" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb15-166"><a href="#cb15-166" aria-hidden="true" tabindex="-1"></a><span class="in">You are a senior manager in a hierarchical organization.</span></span>
+<span id="cb15-166"><a href="#cb15-166" aria-hidden="true" tabindex="-1"></a><span class="in">You are a senior manager in a hierarchical organisation.</span></span>
 <span id="cb15-167"><a href="#cb15-167" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-168"><a href="#cb15-168" aria-hidden="true" tabindex="-1"></a><span class="in">Communicate this decision to your team:</span></span>
 <span id="cb15-169"><a href="#cb15-169" aria-hidden="true" tabindex="-1"></a><span class="in">- Acknowledge your authority and responsibility</span></span>
@@ -1875,7 +2064,7 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 <span id="cb15-176"><a href="#cb15-176" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-177"><a href="#cb15-177" aria-hidden="true" tabindex="-1"></a>**Low Power Distance:**</span>
 <span id="cb15-178"><a href="#cb15-178" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb15-179"><a href="#cb15-179" aria-hidden="true" tabindex="-1"></a><span class="in">You are a team leader in a collaborative organization.</span></span>
+<span id="cb15-179"><a href="#cb15-179" aria-hidden="true" tabindex="-1"></a><span class="in">You are a team leader in a collaborative organisation.</span></span>
 <span id="cb15-180"><a href="#cb15-180" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-181"><a href="#cb15-181" aria-hidden="true" tabindex="-1"></a><span class="in">Discuss this decision with your team:</span></span>
 <span id="cb15-182"><a href="#cb15-182" aria-hidden="true" tabindex="-1"></a><span class="in">- Encourage open discussion and feedback</span></span>
@@ -2170,7 +2359,7 @@ Provide culturally appropriate tourism examples and implementation strategies.</
 <span id="cb15-471"><a href="#cb15-471" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Industry partnership:** Connect with local businesses and organisations</span>
 <span id="cb15-472"><a href="#cb15-472" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Cultural experts:** Consult with cultural specialists and community leaders</span>
 <span id="cb15-473"><a href="#cb15-473" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-474"><a href="#cb15-474" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Step 3: Customization Development</span></span>
+<span id="cb15-474"><a href="#cb15-474" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Step 3: customisation Development</span></span>
 <span id="cb15-475"><a href="#cb15-475" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Content adaptation:** Modify examples and scenarios for local context</span>
 <span id="cb15-476"><a href="#cb15-476" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Platform selection:** Choose AI tools appropriate for local infrastructure</span>
 <span id="cb15-477"><a href="#cb15-477" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Assessment design:** Align evaluation with local educational standards</span>

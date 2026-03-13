@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>16&nbsp; Designing an AI-Integrated Unit – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -433,6 +608,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -740,7 +916,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>How to spot AI errors</li>
 <li>When AI oversimplifies</li>
-<li>Recognizing bias in AI outputs</li>
+<li>recognising bias in AI outputs</li>
 </ul>
 </section>
 <section id="week-9-professional-ethics" class="level3" data-number="16.6.4">
@@ -938,7 +1114,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-number="16.12" class="anchored" data-anchor-id="cross-discipline-unit-design-examples"><span class="header-section-number">16.12</span> Cross-Discipline Unit Design Examples</h2>
 <p>The backwards design approach can be adapted for any business discipline. Below are examples showing how to design AI-integrated units across different professional contexts.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="unit-digital-marketing-strategy-and-analytics" class="level3" data-number="16.12.1">
@@ -946,7 +1122,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Learning Outcomes (AI-Neutral):</strong> 1. Analyse market data and consumer behaviour patterns 2. Develop data-driven marketing strategies and campaigns 3. Evaluate campaign performance using analytics frameworks 4. Communicate marketing insights to diverse stakeholders 5. Apply ethical considerations in digital marketing practices 6. Demonstrate critical evaluation of marketing technology tools</p>
 <p><strong>Assessment Structure:</strong> - <strong>Assessment 1 (25%):</strong> Market Analysis Simulation - Students conduct AI stakeholder consultation to gather requirements, submit analysis + process audit - <strong>Assessment 2 (40%):</strong> Campaign Strategy Portfolio - Students design multi-channel campaign using AI for competitor analysis and creative ideation, with critical evaluation of AI recommendations - <strong>Assessment 3 (35%):</strong> Campaign Performance Analysis - Students evaluate real campaign data using AI for initial insights, then provide critical analysis and strategic recommendations</p>
 <p><strong>Weekly Progression Example:</strong> - <strong>Weeks 1-2:</strong> Consumer behaviour theory + AI prompt basics (market research scenarios) - <strong>Weeks 3-4:</strong> Analytics frameworks + AI data analysis practice (campaign metrics evaluation) - <strong>Weeks 5-6:</strong> Assessment 1 - Stakeholder consultation simulation - <strong>Weeks 7-8:</strong> Creative strategy + AI ideation tools (campaign concept generation) - <strong>Weeks 9-10:</strong> Digital channels + AI competitor analysis (strategy development) - <strong>Weeks 11-12:</strong> Assessment 2 - Strategy portfolio + performance analysis preparation - <strong>Week 13:</strong> Assessment 3 - Critical evaluation of marketing analytics</p>
-<p><strong>Key AI Integration Points:</strong> - Consumer persona development and validation - Competitor analysis and market trend identification - Campaign performance prediction and optimization recommendations - Creative concept evaluation and stakeholder feedback simulation</p>
+<p><strong>Key AI Integration Points:</strong> - Consumer persona development and validation - Competitor analysis and market trend identification - Campaign performance prediction and optimisation recommendations - Creative concept evaluation and stakeholder feedback simulation</p>
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
@@ -970,10 +1146,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <section id="unit-strategic-hospitality-management" class="level3" data-number="16.12.4">
 <h3 data-number="16.12.4" class="anchored" data-anchor-id="unit-strategic-hospitality-management"><span class="header-section-number">16.12.4</span> Unit: Strategic Hospitality Management</h3>
-<p><strong>Learning Outcomes (AI-Neutral):</strong> 1. Analyse hospitality market trends and competitive dynamics 2. Develop customer experience strategies and service innovations 3. Apply revenue management and operational optimization techniques 4. Evaluate service quality and customer satisfaction metrics 5. Demonstrate cultural competence in global hospitality contexts 6. Design sustainable and ethical hospitality practices</p>
+<p><strong>Learning Outcomes (AI-Neutral):</strong> 1. Analyse hospitality market trends and competitive dynamics 2. Develop customer experience strategies and service innovations 3. Apply revenue management and operational optimisation techniques 4. Evaluate service quality and customer satisfaction metrics 5. Demonstrate cultural competence in global hospitality contexts 6. Design sustainable and ethical hospitality practices</p>
 <p><strong>Assessment Structure:</strong> - <strong>Assessment 1 (25%):</strong> Guest Experience Consultation - Students conduct AI guest/stakeholder consultation to understand service expectations, submit analysis + process audit - <strong>Assessment 2 (40%):</strong> Service Innovation Portfolio - Students design comprehensive service improvement strategy using AI for trend analysis and idea generation, with critical evaluation of AI recommendations - <strong>Assessment 3 (35%):</strong> Operational Strategy Report - Students analyse hospitality performance data using AI for initial insights, then provide strategic recommendations and implementation plans</p>
-<p><strong>Weekly Progression Example:</strong> - <strong>Weeks 1-2:</strong> Hospitality fundamentals + AI prompt basics (service quality assessment) - <strong>Weeks 3-4:</strong> Customer experience theory + AI feedback analysis practice (sentiment and trend analysis) - <strong>Weeks 5-6:</strong> Assessment 1 - Guest consultation simulation - <strong>Weeks 7-8:</strong> Revenue management + AI pricing optimization (demand forecasting and dynamic pricing) - <strong>Weeks 9-10:</strong> Service innovation + AI trend analysis (market opportunity identification) - <strong>Weeks 11-12:</strong> Assessment 2 - Innovation portfolio + strategy development preparation - <strong>Week 13:</strong> Assessment 3 - Operational strategy and performance optimization</p>
-<p><strong>Key AI Integration Points:</strong> - Customer sentiment analysis and experience mapping - Revenue optimization and demand forecasting - Competitive intelligence and market trend analysis - Service innovation ideation and concept validation</p>
+<p><strong>Weekly Progression Example:</strong> - <strong>Weeks 1-2:</strong> Hospitality fundamentals + AI prompt basics (service quality assessment) - <strong>Weeks 3-4:</strong> Customer experience theory + AI feedback analysis practice (sentiment and trend analysis) - <strong>Weeks 5-6:</strong> Assessment 1 - Guest consultation simulation - <strong>Weeks 7-8:</strong> Revenue management + AI pricing optimisation (demand forecasting and dynamic pricing) - <strong>Weeks 9-10:</strong> Service innovation + AI trend analysis (market opportunity identification) - <strong>Weeks 11-12:</strong> Assessment 2 - Innovation portfolio + strategy development preparation - <strong>Week 13:</strong> Assessment 3 - Operational strategy and performance optimisation</p>
+<p><strong>Key AI Integration Points:</strong> - Customer sentiment analysis and experience mapping - Revenue optimisation and demand forecasting - Competitive intelligence and market trend analysis - Service innovation ideation and concept validation</p>
 </section>
 </div>
 <div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
@@ -1063,6 +1239,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1930,7 +2119,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-404"><a href="#cb11-404" aria-hidden="true" tabindex="-1"></a><span class="fu">### Week 7: Critical Evaluation</span></span>
 <span id="cb11-405"><a href="#cb11-405" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to spot AI errors</span>
 <span id="cb11-406"><a href="#cb11-406" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>When AI oversimplifies</span>
-<span id="cb11-407"><a href="#cb11-407" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognizing bias in AI outputs</span>
+<span id="cb11-407"><a href="#cb11-407" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>recognising bias in AI outputs</span>
 <span id="cb11-408"><a href="#cb11-408" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-409"><a href="#cb11-409" aria-hidden="true" tabindex="-1"></a><span class="fu">### Week 9: Professional Ethics</span></span>
 <span id="cb11-410"><a href="#cb11-410" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Accountability when using AI tools</span>
@@ -2131,7 +2320,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-605"><a href="#cb11-605" aria-hidden="true" tabindex="-1"></a>**Key AI Integration Points:**</span>
 <span id="cb11-606"><a href="#cb11-606" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Consumer persona development and validation</span>
 <span id="cb11-607"><a href="#cb11-607" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Competitor analysis and market trend identification</span>
-<span id="cb11-608"><a href="#cb11-608" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Campaign performance prediction and optimization recommendations</span>
+<span id="cb11-608"><a href="#cb11-608" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Campaign performance prediction and optimisation recommendations</span>
 <span id="cb11-609"><a href="#cb11-609" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Creative concept evaluation and stakeholder feedback simulation</span>
 <span id="cb11-610"><a href="#cb11-610" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-611"><a href="#cb11-611" aria-hidden="true" tabindex="-1"></a><span class="fu">## Accounting</span></span>
@@ -2205,7 +2394,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-679"><a href="#cb11-679" aria-hidden="true" tabindex="-1"></a>**Learning Outcomes (AI-Neutral):**</span>
 <span id="cb11-680"><a href="#cb11-680" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Analyse hospitality market trends and competitive dynamics</span>
 <span id="cb11-681"><a href="#cb11-681" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Develop customer experience strategies and service innovations</span>
-<span id="cb11-682"><a href="#cb11-682" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Apply revenue management and operational optimization techniques</span>
+<span id="cb11-682"><a href="#cb11-682" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Apply revenue management and operational optimisation techniques</span>
 <span id="cb11-683"><a href="#cb11-683" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Evaluate service quality and customer satisfaction metrics</span>
 <span id="cb11-684"><a href="#cb11-684" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Demonstrate cultural competence in global hospitality contexts</span>
 <span id="cb11-685"><a href="#cb11-685" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Design sustainable and ethical hospitality practices</span>
@@ -2219,14 +2408,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-693"><a href="#cb11-693" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 1-2:** Hospitality fundamentals + AI prompt basics (service quality assessment)</span>
 <span id="cb11-694"><a href="#cb11-694" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 3-4:** Customer experience theory + AI feedback analysis practice (sentiment and trend analysis)</span>
 <span id="cb11-695"><a href="#cb11-695" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 5-6:** Assessment 1 - Guest consultation simulation</span>
-<span id="cb11-696"><a href="#cb11-696" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 7-8:** Revenue management + AI pricing optimization (demand forecasting and dynamic pricing)</span>
+<span id="cb11-696"><a href="#cb11-696" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 7-8:** Revenue management + AI pricing optimisation (demand forecasting and dynamic pricing)</span>
 <span id="cb11-697"><a href="#cb11-697" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 9-10:** Service innovation + AI trend analysis (market opportunity identification)</span>
 <span id="cb11-698"><a href="#cb11-698" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Weeks 11-12:** Assessment 2 - Innovation portfolio + strategy development preparation</span>
-<span id="cb11-699"><a href="#cb11-699" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Week 13:** Assessment 3 - Operational strategy and performance optimization</span>
+<span id="cb11-699"><a href="#cb11-699" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Week 13:** Assessment 3 - Operational strategy and performance optimisation</span>
 <span id="cb11-700"><a href="#cb11-700" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-701"><a href="#cb11-701" aria-hidden="true" tabindex="-1"></a>**Key AI Integration Points:**</span>
 <span id="cb11-702"><a href="#cb11-702" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Customer sentiment analysis and experience mapping</span>
-<span id="cb11-703"><a href="#cb11-703" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Revenue optimization and demand forecasting</span>
+<span id="cb11-703"><a href="#cb11-703" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Revenue optimisation and demand forecasting</span>
 <span id="cb11-704"><a href="#cb11-704" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Competitive intelligence and market trend analysis</span>
 <span id="cb11-705"><a href="#cb11-705" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Service innovation ideation and concept validation</span>
 <span id="cb11-706"><a href="#cb11-706" aria-hidden="true" tabindex="-1"></a></span>

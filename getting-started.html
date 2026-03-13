@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>5&nbsp; Getting Started - Your First AI Conversation – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -399,6 +574,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Getting Started - Your First AI Conversation</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -456,7 +632,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>In Word</strong>: A chat panel opens on the right side,draft paragraphs, get feedback, revise</li>
 <li><strong>In Excel</strong>: Analyse data, create formulas, visualize patterns</li>
 <li><strong>In PowerPoint</strong>: Generate slides, refine content, create speaker notes</li>
-<li><strong>In Outlook</strong>: Draft emails, organise content, summarize threads</li>
+<li><strong>In Outlook</strong>: Draft emails, organise content, summarise threads</li>
 <li><strong>In Teams</strong>: Access Copilot in chats and meetings for real-time assistance</li>
 </ul>
 <p>This integration means you can work directly in your document while AI assists,no copying/pasting between windows.</p>
@@ -593,7 +769,7 @@ Result: AI output based on both prompts combined</code></pre>
 <h2 data-number="5.5" class="anchored" data-anchor-id="your-second-prompt-the-powerful-version"><span class="header-section-number">5.5</span> Your Second Prompt: The Powerful Version</h2>
 <p>Now try this. Copy and paste the prompt that matches your discipline:</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Business &amp; Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Management</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Human Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Supply Chain &amp; Logistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Accounting &amp; Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Economics</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Business &amp; Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Management</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Human Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Supply Chain &amp; Logistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Accounting &amp; Finance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Economics</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <pre><code>You are an expert marketing lecturer at a university level.
@@ -653,7 +829,7 @@ Begin.</code></pre>
 I need you to create a case study for my undergraduate students that will help them practice supply chain decision-making under uncertainty.
 
 Here are the requirements:
-- The scenario should involve a supply disruption or network optimization challenge
+- The scenario should involve a supply disruption or network optimisation challenge
 - Include enough detail that students need to identify which supply chain principles apply
 - The scenario should be 300-400 words
 - End with three discussion questions requiring students to analyse trade-offs and resilience strategies
@@ -818,7 +994,7 @@ Begin.</code></pre>
 <p>“You are a hotel general manager managing service delivery” or “You are a guest services trainer improving customer experience”</p>
 </div>
 <div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
-<p>“You are a supply chain manager handling network optimization” or “You are a logistics director managing disruption”</p>
+<p>“You are a supply chain manager handling network optimisation” or “You are a logistics director managing disruption”</p>
 </div>
 <div id="tabset-3-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-6-tab">
 <p>“You are an IT project manager implementing enterprise systems” or “You are a systems analyst gathering requirements”</p>
@@ -1007,7 +1183,7 @@ Begin.</code></pre>
 <ul>
 <li>Generate demand disruption scenarios with trade-offs</li>
 <li>Create a supplier negotiation dialogue students must evaluate</li>
-<li>Draft an inventory optimization problem with constraints</li>
+<li>Draft an inventory optimisation problem with constraints</li>
 <li>Write a logistics crisis scenario requiring real-time decisions</li>
 </ul>
 </div>
@@ -1049,7 +1225,7 @@ Begin.</code></pre>
 <li>Creates consistent, well-structured text</li>
 <li>Role-plays different perspectives convincingly</li>
 <li>Provides frameworks and outlines</li>
-<li>Analyzes text against criteria you define</li>
+<li>analyses text against criteria you define</li>
 </ul>
 </section>
 <section id="what-ai-doesnt-do" class="level3" data-number="5.8.2">
@@ -1327,6 +1503,19 @@ AI OUTPUT: [Classroom activity structured for your timing]</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1831,7 +2020,7 @@ AI OUTPUT: [Classroom activity structured for your timing]</code></pre>
 <span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**In Word**: A chat panel opens on the right side,draft paragraphs, get feedback, revise</span>
 <span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**In Excel**: Analyse data, create formulas, visualize patterns</span>
 <span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**In PowerPoint**: Generate slides, refine content, create speaker notes</span>
-<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**In Outlook**: Draft emails, organise content, summarize threads</span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**In Outlook**: Draft emails, organise content, summarise threads</span>
 <span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**In Teams**: Access Copilot in chats and meetings for real-time assistance</span>
 <span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a>This integration means you can work directly in your document while AI assists,no copying/pasting between windows.</span>
@@ -2036,7 +2225,7 @@ AI OUTPUT: [Classroom activity structured for your timing]</code></pre>
 <span id="cb18-246"><a href="#cb18-246" aria-hidden="true" tabindex="-1"></a><span class="in">I need you to create a case study for my undergraduate students that will help them practice supply chain decision-making under uncertainty.</span></span>
 <span id="cb18-247"><a href="#cb18-247" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-248"><a href="#cb18-248" aria-hidden="true" tabindex="-1"></a><span class="in">Here are the requirements:</span></span>
-<span id="cb18-249"><a href="#cb18-249" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should involve a supply disruption or network optimization challenge</span></span>
+<span id="cb18-249"><a href="#cb18-249" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should involve a supply disruption or network optimisation challenge</span></span>
 <span id="cb18-250"><a href="#cb18-250" aria-hidden="true" tabindex="-1"></a><span class="in">- Include enough detail that students need to identify which supply chain principles apply</span></span>
 <span id="cb18-251"><a href="#cb18-251" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should be 300-400 words</span></span>
 <span id="cb18-252"><a href="#cb18-252" aria-hidden="true" tabindex="-1"></a><span class="in">- End with three discussion questions requiring students to analyse trade-offs and resilience strategies</span></span>
@@ -2184,7 +2373,7 @@ AI OUTPUT: [Classroom activity structured for your timing]</code></pre>
 <span id="cb18-394"><a href="#cb18-394" aria-hidden="true" tabindex="-1"></a>"You are a hotel general manager managing service delivery" or "You are a guest services trainer improving customer experience"</span>
 <span id="cb18-395"><a href="#cb18-395" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-396"><a href="#cb18-396" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
-<span id="cb18-397"><a href="#cb18-397" aria-hidden="true" tabindex="-1"></a>"You are a supply chain manager handling network optimization" or "You are a logistics director managing disruption"</span>
+<span id="cb18-397"><a href="#cb18-397" aria-hidden="true" tabindex="-1"></a>"You are a supply chain manager handling network optimisation" or "You are a logistics director managing disruption"</span>
 <span id="cb18-398"><a href="#cb18-398" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-399"><a href="#cb18-399" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
 <span id="cb18-400"><a href="#cb18-400" aria-hidden="true" tabindex="-1"></a>"You are an IT project manager implementing enterprise systems" or "You are a systems analyst gathering requirements"</span>
@@ -2422,7 +2611,7 @@ AI OUTPUT: [Classroom activity structured for your timing]</code></pre>
 <span id="cb18-632"><a href="#cb18-632" aria-hidden="true" tabindex="-1"></a><span class="fu">## Supply Chain &amp; Logistics</span></span>
 <span id="cb18-633"><a href="#cb18-633" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Generate demand disruption scenarios with trade-offs</span>
 <span id="cb18-634"><a href="#cb18-634" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Create a supplier negotiation dialogue students must evaluate</span>
-<span id="cb18-635"><a href="#cb18-635" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Draft an inventory optimization problem with constraints</span>
+<span id="cb18-635"><a href="#cb18-635" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Draft an inventory optimisation problem with constraints</span>
 <span id="cb18-636"><a href="#cb18-636" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Write a logistics crisis scenario requiring real-time decisions</span>
 <span id="cb18-637"><a href="#cb18-637" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-638"><a href="#cb18-638" aria-hidden="true" tabindex="-1"></a><span class="fu">## Information Systems</span></span>
@@ -2456,7 +2645,7 @@ AI OUTPUT: [Classroom activity structured for your timing]</code></pre>
 <span id="cb18-666"><a href="#cb18-666" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Creates consistent, well-structured text</span>
 <span id="cb18-667"><a href="#cb18-667" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Role-plays different perspectives convincingly</span>
 <span id="cb18-668"><a href="#cb18-668" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Provides frameworks and outlines</span>
-<span id="cb18-669"><a href="#cb18-669" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analyzes text against criteria you define</span>
+<span id="cb18-669"><a href="#cb18-669" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>analyses text against criteria you define</span>
 <span id="cb18-670"><a href="#cb18-670" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-671"><a href="#cb18-671" aria-hidden="true" tabindex="-1"></a><span class="fu">### What AI Doesn't Do:</span></span>
 <span id="cb18-672"><a href="#cb18-672" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Understand context the way humans do</span>

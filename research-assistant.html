@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines">
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
 <title>19&nbsp; The Research Assistant (Postgraduate Focus) – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
@@ -75,10 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +114,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,6 +301,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -339,6 +508,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -431,6 +606,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">The Research Assistant (Postgraduate Focus)</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
@@ -459,7 +635,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="the-core-principle-ai-for-process-human-for-insight" class="level2" data-number="19.2">
 <h2 data-number="19.2" class="anchored" data-anchor-id="the-core-principle-ai-for-process-human-for-insight"><span class="header-section-number">19.2</span> The Core Principle: AI for Process, Human for Insight</h2>
-<p>AI can accelerate research <strong>processes</strong>: - Finding relevant literature - Summarizing large volumes of text - Identifying patterns in qualitative data - Checking methodology against standards - Improving writing clarity</p>
+<p>AI can accelerate research <strong>processes</strong>: - Finding relevant literature - summarising large volumes of text - Identifying patterns in qualitative data - Checking methodology against standards - Improving writing clarity</p>
 <p>AI cannot replace research <strong>insight</strong>: - Identifying significant gaps in knowledge - Developing novel theoretical frameworks - Making original arguments - Synthesizing across disciplines creatively - Evaluating quality and credibility of sources deeply</p>
 <p><strong>The skill we’re teaching:</strong> Know when each applies.</p>
 <hr>
@@ -530,7 +706,7 @@ in remote work.</code></pre>
 <section id="teaching-students-appropriate-literature-review-with-ai" class="level3" data-number="19.3.4">
 <h3 data-number="19.3.4" class="anchored" data-anchor-id="teaching-students-appropriate-literature-review-with-ai"><span class="header-section-number">19.3.4</span> Teaching Students Appropriate Literature Review with AI</h3>
 <p><strong>Assignment: Annotated Bibliography with AI Audit</strong></p>
-<p><strong>Student Process:</strong> 1. Use AI to identify 30 potentially relevant sources 2. Read abstracts and select 15 most relevant 3. Read all 15 sources fully 4. Write annotated bibliography (150 words per source): - Summary of contribution - Theoretical framework used - Methodology - Relevance to research question - Critical evaluation (strengths/limitations) 5. <strong>AI Audit Section:</strong> - Ask AI to summarize 3 of the same sources - Compare AI’s summary to your own - Write 300 words: What did AI get right? What did it miss? What did it oversimplify?</p>
+<p><strong>Student Process:</strong> 1. Use AI to identify 30 potentially relevant sources 2. Read abstracts and select 15 most relevant 3. Read all 15 sources fully 4. Write annotated bibliography (150 words per source): - Summary of contribution - Theoretical framework used - Methodology - Relevance to research question - Critical evaluation (strengths/limitations) 5. <strong>AI Audit Section:</strong> - Ask AI to summarise 3 of the same sources - Compare AI’s summary to your own - Write 300 words: What did AI get right? What did it miss? What did it oversimplify?</p>
 <p><strong>What this teaches:</strong> - Efficient source discovery (AI strength) - Critical reading and evaluation (human strength) - Awareness of AI’s limitations in scholarly work</p>
 <hr>
 </section>
@@ -692,7 +868,7 @@ Evaluate:
 <p><strong>Problematic 1: AI-written sections</strong></p>
 <p>Students paste AI-generated prose into their thesis without engagement.</p>
 <p><strong>How to detect:</strong> - AI-generated academic writing often uses generic phrases (“in today’s rapidly changing world,” “it is widely acknowledged that”) - Lacks specific engagement with the student’s own data or sources - Voice/style shifts noticeably between sections</p>
-<p><strong>How to prevent:</strong> - Use the transparency model (Chapter 5),students acknowledge AI use and submit revision history - Assess through oral defense where students must explain their arguments - Focus assessment on originality of thinking, not just quality of prose</p>
+<p><strong>How to prevent:</strong> - Use the transparency model (Chapter 5),students acknowledge AI use and submit revision history - Assess through oral defence where students must explain their arguments - Focus assessment on originality of thinking, not just quality of prose</p>
 <hr>
 <p><strong>Problematic 2: Trusting AI citations</strong></p>
 <p>AI frequently hallucinates citations,inventing papers that don’t exist or misattributing real papers.</p>
@@ -906,7 +1082,7 @@ Evaluate:
 <h2 data-number="19.12" class="anchored" data-anchor-id="cross-discipline-applications-research-assistant-adaptations"><span class="header-section-number">19.12</span> Cross-Discipline Applications: Research Assistant Adaptations</h2>
 <p>The research assistant applications can be adapted for postgraduate research across different business disciplines. Below are examples showing how to implement these approaches in various professional contexts.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Marketing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Accounting</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Business Analytics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Tourism &amp; Hospitality</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Information Systems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Management</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="literature-review-applications" class="level3" data-number="19.12.1">
@@ -1025,7 +1201,7 @@ Do not write a literature review—give me a research landscape map.</code></pre
 <p><strong>AI-Assisted Refinement:</strong></p>
 <pre><code>PROMPT: Analytics Research Question Refinement
 
-My broad topic is predictive modelling for supply chain optimization. My draft question: "How accurate are machine learning models for demand forecasting?"
+My broad topic is predictive modelling for supply chain optimisation. My draft question: "How accurate are machine learning models for demand forecasting?"
 
 Help me refine by:
 1. Clarifying what "accuracy" means (metrics, business impact?)
@@ -1146,7 +1322,7 @@ Suggest potential themes emerging from this interview sample. This is preliminar
 <div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
 <section id="literature-review-applications-5" class="level3" data-number="19.12.16">
 <h3 data-number="19.12.16" class="anchored" data-anchor-id="literature-review-applications-5"><span class="header-section-number">19.12.16</span> Literature Review Applications</h3>
-<p><strong>Discipline-Specific Considerations:</strong> - Management literature spans organisational behavior, strategy, leadership, and change management - Need to integrate theoretical frameworks with practical management applications - Emphasis on contextual factors and organisational dynamics</p>
+<p><strong>Discipline-Specific Considerations:</strong> - Management literature spans organisational behaviour, strategy, leadership, and change management - Need to integrate theoretical frameworks with practical management applications - Emphasis on contextual factors and organisational dynamics</p>
 <p><strong>Appropriate AI Use Examples:</strong></p>
 <pre><code>PROMPT: Management Literature Exploration
 
@@ -1209,7 +1385,7 @@ Suggest potential themes emerging from this survey sample. This is preliminary�
 <section id="discipline-specific-ai-literacy" class="level3" data-number="19.13.2">
 <h3 data-number="19.13.2" class="anchored" data-anchor-id="discipline-specific-ai-literacy"><span class="header-section-number">19.13.2</span> Discipline-Specific AI Literacy</h3>
 <p><strong>Technical Disciplines (Accounting, IT, Analytics):</strong> - Emphasize verification of technical claims and calculations - Teach identification of AI hallucinations in technical content - Focus on professional standards and regulatory compliance</p>
-<p><strong>Behavioral Disciplines (Marketing, Hospitality, Management):</strong> - Emphasize contextual interpretation and cultural sensitivity - Teach evaluation of AI’s understanding of human behaviour - Focus on practical application and stakeholder implications</p>
+<p><strong>behavioural Disciplines (Marketing, Hospitality, Management):</strong> - Emphasize contextual interpretation and cultural sensitivity - Teach evaluation of AI’s understanding of human behaviour - Focus on practical application and stakeholder implications</p>
 <p><strong>Creative Disciplines (Marketing, Management):</strong> - Emphasize subjective judgment and professional expertise - Teach critical evaluation of AI recommendations in creative contexts - Focus on integration of theoretical and practical knowledge</p>
 </section>
 <section id="postgraduate-assessment-design" class="level3" data-number="19.13.3">
@@ -1259,10 +1435,10 @@ Format as a professional research document with:
 </section>
 <section id="scenario-2-data-analysis-powerpoint-presentation" class="level4" data-number="19.15.2.2">
 <h4 data-number="19.15.2.2" class="anchored" data-anchor-id="scenario-2-data-analysis-powerpoint-presentation"><span class="header-section-number">19.15.2.2</span> <strong>Scenario 2: Data Analysis → PowerPoint Presentation</strong></h4>
-<p>For research students presenting findings (thesis defense, research seminar, conference):</p>
+<p>For research students presenting findings (thesis defence, research seminar, conference):</p>
 <pre><code>I've completed analysis of [research data: survey results, statistical
 analysis, case study findings]. Create a PowerPoint presentation (15-20
-slides) suitable for [context: thesis defense / research seminar /
+slides) suitable for [context: thesis defence / research seminar /
 conference presentation] that includes:
 
 1. Title slide with research question
@@ -1377,6 +1553,19 @@ research quality, which is the actual learning objective.</code></pre>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -1854,7 +2043,7 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>AI can accelerate research **processes**:</span>
 <span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Finding relevant literature</span>
-<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Summarizing large volumes of text</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>summarising large volumes of text</span>
 <span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Identifying patterns in qualitative data</span>
 <span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Checking methodology against standards</span>
 <span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Improving writing clarity</span>
@@ -1990,7 +2179,7 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-150"><a href="#cb32-150" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Relevance to research question</span>
 <span id="cb32-151"><a href="#cb32-151" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Critical evaluation (strengths/limitations)</span>
 <span id="cb32-152"><a href="#cb32-152" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**AI Audit Section:**</span>
-<span id="cb32-153"><a href="#cb32-153" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Ask AI to summarize 3 of the same sources</span>
+<span id="cb32-153"><a href="#cb32-153" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Ask AI to summarise 3 of the same sources</span>
 <span id="cb32-154"><a href="#cb32-154" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Compare AI's summary to your own</span>
 <span id="cb32-155"><a href="#cb32-155" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Write 300 words: What did AI get right? What did it miss? What did it oversimplify?</span>
 <span id="cb32-156"><a href="#cb32-156" aria-hidden="true" tabindex="-1"></a></span>
@@ -2237,7 +2426,7 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-397"><a href="#cb32-397" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-398"><a href="#cb32-398" aria-hidden="true" tabindex="-1"></a>**How to prevent:**</span>
 <span id="cb32-399"><a href="#cb32-399" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use the transparency model (Chapter 5),students acknowledge AI use and submit revision history</span>
-<span id="cb32-400"><a href="#cb32-400" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Assess through oral defense where students must explain their arguments</span>
+<span id="cb32-400"><a href="#cb32-400" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Assess through oral defence where students must explain their arguments</span>
 <span id="cb32-401"><a href="#cb32-401" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Focus assessment on originality of thinking, not just quality of prose</span>
 <span id="cb32-402"><a href="#cb32-402" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-403"><a href="#cb32-403" aria-hidden="true" tabindex="-1"></a>---</span>
@@ -2643,7 +2832,7 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-803"><a href="#cb32-803" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb32-804"><a href="#cb32-804" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT: Analytics Research Question Refinement</span></span>
 <span id="cb32-805"><a href="#cb32-805" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-806"><a href="#cb32-806" aria-hidden="true" tabindex="-1"></a><span class="in">My broad topic is predictive modelling for supply chain optimization. My draft question: "How accurate are machine learning models for demand forecasting?"</span></span>
+<span id="cb32-806"><a href="#cb32-806" aria-hidden="true" tabindex="-1"></a><span class="in">My broad topic is predictive modelling for supply chain optimisation. My draft question: "How accurate are machine learning models for demand forecasting?"</span></span>
 <span id="cb32-807"><a href="#cb32-807" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-808"><a href="#cb32-808" aria-hidden="true" tabindex="-1"></a><span class="in">Help me refine by:</span></span>
 <span id="cb32-809"><a href="#cb32-809" aria-hidden="true" tabindex="-1"></a><span class="in">1. Clarifying what "accuracy" means (metrics, business impact?)</span></span>
@@ -2830,7 +3019,7 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-990"><a href="#cb32-990" aria-hidden="true" tabindex="-1"></a><span class="fu">### Literature Review Applications</span></span>
 <span id="cb32-991"><a href="#cb32-991" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-992"><a href="#cb32-992" aria-hidden="true" tabindex="-1"></a>**Discipline-Specific Considerations:**</span>
-<span id="cb32-993"><a href="#cb32-993" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Management literature spans organisational behavior, strategy, leadership, and change management</span>
+<span id="cb32-993"><a href="#cb32-993" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Management literature spans organisational behaviour, strategy, leadership, and change management</span>
 <span id="cb32-994"><a href="#cb32-994" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Need to integrate theoretical frameworks with practical management applications</span>
 <span id="cb32-995"><a href="#cb32-995" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Emphasis on contextual factors and organisational dynamics</span>
 <span id="cb32-996"><a href="#cb32-996" aria-hidden="true" tabindex="-1"></a></span>
@@ -2926,7 +3115,7 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-1086"><a href="#cb32-1086" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Teach identification of AI hallucinations in technical content</span>
 <span id="cb32-1087"><a href="#cb32-1087" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Focus on professional standards and regulatory compliance</span>
 <span id="cb32-1088"><a href="#cb32-1088" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-1089"><a href="#cb32-1089" aria-hidden="true" tabindex="-1"></a>**Behavioral Disciplines (Marketing, Hospitality, Management):**</span>
+<span id="cb32-1089"><a href="#cb32-1089" aria-hidden="true" tabindex="-1"></a>**behavioural Disciplines (Marketing, Hospitality, Management):**</span>
 <span id="cb32-1090"><a href="#cb32-1090" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Emphasize contextual interpretation and cultural sensitivity</span>
 <span id="cb32-1091"><a href="#cb32-1091" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Teach evaluation of AI's understanding of human behaviour</span>
 <span id="cb32-1092"><a href="#cb32-1092" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Focus on practical application and stakeholder implications</span>
@@ -3005,12 +3194,12 @@ research quality, which is the actual learning objective.</code></pre>
 <span id="cb32-1165"><a href="#cb32-1165" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-1166"><a href="#cb32-1166" aria-hidden="true" tabindex="-1"></a><span class="fu">#### **Scenario 2: Data Analysis → PowerPoint Presentation**</span></span>
 <span id="cb32-1167"><a href="#cb32-1167" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb32-1168"><a href="#cb32-1168" aria-hidden="true" tabindex="-1"></a>For research students presenting findings (thesis defense, research seminar, conference):</span>
+<span id="cb32-1168"><a href="#cb32-1168" aria-hidden="true" tabindex="-1"></a>For research students presenting findings (thesis defence, research seminar, conference):</span>
 <span id="cb32-1169"><a href="#cb32-1169" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-1170"><a href="#cb32-1170" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb32-1171"><a href="#cb32-1171" aria-hidden="true" tabindex="-1"></a><span class="in">I've completed analysis of [research data: survey results, statistical</span></span>
 <span id="cb32-1172"><a href="#cb32-1172" aria-hidden="true" tabindex="-1"></a><span class="in">analysis, case study findings]. Create a PowerPoint presentation (15-20</span></span>
-<span id="cb32-1173"><a href="#cb32-1173" aria-hidden="true" tabindex="-1"></a><span class="in">slides) suitable for [context: thesis defense / research seminar /</span></span>
+<span id="cb32-1173"><a href="#cb32-1173" aria-hidden="true" tabindex="-1"></a><span class="in">slides) suitable for [context: thesis defence / research seminar /</span></span>
 <span id="cb32-1174"><a href="#cb32-1174" aria-hidden="true" tabindex="-1"></a><span class="in">conference presentation] that includes:</span></span>
 <span id="cb32-1175"><a href="#cb32-1175" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb32-1176"><a href="#cb32-1176" aria-hidden="true" tabindex="-1"></a><span class="in">1. Title slide with research question</span></span>
