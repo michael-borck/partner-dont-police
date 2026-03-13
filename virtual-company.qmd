@@ -108,7 +108,7 @@ I will begin the meeting now.
 - Conducting a fair, unbiased investigation interview
 - Asking open-ended questions
 - Identifying when additional perspectives are needed
-- Recognizing the difference between perception and fact
+- recognising the difference between perception and fact
 - Avoiding premature conclusions
 
 **Assessment Focus:**
@@ -118,7 +118,7 @@ Did the student:
 - Ask questions that elicited Jamie's full perspective?
 - Avoid leading questions or showing bias toward the complainant?
 - Identify what other information is needed (interviewing Priya, reviewing policies, checking documentation)?
-- Recognize the underlying issues (inadequate management training, unclear performance standards)?
+- recognise the underlying issues (inadequate management training, unclear performance standards)?
 
 ---
 
@@ -211,7 +211,7 @@ I will begin now.
 You are the external HR Consultant. You must:
 
 1. **Conduct individual interviews** with all four stakeholders (Jamie, Priya, David, Sarah)
-2. **Analyze the evidence** from all perspectives
+2. **analyse the evidence** from all perspectives
 3. **Write an investigation report** that includes:
    - Summary of each person's account
    - Analysis of factual discrepancies
@@ -222,7 +222,7 @@ You are the external HR Consultant. You must:
 **What This Teaches:**
 - Managing complex investigations with conflicting accounts
 - Identifying bias in different perspectives
-- Recognizing systemic issues (weak management processes) vs. individual problems
+- recognising systemic issues (weak management processes) vs. individual problems
 - Balancing fairness to all parties
 - Synthesizing multiple data sources
 
@@ -230,7 +230,7 @@ You are the external HR Consultant. You must:
 Each persona will give a different version of events. Students must:
 
 - Identify what's factual vs. interpretive
-- Recognize what information is missing
+- recognise what information is missing
 - Ask probing questions to uncover hidden context
 - Avoid prematurely siding with one party
 
@@ -537,7 +537,7 @@ Stay in character. Begin now.
 **Sequential Assignment Structure:**
 - **Month 1-2:** Initial data assessment and dashboard design
 - **Month 3-4:** Customer segmentation analysis and campaign recommendations
-- **Month 5-6:** Performance tracking and optimization recommendations
+- **Month 5-6:** Performance tracking and optimisation recommendations
 - **Month 7:** Final presentation to executive team
 
 **Example Persistent Context Injection:**
@@ -550,7 +550,7 @@ Month 2: You completed customer segmentation analysis identifying 5 key personas
 
 Month 3: Campaign results show 40% lift in engagement for Persona A but only 15% for Persona B. Executive team questions the segmentation accuracy.
 
-Month 4 (NOW): You're preparing optimization recommendations. The marketing budget for next quarter depends on demonstrating ROI from your analytics work.
+Month 4 (NOW): You're preparing optimisation recommendations. The marketing budget for next quarter depends on demonstrating ROI from your analytics work.
 
 Use this context in your responses. Remember previous discussions about data quality, segmentation methodology, and campaign performance.
 ```
@@ -588,7 +588,7 @@ All personas should reflect increased stress, fatigue, and the pressure of maint
 | 3-4 | Peak season begins | Service quality monitoring and complaint resolution |
 | 5-6 | External event impact | Crisis management and resource allocation |
 | 7-8 | Post-event recovery | Customer retention and staff morale initiatives |
-| 9-10 | Off-season transition | Cost optimization and strategic planning |
+| 9-10 | Off-season transition | Cost optimisation and strategic planning |
 
 **Learning Focus:**
 - Crisis management in hospitality
@@ -599,7 +599,7 @@ All personas should reflect increased stress, fatigue, and the pressure of maint
 ## Information Systems
 
 ### Multi-Level Integration
-**Context:** An IT department managing a major system implementation across the organization.
+**Context:** An IT department managing a major system implementation across the organisation.
 
 **Level 1 Setup:**
 ```
@@ -620,7 +620,7 @@ The new portal system is behind schedule. Clinical staff are resisting training,
 AMANDA'S PERSONA:
 - Collaborative but decisive
 - Values clinical input but understands technical constraints
-- Will advocate for patients but recognizes business realities
+- Will advocate for patients but recognises business realities
 - Responds well to data-driven change management plans
 
 YOUR ROLE:
@@ -710,7 +710,7 @@ Stay in character. Begin now.
 - **IT:** Begin with system implementation challenges
 - **Management:** Start with operational decision-making
 
-**Assessment Customization:**
+**Assessment customisation:**
 Adapt the grading rubric to emphasize discipline-specific competencies while maintaining core HR/management skills like communication, analysis, and stakeholder management.
 
 ---

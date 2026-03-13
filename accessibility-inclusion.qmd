@@ -15,7 +15,7 @@ AI integration in education creates new opportunities but also new barriers. Thi
 | Traditional Accessibility | AI-Enhanced Accessibility |
 |---|---|
 | **Physical access** - Ramps--- elevators--- accessible seating | **Digital access** - Device availability--- internet connectivity--- platform compatibility |
-| **Sensory accommodations** - Screen readers--- captioning--- sign language | **AI accommodations** - Alternative input methods--- output customization--- cognitive load management |
+| **Sensory accommodations** - Screen readers--- captioning--- sign language | **AI accommodations** - Alternative input methods--- output customisation--- cognitive load management |
 | **Learning support** - Note-takers--- extended time--- alternative formats | **AI support** - Prompt assistance--- output adaptation--- personalised learning pathways |
 | **Social inclusion** - Diverse perspectives--- inclusive language | **AI inclusion** - Bias mitigation--- cultural responsiveness--- multiple representation |
 
@@ -161,7 +161,7 @@ Use visual descriptions and avoid references to "listen to this" or "as I mentio
 - **Alternative input methods:** Voice control, eye tracking, or adaptive devices
 - **Interface simplification:** Reduce clicks and complex navigation
 - **Session management:** Allow breaks and save conversation progress
-- **Customizable interfaces:** Adjustable text size, button placement, and interaction methods
+- **customisable interfaces:** Adjustable text size, button placement, and interaction methods
 
 ### Cognitive Disabilities
 
@@ -198,14 +198,14 @@ Use simple language and avoid complex sentences.
 
 #### Challenges
 - **Reading comprehension:** AI-generated text may be dense or complex
-- **Writing organization:** Difficulty structuring responses to AI prompts
+- **Writing organisation:** Difficulty structuring responses to AI prompts
 - **Information synthesis:** Combining AI input with own knowledge
 - **Time management:** Extended AI interactions may require sustained focus
 
 #### Solutions
 - **Reading support:** Text-to-speech, adjustable text size, highlighting
 - **Writing assistance:** Voice input, word prediction, grammar support
-- **Information organization:** Tools for structuring and synthesizing content
+- **Information organisation:** Tools for structuring and synthesizing content
 - **Flexible timing:** Allow extended time for AI-based assignments
 
 ---
@@ -261,7 +261,7 @@ Use simple language and avoid complex sentences.
 ### Language Diversity
 
 #### Multilingual Support
-- **Non-native English speakers:** AI tools primarily optimized for English
+- **Non-native English speakers:** AI tools primarily optimised for English
 - **Translation quality:** AI translation may miss nuances or cultural context
 - **Code-switching:** Students who mix languages may face interface challenges
 - **Dialect variations:** Regional language differences may not be supported
@@ -349,7 +349,7 @@ Consider that English may not be my first language and avoid complex idioms or c
 #### Reactive Support
 - **Help desk:** Technical support for AI accessibility issues
 - **Alternative assignments:** Quick deployment of non-AI options when needed
-- **Individual accommodations:** Customized solutions for specific barriers
+- **Individual accommodations:** customised solutions for specific barriers
 - **Crisis response:** Rapid response to major accessibility failures
 
 ### Faculty Development

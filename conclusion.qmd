@@ -178,7 +178,7 @@ How will you know if your AI integration is working?
 
 **Institutional impact:**
 - AI integration becomes standard practice in HR programs
-- Your university recognizes this as teaching innovation
+- Your university recognises this as teaching innovation
 - The approach influences accreditation or curriculum design discussions
 
 ---
@@ -278,7 +278,7 @@ Graduates enter workplaces confident with AI tools, critical of AI limitations, 
 
 **This is the future we're building.**
 
-Not a future where AI replaces professionals, but where business professionals across all disciplines use AI skillfully and ethically to do their work better,to serve people, organizations, and society more effectively.
+Not a future where AI replaces professionals, but where business professionals across all disciplines use AI skillfully and ethically to do their work better,to serve people, organisations, and society more effectively.
 
 ---
 

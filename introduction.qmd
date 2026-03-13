@@ -31,7 +31,7 @@ You can teach HR processes and employment law, but you can't easily let students
 You can teach customer service theory and hospitality principles, but you can't easily let students handle demanding guests, manage service recovery in real scenarios, or navigate cultural differences in hospitality contexts. You can't create dozens of authentic customer interaction scenarios.
 
 ## Supply Chain & Logistics
-You can teach supply chain theory and optimization models, but you can't easily let students experience demand disruptions, supplier failures, or make real-time logistics decisions with uncertain information. You can't scale practice in crisis management across complex networks.
+You can teach supply chain theory and optimisation models, but you can't easily let students experience demand disruptions, supplier failures, or make real-time logistics decisions with uncertain information. You can't scale practice in crisis management across complex networks.
 
 ## Information Systems
 You can teach systems analysis and project management methodology, but you can't easily let students elicit requirements from difficult stakeholders, manage scope creep in projects, or navigate technical trade-offs under pressure. You can't give them safe practice with implementation challenges.
@@ -240,7 +240,7 @@ In the real world, professionals across all business disciplines will use AI too
 Marketing professionals use AI for market analysis and competitive intelligence. Our job is to teach students to validate AI-generated insights, question assumptions, and maintain ethical judgment about data usage.
 
 ## Management
-Managers use AI for organisational analysis and decision support. Our job is to teach students to recognize biases in AI recommendations, involve human stakeholders, and maintain accountability.
+Managers use AI for organisational analysis and decision support. Our job is to teach students to recognise biases in AI recommendations, involve human stakeholders, and maintain accountability.
 
 ## Human Resources
 HR professionals use AI for recruitment, scheduling, and employee analytics. Our job is to teach students to identify bias, maintain privacy, and ensure fair and legal practices.
@@ -249,7 +249,7 @@ HR professionals use AI for recruitment, scheduling, and employee analytics. Our
 Hospitality professionals use AI for revenue management and customer analytics. Our job is to teach students to balance automation with personalisation and maintain service quality.
 
 ## Supply Chain & Logistics
-Supply chain professionals use AI for forecasting and optimization. Our job is to teach students to validate AI recommendations against real constraints and maintain supply chain resilience.
+Supply chain professionals use AI for forecasting and optimisation. Our job is to teach students to validate AI recommendations against real constraints and maintain supply chain resilience.
 
 ## Information Systems
 IT professionals use AI for code generation, systems analysis, and automation. Our job is to teach students to review AI outputs, maintain security and quality, and understand when to override automation.

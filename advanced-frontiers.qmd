@@ -7,7 +7,7 @@ The previous chapters teach you to work with AI tools directly,writing prompts, 
 But there's a next level: **setting up AI to work semi-autonomously**.
 
 Imagine:
-- A system that automatically generates customized quizzes from your lecture notes
+- A system that automatically generates customised quizzes from your lecture notes
 - An agent that reviews student work and creates personalised learning guides
 - An automation workflow that transforms your PowerPoint into interactive learning objects
 - A tool that escalates to you only when human judgment is needed, handling routine tasks itself
@@ -290,7 +290,7 @@ Microsoft is building "Copilot Agents",AI agents with specific skills integrated
 - **Document processing agent** - Scans course materials, extracts key concepts, generates study materials
 - **Assignment analysis agent** - Reviews student work, identifies common misconceptions, suggests interventions
 - **Content generation agent** - Transforms static documents into interactive HTML and multimedia
-- **Grading assistant agent** - Analyzes student responses, calculates scores, flags edge cases for your review
+- **Grading assistant agent** - analyses student responses, calculates scores, flags edge cases for your review
 
 **How to get started:**
 1. Access Copilot in your MS products (Word, PowerPoint, etc.)
@@ -400,7 +400,7 @@ With Automation:
   - New uploads → Generate summary → Archive
   - Student submission → Run AI analysis → Create report
 
-**n8n** (Advanced, customizable)
+**n8n** (Advanced, customisable)
 - Open-source, more powerful
 - Good for complex workflows
 - Requires more setup
@@ -435,7 +435,7 @@ Trigger: Student submits assignment via Blackboard
 Workflow:
 1. Automation grabs submission
 2. Extracts key sections using AI
-3. Analyzes against rubric using AI
+3. analyses against rubric using AI
 4. Identifies strengths and improvement areas
 5. Generates personalised feedback comments
 6. Posts feedback to Blackboard
@@ -566,7 +566,7 @@ Workflow:
 ```
 1. Record your lecture (video or audio)
 2. AI transcribes it
-3. AI summarizes key points
+3. AI summarises key points
 4. AI generates quiz questions from transcript
 5. Students have: transcript, summary, quiz, original recording
 
@@ -576,7 +576,7 @@ Time saved: Hours of manual transcription/summarization
 
 Tools:
 - NotebookLM (processes audio files)
-- Copilot (can summarize recordings)
+- Copilot (can summarise recordings)
 - Otter.ai (specialized audio transcription)
 - YouTube auto-captions (free, surprisingly good)
 
@@ -689,7 +689,7 @@ What it does:
 
 ### New Tools Appearing Constantly
 
-By the time you read this, new platforms will exist. Rather than catalog them (outdated quickly), here's how to evaluate emerging tools.
+By the time you read this, new platforms will exist. Rather than catalogue them (outdated quickly), here's how to evaluate emerging tools.
 
 **Evaluation Framework:**
 
@@ -802,7 +802,7 @@ As AI capabilities expand, you'll encounter new tools and possibilities. Some ar
 - **Automatic slide generation** - Upload notes, AI creates professionally formatted slides with layouts, transitions, speaker notes
 - **Automated video creation** - AI generates educational videos from scripts, with animations, voiceover, captions
 - **Automatic script writing** - AI writes entire video scripts from course outlines
-- **Transcript generation** - Lectures automatically transcribed and summarized
+- **Transcript generation** - Lectures automatically transcribed and summarised
 
 **Current state:**
 - These tools exist and are improving rapidly
@@ -811,7 +811,7 @@ As AI capabilities expand, you'll encounter new tools and possibilities. Some ar
 
 **Teaching questions to ask:**
 1. **Does this improve or replace my teaching?**
-   -  Good use: AI generates draft slides that you customize for your voice/style
+   -  Good use: AI generates draft slides that you customise for your voice/style
    -  Poor use: Uploading your content and using auto-generated output without review
 
 2. **Do students understand the content source?**
@@ -981,7 +981,7 @@ This chapter covers emerging territory. Some content may:
 **That's okay.**
 
 The goal isn't that you implement every technique. The goal is that you **understand what's possible** so you can:
-- Recognize opportunities in your work
+- recognise opportunities in your work
 - Evaluate new tools intelligently
 - Make informed decisions about what to adopt
 - Know what to explore when you have a real problem to solve

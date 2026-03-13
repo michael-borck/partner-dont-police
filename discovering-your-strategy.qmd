@@ -264,7 +264,7 @@ procedural knowledge.
 ### For Management Teaching
 ```
 You're an AI expert in management education. Ask me about my teaching context
-(organisational behavior, strategic management, HRM, operations, etc.) and my
+(organisational behaviour, strategic management, HRM, operations, etc.) and my
 students. Then recommend ways to use AI to develop leadership and decision-making
 skills in realistic contexts.
 ```

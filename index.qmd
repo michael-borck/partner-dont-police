@@ -54,7 +54,7 @@ Examples include recruitment workflows, performance management scenarios, employ
 Examples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.
 
 # Supply Chain & Logistics
-Examples include demand forecasting, inventory optimization, supplier negotiations, network design, and supply chain risk scenarios.
+Examples include demand forecasting, inventory optimisation, supplier negotiations, network design, and supply chain risk scenarios.
 
 # Information Systems
 Examples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.
@@ -84,7 +84,7 @@ Examples include economic modelling, policy analysis, market equilibrium scenari
 - Ethical frameworks: How to integrate AI responsibly and teach students to do the same in professional practice
 - Disciplinary examples: All major examples appear in **8 different business disciplines**
 - Complex prompts and detailed examples use **Quarto's tabbed interface** so readers can see their discipline's perspective
-- Customization guidance: How to adapt examples and approaches for different institutional contexts
+- customisation guidance: How to adapt examples and approaches for different institutional contexts
 
 ## Progressive Learning Structure
 
@@ -204,7 +204,7 @@ Examples include recruitment workflows, performance management scenarios, employ
 Examples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.
 
 # Supply Chain & Logistics
-Examples include demand forecasting, inventory optimization, supplier negotiations, network design, and supply chain risk scenarios.
+Examples include demand forecasting, inventory optimisation, supplier negotiations, network design, and supply chain risk scenarios.
 
 # Information Systems
 Examples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.

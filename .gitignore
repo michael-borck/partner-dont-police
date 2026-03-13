@@ -1,23 +1,46 @@
-# Quarto build files
-_book/
-.quarto/
+# Quarto
+/.quarto/
+/_book/
+/_freeze/
 .qmd-render/
+*_files/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# Editor files
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# Node (if using any JS tools)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Secrets
+.env
+.env.local
+*.key
+
+# Build artifacts
+*.log
+*.aux
+*.out
+*.toc
 
 # Temporary files
 *.tmp
 *.temp
+*.bak
 
-# Log files
-*.log
-/.quarto/
+# Quarto ipynb
 **/*.quarto_ipynb

@@ -208,7 +208,7 @@ This is your weakest area. You haven't applied any specific legal principles or 
 - Potential bullying claim under work health and safety legislation
 - Potential breach of the employer's duty of care
 
-You also need to reference the organization's obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.
+You also need to reference the organisation's obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.
 
 ---
 
@@ -597,7 +597,7 @@ Here is the student's draft:
 - Include both technical proficiency and professional judgment
 - Balance quantitative and qualitative assessment elements
 
-**AI Prompt Customization:**
+**AI Prompt customisation:**
 - Modify critique criteria to match professional standards
 - Include discipline-specific jargon and frameworks
 - Ensure feedback addresses both skill development and professional practice
@@ -674,7 +674,7 @@ In their professional careers, they'll have access to AI tools that can:
 - Analyse complex datasets and generate insights
 - Draft strategies, policies, and recommendations
 - Generate scenarios and simulations
-- Summarize regulations, standards, and best practices
+- summarise regulations, standards, and best practices
 - (discipline-specific applications too numerous to list)
 
 Your job isn't to prevent them from using these tools. It's to teach them:

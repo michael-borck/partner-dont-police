@@ -170,7 +170,7 @@ Using the transcript as evidence:
 - Did they ask appropriate questions?
 - Did they handle sensitive information properly?
 - Did they maintain professional boundaries?
-- Did they document appropriately (taking notes, summarizing agreements)?
+- Did they document appropriately (taking notes, summarising agreements)?
 
 **2. Quality of Reflective Analysis (40%)**
 
@@ -220,7 +220,7 @@ Students use AI to:
 
 - Identify patterns and anomalies
 - Generate hypotheses about causes of turnover
-- Summarize key findings
+- summarise key findings
 
 **AI Prompt They Use:**
 ```
@@ -374,7 +374,7 @@ They must:
 
 **Student Justification:**
 
-> "While the AI score of 8/10 recognizes the positive elements, it has missed several concerning gaps in this response:
+> "While the AI score of 8/10 recognises the positive elements, it has missed several concerning gaps in this response:
 >
 > 1. **Lack of specific behavioural detail**: The candidate says they 'explained' and 'offered support' but doesn't demonstrate *how* they delivered this feedback. What specific words did they use? How did they balance accountability with support? This vagueness suggests they might be embellishing or don't actually remember the details,a red flag in behavioural interviewing.
 >
@@ -392,7 +392,7 @@ They must:
 |---|---|---|
 | **Job Design Quality** | 15% | Legal compliance--- appropriateness of competencies--- clarity |
 | **Justification of Revisions** | 15% | Can they articulate why AI's version needed changes? |
-| **Interview Question Selection** | 15% | Do they recognize good vs. poor behavioural questions? |
+| **Interview Question Selection** | 15% | Do they recognise good vs. poor behavioural questions? |
 | **Rubric Design** | 15% | Is their scoring system measurable and fair? |
 | **Critical Override** | 30% | Most important---do they demonstrate judgment superior to AI? |
 | **Theoretical Integration** | 10% | Have they applied knowledge of bias--- human behaviour--- legal principles? |

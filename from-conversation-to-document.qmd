@@ -339,7 +339,7 @@ Include speaker notes with detailed explanations for each theme.
 - Professional research communication
 
 **Critical teaching point:**
-"AI helps us with the time-intensive parts,transcription, initial theme identification, organization. But YOU are the researcher. You review the themes AI identified, decide if they're accurate, select the quotes that matter, and interpret what they mean. The AI is your research assistant, not your research."
+"AI helps us with the time-intensive parts,transcription, initial theme identification, organisation. But YOU are the researcher. You review the themes AI identified, decide if they're accurate, select the quotes that matter, and interpret what they mean. The AI is your research assistant, not your research."
 
 ### Discipline-Specific Examples
 
@@ -445,7 +445,7 @@ I'll download this and edit as needed.
 #### **Brief/Summary Documents**
 
 ```
-Create a one-page executive brief (250-300 words) summarizing:
+Create a one-page executive brief (250-300 words) summarising:
 - Situation/Context
 - Key Issue
 - Recommendation
@@ -625,11 +625,11 @@ findings in a professional report.
 
 #### Supply Chain & Logistics
 **Scenario**: Students analyse supplier network data, create presentation
-for supply chain optimization decision.
+for supply chain optimisation decision.
 
 **Workflow**:
 1. Students provide supplier data
-2. AI analyses performance, identifies risks, suggests optimization
+2. AI analyses performance, identifies risks, suggests optimisation
 3. AI creates presentation with recommendations
 4. Students present to class as supply chain team
 
@@ -781,7 +781,7 @@ Process Documentation (10%)
 ```
 Instead of: "Create a report analysing this data"
 
-Try: "Analyze this data with AI's help, then submit:
+Try: "analyse this data with AI's help, then submit:
 1. Your conversation with AI (showing your questions and thinking)
 2. The final report or presentation
 3. A 500-word reflection: What did you discover? How did AI help?
@@ -806,7 +806,7 @@ This shows thinking, not just output.
 
 ### **Supply Chain & Logistics**
 - Supplier data → Performance analysis → Supplier strategy presentation
-- Inventory data → Optimization analysis → Inventory strategy report
+- Inventory data → optimisation analysis → Inventory strategy report
 - Logistics data → Cost analysis → Cost reduction recommendations
 
 ### **Human Resources**

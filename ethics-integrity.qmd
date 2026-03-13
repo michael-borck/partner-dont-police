@@ -31,19 +31,19 @@ As a business educator across any discipline, you're not preparing students for 
 - Draft employment contracts and policies
 - Analyse workforce data and predict turnover
 - Generate interview questions and assessment criteria
-- Summarize complex legislation and case law
+- summarise complex legislation and case law
 
 ## Finance
 - Analyse financial statements and identify anomalies
 - Generate investment recommendations
 - Perform risk assessments and stress testing
-- Summarize regulatory requirements and tax implications
+- summarise regulatory requirements and tax implications
 - Forecast financial performance
 
 ## Supply Chain
-- Forecast demand and optimize inventory
+- Forecast demand and optimise inventory
 - Identify supplier risks and opportunities
-- Optimize logistics networks and routes
+- optimise logistics networks and routes
 - Analyse supply chain resilience
 - Generate sourcing recommendations
 
@@ -51,7 +51,7 @@ As a business educator across any discipline, you're not preparing students for 
 - Analyse customer data and segment audiences
 - Generate campaign strategies and content
 - Predict customer behaviour and preferences
-- Optimize pricing and promotional strategies
+- optimise pricing and promotional strategies
 - Analyse competitive positioning
 
 ## Information Systems
@@ -656,7 +656,7 @@ One of the most powerful ways to address integrity is to make it a learning obje
 
 ## Supply Chain: The Over-Reliance on Demand Forecasting
 
-> "You used AI to forecast demand and optimize inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.
+> "You used AI to forecast demand and optimise inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.
 >
 > Reflection questions:
 > 1. What assumptions might the AI have made incorrectly?
@@ -697,7 +697,7 @@ You may need to justify your approach to colleagues or administrators who are sk
 
 **Supporting evidence:**
 - Many universities are updating policies to allow appropriate AI use
-- Professional accreditation bodies are recognizing AI literacy as essential
+- Professional accreditation bodies are recognising AI literacy as essential
 - Employer expectations include ability to use AI tools responsibly
 
 ### Concern: "What if other lecturers don't agree?"
@@ -732,7 +732,7 @@ Position AI literacy as a graduate capability alongside communication, critical 
    - Knowing when to verify AI recommendations with subject matter experts
    - Documenting decision-making processes and AI role
 
-4. **Recognize bias and limitations**
+4. **recognise bias and limitations**
    - **HR:** Algorithmic bias in recruitment, performance, compensation
    - **Finance:** Bias in risk models, forecasting overconfidence
    - **Supply Chain:** Oversimplification of complex relationships, geopolitical blindspots
@@ -767,14 +767,14 @@ When your graduates enter the workforce across all business disciplines, they wi
 - AI-generated financial forecasts and analysis
 
 ## Supply Chain
-- AI demand forecasting and inventory optimization
+- AI demand forecasting and inventory optimisation
 - Algorithmic supplier selection and evaluation
-- Automated logistics optimization
+- Automated logistics optimisation
 - AI-driven supply chain risk assessment
 
 ## Marketing
 - AI-powered customer segmentation and targeting
-- Algorithmic campaign optimization
+- Algorithmic campaign optimisation
 - AI-generated content and recommendations
 - Automated personalisation at scale
 
@@ -908,7 +908,7 @@ Understanding these events through your discipline's lens makes them concrete an
 
 ### Grey Swan Events
 
-**Total Supply Chain Visibility Failure:** Over-reliance on AI-driven supply chain optimization creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.
+**Total Supply Chain Visibility Failure:** Over-reliance on AI-driven supply chain optimisation creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.
 
 **Autonomous Shipping Disruption:** Self-driving ships, trucks, and drones simultaneously experience a critical software failure or coordinated cyberattack, halting global logistics.
 
@@ -964,7 +964,7 @@ Understanding these events through your discipline's lens makes them concrete an
 
 ### Grey Swan Events
 
-**Experience Standardization Crisis:** AI optimization makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.
+**Experience Standardization Crisis:** AI optimisation makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.
 
 **Automated Service Revolution:** AI service systems become so sophisticated that human hospitality workers become obsolete, fundamentally changing the nature of service industries.
 
@@ -992,7 +992,7 @@ This framework helps students move beyond immediate ethical concerns to systemic
 #### Strategic Planning Simulations
 
 **Classroom Activity:**
-> "Your organization's board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies."
+> "Your organisation's board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies."
 
 #### Ethical Decision-Making Under Uncertainty
 

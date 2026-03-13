@@ -404,7 +404,7 @@ Across the semester, explicitly teach AI literacy:
 ### Week 7: Critical Evaluation
 - How to spot AI errors
 - When AI oversimplifies
-- Recognizing bias in AI outputs
+- recognising bias in AI outputs
 
 ### Week 9: Professional Ethics
 - Accountability when using AI tools
@@ -605,7 +605,7 @@ The backwards design approach can be adapted for any business discipline. Below 
 **Key AI Integration Points:**
 - Consumer persona development and validation
 - Competitor analysis and market trend identification
-- Campaign performance prediction and optimization recommendations
+- Campaign performance prediction and optimisation recommendations
 - Creative concept evaluation and stakeholder feedback simulation
 
 ## Accounting
@@ -679,7 +679,7 @@ The backwards design approach can be adapted for any business discipline. Below 
 **Learning Outcomes (AI-Neutral):**
 1. Analyse hospitality market trends and competitive dynamics
 2. Develop customer experience strategies and service innovations
-3. Apply revenue management and operational optimization techniques
+3. Apply revenue management and operational optimisation techniques
 4. Evaluate service quality and customer satisfaction metrics
 5. Demonstrate cultural competence in global hospitality contexts
 6. Design sustainable and ethical hospitality practices
@@ -693,14 +693,14 @@ The backwards design approach can be adapted for any business discipline. Below 
 - **Weeks 1-2:** Hospitality fundamentals + AI prompt basics (service quality assessment)
 - **Weeks 3-4:** Customer experience theory + AI feedback analysis practice (sentiment and trend analysis)
 - **Weeks 5-6:** Assessment 1 - Guest consultation simulation
-- **Weeks 7-8:** Revenue management + AI pricing optimization (demand forecasting and dynamic pricing)
+- **Weeks 7-8:** Revenue management + AI pricing optimisation (demand forecasting and dynamic pricing)
 - **Weeks 9-10:** Service innovation + AI trend analysis (market opportunity identification)
 - **Weeks 11-12:** Assessment 2 - Innovation portfolio + strategy development preparation
-- **Week 13:** Assessment 3 - Operational strategy and performance optimization
+- **Week 13:** Assessment 3 - Operational strategy and performance optimisation
 
 **Key AI Integration Points:**
 - Customer sentiment analysis and experience mapping
-- Revenue optimization and demand forecasting
+- Revenue optimisation and demand forecasting
 - Competitive intelligence and market trend analysis
 - Service innovation ideation and concept validation
 

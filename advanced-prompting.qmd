@@ -594,7 +594,7 @@ For comprehensive context management strategies, see **Chapter 6: Managing LLM C
 - Managing conversation length effectively
 - Explicit context specification
 - Batching similar tasks
-- Summarizing and handing off for extended projects
+- summarising and handing off for extended projects
 
 ---
 
@@ -631,7 +631,7 @@ The techniques in this appendix help you:
 - **Maintain professional standards** with persona control,reflecting expertise in your professional field
 - **Generate appropriate content** with constraints and boundaries,respecting discipline-specific ethical standards
 - **Create educational materials** with structured formatting,matching your discipline's learning outcomes
-- **Save time** with templates and patterns,customizable for your teaching context
+- **Save time** with templates and patterns,customisable for your teaching context
 
 **Remember:** The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students' professional preparation.
 

@@ -10,7 +10,7 @@ That's it. No magic. No consciousness. Just software that can do things that use
 
 When we say "intelligence," we mean things like:
 
-- **Recognizing patterns** - "This photo contains a dog"
+- **recognising patterns** - "This photo contains a dog"
 - **Making decisions** - "Approve this loan application"
 - **Understanding language** - "The customer is asking about returns"
 - **Predicting outcomes** - "This customer will probably buy this product"
@@ -81,8 +81,8 @@ THEN offer premium membership
 **Example:**
 You don't program rules for "what is a cat?" Instead:
 
-- Show it 10,000 photos labeled "cat"
-- Show it 10,000 photos labeled "not cat"
+- Show it 10,000 photos labelled "cat"
+- Show it 10,000 photos labelled "not cat"
 - It learns: "Cats have pointy ears, whiskers, this shape..."
 
 **Good for:**
@@ -112,7 +112,7 @@ Think of it like this:
 - **Layer 1:** Detects edges and lines in an image
 - **Layer 2:** Combines edges into shapes
 - **Layer 3:** Combines shapes into objects
-- **Layer 4:** Recognizes "this is a golden retriever puppy"
+- **Layer 4:** recognises "this is a golden retriever puppy"
 
 **Good for:**
 
@@ -150,7 +150,7 @@ Think of it like this:
 
 - Writing and editing
 - Answering questions
-- Summarizing documents
+- summarising documents
 - Explaining concepts
 - Generating content
 
@@ -189,7 +189,7 @@ Think of it like this:
 
 **Tasks with Clear Success Metrics**
 
-- Maximize clicks on ads
+- maximise clicks on ads
 - Minimise delivery time
 - Predict customer churn
 - Optimise pricing

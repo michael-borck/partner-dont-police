@@ -155,32 +155,32 @@ This transforms the AI output from an answer into a starting point for deeper an
 
 ## HR
 - "Compare different approaches to managing workplace conflict: mediation, formal grievance process, restorative justice. Evaluate each for speed, fairness, and relationship preservation."
-- "Analyze three different redundancy selection methods. What are the legal risks and ethical considerations of each?"
+- "analyse three different redundancy selection methods. What are the legal risks and ethical considerations of each?"
 - "What are the pros and cons of using AI-powered resume screening tools versus traditional human review?"
 
 ## Business & Marketing
 - "Compare different market entry strategies: direct investment, partnership, acquisition. Evaluate each for speed to market, cost, risk, and control."
-- "Analyze different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?"
+- "analyse different pricing strategies: penetration pricing, value-based pricing, competitive pricing. What are the trade-offs for market share, profitability, and customer perception?"
 - "What are the pros and cons of expanding through new products versus new markets?"
 
 ## Management
 - "Compare different organisational structures: functional, divisional, matrix, networked. Evaluate each for agility, accountability, and collaboration."
-- "Analyze different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?"
+- "analyse different change management approaches: top-down, participative, emergent. What are the trade-offs for speed, buy-in, and sustainability?"
 - "What are the pros and cons of different leadership models: directive, participative, delegative?"
 
 ## Supply Chain & Logistics
-- "Compare different supply chain strategies: make-to-stock, make-to-order, mass customization. Evaluate each for cost, responsiveness, and flexibility."
-- "Analyze different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?"
+- "Compare different supply chain strategies: make-to-stock, make-to-order, mass customisation. Evaluate each for cost, responsiveness, and flexibility."
+- "analyse different supplier relationship models: single-source, multi-source, supplier partnerships. What are the trade-offs for cost, quality, and resilience?"
 - "What are the pros and cons of vertical integration versus outsourcing key functions?"
 
 ## Information Systems
 - "Compare different systems implementation approaches: big bang, phased, modular. Evaluate each for speed, risk, and user adoption."
-- "Analyze different IT governance models: centralized, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?"
+- "analyse different IT governance models: centralised, decentralized, federated. What are the trade-offs for control, innovation, and efficiency?"
 - "What are the pros and cons of cloud-based versus on-premises systems?"
 
 ## Accounting & Finance
 - "Compare different valuation methods: discounted cash flow, comparable companies, precedent transactions. What are the pros and cons of each?"
-- "Analyze different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships."
+- "analyse different audit approaches: statistical sampling, risk-based audit, controls-based audit. Evaluate each for efficiency, effectiveness, and client relationships."
 - "What are the pros and cons of different capital structure options: debt, equity, retained earnings?"
 
 ## Economics
@@ -260,7 +260,7 @@ The student must actively engage with each step before progressing. This prevent
 ## Supply Chain & Logistics
 - "Walk me through designing a demand planning process. Pause after each step to explain the dependencies."
 - "Take me through establishing a supplier relationship from selection through strategic partnership. One step at a time."
-- "Show me the logistics network optimization process step by step, explaining decisions at each stage."
+- "Show me the logistics network optimisation process step by step, explaining decisions at each stage."
 
 ## Information Systems
 - "Walk me through a systems implementation project from requirements through go-live. Pause after each step."
@@ -501,7 +501,7 @@ Have each persona make their opening argument (3-4 sentences each). Then
 have them respond to each other's points. Continue the debate through three
 rounds until they need to make a recommendation to the CEO.
 
-After the debate, summarize the key tension points and what a compromise
+After the debate, summarise the key tension points and what a compromise
 policy might look like.
 
 Begin the debate.
@@ -529,7 +529,7 @@ This technique is perfect for **preparing students for case study exams**. Inste
 The AI generates unlimited practice questions, scenarios, or quizzes that students can use to test their knowledge and build confidence. This provides low-stakes repetition and immediate feedback,essential for skill development.
 
 ### Why It Works for HR
-Many HR competencies require both knowledge (legislation, theory) and application (recognizing situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.
+Many HR competencies require both knowledge (legislation, theory) and application (recognising situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.
 
 ### Use Case 1: Self-Testing Knowledge
 
@@ -790,7 +790,7 @@ Begin with Expert 1: Organisational Psychologist.
 **The AI creates three distinct voices:**
 
 **Organizational Psychologist:**
-> "The 35% turnover suggests a breakdown in psychological contract or poor person-organization fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."
+> "The 35% turnover suggests a breakdown in psychological contract or poor person-organisation fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."
 
 **Compensation Specialist:**
 > "At 35% turnover, you're likely seeing pay inequity or uncompetitive base/commission structures. Sales talent is mobile and market-driven. I recommend: (1) Conduct compensation benchmarking against competitors, (2) Analyse pay dispersion within the team, (3) Review commission structures for fairness and achievability..."

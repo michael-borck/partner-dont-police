@@ -309,7 +309,7 @@ Provide immediate response plan covering:
 You have 48 hours to act. Begin.
 ```
 
-**Optimization Challenge:**
+**optimisation Challenge:**
 ```
 Analyse this supply chain network for efficiency improvements:
 - Current bottlenecks
@@ -365,7 +365,7 @@ Begin your analysis.
 
 **Ethical Reasoning:**
 ```
-Present this accounting dilemma: "Your manager wants you to recognize revenue early to meet quarterly targets."
+Present this accounting dilemma: "Your manager wants you to recognise revenue early to meet quarterly targets."
 
 Analyse from:
 - Technical accounting standards
@@ -469,7 +469,7 @@ Design the full customer journey. Begin.
 Present this business policy: "[relevant policy]"
 
 You argue FOR this policy. I will argue AGAINST it.
-After 3 rounds, summarize strongest arguments from both sides.
+After 3 rounds, summarise strongest arguments from both sides.
 Then ask me to identify which arguments are most persuasive and why.
 ```
 

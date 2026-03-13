@@ -33,7 +33,7 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 **Deep Learning**: A subset of machine learning using neural networks with multiple layers to process complex patterns and data.
 
-**Dialogue-Based Assessment**: Assessment methods that evaluate student thinking through interactive conversations rather than static products.
+**dialogue-Based Assessment**: Assessment methods that evaluate student thinking through interactive conversations rather than static products.
 
 ## E
 

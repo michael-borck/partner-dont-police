@@ -270,8 +270,8 @@ Better: "Implement flexible work in accordance with Fair Work Act, with consiste
 
 ## Finance
 ```
-AI might write: "Optimize portfolio for maximum returns"
-Better: "Optimize portfolio within our risk tolerance, liquidity needs, and tax constraints"
+AI might write: "optimise portfolio for maximum returns"
+Better: "optimise portfolio within our risk tolerance, liquidity needs, and tax constraints"
 ```
 
 ## IT
@@ -453,7 +453,7 @@ In the next five years, professionals in every business discipline will work alo
 
 Employers will increasingly ask:
 - "How do you use AI in your work?"
-- "How do you ensure AI recommendations are appropriate for our organization?"
+- "How do you ensure AI recommendations are appropriate for our organisation?"
 - "Can you give an example of when you identified problems with an AI-generated solution?"
 
 Students who master the critique framework will have compelling answers to these questions. They'll demonstrate that they're not just AI users,they're AI-savvy professionals who can leverage technology while maintaining professional judgment and ethical standards.

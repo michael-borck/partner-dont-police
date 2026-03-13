@@ -49,7 +49,7 @@ Before you introduce AI to students, you need to be comfortable with it yourself
 ## Supply Chain & Logistics
 - Create demand disruption scenarios with multiple constraints
 - Generate supplier negotiation dialogues students must evaluate
-- Draft logistics network problems with optimization challenges
+- Draft logistics network problems with optimisation challenges
 
 ## Information Systems
 - Create stakeholder requirement scenarios with conflicting needs
@@ -181,7 +181,7 @@ Introduce AI as a **practice tool** for an upcoming assignment.
 > "For the service management case study due in Week 8, I've created an AI prompt that critiques your proposed solution against service recovery principles. Write your draft, paste with the prompt, and see what gaps the AI identifies. Optional, but helpful for thinking through guest experience holistically."
 
 ## Supply Chain & Logistics
-> "For the supply chain optimization problem due in Week 8, I've created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss."
+> "For the supply chain optimisation problem due in Week 8, I've created an AI analysis prompt that reviews your solution for feasibility and trade-offs. Write your draft, get feedback on your constraints and assumptions, revise. Optional, but the feedback often identifies risks students miss."
 
 ## Information Systems
 > "For the project plan due in Week 8, I've created an AI review prompt that evaluates your scope management and risk identification. Write your draft, paste with the prompt, and get preliminary feedback. Completely optional, but many students find it helps identify scope creep risks."
@@ -385,7 +385,7 @@ If you're ready to redesign an entire unit from the ground up rather than piloti
 > "We're trying something new because I want you to practice real service scenarios,guest handling, recovery, experience design,not just learn theory. In hospitality management, you'll use AI for operations and guests, so understanding it critically matters."
 
 ## Supply Chain & Logistics
-> "We're trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimization, so learning to use it critically is essential."
+> "We're trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimisation, so learning to use it critically is essential."
 
 ## Information Systems
 > "We're trying something new because I want you to practice real IT challenges,requirements, scope management, technical trade-offs,not just memorize methodology. IT professionals use AI extensively, so learning to use it critically for code and analysis is part of your skill set."
@@ -708,7 +708,7 @@ Make your existing AI assignment more sophisticated:
 > "I understand this is different. But in hospitality management, you'll use AI for operations and guest analytics. My job is to prepare you for professional practice where AI is increasingly common. I'm not asking you to become tech-savvy,just to understand AI's role critically."
 
 ## Supply Chain & Logistics
-> "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimization, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist,just know how to use and evaluate AI tools."
+> "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimisation, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist,just know how to use and evaluate AI tools."
 
 ## Information Systems
 > "I understand this is different. But IT professionals use AI extensively for code, analysis, and systems work. My job is to prepare you for professional practice where AI literacy is essential. You don't need to become a machine learning expert,just know how to use AI tools critically."
@@ -819,4 +819,4 @@ Now it's time to choose your first small experiment and try it.
 
 ---
 
-**Next Chapter Preview:** In Chapter 9, we directly address the academic integrity and ethics question. You'll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximizing learning, and how to reframe "preventing AI cheating" as "teaching AI literacy and professional ethics." This is the conversation you'll need to have with students, colleagues, and possibly administrators.
+**Next Chapter Preview:** In Chapter 9, we directly address the academic integrity and ethics question. You'll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximising learning, and how to reframe "preventing AI cheating" as "teaching AI literacy and professional ethics." This is the conversation you'll need to have with students, colleagues, and possibly administrators.

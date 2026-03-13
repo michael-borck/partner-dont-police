@@ -41,7 +41,7 @@ MS Copilot integrates seamlessly with tools you already use:
 - **In Word**: A chat panel opens on the right side,draft paragraphs, get feedback, revise
 - **In Excel**: Analyse data, create formulas, visualize patterns
 - **In PowerPoint**: Generate slides, refine content, create speaker notes
-- **In Outlook**: Draft emails, organise content, summarize threads
+- **In Outlook**: Draft emails, organise content, summarise threads
 - **In Teams**: Access Copilot in chats and meetings for real-time assistance
 
 This integration means you can work directly in your document while AI assists,no copying/pasting between windows.
@@ -246,7 +246,7 @@ You are an expert supply chain management lecturer at a university level.
 I need you to create a case study for my undergraduate students that will help them practice supply chain decision-making under uncertainty.
 
 Here are the requirements:
-- The scenario should involve a supply disruption or network optimization challenge
+- The scenario should involve a supply disruption or network optimisation challenge
 - Include enough detail that students need to identify which supply chain principles apply
 - The scenario should be 300-400 words
 - End with three discussion questions requiring students to analyse trade-offs and resilience strategies
@@ -394,7 +394,7 @@ Discipline examples:
 "You are a hotel general manager managing service delivery" or "You are a guest services trainer improving customer experience"
 
 ## Supply Chain & Logistics
-"You are a supply chain manager handling network optimization" or "You are a logistics director managing disruption"
+"You are a supply chain manager handling network optimisation" or "You are a logistics director managing disruption"
 
 ## Information Systems
 "You are an IT project manager implementing enterprise systems" or "You are a systems analyst gathering requirements"
@@ -632,7 +632,7 @@ Begin.
 ## Supply Chain & Logistics
 - Generate demand disruption scenarios with trade-offs
 - Create a supplier negotiation dialogue students must evaluate
-- Draft an inventory optimization problem with constraints
+- Draft an inventory optimisation problem with constraints
 - Write a logistics crisis scenario requiring real-time decisions
 
 ## Information Systems
@@ -666,7 +666,7 @@ As you experiment, keep these realities in mind:
 - Creates consistent, well-structured text
 - Role-plays different perspectives convincingly
 - Provides frameworks and outlines
-- Analyzes text against criteria you define
+- analyses text against criteria you define
 
 ### What AI Doesn't Do:
 - Understand context the way humans do

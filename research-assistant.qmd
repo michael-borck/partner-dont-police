@@ -14,7 +14,7 @@ This chapter addresses AI's role in research contexts: literature review, data a
 
 AI can accelerate research **processes**:
 - Finding relevant literature
-- Summarizing large volumes of text
+- summarising large volumes of text
 - Identifying patterns in qualitative data
 - Checking methodology against standards
 - Improving writing clarity
@@ -150,7 +150,7 @@ AI can describe theories but often misapplies them or oversimplifies.
    - Relevance to research question
    - Critical evaluation (strengths/limitations)
 5. **AI Audit Section:**
-   - Ask AI to summarize 3 of the same sources
+   - Ask AI to summarise 3 of the same sources
    - Compare AI's summary to your own
    - Write 300 words: What did AI get right? What did it miss? What did it oversimplify?
 
@@ -397,7 +397,7 @@ Students paste AI-generated prose into their thesis without engagement.
 
 **How to prevent:**
 - Use the transparency model (Chapter 5),students acknowledge AI use and submit revision history
-- Assess through oral defense where students must explain their arguments
+- Assess through oral defence where students must explain their arguments
 - Focus assessment on originality of thinking, not just quality of prose
 
 ---
@@ -803,7 +803,7 @@ Do not write a literature review—give me a research landscape map.
 ```
 PROMPT: Analytics Research Question Refinement
 
-My broad topic is predictive modelling for supply chain optimization. My draft question: "How accurate are machine learning models for demand forecasting?"
+My broad topic is predictive modelling for supply chain optimisation. My draft question: "How accurate are machine learning models for demand forecasting?"
 
 Help me refine by:
 1. Clarifying what "accuracy" means (metrics, business impact?)
@@ -990,7 +990,7 @@ Suggest potential themes emerging from this interview sample. This is preliminar
 ### Literature Review Applications
 
 **Discipline-Specific Considerations:**
-- Management literature spans organisational behavior, strategy, leadership, and change management
+- Management literature spans organisational behaviour, strategy, leadership, and change management
 - Need to integrate theoretical frameworks with practical management applications
 - Emphasis on contextual factors and organisational dynamics
 
@@ -1086,7 +1086,7 @@ Regardless of discipline, students must verify:
 - Teach identification of AI hallucinations in technical content
 - Focus on professional standards and regulatory compliance
 
-**Behavioral Disciplines (Marketing, Hospitality, Management):**
+**behavioural Disciplines (Marketing, Hospitality, Management):**
 - Emphasize contextual interpretation and cultural sensitivity
 - Teach evaluation of AI's understanding of human behaviour
 - Focus on practical application and stakeholder implications
@@ -1165,12 +1165,12 @@ Format as a professional research document with:
 
 #### **Scenario 2: Data Analysis → PowerPoint Presentation**
 
-For research students presenting findings (thesis defense, research seminar, conference):
+For research students presenting findings (thesis defence, research seminar, conference):
 
 ```
 I've completed analysis of [research data: survey results, statistical
 analysis, case study findings]. Create a PowerPoint presentation (15-20
-slides) suitable for [context: thesis defense / research seminar /
+slides) suitable for [context: thesis defence / research seminar /
 conference presentation] that includes:
 
 1. Title slide with research question

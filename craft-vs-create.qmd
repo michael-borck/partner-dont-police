@@ -33,7 +33,7 @@ This framework prioritizes background information and the intended audience to r
 
 * **C - Context:** The "Who, What, Where, Why." Background info necessary to understand the bigger picture (e.g., project goals, location).
 * **R - Role:** The persona the AI should adopt (e.g., "Marketing Strategist").
-* **A - Action:** The explicit verb or task (e.g., "Summarize," "Draft," "Generate code").
+* **A - Action:** The explicit verb or task (e.g., "summarise," "Draft," "Generate code").
 * **F - Format:** How the data is presented (e.g., Bullet points, JSON, Table).
 * **T - Target (or Tone):** Who is reading this? What is the desired vibe? (e.g., "For C-level executives," "Persuasive tone").
 

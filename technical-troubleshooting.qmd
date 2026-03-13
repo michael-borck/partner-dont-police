@@ -118,7 +118,7 @@ AI tools are powerful but not infallible. When implementing AI-enhanced teaching
 3. **Rate Limiting:**
    - Space out requests over time
    - Use multiple accounts if appropriate
-   - Optimize prompts to reduce unnecessary requests
+   - optimise prompts to reduce unnecessary requests
    - Batch similar requests together
 
 #### Advanced Troubleshooting
@@ -139,7 +139,7 @@ AI tools are powerful but not infallible. When implementing AI-enhanced teaching
 1. **Conversation Management:**
    - Start fresh conversations for new topics
    - Use project-specific conversations
-   - Summarize key points for context retention
+   - summarise key points for context retention
    - Export important conversations regularly
 
 2. **Content Filtering:**
@@ -281,7 +281,7 @@ AI tools are powerful but not infallible. When implementing AI-enhanced teaching
 #### Common Issues
 - **Geopolitical complexity:** AI may not understand current trade restrictions or conflicts
 - **Real-time data gaps:** Supply chain information changes rapidly
-- **Multi-factor optimization:** May oversimplify complex logistical constraints
+- **Multi-factor optimisation:** May oversimplify complex logistical constraints
 - **Regional variations:** May not account for local infrastructure differences
 
 #### Mitigation Strategies
@@ -404,7 +404,7 @@ AI tools are powerful but not infallible. When implementing AI-enhanced teaching
 - **Accessibility features:** AI tools that support various disabilities
 - **Alternative interfaces:** Text-based, voice-based, or visual options
 - **Assistive technology integration:** Compatibility with screen readers and other tools
-- **Individual accommodations:** Customized solutions for specific needs
+- **Individual accommodations:** customised solutions for specific needs
 
 ---
 

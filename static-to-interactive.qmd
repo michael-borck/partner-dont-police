@@ -169,7 +169,7 @@ See the Cross-Discipline Applications section below for additional detailed exam
 - **Keyboard navigation** - tab order
 - **Screen reader** compatibility
 
-### Mobile Optimization
+### Mobile optimisation
 - **Responsive design** - works on phones
 - **Touch-friendly** - large buttons
 - **Readable text** - no pinching required
@@ -280,7 +280,7 @@ Keep everything in a single HTML file.
 
 ### Student Feedback Loop
 1. **Collect responses** - what worked/didn't
-2. **Analyze usage** - where students struggle
+2. **analyse usage** - where students struggle
 3. **Refine content** - improve weak areas
 4. **Update annually** - keep content current
 
@@ -628,14 +628,14 @@ While HTML interactive tools are powerful, they're just the beginning. AI can he
 **Tools:**
 - **NotebookLM** - Google's tool for uploading documents and generating interactive guides
 - **Copilot with Notebooks** - MS Copilot with document integration
-- **Custom RAG workflows** - More advanced but fully customizable
+- **Custom RAG workflows** - More advanced but fully customisable
 
 **What You Can Generate:**
 1. **Interactive study guides** with key concepts and discussion questions
 2. **Quiz generators** - AI creates questions from the PDF
 3. **Concept maps** - Visual relationship between ideas
 4. **Flashcard decks** - Auto-generated from document content
-5. **Lecture summaries** - AI extracts and summarizes key points
+5. **Lecture summaries** - AI extracts and summarises key points
 6. **Discussion prompts** - Higher-order thinking questions
 
 **Practical Example:**
@@ -708,7 +708,7 @@ While AI video generation is still emerging, you can:
 ```
 
 1. Record lecture (video or audio)
-2. Use AI to transcribe and summarize key points
+2. Use AI to transcribe and summarise key points
 3. Generate study questions from transcript
 4. Create visual summary infographic
 5. Combine into multimedia learning package
@@ -755,7 +755,7 @@ Make it engaging but educationally rigorous.
 Upload: Your course readings/lecture notes
 Ask NotebookLM: "Generate flashcard questions covering key concepts"
 
-Result: Pre-made flashcards with retrieval practice optimization
+Result: Pre-made flashcards with retrieval practice optimisation
 
 Then import into Anki or Quizlet for spaced repetition learning
 ```
@@ -1026,7 +1026,7 @@ Instead of:
 "Write a 2000-word report analysing [case study]"
 
 Try:
-"Analyze [case study] with AI's help, then request AI generate a
+"analyse [case study] with AI's help, then request AI generate a
 professional report of your analysis. Submit:
 
 1. A summary of your analysis process (500 words)

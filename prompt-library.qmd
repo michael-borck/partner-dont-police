@@ -7,7 +7,7 @@ This is your copy-paste resource. Each prompt in this library has been designed 
 1. **Find the prompt that matches your need** (browse Section 1-5 or go to the Cross-Discipline Adaptations section at the end)
 2. **Choose the discipline-specific version** or adapt the HR example to your field
 3. **Copy the entire prompt**
-4. **Customize the bracketed sections [like this] with your specific content**
+4. **customise the bracketed sections [like this] with your specific content**
 5. **Paste into ChatGPT, Claude, or your preferred AI tool**
 
 The prompts are organised by purpose:
@@ -21,9 +21,9 @@ The prompts are organised by purpose:
 
 ---
 
-## Meta-Framework: Using CRAFT to Customize or Create Your Own Prompts
+## Meta-Framework: Using CRAFT to customise or Create Your Own Prompts
 
-The prompts in this library are ready to use. But the real power comes from **customizing them using the CRAFT framework** (from Chapter 2).
+The prompts in this library are ready to use. But the real power comes from **customising them using the CRAFT framework** (from Chapter 2).
 
 If you want to:
 - Adapt a prompt for your specific context
@@ -43,7 +43,7 @@ If you want to:
 
 ### How to Use CRAFT with These Prompts
 
-**Example 1: Customizing an Existing Prompt**
+**Example 1: customising an Existing Prompt**
 
 The Case Study Generator (Section 1.1) shows an HR version. To adapt it for your discipline using CRAFT:
 
@@ -96,21 +96,21 @@ What I need: "A prompt that helps students analyse a real supply chain problem"
 CRAFT structure:
 C: This is for my applied supply chain unit where students work with real
    companies on live projects
-R: You are a supply chain consultant advising on optimization
+R: You are a supply chain consultant advising on optimisation
 A: Analyse this supply chain problem and recommend solutions
 F: 2000-word analysis with data tables, visualizations, and implementation plan
 T: Professional consultant-level analysis
 
 Your new prompt:
-"You are a supply chain consultant with 15+ years of experience optimizing
+"You are a supply chain consultant with 15+ years of experience optimising
 global supply chains.
 
-I'm working with a supply chain team on a real optimization challenge.
+I'm working with a supply chain team on a real optimisation challenge.
 They've provided raw data on their current network.
 
 Please provide a comprehensive analysis including:
 1. Current state assessment (cost, delivery time, resilience)
-2. Comparison of three optimization scenarios
+2. Comparison of three optimisation scenarios
 3. Implementation roadmap with timeline
 4. Key risks and mitigation strategies
 5. Expected outcomes and metrics
@@ -141,7 +141,7 @@ Again, CRAFT structure ensures your prompt is complete and specific.
 - If you need to refine, you know exactly what element to adjust
 - Result: content tailored to YOUR teaching
 
-### Customization Patterns
+### customisation Patterns
 
 **Pattern 1: Changing the Role**
 Keep everything the same, change who the AI is:
@@ -181,7 +181,7 @@ After you send your CRAFT-structured prompt:
 3. Adapt based on what you see: "I like that approach, now add..."
 4. Iterate until it's exactly what you need
 
-The library gives you starting points. CRAFT helps you customize them. And follow-up conversations perfect them.
+The library gives you starting points. CRAFT helps you customise them. And follow-up conversations perfect them.
 
 ---
 
@@ -214,7 +214,7 @@ theory, organisational justice].
 Begin.
 ```
 
-**Customization tips:**
+**customisation tips:**
 - Replace [undergraduate/postgraduate] with your level
 - Replace [specific topic] with what you're teaching
 - Add specific legal context if needed
@@ -315,7 +315,7 @@ should include:
 
 2. Mock dataset summary including:
    - Turnover/retention rates by department, tenure, or demographic
-   - Employee satisfaction survey results (summarized, not raw data)
+   - Employee satisfaction survey results (summarised, not raw data)
    - 5-6 key findings from exit interviews
    - Relevant comparison data (industry benchmarks, historical company data)
 
@@ -373,7 +373,7 @@ SIMULATION."
 I will begin the conversation now.
 ```
 
-**Customization guide:**
+**customisation guide:**
 - Fill in all bracketed sections with your scenario details
 - Adjust emotional state and hidden context to match your learning objectives
 - Consider legal/ethical issues you want students to navigate
@@ -443,7 +443,7 @@ YOUR EMOTIONAL STATE:
 - Hesitant to provide details until you trust the HR person will take you
   seriously
 
-YOUR BEHAVIOR:
+YOUR behaviour:
 - Start cautious—gauge whether HR is taking this seriously
 - Provide more detail if the HR person demonstrates understanding of
   discrimination and fair process
@@ -490,7 +490,7 @@ YOUR CONCERNS (legitimate but not openly stated):
 - [Hidden concern: e.g., "You had a bad experience with a similar initiative
   at a previous company"]
 
-YOUR BEHAVIOR:
+YOUR behaviour:
 - Start skeptical and slightly resistant
 - Use operational pressures as justification ("We don't have time for this")
 - If HR listens to your concerns and addresses them, become more open
@@ -572,7 +572,7 @@ Begin your critique.
 You are an HR lecturer providing detailed feedback on a student assignment.
 
 ASSIGNMENT TASK:
-[Describe what students were asked to do: e.g., "Analyze a workplace
+[Describe what students were asked to do: e.g., "analyse a workplace
 conflict scenario and recommend an HR intervention with theoretical
 justification"]
 
@@ -700,7 +700,7 @@ Please analyse my performance and provide feedback on:
    did or didn't.
 4. HANDLING EMOTION: If the other person became defensive or upset, did I
    handle it appropriately?
-5. CLOSING: Did I properly summarize, confirm next steps, and end
+5. CLOSING: Did I properly summarise, confirm next steps, and end
    professionally?
 
 For each area, tell me:
@@ -727,7 +727,7 @@ The situation is:
 [Student describes the case/scenario]
 
 I plan to apply [theory name: e.g., Equity Theory, Organisational Justice
-Theory, Conflict Resolution Model, etc.] to explain [what they're analyzing:
+Theory, Conflict Resolution Model, etc.] to explain [what they're analysing:
 e.g., why employees are demotivated, how to resolve the conflict, etc.].
 
 Please help me check my thinking:
@@ -753,7 +753,7 @@ I'm analysing a hypothetical AI tool used in HR for [purpose: e.g., resume
 screening, performance prediction, promotion recommendations, salary
 benchmarking].
 
-The tool works by [brief description of how it functions: e.g., "analyzing
+The tool works by [brief description of how it functions: e.g., "analysing
 text in resumes and ranking candidates based on similarity to successful
 past hires"].
 
@@ -975,7 +975,7 @@ I'm designing a research study with the following methodology:
 **Research Question:** [your question]
 
 **Proposed Method:** [e.g., "Qualitative interviews with 15 HR managers in
-Perth-based organizations"]
+Perth-based organisations"]
 
 **Data Collection:** [describe approach]
 
@@ -1052,7 +1052,7 @@ Share these prompts with your research students, but emphasize:
 
 ## How to Adapt These Prompts
 
-**Every prompt in this library can be customized. Here's how:**
+**Every prompt in this library can be customised. Here's how:**
 
 1. **Change the context**: Adjust industry, company size, location to match what your students are studying
 
@@ -1213,7 +1213,7 @@ Begin.
 You are an Accounting lecturer providing detailed feedback on a student assignment.
 
 ASSIGNMENT TASK:
-[Describe what students were asked to do: e.g., "Analyze a financial reporting scenario and recommend appropriate accounting treatment with reference to relevant standards"]
+[Describe what students were asked to do: e.g., "analyse a financial reporting scenario and recommend appropriate accounting treatment with reference to relevant standards"]
 
 ASSESSMENT RUBRIC:
 [List criteria, e.g.,:
@@ -1252,13 +1252,13 @@ Begin your feedback.
 ```
 You are an expert lecturer in Business Analytics at university level.
 
-Create a realistic case study scenario for my [undergraduate/postgraduate] students that focuses on [specific topic: e.g., customer churn prediction, supply chain optimization, marketing attribution, risk modelling].
+Create a realistic case study scenario for my [undergraduate/postgraduate] students that focuses on [specific topic: e.g., customer churn prediction, supply chain optimisation, marketing attribution, risk modelling].
 
 Requirements:
 - The scenario should be 400-500 words
 - Set in a data-rich business context
 - Include enough ambiguity that students must analyse competing analytical approaches
-- Incorporate at least two analytical concepts [e.g., predictive modeling, segmentation analysis, A/B testing, statistical inference]
+- Incorporate at least two analytical concepts [e.g., predictive modelling, segmentation analysis, A/B testing, statistical inference]
 - End with 3-4 discussion questions that require critical thinking and application of analytical methods
 
 The case should be challenging but appropriate for students who have covered [list topics they've learned: e.g., statistics, data visualization, machine learning, business intelligence].
@@ -1335,7 +1335,7 @@ Requirements:
 - The scenario should be 400-500 words
 - Set in a contemporary hospitality context
 - Include enough ambiguity that students must analyse competing service strategies
-- Incorporate at least two hospitality concepts [e.g., service quality, customer experience, revenue optimization, cultural sensitivity]
+- Incorporate at least two hospitality concepts [e.g., service quality, customer experience, revenue optimisation, cultural sensitivity]
 - End with 3-4 discussion questions that require critical thinking and application of hospitality theory
 
 The case should be challenging but appropriate for students who have covered [list topics they've learned: e.g., hospitality operations, customer service, revenue management, cultural tourism].
@@ -1373,7 +1373,7 @@ Begin.
 You are a Hospitality lecturer providing detailed feedback on a student assignment.
 
 ASSIGNMENT TASK:
-[Describe what students were asked to do: e.g., "Analyze a service failure scenario and develop a comprehensive service recovery strategy with reference to hospitality best practices"]
+[Describe what students were asked to do: e.g., "analyse a service failure scenario and develop a comprehensive service recovery strategy with reference to hospitality best practices"]
 
 ASSESSMENT RUBRIC:
 [List criteria, e.g.,:
@@ -1619,6 +1619,6 @@ This prompt library will grow as you experiment. Treat it as a living document:
 
 The goal isn't to find the "perfect" prompt,it's to build a collection of reliable tools that make your teaching more effective and your students' learning more engaging, tailored to your discipline.
 
-**Remember:** These prompts are starting points. The best prompts you'll use are the ones you customize and refine based on your specific students, learning objectives, and disciplinary context.
+**Remember:** These prompts are starting points. The best prompts you'll use are the ones you customise and refine based on your specific students, learning objectives, and disciplinary context.
 
 **Good luck, and happy prompting!**

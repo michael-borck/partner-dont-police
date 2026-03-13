@@ -53,7 +53,7 @@ Assess students' ability to reflect on their own learning:
 | Criteria | Excellent (40-35) | Good (34-28) | Satisfactory (27-20) | Needs Improvement (19-0) |
 |---|---|---|---|---|
 | **Prompt Quality (10 pts)** | Specific--- context-rich--- defines role and scenario clearly | Clear prompt with good context | Basic prompt with some context | Vague or incomplete prompt |
-| **Critical Evaluation (10 pts)** | Identifies multiple AI errors/biases--- explains professional relevance | Identifies some AI limitations | Recognizes obvious AI issues | Accepts AI output uncritically |
+| **Critical Evaluation (10 pts)** | Identifies multiple AI errors/biases--- explains professional relevance | Identifies some AI limitations | recognises obvious AI issues | Accepts AI output uncritically |
 | **Professional Judgment (10 pts)** | Applies HR theory correctly--- considers legal/ethical implications | Uses appropriate HR concepts | Basic application of concepts | Little connection to HR knowledge |
 | **Communication Skills (10 pts)** | Empathetic--- professional--- clear communication | Generally professional tone | Some professional communication | Unprofessional or unclear communication |
 
@@ -153,7 +153,7 @@ Assess students' ability to reflect on their own learning:
 |---|---|---|---|---|
 | **Technical Feasibility (25 pts)** | Realistic design--- considers constraints | Generally feasible design | Some feasibility issues | Technically unrealistic |
 | **Security Considerations (25 pts)** | Comprehensive security analysis--- multiple safeguards | Good security approach | Basic security considerations | Poor security planning |
-| **AI Integration (25 pts)** | Uses AI for design generation--- testing--- and optimization | Good use of AI tools | Limited AI use | No meaningful AI use |
+| **AI Integration (25 pts)** | Uses AI for design generation--- testing--- and optimisation | Good use of AI tools | Limited AI use | No meaningful AI use |
 | **Professional Standards (25 pts)** | Follows industry best practices--- documentation standards | Generally follows standards | Some alignment with standards | Poor professional practice |
 
 ### Accounting Assessment Rubrics

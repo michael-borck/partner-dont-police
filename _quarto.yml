@@ -1,9 +1,13 @@
 project:
   type: book
-  
+  output-dir: _book
+
 book:
   title: "Partner, Don't Police: AI in the Business Classroom"
-  author: "SoMM Education Team"
+  author: "Michael Borck"
+  date: today
+  license: "CC BY"
+  description: "A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples."
   cover-image: cover.png
   chapters:
     - index.qmd
@@ -38,17 +42,20 @@ book:
     - advanced-prompting.qmd
     - craft-vs-create.qmd
     - glossary.qmd
+    - about-author.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     toc: true
+    toc-depth: 3
     number-sections: true
     code-tools: true
   pdf:
     documentclass: book
     toc: true
     number-sections: true
-    
-metadata:
-  description: "A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines"
+  epub:
+    toc: true

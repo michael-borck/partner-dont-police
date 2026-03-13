@@ -101,7 +101,7 @@ While this book was developed within an Australian educational context, AI integ
 #### AI Integration Opportunities
 - **Mobile learning:** Leapfrogging desktop technology to mobile solutions
 - **Open source solutions:** Free and open AI tools to reduce cost barriers
-- **Adaptive technologies:** Customized solutions for local contexts
+- **Adaptive technologies:** customised solutions for local contexts
 - **International collaboration:** Partnerships with better-resourced institutions
 
 ---
@@ -115,7 +115,7 @@ While this book was developed within an Australian educational context, AI integ
 | Cultural Dimension | Low-Context Examples | High-Context Examples | AI Adaptation Strategies |
 |---|---|---|---|
 | **Communication** | Direct--- explicit--- detailed | Indirect--- nuanced--- relationship-based | Prompt for cultural context awareness |
-| **Feedback** | Direct criticism--- explicit improvement areas | Indirect suggestions--- face-saving approaches | Train AI to recognize cultural feedback patterns |
+| **Feedback** | Direct criticism--- explicit improvement areas | Indirect suggestions--- face-saving approaches | Train AI to recognise cultural feedback patterns |
 | **Decision-making** | Individual--- quick--- explicit | Group-based--- consensus-seeking | Include stakeholder consultation scenarios |
 | **Conflict resolution** | Direct confrontation--- legal frameworks | Mediation--- relationship preservation | Design culturally appropriate resolution scenarios |
 
@@ -163,7 +163,7 @@ Include cultural context and indirect communication patterns.
 
 **High Power Distance:**
 ```
-You are a senior manager in a hierarchical organization.
+You are a senior manager in a hierarchical organisation.
 
 Communicate this decision to your team:
 - Acknowledge your authority and responsibility
@@ -176,7 +176,7 @@ Consider cultural expectations about leadership and authority.
 
 **Low Power Distance:**
 ```
-You are a team leader in a collaborative organization.
+You are a team leader in a collaborative organisation.
 
 Discuss this decision with your team:
 - Encourage open discussion and feedback
@@ -471,7 +471,7 @@ Provide culturally appropriate tourism examples and implementation strategies.
 - **Industry partnership:** Connect with local businesses and organisations
 - **Cultural experts:** Consult with cultural specialists and community leaders
 
-#### Step 3: Customization Development
+#### Step 3: customisation Development
 - **Content adaptation:** Modify examples and scenarios for local context
 - **Platform selection:** Choose AI tools appropriate for local infrastructure
 - **Assessment design:** Align evaluation with local educational standards
