@@ -796,6 +796,36 @@ Teaching them to use AI transparently, critically, and responsibly in your cours
 
 ---
 
+## Conversation, Not Delegation: The Real Equity Question
+
+The prevailing assumption in AI-assisted learning is that better models produce better outcomes. It follows, in this framing, that students with access to frontier models have an inherent advantage over those using smaller, cheaper, or locally-hosted alternatives. This assumption is worth examining carefully, because it may be wrong in an instructive way.
+
+Consider what a student is actually doing when they use AI for a learning task. If the goal is precision — a correct legal citation, an accurate drug dosage, a verified financial figure — then model quality matters enormously, and the assumption holds. But most learning tasks in higher education are not precision tasks. They are *idea tasks*: analyse this scenario, propose a solution, construct an argument, identify the risks. For these tasks, the student does not need the AI to be right. They need the AI to be generative enough to be worth arguing with.
+
+A smaller model that surfaces three plausible but imperfect framings of a problem, challenged and refined through genuine conversation, may produce better thinking than a frontier model that delivers one polished answer the student accepts without question.
+
+### The Core Insight
+
+This is the core insight of the **Conversation, Not Delegation** framework. The value of AI in learning is not in the quality of its output but in the quality of the thinking it provokes. Conversation amplifies whatever thinking the student brings to the interaction. Delegation replaces it. A student who converses with a modest model is exercising and developing their own reasoning. A student who delegates to a frontier model may be borrowing reasoning they cannot yet reproduce independently.
+
+### The Active Risk of Delegation
+
+The danger of delegation is not just shallow learning. It carries an active risk that no AI use does not. When a student does not use AI, they know the limits of what they know. When a student delegates to AI and accepts the output uncritically, they may leave with confident possession of misinformation — a plausible-sounding answer that is wrong, incomplete, or contextually inappropriate, absorbed without the friction that would have revealed its flaws.
+
+In this respect, passive delegation to even the most capable model can produce worse outcomes than no AI assistance at all. The model's fluency and confidence make its errors harder to detect, not easier. And with smaller models, where hallucination and inaccuracy are more frequent, uncritical delegation is more dangerous still — students risk absorbing misinformation dressed in the language of authority.
+
+### The Conversational Nudge as Protection
+
+The conversational nudge addresses this directly. By structurally inviting the student to push back at every response — to notice when something does not match expectations, to name what seems wrong — it creates the friction that uncritical acceptance suppresses. That friction is protective regardless of model quality. It is arguably more important with weaker models, where errors are more frequent, but it matters with frontier models too, where errors are rarer but more convincingly dressed.
+
+### The Equity Implication
+
+The implication for equity is significant. If conversation quality compensates for model quality, then the gap between students with paid frontier access and those without is not the defining equity problem in AI-integrated education. The defining problem is whether every student, regardless of the tool they are using, has been taught and scaffolded to engage conversationally rather than to delegate.
+
+That is a curriculum and pedagogy problem. It is one universities can actually solve.
+
+---
+
 ## Your Action Step
 
 Before the Appendices, draft your own AI use statement for your next unit outline. Use the framework from this chapter:

@@ -158,6 +158,37 @@ Here's what this means in your discipline:
 
 This shift,from testing knowledge recall to evaluating applied professional methodology,is transformational for business education.
 
+## The Conversation, Not Delegation Framework
+
+Most people use AI the same way: they give it a task and accept what comes back. Write this email. Summarise this report. Answer this question. This is **delegation**. It produces outputs. It does not produce understanding.
+
+There is a different approach. Instead of handing tasks to AI, you think alongside it. You bring a question, not a task. You explore possibilities together. You push back on what it gives you. You refine, redirect, and challenge until the result reflects your judgement, not just the model's fluency.
+
+This is **conversation**. And it changes what AI does for the person using it.
+
+**Delegation asks:** "How do I get AI to do this for me?"
+
+**Conversation asks:** "How do I use AI to think better with me?"
+
+The difference matters because judgement cannot be delegated to something that has read everything but experienced nothing. AI has processed more text than any person could read in a lifetime. But it has never made a decision under pressure, never felt the weight of getting something wrong, never had a stake in the outcome. It can generate plausible answers. It cannot know which answer is right for your situation. That is your job.
+
+### The Four-Part Loop
+
+The framework has four moving parts:
+
+- **Brainstorm:** Arrive with a real question, not a task to outsource.
+- **Ideate:** Go wide. Explore angles, alternatives, framings you had not considered.
+- **Iterate:** Push back. Challenge what the AI gives you. Refine until it fits your context.
+- **Amplify:** Take the best of what emerged and make it yours. You own the result.
+
+Most good work passes through this loop more than once. The sign that you are done is not that the AI has stopped producing output. It is that your thinking has landed somewhere solid.
+
+The core principle is simple: **your expertise + AI's breadth = amplified thinking.** The bottleneck is always your thinking, not the model.
+
+Every technique in this book — from the flight simulator to the critique toolkit to the seven prompting techniques — is designed to keep you in conversation, not delegation. When you see a prompt that asks the AI to challenge your reasoning, or a simulation that requires you to respond in real time, or an assessment that grades your process rather than the AI's output, you are seeing this framework in action.
+
+---
+
 ## Three Core Principles of This Approach
 
 As you read through this book and begin experimenting with AI in your teaching, keep these three principles in mind:
