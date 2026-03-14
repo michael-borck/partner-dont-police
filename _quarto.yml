@@ -52,6 +52,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
+    include-after-body: chatbot.html
     toc: true
     toc-depth: 3
     number-sections: true
