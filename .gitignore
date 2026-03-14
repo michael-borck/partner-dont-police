@@ -45,3 +45,4 @@ venv/
 # Quarto ipynb
 **/*.quarto_ipynb
 llm.txt
+rag-documents/
