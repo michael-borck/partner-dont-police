@@ -44,6 +44,9 @@ book:
     - glossary.qmd
     - about-author.qmd
 
+website:
+  favicon: favicon.svg
+
 format:
   html:
     theme:
