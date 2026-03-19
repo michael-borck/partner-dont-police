@@ -10,6 +10,26 @@ This chapter gives you the framework, language, and evidence to respond confiden
 
 ---
 
+## The Problem with Detection {#sec-problem-with-detection}
+
+Before we reframe the question, it is worth understanding why the most common answer---detect and punish AI use---does not work.
+
+Detection-based approaches to AI use assume that AI-generated work can be identified and discounted. In practice, three things undermine this:
+
+1. Detection tools produce false positives and false negatives at rates that make them unreliable as assessment instruments
+2. Iterative AI prompting, guided by specific personal context, produces output that is increasingly difficult to distinguish from genuine student work
+3. The components most commonly assumed to be AI-resistant (reflective writing, sociotechnical analysis, lecture cross-referencing) are now completable with freely available tools once students can feed unit materials directly into AI systems (see @sec-notebooklm-infrastructure for a detailed treatment of this shift)
+
+There is a deeper problem that is rarely acknowledged: AI detection tools are built on a single assumption about how students use AI. They assume one-shot delegation---a student who hands a task to AI and submits whatever comes back. The output of that process has certain statistical properties, and detectors are trained to find them.
+
+But a student who uses AI well does not produce that kind of output. They brainstorm, ideate, push back, refine, reject, and iterate across many turns. The final product of that process may look similar on the surface to a one-shot output, but the path to get there is entirely different. Detection tools cannot see that path. They look at the destination, not the journey.
+
+This means that even if detection worked perfectly, it would still fail at the thing that matters. It cannot distinguish between the student who delegated and the student who genuinely thought with AI. Both might trigger a detector. Neither should be treated the same way. The question detection cannot answer is the only question worth asking: *how did the student engage with the material on the way to producing this?*
+
+That question leads to a more useful framing.
+
+---
+
 ## Reframing the Question
 
 The traditional framing:
@@ -689,6 +709,14 @@ You may need to justify your approach to colleagues or administrators who are sk
 
 > "I assess their process, not just their final product. I can see their thinking in conversation transcripts, in their critiques of AI outputs, and in their reflective analysis. When students can identify what AI got wrong and explain why, they're demonstrating deep understanding."
 
+### Concern: "What about group work? Students can hide behind each other"
+
+**Response:**
+
+> "That's a real concern, and AI sharpens it. But the answer is the same: assess the process, not just the product. When each group member submits their own AI conversation transcript alongside the group deliverable, individual engagement becomes visible. You can see who thought deeply and who delegated. The group assessment chapter covers this in detail, including a marks structure that mirrors how professional accountability actually works."
+
+For the full treatment of group assessment, including the rewritten section problem and the free rider via AI problem, see the Group Assessment in the AI Era chapter.
+
 ### Concern: "This doesn't align with university academic integrity policies"
 
 **Response:**
@@ -793,6 +821,26 @@ Your responsibility as an educator isn't to protect students from AI. It's to pr
 Teaching them to use AI transparently, critically, and responsibly in your course isn't lowering standards.
 
 **It's fulfilling your educational duty.**
+
+---
+
+## The Integrity Principle Worth Keeping {#sec-integrity-principle}
+
+The academic integrity line that holds up under scrutiny is not *don't use AI* or even *declare AI use*, but rather: **do not misrepresent how you arrived at your ideas.** That principle applies equally to undeclared collaboration with a classmate, copying from a blog, or delegating wholesale to an AI tool.
+
+The student who genuinely thinks with AI has nothing to hide. An assessment design that makes that thinking visible serves everyone better than one that tries to detect its absence. For practical approaches to making thinking visible through transcript analysis and process evidence, see @sec-transcript-analysis.
+
+---
+
+## A Note on Institutional Risk {#sec-institutional-risk}
+
+The pedagogical case for a transparency-based approach is strong. For heads of school and academic integrity committees, the institutional risk argument may be equally persuasive.
+
+Detection-based approaches expose institutions to two risks simultaneously: false accusations against students who used AI legitimately, and missed cases where AI use was genuinely problematic. Both generate disputes, appeals, and workload. Neither makes the institution look good.
+
+A transparency-based approach reduces both risks. When the process of thinking is the assessed component, there is less ambiguity about what is being evaluated and more defensible evidence to point to when questions arise. Marking decisions become easier to justify, disputes become less likely, and the conversation with a student who underperformed shifts from "we think you used AI" to "your process evidence did not demonstrate sufficient engagement"---which is a far more defensible position.
+
+This approach also future-proofs the assessment design. Detection tools chase a moving target as AI capabilities improve. An assessment that measures engagement does not need to change every time a new model is released.
 
 ---
 

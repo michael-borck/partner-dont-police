@@ -24,6 +24,7 @@ book:
     - critique-toolkit.qmd
     - ethics-integrity.qmd
     - process-assessment.qmd
+    - group-assessment.qmd
     - self-assessment.qmd
     - virtual-company.qmd
     - unit-design.qmd
@@ -42,6 +43,7 @@ book:
     - curtin-alignment.qmd
     - advanced-prompting.qmd
     - craft-vs-create.qmd
+    - stress-test-sequence.qmd
     - glossary.qmd
     - about-author.qmd
 

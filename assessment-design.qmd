@@ -6,7 +6,7 @@ Throughout this book, we've emphasized **process-based assessment** over product
 
 The fundamental shift is from **"What did the AI produce?"** to **"How did the student think, evaluate, and improve?"** This requires new assessment criteria and evaluation frameworks.
 
-**For the conceptual foundation and specific assessment models that these rubrics evaluate, see Chapter 11: Process Over Product - Rethinking Assessment.**
+**For the conceptual foundation and specific assessment models that these rubrics evaluate, see Chapter 11: Process Over Product - Rethinking Assessment.** For group assessment design, including the marks split between individual process and group product, see the Group Assessment chapter. For a practical tool to stress-test any assessment against AI capabilities before deploying it, see @sec-stress-test.
 
 ---
 
