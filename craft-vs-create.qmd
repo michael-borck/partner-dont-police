@@ -1,93 +1,92 @@
-# Prompting Frameworks Showdown: C.R.E.A.T.E. vs. C.R.A.F.T.
+# Prompting Frameworks Compared {.appendix}
 
-In the field of prompt engineering, structured frameworks are essential for obtaining consistent, high-quality outputs from AI tools. Two of the most prominent methodologies are **C.R.E.A.T.E.** (focused on iteration and examples) and **C.R.A.F.T.** (focused on context and audience).
+This book uses CRAFT as its primary prompting framework. It is not the only one. Several structured approaches emerged as practitioners worked out how to communicate effectively with AI. They all address the same problem: an unstructured prompt produces generic output, while a structured one gives the AI enough information to be genuinely useful.
 
-Below is a detailed breakdown of how they function, their core philosophies, and when to apply them.
+The frameworks differ in how many components they separate out and which aspects they emphasise. None is objectively better. They are different lenses on the same underlying principle: think clearly about what you need before you start typing.
 
-## 1. The Frameworks at a Glance
+This appendix compares the most widely used frameworks side by side, using the same business task so you can see how each one shapes the prompt differently. The task: helping a consultant draft a client proposal for a digital transformation project.
 
-### C.R.E.A.T.E.
-* **Philosophy:** Iterative and Example-Driven.
-* **Core Logic:** Define the persona, give specific examples of what you want, and—crucially—refine the output after the first attempt. It views prompting as a loop rather than a single command.
+> Remember: every framework here improves your *opening* prompt. None of them replace the conversation that follows. A well-structured first message is a starting point, not a finished product. The real value comes from what you do next — iterating, pushing back, and making the output yours.
 
-### C.R.A.F.T.
-* **Philosophy:** Contextual and Audience-Centric.
-* **Core Logic:** Front-load the prompt with heavy background context and strict tonal instructions to get the result right the first time. It views prompting as an architectural blueprint.
 
----
+## Before and After
 
-## 2. Component Breakdown
+To see why structure matters at all, compare these two prompts for the same task.
 
-### The C.R.E.A.T.E. Framework
-This framework is unique because it builds a specific step ("Adjustment") for fixing the output, acknowledging that the first result is rarely perfect.
+**Unstructured:**
 
-* **C - Character:** Define the perspective or persona the AI should adopt (e.g., "Act as a Senior Instructional Designer").
-* **R - Request:** A specific explanation of the task the AI must perform (e.g., "Create a quiz about sociology").
-* **E - Examples:** Provide a model of the desired output or content (e.g., "Here is a sample question format...").
-* **A - Adjustment:** The iterative phase. Review the initial output and refine it (e.g., "Make the examples simpler," "Focus on core concepts").
-* **T - Type of Output:** The specific format for the final response (e.g., Table, CSV, Markdown list).
-* **E - Extras:** Miscellaneous directives (e.g., "Ignore previous instructions," "Explain your reasoning").
+"Help me write a proposal for a client."
 
-### The C.R.A.F.T. Framework
-This framework prioritizes background information and the intended audience to reduce ambiguity before the AI begins generating.
+**Structured (using CRAFT):**
 
-* **C - Context:** The "Who, What, Where, Why." Background info necessary to understand the bigger picture (e.g., project goals, location).
-* **R - Role:** The persona the AI should adopt (e.g., "Marketing Strategist").
-* **A - Action:** The explicit verb or task (e.g., "summarise," "Draft," "Generate code").
-* **F - Format:** How the data is presented (e.g., Bullet points, JSON, Table).
-* **T - Target (or Tone):** Who is reading this? What is the desired vibe? (e.g., "For C-level executives," "Persuasive tone").
+"We are pitching a digital transformation project to a mid-sized logistics company that currently runs most operations on spreadsheets and email **(C)**. You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for the proposal that explains the business case for moving to integrated systems **(A)**. Use a three-paragraph structure: current state, proposed approach, expected outcomes **(F)**. Professional but accessible — the audience is a CEO and CFO who are not technical **(T)**."
 
----
+The unstructured prompt would produce a generic proposal template. The structured one produces content shaped by a specific client, a specific audience, and a specific format. The difference is not the AI getting smarter. It is the person thinking more clearly about what they need.
 
-## 3. Critical Comparison
 
-The following table highlights the structural differences between the two approaches.
+## The Frameworks
 
-| Feature | C.R.E.A.T.E. | C.R.A.F.T. |
-| :--- | :--- | :--- |
-| **Primary Strength** | **Examples & Iteration.** It effectively "shows" the AI what to do using models. | **Context & Tone.** It ensures the style matches the specific audience perfectly. |
-| **Missing Element** | Lacks specific focus on **Audience/Tone** in the acronym, risking generic phrasing. | Lacks an explicit step for **Examples** (One-shot prompting), relying on description instead. |
-| **Workflow Style** | **Conversational.** It encourages a back-and-forth refinement process. | **Architectural.** It encourages building a comprehensive "mega-prompt" upfront. |
-| **Best For** | Creative writing, complex formatting, coding, or specific pattern matching. | Business communications, marketing copy, summaries, and professional emails. |
+::: {.panel-tabset}
 
----
+## CRAFT
 
-## 4. Pros and Cons
+**Context, Role, Action, Format, Tone/Target** — five elements. The framework used throughout this book. Leads with context to ground the AI in your situation, and includes tone or target audience as a separate component. Well suited to business communication where the same content often needs to be pitched differently for different readers.
 
-### C.R.E.A.T.E.
-> **Verdict:** Best for users who prefer to guide the AI through demonstration and fix errors as they go.
+"We are pitching a digital transformation project to a mid-sized logistics company that currently runs most operations on spreadsheets and email **(C)**. You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for the proposal **(A)**. Three paragraphs: current state, proposed approach, expected outcomes **(F)**. Professional but accessible — the audience is a CEO and CFO who are not technical **(T)**."
 
-* **Pros:**
-    * **Iterative Refinement:** The "Adjustment" phase institutionalizes the idea that prompting is a process, not a one-off command.
-    * **Higher Accuracy via Examples:** AI models generally perform significantly better with "few-shot" prompting (providing examples).
-    * **Strong Persona:** Anchors the AI in a specific role immediately.
-* **Cons:**
-    * **Tone Blind spots:** Doesn't explicitly ask for the Target Audience.
-    * **Time Consuming:** The structure assumes a multi-step interaction.
+## RTCF
 
-### C.R.A.F.T.
-> **Verdict:** Best for professionals who need a specific voice/style and want a "one-and-done" result.
+**Role, Task, Context, Format** — four elements. The simplest general-purpose framework. Covers the same ground as CRAFT but bundles tone into context or format rather than separating it. Used in the companion book *Conversation, Not Delegation*.
 
-* **Pros:**
-    * **Context King:** By starting with Context, it reduces "hallucinations" by bounding the AI's knowledge scope.
-    * **Audience Alignment:** Explicitly defining the "Target" ensures the language complexity is appropriate (e.g., Novice vs. Expert).
-    * **Action Oriented:** Separating "Role" and "Action" provides high clarity on the deliverable.
-* **Cons:**
-    * **No Examples:** It relies on *describing* what you want rather than *showing* it. Describing a complex format is often harder than providing a sample.
-    * **Rigid:** Less focus on post-generation refinement.
+"You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for a digital transformation proposal **(T)**. The client is a mid-sized logistics company running operations on spreadsheets and email. The audience is a non-technical CEO and CFO **(C)**. Three paragraphs: current state, proposed approach, expected outcomes **(F)**."
 
----
+## CO-STAR
 
-## 5. Practical Application Scenarios
+**Context, Objective, Style, Tone, Audience, Response** — six elements. Splits communication into finer-grained decisions. Useful when style, tone, and audience are genuinely different choices — for example, the same findings presented as a board paper versus a team briefing.
 
-**When to use C.R.E.A.T.E.:**
-* **Coding & Scripting:** You need code to follow a specific syntax. You provide a snippet (Example) and ask the AI to replicate the style.
-* **Data Formatting:** You have messy text and need it cleaned into a specific JSON structure. You provide an Example of the schema.
-* **Learning/Exploration:** You aren't 100% sure what you want yet, so you use the Adjustment phase to explore ideas and refine results.
+"A mid-sized logistics company runs most operations on spreadsheets and email. We are proposing a digital transformation project **(C)**. Write an executive summary that makes the business case for integrated systems **(O)**. Write in the style of a Big Four consulting proposal **(S)**. Confident but not aggressive — acknowledge the disruption involved **(T)**. The readers are a CEO and CFO who are not technical but are commercially sharp **(A)**. Three paragraphs, no bullet points, under 400 words **(R)**."
 
-**When to use C.R.A.F.T.:**
-* **Internal Communications:** Writing a memo to staff. You need to set the Context (why the change is happening) and the Target (staff members).
-* **Content Marketing:** Writing a blog post. You need to specify the Tone (witty, professional) and the Context (product details).
-* **Summarization:** You paste a long report and need a summary. You define the Context (what the report is about) and the Format (bullet points).
+## RISEN
 
----
+**Role, Instructions, Steps, End goal, Narrowing** — five elements. Distinctive because it specifies the steps the AI should follow and the end goal you are working toward. Suited to multi-stage tasks where the process matters as much as the output.
+
+"You are a management consultant specialising in digital transformation **(R)**. Help me draft an executive summary for a client proposal **(I)**. First, summarise the client's current state based on the context I provide. Then, outline the proposed approach in business terms, not technical terms. Finally, state the expected outcomes with indicative timeframes **(S)**. The end goal is a polished executive summary ready for a proposal document **(E)**. Focus only on business value — do not include implementation details or technical architecture **(N)**."
+
+## CREATE
+
+**Character, Request, Examples, Adjustment, Type, Extras** — six elements. Unique because it includes a step for providing examples and explicitly builds iteration into the framework. The Adjustment step acknowledges that the first output is a draft to refine, not a deliverable to accept.
+
+"Act as a management consultant who has written proposals for mid-market companies adopting enterprise systems **(Character)**. Draft an executive summary for a digital transformation proposal for a logistics company **(Request)**. Here is the kind of opening I want: 'Regional Logistics Co currently manages 85% of its operations through manual processes. This creates three measurable risks...' **(Examples)**. Start with the business case angle; I will adjust the emphasis after reviewing the first draft **(Adjustment)**. Three-paragraph prose, no bullet points **(Type)**. Include one concrete metric or statistic per paragraph to anchor the argument **(Extras)**."
+
+## APE
+
+**Action, Purpose, Expectation** — three elements. The most minimal framework. Useful for quick, low-stakes tasks where speed matters more than precision.
+
+"Draft an executive summary for a digital transformation proposal **(A)** to persuade a non-technical CEO and CFO to invest in integrated systems **(P)**. I expect three paragraphs covering the current problem, the proposed solution, and the expected business outcomes **(E)**."
+
+:::
+
+
+## Which Framework Should You Use?
+
+| Framework | Elements | Best suited to |
+|---|---|---|
+| **APE** | 3 | Quick tasks — brainstorming, simple drafts, low-stakes requests |
+| **RTCF** | 4 | General-purpose — covers most situations with minimal overhead |
+| **CRAFT** | 5 | Business communication — where tone and audience shape the output |
+| **RISEN** | 5 | Multi-step processes — where you need to control the sequence of work |
+| **CREATE** | 6 | Example-driven tasks — where showing is easier than describing |
+| **CO-STAR** | 6 | High-stakes communication — where style, tone, and audience are distinct decisions |
+
+: Prompting frameworks from simplest to most detailed. {.striped}
+
+Start with CRAFT — it is what this book teaches and it covers most business scenarios well. If you find yourself wanting less overhead, drop to RTCF or APE. If you need finer control over the AI's process, try RISEN. If you have a clear example of what good output looks like, try CREATE. The framework matters less than the habit: think about what the AI needs to know before you start typing.
+
+CRAFT and RTCF are essentially the same framework. CRAFT separates tone and target audience into their own component; RTCF folds them into context or format. If you have read *Conversation, Not Delegation* and are comfortable with RTCF, you already know CRAFT. The extra letter just makes the audience decision explicit, which is useful in business contexts where the same analysis might go to a board, a team, or a client.
+
+
+## The Real Point
+
+No framework will save you from a lazy conversation. A perfectly structured CRAFT or CO-STAR prompt is still a single message. It is still one shot. If you send it and accept whatever comes back, you have used a framework to delegate more precisely — but you have still delegated.
+
+The frameworks in this appendix help you start well. The techniques in this book — the seven prompting techniques, the flight simulator, the critique toolkit — help you stay in the conversation after the opening prompt. The combination is what produces work worth putting your name on.
