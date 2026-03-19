@@ -12,7 +12,11 @@ These aren't random AI tricks. These are seven proven prompting techniques speci
 6. **Formative Assessment Generator** → Provides unlimited low-stakes practice and immediate feedback
 7. **The Expert Panel** → Develops multi-perspective analysis and synthesis skills
 
-Each technique is easy to adapt and can be used by students directly or by you to generate teaching materials. Let's explore each one with ready-to-use examples.
+Each technique is easy to adapt and can be used by students directly or by you to generate teaching materials.
+
+These seven techniques are adapted from the eight techniques in *Conversation, Not Delegation*, which covers the same approaches for a general professional audience. This chapter reframes them for business education, with discipline-specific prompts and teaching guidance. If you want the underlying rationale for why each technique works, or the eighth technique (Risk Deep-Dive), see the companion book.
+
+Let's explore each one with ready-to-use examples.
 
 ---
 

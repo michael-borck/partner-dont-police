@@ -187,6 +187,22 @@ The core principle is simple: **your expertise + AI's breadth = amplified thinki
 
 Every technique in this book — from the flight simulator to the critique toolkit to the seven prompting techniques — is designed to keep you in conversation, not delegation. When you see a prompt that asks the AI to challenge your reasoning, or a simulation that requires you to respond in real time, or an assessment that grades your process rather than the AI's output, you are seeing this framework in action.
 
+### Staying Critical: VET and the Cognitive Traps
+
+Conversation only works if you stay critical. *Conversation, Not Delegation* introduces the **VET framework** — three questions to ask before acting on any AI output:
+
+- **Verify:** Can I find this independently? Check sources, cross-reference claims.
+- **Explain:** Can I explain this in my own words? If not, I do not understand it yet.
+- **Test:** Does this hold up under scrutiny? Change a variable, try an edge case.
+
+It also names three cognitive traps that undermine critical engagement:
+
+- **Gell-Mann Amnesia:** You catch AI errors in your area of expertise, then trust it completely on topics you know less about.
+- **The Sycophancy Trap:** AI is trained to agree with you. Ask "what do you think?" and you get flattery, not feedback. Ask "what are the three weakest points?" and you get something useful.
+- **The AI Dismissal Fallacy:** Rejecting an idea solely because AI was involved. "That is just ChatGPT" is not a critique — it is a refusal to engage with the content.
+
+These traps matter for teaching because students will fall into all three. Naming them makes them visible, and visibility is the first step to resisting them. The critique toolkit in this book and the VET framework from *Conversation, Not Delegation* reinforce each other: both teach the habit of evaluating AI output on its merits rather than accepting or rejecting it reflexively.
+
 ---
 
 ## Three Core Principles of This Approach

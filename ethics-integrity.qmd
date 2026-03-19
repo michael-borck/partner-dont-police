@@ -866,6 +866,14 @@ In this respect, passive delegation to even the most capable model can produce w
 
 The conversational nudge addresses this directly. By structurally inviting the student to push back at every response — to notice when something does not match expectations, to name what seems wrong — it creates the friction that uncritical acceptance suppresses. That friction is protective regardless of model quality. It is arguably more important with weaker models, where errors are more frequent, but it matters with frontier models too, where errors are rarer but more convincingly dressed.
 
+Three cognitive traps, named in *Conversation, Not Delegation*, are worth teaching students explicitly:
+
+- **Gell-Mann Amnesia:** A student catches AI errors in their strongest subject, then trusts it uncritically in subjects they find harder. The remedy is to apply the same scepticism everywhere — and more scepticism, not less, in unfamiliar territory.
+- **The Sycophancy Trap:** AI is trained to agree. A student who asks "is my analysis good?" will almost always hear yes. A student who asks "what are the three weakest points in my analysis?" will get genuinely useful feedback. Teaching students to prompt past the flattery is a concrete, teachable skill.
+- **The AI Dismissal Fallacy:** The opposite trap — dismissing work because AI was involved. "That is just ChatGPT" is not a critique. If the reasoning is sound, the origin does not matter. Students need to evaluate content on its merits, not its source.
+
+Naming these traps makes them visible. Visibility makes them resistible. Consider introducing them early in any unit that involves AI, so students have the vocabulary to recognise these patterns in their own behaviour.
+
 ### The Equity Implication
 
 The implication for equity is significant. If conversation quality compensates for model quality, then the gap between students with paid frontier access and those without is not the defining equity problem in AI-integrated education. The defining problem is whether every student, regardless of the tool they are using, has been taught and scaffolded to engage conversationally rather than to delegate.
