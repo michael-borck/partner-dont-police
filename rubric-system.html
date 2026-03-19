@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
+
+<title>Appendix F — AI-Integrated Assessment Rubric System – Partner, Don't Police: AI in the Business Classroom</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./stress-test-sequence.html" rel="next">
+<link href="./craft-vs-create.html" rel="prev">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./rubric-system.html"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Partner,-Don-t-Police--AI-in-the-Business-Classroom.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Partner,-Don-t-Police--AI-in-the-Business-Classroom.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">copyright.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">About This Book</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction - Why AI Matters for Business Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./what-is-ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What is AI? Foundations for Educators</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./what-are-llms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">What are Large Language Models (LLMs)?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./getting-started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Getting Started - Your First AI Conversation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovering-your-strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Discovering Your Teaching Strategy: Using AI to Help You Use AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./first-steps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Your First Steps - A Practical Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./seven-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./managing-context.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./critique-toolkit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./process-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Process Over Product - Rethinking Assessment</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./group-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Group Assessment in the AI Era</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./self-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Virtual Company Simulation (Future Horizon)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Designing an AI-Integrated Unit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./static-to-interactive.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">From Static to Interactive - AI-Powered Activity Transformation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./from-conversation-to-document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">From Conversation to Document: AI-Generated Office Suite Deliverables</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research-assistant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">The Research Assistant (Postgraduate Focus)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./advanced-frontiers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Advanced Frontiers: Agents, Automation &amp; Emerging Capabilities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assessment-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Assessment Design and Evaluation Rubrics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./technical-troubleshooting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Technical Troubleshooting and Risk Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./accessibility-inclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Accessibility and Inclusive AI Integration</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./global-perspectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Global Perspectives and Adaptation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prompt-library.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Ready-to-Use Prompt Library</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Workshop Guide: Training Your Colleagues</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./curtin-alignment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Alignment with Curtin University Learning Outcomes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./advanced-prompting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Advanced Prompting for Business Education</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./craft-vs-create.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Prompting Frameworks Showdown: C.R.E.A.T.E. vs.&nbsp;C.R.A.F.T.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rubric-system.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./stress-test-sequence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Assessment AI Stress Test: A Prompt Sequence</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-this-system-does" id="toc-what-this-system-does" class="nav-link active" data-scroll-target="#what-this-system-does"><span class="header-section-number">F.1</span> What This System Does</a>
+  <ul class="collapse">
+  <li><a href="#why-critical-engagement-is-weighted-at-30" id="toc-why-critical-engagement-is-weighted-at-30" class="nav-link" data-scroll-target="#why-critical-engagement-is-weighted-at-30"><span class="header-section-number">F.1.1</span> Why Critical Engagement Is Weighted at 30%</a></li>
+  <li><a href="#how-the-rubric-connects-to-transcript-analysis" id="toc-how-the-rubric-connects-to-transcript-analysis" class="nav-link" data-scroll-target="#how-the-rubric-connects-to-transcript-analysis"><span class="header-section-number">F.1.2</span> How the Rubric Connects to Transcript Analysis</a></li>
+  </ul></li>
+  <li><a href="#sec-rubric-template" id="toc-sec-rubric-template" class="nav-link" data-scroll-target="#sec-rubric-template"><span class="header-section-number">F.2</span> The Generic Template</a>
+  <ul class="collapse">
+  <li><a href="#sec-rubric-engagement-mapping" id="toc-sec-rubric-engagement-mapping" class="nav-link" data-scroll-target="#sec-rubric-engagement-mapping"><span class="header-section-number">F.2.1</span> Mapping to the Engagement Spectrum</a></li>
+  <li><a href="#general-scoring" id="toc-general-scoring" class="nav-link" data-scroll-target="#general-scoring"><span class="header-section-number">F.2.2</span> General Scoring</a></li>
+  <li><a href="#academic-integrity-notes" id="toc-academic-integrity-notes" class="nav-link" data-scroll-target="#academic-integrity-notes"><span class="header-section-number">F.2.3</span> Academic Integrity Notes</a></li>
+  </ul></li>
+  <li><a href="#sec-rubric-adaptation" id="toc-sec-rubric-adaptation" class="nav-link" data-scroll-target="#sec-rubric-adaptation"><span class="header-section-number">F.3</span> Adapting the Template</a>
+  <ul class="collapse">
+  <li><a href="#for-different-ai-modalities" id="toc-for-different-ai-modalities" class="nav-link" data-scroll-target="#for-different-ai-modalities"><span class="header-section-number">F.3.1</span> For Different AI Modalities</a></li>
+  <li><a href="#for-different-disciplines" id="toc-for-different-disciplines" class="nav-link" data-scroll-target="#for-different-disciplines"><span class="header-section-number">F.3.2</span> For Different Disciplines</a></li>
+  <li><a href="#quick-reference-weighting-by-context" id="toc-quick-reference-weighting-by-context" class="nav-link" data-scroll-target="#quick-reference-weighting-by-context"><span class="header-section-number">F.3.3</span> Quick Reference: Weighting by Context</a></li>
+  </ul></li>
+  <li><a href="#sec-rubric-example" id="toc-sec-rubric-example" class="nav-link" data-scroll-target="#sec-rubric-example"><span class="header-section-number">F.4</span> Worked Example: CloudCore Audit Rubric</a>
+  <ul class="collapse">
+  <li><a href="#performance-level-descriptors" id="toc-performance-level-descriptors" class="nav-link" data-scroll-target="#performance-level-descriptors"><span class="header-section-number">F.4.1</span> Performance Level Descriptors</a></li>
+  <li><a href="#usage-notes-for-markers" id="toc-usage-notes-for-markers" class="nav-link" data-scroll-target="#usage-notes-for-markers"><span class="header-section-number">F.4.2</span> Usage Notes for Markers</a></li>
+  </ul></li>
+  <li><a href="#sec-rubric-creating" id="toc-sec-rubric-creating" class="nav-link" data-scroll-target="#sec-rubric-creating"><span class="header-section-number">F.5</span> Creating Your Own Variant</a>
+  <ul class="collapse">
+  <li><a href="#step-1-answer-these-questions" id="toc-step-1-answer-these-questions" class="nav-link" data-scroll-target="#step-1-answer-these-questions"><span class="header-section-number">F.5.1</span> Step 1: Answer These Questions</a></li>
+  <li><a href="#step-2-customise-in-this-order" id="toc-step-2-customise-in-this-order" class="nav-link" data-scroll-target="#step-2-customise-in-this-order"><span class="header-section-number">F.5.2</span> Step 2: Customise in This Order</a></li>
+  <li><a href="#step-3-share-early-with-students" id="toc-step-3-share-early-with-students" class="nav-link" data-scroll-target="#step-3-share-early-with-students"><span class="header-section-number">F.5.3</span> Step 3: Share Early with Students</a></li>
+  <li><a href="#step-4-test-and-calibrate" id="toc-step-4-test-and-calibrate" class="nav-link" data-scroll-target="#step-4-test-and-calibrate"><span class="header-section-number">F.5.4</span> Step 4: Test and Calibrate</a></li>
+  </ul></li>
+  <li><a href="#implementation-checklist" id="toc-implementation-checklist" class="nav-link" data-scroll-target="#implementation-checklist"><span class="header-section-number">F.6</span> Implementation Checklist</a></li>
+  <li><a href="#common-mistakes-to-avoid" id="toc-common-mistakes-to-avoid" class="nav-link" data-scroll-target="#common-mistakes-to-avoid"><span class="header-section-number">F.7</span> Common Mistakes to Avoid</a></li>
+  <li><a href="#questions-to-ask-before-finalising" id="toc-questions-to-ask-before-finalising" class="nav-link" data-scroll-target="#questions-to-ask-before-finalising"><span class="header-section-number">F.8</span> Questions to Ask Before Finalising</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">F.9</span> Further Reading</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prompt-library.html">Appendices</a></li><li class="breadcrumb-item"><a href="./rubric-system.html"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-rubric-system" class="quarto-section-identifier">Appendix F — AI-Integrated Assessment Rubric System</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-this-system-does" class="level2" data-number="F.1">
+<h2 data-number="F.1" class="anchored" data-anchor-id="what-this-system-does"><span class="header-section-number">F.1</span> What This System Does</h2>
+<p>This appendix provides a complete rubric generation pipeline: a generic template that works across disciplines, a structured guide for adapting it to your specific AI modality and discipline, and a worked example showing the full adaptation in practice.</p>
+<p>The system is built on a single principle: <strong>assess the quality of the student’s thinking about AI, not the quality of the AI’s output.</strong> The rubric criteria operationalise the engagement spectrum described in <a href="process-assessment.html#sec-engagement-spectrum" class="quarto-xref"><span>Section 14.6</span></a>, translating the conceptual distinction between collaborative thinking and pure delegation into markable performance levels.</p>
+<section id="why-critical-engagement-is-weighted-at-30" class="level3" data-number="F.1.1">
+<h3 data-number="F.1.1" class="anchored" data-anchor-id="why-critical-engagement-is-weighted-at-30"><span class="header-section-number">F.1.1</span> Why Critical Engagement Is Weighted at 30%</h3>
+<p>This is the differentiator. Any tool can generate fast output. Critical evaluation—challenging AI assumptions, validating findings, recognising when AI is speculating—is the skill worth rewarding. If your rubric rewards only the final product, students who delegate effectively are indistinguishable from students who think deeply. If it rewards critical engagement, they are not.</p>
+</section>
+<section id="how-the-rubric-connects-to-transcript-analysis" class="level3" data-number="F.1.2">
+<h3 data-number="F.1.2" class="anchored" data-anchor-id="how-the-rubric-connects-to-transcript-analysis"><span class="header-section-number">F.1.2</span> How the Rubric Connects to Transcript Analysis</h3>
+<p>The transcript analysis metrics described in <a href="process-assessment.html#sec-transcript-analysis" class="quarto-xref"><span>Section 14.8</span></a> (Flesch readability scores, turn counts, prompt specificity over time, evidence of pushback) provide a scalable triage layer that sits underneath this rubric. The metrics help markers quickly identify which performance band a student is likely operating in before reading the submission in detail:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transcript Signal</th>
+<th>Likely Rubric Level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>High turn count, increasing specificity, evidence of pushback</td>
+<td>Excellent: genuine dialogue</td>
+</tr>
+<tr class="even">
+<td>Moderate turns, some follow-ups, reasonable prompt length</td>
+<td>Good: reasonable engagement</td>
+</tr>
+<tr class="odd">
+<td>Few turns, short prompts, limited follow-up</td>
+<td>Satisfactory: limited interaction</td>
+</tr>
+<tr class="even">
+<td>Single prompts, no follow-up, very short</td>
+<td>Developing: delegation, not conversation</td>
+</tr>
+</tbody>
+</table>
+<p>The metrics are a triage tool, not a verdict. They tell the marker where to look; the rubric tells the marker what to assess.</p>
+<hr>
+</section>
+</section>
+<section id="sec-rubric-template" class="level2" data-number="F.2">
+<h2 data-number="F.2" class="anchored" data-anchor-id="sec-rubric-template"><span class="header-section-number">F.2</span> The Generic Template</h2>
+<p>This is the starting point. Five criteria, four performance levels, adaptable to any AI-supported assessment. Start here, then customise using the adaptation guide that follows.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 12%">
+<col style="width: 17%">
+<col style="width: 9%">
+<col style="width: 22%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Weight</th>
+<th>Excellent</th>
+<th>Good</th>
+<th>Satisfactory</th>
+<th>Developing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Critical Engagement with AI</strong></td>
+<td>30%</td>
+<td>Demonstrates sophisticated evaluation of AI outputs. Clearly articulates when AI is reliable vs.&nbsp;speculative. Actively challenges AI assumptions and validates findings through independent verification.</td>
+<td>Shows solid evaluation of AI outputs with some critical reflection. Generally identifies AI limitations. Attempts verification of key claims.</td>
+<td>Engages with AI but evaluation is surface-level. Limited critical questioning. Minimal independent verification of AI suggestions.</td>
+<td>Minimal or no critical evaluation of AI. Accepts AI outputs without question. No evidence of validation or verification.</td>
+</tr>
+<tr class="even">
+<td><strong>Quality of Inquiry &amp; Problem-Solving</strong></td>
+<td>25%</td>
+<td>Investigation is strategic, well-structured, and adaptive. Clear evidence of iterative refinement. Responds effectively to obstacles or constraints. Shows intellectual curiosity and initiative.</td>
+<td>Investigation is generally well-organised with some evidence of adaptation. Most key questions explored systematically. Some refinement visible.</td>
+<td>Investigation covers main points but lacks depth or strategic planning. Limited evidence of adaptation to challenges. Inquiry feels mechanical.</td>
+<td>Investigation is disorganised or incomplete. Minimal evidence of planning or adaptability. Key areas unexplored.</td>
+</tr>
+<tr class="odd">
+<td><strong>Conversation Quality &amp; Accountability</strong></td>
+<td>20%</td>
+<td>AI conversation transcript shows genuine dialogue: challenging assumptions, asking follow-ups, refining outputs, and steering toward specific context. Student can explain all decisions and takes clear accountability for final work. Evidence of conversation, not delegation.</td>
+<td>Conversation transcript shows reasonable engagement with AI. Follow-up questions present. Generally explains how outputs were validated. Takes appropriate responsibility for work.</td>
+<td>Conversation transcript shows limited interaction. Few follow-up questions or challenges. Some evidence of refinement but mostly accepts initial outputs. Accountability is unclear in places.</td>
+<td>Conversation shows single prompts with no follow-up. No evidence of critical engagement or refinement. Unclear who is accountable for outputs.</td>
+</tr>
+<tr class="even">
+<td><strong>Communication &amp; Clarity</strong></td>
+<td>15%</td>
+<td>Clear, coherent, professionally structured. Complex ideas are explained accessibly. Findings/recommendations are well-justified and easy to follow. Appropriate for intended audience.</td>
+<td>Generally clear and well-organised. Most ideas are explained adequately. Findings supported by reasoning. Generally appropriate tone/style.</td>
+<td>Communication is adequate but may lack clarity in places. Ideas present but not always well-connected. Some findings need stronger justification.</td>
+<td>Communication is unclear or disorganised. Difficulty following main ideas. Minimal justification for conclusions.</td>
+</tr>
+<tr class="odd">
+<td><strong>Integration of Disciplinary Knowledge</strong></td>
+<td>10%</td>
+<td>Meaningfully connects AI engagement to unit concepts. Demonstrates how theoretical/practical knowledge informs critical evaluation of AI. Shows synthesis of learning.</td>
+<td>Connects AI work to unit content. Shows understanding of how discipline-specific knowledge applies to AI evaluation.</td>
+<td>Makes some connections to unit content but links are basic or limited.</td>
+<td>Few or no connections between AI work and disciplinary learning.</td>
+</tr>
+</tbody>
+</table>
+<section id="sec-rubric-engagement-mapping" class="level3" data-number="F.2.1">
+<h3 data-number="F.2.1" class="anchored" data-anchor-id="sec-rubric-engagement-mapping"><span class="header-section-number">F.2.1</span> Mapping to the Engagement Spectrum</h3>
+<p>The <strong>Conversation Quality &amp; Accountability</strong> criterion directly operationalises the engagement spectrum from <a href="process-assessment.html#sec-engagement-spectrum" class="quarto-xref"><span>Section 14.6</span></a>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Engagement Level</th>
+<th>What It Looks Like in the Transcript</th>
+<th>Rubric Level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Genuine collaborative thinking</strong></td>
+<td>Student drives inquiry, pushes back on AI, iterates toward own understanding</td>
+<td>Excellent</td>
+</tr>
+<tr class="even">
+<td><strong>Guided drafting</strong></td>
+<td>Student provides direction, evaluates critically, modifies toward coherent submission</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td><strong>Curated delegation</strong></td>
+<td>Student uses AI to produce submission, exercises some judgment about what passes</td>
+<td>Satisfactory</td>
+</tr>
+<tr class="even">
+<td><strong>Pure delegation</strong></td>
+<td>Student hands task to AI, submits with minimal engagement</td>
+<td>Developing</td>
+</tr>
+</tbody>
+</table>
+<p>This mapping gives markers a concrete vocabulary for discussing student work. Rather than debating whether a submission “feels like AI,” the marker asks: where on the engagement spectrum does the evidence place this student?</p>
+</section>
+<section id="general-scoring" class="level3" data-number="F.2.2">
+<h3 data-number="F.2.2" class="anchored" data-anchor-id="general-scoring"><span class="header-section-number">F.2.2</span> General Scoring</h3>
+<ul>
+<li><strong>Excellent (85–100%):</strong> Sophisticated, independent thinking; strong evidence of learning outcomes</li>
+<li><strong>Good (75–84%):</strong> Solid performance; demonstrates competence; minor areas for development</li>
+<li><strong>Satisfactory (65–74%):</strong> Meets minimum expectations; completes task; some areas lack depth</li>
+<li><strong>Developing (&lt;65%):</strong> Below expectations; significant gaps in performance or understanding</li>
+</ul>
+</section>
+<section id="academic-integrity-notes" class="level3" data-number="F.2.3">
+<h3 data-number="F.2.3" class="anchored" data-anchor-id="academic-integrity-notes"><span class="header-section-number">F.2.3</span> Academic Integrity Notes</h3>
+<p>Make clear to students:</p>
+<ul>
+<li>AI use must be disclosed and documented</li>
+<li>Students remain responsible for all outputs, regardless of AI involvement</li>
+<li>Critical evaluation of AI is a valued skill, not “cheating”</li>
+<li>Honest AI conversation transcripts (including dead ends) demonstrate integrity, not weakness</li>
+</ul>
+<p>For the broader integrity framework that supports this approach, including why transparency-based assessment is more defensible than detection-based assessment, see <a href="ethics-integrity.html#sec-problem-with-detection" class="quarto-xref"><span>Section 13.2</span></a> and <a href="ethics-integrity.html#sec-integrity-principle" class="quarto-xref"><span>Section 13.13</span></a>.</p>
+<hr>
+</section>
+</section>
+<section id="sec-rubric-adaptation" class="level2" data-number="F.3">
+<h2 data-number="F.3" class="anchored" data-anchor-id="sec-rubric-adaptation"><span class="header-section-number">F.3</span> Adapting the Template</h2>
+<section id="for-different-ai-modalities" class="level3" data-number="F.3.1">
+<h3 data-number="F.3.1" class="anchored" data-anchor-id="for-different-ai-modalities"><span class="header-section-number">F.3.1</span> For Different AI Modalities</h3>
+<p>The generic template works as-is for most contexts, but the <strong>Critical Engagement</strong> criterion should be renamed and its performance descriptors adjusted to match the specific AI modality students are using.</p>
+<section id="ai-chatbot-simulations-e.g.-role-playing-employees" class="level4" data-number="F.3.1.1">
+<h4 data-number="F.3.1.1" class="anchored" data-anchor-id="ai-chatbot-simulations-e.g.-role-playing-employees"><span class="header-section-number">F.3.1.1</span> 1. AI Chatbot Simulations (e.g., Role-Playing Employees)</h4>
+<p><strong>Best for:</strong> Business analysis, consulting, auditing, investigative work</p>
+<p><strong>Rename:</strong> “Critical Engagement with AI” → “Evaluation of AI-Generated Intelligence”</p>
+<p><strong>Excellent Performance Indicators:</strong></p>
+<ul>
+<li>Distinguishes between reliable and speculative AI responses</li>
+<li>Adapts questioning strategy based on source credibility</li>
+<li>Recognises when AI is operating outside its domain</li>
+<li>Cross-validates information between multiple AI agents</li>
+<li>Shows sophisticated prompting (follow-ups, clarifications)</li>
+</ul>
+<p><strong>Example Rubric Cell (Excellent):</strong></p>
+<blockquote class="blockquote">
+<p>“Demonstrates sophisticated judgement about different AI agents. Clearly explains which sources are reliable for different topics and why. Strategically sequences conversations and asks targeted follow-ups. Cross-validates findings. Recognises when AI is speculating vs.&nbsp;reporting factual information.”</p>
+</blockquote>
+</section>
+<section id="llm-as-writingresearch-assistant" class="level4" data-number="F.3.1.2">
+<h4 data-number="F.3.1.2" class="anchored" data-anchor-id="llm-as-writingresearch-assistant"><span class="header-section-number">F.3.1.2</span> 2. LLM as Writing/Research Assistant</h4>
+<p><strong>Best for:</strong> Essays, reports, research papers, creative writing</p>
+<p><strong>Rename:</strong> “Critical Engagement with AI” → “Validation &amp; Integration of AI-Generated Content”</p>
+<p><strong>Excellent Performance Indicators:</strong></p>
+<ul>
+<li>Verifies factual claims made by LLM</li>
+<li>Identifies AI hallucinations or overgeneralisations</li>
+<li>Integrates AI suggestions into own argument, not replacing it</li>
+<li>Shows evidence of iterative refinement (multiple drafts, prompts)</li>
+<li>Clearly distinguishes AI-suggested ideas from own thinking</li>
+</ul>
+<p><strong>Example Rubric Cell (Excellent):</strong></p>
+<blockquote class="blockquote">
+<p>“Critically evaluates all LLM outputs before integration. Fact-checks key claims against sources. Uses AI for brainstorming/drafting but substantially refines all output. Clear evidence of multiple prompts and iterative refinement. Distinguishes own analysis from AI suggestions throughout.”</p>
+</blockquote>
+<p><strong>Example Rubric Cell (Developing):</strong></p>
+<blockquote class="blockquote">
+<p>“Accepts LLM output with minimal validation. No evidence that AI claims were fact-checked. Large portions appear to be unedited AI generation. Difficult to distinguish student thinking from AI output.”</p>
+</blockquote>
+</section>
+<section id="rag-systems-or-ai-assisted-data-analysis" class="level4" data-number="F.3.1.3">
+<h4 data-number="F.3.1.3" class="anchored" data-anchor-id="rag-systems-or-ai-assisted-data-analysis"><span class="header-section-number">F.3.1.3</span> 3. RAG Systems or AI-Assisted Data Analysis</h4>
+<p><strong>Best for:</strong> Data science, research, business analytics</p>
+<p><strong>Rename:</strong> “Critical Engagement with AI” → “Understanding &amp; Validating AI Data Interpretation”</p>
+<p><strong>Excellent Performance Indicators:</strong></p>
+<ul>
+<li>Understands what data/sources the AI is drawing from</li>
+<li>Questions AI interpretations; considers alternative explanations</li>
+<li>Validates AI findings against raw data when possible</li>
+<li>Recognises limitations of training data or AI knowledge cutoff</li>
+<li>Acknowledges uncertainty where appropriate</li>
+</ul>
+<p><strong>Weights might shift:</strong></p>
+<ul>
+<li>Critical Engagement: 35% (data validation is crucial)</li>
+<li>Communication: 20% (must explain methodology clearly)</li>
+<li>Integration of Knowledge: 10% (same)</li>
+</ul>
+</section>
+<section id="ai-code-assistant-programming-helper" class="level4" data-number="F.3.1.4">
+<h4 data-number="F.3.1.4" class="anchored" data-anchor-id="ai-code-assistant-programming-helper"><span class="header-section-number">F.3.1.4</span> 4. AI Code Assistant / Programming Helper</h4>
+<p><strong>Best for:</strong> Computer science, software engineering</p>
+<p><strong>Rename:</strong> “Critical Engagement with AI” → “Code Validation &amp; Testing of AI-Generated Solutions”</p>
+<p><strong>Excellent Performance Indicators:</strong></p>
+<ul>
+<li>Tests all AI-generated code before integrating</li>
+<li>Understands logic of generated code; can explain it</li>
+<li>Recognises when AI solution is inefficient or incorrect</li>
+<li>Modifies/improves AI output rather than blindly using it</li>
+<li>Documents which parts were AI-assisted and which were manual</li>
+</ul>
+<p><strong>Weights might shift:</strong></p>
+<ul>
+<li>Critical Engagement: 35% (testing/validation essential)</li>
+<li>Quality of Inquiry: 15% (different meaning in this context)</li>
+<li>Communication: 20% (code comments, documentation)</li>
+<li>Conversation Quality: 10% (how decisions were made)</li>
+</ul>
+</section>
+<section id="multimodal-ai-image-generation-video-tools-etc." class="level4" data-number="F.3.1.5">
+<h4 data-number="F.3.1.5" class="anchored" data-anchor-id="multimodal-ai-image-generation-video-tools-etc."><span class="header-section-number">F.3.1.5</span> 5. Multimodal AI (Image Generation, Video Tools, etc.)</h4>
+<p><strong>Best for:</strong> Creative fields, design, media studies</p>
+<p><strong>Rename:</strong> “Critical Engagement with AI” → “Creative Direction &amp; Critical Evaluation of AI-Generated Media”</p>
+<p><strong>Excellent Performance Indicators:</strong></p>
+<ul>
+<li>Clearly communicates intention to AI (via prompts, iterations)</li>
+<li>Recognises aesthetic/conceptual limitations of AI output</li>
+<li>Substantially modifies/refines AI output rather than using as-is</li>
+<li>Makes intentional creative decisions about when/how to use AI</li>
+<li>Conversation transcript shows iterative creative direction</li>
+</ul>
+</section>
+<section id="oral-exams-viva-voce" class="level4" data-number="F.3.1.6">
+<h4 data-number="F.3.1.6" class="anchored" data-anchor-id="oral-exams-viva-voce"><span class="header-section-number">F.3.1.6</span> 6. Oral Exams / Viva Voce</h4>
+<p><strong>Best for:</strong> High-stakes assessment verification, professional communication development, courses under approximately 25 students</p>
+<p><strong>Rename:</strong> “Critical Engagement with AI” → “Depth of Understanding &amp; Ability to Defend”</p>
+<p><strong>Excellent Performance Indicators:</strong></p>
+<ul>
+<li>Explains concepts clearly without relying on notes or memorised phrasing</li>
+<li>Responds to follow-up questions with nuance and relevant examples</li>
+<li>Connects ideas across multiple topics or readings</li>
+<li>Acknowledges limitations and considers alternative perspectives</li>
+<li>Communicates with confidence, clarity, and appropriate vocabulary</li>
+</ul>
+<p><strong>Additional Criteria to Consider:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>What to Assess</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Understanding</strong></td>
+<td>Depth and accuracy of knowledge, ability to go beyond surface-level recall</td>
+</tr>
+<tr class="even">
+<td><strong>Argument</strong></td>
+<td>Ability to articulate a position and respond to counter-arguments</td>
+</tr>
+<tr class="odd">
+<td><strong>Evidence</strong></td>
+<td>Relevance and accuracy of examples used to support claims</td>
+</tr>
+<tr class="even">
+<td><strong>Structure &amp; Coherence</strong></td>
+<td>Logical progression of ideas, accessibility to the listener</td>
+</tr>
+<tr class="odd">
+<td><strong>Speaking Skills</strong></td>
+<td>Clarity, eye contact, confidence, vocabulary, minimal verbal clutter</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Weights might shift:</strong></p>
+<ul>
+<li>Ability to Defend: 35% (the core of the format)</li>
+<li>Quality of Reasoning: 25% (synthesis and argumentation)</li>
+<li>Evidence &amp; Examples: 20% (supporting claims)</li>
+<li>Communication: 20% (verbal delivery and structure)</li>
+</ul>
+<p>This modality connects directly to the Tier 1 oral checkpoint described in <a href="process-assessment.html#sec-minimum-viable" class="quarto-xref"><span>Section 14.10</span></a>—even a five-minute conversation after submission closes the most significant integrity gap.</p>
+</section>
+</section>
+<section id="for-different-disciplines" class="level3" data-number="F.3.2">
+<h3 data-number="F.3.2" class="anchored" data-anchor-id="for-different-disciplines"><span class="header-section-number">F.3.2</span> For Different Disciplines</h3>
+<p>Adjust the <strong>Integration of Disciplinary Knowledge</strong> criterion to match your field:</p>
+<p><strong>Business/Management:</strong></p>
+<ul>
+<li>How does this analysis align with strategic frameworks, ethical considerations?</li>
+<li>Add/adjust: “Strategic Application” criterion</li>
+<li>Does student consider stakeholder perspectives?</li>
+</ul>
+<p><strong>STEM/Sciences:</strong></p>
+<ul>
+<li>How does methodology reflect scientific reasoning, experimental validity?</li>
+<li>Add/adjust: “Methodological Rigor” criterion</li>
+<li>Are limitations and uncertainties clearly articulated?</li>
+</ul>
+<p><strong>Humanities/Social Sciences:</strong></p>
+<ul>
+<li>How does this argument engage with theoretical traditions, interpretive methods?</li>
+<li>Add/adjust: “Interpretive Depth” criterion</li>
+<li>Does student engage with multiple perspectives?</li>
+</ul>
+<p><strong>Law/Professional Practice:</strong></p>
+<ul>
+<li>Are ethical implications considered? Is accountability clear?</li>
+<li>Add/adjust: “Professional Ethics &amp; Accountability” criterion</li>
+<li>Recognises when AI judgement conflicts with professional standards?</li>
+</ul>
+</section>
+<section id="quick-reference-weighting-by-context" class="level3" data-number="F.3.3">
+<h3 data-number="F.3.3" class="anchored" data-anchor-id="quick-reference-weighting-by-context"><span class="header-section-number">F.3.3</span> Quick Reference: Weighting by Context</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 20%">
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Context</th>
+<th>Critical Engagement</th>
+<th>Inquiry Quality</th>
+<th>Conversation Quality</th>
+<th>Communication</th>
+<th>Disciplinary Depth</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Chatbot Simulation</td>
+<td>35%</td>
+<td>25%</td>
+<td>15%</td>
+<td>15%</td>
+<td>10%</td>
+</tr>
+<tr class="even">
+<td>LLM Writing Tool</td>
+<td>30%</td>
+<td>15%</td>
+<td>20%</td>
+<td>20%</td>
+<td>15%</td>
+</tr>
+<tr class="odd">
+<td>Data Analysis</td>
+<td>35%</td>
+<td>20%</td>
+<td>15%</td>
+<td>20%</td>
+<td>10%</td>
+</tr>
+<tr class="even">
+<td>Code/Programming</td>
+<td>35%</td>
+<td>15%</td>
+<td>10%</td>
+<td>20%</td>
+<td>20%</td>
+</tr>
+<tr class="odd">
+<td>Creative/Media</td>
+<td>30%</td>
+<td>20%</td>
+<td>20%</td>
+<td>15%</td>
+<td>15%</td>
+</tr>
+<tr class="even">
+<td>Oral Exam/Viva</td>
+<td>35%</td>
+<td>25%</td>
+<td>—</td>
+<td>20%</td>
+<td>20%</td>
+</tr>
+<tr class="odd">
+<td><em>Generic Template</em></td>
+<td><em>30%</em></td>
+<td><em>25%</em></td>
+<td><em>20%</em></td>
+<td><em>15%</em></td>
+<td><em>10%</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="sec-rubric-example" class="level2" data-number="F.4">
+<h2 data-number="F.4" class="anchored" data-anchor-id="sec-rubric-example"><span class="header-section-number">F.4</span> Worked Example: CloudCore Audit Rubric</h2>
+<p>This example shows the generic template fully adapted for a specific assessment: an information security audit where students interact with AI “employees” (chatbots) and use LLMs as research tools. It demonstrates the adaptation process in practice.</p>
+<p><strong>Context:</strong> Students conduct an audit of a simulated AI-driven organisation by interacting with AI “employees” (chatbots) and using LLMs as research tools. This rubric balances investigation quality, critical AI evaluation, and professional reporting.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 12%">
+<col style="width: 17%">
+<col style="width: 9%">
+<col style="width: 22%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Weight</th>
+<th>Excellent</th>
+<th>Good</th>
+<th>Satisfactory</th>
+<th>Developing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Critical Evaluation of AI Sources</strong></td>
+<td>30%</td>
+<td>Demonstrates sophisticated judgement about different AI “employees.” Clearly explains which sources are reliable for different questions and why. Questions inconsistencies between AI responses. Validates findings through multiple sources or independent verification. Recognises AI speculation vs.&nbsp;factual responses.</td>
+<td>Shows good discernment among AI employees. Generally identifies which sources are stronger for different topics. Attempts to cross-reference findings. Recognises some AI limitations.</td>
+<td>Engages with multiple AI employees but evaluation is surface-level. Limited comparison between sources. Accepts contradictions without investigation. Minimal awareness of AI unreliability.</td>
+<td>Treats all AI employees as equally reliable. No attempt to validate information across sources. Accepts AI responses uncritically.</td>
+</tr>
+<tr class="even">
+<td><strong>Audit Investigation Strategy &amp; Execution</strong></td>
+<td>25%</td>
+<td>Investigation plan is systematic and adaptive. Clear evidence of strategic sequencing of AI interviews (e.g., starting with CFO for financials, then IT Manager for technical risks). Responds creatively to access constraints and cancellations. Shows persistence in clarifying unclear answers. Iterative refinement visible.</td>
+<td>Investigation follows a logical structure. Manages scheduled appointments effectively. Asks follow-up questions when unclear. Generally adapts to constraints. Some evidence of iterative inquiry.</td>
+<td>Investigation covers main areas but lacks clear strategy. Accepts initial AI responses without deep follow-up. Limited adaptation to access challenges. Feels somewhat ad-hoc.</td>
+<td>Investigation is disorganised or incomplete. Minimal engagement with access scheduling. Key areas unexplored or surface-level inquiry.</td>
+</tr>
+<tr class="odd">
+<td><strong>Professional Use of LLM as Research Tool</strong></td>
+<td>20%</td>
+<td>Critically reviews LLM outputs before integrating into audit. Clearly distinguishes own analysis from AI-generated content. Uses LLM strategically (e.g., drafting frameworks, checking logic) rather than passively accepting output. Shows evidence of multiple prompts/refinement. Acknowledges where LLM was helpful or speculative.</td>
+<td>Generally validates LLM suggestions against evidence. Most AI outputs are appropriately reviewed. Clear attribution of own vs.&nbsp;AI work. Some evidence of iterative prompting.</td>
+<td>Integrates LLM output with limited critical review. Attribution of sources is sometimes unclear. Limited evidence of validation or iterative refinement.</td>
+<td>Heavily relies on unvalidated LLM output. No clear distinction between own and AI-generated content. Minimal critical review.</td>
+</tr>
+<tr class="even">
+<td><strong>Audit Report: Professional Communication</strong></td>
+<td>15%</td>
+<td>Report is clear, well-structured, and professionally formatted. Complex security findings are explained accessibly to non-technical stakeholders. Recommendations are specific and justified. Transparent about methodology (how AI was used, limitations encountered).</td>
+<td>Report is well-organised and clearly written. Findings are generally well-explained. Recommendations are reasonable. Mentions methodology but could be more transparent.</td>
+<td>Report covers main findings but organisation could be clearer. Some findings lack sufficient justification. Recommendations are general. Limited transparency about AI use in methodology.</td>
+<td>Report is difficult to follow or incomplete. Findings poorly explained. Recommendations are vague or unjustified. No mention of methodology or AI use.</td>
+</tr>
+<tr class="odd">
+<td><strong>AI Conversation Quality &amp; Professional Judgement</strong></td>
+<td>10%</td>
+<td>Conversation transcripts show genuine dialogue with AI: challenging responses, following up on inconsistencies, refining questions based on previous answers. Student clearly articulates how own judgement validated, rejected, or refined AI suggestions. Takes clear accountability for final audit conclusions.</td>
+<td>Conversation transcripts show reasonable engagement. Follow-up questions present. Explains how own expertise was applied to evaluate AI outputs. Generally accountable for work product.</td>
+<td>Conversation transcripts show limited interaction. Few follow-up questions. Limited evidence of steering or refining the AI conversation. Accountability is somewhat unclear.</td>
+<td>Conversation shows single prompts with no follow-up. No evidence of critical engagement. Unclear who is responsible for audit conclusions.</td>
+</tr>
+</tbody>
+</table>
+<section id="performance-level-descriptors" class="level3" data-number="F.4.1">
+<h3 data-number="F.4.1" class="anchored" data-anchor-id="performance-level-descriptors"><span class="header-section-number">F.4.1</span> Performance Level Descriptors</h3>
+<p><strong>Excellent (85–100%):</strong></p>
+<ul>
+<li>Student demonstrates sophisticated professional judgement about which AI sources are credible for different investigation areas</li>
+<li>Audit strategy is evident and strategic; clear sequencing of inquiry</li>
+<li>All AI outputs are meaningfully evaluated; student shows independent reasoning throughout</li>
+<li>Report would be valuable to actual security leadership</li>
+<li>Conversation transcripts show genuine learning about managing AI as a tool</li>
+</ul>
+<p><strong>Good (75–84%):</strong></p>
+<ul>
+<li>Student shows competent judgement about AI reliability; identifies key differences between sources</li>
+<li>Investigation is reasonably strategic and organised</li>
+<li>Most AI outputs are reviewed; some independent analysis visible</li>
+<li>Report is professionally written and would be useful to stakeholders</li>
+<li>Conversation shows adequate critical engagement with AI</li>
+</ul>
+<p><strong>Satisfactory (65–74%):</strong></p>
+<ul>
+<li>Student engages with AI but evaluation lacks sophistication; treats sources somewhat generically</li>
+<li>Investigation covers main areas but strategy is not always clear</li>
+<li>AI outputs are sometimes accepted with limited review</li>
+<li>Report communicates findings but could be more polished</li>
+<li>Conversation engagement is present but limited in depth</li>
+</ul>
+<p><strong>Developing (&lt;65%):</strong></p>
+<ul>
+<li>Student does not meaningfully evaluate AI reliability; little critical engagement</li>
+<li>Investigation is incomplete or disorganised; key areas missing</li>
+<li>AI outputs heavily influence conclusions with minimal independent review</li>
+<li>Report is unclear or incomplete</li>
+<li>Conversation engagement is minimal or absent</li>
+</ul>
+</section>
+<section id="usage-notes-for-markers" class="level3" data-number="F.4.2">
+<h3 data-number="F.4.2" class="anchored" data-anchor-id="usage-notes-for-markers"><span class="header-section-number">F.4.2</span> Usage Notes for Markers</h3>
+<p><strong>Before Students Start:</strong></p>
+<ul>
+<li>Clearly explain that this rubric rewards <em>critical thinking about AI</em>, not just efficient tool use</li>
+<li>Emphasise that asking good follow-up questions of AI employees (and the LLM) is an evaluated skill</li>
+<li>Normalise that showing where AI misled you (visible in the transcript) is valued equally to successful findings</li>
+</ul>
+<p><strong>During Marking:</strong></p>
+<ul>
+<li>Look for evidence in the audit transcript: Can you see quality prompting? Validation? Follow-ups?</li>
+<li>Check the LLM transcript (if submitted): Does it show iterative refinement or one-shot prompting?</li>
+<li>Read the conversation transcript carefully: This is where students reveal their critical judgement. Look for conversation, not delegation</li>
+<li>Use the transcript analysis metrics from <a href="process-assessment.html#sec-transcript-analysis" class="quarto-xref"><span>Section 14.8</span></a> as a first-pass triage before reading in detail</li>
+</ul>
+<p><strong>Adapted for Other Audit Contexts:</strong></p>
+<p>This rubric works well for ISO 27001 readiness audits, tech vendor assessments, process efficiency reviews, or any scenario where students interview AI agents and synthesise findings. Adjust the specific domain knowledge criterion and the types of findings expected.</p>
+<hr>
+</section>
+</section>
+<section id="sec-rubric-creating" class="level2" data-number="F.5">
+<h2 data-number="F.5" class="anchored" data-anchor-id="sec-rubric-creating"><span class="header-section-number">F.5</span> Creating Your Own Variant</h2>
+<section id="step-1-answer-these-questions" class="level3" data-number="F.5.1">
+<h3 data-number="F.5.1" class="anchored" data-anchor-id="step-1-answer-these-questions"><span class="header-section-number">F.5.1</span> Step 1: Answer These Questions</h3>
+<ul>
+<li>What AI tool(s) will students actually use?</li>
+<li>What matters most in your discipline?</li>
+<li>What would a professional in your field do with AI?</li>
+<li>What skills do you want students to develop?</li>
+<li>Where on the engagement spectrum (see <a href="process-assessment.html#sec-engagement-spectrum" class="quarto-xref"><span>Section 14.6</span></a>) do you want students operating, and how will you know?</li>
+</ul>
+</section>
+<section id="step-2-customise-in-this-order" class="level3" data-number="F.5.2">
+<h3 data-number="F.5.2" class="anchored" data-anchor-id="step-2-customise-in-this-order"><span class="header-section-number">F.5.2</span> Step 2: Customise in This Order</h3>
+<ol type="1">
+<li>Rename criteria to match actual activities</li>
+<li>Adjust weights based on importance (use the Quick Reference table as a starting point)</li>
+<li>Rewrite performance descriptors using examples from your field</li>
+<li>Add discipline-specific criterion if the generic five do not capture what matters</li>
+<li>Add any specific constraints or requirements (e.g., “code must be tested,” “citations required”)</li>
+</ol>
+</section>
+<section id="step-3-share-early-with-students" class="level3" data-number="F.5.3">
+<h3 data-number="F.5.3" class="anchored" data-anchor-id="step-3-share-early-with-students"><span class="header-section-number">F.5.3</span> Step 3: Share Early with Students</h3>
+<ul>
+<li>Include with assignment briefing</li>
+<li>Walk through an “Excellent” example specific to your unit</li>
+<li>Clarify what you mean by critical engagement in your context</li>
+<li>Share the rubric <strong>before</strong> students start work, not after</li>
+</ul>
+</section>
+<section id="step-4-test-and-calibrate" class="level3" data-number="F.5.4">
+<h3 data-number="F.5.4" class="anchored" data-anchor-id="step-4-test-and-calibrate"><span class="header-section-number">F.5.4</span> Step 4: Test and Calibrate</h3>
+<ul>
+<li>Apply your version to 2–3 sample student submissions (real or imagined)</li>
+<li>Calibrate scoring with colleagues to ensure consistency</li>
+<li>Collect student feedback: Was the rubric clear? Did it help them understand expectations?</li>
+<li>Build a portfolio of marked examples for future years</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="implementation-checklist" class="level2" data-number="F.6">
+<h2 data-number="F.6" class="anchored" data-anchor-id="implementation-checklist"><span class="header-section-number">F.6</span> Implementation Checklist</h2>
+<p>When adapting for your specific assessment:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Identify primary AI tool/modality being used</label></li>
+<li><label><input type="checkbox">Select relevant modality section above</label></li>
+<li><label><input type="checkbox">Rename the “Critical Engagement” criterion appropriately</label></li>
+<li><label><input type="checkbox">Adjust weights based on context (use Quick Reference as guide)</label></li>
+<li><label><input type="checkbox">Customise performance level descriptors with your specific assignment details</label></li>
+<li><label><input type="checkbox">Add discipline-specific criterion if needed</label></li>
+<li><label><input type="checkbox">Test rubric with 2–3 sample student submissions</label></li>
+<li><label><input type="checkbox">Calibrate scoring with colleagues (ensure consistency)</label></li>
+<li><label><input type="checkbox">Share rubric with students before assignment begins</label></li>
+</ul>
+<hr>
+</section>
+<section id="common-mistakes-to-avoid" class="level2" data-number="F.7">
+<h2 data-number="F.7" class="anchored" data-anchor-id="common-mistakes-to-avoid"><span class="header-section-number">F.7</span> Common Mistakes to Avoid</h2>
+<ul>
+<li><strong>Don’t</strong> make the rubric so specific it cannot be adapted. <strong>Do</strong> include adaptability notes and examples.</li>
+<li><strong>Don’t</strong> ignore the discipline (one-size-fits-all rarely works). <strong>Do</strong> customise weights and descriptors to your field.</li>
+<li><strong>Don’t</strong> focus only on tool efficiency (faster is not better). <strong>Do</strong> reward critical thinking about AI, not speed of output.</li>
+<li><strong>Don’t</strong> punish AI use and incentivise it being hidden. <strong>Do</strong> make transparency and critical evaluation rewarded behaviours.</li>
+<li><strong>Don’t</strong> assume all students know how to “prompt well.” <strong>Do</strong> teach and demonstrate effective AI engagement first. This is especially important if the process mark carries significant weight—see the AI literacy prerequisite discussed in <a href="process-assessment.html#sec-marks-split" class="quarto-xref"><span>Section 14.9</span></a>.</li>
+</ul>
+<hr>
+</section>
+<section id="questions-to-ask-before-finalising" class="level2" data-number="F.8">
+<h2 data-number="F.8" class="anchored" data-anchor-id="questions-to-ask-before-finalising"><span class="header-section-number">F.8</span> Questions to Ask Before Finalising</h2>
+<ul>
+<li>Will this rubric encourage the thinking you want?</li>
+<li>Can colleagues easily adapt this for their units?</li>
+<li>Does it make clear what “critical engagement with AI” means in your context?</li>
+<li>Have you tested it with actual student work?</li>
+<li>Is the language accessible to students (or does it need translation)?</li>
+<li>Does it align with the engagement spectrum—can a marker use it to place a student on that spectrum from the evidence?</li>
+</ul>
+<hr>
+</section>
+<section id="further-reading" class="level2" data-number="F.9">
+<h2 data-number="F.9" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">F.9</span> Further Reading</h2>
+<ul>
+<li>Dawson, P. (2017). Assessment rubrics: Towards clearer and more replicable design, research and practice. <em>Assessment &amp; Evaluation in Higher Education, 42</em>(3), 347–360.</li>
+<li>Perkins, M., Furze, L., Roe, J., &amp; MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. <em>Journal of University Teaching and Learning Practice, 21</em>(6).</li>
+<li>Boud, D., Ajjawi, R., Dawson, P., &amp; Tai, J. (Eds.). (2018). <em>Developing evaluative judgement in higher education: Assessment for knowing and producing quality work.</em> Routledge.</li>
+<li>Bearman, M., Tai, J., Dawson, P., Boud, D., &amp; Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. <em>Assessment &amp; Evaluation in Higher Education, 49</em>(6), 893–905.</li>
+<li>Villarroel, V., Bloxham, S., Bruna, D., Bruna, C., &amp; Herrera-Seda, C. (2018). Authentic assessment: Creating a blueprint for course design. <em>Assessment &amp; Evaluation in Higher Education, 43</em>(5), 840–854.</li>
+<li>Swiecki, Z., Khosravi, H., Chen, G., Martinez-Maldonado, R., Lodge, J. M., Milligan, S., Selwyn, N., &amp; Gasevic, D. (2022). Assessment in the age of artificial intelligence. <em>Computers and Education: Artificial Intelligence, 3</em>, Article 100075.</li>
+<li>Mollick, E. R., &amp; Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. <em>arXiv preprint.</em></li>
+</ul>
+
+
+<!-- -->
+
+</section>
+
+</main> <!-- /main -->
+<!--
+  AnythingLLM chatbot widget for the HTML edition.
+  See: https://github.com/Mintplex-Labs/anythingllm-embed/blob/main/README.md
+-->
+<script data-embed-id="f61a2a1a-97fa-4ff0-bd47-4d875064521a" data-base-api-url="https://chat.eduserver.au/api/embed" src="https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js">
+</script>
+<!-- AnythingLLM (https://anythingllm.com) -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./craft-vs-create.html" class="pagination-link" aria-label="Prompting Frameworks Showdown: C.R.E.A.T.E. vs. C.R.A.F.T.">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Prompting Frameworks Showdown: C.R.E.A.T.E. vs.&nbsp;C.R.A.F.T.</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./stress-test-sequence.html" class="pagination-link" aria-label="Assessment AI Stress Test: A Prompt Sequence">
+        <span class="nav-page-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Assessment AI Stress Test: A Prompt Sequence</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># AI-Integrated Assessment Rubric System {#sec-rubric-system}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## What This System Does</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>This appendix provides a complete rubric generation pipeline: a generic template that works across disciplines, a structured guide for adapting it to your specific AI modality and discipline, and a worked example showing the full adaptation in practice.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>The system is built on a single principle: **assess the quality of the student's thinking about AI, not the quality of the AI's output.** The rubric criteria operationalise the engagement spectrum described in @sec-engagement-spectrum, translating the conceptual distinction between collaborative thinking and pure delegation into markable performance levels.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">### Why Critical Engagement Is Weighted at 30%</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>This is the differentiator. Any tool can generate fast output. Critical evaluation---challenging AI assumptions, validating findings, recognising when AI is speculating---is the skill worth rewarding. If your rubric rewards only the final product, students who delegate effectively are indistinguishable from students who think deeply. If it rewards critical engagement, they are not.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### How the Rubric Connects to Transcript Analysis</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>The transcript analysis metrics described in @sec-transcript-analysis (Flesch readability scores, turn counts, prompt specificity over time, evidence of pushback) provide a scalable triage layer that sits underneath this rubric. The metrics help markers quickly identify which performance band a student is likely operating in before reading the submission in detail:</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Transcript Signal <span class="pp">|</span> Likely Rubric Level <span class="pp">|</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> High turn count, increasing specificity, evidence of pushback <span class="pp">|</span> Excellent: genuine dialogue <span class="pp">|</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Moderate turns, some follow-ups, reasonable prompt length <span class="pp">|</span> Good: reasonable engagement <span class="pp">|</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Few turns, short prompts, limited follow-up <span class="pp">|</span> Satisfactory: limited interaction <span class="pp">|</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Single prompts, no follow-up, very short <span class="pp">|</span> Developing: delegation, not conversation <span class="pp">|</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>The metrics are a triage tool, not a verdict. They tell the marker where to look; the rubric tells the marker what to assess.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Generic Template {#sec-rubric-template}</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>This is the starting point. Five criteria, four performance levels, adaptable to any AI-supported assessment. Start here, then customise using the adaptation guide that follows.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Criterion <span class="pp">|</span> Weight <span class="pp">|</span> Excellent <span class="pp">|</span> Good <span class="pp">|</span> Satisfactory <span class="pp">|</span> Developing <span class="pp">|</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="pp">|-----------|--------|-----------|------|--------------|------------|</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Critical Engagement with AI** <span class="pp">|</span> 30% <span class="pp">|</span> Demonstrates sophisticated evaluation of AI outputs. Clearly articulates when AI is reliable vs. speculative. Actively challenges AI assumptions and validates findings through independent verification. <span class="pp">|</span> Shows solid evaluation of AI outputs with some critical reflection. Generally identifies AI limitations. Attempts verification of key claims. <span class="pp">|</span> Engages with AI but evaluation is surface-level. Limited critical questioning. Minimal independent verification of AI suggestions. <span class="pp">|</span> Minimal or no critical evaluation of AI. Accepts AI outputs without question. No evidence of validation or verification. <span class="pp">|</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Quality of Inquiry &amp; Problem-Solving** <span class="pp">|</span> 25% <span class="pp">|</span> Investigation is strategic, well-structured, and adaptive. Clear evidence of iterative refinement. Responds effectively to obstacles or constraints. Shows intellectual curiosity and initiative. <span class="pp">|</span> Investigation is generally well-organised with some evidence of adaptation. Most key questions explored systematically. Some refinement visible. <span class="pp">|</span> Investigation covers main points but lacks depth or strategic planning. Limited evidence of adaptation to challenges. Inquiry feels mechanical. <span class="pp">|</span> Investigation is disorganised or incomplete. Minimal evidence of planning or adaptability. Key areas unexplored. <span class="pp">|</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Conversation Quality &amp; Accountability** <span class="pp">|</span> 20% <span class="pp">|</span> AI conversation transcript shows genuine dialogue: challenging assumptions, asking follow-ups, refining outputs, and steering toward specific context. Student can explain all decisions and takes clear accountability for final work. Evidence of conversation, not delegation. <span class="pp">|</span> Conversation transcript shows reasonable engagement with AI. Follow-up questions present. Generally explains how outputs were validated. Takes appropriate responsibility for work. <span class="pp">|</span> Conversation transcript shows limited interaction. Few follow-up questions or challenges. Some evidence of refinement but mostly accepts initial outputs. Accountability is unclear in places. <span class="pp">|</span> Conversation shows single prompts with no follow-up. No evidence of critical engagement or refinement. Unclear who is accountable for outputs. <span class="pp">|</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Communication &amp; Clarity** <span class="pp">|</span> 15% <span class="pp">|</span> Clear, coherent, professionally structured. Complex ideas are explained accessibly. Findings/recommendations are well-justified and easy to follow. Appropriate for intended audience. <span class="pp">|</span> Generally clear and well-organised. Most ideas are explained adequately. Findings supported by reasoning. Generally appropriate tone/style. <span class="pp">|</span> Communication is adequate but may lack clarity in places. Ideas present but not always well-connected. Some findings need stronger justification. <span class="pp">|</span> Communication is unclear or disorganised. Difficulty following main ideas. Minimal justification for conclusions. <span class="pp">|</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Integration of Disciplinary Knowledge** <span class="pp">|</span> 10% <span class="pp">|</span> Meaningfully connects AI engagement to unit concepts. Demonstrates how theoretical/practical knowledge informs critical evaluation of AI. Shows synthesis of learning. <span class="pp">|</span> Connects AI work to unit content. Shows understanding of how discipline-specific knowledge applies to AI evaluation. <span class="pp">|</span> Makes some connections to unit content but links are basic or limited. <span class="pp">|</span> Few or no connections between AI work and disciplinary learning. <span class="pp">|</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">### Mapping to the Engagement Spectrum {#sec-rubric-engagement-mapping}</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>The **Conversation Quality &amp; Accountability** criterion directly operationalises the engagement spectrum from @sec-engagement-spectrum:</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Engagement Level <span class="pp">|</span> What It Looks Like in the Transcript <span class="pp">|</span> Rubric Level <span class="pp">|</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Genuine collaborative thinking** <span class="pp">|</span> Student drives inquiry, pushes back on AI, iterates toward own understanding <span class="pp">|</span> Excellent <span class="pp">|</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Guided drafting** <span class="pp">|</span> Student provides direction, evaluates critically, modifies toward coherent submission <span class="pp">|</span> Good <span class="pp">|</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Curated delegation** <span class="pp">|</span> Student uses AI to produce submission, exercises some judgment about what passes <span class="pp">|</span> Satisfactory <span class="pp">|</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Pure delegation** <span class="pp">|</span> Student hands task to AI, submits with minimal engagement <span class="pp">|</span> Developing <span class="pp">|</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>This mapping gives markers a concrete vocabulary for discussing student work. Rather than debating whether a submission "feels like AI," the marker asks: where on the engagement spectrum does the evidence place this student?</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="fu">### General Scoring</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Excellent (85--100%):** Sophisticated, independent thinking; strong evidence of learning outcomes</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Good (75--84%):** Solid performance; demonstrates competence; minor areas for development</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Satisfactory (65--74%):** Meets minimum expectations; completes task; some areas lack depth</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Developing (&lt;65%):** Below expectations; significant gaps in performance or understanding</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">### Academic Integrity Notes</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>Make clear to students:</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI use must be disclosed and documented</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Students remain responsible for all outputs, regardless of AI involvement</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Critical evaluation of AI is a valued skill, not "cheating"</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Honest AI conversation transcripts (including dead ends) demonstrate integrity, not weakness</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>For the broader integrity framework that supports this approach, including why transparency-based assessment is more defensible than detection-based assessment, see @sec-problem-with-detection and @sec-integrity-principle.</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="fu">## Adapting the Template {#sec-rubric-adaptation}</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="fu">### For Different AI Modalities</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>The generic template works as-is for most contexts, but the **Critical Engagement** criterion should be renamed and its performance descriptors adjusted to match the specific AI modality students are using.</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 1. AI Chatbot Simulations (e.g., Role-Playing Employees)</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>**Best for:** Business analysis, consulting, auditing, investigative work</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>**Rename:** "Critical Engagement with AI" → "Evaluation of AI-Generated Intelligence"</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>**Excellent Performance Indicators:**</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Distinguishes between reliable and speculative AI responses</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Adapts questioning strategy based on source credibility</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognises when AI is operating outside its domain</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Cross-validates information between multiple AI agents</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Shows sophisticated prompting (follow-ups, clarifications)</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>**Example Rubric Cell (Excellent):**</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Demonstrates sophisticated judgement about different AI agents. Clearly explains which sources are reliable for different topics and why. Strategically sequences conversations and asks targeted follow-ups. Cross-validates findings. Recognises when AI is speculating vs. reporting factual information."</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 2. LLM as Writing/Research Assistant</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>**Best for:** Essays, reports, research papers, creative writing</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>**Rename:** "Critical Engagement with AI" → "Validation &amp; Integration of AI-Generated Content"</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>**Excellent Performance Indicators:**</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Verifies factual claims made by LLM</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Identifies AI hallucinations or overgeneralisations</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Integrates AI suggestions into own argument, not replacing it</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Shows evidence of iterative refinement (multiple drafts, prompts)</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Clearly distinguishes AI-suggested ideas from own thinking</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>**Example Rubric Cell (Excellent):**</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Critically evaluates all LLM outputs before integration. Fact-checks key claims against sources. Uses AI for brainstorming/drafting but substantially refines all output. Clear evidence of multiple prompts and iterative refinement. Distinguishes own analysis from AI suggestions throughout."</span></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>**Example Rubric Cell (Developing):**</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Accepts LLM output with minimal validation. No evidence that AI claims were fact-checked. Large portions appear to be unedited AI generation. Difficult to distinguish student thinking from AI output."</span></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 3. RAG Systems or AI-Assisted Data Analysis</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>**Best for:** Data science, research, business analytics</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>**Rename:** "Critical Engagement with AI" → "Understanding &amp; Validating AI Data Interpretation"</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>**Excellent Performance Indicators:**</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Understands what data/sources the AI is drawing from</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Questions AI interpretations; considers alternative explanations</span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Validates AI findings against raw data when possible</span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognises limitations of training data or AI knowledge cutoff</span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Acknowledges uncertainty where appropriate</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a>**Weights might shift:**</span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Critical Engagement: 35% (data validation is crucial)</span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communication: 20% (must explain methodology clearly)</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Integration of Knowledge: 10% (same)</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 4. AI Code Assistant / Programming Helper</span></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>**Best for:** Computer science, software engineering</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a>**Rename:** "Critical Engagement with AI" → "Code Validation &amp; Testing of AI-Generated Solutions"</span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a>**Excellent Performance Indicators:**</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Tests all AI-generated code before integrating</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Understands logic of generated code; can explain it</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognises when AI solution is inefficient or incorrect</span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Modifies/improves AI output rather than blindly using it</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Documents which parts were AI-assisted and which were manual</span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a>**Weights might shift:**</span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Critical Engagement: 35% (testing/validation essential)</span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quality of Inquiry: 15% (different meaning in this context)</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communication: 20% (code comments, documentation)</span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conversation Quality: 10% (how decisions were made)</span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 5. Multimodal AI (Image Generation, Video Tools, etc.)</span></span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a>**Best for:** Creative fields, design, media studies</span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>**Rename:** "Critical Engagement with AI" → "Creative Direction &amp; Critical Evaluation of AI-Generated Media"</span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a>**Excellent Performance Indicators:**</span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Clearly communicates intention to AI (via prompts, iterations)</span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognises aesthetic/conceptual limitations of AI output</span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Substantially modifies/refines AI output rather than using as-is</span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Makes intentional creative decisions about when/how to use AI</span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conversation transcript shows iterative creative direction</span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 6. Oral Exams / Viva Voce</span></span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>**Best for:** High-stakes assessment verification, professional communication development, courses under approximately 25 students</span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a>**Rename:** "Critical Engagement with AI" → "Depth of Understanding &amp; Ability to Defend"</span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a>**Excellent Performance Indicators:**</span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explains concepts clearly without relying on notes or memorised phrasing</span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Responds to follow-up questions with nuance and relevant examples</span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connects ideas across multiple topics or readings</span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Acknowledges limitations and considers alternative perspectives</span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communicates with confidence, clarity, and appropriate vocabulary</span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>**Additional Criteria to Consider:**</span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Criterion <span class="pp">|</span> What to Assess <span class="pp">|</span></span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a><span class="pp">|-----------|---------------|</span></span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Understanding** <span class="pp">|</span> Depth and accuracy of knowledge, ability to go beyond surface-level recall <span class="pp">|</span></span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Argument** <span class="pp">|</span> Ability to articulate a position and respond to counter-arguments <span class="pp">|</span></span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Evidence** <span class="pp">|</span> Relevance and accuracy of examples used to support claims <span class="pp">|</span></span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Structure &amp; Coherence** <span class="pp">|</span> Logical progression of ideas, accessibility to the listener <span class="pp">|</span></span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Speaking Skills** <span class="pp">|</span> Clarity, eye contact, confidence, vocabulary, minimal verbal clutter <span class="pp">|</span></span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a>**Weights might shift:**</span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ability to Defend: 35% (the core of the format)</span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quality of Reasoning: 25% (synthesis and argumentation)</span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Evidence &amp; Examples: 20% (supporting claims)</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communication: 20% (verbal delivery and structure)</span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a>This modality connects directly to the Tier 1 oral checkpoint described in @sec-minimum-viable---even a five-minute conversation after submission closes the most significant integrity gap.</span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a><span class="fu">### For Different Disciplines</span></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a>Adjust the **Integration of Disciplinary Knowledge** criterion to match your field:</span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a>**Business/Management:**</span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How does this analysis align with strategic frameworks, ethical considerations?</span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Add/adjust: "Strategic Application" criterion</span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Does student consider stakeholder perspectives?</span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a>**STEM/Sciences:**</span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How does methodology reflect scientific reasoning, experimental validity?</span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Add/adjust: "Methodological Rigor" criterion</span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Are limitations and uncertainties clearly articulated?</span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a>**Humanities/Social Sciences:**</span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How does this argument engage with theoretical traditions, interpretive methods?</span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Add/adjust: "Interpretive Depth" criterion</span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Does student engage with multiple perspectives?</span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a>**Law/Professional Practice:**</span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Are ethical implications considered? Is accountability clear?</span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Add/adjust: "Professional Ethics &amp; Accountability" criterion</span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognises when AI judgement conflicts with professional standards?</span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a><span class="fu">### Quick Reference: Weighting by Context</span></span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Context <span class="pp">|</span> Critical Engagement <span class="pp">|</span> Inquiry Quality <span class="pp">|</span> Conversation Quality <span class="pp">|</span> Communication <span class="pp">|</span> Disciplinary Depth <span class="pp">|</span></span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a><span class="pp">|---------|-------------------|-----------------|-----------|---------------|--------------------|</span></span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Chatbot Simulation <span class="pp">|</span> 35% <span class="pp">|</span> 25% <span class="pp">|</span> 15% <span class="pp">|</span> 15% <span class="pp">|</span> 10% <span class="pp">|</span></span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> LLM Writing Tool <span class="pp">|</span> 30% <span class="pp">|</span> 15% <span class="pp">|</span> 20% <span class="pp">|</span> 20% <span class="pp">|</span> 15% <span class="pp">|</span></span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Data Analysis <span class="pp">|</span> 35% <span class="pp">|</span> 20% <span class="pp">|</span> 15% <span class="pp">|</span> 20% <span class="pp">|</span> 10% <span class="pp">|</span></span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Code/Programming <span class="pp">|</span> 35% <span class="pp">|</span> 15% <span class="pp">|</span> 10% <span class="pp">|</span> 20% <span class="pp">|</span> 20% <span class="pp">|</span></span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Creative/Media <span class="pp">|</span> 30% <span class="pp">|</span> 20% <span class="pp">|</span> 20% <span class="pp">|</span> 15% <span class="pp">|</span> 15% <span class="pp">|</span></span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Oral Exam/Viva <span class="pp">|</span> 35% <span class="pp">|</span> 25% <span class="pp">| ---</span> <span class="pp">|</span> 20% <span class="pp">|</span> 20% <span class="pp">|</span></span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> *Generic Template* | *30%* | *25%* | *20%* | *15%* | *10%* <span class="pp">|</span></span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a><span class="fu">## Worked Example: CloudCore Audit Rubric {#sec-rubric-example}</span></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a>This example shows the generic template fully adapted for a specific assessment: an information security audit where students interact with AI "employees" (chatbots) and use LLMs as research tools. It demonstrates the adaptation process in practice.</span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a>**Context:** Students conduct an audit of a simulated AI-driven organisation by interacting with AI "employees" (chatbots) and using LLMs as research tools. This rubric balances investigation quality, critical AI evaluation, and professional reporting.</span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Criterion <span class="pp">|</span> Weight <span class="pp">|</span> Excellent <span class="pp">|</span> Good <span class="pp">|</span> Satisfactory <span class="pp">|</span> Developing <span class="pp">|</span></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a><span class="pp">|-----------|--------|-----------|------|--------------|------------|</span></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Critical Evaluation of AI Sources** <span class="pp">|</span> 30% <span class="pp">|</span> Demonstrates sophisticated judgement about different AI "employees." Clearly explains which sources are reliable for different questions and why. Questions inconsistencies between AI responses. Validates findings through multiple sources or independent verification. Recognises AI speculation vs. factual responses. <span class="pp">|</span> Shows good discernment among AI employees. Generally identifies which sources are stronger for different topics. Attempts to cross-reference findings. Recognises some AI limitations. <span class="pp">|</span> Engages with multiple AI employees but evaluation is surface-level. Limited comparison between sources. Accepts contradictions without investigation. Minimal awareness of AI unreliability. <span class="pp">|</span> Treats all AI employees as equally reliable. No attempt to validate information across sources. Accepts AI responses uncritically. <span class="pp">|</span></span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Audit Investigation Strategy &amp; Execution** <span class="pp">|</span> 25% <span class="pp">|</span> Investigation plan is systematic and adaptive. Clear evidence of strategic sequencing of AI interviews (e.g., starting with CFO for financials, then IT Manager for technical risks). Responds creatively to access constraints and cancellations. Shows persistence in clarifying unclear answers. Iterative refinement visible. <span class="pp">|</span> Investigation follows a logical structure. Manages scheduled appointments effectively. Asks follow-up questions when unclear. Generally adapts to constraints. Some evidence of iterative inquiry. <span class="pp">|</span> Investigation covers main areas but lacks clear strategy. Accepts initial AI responses without deep follow-up. Limited adaptation to access challenges. Feels somewhat ad-hoc. <span class="pp">|</span> Investigation is disorganised or incomplete. Minimal engagement with access scheduling. Key areas unexplored or surface-level inquiry. <span class="pp">|</span></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Professional Use of LLM as Research Tool** <span class="pp">|</span> 20% <span class="pp">|</span> Critically reviews LLM outputs before integrating into audit. Clearly distinguishes own analysis from AI-generated content. Uses LLM strategically (e.g., drafting frameworks, checking logic) rather than passively accepting output. Shows evidence of multiple prompts/refinement. Acknowledges where LLM was helpful or speculative. <span class="pp">|</span> Generally validates LLM suggestions against evidence. Most AI outputs are appropriately reviewed. Clear attribution of own vs. AI work. Some evidence of iterative prompting. <span class="pp">|</span> Integrates LLM output with limited critical review. Attribution of sources is sometimes unclear. Limited evidence of validation or iterative refinement. <span class="pp">|</span> Heavily relies on unvalidated LLM output. No clear distinction between own and AI-generated content. Minimal critical review. <span class="pp">|</span></span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Audit Report: Professional Communication** <span class="pp">|</span> 15% <span class="pp">|</span> Report is clear, well-structured, and professionally formatted. Complex security findings are explained accessibly to non-technical stakeholders. Recommendations are specific and justified. Transparent about methodology (how AI was used, limitations encountered). <span class="pp">|</span> Report is well-organised and clearly written. Findings are generally well-explained. Recommendations are reasonable. Mentions methodology but could be more transparent. <span class="pp">|</span> Report covers main findings but organisation could be clearer. Some findings lack sufficient justification. Recommendations are general. Limited transparency about AI use in methodology. <span class="pp">|</span> Report is difficult to follow or incomplete. Findings poorly explained. Recommendations are vague or unjustified. No mention of methodology or AI use. <span class="pp">|</span></span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **AI Conversation Quality &amp; Professional Judgement** <span class="pp">|</span> 10% <span class="pp">|</span> Conversation transcripts show genuine dialogue with AI: challenging responses, following up on inconsistencies, refining questions based on previous answers. Student clearly articulates how own judgement validated, rejected, or refined AI suggestions. Takes clear accountability for final audit conclusions. <span class="pp">|</span> Conversation transcripts show reasonable engagement. Follow-up questions present. Explains how own expertise was applied to evaluate AI outputs. Generally accountable for work product. <span class="pp">|</span> Conversation transcripts show limited interaction. Few follow-up questions. Limited evidence of steering or refining the AI conversation. Accountability is somewhat unclear. <span class="pp">|</span> Conversation shows single prompts with no follow-up. No evidence of critical engagement. Unclear who is responsible for audit conclusions. <span class="pp">|</span></span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a><span class="fu">### Performance Level Descriptors</span></span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a>**Excellent (85--100%):**</span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Student demonstrates sophisticated professional judgement about which AI sources are credible for different investigation areas</span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Audit strategy is evident and strategic; clear sequencing of inquiry</span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>All AI outputs are meaningfully evaluated; student shows independent reasoning throughout</span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Report would be valuable to actual security leadership</span>
+<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conversation transcripts show genuine learning about managing AI as a tool</span>
+<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a>**Good (75--84%):**</span>
+<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Student shows competent judgement about AI reliability; identifies key differences between sources</span>
+<span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Investigation is reasonably strategic and organised</span>
+<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Most AI outputs are reviewed; some independent analysis visible</span>
+<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Report is professionally written and would be useful to stakeholders</span>
+<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conversation shows adequate critical engagement with AI</span>
+<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a>**Satisfactory (65--74%):**</span>
+<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Student engages with AI but evaluation lacks sophistication; treats sources somewhat generically</span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Investigation covers main areas but strategy is not always clear</span>
+<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI outputs are sometimes accepted with limited review</span>
+<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Report communicates findings but could be more polished</span>
+<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conversation engagement is present but limited in depth</span>
+<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a>**Developing (&lt;65%):**</span>
+<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Student does not meaningfully evaluate AI reliability; little critical engagement</span>
+<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Investigation is incomplete or disorganised; key areas missing</span>
+<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI outputs heavily influence conclusions with minimal independent review</span>
+<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Report is unclear or incomplete</span>
+<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Conversation engagement is minimal or absent</span>
+<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a><span class="fu">### Usage Notes for Markers</span></span>
+<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a>**Before Students Start:**</span>
+<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Clearly explain that this rubric rewards *critical thinking about AI*, not just efficient tool use</span>
+<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Emphasise that asking good follow-up questions of AI employees (and the LLM) is an evaluated skill</span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Normalise that showing where AI misled you (visible in the transcript) is valued equally to successful findings</span>
+<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a>**During Marking:**</span>
+<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Look for evidence in the audit transcript: Can you see quality prompting? Validation? Follow-ups?</span>
+<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Check the LLM transcript (if submitted): Does it show iterative refinement or one-shot prompting?</span>
+<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Read the conversation transcript carefully: This is where students reveal their critical judgement. Look for conversation, not delegation</span>
+<span id="cb1-310"><a href="#cb1-310" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use the transcript analysis metrics from @sec-transcript-analysis as a first-pass triage before reading in detail</span>
+<span id="cb1-311"><a href="#cb1-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-312"><a href="#cb1-312" aria-hidden="true" tabindex="-1"></a>**Adapted for Other Audit Contexts:**</span>
+<span id="cb1-313"><a href="#cb1-313" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-314"><a href="#cb1-314" aria-hidden="true" tabindex="-1"></a>This rubric works well for ISO 27001 readiness audits, tech vendor assessments, process efficiency reviews, or any scenario where students interview AI agents and synthesise findings. Adjust the specific domain knowledge criterion and the types of findings expected.</span>
+<span id="cb1-315"><a href="#cb1-315" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-316"><a href="#cb1-316" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-317"><a href="#cb1-317" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-318"><a href="#cb1-318" aria-hidden="true" tabindex="-1"></a><span class="fu">## Creating Your Own Variant {#sec-rubric-creating}</span></span>
+<span id="cb1-319"><a href="#cb1-319" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-320"><a href="#cb1-320" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 1: Answer These Questions</span></span>
+<span id="cb1-321"><a href="#cb1-321" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-322"><a href="#cb1-322" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What AI tool(s) will students actually use?</span>
+<span id="cb1-323"><a href="#cb1-323" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What matters most in your discipline?</span>
+<span id="cb1-324"><a href="#cb1-324" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What would a professional in your field do with AI?</span>
+<span id="cb1-325"><a href="#cb1-325" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What skills do you want students to develop?</span>
+<span id="cb1-326"><a href="#cb1-326" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Where on the engagement spectrum (see @sec-engagement-spectrum) do you want students operating, and how will you know?</span>
+<span id="cb1-327"><a href="#cb1-327" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-328"><a href="#cb1-328" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 2: Customise in This Order</span></span>
+<span id="cb1-329"><a href="#cb1-329" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-330"><a href="#cb1-330" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Rename criteria to match actual activities</span>
+<span id="cb1-331"><a href="#cb1-331" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Adjust weights based on importance (use the Quick Reference table as a starting point)</span>
+<span id="cb1-332"><a href="#cb1-332" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Rewrite performance descriptors using examples from your field</span>
+<span id="cb1-333"><a href="#cb1-333" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Add discipline-specific criterion if the generic five do not capture what matters</span>
+<span id="cb1-334"><a href="#cb1-334" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Add any specific constraints or requirements (e.g., "code must be tested," "citations required")</span>
+<span id="cb1-335"><a href="#cb1-335" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-336"><a href="#cb1-336" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 3: Share Early with Students</span></span>
+<span id="cb1-337"><a href="#cb1-337" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-338"><a href="#cb1-338" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Include with assignment briefing</span>
+<span id="cb1-339"><a href="#cb1-339" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Walk through an "Excellent" example specific to your unit</span>
+<span id="cb1-340"><a href="#cb1-340" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Clarify what you mean by critical engagement in your context</span>
+<span id="cb1-341"><a href="#cb1-341" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Share the rubric **before** students start work, not after</span>
+<span id="cb1-342"><a href="#cb1-342" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-343"><a href="#cb1-343" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 4: Test and Calibrate</span></span>
+<span id="cb1-344"><a href="#cb1-344" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-345"><a href="#cb1-345" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Apply your version to 2--3 sample student submissions (real or imagined)</span>
+<span id="cb1-346"><a href="#cb1-346" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Calibrate scoring with colleagues to ensure consistency</span>
+<span id="cb1-347"><a href="#cb1-347" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Collect student feedback: Was the rubric clear? Did it help them understand expectations?</span>
+<span id="cb1-348"><a href="#cb1-348" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Build a portfolio of marked examples for future years</span>
+<span id="cb1-349"><a href="#cb1-349" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-350"><a href="#cb1-350" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-351"><a href="#cb1-351" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-352"><a href="#cb1-352" aria-hidden="true" tabindex="-1"></a><span class="fu">## Implementation Checklist</span></span>
+<span id="cb1-353"><a href="#cb1-353" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-354"><a href="#cb1-354" aria-hidden="true" tabindex="-1"></a>When adapting for your specific assessment:</span>
+<span id="cb1-355"><a href="#cb1-355" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-356"><a href="#cb1-356" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Identify primary AI tool/modality being used</span>
+<span id="cb1-357"><a href="#cb1-357" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Select relevant modality section above</span>
+<span id="cb1-358"><a href="#cb1-358" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Rename the "Critical Engagement" criterion appropriately</span>
+<span id="cb1-359"><a href="#cb1-359" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Adjust weights based on context (use Quick Reference as guide)</span>
+<span id="cb1-360"><a href="#cb1-360" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Customise performance level descriptors with your specific assignment details</span>
+<span id="cb1-361"><a href="#cb1-361" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Add discipline-specific criterion if needed</span>
+<span id="cb1-362"><a href="#cb1-362" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Test rubric with 2--3 sample student submissions</span>
+<span id="cb1-363"><a href="#cb1-363" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Calibrate scoring with colleagues (ensure consistency)</span>
+<span id="cb1-364"><a href="#cb1-364" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Share rubric with students before assignment begins</span>
+<span id="cb1-365"><a href="#cb1-365" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-366"><a href="#cb1-366" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-367"><a href="#cb1-367" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-368"><a href="#cb1-368" aria-hidden="true" tabindex="-1"></a><span class="fu">## Common Mistakes to Avoid</span></span>
+<span id="cb1-369"><a href="#cb1-369" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-370"><a href="#cb1-370" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Don't** make the rubric so specific it cannot be adapted. **Do** include adaptability notes and examples.</span>
+<span id="cb1-371"><a href="#cb1-371" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Don't** ignore the discipline (one-size-fits-all rarely works). **Do** customise weights and descriptors to your field.</span>
+<span id="cb1-372"><a href="#cb1-372" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Don't** focus only on tool efficiency (faster is not better). **Do** reward critical thinking about AI, not speed of output.</span>
+<span id="cb1-373"><a href="#cb1-373" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Don't** punish AI use and incentivise it being hidden. **Do** make transparency and critical evaluation rewarded behaviours.</span>
+<span id="cb1-374"><a href="#cb1-374" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Don't** assume all students know how to "prompt well." **Do** teach and demonstrate effective AI engagement first. This is especially important if the process mark carries significant weight---see the AI literacy prerequisite discussed in @sec-marks-split.</span>
+<span id="cb1-375"><a href="#cb1-375" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-376"><a href="#cb1-376" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-377"><a href="#cb1-377" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-378"><a href="#cb1-378" aria-hidden="true" tabindex="-1"></a><span class="fu">## Questions to Ask Before Finalising</span></span>
+<span id="cb1-379"><a href="#cb1-379" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-380"><a href="#cb1-380" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Will this rubric encourage the thinking you want?</span>
+<span id="cb1-381"><a href="#cb1-381" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Can colleagues easily adapt this for their units?</span>
+<span id="cb1-382"><a href="#cb1-382" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Does it make clear what "critical engagement with AI" means in your context?</span>
+<span id="cb1-383"><a href="#cb1-383" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Have you tested it with actual student work?</span>
+<span id="cb1-384"><a href="#cb1-384" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Is the language accessible to students (or does it need translation)?</span>
+<span id="cb1-385"><a href="#cb1-385" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Does it align with the engagement spectrum---can a marker use it to place a student on that spectrum from the evidence?</span>
+<span id="cb1-386"><a href="#cb1-386" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-387"><a href="#cb1-387" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-388"><a href="#cb1-388" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-389"><a href="#cb1-389" aria-hidden="true" tabindex="-1"></a><span class="fu">## Further Reading</span></span>
+<span id="cb1-390"><a href="#cb1-390" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-391"><a href="#cb1-391" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Dawson, P. (2017). Assessment rubrics: Towards clearer and more replicable design, research and practice. *Assessment &amp; Evaluation in Higher Education, 42*(3), 347--360.</span>
+<span id="cb1-392"><a href="#cb1-392" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Perkins, M., Furze, L., Roe, J., &amp; MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. *Journal of University Teaching and Learning Practice, 21*(6).</span>
+<span id="cb1-393"><a href="#cb1-393" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Boud, D., Ajjawi, R., Dawson, P., &amp; Tai, J. (Eds.). (2018). *Developing evaluative judgement in higher education: Assessment for knowing and producing quality work.* Routledge.</span>
+<span id="cb1-394"><a href="#cb1-394" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Bearman, M., Tai, J., Dawson, P., Boud, D., &amp; Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment &amp; Evaluation in Higher Education, 49*(6), 893--905.</span>
+<span id="cb1-395"><a href="#cb1-395" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Villarroel, V., Bloxham, S., Bruna, D., Bruna, C., &amp; Herrera-Seda, C. (2018). Authentic assessment: Creating a blueprint for course design. *Assessment &amp; Evaluation in Higher Education, 43*(5), 840--854.</span>
+<span id="cb1-396"><a href="#cb1-396" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Swiecki, Z., Khosravi, H., Chen, G., Martinez-Maldonado, R., Lodge, J. M., Milligan, S., Selwyn, N., &amp; Gasevic, D. (2022). Assessment in the age of artificial intelligence. *Computers and Education: Artificial Intelligence, 3*, Article 100075.</span>
+<span id="cb1-397"><a href="#cb1-397" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Mollick, E. R., &amp; Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. *arXiv preprint.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
