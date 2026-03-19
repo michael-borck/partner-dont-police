@@ -1,5 +1,7 @@
 # What are Large Language Models (LLMs)?
 
+> It has read everything and experienced nothing. That single fact explains both its usefulness and its limitations.
+
 ---
 
 ## The Simple Explanation

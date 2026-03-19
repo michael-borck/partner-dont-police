@@ -1,5 +1,7 @@
 # Virtual Company Simulation (Future Horizon)
 
+> Case studies tell students what happened. Simulations let them discover what they would do — and why it matters.
+
 ## The Big Idea
 
 Imagine this: Your students don't just read case studies about professional challenges in their field,they actually work as professionals in a simulated company/environment where they interact with AI-powered colleagues, clients, stakeholders, and partners over weeks or even an entire semester.

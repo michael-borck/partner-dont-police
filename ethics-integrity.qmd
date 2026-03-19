@@ -1,5 +1,7 @@
 # Ethics, Data Governance & Integrity
 
+> The institution that tries to detect AI use will always be one step behind. The institution that teaches thoughtful AI use will always be one step ahead.
+
 ## The Conversation You Must Have
 
 If you implement any of the ideas in this book, you will have this conversation,with students, with colleagues, possibly with administrators:

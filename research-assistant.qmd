@@ -1,5 +1,7 @@
 # The Research Assistant (Postgraduate Focus)
 
+> AI can help a researcher find patterns faster. It cannot tell them which patterns matter. That is still the researcher's job.
+
 ## AI in Research: Promise and Peril
 
 If you teach postgraduate students across business disciplines,particularly those in research-focused programs (MCom, MBA, research projects) or supervising theses,you face a distinct challenge:

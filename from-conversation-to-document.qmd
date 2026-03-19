@@ -1,5 +1,7 @@
 # From Conversation to Document: AI-Generated Office Suite Deliverables
 
+> The conversation is where the thinking happens. The document is just where it lands.
+
 ## The Power of Conversational Output
 
 Here's a fundamental shift in how professionals work with AI:

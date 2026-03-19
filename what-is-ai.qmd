@@ -1,5 +1,7 @@
 # What is AI? Foundations for Educators
 
+> You do not need to understand how the engine works to teach someone to drive. But you do need to know what the car can and cannot do.
+
 ## The Big Picture: What AI Actually Is
 
 **Artificial Intelligence (AI)** is software that can perform tasks that typically require human intelligence.

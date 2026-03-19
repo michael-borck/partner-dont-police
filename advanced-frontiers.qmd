@@ -1,5 +1,7 @@
 # Advanced Frontiers: Agents, Automation & Emerging Capabilities
 
+> The principles do not change when the tools get more powerful. Conversation, critical evaluation, and human judgement matter more, not less, as AI capabilities grow.
+
 ## Why This Chapter Exists
 
 The previous chapters teach you to work with AI tools directly,writing prompts, generating content, creating learning experiences. That's powerful and covers 90% of what you'll need.

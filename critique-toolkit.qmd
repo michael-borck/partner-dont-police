@@ -1,5 +1,7 @@
 # The AI Critique Toolkit - Becoming a Smart Business Professional
 
+> The most dangerous AI output is not the one that is obviously wrong. It is the one that sounds exactly right — and nobody checks.
+
 ## Why Business Students Need Critique Skills
 
 Imagine you just hired a brilliant but inexperienced analyst or consultant. They work fast, have lots of ideas, but sometimes:

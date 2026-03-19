@@ -1,5 +1,7 @@
 # Introduction - Why AI Matters for Business Education
 
+> The question is not whether your students will use AI. It is whether they will use it well — and that depends on what you teach them.
+
 ## Welcome to the Future of Business Teaching
 
 If you're reading this, you might be feeling a mix of curiosity and apprehension about Artificial Intelligence. Perhaps you've heard colleagues mention ChatGPT, or you've seen headlines about AI transforming education. Maybe you're wondering if this is just another passing tech trend, or if it's something you actually need to pay attention to.

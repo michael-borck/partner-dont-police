@@ -1,5 +1,7 @@
 # Getting Started - Your First AI Conversation
 
+> The best way to understand AI is to use it. Not to read about it, not to watch a demo — to sit down and have a conversation.
+
 ## What You'll Do in This Chapter
 
 In the next 15 minutes, you're going to have your first productive conversation with an AI tool. By the end of this chapter, you'll understand:

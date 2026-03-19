@@ -1,5 +1,7 @@
 # AI as Study Buddy - Self-Assessment Tool
 
+> The student who uses AI to test their own understanding is doing something fundamentally different from the student who uses AI to avoid understanding altogether.
+
 ## The Academic Integrity Challenge
 
 Let's address the elephant in the room: you're worried students will use AI to cheat.

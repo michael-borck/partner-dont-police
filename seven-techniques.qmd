@@ -1,5 +1,7 @@
 # Seven Essential Prompt Techniques for Business Teaching
 
+> The right technique is not the cleverest one. It is the one that matches the kind of thinking you want your students to do.
+
 ## Why These Seven?
 
 These aren't random AI tricks. These are seven proven prompting techniques specifically chosen because they develop critical thinking skills that business professionals across all disciplines need:

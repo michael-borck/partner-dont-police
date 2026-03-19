@@ -1,5 +1,7 @@
 # Technical Troubleshooting and Risk Management
 
+> Plan for the tool to fail. The pedagogy should work even when the technology does not.
+
 ## Introduction
 
 AI tools are powerful but not infallible. When implementing AI-enhanced teaching, technical issues are inevitable. This chapter provides practical strategies for identifying, preventing, and managing common technical problems that can disrupt learning experiences.

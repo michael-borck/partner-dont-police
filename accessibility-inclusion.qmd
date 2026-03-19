@@ -1,5 +1,7 @@
 # Accessibility and Inclusive AI Integration
 
+> If AI integration only works for some students, it is not integration. It is exclusion with better technology.
+
 ## Introduction
 
 AI integration in education creates new opportunities but also new barriers. This chapter addresses how to ensure AI-enhanced teaching benefits all students, regardless of their abilities, backgrounds, or circumstances.

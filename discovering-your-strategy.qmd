@@ -1,5 +1,7 @@
 # Discovering Your Teaching Strategy: Using AI to Help You Use AI
 
+> The most useful thing AI can do for an educator is not answer your question. It is help you figure out which question to ask about your own teaching.
+
 ## The Unique Power of AI
 
 Here's something remarkable: **AI can teach you how to use itself.**

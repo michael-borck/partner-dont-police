@@ -1,5 +1,7 @@
 # The Flight Simulator - Conversation Simulations
 
+> Pilots do not learn to fly by reading about turbulence. They learn by experiencing it in a simulator where mistakes are cheap. Your students deserve the same.
+
 ## The Three-Phase System
 
 In the previous chapter, you learned the Role Play technique. Now we're going to transform that into a complete professional practice system with three distinct phases:

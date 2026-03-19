@@ -1,5 +1,7 @@
 # Group Assessment in the AI Era
 
+> AI does not create the tension between individual accountability and shared outcomes. It sharpens it in ways that existing frameworks were not designed to handle.
+
 ## Introduction
 
 Group assessment has always required students to navigate two things simultaneously: individual accountability and shared outcomes. AI does not create that tension, but it sharpens it in ways that existing frameworks were not designed to handle.

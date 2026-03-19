@@ -1,5 +1,7 @@
 # Global Perspectives and Adaptation
 
+> The frameworks are transferable. The assumptions behind them are not. Every context demands its own adaptation.
+
 ## Introduction
 
 While this book was developed within an Australian educational context, AI integration in business education is a global phenomenon. This chapter provides frameworks for adapting the principles and practices discussed throughout this book to different international contexts, educational systems, and cultural environments.

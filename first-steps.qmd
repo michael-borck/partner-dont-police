@@ -1,5 +1,7 @@
 # Your First Steps - A Practical Guide
 
+> Start with one class, one activity, one experiment. The goal is not to transform your teaching overnight. It is to learn what works in your context.
+
 ## The Implementation Challenge
 
 You've now seen what's possible with AI in business education across multiple disciplines. You're probably feeling a mix of excitement and overwhelm.

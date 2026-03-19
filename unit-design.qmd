@@ -1,5 +1,7 @@
 # Designing an AI-Integrated Unit
 
+> One AI-enhanced activity is an experiment. A whole unit designed around AI integration is a pedagogy.
+
 ## Beyond Individual Assignments: Whole-Unit Design
 
 The previous chapters showed you how to create individual AI-enhanced assignments. But the real power of AI in education emerges when you design an entire unit,a complete semester's learning,with AI integration from the start.

@@ -1,5 +1,7 @@
 # From Static to Interactive - AI-Powered Activity Transformation
 
+> A case study on paper is a story someone else finished. A case study powered by AI is a conversation the student has to navigate.
+
 ## The Challenge: Static Documents Don't Engage
 
 You have a well-designed case study in Word or PDF. Students read it, maybe discuss it, then move on. The learning moment is brief and passive.

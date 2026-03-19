@@ -1,5 +1,7 @@
 # Process Over Product - Rethinking Assessment
 
+> If AI can produce the product, then the product was never what mattered. The thinking was.
+
 ## The Fundamental Question
 
 What are you really trying to assess in business education?
@@ -424,7 +426,7 @@ Only the last case represents a genuine learning failure. An assessment design t
 
 The three assessment models above are designed to push students toward the collaborative thinking end of this spectrum. The engagement spectrum also provides a useful vocabulary for marking: rather than asking "did the student use AI?", the question becomes "where on the engagement spectrum did the student operate?" That question is answerable from process evidence in a way the first question never was.
 
-For how the engagement spectrum applies in group contexts, see @sec-group-marks-structure in the next chapter.
+For how the engagement spectrum applies in group contexts, see @sec-group-marks-structure in the next chapter. For a ready-to-use rubric that operationalises this spectrum into markable performance levels, see @sec-rubric-system.
 
 ---
 
@@ -459,6 +461,8 @@ The marker's job then becomes interpreting a one-page summary per student rather
 One important caveat: these metrics support marker judgement, they do not replace it. A low turn count might reflect a student who thinks efficiently rather than one who disengaged. A high Flesch score might reflect a student writing in their second language. The signals are a triage tool, not a verdict.
 
 A note on privacy: students submitting conversation transcripts should be advised to review them before submission. A student who shared personal context, health information, or sensitive circumstances with an AI to get relevant help may not intend that material to become part of an assessed submission. A brief reminder at the point of submission is good practice.
+
+For a rubric template that translates these transcript signals into assessment criteria, including a mapping between signal patterns and performance bands, see @sec-rubric-system.
 
 ---
 
