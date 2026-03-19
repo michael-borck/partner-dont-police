@@ -6,7 +6,7 @@
 
 AI integration in education creates new opportunities but also new barriers. This chapter addresses how to ensure AI-enhanced teaching benefits all students, regardless of their abilities, backgrounds, or circumstances.
 
-**Core principle:** AI should expand educational access, not create new forms of exclusion. Inclusive design isn't optional—it's essential for ethical and effective education.
+**Core principle:** AI should expand educational access, not create new forms of exclusion. Inclusive design isn't optional; it's essential for ethical and effective education.
 
 ---
 

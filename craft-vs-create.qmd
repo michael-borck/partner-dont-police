@@ -6,7 +6,7 @@ The frameworks differ in how many components they separate out and which aspects
 
 This appendix compares the most widely used frameworks side by side, using the same business task so you can see how each one shapes the prompt differently. The task: helping a consultant draft a client proposal for a digital transformation project.
 
-> Remember: every framework here improves your *opening* prompt. None of them replace the conversation that follows. A well-structured first message is a starting point, not a finished product. The real value comes from what you do next — iterating, pushing back, and making the output yours.
+> Remember: every framework here improves your *opening* prompt. None of them replace the conversation that follows. A well-structured first message is a starting point, not a finished product. The real value comes from what you do next: iterating, pushing back, and making the output yours.
 
 
 ## Before and After
@@ -19,7 +19,7 @@ To see why structure matters at all, compare these two prompts for the same task
 
 **Structured (using CRAFT):**
 
-"We are pitching a digital transformation project to a mid-sized logistics company that currently runs most operations on spreadsheets and email **(C)**. You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for the proposal that explains the business case for moving to integrated systems **(A)**. Use a three-paragraph structure: current state, proposed approach, expected outcomes **(F)**. Professional but accessible — the audience is a CEO and CFO who are not technical **(T)**."
+"We are pitching a digital transformation project to a mid-sized logistics company that currently runs most operations on spreadsheets and email **(C)**. You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for the proposal that explains the business case for moving to integrated systems **(A)**. Use a three-paragraph structure: current state, proposed approach, expected outcomes **(F)**. Professional but accessible, as the audience is a CEO and CFO who are not technical **(T)**."
 
 The unstructured prompt would produce a generic proposal template. The structured one produces content shaped by a specific client, a specific audience, and a specific format. The difference is not the AI getting smarter. It is the person thinking more clearly about what they need.
 
@@ -30,37 +30,37 @@ The unstructured prompt would produce a generic proposal template. The structure
 
 ## CRAFT
 
-**Context, Role, Action, Format, Tone/Target** — five elements. The framework used throughout this book. Leads with context to ground the AI in your situation, and includes tone or target audience as a separate component. Well suited to business communication where the same content often needs to be pitched differently for different readers.
+**Context, Role, Action, Format, Tone/Target**: five elements. The framework used throughout this book. Leads with context to ground the AI in your situation, and includes tone or target audience as a separate component. Well suited to business communication where the same content often needs to be pitched differently for different readers.
 
-"We are pitching a digital transformation project to a mid-sized logistics company that currently runs most operations on spreadsheets and email **(C)**. You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for the proposal **(A)**. Three paragraphs: current state, proposed approach, expected outcomes **(F)**. Professional but accessible — the audience is a CEO and CFO who are not technical **(T)**."
+"We are pitching a digital transformation project to a mid-sized logistics company that currently runs most operations on spreadsheets and email **(C)**. You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for the proposal **(A)**. Three paragraphs: current state, proposed approach, expected outcomes **(F)**. Professional but accessible, as the audience is a CEO and CFO who are not technical **(T)**."
 
 ## RTCF
 
-**Role, Task, Context, Format** — four elements. The simplest general-purpose framework. Covers the same ground as CRAFT but bundles tone into context or format rather than separating it. Used in the companion book *Conversation, Not Delegation*.
+**Role, Task, Context, Format**: four elements. The simplest general-purpose framework. Covers the same ground as CRAFT but bundles tone into context or format rather than separating it. Used in the companion book *Conversation, Not Delegation*.
 
 "You are a management consultant experienced in technology adoption for traditional industries **(R)**. Draft an executive summary for a digital transformation proposal **(T)**. The client is a mid-sized logistics company running operations on spreadsheets and email. The audience is a non-technical CEO and CFO **(C)**. Three paragraphs: current state, proposed approach, expected outcomes **(F)**."
 
 ## CO-STAR
 
-**Context, Objective, Style, Tone, Audience, Response** — six elements. Splits communication into finer-grained decisions. Useful when style, tone, and audience are genuinely different choices — for example, the same findings presented as a board paper versus a team briefing.
+**Context, Objective, Style, Tone, Audience, Response**: six elements. Splits communication into finer-grained decisions. Useful when style, tone, and audience are genuinely different choices, for example the same findings presented as a board paper versus a team briefing.
 
-"A mid-sized logistics company runs most operations on spreadsheets and email. We are proposing a digital transformation project **(C)**. Write an executive summary that makes the business case for integrated systems **(O)**. Write in the style of a Big Four consulting proposal **(S)**. Confident but not aggressive — acknowledge the disruption involved **(T)**. The readers are a CEO and CFO who are not technical but are commercially sharp **(A)**. Three paragraphs, no bullet points, under 400 words **(R)**."
+"A mid-sized logistics company runs most operations on spreadsheets and email. We are proposing a digital transformation project **(C)**. Write an executive summary that makes the business case for integrated systems **(O)**. Write in the style of a Big Four consulting proposal **(S)**. Confident but not aggressive; acknowledge the disruption involved **(T)**. The readers are a CEO and CFO who are not technical but are commercially sharp **(A)**. Three paragraphs, no bullet points, under 400 words **(R)**."
 
 ## RISEN
 
-**Role, Instructions, Steps, End goal, Narrowing** — five elements. Distinctive because it specifies the steps the AI should follow and the end goal you are working toward. Suited to multi-stage tasks where the process matters as much as the output.
+**Role, Instructions, Steps, End goal, Narrowing**: five elements. Distinctive because it specifies the steps the AI should follow and the end goal you are working toward. Suited to multi-stage tasks where the process matters as much as the output.
 
-"You are a management consultant specialising in digital transformation **(R)**. Help me draft an executive summary for a client proposal **(I)**. First, summarise the client's current state based on the context I provide. Then, outline the proposed approach in business terms, not technical terms. Finally, state the expected outcomes with indicative timeframes **(S)**. The end goal is a polished executive summary ready for a proposal document **(E)**. Focus only on business value — do not include implementation details or technical architecture **(N)**."
+"You are a management consultant specialising in digital transformation **(R)**. Help me draft an executive summary for a client proposal **(I)**. First, summarise the client's current state based on the context I provide. Then, outline the proposed approach in business terms, not technical terms. Finally, state the expected outcomes with indicative timeframes **(S)**. The end goal is a polished executive summary ready for a proposal document **(E)**. Focus only on business value; do not include implementation details or technical architecture **(N)**."
 
 ## CREATE
 
-**Character, Request, Examples, Adjustment, Type, Extras** — six elements. Unique because it includes a step for providing examples and explicitly builds iteration into the framework. The Adjustment step acknowledges that the first output is a draft to refine, not a deliverable to accept.
+**Character, Request, Examples, Adjustment, Type, Extras**: six elements. Unique because it includes a step for providing examples and explicitly builds iteration into the framework. The Adjustment step acknowledges that the first output is a draft to refine, not a deliverable to accept.
 
 "Act as a management consultant who has written proposals for mid-market companies adopting enterprise systems **(Character)**. Draft an executive summary for a digital transformation proposal for a logistics company **(Request)**. Here is the kind of opening I want: 'Regional Logistics Co currently manages 85% of its operations through manual processes. This creates three measurable risks...' **(Examples)**. Start with the business case angle; I will adjust the emphasis after reviewing the first draft **(Adjustment)**. Three-paragraph prose, no bullet points **(Type)**. Include one concrete metric or statistic per paragraph to anchor the argument **(Extras)**."
 
 ## APE
 
-**Action, Purpose, Expectation** — three elements. The most minimal framework. Useful for quick, low-stakes tasks where speed matters more than precision.
+**Action, Purpose, Expectation**: three elements. The most minimal framework. Useful for quick, low-stakes tasks where speed matters more than precision.
 
 "Draft an executive summary for a digital transformation proposal **(A)** to persuade a non-technical CEO and CFO to invest in integrated systems **(P)**. I expect three paragraphs covering the current problem, the proposed solution, and the expected business outcomes **(E)**."
 
@@ -80,13 +80,13 @@ The unstructured prompt would produce a generic proposal template. The structure
 
 : Prompting frameworks from simplest to most detailed. {.striped}
 
-Start with CRAFT — it is what this book teaches and it covers most business scenarios well. If you find yourself wanting less overhead, drop to RTCF or APE. If you need finer control over the AI's process, try RISEN. If you have a clear example of what good output looks like, try CREATE. The framework matters less than the habit: think about what the AI needs to know before you start typing.
+Start with CRAFT. It is what this book teaches and it covers most business scenarios well. If you find yourself wanting less overhead, drop to RTCF or APE. If you need finer control over the AI's process, try RISEN. If you have a clear example of what good output looks like, try CREATE. The framework matters less than the habit: think about what the AI needs to know before you start typing.
 
 CRAFT and RTCF are essentially the same framework. CRAFT separates tone and target audience into their own component; RTCF folds them into context or format. If you have read *Conversation, Not Delegation* and are comfortable with RTCF, you already know CRAFT. The extra letter just makes the audience decision explicit, which is useful in business contexts where the same analysis might go to a board, a team, or a client.
 
 
 ## The Real Point
 
-No framework will save you from a lazy conversation. A perfectly structured CRAFT or CO-STAR prompt is still a single message. It is still one shot. If you send it and accept whatever comes back, you have used a framework to delegate more precisely — but you have still delegated.
+No framework will save you from a lazy conversation. A perfectly structured CRAFT or CO-STAR prompt is still a single message. It is still one shot. If you send it and accept whatever comes back, you have used a framework to delegate more precisely, but you have still delegated.
 
-The frameworks in this appendix help you start well. The techniques in this book — the seven prompting techniques, the flight simulator, the critique toolkit — help you stay in the conversation after the opening prompt. The combination is what produces work worth putting your name on.
+The frameworks in this appendix help you start well. The techniques in this book, the seven prompting techniques, the flight simulator, the critique toolkit, help you stay in the conversation after the opening prompt. The combination is what produces work worth putting your name on.

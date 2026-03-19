@@ -6,9 +6,9 @@
 
 Group assessment has always required students to navigate two things simultaneously: individual accountability and shared outcomes. AI does not create that tension, but it sharpens it in ways that existing frameworks were not designed to handle.
 
-This chapter argues that the most effective response is a marks structure and assessment design that reflects how collaborative work actually functions in professional life. Students should come to group work as individual contributors who collaborate---which is exactly what the workplace expects---rather than as members of a unit that shares a single outcome. Assessment design that reflects that reality is not just more AI-resistant. It is more honest about what group work is actually for.
+This chapter argues that the most effective response is a marks structure and assessment design that reflects how collaborative work actually functions in professional life. Students should come to group work as individual contributors who collaborate, which is exactly what the workplace expects, rather than as members of a unit that shares a single outcome. Assessment design that reflects that reality is not just more AI-resistant. It is more honest about what group work is actually for.
 
-The principles developed in the previous chapter---transparency over detection, assessing the journey not just the destination, and designing for engagement rather than policing absence of AI---carry across to group contexts. But the implementation looks different enough that it warrants its own treatment.
+The principles developed in the previous chapter, transparency over detection, assessing the journey not just the destination, and designing for engagement rather than policing absence of AI, carry across to group contexts. But the implementation looks different enough that it warrants its own treatment.
 
 ---
 
@@ -91,7 +91,7 @@ For markers, the same signal-based approach from individual assessment applies. 
 
 On workload: the process artefacts described here are designed to replace other marking mechanisms, not add to them. Individual transcripts replace the need to adjudicate peer review disputes after the fact. Automated summaries plus selective deep dives require less time than resolving a formal misconduct complaint. And surfacing engagement problems early in the semester, through weekly meeting records and contribution logs, reduces the disputes that consume the most marking time. The net workload impact is manageable when the infrastructure is set up from the start of semester rather than retrofitted at submission time.
 
-On AI literacy: this approach assumes students know how to engage productively with AI---iterating, pushing back, and refining rather than accepting the first output. If students have not been taught these skills, a process mark risks penalising low AI literacy rather than low intellectual effort. Building basic AI engagement skills early in the unit, through a taught session or structured early task, is a prerequisite for this approach to be fair.
+On AI literacy: this approach assumes students know how to engage productively with AI: iterating, pushing back, and refining rather than accepting the first output. If students have not been taught these skills, a process mark risks penalising low AI literacy rather than low intellectual effort. Building basic AI engagement skills early in the unit, through a taught session or structured early task, is a prerequisite for this approach to be fair.
 
 ### A Group AI Reflection as a Bridging Component
 
@@ -122,7 +122,7 @@ The free rider problem largely dissolves. A student who contributes nothing cann
 
 In professional life, nobody receives a group performance review. Every individual is assessed on their contribution, their thinking, and their ability to work effectively with others. Good managers evaluate team members the same way this structure does: the team delivered the product (30%), but what did you specifically bring to it and how did you think through the problems (70%)?
 
-Students who understand that framing going in will approach group work differently from the start. They come to group work as individual contributors who collaborate---which is exactly what the workplace expects---rather than as members of a unit that shares a single outcome.
+Students who understand that framing going in will approach group work differently from the start. They come to group work as individual contributors who collaborate, which is exactly what the workplace expects, rather than as members of a unit that shares a single outcome.
 
 The 70/30 structure also removes one of the most persistent sources of student dissatisfaction with group work: the feeling that someone else's lack of effort directly affects your mark. Under this structure, your mark is primarily yours. That is a more honest reflection of how contribution and accountability work in professional life, and students tend to recognise that fairness when it is explained clearly at the start.
 

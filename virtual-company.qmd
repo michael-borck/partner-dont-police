@@ -1,10 +1,10 @@
 # Virtual Company Simulation (Future Horizon)
 
-> Case studies tell students what happened. Simulations let them discover what they would do — and why it matters.
+> Case studies tell students what happened. Simulations let them discover what they would do, and why it matters.
 
 ## The Big Idea
 
-Imagine this: Your students don't just read case studies about professional challenges in their field,they actually work as professionals in a simulated company/environment where they interact with AI-powered colleagues, clients, stakeholders, and partners over weeks or even an entire semester.
+Imagine this: Your students don't just read case studies about professional challenges in their field. They actually work as professionals in a simulated company/environment where they interact with AI-powered colleagues, clients, stakeholders, and partners over weeks or even an entire semester.
 
 They handle real scenarios, make decisions, negotiate, solve problems, and make strategic recommendations. Each interaction builds on previous ones. The AI personas remember past conversations. The organisation has policies, culture, and ongoing challenges that evolve.
 
@@ -39,7 +39,7 @@ Let's explore each level.
 
 ## Level 1: Single Employee Persona (Master Prompt)
 
-This is the simplest version,essentially an enhanced version of the conversation simulation from Chapter 4, but with richer organisational context.
+This is the simplest version, essentially an enhanced version of the conversation simulation from Chapter 4, but with richer organisational context.
 
 ### The Master Prompt Template
 

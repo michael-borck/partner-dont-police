@@ -4,11 +4,11 @@
 
 This appendix equips you to run AI integration workshops for your colleagues. Whether you're presenting at a faculty meeting, leading a professional development session, or training your teaching team, this provides the framework, examples, and confidence-building activities you need.
 
-**Why run workshops?** You become a force multiplier—extending the book's impact beyond your own classroom and building institutional capacity for AI-enhanced teaching.
+**Why run workshops?** You become a force multiplier, extending the book's impact beyond your own classroom and building institutional capacity for AI-enhanced teaching.
 
 **The Hook: What if you could help 20 colleagues transform their teaching in one hour?**
 
-This guide gives you everything needed to run effective workshops that scale AI integration across your department. You don't need to be the AI expert—you need to be the teaching expert who can open doors for colleagues.
+This guide gives you everything needed to run effective workshops that scale AI integration across your department. You don't need to be the AI expert; you need to be the teaching expert who can open doors for colleagues.
 
 ---
 
@@ -19,7 +19,7 @@ This guide gives you everything needed to run effective workshops that scale AI 
 **Audience:** Business faculty (all disciplines) with varying technical confidence  
 **Goal:** Participants leave with one concrete idea they can implement next week
 
-**Key Philosophy:** Make it accessible, practical, and focused on teaching—not technology.
+**Key Philosophy:** Make it accessible, practical, and focused on teaching, not technology.
 
 ---
 
@@ -30,7 +30,7 @@ This guide gives you everything needed to run effective workshops that scale AI 
 **Your opening question:**
 > "What if every student could practice professional scenarios 10 times before facing real assessment?"
 
-**Core message:** AI isn't about replacing teaching—it's about scaling what we know works but can't do for everyone.
+**Core message:** AI isn't about replacing teaching. It's about scaling what we know works but can't do for everyone.
 
 **Traditional vs. AI-Enhanced:**
 
@@ -53,7 +53,7 @@ This guide gives you everything needed to run effective workshops that scale AI 
 - **Isn't:** Intelligent, creative, or reliable without human oversight
 - **Think of it as:** Tireless teaching assistant that needs your guidance
 
-**The skill isn't technical—it's pedagogical:**
+**The skill isn't technical; it's pedagogical:**
 - What do you want students to learn?
 - How will you assess their thinking?
 - What scenarios provide authentic practice?
@@ -534,7 +534,7 @@ Then ask students to critique your analysis.
 **Response:** "Start with one prompt. That's it. Try it yourself. If it works, expand. If not, try something else. Small experiments, not curriculum overhaul."
 
 ### Technical Anxiety: "I'm not good with technology"
-**Response:** "You don't need to be. If you can type an email, you can use AI. The challenge isn't technical—it's knowing what to ask for. That's your teaching expertise."
+**Response:** "You don't need to be. If you can type an email, you can use AI. The challenge isn't technical; it's knowing what to ask for. That's your teaching expertise."
 
 ### Quality Concerns: "What if AI gives wrong information?"
 **Response:** "Perfect teaching opportunity. When students catch AI errors, they're developing exactly the critical thinking and professional skepticism we want."
@@ -652,7 +652,7 @@ The same framework can be adapted to run workshops directly for students. While 
 
 **Hook:** "What if you could practice professional scenarios infinitely, with instant feedback, before facing real assessments or job interviews?"
 
-**Core message:** AI isn't about cheating—it's about developing the professional skills employers expect, with unlimited practice opportunities.
+**Core message:** AI isn't about cheating. It's about developing the professional skills employers expect, with unlimited practice opportunities.
 
 **Student benefits:**
 - **Unlimited practice** - Try scenarios multiple times

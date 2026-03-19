@@ -10,7 +10,7 @@
 
 That's it. That's the core idea.
 
-But from that simple task—predicting the next word—these models learned to:
+But from that simple task, predicting the next word, these models learned to:
 
 - Write essays, emails, code, and poetry
 - Answer questions about almost any topic

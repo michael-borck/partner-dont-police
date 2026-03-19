@@ -14,7 +14,7 @@ This chapter gives you the framework, language, and evidence to respond confiden
 
 ## The Problem with Detection {#sec-problem-with-detection}
 
-Before we reframe the question, it is worth understanding why the most common answer---detect and punish AI use---does not work.
+Before we reframe the question, it is worth understanding why the most common answer, detect and punish AI use, does not work.
 
 Detection-based approaches to AI use assume that AI-generated work can be identified and discounted. In practice, three things undermine this:
 
@@ -22,7 +22,7 @@ Detection-based approaches to AI use assume that AI-generated work can be identi
 2. Iterative AI prompting, guided by specific personal context, produces output that is increasingly difficult to distinguish from genuine student work
 3. The components most commonly assumed to be AI-resistant (reflective writing, sociotechnical analysis, lecture cross-referencing) are now completable with freely available tools once students can feed unit materials directly into AI systems (see @sec-notebooklm-infrastructure for a detailed treatment of this shift)
 
-There is a deeper problem that is rarely acknowledged: AI detection tools are built on a single assumption about how students use AI. They assume one-shot delegation---a student who hands a task to AI and submits whatever comes back. The output of that process has certain statistical properties, and detectors are trained to find them.
+There is a deeper problem that is rarely acknowledged: AI detection tools are built on a single assumption about how students use AI. They assume one-shot delegation: a student who hands a task to AI and submits whatever comes back. The output of that process has certain statistical properties, and detectors are trained to find them.
 
 But a student who uses AI well does not produce that kind of output. They brainstorm, ideate, push back, refine, reject, and iterate across many turns. The final product of that process may look similar on the surface to a one-shot output, but the path to get there is entirely different. Detection tools cannot see that path. They look at the destination, not the journey.
 
@@ -840,7 +840,7 @@ The pedagogical case for a transparency-based approach is strong. For heads of s
 
 Detection-based approaches expose institutions to two risks simultaneously: false accusations against students who used AI legitimately, and missed cases where AI use was genuinely problematic. Both generate disputes, appeals, and workload. Neither makes the institution look good.
 
-A transparency-based approach reduces both risks. When the process of thinking is the assessed component, there is less ambiguity about what is being evaluated and more defensible evidence to point to when questions arise. Marking decisions become easier to justify, disputes become less likely, and the conversation with a student who underperformed shifts from "we think you used AI" to "your process evidence did not demonstrate sufficient engagement"---which is a far more defensible position.
+A transparency-based approach reduces both risks. When the process of thinking is the assessed component, there is less ambiguity about what is being evaluated and more defensible evidence to point to when questions arise. Marking decisions become easier to justify, disputes become less likely, and the conversation with a student who underperformed shifts from "we think you used AI" to "your process evidence did not demonstrate sufficient engagement," which is a far more defensible position.
 
 This approach also future-proofs the assessment design. Detection tools chase a moving target as AI capabilities improve. An assessment that measures engagement does not need to change every time a new model is released.
 
@@ -850,7 +850,7 @@ This approach also future-proofs the assessment design. Detection tools chase a 
 
 The prevailing assumption in AI-assisted learning is that better models produce better outcomes. It follows, in this framing, that students with access to frontier models have an inherent advantage over those using smaller, cheaper, or locally-hosted alternatives. This assumption is worth examining carefully, because it may be wrong in an instructive way.
 
-Consider what a student is actually doing when they use AI for a learning task. If the goal is precision — a correct legal citation, an accurate drug dosage, a verified financial figure — then model quality matters enormously, and the assumption holds. But most learning tasks in higher education are not precision tasks. They are *idea tasks*: analyse this scenario, propose a solution, construct an argument, identify the risks. For these tasks, the student does not need the AI to be right. They need the AI to be generative enough to be worth arguing with.
+Consider what a student is actually doing when they use AI for a learning task. If the goal is precision, a correct legal citation, an accurate drug dosage, a verified financial figure, then model quality matters enormously, and the assumption holds. But most learning tasks in higher education are not precision tasks. They are *idea tasks*: analyse this scenario, propose a solution, construct an argument, identify the risks. For these tasks, the student does not need the AI to be right. They need the AI to be generative enough to be worth arguing with.
 
 A smaller model that surfaces three plausible but imperfect framings of a problem, challenged and refined through genuine conversation, may produce better thinking than a frontier model that delivers one polished answer the student accepts without question.
 
@@ -860,19 +860,19 @@ This is the core insight of the **Conversation, Not Delegation** framework. The 
 
 ### The Active Risk of Delegation
 
-The danger of delegation is not just shallow learning. It carries an active risk that no AI use does not. When a student does not use AI, they know the limits of what they know. When a student delegates to AI and accepts the output uncritically, they may leave with confident possession of misinformation — a plausible-sounding answer that is wrong, incomplete, or contextually inappropriate, absorbed without the friction that would have revealed its flaws.
+The danger of delegation is not just shallow learning. It carries an active risk that no AI use does not. When a student does not use AI, they know the limits of what they know. When a student delegates to AI and accepts the output uncritically, they may leave with confident possession of misinformation, a plausible-sounding answer that is wrong, incomplete, or contextually inappropriate, absorbed without the friction that would have revealed its flaws.
 
-In this respect, passive delegation to even the most capable model can produce worse outcomes than no AI assistance at all. The model's fluency and confidence make its errors harder to detect, not easier. And with smaller models, where hallucination and inaccuracy are more frequent, uncritical delegation is more dangerous still — students risk absorbing misinformation dressed in the language of authority.
+In this respect, passive delegation to even the most capable model can produce worse outcomes than no AI assistance at all. The model's fluency and confidence make its errors harder to detect, not easier. And with smaller models, where hallucination and inaccuracy are more frequent, uncritical delegation is more dangerous still. Students risk absorbing misinformation dressed in the language of authority.
 
 ### The Conversational Nudge as Protection
 
-The conversational nudge addresses this directly. By structurally inviting the student to push back at every response — to notice when something does not match expectations, to name what seems wrong — it creates the friction that uncritical acceptance suppresses. That friction is protective regardless of model quality. It is arguably more important with weaker models, where errors are more frequent, but it matters with frontier models too, where errors are rarer but more convincingly dressed.
+The conversational nudge addresses this directly. By structurally inviting the student to push back at every response, to notice when something does not match expectations, to name what seems wrong, it creates the friction that uncritical acceptance suppresses. That friction is protective regardless of model quality. It is arguably more important with weaker models, where errors are more frequent, but it matters with frontier models too, where errors are rarer but more convincingly dressed.
 
 Three cognitive traps, named in *Conversation, Not Delegation*, are worth teaching students explicitly:
 
-- **Gell-Mann Amnesia:** A student catches AI errors in their strongest subject, then trusts it uncritically in subjects they find harder. The remedy is to apply the same scepticism everywhere — and more scepticism, not less, in unfamiliar territory.
+- **Gell-Mann Amnesia:** A student catches AI errors in their strongest subject, then trusts it uncritically in subjects they find harder. The remedy is to apply the same scepticism everywhere, and more scepticism, not less, in unfamiliar territory.
 - **The Sycophancy Trap:** AI is trained to agree. A student who asks "is my analysis good?" will almost always hear yes. A student who asks "what are the three weakest points in my analysis?" will get genuinely useful feedback. Teaching students to prompt past the flattery is a concrete, teachable skill.
-- **The AI Dismissal Fallacy:** The opposite trap — dismissing work because AI was involved. "That is just ChatGPT" is not a critique. If the reasoning is sound, the origin does not matter. Students need to evaluate content on its merits, not its source.
+- **The AI Dismissal Fallacy:** The opposite trap, dismissing work because AI was involved. "That is just ChatGPT" is not a critique. If the reasoning is sound, the origin does not matter. Students need to evaluate content on its merits, not its source.
 
 Naming these traps makes them visible. Visibility makes them resistible. Consider introducing them early in any unit that involves AI, so students have the vocabulary to recognise these patterns in their own behaviour.
 
@@ -910,10 +910,10 @@ This section extends the ethical framework from immediate concerns to strategic 
 
 The ethical frameworks discussed earlier help students make good decisions in specific situations. But professionals also need to think about larger-scale risks that could affect their entire organisation or industry.
 
-This isn't about predicting the future—it's about building the capacity to adapt to whatever future emerges. In the context of AI, we distinguish between two types of high-impact events:
+This isn't about predicting the future. It's about building the capacity to adapt to whatever future emerges. In the context of AI, we distinguish between two types of high-impact events:
 
 #### Black Swan Events
-**Definition:** Unpredictable, massive-impact events that are rationalized in hindsight. In AI, these are "unknown unknowns"—scenarios not in our training data or risk models that fundamentally change technology or society.
+**Definition:** Unpredictable, massive-impact events that are rationalized in hindsight. In AI, these are "unknown unknowns": scenarios not in our training data or risk models that fundamentally change technology or society.
 
 **Key Characteristics:**
 - **Rarity:** Outliers with no historical precedent
@@ -921,7 +921,7 @@ This isn't about predicting the future—it's about building the capacity to ada
 - **Retrospective Predictability:** Explanations created after the fact
 
 #### Grey Swan Events  
-**Definition:** Predictable and known to be possible, but considered unlikely. In AI, these are "known unknowns"—risks we know exist but often ignore due to complexity or cost.
+**Definition:** Predictable and known to be possible, but considered unlikely. In AI, these are "known unknowns": risks we know exist but often ignore due to complexity or cost.
 
 **Key Characteristics:**
 - **Foreseeability:** We know it could happen
@@ -1097,7 +1097,7 @@ The distinction between Black and Grey Swan events helps students understand dif
 - Planning for uncertain futures
 - Building adaptive capacity in their organisations
 
-**Key Teaching Message:** Professional excellence in the AI era requires both immediate ethical judgment AND strategic foresight. The best professionals don't just avoid doing wrong today—they help their organisations prepare for and adapt to whatever the future may bring.
+**Key Teaching Message:** Professional excellence in the AI era requires both immediate ethical judgment AND strategic foresight. The best professionals don't just avoid doing wrong today; they help their organisations prepare for and adapt to whatever the future may bring.
 
 ---
 

@@ -8,7 +8,7 @@ The system is built on a single principle: **assess the quality of the student's
 
 ### Why Critical Engagement Is Weighted at 30%
 
-This is the differentiator. Any tool can generate fast output. Critical evaluation---challenging AI assumptions, validating findings, recognising when AI is speculating---is the skill worth rewarding. If your rubric rewards only the final product, students who delegate effectively are indistinguishable from students who think deeply. If it rewards critical engagement, they are not.
+This is the differentiator. Any tool can generate fast output. Critical evaluation, challenging AI assumptions, validating findings, recognising when AI is speculating, is the skill worth rewarding. If your rubric rewards only the final product, students who delegate effectively are indistinguishable from students who think deeply. If it rewards critical engagement, they are not.
 
 ### How the Rubric Connects to Transcript Analysis
 
@@ -202,7 +202,7 @@ The generic template works as-is for most contexts, but the **Critical Engagemen
 - Evidence & Examples: 20% (supporting claims)
 - Communication: 20% (verbal delivery and structure)
 
-This modality connects directly to the Tier 1 oral checkpoint described in @sec-minimum-viable---even a five-minute conversation after submission closes the most significant integrity gap.
+This modality connects directly to the Tier 1 oral checkpoint described in @sec-minimum-viable. Even a five-minute conversation after submission closes the most significant integrity gap.
 
 ### For Different Disciplines
 
@@ -371,7 +371,7 @@ When adapting for your specific assessment:
 - **Don't** ignore the discipline (one-size-fits-all rarely works). **Do** customise weights and descriptors to your field.
 - **Don't** focus only on tool efficiency (faster is not better). **Do** reward critical thinking about AI, not speed of output.
 - **Don't** punish AI use and incentivise it being hidden. **Do** make transparency and critical evaluation rewarded behaviours.
-- **Don't** assume all students know how to "prompt well." **Do** teach and demonstrate effective AI engagement first. This is especially important if the process mark carries significant weight---see the AI literacy prerequisite discussed in @sec-marks-split.
+- **Don't** assume all students know how to "prompt well." **Do** teach and demonstrate effective AI engagement first. This is especially important if the process mark carries significant weight; see the AI literacy prerequisite discussed in @sec-marks-split.
 
 ---
 
@@ -382,7 +382,7 @@ When adapting for your specific assessment:
 - Does it make clear what "critical engagement with AI" means in your context?
 - Have you tested it with actual student work?
 - Is the language accessible to students (or does it need translation)?
-- Does it align with the engagement spectrum---can a marker use it to place a student on that spectrum from the evidence?
+- Does it align with the engagement spectrum? Can a marker use it to place a student on that spectrum from the evidence?
 
 ---
 

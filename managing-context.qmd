@@ -1,6 +1,6 @@
 # Managing LLM Context: Working Smarter with AI Conversations
 
-> A long conversation is not necessarily a deep one. After enough turns, the AI forgets where you started — and so might you.
+> A long conversation is not necessarily a deep one. After enough turns, the AI forgets where you started, and so might you.
 
 ## Why Context Matters: Understanding AI's Limitations
 

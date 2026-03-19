@@ -1,6 +1,6 @@
 # The AI Critique Toolkit - Becoming a Smart Business Professional
 
-> The most dangerous AI output is not the one that is obviously wrong. It is the one that sounds exactly right — and nobody checks.
+> The most dangerous AI output is not the one that is obviously wrong. It is the one that sounds exactly right, and nobody checks.
 
 ## Why Business Students Need Critique Skills
 
@@ -511,7 +511,7 @@ To improve employee engagement, implement a comprehensive recognition program in
 
 ## Connecting to the VET Framework
 
-The five-step critique framework in this chapter teaches students to evaluate AI output in context — checking for practicality, compliance, assumptions, and stakeholder impact. There is a complementary framework that works at a more fundamental level.
+The five-step critique framework in this chapter teaches students to evaluate AI output in context, checking for practicality, compliance, assumptions, and stakeholder impact. There is a complementary framework that works at a more fundamental level.
 
 The **VET framework**, from *Conversation, Not Delegation*, asks three questions before acting on any AI output:
 
@@ -519,7 +519,7 @@ The **VET framework**, from *Conversation, Not Delegation*, asks three questions
 - **Explain:** Can I explain this in my own words?
 - **Test:** Does this hold up under scrutiny?
 
-The two frameworks reinforce each other. VET catches the foundational failures — fabricated claims, shallow understanding, fragile reasoning. The business critique framework catches the contextual failures — solutions that are technically correct but wrong for your organisation, your constraints, your stakeholders.
+The two frameworks reinforce each other. VET catches the foundational failures: fabricated claims, shallow understanding, fragile reasoning. The business critique framework catches the contextual failures: solutions that are technically correct but wrong for your organisation, your constraints, your stakeholders.
 
 Teaching both gives students a complete critical toolkit: VET for "is this true and do I understand it?" and the five-step framework for "is this right for my situation?" For a deeper treatment of VET and the cognitive traps that undermine critical evaluation, see *Conversation, Not Delegation*.
 

@@ -376,7 +376,7 @@ Because ultimately, that's what we're here for.
 
 # Related Resources
 
-This book applies the methodology developed in **[Conversation, Not Delegation](https://michael-borck.github.io/conversation-not-delegation)** to business education. That companion book covers the full framework in depth — the Conversation Loop, the VET framework for evaluating AI output, the cognitive traps that undermine critical thinking, and the principle of AI Last. If you want the underlying rationale for why the approaches in this book work, or want to share a discipline-neutral version with colleagues or students, start there.
+This book applies the methodology developed in **[Conversation, Not Delegation](https://michael-borck.github.io/conversation-not-delegation)** to business education. That companion book covers the full framework in depth: the Conversation Loop, the VET framework for evaluating AI output, the cognitive traps that undermine critical thinking, and the principle of AI Last. If you want the underlying rationale for why the approaches in this book work, or want to share a discipline-neutral version with colleagues or students, start there.
 
 **[Converse Python, Partner AI: The Python Edition](https://michael-borck.github.io/converse-python-partner-ai)** applies the same methodology to programming. While focused on software development, its core principles of maintaining human agency, critical evaluation of AI output, and structured interaction patterns apply across disciplines.
 

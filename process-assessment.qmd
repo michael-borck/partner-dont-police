@@ -436,7 +436,7 @@ AI detection discussions tend to focus on the final submitted artefact. The more
 
 Sophisticated students are already building personal research infrastructure using tools like NotebookLM: a notebook per unit loaded with lecture slides, weekly readings, and marking rubrics, and a separate notebook per assignment loaded with everything they have found on the topic. At that point the tool is not answering isolated questions; it is acting as a personalised tutor with full context of everything the student has consumed across the semester.
 
-This applies equally to essays, literature reviews, case studies, and reflective writing---not just programming. The reflective section that feels resistant to AI because it requires personal experience is completable once a student has uploaded their own notes and journal entries as context. The literature review that requires synthesis across sources is completable once the sources are in the notebook. The case study analysis that requires applying unit concepts is completable once the lecture slides are loaded.
+This applies equally to essays, literature reviews, case studies, and reflective writing, not just programming. The reflective section that feels resistant to AI because it requires personal experience is completable once a student has uploaded their own notes and journal entries as context. The literature review that requires synthesis across sources is completable once the sources are in the notebook. The case study analysis that requires applying unit concepts is completable once the lecture slides are loaded.
 
 The implication is that assessment types traditionally considered most AI-resistant are not resistant to a student who has invested in building their own AI-ready research context. The investment itself requires some engagement, but it does not require engagement with the assessment task specifically.
 
@@ -446,7 +446,7 @@ This is not a reason for alarm, but it is a reason for honesty. If you want to u
 
 ## Transcript Analysis: Making AI Engagement Visible and Scalable {#sec-transcript-analysis}
 
-The process assessment models above require students to submit conversation transcripts. But at scale---50 to 100 students---no marker can read every transcript in full. The solution is signal-based analysis.
+The process assessment models above require students to submit conversation transcripts. But at scale, 50 to 100 students, no marker can read every transcript in full. The solution is signal-based analysis.
 
 A lightweight script can extract the student's own prompts from a conversation transcript and compute:
 
@@ -475,7 +475,7 @@ If the process of engaging with material is what we are actually trying to asses
 
 An important clarification: the process component should not require AI use. An AI conversation transcript is one form of process evidence, and a natural one for students who worked with AI. But a student who chose to think independently and kept a research journal, annotated their readings, maintained a design log, or documented their decision-making in another form should be able to submit that instead. The assessment is measuring engaged thinking, not AI use. Students working with free-tier tools, limited internet access, or personal preferences against AI should be able to demonstrate the same engagement through equivalent means. The process weighting rewards the journey, whatever path the student took to get there.
 
-This inversion signals to students that the destination matters less than the journey---which is genuinely true for learning. It makes the final artefact almost irrelevant as an integrity concern because it carries so few marks. And it rewards the student who thinks carefully over time rather than the student who writes well under pressure on one occasion.
+This inversion signals to students that the destination matters less than the journey, which is genuinely true for learning. It makes the final artefact almost irrelevant as an integrity concern because it carries so few marks. And it rewards the student who thinks carefully over time rather than the student who writes well under pressure on one occasion.
 
 For written assessments the process evidence could include the conversation transcript, a brief account of where the student pushed back or changed direction, and a reflection on how their thinking shifted. For programming assessments it maps naturally onto the commit history and AI conversation combined.
 
@@ -955,8 +955,8 @@ Before the next chapter, choose one assessment in your current curriculum that c
 3. **Sketch how you would redesign it** using Model 1, 2, or 3
 4. **Consider the logistics** (how much time would this take students? How would you grade it?)
 
-You don't have to implement it immediately,just think through how the shift from product to process assessment might work in your context.
+You don't have to implement it immediately. Just think through how the shift from product to process assessment might work in your context.
 
 ---
 
-**Next Chapter Preview:** The next chapter extends these principles into group assessment---where AI creates three genuinely new problems (the rewritten section problem, the free rider via AI problem, and a sharpened attribution problem) and where a process-over-product marks structure resolves the oldest student complaint about group work: that someone else's lack of effort directly affects your mark.
+**Next Chapter Preview:** The next chapter extends these principles into group assessment, where AI creates three genuinely new problems (the rewritten section problem, the free rider via AI problem, and a sharpened attribution problem) and where a process-over-product marks structure resolves the oldest student complaint about group work: that someone else's lack of effort directly affects your mark.

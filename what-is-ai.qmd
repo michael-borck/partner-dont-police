@@ -319,7 +319,7 @@ AI learns from data. If your data is:
 
 ### **2. AI Optimizes for What You Tell It To**
 
-AI does exactly what you ask—which might not be what you want.
+AI does exactly what you ask, which might not be what you want.
 
 **Example:**
 

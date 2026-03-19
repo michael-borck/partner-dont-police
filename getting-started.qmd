@@ -1,6 +1,6 @@
 # Getting Started - Your First AI Conversation
 
-> The best way to understand AI is to use it. Not to read about it, not to watch a demo — to sit down and have a conversation.
+> The best way to understand AI is to use it. Not to read about it, not to watch a demo, but to sit down and have a conversation.
 
 ## What You'll Do in This Chapter
 
@@ -149,9 +149,9 @@ Result: AI output based on both prompts combined
 - Learning to write clear prompts is learning to communicate effectively with AI
 - Whether it's a standalone tool or integrated into Word, the principles are the same
 - When you see AI integrated into traditional software (increasingly common), you're seeing a prompt window embedded in familiar tools
-- Understanding prompts gives you conceptual mastery,specific tools will change, but prompting skills transfer
+- Understanding prompts gives you conceptual mastery; specific tools will change, but prompting skills transfer
 
-**The agency implication:** When you write your own prompts, you control the conversation — you decide the role, the context, the constraints. When you use an app that hides the prompt (a writing assistant, a copilot, an AI-powered grading tool), someone else made those decisions for you. The output may be useful, but you cannot push back on framing you did not choose. For routine tasks, that trade-off is often fine. For anything that requires your professional judgement, start with a tool where you can see and shape the prompt yourself. Teaching students to recognise this distinction is part of teaching AI literacy.
+**The agency implication:** When you write your own prompts, you control the conversation: you decide the role, the context, the constraints. When you use an app that hides the prompt (a writing assistant, a copilot, an AI-powered grading tool), someone else made those decisions for you. The output may be useful, but you cannot push back on framing you did not choose. For routine tasks, that trade-off is often fine. For anything that requires your professional judgement, start with a tool where you can see and shape the prompt yourself. Teaching students to recognise this distinction is part of teaching AI literacy.
 
 **Your progression in this book:**
 1. **Chapter 2-4** (this section): Master basic prompting concepts and techniques
