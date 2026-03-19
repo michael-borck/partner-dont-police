@@ -284,6 +284,24 @@ Not a future where AI replaces professionals, but where business professionals a
 
 ---
 
+## What Employers Are Looking For
+
+Employers increasingly expect graduates to use AI. That expectation is no longer a differentiator -- it is baseline. What separates candidates is whether they can use AI *well*, and whether they can talk about it with any substance.
+
+The skills this book teaches -- critical evaluation, process thinking, transparency about how you arrived at a recommendation -- are precisely what hiring managers are starting to probe in interviews. Questions like "How do you use AI in your work?" and "Can you give an example of when you identified a problem with AI output?" are becoming standard. Graduates who can answer those questions with specific, reflective examples will stand out.
+
+Here is the gap: almost every graduate now says "I use AI." Very few can say "I use AI critically and can explain my process." The first statement is common. The second is rare, and it is the one that signals professional judgment.
+
+Think about what a strong answer looks like. A candidate who says "I asked ChatGPT and it gave me a good answer" is describing passive consumption. A candidate who says "I generated three approaches, evaluated each against our compliance requirements and organisational constraints, identified gaps in the AI's assumptions, and iterated until I had something I could defend" is describing professional practice. That is the difference employers notice.
+
+This is not hypothetical. Across industries, organisations are discovering that AI adoption without critical oversight creates real problems -- flawed analysis, compliance failures, recommendations that ignore context. They need people who can catch those issues before they cause damage. That is a skill, and it is teachable.
+
+The frameworks in this book -- the 5-step critique process, the VET framework, process-based documentation -- give students a vocabulary and a method for demonstrating this competence. When a graduate walks into an interview and can describe *how* they evaluate AI output, not just *that* they use it, they are showing exactly the kind of professional maturity that employers are looking for.
+
+Preparing students for these conversations is not an add-on. It is one of the most practical things you can do for their career readiness.
+
+---
+
 ## Your Legacy
 
 Every student you teach will work with AI in their careers, regardless of their discipline.

@@ -61,6 +61,22 @@ Your AI recommends a campaign strategy. You launch without market validation. Re
 - Messaging alienates key segments
 - Campaign underperforms significantly
 
+## Economics
+Your AI generates an economic forecast for a regional development proposal. You present it to the planning committee without validation. Later you discover:
+
+- The model assumed national-level trends without adjusting for local market structure
+- Key structural factors like industry concentration and labour mobility were ignored
+- Correlations were presented as causal relationships, misleading policy recommendations
+- Forecast failed to account for seasonal and cyclical patterns specific to the region
+
+## Tourism & Hospitality
+Your AI generates a guest experience strategy for a coastal resort. You implement it across all properties without review. Results:
+
+- Strategy ignores seasonal demand patterns, leading to overstaffing in low season and understaffing in peak
+- Recommended pricing model doesn't account for tourism industry regulations and rate parity agreements
+- Marketing content uses culturally insensitive language for key international visitor segments
+- Guest satisfaction drops as the one-size-fits-all approach fails across different property types
+
 :::
 
 **Lesson**: Always critique AI-generated recommendations thoroughly before implementation, regardless of discipline.
@@ -162,6 +178,16 @@ AI suggests a sophisticated 360-degree feedback system with custom software, ext
 - "What stakeholder and communication risks could arise?"
 - "What strategic alignment and feasibility issues exist?"
 
+## Economics
+- "What assumptions is this model making about market structure and behaviour?"
+- "Are there endogeneity or confounding variable problems in this analysis?"
+- "What policy or regulatory constraints would affect these recommendations?"
+
+## Tourism & Hospitality
+- "What tourism-specific regulations apply (licensing, health and safety, consumer guarantees)?"
+- "What cultural sensitivity and accessibility issues exist for diverse visitor markets?"
+- "What seasonal, environmental, or destination-specific risks need to be considered?"
+
 :::
 
 **Critical Questions to Always Ask** (across all disciplines):
@@ -254,6 +280,18 @@ AI might suggest: Comprehensive change plan with daily activities
 Better: Milestone-based plan with key decision gates
 ```
 
+## Economics
+```
+AI might suggest: Full general equilibrium model with 30 interacting variables
+Better: A focused partial equilibrium analysis targeting the 3-4 key drivers
+```
+
+## Tourism & Hospitality
+```
+AI might suggest: 20-touchpoint guest journey map with personalisation at every stage
+Better: Focus on the 5 moments that most influence guest satisfaction and rebooking
+```
+
 :::
 
 **Your Direction**: "Start with the 80/20 rule,what 20% will address 80% of situations?"
@@ -288,6 +326,18 @@ AI might write: "Consolidate to single suppliers for cost savings"
 Better: "Evaluate consolidation considering resilience, backup capacity, and regulatory requirements"
 ```
 
+## Economics
+```
+AI might write: "Reduce interest rates to stimulate growth"
+Better: "Evaluate rate adjustments considering inflation expectations, exchange rate effects, household debt levels, and transmission mechanism lags"
+```
+
+## Tourism & Hospitality
+```
+AI might write: "Increase room rates during peak season to maximise revenue"
+Better: "Adjust pricing within rate parity agreements, considering repeat guest loyalty, OTA commission structures, and consumer protection requirements"
+```
+
 :::
 
 **Your Direction**: "What are our legal/technical/operational obligations and constraints?"
@@ -320,6 +370,18 @@ Better: "Develop segment-specific messaging aligned with different customer prio
 ```
 AI might suggest: "Implement same metrics for all suppliers"
 Better: "Use differentiated metrics based on supplier criticality and category"
+```
+
+## Economics
+```
+AI might suggest: "Apply standard GDP multiplier to estimate project impact"
+Better: "Use multipliers adjusted for regional economic structure, leakage rates, and labour market conditions"
+```
+
+## Tourism & Hospitality
+```
+AI might suggest: "Use the same service standards across all properties"
+Better: "Adapt service delivery to property type, guest segment, and cultural expectations of primary visitor markets"
 ```
 
 :::
