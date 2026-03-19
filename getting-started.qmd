@@ -151,6 +151,8 @@ Result: AI output based on both prompts combined
 - When you see AI integrated into traditional software (increasingly common), you're seeing a prompt window embedded in familiar tools
 - Understanding prompts gives you conceptual mastery,specific tools will change, but prompting skills transfer
 
+**The agency implication:** When you write your own prompts, you control the conversation — you decide the role, the context, the constraints. When you use an app that hides the prompt (a writing assistant, a copilot, an AI-powered grading tool), someone else made those decisions for you. The output may be useful, but you cannot push back on framing you did not choose. For routine tasks, that trade-off is often fine. For anything that requires your professional judgement, start with a tool where you can see and shape the prompt yourself. Teaching students to recognise this distinction is part of teaching AI literacy.
+
 **Your progression in this book:**
 1. **Chapter 2-4** (this section): Master basic prompting concepts and techniques
 2. **Chapters 5-12**: Apply prompting to specific teaching scenarios
