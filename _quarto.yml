@@ -10,7 +10,9 @@ book:
   description: "A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples."
   cover-image: cover.png
   favicon: favicon.svg
+  downloads: [pdf, epub]
   chapters:
+    - copyright.qmd
     - index.qmd
     - introduction.qmd
     - what-is-ai.qmd
@@ -43,6 +45,7 @@ book:
     - curtin-alignment.qmd
     - advanced-prompting.qmd
     - craft-vs-create.qmd
+    - rubric-system.qmd
     - stress-test-sequence.qmd
     - glossary.qmd
     - about-author.qmd
@@ -61,5 +64,7 @@ format:
     documentclass: book
     toc: true
     number-sections: true
+    include-before-body: cover-page.tex
   epub:
     toc: true
+    cover-image: cover.png
