@@ -4,7 +4,7 @@
 
 ## Beyond Individual Assignments: Whole-Unit Design
 
-The previous chapters showed you how to create individual AI-enhanced assignments. But the real power of AI in education emerges when you design an entire unit,a complete semester's learning,with AI integration from the start.
+The previous chapters showed you how to create individual AI-enhanced assignments. But the real power of AI in education emerges when you design an entire unit---a complete semester's learning---with AI integration from the start.
 
 This isn't about "adding AI" to an existing unit. It's about **redesigning with AI as a pedagogical partner**, creating learning experiences that weren't previously possible.
 
@@ -88,7 +88,7 @@ In-class demonstration:
 **Purpose:**
 - Students see AI in action (demystify)
 - Understand AI can help explore complexity
-- No pressure,just observation
+- No pressure---just observation
 
 **Student Task:**
 - Install ChatGPT or Claude
@@ -197,7 +197,7 @@ Scaffolded practice for Assessment 1:
 
 ### Week 6: **Assessment 1 Due - Investigation Interview Simulation**
 
-**No new content this week,focus on assessment**
+**No new content this week---focus on assessment**
 
 Students submit:
 1. Transcript of investigation interview with AI persona
@@ -495,23 +495,23 @@ Use this template to design your AI-integrated unit:
 
 ---
 
-## Aligning Unit Design with Program Goals
+## Aligning Unit Design with Programme Goals
 
-Your unit doesn't exist in isolation,it's part of a degree program.
+Your unit doesn't exist in isolation---it's part of a degree programme.
 
 ### Consider:
 
 **Vertical integration:**
 - What AI skills do students bring from earlier units?
 - What AI competencies will later units assume?
-- How does your unit scaffold toward program-level AI literacy?
+- How does your unit scaffold toward programme-level AI literacy?
 
 **Horizontal integration:**
 - What other units are students taking concurrently?
 - Could you coordinate AI activities across multiple units?
 - Are there opportunities for cross-unit projects?
 
-**Program-level graduate capabilities:**
+**Programme-level graduate capabilities:**
 - How does your AI integration support overarching graduate capabilities?
 - Communication? Critical thinking? Professional practice? Technological proficiency?
 
@@ -519,7 +519,7 @@ Your unit doesn't exist in isolation,it's part of a degree program.
 
 ## Communicating the Design to Students
 
-Students need to understand the pedagogical design,it helps them engage meaningfully.
+Students need to understand the pedagogical design---it helps them engage meaningfully.
 
 ### First lecture (explain the approach):
 
@@ -664,7 +664,7 @@ The backwards design approach can be adapted for any business discipline. Below 
 - **Weeks 3-4:** Statistical methods + AI analysis practice (hypothesis testing and validation)
 - **Weeks 5-6:** Assessment 1 - Requirements analysis simulation
 - **Weeks 7-8:** Machine learning concepts + AI model development (predictive modelling approaches)
-- **Weeks 9-10:** Data visualization + AI dashboard design (insights communication)
+- **Weeks 9-10:** Data visualisation + AI dashboard design (insights communication)
 - **Weeks 11-12:** Assessment 2 - Analytics portfolio + strategic analysis preparation
 - **Week 13:** Assessment 3 - Business intelligence reporting and strategic recommendations
 
@@ -757,7 +757,7 @@ The backwards design approach can be adapted for any business discipline. Below 
 
 **Weekly Progression Example:**
 - **Weeks 1-2:** Organisational behaviour theory + AI prompt basics (stakeholder mapping)
-- **Weeks 3-4:** Leadership frameworks + AI assessment practice (organizational culture analysis)
+- **Weeks 3-4:** Leadership frameworks + AI assessment practice (organisational culture analysis)
 - **Weeks 5-6:** Assessment 1 - Organisational consultation simulation
 - **Weeks 7-8:** Change management + AI resistance analysis (change impact assessment)
 - **Weeks 9-10:** Conflict resolution + AI scenario planning (negotiation and mediation strategies)
@@ -804,7 +804,7 @@ Include the same AI literacy progression in all disciplines:
 ### Discipline-Specific Considerations
 
 **Creative Fields (Marketing, Design):**
-- Emphasize subjective evaluation and iterative refinement
+- Emphasise subjective evaluation and iterative refinement
 - Include portfolio development and presentation skills
 - Balance analytical and creative AI applications
 
@@ -814,7 +814,7 @@ Include the same AI literacy progression in all disciplines:
 - Focus on professional standards and regulatory requirements
 
 **Service Fields (Tourism, Hospitality, Management):**
-- Emphasize stakeholder dynamics and relationship management
+- Emphasise stakeholder dynamics and relationship management
 - Include cultural competence and emotional intelligence
 - Focus on practical implementation and human factors
 
@@ -839,7 +839,7 @@ Design (or redesign) one unit using this backwards design approach:
 5. **Check balance** (60% traditional, 40% AI-enhanced)
 6. **Plan equity supports** (access, alternatives, scaffolding)
 
-Don't aim for perfection,aim for "better than what I'm currently doing."
+Don't aim for perfection---aim for "better than what I'm currently doing."
 
 You can refine each semester based on what you learn.
 

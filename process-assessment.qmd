@@ -8,11 +8,11 @@ What are you really trying to assess in business education?
 
 **Traditional approach:** Can the student define key concepts? Can they list the steps in a process? Can they identify relevant frameworks or regulations?
 
-**This is assessing product,the knowledge artifact.**
+**This is assessing product---the knowledge artifact.**
 
 **Process-based approach:** Watch the student conduct a professional task (negotiation, analysis, consultation, design). Did they *actually demonstrate* the competency? Did they follow sound methodology? Did they apply frameworks appropriately in real-time?
 
-**This is assessing process,the professional methodology.**
+**This is assessing process---the professional methodology.**
 
 The difference matters enormously. A student can memorize definitions and still conduct a terrible negotiation. They can recite frameworks and still make decisions that expose an organisation to risk.
 
@@ -22,34 +22,13 @@ AI makes it possible, for the first time, to assess process at scale.
 
 ## Why This Wasn't Possible Before
 
-Traditional process assessment methods have serious limitations:
+Traditional process assessment methods have serious limitations. Role-play in class is time-consuming, allowing only a few students to participate per session. Peer actors vary in quality, public performance anxiety reduces authenticity, and there is minimal documentation of what actually happened.
 
-**Role-play in class:**
+Recorded video presentations let students script and rehearse, which undermines realism. There is no dynamic response to unexpected situations, and they are labour-intensive for lecturers to review and grade.
 
-- Time-consuming (only a few students can participate per session)
-- Inconsistent (peer actors vary in quality)
-- Public performance anxiety reduces authenticity
-- Minimal documentation of what actually happened
+Written case analysis tests knowledge *about* process rather than demonstration *of* process. Students can look up answers, and the format does not capture decision-making under pressure.
 
-**Recorded video presentations:**
-
-- Students can script and rehearse (not realistic)
-- No dynamic response to unexpected situations
-- Labour-intensive for lecturers to review and grade
-
-**Written case analysis:**
-
-- Tests knowledge *about* process, not demonstration *of* process
-- Students can look up answers
-- Doesn't capture decision-making under pressure
-
-**AI-enabled assessment solves all of these:**
-
-- Every student gets unlimited practice in realistic scenarios
-- Conversations are dynamic and unpredictable
-- Complete transcripts provide evidence of methodology
-- AI can provide initial critique, reducing lecturer workload
-- Students can't rehearse a scripted answer,they must think in real-time
+AI-enabled assessment addresses all of these problems. Every student gets unlimited practice in realistic scenarios where conversations are dynamic and unpredictable. Complete transcripts provide evidence of methodology. AI can provide initial critique, reducing lecturer workload. And because the conversation responds in real-time, students cannot rehearse a scripted answer.
 
 This chapter presents three complete assessment models that leverage AI to grade professional process.
 
@@ -303,7 +282,7 @@ This model:
 >
 > This suggests that Herzberg's two-factor theory is more applicable here,flexible work addresses a hygiene factor, but doesn't address the motivator factors (recognition, advancement) that actually drive turnover in this department. Therefore, while flexible work might prevent dissatisfaction, it won't solve the core problem.
 >
-> I recommend Option 3 (career development program with clear advancement pathways) because it directly addresses the motivator factors identified in the qualitative data. However, I would modify the AI's recommendation by adding a recognition component (monthly achievement awards, public acknowledgment) to address the 'feeling undervalued' concern that the AI's plan doesn't explicitly target."
+> I recommend Option 3 (career development programme with clear advancement pathways) because it directly addresses the motivator factors identified in the qualitative data. However, I would modify the AI's recommendation by adding a recognition component (monthly achievement awards, public acknowledgment) to address the 'feeling undervalued' concern that the AI's plan doesn't explicitly target."
 
 **Why this is excellent:** The student has used theory to critique AI, referenced specific evidence, demonstrated superior analytical judgment, and improved on AI's suggestion.
 
@@ -366,7 +345,7 @@ They must:
 > "Tell me about a time when you had to deliver negative feedback to a colleague or direct report. How did you approach it and what was the outcome?"
 
 **Candidate Response:**
-> "In my previous role, I had a team member who was consistently missing deadlines. I scheduled a private meeting and explained that the missed deadlines were affecting the team's overall performance. I asked them if there were any obstacles preventing them from meeting deadlines and offered support. They mentioned they were struggling with prioritization, so we worked together to create a task management system. Over the next month, their performance improved significantly."
+> "In my previous role, I had a team member who was consistently missing deadlines. I scheduled a private meeting and explained that the missed deadlines were affecting the team's overall performance. I asked them if there were any obstacles preventing them from meeting deadlines and offered support. They mentioned they were struggling with prioritisation, so we worked together to create a task management system. Over the next month, their performance improved significantly."
 
 **AI Score: 8/10**
 
@@ -378,7 +357,7 @@ They must:
 
 > "While the AI score of 8/10 recognises the positive elements, it has missed several concerning gaps in this response:
 >
-> 1. **Lack of specific behavioural detail**: The candidate says they 'explained' and 'offered support' but doesn't demonstrate *how* they delivered this feedback. What specific words did they use? How did they balance accountability with support? This vagueness suggests they might be embellishing or don't actually remember the details,a red flag in behavioural interviewing.
+> 1. **Lack of specific behavioural detail**: The candidate says they 'explained' and 'offered support' but doesn't demonstrate *how* they delivered this feedback. What specific words did they use? How did they balance accountability with support? This vagueness suggests they might be embellishing or don't actually remember the details---a red flag in behavioural interviewing.
 >
 > 2. **Missing follow-up on consequences**: The candidate doesn't mention whether they documented this conversation or whether there were any agreed-upon consequences if improvement didn't occur. In real HR practice, failing to document performance conversations creates legal risk.
 >
@@ -514,7 +493,7 @@ Traditional exams and essays hide the thinking process. You see the final answer
 - **Critique memos** demonstrate their analytical reasoning
 - **Override justifications** prove their professional judgment
 
-This creates **transparency and accountability**,the two things that make professional practice trustworthy.
+This creates **transparency and accountability**: the two things that make professional practice trustworthy.
 
 ---
 
@@ -667,7 +646,7 @@ The three process-based assessment models can be adapted for any business discip
 **Assignment Structure:**
 
 1. **Risk Assessment Framework:** Use AI to generate audit risk assessments, then critically revise
-2. **Audit Program Design:** Create audit procedures targeting identified risks
+2. **Audit Programme Design:** Create audit procedures targeting identified risks
 3. **Critical Evaluation:** Review AI-evaluated risk scenarios and override assessments
 
 **Assessment Criteria:**
@@ -913,7 +892,7 @@ The three process-based assessment models can be adapted for any business discip
 
 **Creative Fields (Marketing, Design):**
 
-- Emphasize subjective judgment and iterative feedback processes
+- Emphasise subjective judgment and iterative feedback processes
 - Include portfolio evidence of creative development cycles
 - Focus on stakeholder management and relationship building
 
@@ -925,7 +904,7 @@ The three process-based assessment models can be adapted for any business discip
 
 **Service Fields (Tourism, Hospitality, Management):**
 
-- Emphasize stakeholder psychology and relationship dynamics
+- Emphasise stakeholder psychology and relationship dynamics
 - Include cultural sensitivity and contextual factors
 - Focus on practical implementation and human factors
 

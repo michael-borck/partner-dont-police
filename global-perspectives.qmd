@@ -236,7 +236,7 @@ Focus on group success and contributing to collective goals.
 ### Data Protection and Privacy
 
 #### European Union (GDPR)
-- **Requirements:** Explicit consent, data minimization, right to erasure
+- **Requirements:** Explicit consent, data minimisation, right to erasure
 - **AI Implications:** Careful data handling, transparent AI use policies
 - **Educational Adaptation:** Clear guidelines for student data in AI systems
 
@@ -551,10 +551,10 @@ Provide culturally appropriate tourism examples and implementation strategies.
 **Context:** Singaporean university integrating AI into business curriculum
 **Challenges:** High-context communication culture, competitive environment, technology expectations
 **Solutions:**
-- Developed AI scenarios emphasizing relationship-building and harmony
+- Developed AI scenarios emphasising relationship-building and harmony
 - Created competitive yet collaborative learning environments
 - Integrated cutting-edge AI tools to meet high technology expectations
-- Emphasized face-saving communication approaches in AI interactions
+- Emphasised face-saving communication approaches in AI interactions
 
 **Results:** Enhanced student engagement, improved learning outcomes, maintained cultural values
 

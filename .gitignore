@@ -31,6 +31,9 @@ venv/
 .env.local
 *.key
 
+# Print preprocessing output
+/_print_source/
+
 # Build artifacts
 *.log
 *.aux

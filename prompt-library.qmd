@@ -1041,7 +1041,7 @@ These prompts help you work more efficiently, but they don't replace genuine int
 - Cite papers you haven't verified exist
 
 **For Supervisors:**
-Share these prompts with your research students, but emphasize:
+Share these prompts with your research students, but emphasise:
 
 - AI accelerates process, not insight
 - Verification is mandatory

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Throughout this book, we've emphasized **process-based assessment** over product-based evaluation. This chapter provides the concrete tools and rubrics needed to implement this approach effectively across all business disciplines.
+Throughout this book, we've emphasised **process-based assessment** over product-based evaluation. This chapter provides the concrete tools and rubrics needed to implement this approach effectively across all business disciplines.
 
 The fundamental shift is from **"What did the AI produce?"** to **"How did the student think, evaluate, and improve?"** This requires new assessment criteria and evaluation frameworks.
 
@@ -133,7 +133,7 @@ Assess students' ability to reflect on their own learning:
 
 | Criteria | Excellent (40-36) | Good (35-30) | Satisfactory (29-24) | Needs Improvement (23-0) |
 |---|---|---|---|---|
-| **Speed and Prioritization (10 pts)** | Immediate response--- excellent triage of issues | Quick response with good prioritization | Adequate response speed | Slow or poor prioritization |
+| **Speed and Prioritisation (10 pts)** | Immediate response--- excellent triage of issues | Quick response with good prioritisation | Adequate response speed | Slow or poor prioritisation |
 | **AI-Assisted Analysis (10 pts)** | Uses AI for impact assessment--- option generation--- risk evaluation | Good use of AI for analysis | Limited AI use | No meaningful AI use |
 | **Stakeholder Communication (10 pts)** | Clear--- empathetic--- comprehensive communication | Generally good communication | Basic communication | Poor communication |
 | **Contingency Planning (10 pts)** | Multiple backup plans--- risk mitigation | Some contingency planning | Minimal planning | No contingency planning |
@@ -343,7 +343,7 @@ Assess students' ability to reflect on their own learning:
 - **Process Analysis:** Evaluate quality of student thinking, not just final output
 - **Authenticity Assessment:** Look for genuine engagement and learning
 - **Supportive Response:** Provide guidance and learning opportunities
-- **Educational Focus:** Emphasize learning over punishment
+- **Educational Focus:** Emphasise learning over punishment
 
 ---
 
@@ -364,12 +364,12 @@ Assess students' ability to reflect on their own learning:
 #### Platform-Agnostic Rubrics
 - **Core Competencies:** Focus on transferable skills
 - **Adaptability:** Assess ability to work with different AI tools
-- **Critical Evaluation:** Emphasize analysis over specific tool features
+- **Critical Evaluation:** Emphasise analysis over specific tool features
 
 ### Future-Proofing Assessments
 
 #### Platform Evolution
-- **Skill Focus:** Emphasize thinking processes over specific tool use
+- **Skill Focus:** Emphasise thinking processes over specific tool use
 - **Adaptability:** Assess ability to work with evolving AI capabilities
 - **Fundamental Principles:** Focus on enduring professional competencies
 
@@ -377,6 +377,36 @@ Assess students' ability to reflect on their own learning:
 - **Learning Outcomes:** Define what students should achieve regardless of technology
 - **Flexibility:** Build in capacity to adapt to new tools
 - **Continuous Improvement:** Regular assessment review and updates
+
+---
+
+## Assessing AI Literacy Itself
+
+This book focuses on AI-enhanced assessment: using AI to create richer learning experiences and more authentic evaluation. But there is a related question that deserves attention: how do you know whether a student has actually developed AI literacy as a capability?
+
+AI literacy is not the same as knowing how to use a particular tool. It is the ability to judge when AI is appropriate for a task, how to structure an interaction to get useful results, how to evaluate what comes back, and when to override or discard the output. These are transferable professional skills that persist regardless of which tools exist next year.
+
+If your programme treats AI literacy as a learning outcome, you need ways to assess it. The signals are already embedded in the process evidence described in this chapter and in the process assessment chapter:
+
+**Evidence that AI literacy is developing:**
+
+- Prompts become more specific and contextual over time, rather than remaining generic
+- The student pushes back on AI output, asks follow-up questions, or changes direction based on their own judgement
+- The student can articulate why they chose a particular approach and what they would do differently next time
+- The student recognises when AI output is plausible but wrong, and can explain what gave it away
+- The student adjusts their verification effort based on the stakes: light review for brainstorming, thorough checking for anything that will reach a client or be submitted for grading
+
+**Evidence that AI literacy is not developing:**
+
+- Prompts remain short, generic, and context-free throughout the semester
+- The student accepts the first response without iteration
+- The student cannot explain the reasoning behind the output they submitted
+- The student uses AI identically for every task regardless of precision requirements or scale
+- There is no evidence of verification or critical evaluation
+
+These signals can be assessed through the same transcript analysis and oral checkpoint mechanisms already described. The question is whether your rubric explicitly rewards growth in AI engagement quality, or whether it only evaluates the disciplinary content. If AI literacy matters as an outcome, it deserves explicit criteria.
+
+A simple addition to any existing rubric is a row that asks: **"Does the student demonstrate improving sophistication in how they engage with AI tools across the assessment period?"** This can be assessed on the same scale as other criteria and does not require a separate assessment task.
 
 ---
 

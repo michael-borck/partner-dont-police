@@ -101,7 +101,7 @@ statement. I will start the conversation now.
 ```
 
 **Key Design Elements:**
-- **Complexity:** Alex isn't purely defensive or purely cooperative,there's legitimate work performance decline *and* extenuating circumstances
+- **Complexity:** Alex isn't purely defensive or purely cooperative---there's legitimate work performance decline *and* extenuating circumstances
 - **Realistic emotion:** Alex is stressed and embarrassed, not theatrical or extreme
 - **Conditional behaviour:** How Alex responds depends on the student's approach (rewards good technique)
 - **Hidden information:** The personal context isn't revealed unless the student asks the right questions with the right tone
@@ -121,37 +121,37 @@ The student now conducts the meeting. Here's an example of how this might play o
 > *shifts uncomfortably* "Yeah, I've been hearing whispers about this. Look, I know I've missed a couple of deadlines, but I don't think things are as bad as people are making out. I'm still getting my work done. Is this really necessary?"
 
 **Student:**
-> "I understand this feels uncomfortable. Let me be specific about the concerns. Over the past four months, you've missed three major project deadlines,the payment gateway integration in March, the API update in April, and the mobile optimisation in May. Additionally, QA has flagged an increase in bugs in your recent code submissions. These are measurable changes from your previous performance standard. Can you help me understand what's been happening?"
+> "I understand this feels uncomfortable. Let me be specific about the concerns. Over the past four months, you've missed three major project deadlines---the payment gateway integration in March, the API update in April, and the mobile optimisation in May. Additionally, QA has flagged an increase in bugs in your recent code submissions. These are measurable changes from your previous performance standard. Can you help me understand what's been happening?"
 
 **AI (as Alex):**
 > *pauses, looks down* "I mean... yeah, okay, I've had some issues. But deadlines get missed sometimes, right? And bugs happen. I just feel like everyone's being really harsh all of a sudden. I had one conversation with my manager about this two months ago, and now suddenly I'm on a PIP? That feels pretty extreme."
 
 **Student:**
-> "That's a fair question, Alex. You did have an informal conversation with your manager in early April where these concerns were raised. At that time, you both agreed on some strategies to get things back on track. Since then, we've continued to see the same patterns,another deadline missed last month and continued quality issues. A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve. Does that make sense?"
+> "That's a fair question, Alex. You did have an informal conversation with your manager in early April where these concerns were raised. At that time, you both agreed on some strategies to get things back on track. Since then, we've continued to see the same patterns---another deadline missed last month and continued quality issues. A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve. Does that make sense?"
 
 **AI (as Alex):**
 > *sighs* "I guess. I just... it's been a really tough few months personally, okay? I know that's not your problem, but it's not like I'm just slacking off or don't care anymore."
 
 **Student:**
-> "Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I'm genuinely sorry you're dealing with difficult things. If there are specific supports we can offer,whether that's adjustments to your schedule, access to our Employee Assistance Program, or other accommodations,we're open to discussing that. But we also need to be clear about the performance standards that need to be met. Can we talk about what support might help you succeed during this PIP period?"
+> "Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I'm genuinely sorry you're dealing with difficult things. If there are specific supports we can offer---whether that's adjustments to your schedule, access to our Employee Assistance Program, or other accommodations---we're open to discussing that. But we also need to be clear about the performance standards that need to be met. Can we talk about what support might help you succeed during this PIP period?"
 
 **AI (as Alex):**
 > *softens slightly* "Honestly, I've been dealing with my dad's health declining. I've been having to take him to medical appointments, and I'm the only family member nearby. Some mornings I'm exhausted because I've been up half the night. I didn't want to bring it into work because... I don't know, I thought I could just handle it."
 
 **Student:**
-> "I'm really sorry to hear about your father, Alex. That's incredibly stressful. I'm glad you've told me, because this is exactly the kind of situation where we want to support our employees. Have you considered whether a temporary flexible schedule might help,perhaps starting later on days when you have early appointments, or adjusting your hours? We can also connect you with our EAP, which offers counseling and support for family caregivers. Would either of those be helpful?"
+> "I'm really sorry to hear about your father, Alex. That's incredibly stressful. I'm glad you've told me, because this is exactly the kind of situation where we want to support our employees. Have you considered whether a temporary flexible schedule might help---perhaps starting later on days when you have early appointments, or adjusting your hours? We can also connect you with our EAP, which offers counseling and support for family caregivers. Would either of those be helpful?"
 
 **AI (as Alex):**
 > *nods* "Yeah... actually, that might really help. I didn't know that was an option. I've just been trying to power through, but clearly that's not working."
 
 **Student:**
-> "I appreciate your honesty. So here's what I suggest: we'll document this PIP with clear performance targets,specific deadlines and quality standards. But we'll also document the support measures we're putting in place, including flexible scheduling where possible. This gives you the structure and the support to get back to the high performance standard we know you're capable of. The PIP period is 60 days. At the 30-day mark, we'll have a check-in to see how things are going. Does that sound fair?"
+> "I appreciate your honesty. So here's what I suggest: we'll document this PIP with clear performance targets---specific deadlines and quality standards. But we'll also document the support measures we're putting in place, including flexible scheduling where possible. This gives you the structure and the support to get back to the high performance standard we know you're capable of. The PIP period is 60 days. At the 30-day mark, we'll have a check-in to see how things are going. Does that sound fair?"
 
 **AI (as Alex):**
-> *takes a breath* "Okay. Yeah. I mean, it's still stressful to be on a PIP, but I get it. And if I can actually get some flexibility with the schedule, that would help a lot. I don't want to lose this job,I just need to get things back on track."
+> *takes a breath* "Okay. Yeah. I mean, it's still stressful to be on a PIP, but I get it. And if I can actually get some flexibility with the schedule, that would help a lot. I don't want to lose this job---I just need to get things back on track."
 
 **Student:**
-> "That's exactly the goal, Alex. We want you to succeed. Let's schedule a follow-up meeting next week to formalize the flexible schedule arrangement and go through the detailed PIP document. Thank you for being open with me today,that's really important."
+> "That's exactly the goal, Alex. We want you to succeed. Let's schedule a follow-up meeting next week to formalize the flexible schedule arrangement and go through the detailed PIP document. Thank you for being open with me today---that's really important."
 
 **AI (as Alex):**
 > *manages a small, tired smile* "Thanks. I appreciate you actually listening."
@@ -227,7 +227,7 @@ The AI will provide something like this:
 **1. PROCEDURAL FAIRNESS: 9/10**
 
 **What you did well:**
-You were exemplary in providing specific, measurable examples of performance concerns. When you said, *"Over the past four months, you've missed three major project deadlines,the payment gateway integration in March, the API update in April, and the mobile optimisation in May,"* you gave Alex concrete information to respond to, not vague accusations. This is critical for procedural fairness.
+You were exemplary in providing specific, measurable examples of performance concerns. When you said, *"Over the past four months, you've missed three major project deadlines---the payment gateway integration in March, the API update in April, and the mobile optimisation in May,"* you gave Alex concrete information to respond to, not vague accusations. This is critical for procedural fairness.
 
 You also clearly explained the purpose of the PIP: *"A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve."* This reframing helped reduce Alex's defensiveness.
 
@@ -246,7 +246,7 @@ Your use of empathy was outstanding. When Alex revealed personal stress, you imm
 
 You also used excellent open-ended questions: *"Can you help me understand what's been happening?"* This invited dialogue rather than putting Alex on the defensive.
 
-Your handling of defensiveness was textbook-perfect. When Alex said the PIP felt "extreme," you didn't argue or dismiss,you acknowledged the concern (*"That's a fair question"*) and then explained the rationale.
+Your handling of defensiveness was textbook-perfect. When Alex said the PIP felt "extreme," you didn't argue or dismiss---you acknowledged the concern (*"That's a fair question"*) and then explained the rationale.
 
 **Where you could improve:**
 Nothing significant. Your communication was professional, empathetic, and effective throughout.
@@ -256,7 +256,7 @@ Nothing significant. Your communication was professional, empathetic, and effect
 **3. LEGAL AND ETHICAL CONSIDERATIONS: 9/10**
 
 **What you did well:**
-When Alex disclosed caregiving responsibilities, you immediately offered accommodations: *"Have you considered whether a temporary flexible schedule might help?"* This is legally and ethically sound,you're demonstrating that the company is willing to make reasonable adjustments, which protects against claims of unfair dismissal or discrimination.
+When Alex disclosed caregiving responsibilities, you immediately offered accommodations: *"Have you considered whether a temporary flexible schedule might help?"* This is legally and ethically sound---you're demonstrating that the company is willing to make reasonable adjustments, which protects against claims of unfair dismissal or discrimination.
 
 You also avoided making assumptions or probing inappropriately into Alex's personal life. You accepted the disclosure, offered support, and moved the conversation forward professionally.
 
@@ -271,7 +271,7 @@ Always verbally confirm that documentation will be provided. This ensures transp
 **4. APPLICATION OF HR THEORY: 8/10**
 
 **What you did well:**
-You demonstrated understanding of **motivational theory** by balancing challenge with support. You didn't just impose standards,you co-created solutions by asking, *"Can we talk about what support might help you succeed during this PIP period?"*
+You demonstrated understanding of **motivational theory** by balancing challenge with support. You didn't just impose standards---you co-created solutions by asking, *"Can we talk about what support might help you succeed during this PIP period?"*
 
 You also applied principles of **procedural justice** by ensuring Alex felt heard and treated fairly, which research shows increases acceptance of difficult decisions.
 
@@ -303,7 +303,7 @@ Ensure that the flexible schedule accommodation is documented and approved by th
 
 **FINAL SCORE: 36/40 (90%)**
 
-This was a highly competent performance. You demonstrated strong communication skills, applied HR principles effectively, and handled a complex, emotionally charged situation with professionalism and empathy. The areas for improvement are minor and relate to documentation and collaborative goal-setting,both easily addressed in your follow-up meeting.
+This was a highly competent performance. You demonstrated strong communication skills, applied HR principles effectively, and handled a complex, emotionally charged situation with professionalism and empathy. The areas for improvement are minor and relate to documentation and collaborative goal-setting---both easily addressed in your follow-up meeting.
 
 ---
 
@@ -312,7 +312,7 @@ This was a highly competent performance. You demonstrated strong communication s
 Notice what the AI's critique provides:
 
 1. **Specific feedback tied to theory** (procedural fairness, motivational theory, goal-setting theory)
-2. **Direct quotes from the student's performance** (not vague generalizations)
+2. **Direct quotes from the student's performance** (not vague generalisations)
 3. **Clear scores** for each criterion (makes assessment transparent)
 4. **Actionable suggestions** (not just "do better," but *how* to do better)
 5. **Predictive analysis** (what would likely happen next in the real world)
@@ -661,7 +661,7 @@ Before moving to the next chapter, try this:
 
 1. **Choose one difficult conversation** from your curriculum (in your discipline)
 2. **Write a setup prompt** that creates a realistic scenario (use the examples in this chapter as templates)
-3. **Test it yourself**,have the conversation with the AI
+3. **Test it yourself**---have the conversation with the AI
 4. **Generate a critique** of your own performance
 5. **Reflect:** Would this be valuable for your students?
 

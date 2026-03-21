@@ -35,7 +35,7 @@ Instead of asking AI to directly solve a teaching problem, you can ask AI to hel
 | "How can I use AI in my teaching?" | "Interview me about my discipline--- student cohort--- and teaching philosophy. Then suggest both obvious and creative ways I could use AI that fit my context" |
 | "What AI techniques should I learn?" | "Help me discover which techniques would solve my actual teaching challenges" |
 
-The discovery approach is more powerful because **AI asks you clarifying questions first**, learns your context, and then provides recommendations tailored to your actual situation,not generic advice for a hypothetical educator.
+The discovery approach is more powerful because **AI asks you clarifying questions first**, learns your context, and then provides recommendations tailored to your actual situation---not generic advice for a hypothetical educator.
 
 ---
 
@@ -113,7 +113,7 @@ This creates a feedback loop where recommendations get better through iteration.
 
 ### 4. **Collaborative Discovery**
 
-Unlike reading a guide or taking a course, this is a *conversation*. You're not passively receiving advice,you're actively shaping it by:
+Unlike reading a guide or taking a course, this is a *conversation*. You're not passively receiving advice---you're actively shaping it by:
 - Answering questions honestly about your actual context (not the ideal version)
 - Pushing back on ideas that don't fit
 - Asking follow-up questions about implementation
@@ -134,7 +134,7 @@ Here's what a consultation might actually look like for a business educator:
 > "Thanks for that. Let's start with the basics. What's your primary teaching role? What discipline do you teach, and what level (undergraduate, postgraduate, both)?"
 
 ### **You:**
-> "I teach financial analysis and audit in an undergraduate accounting program. I have 80-100 students across two cohorts, mostly domestic students who are serious about accounting careers."
+> "I teach financial analysis and audit in an undergraduate accounting programme. I have 80-100 students across two cohorts, mostly domestic students who are serious about accounting careers."
 
 ### **AI's Next Question:**
 > "That's helpful. What's your biggest teaching challenge right now? What's most difficult about helping these students learn financial analysis and audit?"
@@ -164,11 +164,11 @@ Here's what a consultation might actually look like for a business educator:
 > - Use AI to generate sample audit findings with explanations of the judgment involved
 
 > **NON-OBVIOUS OPPORTUNITIES:**
-> - Use AI as a 'skeptical auditor' to critique students' audit plans before they execute them,teaching them to defend their judgments
-> - Have students analyse AI-generated audit findings and critique whether the AI's conclusions are justified,building professional judgment
+> - Use AI as a 'skeptical auditor' to critique students' audit plans before they execute them---teaching them to defend their judgments
+> - Have students analyse AI-generated audit findings and critique whether the AI's conclusions are justified---building professional judgment
 > - Use AI to create complex, messy scenarios (like real audit situations) that don't have obvious answers, then have students present their judgment and justify it
 > - Use AI to help you identify patterns in student questions/mistakes, then design targeted interventions addressing the most common gaps
-> - Create assessment tasks where students must improve, critique, or extend AI-generated audit analysis,this requires real thinking and can't be done by just using AI"
+> - Create assessment tasks where students must improve, critique, or extend AI-generated audit analysis---this requires real thinking and can't be done by just using AI"
 
 ---
 
@@ -217,7 +217,7 @@ develop [specific skill]. Can you suggest a 4-5 step prompt chain that would
 help them practice this, tailored to my discipline?"
 ```
 
-This way, you're not just reading generic guidance,you're using AI to understand how the book's content applies to *your* teaching.
+This way, you're not just reading generic guidance---you're using AI to understand how the book's content applies to *your* teaching.
 
 ### 3. **Return to This Chapter Periodically**
 
@@ -316,7 +316,7 @@ By asking clarifying questions, AI forces you to articulate:
 Often, the value of this conversation isn't the AI's recommendations,**it's the clarity you gain about your own teaching by having to explain it.**
 
 Educators report things like:
-- "I didn't realise how much time I was spending on feedback until the AI asked about it,now I see where AI could help"
+- "I didn't realise how much time I was spending on feedback until the AI asked about it---now I see where AI could help"
 - "Talking through my teaching goals, I realised my students need more practice with judgment, not more information"
 - "Just articulating my teaching philosophy to the AI helped me see how AI could actually enhance it, not replace it"
 - "I'd been assuming AI wasn't relevant to my discipline, but through the interview I discovered three ways it could help"
@@ -401,10 +401,10 @@ Lean into that. Ask questions. Be honest about your context. Let AI surprise you
 
 ## Your Action Step: Start Your Consultation Right Now
 
-1. **Open your AI tool** (ChatGPT, Claude, Copilot, Gemini,any of them)
+1. **Open your AI tool** (ChatGPT, Claude, Copilot, Gemini---any of them)
 2. **Copy the consultation prompt** from the beginning of this chapter (or the discipline-specific variation that fits you)
 3. **Paste it and send it**
-4. **Answer the questions honestly** as they come,no polished answers needed
+4. **Answer the questions honestly** as they come---no polished answers needed
 5. **Let the conversation unfold naturally** over 4-6 questions
 6. **Review the recommendations** and pick one or two to try this month
 7. **Report back** to the same conversation with what you learned
@@ -420,7 +420,7 @@ Don't just read this chapter and move on. Actually have the consultation. Spend 
 
 Then return to this chapter and decide which other chapters to explore based on what AI recommended.
 
-The rest of this book is powerful, but it's most powerful when you know *why* you're learning it,because it solves a challenge or enables a goal that matters to your specific teaching.
+The rest of this book is powerful, but it's most powerful when you know *why* you're learning it---because it solves a challenge or enables a goal that matters to your specific teaching.
 
 **This chapter helps you figure out your "why."**
 

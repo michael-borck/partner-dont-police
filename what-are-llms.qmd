@@ -138,7 +138,7 @@ Bigger models:
 
 - Learn more subtle patterns
 - Handle more complex tasks
-- Generalize better to new situations
+- Generalise better to new situations
 - But: more expensive to train and run
 
 ---
@@ -268,6 +268,10 @@ Analysts use LLM to write SQL queries:
 - It doesn't "know" facts, it predicts likely word patterns
 - If it doesn't know, it guesses based on similar patterns
 
+::: {.callout-warning title="Confidence is not accuracy"}
+An LLM will state a fabricated statistic, an invented citation, or an incorrect legal requirement with exactly the same tone and certainty as a verified fact. There is no built-in signal that distinguishes accurate output from hallucination. If the information matters — and in business education it usually does — checking it is part of your workflow, not an optional extra.
+:::
+
 **Lesson for business:**
 
 - Don't use LLMs for legal, medical, or financial advice without human verification
@@ -370,6 +374,27 @@ Analysts use LLM to write SQL queries:
 - Don't expect breakthrough innovations or original strategies
 - Do use for brainstorming variations on existing ideas
 - Do use to explore possibilities you might not have considered
+
+---
+
+## A Useful Mental Model: Average vs Precise, Small vs Large
+
+There is a simple way to predict when an LLM will serve you well and when it will let you down. Think along two axes.
+
+**Average versus precise.** LLMs are excellent at producing convincing averages. Ask for a marketing email and you get something that reads like a competent marketing email, because the model has absorbed thousands of them and can synthesise a plausible representative. But ask for something precise, a specific legal precedent, a particular statistic from a named study, an exact API parameter, and the same mechanism becomes a liability. The model does not look things up. It predicts what a plausible answer would look like, which is how you end up with confident references to sources that do not exist.
+
+**Small versus large.** LLMs handle small, bounded tasks well. A focused prompt with clear constraints and one shape for the answer plays to the model's strengths. But as tasks grow larger, with more interdependent decisions and conflicting constraints, the output starts to look coherent on the surface while falling apart in the details.
+
+These two axes interact. Being good at the average means the model will confidently produce plausible-looking large outputs that fail on the precise details. The convincing average scales badly with complexity.
+
+This gives you a practical decision framework:
+
+| | Small | Large |
+|---|---|---|
+| **Average** | **Sweet spot.** Drafts, summaries, brainstorming. | **Plausible but brittle.** Looks right, falls apart on inspection. |
+| **Precise** | **Workable with verification.** Facts, code, citations. Check before using. | **Danger zone.** Confident structure, subtly wrong. |
+
+Before using AI on any task, ask: **How precise does this need to be?** and **How big is this?** The answers tell you how much human oversight the task requires. For a deeper treatment of this framework and how it connects to staying in the conversation loop, see *Conversation, Not Delegation*.
 
 ---
 
@@ -529,7 +554,7 @@ Legal team processes 100+ contracts per week. LLM summarises key terms, flags un
 **Rule of thumb:**
 
 - **Use traditional AI** when you need: speed, precision, mathematical optimisation, simple classification
-- **Use LLMs** when you need: natural language understanding, generation, summarization, or explanation
+- **Use LLMs** when you need: natural language understanding, generation, summarisation, or explanation
 
 ---
 
@@ -690,7 +715,7 @@ Legal team processes 100+ contracts per week. LLM summarises key terms, flags un
 - Clear, specific instructions
 - Examples of desired output
 - Context about audience and purpose
-- **Example:** "Draft a professional email to a customer apologizing for late delivery. Keep it under 100 words. Include offer for 10% discount on next order."
+- **Example:** "Draft a professional email to a customer apologising for late delivery. Keep it under 100 words. Include offer for 10% discount on next order."
 
 ---
 
@@ -712,7 +737,7 @@ Legal team processes 100+ contracts per week. LLM summarises key terms, flags un
 
 - LLMs customised for specific companies/industries
 - Trained on your data, your style, your terminology
-- Use: Brand-specific writing, specialized technical support
+- Use: Brand-specific writing, specialised technical support
 
 ### **Autonomous Agents**
 
@@ -768,7 +793,7 @@ Ask yourself:
 
 1. **LLMs are "autocomplete on steroids"** - They predict likely next words based on massive training, which lets them write, explain, summarise, and converse.
 
-2. **They're great at language tasks, not everything** - Use for writing, summarization, Q&A, translation. Don't use for math, current events, or critical factual accuracy without verification.
+2. **They're great at language tasks, not everything** - Use for writing, summarisation, Q&A, translation. Don't use for math, current events, or critical factual accuracy without verification.
 
 3. **Always have human oversight** - LLMs hallucinate, have biases, and make mistakes. Humans review before outputs go to customers or affect decisions.
 

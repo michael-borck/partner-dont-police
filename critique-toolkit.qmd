@@ -13,7 +13,7 @@ Imagine you just hired a brilliant but inexperienced analyst or consultant. They
 
 **This is exactly how AI behaves.** Your job as a business professional is to review, question, and improve AI-generated advice before it impacts real people and real organisations.
 
-The difference between good business professionals and great ones isn't whether they use AI tools,it's how critically they evaluate AI outputs. In professional work across all disciplines, bad advice can lead to legal challenges, damaged relationships, failed initiatives, or strategic missteps.
+The difference between good business professionals and great ones isn't whether they use AI tools---it's how critically they evaluate AI outputs. In professional work across all disciplines, bad advice can lead to legal challenges, damaged relationships, failed initiatives, or strategic missteps.
 
 ## The Business Impact of Uncritical AI Acceptance
 
@@ -238,7 +238,7 @@ Always consider:
 - **Operational Staff/Managers**: Do they have skills, capacity, and buy-in to implement?
 - **Affected Groups**: Will this feel fair, transparent, and beneficial to them?
 - **Functional Teams**: Do we have the capability and resources to sustain this?
-- **External Stakeholders**: Unions, regulators, partners, customers,will they support or oppose?
+- **External Stakeholders**: Unions, regulators, partners, customers---will they support or oppose?
 
 ---
 
@@ -294,7 +294,7 @@ Better: Focus on the 5 moments that most influence guest satisfaction and rebook
 
 :::
 
-**Your Direction**: "Start with the 80/20 rule,what 20% will address 80% of situations?"
+**Your Direction**: "Start with the 80/20 rule---what 20% will address 80% of situations?"
 
 ### Issue 2: Ignoring Compliance and Constraints
 
@@ -441,7 +441,7 @@ Before accepting any AI-generated recommendation, ask:
 -  **Can I explain this solution clearly to key stakeholders in a few minutes?**
 -  **Does this comply with relevant laws, regulations, and company policies?**
 -  **Do we have the resources and capability to implement this?**
--  **How will affected stakeholders experience this,is it fair and transparent?**
+-  **How will affected stakeholders experience this---is it fair and transparent?**
 -  **What are the risks if this implementation goes poorly?**
 -  **Have I considered how different groups or departments might be affected?**
 -  **Is there a simpler version that would achieve 80% of the benefits?**
@@ -523,11 +523,19 @@ The two frameworks reinforce each other. VET catches the foundational failures: 
 
 Teaching both gives students a complete critical toolkit: VET for "is this true and do I understand it?" and the five-step framework for "is this right for my situation?" For a deeper treatment of VET and the cognitive traps that undermine critical evaluation, see *Conversation, Not Delegation*.
 
+::: {.callout-tip title="Try this (2 minutes)"}
+Paste a piece of your own teaching material into AI and ask "How is this?" Note the response — it will almost certainly be positive. Now ask "Identify the three weakest aspects of this and explain why each one could be improved." Compare the two responses. The difference reveals how much the AI was telling you what you wanted to hear the first time. Teach your students to do the same: always ask for specific criticism, not general impressions.
+:::
+
+::: {.callout-important title="Three questions before you act"}
+When AI produces something that will reach students or colleagues, pause for thirty seconds and ask: Can I independently confirm the key claims? Could I explain the reasoning in my own words to a sceptical colleague? Would I be comfortable defending this in a course review meeting? If any answer is no, the output needs more work — yours, not the AI's.
+:::
+
 ---
 
 ## Why This Matters for Professional Careers
 
-In the next five years, professionals in every business discipline will work alongside AI tools. The ones who thrive won't be those who can generate the most impressive AI outputs,they'll be those who can skillfully evaluate, adapt, and improve AI recommendations.
+In the next five years, professionals in every business discipline will work alongside AI tools. The ones who thrive won't be those who can generate the most impressive AI outputs---they'll be those who can skillfully evaluate, adapt, and improve AI recommendations.
 
 **Critical thinking about AI is becoming a core professional competency across all disciplines.**
 
@@ -536,7 +544,7 @@ Employers will increasingly ask:
 - "How do you ensure AI recommendations are appropriate for our organisation?"
 - "Can you give an example of when you identified problems with an AI-generated solution?"
 
-Students who master the critique framework will have compelling answers to these questions. They'll demonstrate that they're not just AI users,they're AI-savvy professionals who can leverage technology while maintaining professional judgment and ethical standards.
+Students who master the critique framework will have compelling answers to these questions. They'll demonstrate that they're not just AI users---they're AI-savvy professionals who can leverage technology while maintaining professional judgment and ethical standards.
 
 ---
 

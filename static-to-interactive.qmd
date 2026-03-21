@@ -405,10 +405,10 @@ Include accounting standards references and realistic audit procedures.
 
 ## Business Analytics
 
-### Data Visualization Dashboard Builder
+### Data Visualisation Dashboard Builder
 
 **Static Content Example:**
-- Business dataset with analysis requirements and visualization guidelines
+- Business dataset with analysis requirements and visualisation guidelines
 
 **Interactive Transformation:**
 ```html
@@ -437,7 +437,7 @@ Include business analytics terminology and best practices.
 
 **Key Interactive Elements:**
 - **Variable relationship explorer** - correlation matrix with explanations
-- **Chart recommendation engine** - suggests optimal visualizations
+- **Chart recommendation engine** - suggests optimal visualisations
 - **Statistical test selector** - guides appropriate analysis methods
 - **Insight documentation tool** - structures findings and implications
 
@@ -474,7 +474,7 @@ Include hospitality-specific service standards and recovery best practices.
 ```
 
 **Key Interactive Elements:**
-- **Service failure analyser** - categorizes complaint types with recovery implications
+- **Service failure analyser** - categorises complaint types with recovery implications
 - **Compensation matrix** - industry-standard recovery offers
 - **Communication composer** - templates for different guest situations
 - **Satisfaction prediction tool** - estimates recovery success probability
@@ -503,7 +503,7 @@ Build an interactive HTML requirements gathering workshop from this system case:
 
 Develop:
 1. Stakeholder identification and interviewing interface
-2. Requirements prioritization tool (MoSCoW method)
+2. Requirements prioritisation tool (MoSCoW method)
 3. Technical feasibility assessment checklist
 4. Implementation timeline builder with dependencies
 5. Requirements traceability matrix generator
@@ -515,7 +515,7 @@ Include IT project management terminology and system development best practices.
 - **Requirements traceability matrix** - links business needs to technical solutions
 - **Technical feasibility analyser** - assesses implementation complexity
 - **Stakeholder influence mapping** - identifies key decision-makers
-- **Project timeline visualizer** - Gantt chart builder with critical paths
+- **Project timeline visualiser** - Gantt chart builder with critical paths
 
 ## Management
 
@@ -562,7 +562,7 @@ Include organisational development theory and change management frameworks.
 ### Discipline-Specific Design Considerations
 
 **Creative Fields (Marketing, Hospitality):**
-- Emphasize visual design and user experience
+- Emphasise visual design and user experience
 - Include multimedia elements (images, videos)
 - Focus on subjective decision-making with guided feedback
 - Incorporate brand/customer experience elements
@@ -574,7 +574,7 @@ Include organisational development theory and change management frameworks.
 - Incorporate industry standards and professional frameworks
 
 **Behavioural Fields (Management, Hospitality):**
-- Emphasize stakeholder dynamics and relationships
+- Emphasise stakeholder dynamics and relationships
 - Include emotional intelligence and communication elements
 - Focus on contextual decision-making
 - Incorporate cultural and situational factors
@@ -656,11 +656,11 @@ Result: Visual knowledge structure for students
 **Why:** Concepts are often easier to understand visually. AI can create illustrations, diagrams, and infographics instantly.
 
 **What AI Can Generate:**
-- **Flowcharts & process diagrams** - Visualize workflows and procedures
+- **Flowcharts & process diagrams** - Visualise workflows and procedures
 - **Concept diagrams** - Show relationships between ideas
 - **Infographics** - Convert statistics into visual stories
 - **Business scenario illustrations** - Visual context for case studies
-- **Timeline graphics** - Historical or project progression visualization
+- **Timeline graphics** - Historical or project progression visualisation
 
 **Practical Applications by Discipline:**
 
@@ -697,11 +697,11 @@ Result: Connected diagram showing relationships between ratio categories
 While AI video generation is still emerging, you can:
 - Generate scripts with AI
 - Use AI voiceover for narration
-- Create video summarization from lectures
+- Create video summarisation from lectures
 - Extract key moments from longer videos
 
 **Audio Applications:**
-- **Podcast transcription & summarization** - Turn lecture recordings into text guides
+- **Podcast transcription & summarisation** - Turn lecture recordings into text guides
 - **AI voiceover** - Generate narration for visual content
 - **Audio quiz prompts** - Create review audio for commute/gym study
 - **Accessibility** - Auto-generate captions for videos
@@ -918,164 +918,25 @@ Rather than manually creating a quiz prompt each time:
 
 ---
 
-## Exporting Conversation Results: From Interactive Back to Document
+## From Interactive Back to Document
 
-### When Students Generate Deliverables
-
-A complementary workflow to this chapter's focus on transforming static content to interactive experiences is students using AI to **generate professional documents from their conversations and analyses**.
-
-When students:
-- Complete an interactive simulation and want to document their decisions
-- Have a conversation analysing a case study and need to produce a report
-- Gather data and want to create a presentation of findings
-- Conduct analysis and need professional documentation
-
-...they can request AI generate the appropriate document format.
-
-### Common Scenarios
-
-#### **Interactive Simulation → Report**
-
-A student completes an interactive business scenario (built using the techniques in this chapter), then wants to document their learning:
-
-```
-I just completed an interactive business simulation where I made strategic
-decisions about [topic]. The simulation walked me through [scenario].
-
-Here's what I decided and why:
-[Student describes their choices and reasoning]
-
-Create a professional business report (1500-2000 words) documenting:
-1. The scenario and decision context
-2. The strategic choices I made
-3. My reasoning for each decision
-4. How those choices affected outcomes
-5. What I learned from the simulation
-
-Format as a professional report suitable for [class submission/portfolio].
-```
-
-#### **Conversation Analysis → Presentation**
-
-A student has an extended conversation with AI analysing a complex business case, then needs to present findings:
-
-```
-I've had a detailed conversation analysing [case study]. Here's a summary
-of what we explored:
-[Paste key points from conversation]
-
-Create a PowerPoint presentation (12-15 slides) that presents these findings
-in a way suitable for [class presentation / stakeholder meeting / board review].
-
-Include:
-- Executive summary of the case
-- Key analysis points
-- My strategic recommendations
-- Supporting evidence
-- Visual representations where appropriate
-```
-
-#### **Data Exploration → Technical Report**
-
-A student explores a dataset conversationally with AI, then needs to document findings:
-
-```
-I've explored this dataset with AI analysis, identifying [key patterns].
-The main findings are:
-[List findings with supporting data]
-
-Create a professional data analysis report (2000-3000 words) that:
-1. Describes the dataset and analysis approach
-2. Presents findings with supporting visualizations
-3. Discusses implications for [business context]
-4. Recommends next steps
-
-Format as a technical report suitable for [stakeholder type].
-```
-
-### Integration with Chapter 14: "From Conversation to Document"
-
-The new Chapter 14 ("From Conversation to Document") covers this workflow in comprehensive detail, including:
-
-- **Complete step-by-step guidance** on generating Word documents, PowerPoint presentations, and Excel files from AI conversations
-- **Data analysis → PowerPoint workflow** - the exact workflow of CSV upload → analysis → visualizations → presentation that you may demo
-- **Qualitative analysis → documentation workflow** - audio transcription → thematic analysis → research memo
-- **Discipline-specific examples** across all 8 business fields
-- **Tool-specific approaches** for different AI platforms and export options
-- **Quality control principles** for reviewing AI-generated documents
-
-### Teaching Application
-
-#### **Assessment Strategy When Students Generate Documents**
-
-When students use AI to generate presentations or reports:
-
-**What to assess:**
-- ✓ Quality of analysis/thinking behind the document
-- ✓ Accuracy of data representation
-- ✓ Clarity of communication
-- ✓ Appropriateness of format for audience
-- ✓ Evidence of student judgment and decision-making
-
-**What NOT to assess:**
-- ✗ Formatting perfection (AI handles that)
-- ✗ Time spent on presentation design (focus was analysis)
-- ✗ Writing quality at sentence level (AI assists with writing)
-
-**Grading recommendation:**
-```
-Instead of:
-"Write a 2000-word report analysing [case study]"
-
-Try:
-"analyse [case study] with AI's help, then request AI generate a
-professional report of your analysis. Submit:
-
-1. A summary of your analysis process (500 words)
-2. The generated report
-3. A reflection on what the document shows about your understanding"
-```
-
-This reveals thinking, not just output.
-
-#### **Where This Fits in Your Teaching**
-
-This workflow complements the static-to-interactive work in this chapter:
-
-| Direction | Chapter Focus | Tool Purpose |
-|-----------|---|---|
-| **Static → Interactive** | This Chapter (13) | Engage students *in* learning |
-| **Interactive/Conversation → Document** | Chapter 14 | Students *communicate* their learning |
-
-Both represent the full cycle of AI-enhanced teaching:
-1. Transform static content to interactive experience (Chapter 13)
-2. Students engage with interactive content, have conversations, conduct analysis
-3. Students use AI to generate professional deliverables of their work (Chapter 14)
-4. Students submit documents reflecting genuine learning
+Once students have engaged with interactive simulations and AI-powered activities, they often need to turn their work into professional deliverables -- reports, presentations, and analyses. For detailed guidance on turning AI conversations into professional documents, including step-by-step workflows for generating Word documents, PowerPoint presentations, and Excel files, see the dedicated chapter *From Conversation to Document*.
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
-1. **Start with HTML conversion** - Transform one static document to interactive
-2. **Add multimedia** - Generate visuals or use RAG for interactive guides
-3. **Explore creative formats** - Try comic strips or scenario sequences
-4. **Scale with templates** - Develop reusable prompts for your discipline
-5. **Connect to Chapter 14** - Teach students how to generate documents from their analysis
-6. **Consider automation** - Once confident, explore custom agents (see Advanced Frontiers)
+1. **Start with HTML conversion** -- Transform one static document to interactive
+2. **Add multimedia** -- Generate visuals or use RAG for interactive guides
+3. **Explore creative formats** -- Try comic strips or scenario sequences
+4. **Scale with templates** -- Develop reusable prompts for your discipline
+5. **Teach the full cycle** -- Show students how to generate documents from their analysis (see *From Conversation to Document*)
+6. **Consider automation** -- Once confident, explore custom agents (see Advanced Frontiers)
 
 **Start small, think big, transform gradually.**
-
-### Cross-Reference
-
-For comprehensive guidance on having students generate professional documents (Word, PowerPoint, Excel, etc.) from their conversations and analyses, see **Chapter 14: From Conversation to Document**. That chapter provides:
-- Complete workflows for data analysis → presentation
-- Qualitative analysis → research documentation
-- Assessment strategies for document-generating assignments
-- Discipline-specific examples
 
 **Key Principle:** This chapter focuses on practical transformations you can do today with current AI tools. As capabilities evolve, your teaching can evolve with them. The pedagogical principles remain constant even as tools change.
 
 ---
 
-*This chapter bridges the gap between static content and interactive learning experiences, making your teaching materials more engaging and effective across all business disciplines. See Chapter 14 to complete the cycle,showing students how to generate professional deliverables from their learning work.*
+*This chapter bridges the gap between static content and interactive learning experiences, making your teaching materials more engaging and effective across all business disciplines.*

@@ -16,41 +16,29 @@ Let's jump straight in.
 
 ## Step 1: Accessing an AI Tool
 
-If you're a **Curtin University staff member**, you have an approved enterprise option. Otherwise, you have several free options.
+Many institutions now provide enterprise AI tools through existing software agreements. Check with your IT department — you may already have access to an approved option. If not, several excellent free tools are available.
 
-### Option A: MS Copilot Enterprise (Curtin Staff - Recommended)
+### Option A: Institutional Enterprise Tools (Recommended for Work)
 
-If you have a Curtin University login, you have access to MS Copilot Enterprise,the officially approved tool for institutional use.
+Many universities provide enterprise AI access through existing agreements — commonly **MS Copilot Enterprise** (through Microsoft 365) or **Google Gemini** (through Google Workspace for Education). These are worth checking for first because:
 
-**Accessing MS Copilot Enterprise:**
+- Your data is protected within your institution's secure instance
+- They meet institutional data governance and compliance requirements
+- They reflect how enterprise professionals use AI tools in practice
 
-1. Go to **copilot.microsoft.com** or open Microsoft Edge browser
-2. Sign in with your Curtin credentials (@curtin.edu.au)
-3. You'll see the familiar Copilot interface
-4. That's it,you're ready to go
+**How to check:** Contact your IT department or look for AI guidance on your institution's teaching and learning website.
 
-**Why MS Copilot Enterprise for Curtin:**
+**MS Copilot Enterprise** integrates with tools you already use:
 
-- Your data is protected and siloed within Curtin's secure instance
-- Meets institutional data governance and compliance requirements
-- Reflects how enterprise professionals use AI tools
-- Built on OpenAI's ChatGPT technology, so it's powerful and reliable
-
-**Integration with Microsoft Suite (Major Advantage):**
-
-MS Copilot integrates seamlessly with tools you already use:
-
-- **In Word**: A chat panel opens on the right side,draft paragraphs, get feedback, revise
-- **In Excel**: Analyse data, create formulas, visualize patterns
+- **In Word**: A chat panel opens on the right side — draft paragraphs, get feedback, revise
+- **In Excel**: Analyse data, create formulas, visualise patterns
 - **In PowerPoint**: Generate slides, refine content, create speaker notes
 - **In Outlook**: Draft emails, organise content, summarise threads
 - **In Teams**: Access Copilot in chats and meetings for real-time assistance
 
-This integration means you can work directly in your document while AI assists,no copying/pasting between windows.
+This integration means you can work directly in your document while AI assists — no copying/pasting between windows.
 
-### Option B: ChatGPT (Free, No Login Required)
-
-If you prefer a standalone option or aren't at Curtin:
+### Option B: ChatGPT (Free)
 
 1. Go to **chat.openai.com** in any web browser
 2. Create a free account (takes 2 minutes) or use a Google/Microsoft account
@@ -63,13 +51,13 @@ If you prefer a standalone option or aren't at Curtin:
 - Widely familiar
 - Can generate and export Word/Excel files (with Pro subscription)
 
-**Data Note:** Conversations may be retained by OpenAI. For Curtin staff, use MS Copilot Enterprise for institutional work.
+**Data Note:** Conversations may be retained by OpenAI. For institutional work involving student data, use your enterprise tool if available.
 
 ### Option C: Claude (Free, Anthropic)
 
 1. Go to **claude.ai** in any web browser
 2. Create a free account
-3. Same interface,a clean text box waiting for your instructions
+3. Same interface — a clean text box waiting for your instructions
 
 **Advantages:**
 
@@ -99,16 +87,16 @@ If you prefer the Google ecosystem:
 
 | Tool | Best For | Data Protection | Office Integration |
 |------|----------|-----------------|-------------------|
-| **MS Copilot Enterprise (Curtin)** | Institutional work--- course materials--- student assignments |  Enterprise-protected |  Full MS Office Suite |
-| **ChatGPT** | General exploration--- standalone use |  Consumer retention |  Manual export (Pro) |
-| **Claude** | Writing and nuanced analysis |  Consumer retention |  None |
-| **Google Gemini** | Google Workspace users |  Google policies |  Google Workspace |
+| **Enterprise tool (e.g. MS Copilot)** | Institutional work, course materials, student data | Enterprise-protected | Full Office Suite |
+| **ChatGPT** | General exploration, standalone use | Consumer retention | Manual export (Pro) |
+| **Claude** | Writing and nuanced analysis | Consumer retention | None |
+| **Google Gemini** | Google Workspace users | Google policies | Google Workspace |
 
-**For Curtin Staff & Students:** Use MS Copilot Enterprise for anything involving course materials, student work, or institutional data.
+**If your institution provides an enterprise tool:** Use it for anything involving course materials, student work, or institutional data.
 
-**For General Exploration:** Any tool works,they all have similar core capabilities.
+**For general exploration:** Any tool works — they all have similar core capabilities.
 
-**Note:** You don't need to download anything or configure complex settings. All options work directly in your web browser. If you're at Curtin, start with MS Copilot Enterprise. If you're elsewhere or just exploring, ChatGPT is the most familiar starting point.
+**Note:** You don't need to download anything or configure complex settings. All options work directly in your web browser. If your institution offers an enterprise tool, start there. Otherwise, ChatGPT is the most familiar starting point.
 
 ## Step 2: Understanding Prompts
 
@@ -128,7 +116,7 @@ Here's something important to understand: **Every AI tool, no matter how sophist
 Whether you're:
 - Typing directly into ChatGPT
 - Using MS Copilot in Word
-- Working with specialized teaching tools
+- Working with specialised teaching tools
 - Exploring emerging automation platforms
 - Building custom agents
 
@@ -323,9 +311,9 @@ Let's break down what made that second prompt powerful using a **memorable frame
 
 This framework works whether you're using ChatGPT, Copilot, Claude, or any other AI tool. CRAFT is a helpful **starting point** for structuring your thinking.
 
-**Important caveat:** CRAFT is not the only way to prompt effectively. Some educators find other frameworks work better for them. Some prefer different approaches entirely. The goal isn't to follow CRAFT rigidly,it's to **think intentionally about what you're asking the AI to do**.
+**Important caveat:** CRAFT is not the only way to prompt effectively. Some educators find other frameworks work better for them. Some prefer different approaches entirely. The goal isn't to follow CRAFT rigidly---it's to **think intentionally about what you're asking the AI to do**.
 
-For example, the **C.R.E.A.T.E.** framework takes a different approach, emphasizing examples and iterative refinement rather than upfront context. See **Appendix E** for a detailed comparison of C.R.E.A.T.E. vs. C.R.A.F.T. frameworks.
+For example, the **C.R.E.A.T.E.** framework takes a different approach, emphasising examples and iterative refinement rather than upfront context. See **Appendix E** for a detailed comparison of C.R.E.A.T.E. vs. C.R.A.F.T. frameworks.
 
 ### The CRAFT Acronym
 
@@ -547,7 +535,7 @@ Format: "300-400 words with three discussion questions requiring students to ana
 Tone/Target: "Professional and realistic. Use clear language suitable for first-year university students."
 ```
 
-This is the "powerful" prompt we tried earlier. Now you can see **why** it's powerful,it includes all five CRAFT elements.
+This is the "powerful" prompt we tried earlier. Now you can see **why** it's powerful---it includes all five CRAFT elements.
 
 ---
 
@@ -580,13 +568,13 @@ After your initial CRAFT prompt, you can:
 4. **Repurpose:** "Turn this into a 10-slide PowerPoint presentation."
 5. **Push back:** "That's too generic. Here's what I actually need..." and keep talking
 
-You're not just telling the AI what to do,you're **working together** to get exactly what you need.
+You're not just telling the AI what to do---you're **working together** to get exactly what you need.
 
 This conversation approach is why **Chapters 4-7 focus on techniques (Reverse Prompting, Pros/Cons, Chain of Thought, etc.) rather than just prompting structure.** Those techniques are conversation starters, not rigid templates.
 
 ## Practice Exercise: Your Turn
 
-Now it's your turn to write a prompt from scratch. Think of something you currently teach in your business course,a topic where you wish you had more practice materials or better scenarios.
+Now it's your turn to write a prompt from scratch. Think of something you currently teach in your business course---a topic where you wish you had more practice materials or better scenarios.
 
 Use this template:
 
@@ -605,7 +593,7 @@ Here are the requirements:
 Begin.
 ```
 
-**Example topics to try,pick one from your discipline:**
+**Example topics to try---pick one from your discipline:**
 
 ::: {.panel-tabset}
 
@@ -680,6 +668,10 @@ As you experiment, keep these realities in mind:
 - Replace your pedagogical design or assessment judgment
 
 **The golden rule:** AI is a powerful draft generator and practice partner. You are still the expert who evaluates, refines, and ensures accuracy.
+
+::: {.callout-note title="Calibrate your effort"}
+Not everything needs the same level of scrutiny. A casual brainstorm gets a light pass. A student-facing handout gets a careful review. A published assessment rubric gets the full treatment. The higher the stakes, the more thorough your check should be.
+:::
 
 ---
 
@@ -775,13 +767,13 @@ Notice: you didn't write four prompts from scratch. You had a conversation where
 ::: {.panel-tabset}
 
 ## Business & Marketing
-**Refine:** "Make the competitive analysis more realistic,include actual market data from Australian retail"
+**Refine:** "Make the competitive analysis more realistic---include actual market data from Australian retail"
 **Adapt:** "Rewrite this for students with no marketing background"
 **Expand:** "Add customer perception data and explain how it changes the analysis"
 **Repurpose:** "Create a 1-page executive summary version for busy managers"
 
 ## Management
-**Refine:** "Make the stakeholder conflicts more nuanced,not just good vs. bad decisions"
+**Refine:** "Make the stakeholder conflicts more nuanced---not just good vs. bad decisions"
 **Adapt:** "Rewrite for public sector context instead of private company"
 **Expand:** "Add the perspective of each stakeholder and explain their reasoning"
 **Repurpose:** "Turn this into a role-play activity where students play different stakeholders"
@@ -801,7 +793,7 @@ Notice: you didn't write four prompts from scratch. You had a conversation where
 ## Supply Chain & Logistics
 **Refine:** "Include real logistics costs and supply chain complexity"
 **Adapt:** "Rewrite for Australian manufacturing context"
-**Expand:** "Add supply chain disruption scenario,how does your solution handle it?"
+**Expand:** "Add supply chain disruption scenario---how does your solution handle it?"
 **Repurpose:** "Create a simulation where students track changes week by week"
 
 ## Information Systems
@@ -820,7 +812,7 @@ Notice: you didn't write four prompts from scratch. You had a conversation where
 **Refine:** "Include actual market data and explain why real markets deviate from theory"
 **Adapt:** "Use Australian economic data instead of generic examples"
 **Expand:** "Show how government policy changes would affect this analysis"
-**Repurpose:** "Create a data visualization exercise from this scenario"
+**Repurpose:** "Create a data visualisation exercise from this scenario"
 
 :::
 
@@ -845,7 +837,7 @@ This is what makes AI powerful for teaching: **you stay in control while multipl
 **"The response was too short/long."**
 → Specify word count or structure: "Provide 500 words" or "Write exactly 5 paragraphs" or "Create a scenario followed by 4 discussion questions."
 
-**"It's too generic,not specific to Australia/my context."**
+**"It's too generic---not specific to Australia/my context."**
 → Add context relevant to your discipline:
 
 ::: {.panel-tabset}

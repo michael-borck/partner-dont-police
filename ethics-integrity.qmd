@@ -4,11 +4,11 @@
 
 ## The Conversation You Must Have
 
-If you implement any of the ideas in this book, you will have this conversation,with students, with colleagues, possibly with administrators:
+If you implement any of the ideas in this book, you will have this conversation---with students, with colleagues, possibly with administrators:
 
 **"Aren't you just teaching students to cheat?"**
 
-This chapter gives you the framework, language, and evidence to respond confidently. More importantly, it helps you position AI integration not as an academic integrity *problem*, but as an academic integrity *opportunity*,a chance to teach professional ethics and responsible technology use.
+This chapter gives you the framework, language, and evidence to respond confidently. More importantly, it helps you position AI integration not as an academic integrity *problem*, but as an academic integrity *opportunity*---a chance to teach professional ethics and responsible technology use.
 
 ---
 
@@ -132,7 +132,7 @@ Students learn that using AI thoughtfully is harder than avoiding it. They devel
 - Include AI literacy as a stated learning objective in your unit outline
 
 **Why this builds integrity:**
-When students see AI use as professional skill development rather than academic shortcut, they engage differently. They're not "cheating the system",they're practicing for their careers.
+When students see AI use as professional skill development rather than academic shortcut, they engage differently. They're not "cheating the system"---they're practicing for their careers.
 
 ---
 
@@ -144,7 +144,7 @@ While your institution may have an approved enterprise LLM with data protections
 
 Different LLMs handle data differently:
 
-**Enterprise/Approved Tools** (e.g., MS Copilot Enterprise with Curtin license)
+**Enterprise/Approved Tools** (e.g., MS Copilot Enterprise, institutional Google Gemini)
 - Data is siloed and protected within the enterprise
 - Individual user data is isolated
 - Training data exclusions in place
@@ -159,29 +159,30 @@ Different LLMs handle data differently:
 - **Risk:** Course materials, assignment content, student work uploaded here can be incorporated into training data
 
 **The Student Reality**
-While you may recommend (or require) students use MS Copilot Enterprise, students will inevitably use other tools:
+While you may recommend (or require) students use your institution's approved tool, students will inevitably use other tools:
 
 - More familiar interfaces
-- No Curtin login required
+- No institutional login required
 - Access on personal devices/accounts
 - Peer recommendations
 - "Just quickly checking" with ChatGPT
 
-This isn't a failure of your instruction,it's the reality of tool adoption. Your role is to help students make informed choices, not to prevent use of other tools entirely. For strategic thinking about larger-scale risks, see the **Strategic Risk Thinking** section later in this chapter.
+This isn't a failure of your instruction — it's the reality of tool adoption. Your role is to help students make informed choices, not to prevent use of other tools entirely. For strategic thinking about larger-scale risks, see the **Strategic Risk Thinking** section later in this chapter.
 
-### Institutional Context: Curtin University
+### Why Enterprise Tools Matter
 
-At Curtin University, staff have the Enterprise license for MS Copilot specifically because:
-- **Data Protection**: Your data and your students' work is siloed within Curtin's instance
-- **Institutional Compliance**: Meets Curtin's data governance and privacy requirements
-- **Professional Standard**: Reflects how enterprise professionals use AI tools
+If your institution provides an enterprise AI licence (such as MS Copilot Enterprise or institutional Google Gemini), there are strong reasons to use it:
+
+- **Data Protection**: Your data and your students' work is siloed within your institution's instance
+- **Institutional Compliance**: Meets your institution's data governance and privacy requirements
+- **Professional Standard**: Reflects how enterprise professionals use AI tools in practice
 - **Approved Use**: This is the officially sanctioned tool for institutional work
 
 **What This Means in Practice:**
-- Course materials and institutional data should be processed through MS Copilot Enterprise
-- Student assignments containing course content are safer in MS Copilot Enterprise
+- Course materials and institutional data should be processed through the approved enterprise tool
+- Student assignments containing course content are safer in enterprise-protected environments
 - Sensitive institutional information should never go into consumer LLMs
-- Teaching students to use the enterprise tool is teaching them to work like professionals
+- Teaching students to use enterprise tools is teaching them to work like professionals
 
 ### Data Governance Considerations for Assignment Design
 
@@ -215,8 +216,8 @@ Try: "Show the three key prompts you used and explain why you modified your appr
 #### Strategy 4: Explicit Tool Choices in Assignment Design
 
 Be clear about which tool to use:
-- "Use MS Copilot Enterprise for this assignment (login with your Curtin credentials)"
-- "You may use any AI tool for brainstorming, but final analysis should use MS Copilot Enterprise"
+- "Use the institutional AI tool for this assignment (login with your university credentials)"
+- "You may use any AI tool for brainstorming, but final analysis should use the approved enterprise tool"
 - "If using a non-approved tool, anonymize all case data first"
 
 **Benefit:** Students make informed choices and understand why tool selection matters.
@@ -224,7 +225,7 @@ Be clear about which tool to use:
 #### Strategy 5: Structured Prompts in Approved Tools
 
 Rather than leaving students to compose prompts in any tool they choose, provide:
-- Prepared prompts already in MS Copilot Enterprise
+- Prepared prompts in the approved enterprise tool
 - Shared workspace conversations students can access
 - Pre-configured scenarios they interact with, rather than create
 
@@ -237,11 +238,11 @@ Here's language you can adapt for student-facing materials:
 ```
 DATA GOVERNANCE AND AI TOOL SELECTION
 
-We have approved MS Copilot Enterprise for coursework because it protects your data
-and the university's data. Here's what this means:
+This university has an approved enterprise AI tool for coursework because it protects
+your data and the university's data. Here's what this means:
 
 WHAT HAPPENS WITH YOUR DATA:
-- MS Copilot Enterprise: Your conversations are siloed within Curtin's secure instance.
+- Enterprise AI tool: Your conversations are siloed within the university's secure instance.
   Your data is not used to train other models. Your work is protected.
 
 - Other AI tools (ChatGPT, etc.): Your conversations may be retained and potentially
@@ -250,7 +251,7 @@ WHAT HAPPENS WITH YOUR DATA:
 
 WHAT THIS MEANS FOR THIS COURSE:
 
-DO use MS Copilot Enterprise when:
+DO use the approved enterprise tool when:
 - Working with course materials or case studies
 - Analysing real (or realistic) business scenarios
 - Uploading assignment drafts for feedback
@@ -284,7 +285,7 @@ What risks exist? These are questions you'll ask professionally, not just in cla
 Watch for assignments or discussions where students might be uploading sensitive information inappropriately:
 
 **Red Flag:** Student uploads course materials verbatim into consumer tool
-- **Response:** Not acceptable for this assignment. Use MS Copilot Enterprise, or anonymize first.
+- **Response:** Not acceptable for this assignment. Use the approved enterprise tool, or anonymize first.
 
 **Red Flag:** Student shares screenshot of conversation with real client names/data
 - **Response:** Opportunity to discuss professional confidentiality and data governance in context.
@@ -297,13 +298,62 @@ Watch for assignments or discussions where students might be uploading sensitive
 
 ### Institutional Policy Reference
 
-As a Curtin educator, you can reference:
-- Curtin's Data Governance Policy
-- The terms of the MS Copilot Enterprise license
+As an educator, you can reference:
+- Your institution's Data Governance Policy
+- The terms of your enterprise AI licence
 - Professional standards in your discipline about data handling
 - Privacy and confidentiality principles relevant to your field
 
 This grounds data governance in institutional reality, not abstract rules.
+
+### Understanding the Real Risks
+
+Data governance matters. But the conversation around AI and data privacy has become so fear-driven that many organisations refuse to engage with AI at all, which carries its own risks. If you are going to teach students to make informed professional decisions about AI, you need to understand what the actual risks are, not just the imagined ones.
+
+**What actually happens to your data**
+
+When you type a prompt into ChatGPT, Claude, or similar tools, your text is sent to a server, processed, and a response is generated. Your conversation may be logged for safety monitoring or, on some free tiers, used as training data. But "used as training data" does not mean what most people think it means.
+
+Training an LLM means adjusting billions of numerical parameters so that the model becomes slightly better at predicting useful responses across all inputs. Your document becomes a vanishingly small statistical signal distributed across those billions of parameters. It is not stored as a retrievable file. It is not sitting in a database that someone can search. It is dissolved into the model's general capability, like a drop of ink in a swimming pool.
+
+**Can someone extract your document from a model?**
+
+This is the fear you hear most often: someone will jailbreak the model and pull out what you uploaded. The short answer is no. Jailbreaking an LLM means manipulating its behaviour, getting it to ignore safety guidelines, adopt a persona, or produce content it normally would not. It does not give anyone access to other users' conversations or uploaded documents. These are fundamentally different things. A jailbreak is like persuading a librarian to recommend a banned book. It is not like breaking into the library's filing cabinet.
+
+There is a narrow category of research called "training data extraction" where researchers have demonstrated that models can sometimes reproduce fragments of text they were trained on, typically memorised sequences like phone numbers or code snippets that appeared many times in the training corpus. But reproducing a specific document that one user uploaded in one conversation is not a realistic attack. The signal is too weak, too distributed, and too entangled with billions of other inputs.
+
+Enterprise-tier tools (where your institution has a data processing agreement) typically exclude your data from training entirely, which makes even this theoretical risk disappear.
+
+**The convergent development fallacy**
+
+You will hear stories like this: "I was developing an idea using an AI tool, and then the company released something very similar. They must have stolen my concept." This is almost certainly convergent development, not intellectual property theft. Thousands of professionals are working on similar problems, reading similar research, responding to the same market signals. When multiple people independently arrive at similar solutions, that is innovation working as expected, not evidence of data theft.
+
+This matters for teaching because students (and colleagues) will encounter this pattern and may draw the wrong conclusion. Teaching them to recognise convergent development as normal helps them engage with AI tools without unfounded suspicion.
+
+**What risks ARE real**
+
+The risks worth taking seriously are practical and specific:
+
+- **Personally identifiable information.** Pasting student names, ID numbers, health records, or employee details into any external tool is a genuine compliance risk, regardless of whether the tool trains on your data. The data leaves your institutional boundary. That is the issue, not model extraction.
+- **Regulated or classified data.** If your discipline involves data subject to specific legislation (health records, financial data, legal case files), those regulations apply to AI tools just as they apply to email or cloud storage.
+- **Credentials and access tokens.** Pasting passwords, API keys, or access credentials into a chat is an immediate operational security risk.
+- **Professional liability.** Using AI-generated content without verification in contexts where accuracy has legal or professional consequences (audit reports, medical advice, legal opinions) is a real risk, but it is a verification problem, not a data leakage problem.
+
+**The risk of not using AI**
+
+The "non-zero risk means do not use it" stance deserves scrutiny. Every technology decision involves trade-offs. Email can be intercepted. Cloud storage can be breached. Video conferencing can be recorded. We manage these risks through policy and practice, not prohibition.
+
+Organisations that refuse to engage with AI because of overestimated data risks face a different set of consequences: graduates unprepared for AI-augmented workplaces, educators unable to scale personalised learning, and institutions falling behind peers who made informed decisions rather than fearful ones. The question is not whether there is risk. The question is whether the risk is proportionate to the concern, and whether avoidance creates risks of its own.
+
+**What to teach students**
+
+The goal is professional judgement, not paranoia. Teach students to ask three practical questions before uploading anything to an AI tool:
+
+1. **Does this contain information about a real, identifiable person?** If yes, de-identify first or use an enterprise tool.
+2. **Is this subject to specific regulations or confidentiality agreements?** If yes, check whether your tool's data handling meets those requirements.
+3. **Would I be comfortable if this text appeared in a public forum?** If no, think carefully about whether an enterprise tool or a fictional scenario would serve just as well.
+
+These three questions cover the real risks without falling into the trap of treating every interaction as a potential data breach.
 
 ---
 
@@ -364,7 +414,7 @@ I'm here to help you learn to use these tools well and ethically.
 >
 > In this unit, we'll use AI openly in some assignments. You'll learn when AI is helpful, when it's risky, and when human judgment must override AI recommendations. That's a professional skill you'll need.
 >
-> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent professional practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know,because your work won't demonstrate understanding.
+> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent professional practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know---because your work won't demonstrate understanding.
 >
 > Questions or concerns about this approach?"
 
@@ -479,7 +529,7 @@ Even with well-designed assignments, some students will try to misuse AI. Here's
 
 **Response approach:**
 - **Return for revision:** "Your self-audit suggests your performance was perfect. Reflective practice requires identifying areas for growth. Please resubmit with honest self-assessment."
-- **Offer guidance:** "Everyone makes mistakes in complex HR conversations. Look specifically at moments where the employee seemed frustrated or defensive,what might you have done differently?"
+- **Offer guidance:** "Everyone makes mistakes in complex HR conversations. Look specifically at moments where the employee seemed frustrated or defensive---what might you have done differently?"
 
 **Teaching moment:** Explain that honest self-assessment is more valuable than false perfection.
 
@@ -703,7 +753,7 @@ You may need to justify your approach to colleagues or administrators who are sk
 
 **Response:**
 
-> "Actually, it raises standards. I'm no longer testing whether students can recall information,I'm testing whether they can apply it in realistic, dynamic scenarios. I'm assessing higher-order thinking: critical evaluation, professional judgment, and ethical reasoning. These are harder to demonstrate than memorization."
+> "Actually, it raises standards. I'm no longer testing whether students can recall information---I'm testing whether they can apply it in realistic, dynamic scenarios. I'm assessing higher-order thinking: critical evaluation, professional judgment, and ethical reasoning. These are harder to demonstrate than memorization."
 
 ### Concern: "How do you know they're learning anything?"
 
@@ -723,7 +773,7 @@ For the full treatment of group assessment, including the rewritten section prob
 
 **Response:**
 
-> "University policies typically prohibit *unacknowledged* or *uncritical* use of external sources. My approach makes AI use acknowledged and requires critical evaluation. Students aren't hiding AI use,they're demonstrating competent use. That's consistent with academic integrity principles, just applied to a new tool."
+> "University policies typically prohibit *unacknowledged* or *uncritical* use of external sources. My approach makes AI use acknowledged and requires critical evaluation. Students aren't hiding AI use---they're demonstrating competent use. That's consistent with academic integrity principles, just applied to a new tool."
 
 **Supporting evidence:**
 - Many universities are updating policies to allow appropriate AI use
@@ -734,7 +784,7 @@ For the full treatment of group assessment, including the rewritten section prob
 
 **Response:**
 
-> "That's fine,pedagogical approaches can vary across units. I'm being transparent with students about expectations in *my* unit. If other lecturers prohibit AI use, students can follow those different expectations. Professional practice requires adapting to different contexts anyway,this models that."
+> "That's fine---pedagogical approaches can vary across units. I'm being transparent with students about expectations in *my* unit. If other lecturers prohibit AI use, students can follow those different expectations. Professional practice requires adapting to different contexts anyway---this models that."
 
 ---
 
@@ -768,7 +818,7 @@ Position AI literacy as a graduate capability alongside communication, critical 
    - **Supply Chain:** Oversimplification of complex relationships, geopolitical blindspots
    - **Marketing:** Demographic bias in targeting, cultural insensitivity
    - **IT:** Technical feasibility blindness, security oversights
-   - **All disciplines:** Over-generalization of complex situations, missing domain context
+   - **All disciplines:** Over-generalisation of complex situations, missing domain context
 
 **This is professional education, not just academic integrity management.**
 
@@ -816,7 +866,7 @@ When your graduates enter the workforce across all business disciplines, they wi
 
 :::
 
-If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**,not through malice, but through incompetence.
+If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**---not through malice, but through incompetence.
 
 Your responsibility as an educator isn't to protect students from AI. It's to prepare them to be ethical, competent professionals in an AI-augmented world.
 
@@ -1022,7 +1072,7 @@ Understanding these events through your discipline's lens makes them concrete an
 
 ### Grey Swan Events
 
-**Experience Standardization Crisis:** AI optimisation makes tourism experiences so standardized and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.
+**Experience Standardisation Crisis:** AI optimisation makes tourism experiences so standardised and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.
 
 **Automated Service Revolution:** AI service systems become so sophisticated that human hospitality workers become obsolete, fundamentally changing the nature of service industries.
 
@@ -1101,4 +1151,4 @@ The distinction between Black and Grey Swan events helps students understand dif
 
 ---
 
-**Next Section Preview:** The Appendices provide ready-to-use resources: a prompt library you can copy and adapt immediately, a one-hour workshop guide for introducing these ideas to colleagues, and a detailed alignment with Curtin University learning outcomes to show how AI integration supports existing educational goals.
+**Next Section Preview:** The Appendices provide ready-to-use resources: a prompt library you can copy and adapt immediately, a one-hour workshop guide for introducing these ideas to colleagues, and a framework for aligning AI integration with your institution's learning outcomes.

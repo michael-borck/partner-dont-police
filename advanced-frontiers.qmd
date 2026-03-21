@@ -4,7 +4,7 @@
 
 ## Why This Chapter Exists
 
-The previous chapters teach you to work with AI tools directly,writing prompts, generating content, creating learning experiences. That's powerful and covers 90% of what you'll need.
+The previous chapters teach you to work with AI tools directly---writing prompts, generating content, creating learning experiences. That's powerful and covers 90% of what you'll need.
 
 But there's a next level: **setting up AI to work semi-autonomously**.
 
@@ -14,7 +14,22 @@ Imagine:
 - An automation workflow that transforms your PowerPoint into interactive learning objects
 - A tool that escalates to you only when human judgment is needed, handling routine tasks itself
 
-This chapter explores these emerging capabilities. It's optional but powerful once you're comfortable with the basics.
+This chapter explores these emerging capabilities. It is optional and intentionally broad. You do not need to read it end to end. Use the guide below to find what is relevant to you right now.
+
+**Where to start based on your interest:**
+
+| If you want to... | Go to |
+|---|---|
+| Understand what "agents" actually are | Part 1 |
+| Try multi-step AI workflows right now, no new tools | Part 1.5: Prompt Chaining |
+| Use custom GPTs or Copilot agents in your teaching | Part 2 |
+| Automate repetitive tasks (quiz generation, feedback) | Part 3 |
+| Give AI access to your course materials (RAG) | Part 4 |
+| Work with images, video, or audio | Part 5 |
+| Build custom interactive tools | Part 6 |
+| Stay informed without drowning in new tools | Part 7 |
+
+Everything in this chapter builds on the fundamentals from earlier in the book. The principles of conversation, critical evaluation, and human oversight apply here with even greater force, because the more autonomous the AI, the more important it is that a human is paying attention.
 
 ---
 
@@ -53,7 +68,7 @@ WITH AGENT (what we're exploring):
 
 ### Why Agents Matter for Teaching
 
-**Time leverage:** What takes 30 minutes manually, an agent does in seconds,every single time.
+**Time leverage:** What takes 30 minutes manually, an agent does in seconds---every single time.
 
 **Consistency:** Agents don't get tired or inconsistent. The same process runs the same way each time.
 
@@ -67,7 +82,7 @@ WITH AGENT (what we're exploring):
 
 Before we talk about building or using actual agents, here's something important: **you can simulate agent-like behaviour right now using prompt chaining.**
 
-Prompt chaining is when you guide the AI through a multi-step workflow in a single conversation. The **educator is the orchestrator**,you direct the steps, AI executes each one, and the results build on each other.
+Prompt chaining is when you guide the AI through a multi-step workflow in a single conversation. The **educator is the orchestrator**---you direct the steps, AI executes each one, and the results build on each other.
 
 ### Why Prompt Chaining Matters
 
@@ -80,7 +95,7 @@ With prompt chaining, you can:
 - Redirect if something isn't working
 - Combine outputs into final products
 
-**The educator remains in control throughout.** You're not just telling the AI "do this whole thing",you're directing a step-by-step process.
+**The educator remains in control throughout.** You're not just telling the AI "do this whole thing"---you're directing a step-by-step process.
 
 ### Three Prompt Chaining Approaches
 
@@ -125,7 +140,7 @@ Create a complete assessment plan following these steps.
 
 #### **Approach 2: Modular Prompt Chain (Explicit Steps with Pauses)**
 
-Work through steps one at a time, adjusting based on each result. This is closer to how agents actually work,step by step, human in the loop.
+Work through steps one at a time, adjusting based on each result. This is closer to how agents actually work---step by step, human in the loop.
 
 ```
 Step 1: "Create a list of the top 5 risks in [supply chain scenario].
@@ -286,7 +301,7 @@ Notice: **you never wrote a prompt longer than a sentence, but you built an enti
 
 ### Copilot Agents (Microsoft)
 
-Microsoft is building "Copilot Agents",AI agents with specific skills integrated into their Copilot Enterprise.
+Microsoft is building "Copilot Agents"---AI agents with specific skills integrated into their Copilot Enterprise.
 
 **What's possible (current or near-term):**
 - **Document processing agent** - Scans course materials, extracts key concepts, generates study materials
@@ -309,7 +324,7 @@ Try using Copilot in Word to:
 
 ### Custom GPTs (ChatGPT)
 
-If you're using ChatGPT Plus or Pro, you can create "Custom GPTs",specialized versions of ChatGPT trained for your specific need.
+If you're using ChatGPT Plus or Pro, you can create "Custom GPTs"---specialised versions of ChatGPT trained for your specific need.
 
 **What you can do:**
 1. Upload your course materials to the Custom GPT
@@ -317,7 +332,7 @@ If you're using ChatGPT Plus or Pro, you can create "Custom GPTs",specialized ve
 3. Students interact with YOUR custom tool, not generic ChatGPT
 
 **Example Custom GPT:**
-"HR Case Study Analyzer"
+"HR Case Study Analyser"
 
 - Trained on your HR course materials
 - Understands your teaching approach
@@ -383,7 +398,7 @@ With Automation:
 
 ### Major Platforms
 
-**Microsoft Power Automate** (Enterprise-focused, Curtin integration)
+**Microsoft Power Automate** (Enterprise-focused)
 - Integrates with MS Office (Word, Excel, Teams)
 - Easy visual workflow builder
 - Built for enterprise automation
@@ -409,7 +424,7 @@ With Automation:
 - What you can automate:
   - Multi-step processes with AI at each stage
   - Custom conditional logic
-  - Integration with specialized tools
+  - Integration with specialised tools
 
 ### Practical Automation Examples
 
@@ -527,7 +542,7 @@ Workflow: Assignment Feedback Agent with Course Context
 5. Agent analyses student work against all this context
 6. Agent generates feedback grounded in YOUR course, not generic advice
 
-Result: Personalized, contextual, course-specific feedback
+Result: Personalised, contextual, course-specific feedback
 ```
 
 ---
@@ -573,13 +588,13 @@ Workflow:
 5. Students have: transcript, summary, quiz, original recording
 
 Time for you: Press record. That's it.
-Time saved: Hours of manual transcription/summarization
+Time saved: Hours of manual transcription/summarisation
 ```
 
 Tools:
 - NotebookLM (processes audio files)
 - Copilot (can summarise recordings)
-- Otter.ai (specialized audio transcription)
+- Otter.ai (specialised audio transcription)
 - YouTube auto-captions (free, surprisingly good)
 
 **Video Analysis**
@@ -605,7 +620,7 @@ Emerging capability (improving rapidly):
 Current options:
 1. **AI voiceover** - Write script, AI narrates it
 2. **Script generation** - AI writes narration for your visuals
-3. **Video summarization** - AI extracts key moments from long videos
+3. **Video summarisation** - AI extracts key moments from long videos
 
 Example workflow:
 ```
@@ -665,7 +680,7 @@ What it does:
 **Time investment:** 1 hour to configure
 **Time saved:** 10+ minutes per topic
 
-**Assignment Analyzer**
+**Assignment Analyser**
 
 What it does:
 - Checks submissions for key components
@@ -709,7 +724,7 @@ Ask these questions:
 **3. Is data safe?**
 - Where does your data go?
 - Can you export it if you leave?
-- Does it meet institutional requirements (Curtin data governance)?
+- Does it meet your institutional data governance requirements?
 
 **4. Is the learning curve worth it?**
 - Can you learn it in 1-2 hours?
@@ -727,7 +742,7 @@ Ask these questions:
 - Useful if you're building custom tools yourself
 - Probably not your priority if you're not technical
 
-**Specialized Learning Platforms**
+**Specialised Learning Platforms**
 - EdTech companies adding AI
 - Good if they integrate with your institution
 - Watch: Will they be around in 3 years?
@@ -759,7 +774,7 @@ Rather than chasing every new tool:
 
 ### Principle: Build Skills, Not Tool Dependence
 
-Students entering the workforce will use AI tools you can't predict. Your job isn't to teach them this year's tools,it's to teach them to:
+Students entering the workforce will use AI tools you can't predict. Your job isn't to teach them this year's tools---it's to teach them to:
 
 - **Learn new tools quickly** - Frameworks transfer between platforms
 - **Evaluate AI critically** - Skills apply regardless of tool
@@ -857,7 +872,7 @@ As discussed in Chapter 8, **transparency is essential**. With voice cloning and
 3. **Ethical Boundaries**
    - **Don't use** voice cloning to impersonate yourself in misleading ways
    - **Don't create** AI avatars of colleagues without explicit permission
-   - **Be cautious** with deepfakes,even for educational purposes, clarity is essential
+   - **Be cautious** with deepfakes---even for educational purposes, clarity is essential
    - **Never use** for deception (e.g., pretending to be present when you're not)
 
 4. **Data Governance Concerns** (see Chapter 8)
@@ -917,7 +932,7 @@ Automated grading raises some of the same concerns as data governance:
 - **Transparency:** Students should know AI is assisting with grading
 - **Fairness:** AI systems can embed bias (Chapter 8 discusses this in detail)
 - **Accountability:** Final decision and grade remain your responsibility
-- **Data:** Student work gets processed by the system,understand where data goes
+- **Data:** Student work gets processed by the system---understand where data goes
 
 **Honest assessment:**
 - **Useful for:** Identifying patterns, reducing time on routine feedback, catching inconsistencies
@@ -947,7 +962,7 @@ Wrong: "AI assigns final grades, I post them without reviewing."
 
 **The hype says:** AI will do everything for you!
 
-**The reality:** AI handles the 80% of work that's routine and repetitive. The 20% that requires judgment, creativity, and care,that's still yours.
+**The reality:** AI handles the 80% of work that's routine and repetitive. The 20% that requires judgment, creativity, and care---that's still yours.
 
 Good use of AI agents/automation:
 -  Generate multiple quiz options for you to choose from
@@ -1059,7 +1074,7 @@ But the principles remain:
 
 ### A Reminder on Ethics as Technology Advances
 
-As you encounter new tools,voice cloning, avatar creation, automated grading, content generation,return to **Chapter 8: Ethics, Data Governance & Integrity**. The questions you ask there apply here:
+As you encounter new tools---voice cloning, avatar creation, automated grading, content generation---return to **Chapter 8: Ethics, Data Governance & Integrity**. The questions you ask there apply here:
 
 - How do I use this tool transparently?
 - What data governance concerns exist?
@@ -1094,7 +1109,7 @@ The goal is that **you understand what's possible**, so you can:
 - Adapt your teaching as technology changes
 - Stay rooted in pedagogy while exploring possibilities
 
-The fundamentals (Chapters 2-4) work great on their own. These frontiers expand your possibilities,if and when you're ready to explore them.
+The fundamentals (Chapters 2-4) work great on their own. These frontiers expand your possibilities---if and when you're ready to explore them.
 
 ---
 

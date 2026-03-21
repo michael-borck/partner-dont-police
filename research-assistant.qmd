@@ -74,7 +74,7 @@ landscape so I can read the original sources myself.
 
 ---
 
-**Use Case 2: Source Summarization for Initial Screening**
+**Use Case 2: Source Summarisation for Initial Screening**
 
 When students have 50 potentially relevant articles and need to decide which ones are actually worth deep reading:
 
@@ -173,7 +173,7 @@ Developing a good research question is hard:
 - Must be feasible (answerable within scope/resources)
 - Must be clear and focused
 
-Students often struggle with scope,questions that are too broad or too narrow.
+Students often struggle with scope---questions that are too broad or too narrow.
 
 ### How AI Can Help (Appropriately)
 
@@ -198,7 +198,7 @@ develop a better one myself.
 
 **What the student gets:** Socratic questioning that reveals fuzzy thinking.
 
-**Why this is acceptable:** It's like supervision,a good supervisor asks probing questions that help the student clarify their own thinking.
+**Why this is acceptable:** It's like supervision---a good supervisor asks probing questions that help the student clarify their own thinking.
 
 ---
 
@@ -309,7 +309,7 @@ Help me ensure I'm not just seeing what I want to see in the data.
 
 **What the student gets:** Check against confirmation bias.
 
-**Why this is acceptable:** Good qualitative research includes reflexivity,questioning your own interpretations. This is like peer review or supervision feedback.
+**Why this is acceptable:** Good qualitative research includes reflexivity---questioning your own interpretations. This is like peer review or supervision feedback.
 
 ---
 
@@ -398,7 +398,7 @@ Students paste AI-generated prose into their thesis without engagement.
 - Voice/style shifts noticeably between sections
 
 **How to prevent:**
-- Use the transparency model (Chapter 5),students acknowledge AI use and submit revision history
+- Use the transparency model (Chapter 5): students acknowledge AI use and submit revision history
 - Assess through oral defence where students must explain their arguments
 - Focus assessment on originality of thinking, not just quality of prose
 
@@ -406,11 +406,11 @@ Students paste AI-generated prose into their thesis without engagement.
 
 **Problematic 2: Trusting AI citations**
 
-AI frequently hallucinates citations,inventing papers that don't exist or misattributing real papers.
+AI frequently hallucinates citations---inventing papers that don't exist or misattributing real papers.
 
 **How to prevent:**
 - **Require students to verify every citation** in their reference list (confirm it exists, that they've read it, that it says what they claim)
-- Spot-check citations during supervision: "Tell me about the Smith 2019 paper you cite here,what was their methodology?"
+- Spot-check citations during supervision: "Tell me about the Smith 2019 paper you cite here---what was their methodology?"
 
 ---
 
@@ -521,7 +521,7 @@ Include an "AI Use" section in your supervision agreement:
 **2. Model Appropriate AI Use**
 
 In supervision meetings:
-> "I used AI to quickly scan recent literature on your topic,here's what it flagged. But I want you to read these three papers fully because AI's summary missed important nuances."
+> "I used AI to quickly scan recent literature on your topic---here's what it flagged. But I want you to read these three papers fully because AI's summary missed important nuances."
 
 This shows: AI for efficiency, human for depth.
 
@@ -642,7 +642,7 @@ Do not write a literature review—give me a research landscape map.
 ```
 
 **Critical AI Evaluation:**
-- AI may overemphasize recent digital marketing studies while missing foundational consumer behaviour theory
+- AI may overemphasise recent digital marketing studies while missing foundational consumer behaviour theory
 - Industry reports cited by AI should be verified for current validity
 - Cross-cultural considerations often underrepresented in AI-generated literature maps
 
@@ -790,7 +790,7 @@ Do not write a literature review—give me a research landscape map.
 ```
 
 **Critical AI Evaluation:**
-- AI may overemphasize popular methodologies while missing domain-specific approaches
+- AI may overemphasise popular methodologies while missing domain-specific approaches
 - Technical literature requires verification of mathematical accuracy
 - Business context often needs deeper integration with technical methods
 
@@ -1084,17 +1084,17 @@ Regardless of discipline, students must verify:
 ### Discipline-Specific AI Literacy
 
 **Technical Disciplines (Accounting, IT, Analytics):**
-- Emphasize verification of technical claims and calculations
+- Emphasise verification of technical claims and calculations
 - Teach identification of AI hallucinations in technical content
 - Focus on professional standards and regulatory compliance
 
 **behavioural Disciplines (Marketing, Hospitality, Management):**
-- Emphasize contextual interpretation and cultural sensitivity
+- Emphasise contextual interpretation and cultural sensitivity
 - Teach evaluation of AI's understanding of human behaviour
 - Focus on practical application and stakeholder implications
 
 **Creative Disciplines (Marketing, Management):**
-- Emphasize subjective judgment and professional expertise
+- Emphasise subjective judgment and professional expertise
 - Teach critical evaluation of AI recommendations in creative contexts
 - Focus on integration of theoretical and practical knowledge
 
@@ -1286,7 +1286,7 @@ If you supervise research students:
 1. **Review Chapter 14** on office document generation to understand the workflow
 2. **Decide which research deliverables** students can generate with AI:
    - Research reports  (presentation of genuine analysis)
-   - Presentation slides  (visualization of genuine findings)
+   - Presentation slides  (visualisation of genuine findings)
    - Literature summaries  (requires genuine deep reading)
    - Thesis chapters  (if analysis is genuine, presentation can be AI-generated)
 3. **Make it explicit** in your research guidelines which documents can be AI-generated and which cannot

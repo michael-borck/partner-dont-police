@@ -8,7 +8,7 @@ You've now seen what's possible with AI in business education across multiple di
 
 The previous chapters showed you ambitious applications: conversation simulations, virtual companies, process-based assessments. But you're thinking: *"Where do I actually start? How do I introduce this to my students? What if it doesn't work?"*
 
-This chapter is about **managing change**,both for yourself and your students. It provides a practical, phased implementation plan that starts small, builds confidence, and scales gradually.
+This chapter is about **managing change**---both for yourself and your students. It provides a practical, phased implementation plan that starts small, builds confidence, and scales gradually.
 
 **The key principle: Start with one small experiment, not a curriculum revolution.**
 
@@ -158,7 +158,7 @@ Before you introduce AI to students, you need to be comfortable with it yourself
 
 ## Phase 2: Low-Stakes Student Introduction (First Month of Semester)
 
-You're now ready to introduce AI to students. Start with optional, low-stakes activities,not high-stakes assessments.
+You're now ready to introduce AI to students. Start with optional, low-stakes activities---not high-stakes assessments.
 
 ### Approach 1: Optional Practice Exercise
 
@@ -166,18 +166,18 @@ You're now ready to introduce AI to students. Start with optional, low-stakes ac
 
 Introduce AI as a **practice tool** for an upcoming assignment.
 
-**Example announcement to students,choose one from your discipline:**
+**Example announcement to students---choose one from your discipline:**
 
 ::: {.panel-tabset}
 
 ## Business & Marketing
-> "For the competitive strategy assignment due in Week 8, I want to give you a chance to practice your analysis first. I've created an AI analysis prompt that you can use to check your draft positioning before submission. Write your draft, paste it into ChatGPT or Claude along with the critique prompt, and see what feedback you get. Then revise. This is optional,I won't grade based on whether you used it. But you might find the market perspective helpful."
+> "For the competitive strategy assignment due in Week 8, I want to give you a chance to practice your analysis first. I've created an AI analysis prompt that you can use to check your draft positioning before submission. Write your draft, paste it into ChatGPT or Claude along with the critique prompt, and see what feedback you get. Then revise. This is optional---I won't grade based on whether you used it. But you might find the market perspective helpful."
 
 ## Management
 > "For the change management plan due in Week 8, I want to give you practice feedback before submission. I've created an AI prompt that reviews your plan for stakeholder engagement and communication strategy. Write your draft, paste it with the prompt, and revise based on feedback. Completely optional, but it might help you think through stakeholder complexity."
 
 ## Human Resources
-> "For the HR problem-solving assignment due in Week 8, I've created an AI prompt that provides preliminary feedback on your approach,whether you've identified compliance issues, considered employee perspective, and thought about equity. Write your draft, get AI feedback, revise. Optional, but students who use it usually score higher because they catch issues early."
+> "For the HR problem-solving assignment due in Week 8, I've created an AI prompt that provides preliminary feedback on your approach---whether you've identified compliance issues, considered employee perspective, and thought about equity. Write your draft, get AI feedback, revise. Optional, but students who use it usually score higher because they catch issues early."
 
 ## Tourism & Hospitality
 > "For the service management case study due in Week 8, I've created an AI prompt that critiques your proposed solution against service recovery principles. Write your draft, paste with the prompt, and see what gaps the AI identifies. Optional, but helpful for thinking through guest experience holistically."
@@ -197,7 +197,7 @@ Introduce AI as a **practice tool** for an upcoming assignment.
 :::
 
 **Why this works:**
-- No pressure,students who are skeptical can ignore it
+- No pressure---students who are skeptical can ignore it
 - Students who try it will likely see value and spread the word to peers
 - You can gauge student response before making it mandatory
 - You avoid the "forced adoption" resistance
@@ -313,7 +313,7 @@ Assign a short, reflective writing task where students *experiment with* AI rath
 
 **Why this works:**
 - Low stakes (only 5% of grade)
-- Emphasizes critical thinking about AI rather than reliance on AI
+- Emphasises critical thinking about AI rather than reliance on AI
 - Introduces AI literacy as a learning objective
 - Gives you insight into how students are using AI
 
@@ -370,38 +370,38 @@ If you're ready to redesign an entire unit from the ground up rather than piloti
 
 **Dedicate 15-20 minutes of class time to:**
 
-1. **Explain the "why",discipline-specific language:**
+1. **Explain the "why"---discipline-specific language:**
 
 ::: {.panel-tabset}
 
 ## Business & Marketing
-> "We're trying something new because I want you to practice real business skills,customer analysis, persuasion, strategy,not just write about them. In professional marketing, you'll use AI for analysis and insights, so learning to use AI critically is part of your education."
+> "We're trying something new because I want you to practice real business skills---customer analysis, persuasion, strategy---not just write about them. In professional marketing, you'll use AI for analysis and insights, so learning to use AI critically is part of your education."
 
 ## Management
-> "We're trying something new because I want you to practice real management challenges,stakeholder navigation, change communication, decision-making,not just theorize about them. Managers use AI for analysis and planning, so learning to use it critically matters."
+> "We're trying something new because I want you to practice real management challenges---stakeholder navigation, change communication, decision-making---not just theorize about them. Managers use AI for analysis and planning, so learning to use it critically matters."
 
 ## Human Resources
-> "We're trying something new because I want you to practice actual HR skills,interviewing, problem-solving, fair judgment,not just describe processes. In HR work, you'll use AI tools, so learning to use them responsibly is part of your professional practice."
+> "We're trying something new because I want you to practice actual HR skills---interviewing, problem-solving, fair judgment---not just describe processes. In HR work, you'll use AI tools, so learning to use them responsibly is part of your professional practice."
 
 ## Tourism & Hospitality
-> "We're trying something new because I want you to practice real service scenarios,guest handling, recovery, experience design,not just learn theory. In hospitality management, you'll use AI for operations and guests, so understanding it critically matters."
+> "We're trying something new because I want you to practice real service scenarios---guest handling, recovery, experience design---not just learn theory. In hospitality management, you'll use AI for operations and guests, so understanding it critically matters."
 
 ## Supply Chain & Logistics
-> "We're trying something new because I want you to practice actual supply chain decisions,under uncertainty, with constraints, with real consequences,not just solve textbook problems. Supply chain professionals use AI for forecasting and optimisation, so learning to use it critically is essential."
+> "We're trying something new because I want you to practice actual supply chain decisions---under uncertainty, with constraints, with real consequences---not just solve textbook problems. Supply chain professionals use AI for forecasting and optimisation, so learning to use it critically is essential."
 
 ## Information Systems
-> "We're trying something new because I want you to practice real IT challenges,requirements, scope management, technical trade-offs,not just memorize methodology. IT professionals use AI extensively, so learning to use it critically for code and analysis is part of your skill set."
+> "We're trying something new because I want you to practice real IT challenges---requirements, scope management, technical trade-offs---not just memorize methodology. IT professionals use AI extensively, so learning to use it critically for code and analysis is part of your skill set."
 
 ## Accounting & Finance
-> "We're trying something new because I want you to practice real accounting judgment,analysis, professional skepticism, complex treatment decisions,not just follow rules. Finance professionals use AI for analysis, so learning to use it critically while maintaining standards is important."
+> "We're trying something new because I want you to practice real accounting judgment---analysis, professional skepticism, complex treatment decisions---not just follow rules. Finance professionals use AI for analysis, so learning to use it critically while maintaining standards is important."
 
 ## Economics
-> "We're trying something new because I want you to practice real economic analysis,policy reasoning, modelling, evidence evaluation,not just recite theory. Economists use AI for research and analysis, so learning to use it critically for your work is essential."
+> "We're trying something new because I want you to practice real economic analysis---policy reasoning, modelling, evidence evaluation---not just recite theory. Economists use AI for research and analysis, so learning to use it critically for your work is essential."
 
 :::
 
 2. **Address the anxiety**
-   > "Some of you might be worried this is too technical,it's not. If you can copy and paste text, you can do this assignment. Some of you might be thinking this makes things easier,actually, it makes things harder, because I'm assessing your thinking process and professional judgment, not just your final answer."
+   > "Some of you might be worried this is too technical---it's not. If you can copy and paste text, you can do this assignment. Some of you might be thinking this makes things easier---actually, it makes things harder, because I'm assessing your thinking process and professional judgment, not just your final answer."
 
 3. **Do a live demo**
    - Show exactly how to access the AI tool
@@ -424,13 +424,13 @@ If you're ready to redesign an entire unit from the ground up rather than piloti
 → Response: Check that you copied the full prompt. Try starting a fresh conversation.
 
 **"The AI gave me weird feedback"**
-→ Response: That's possible,AI can make errors. In your reflection, explain what the AI got wrong and why. You'll get credit for catching the error.
+→ Response: That's possible---AI can make errors. In your reflection, explain what the AI got wrong and why. You'll get credit for catching the error.
 
 **"I don't have access to ChatGPT"**
 → Response: Try Claude.ai instead, or come to office hours and we can run it together.
 
 **"Is this even allowed? Am I cheating?"**
-→ Response: Yes, it's allowed,this is the assignment. You're being graded on your critical use of AI, not on avoiding it.
+→ Response: Yes, it's allowed---this is the assignment. You're being graded on your critical use of AI, not on avoiding it.
 
 ### After Submission: Grading Efficiently
 
@@ -452,7 +452,7 @@ If you're ready to redesign an entire unit from the ground up rather than piloti
 
 **Time-saving tip:** Use AI itself to help with initial feedback:
 
-**Your prompt to AI,discipline-specific version:**
+**Your prompt to AI---discipline-specific version:**
 
 ::: {.panel-tabset}
 
@@ -564,7 +564,7 @@ After students submit the pilot assessment, collect structured feedback.
 
 ### Student Survey (5 minutes for students to complete)
 
-**Questions to ask,select those relevant to your discipline:**
+**Questions to ask---select those relevant to your discipline:**
 
 ::: {.panel-tabset}
 
@@ -691,54 +691,54 @@ Make your existing AI assignment more sophisticated:
 
 ### Challenge 1: Resistance from Students
 
-**"This is unfair,I didn't sign up for an AI class"**
+**"This is unfair---I didn't sign up for an AI class"**
 
-**Response,discipline-specific version:**
+**Response---discipline-specific version:**
 
 ::: {.panel-tabset}
 
 ## Business & Marketing
-> "I understand this is different. But in marketing work, you'll use AI tools for analysis, forecasting, and customer insights. My job is to prepare you for professional practice, and that now includes knowing when and how to use AI responsibly for market work. You don't need to become an AI expert,just a critical user."
+> "I understand this is different. But in marketing work, you'll use AI tools for analysis, forecasting, and customer insights. My job is to prepare you for professional practice, and that now includes knowing when and how to use AI responsibly for market work. You don't need to become an AI expert---just a critical user."
 
 ## Management
-> "I understand this is different. But in management, you'll use AI for organisational analysis and decision support. My job is to prepare you for professional practice where AI is a standard tool. I'm not asking you to become a tech expert,just to understand AI's role in organisational work."
+> "I understand this is different. But in management, you'll use AI for organisational analysis and decision support. My job is to prepare you for professional practice where AI is a standard tool. I'm not asking you to become a tech expert---just to understand AI's role in organisational work."
 
 ## Human Resources
-> "I understand this is different. But in HR work, you'll use AI tools in recruitment, analytics, and decision support. My job is to prepare you for professional practice, and that includes knowing when and how to use AI responsibly. You don't become an AI expert,just a critical, ethical user."
+> "I understand this is different. But in HR work, you'll use AI tools in recruitment, analytics, and decision support. My job is to prepare you for professional practice, and that includes knowing when and how to use AI responsibly. You don't become an AI expert---just a critical, ethical user."
 
 ## Tourism & Hospitality
-> "I understand this is different. But in hospitality management, you'll use AI for operations and guest analytics. My job is to prepare you for professional practice where AI is increasingly common. I'm not asking you to become tech-savvy,just to understand AI's role critically."
+> "I understand this is different. But in hospitality management, you'll use AI for operations and guest analytics. My job is to prepare you for professional practice where AI is increasingly common. I'm not asking you to become tech-savvy---just to understand AI's role critically."
 
 ## Supply Chain & Logistics
-> "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimisation, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist,just know how to use and evaluate AI tools."
+> "I understand this is different. But in supply chain work, you'll use AI for forecasting, optimisation, and network analysis. My job is to prepare you for professional practice in an AI-enabled environment. You don't need to be a data scientist---just know how to use and evaluate AI tools."
 
 ## Information Systems
-> "I understand this is different. But IT professionals use AI extensively for code, analysis, and systems work. My job is to prepare you for professional practice where AI literacy is essential. You don't need to become a machine learning expert,just know how to use AI tools critically."
+> "I understand this is different. But IT professionals use AI extensively for code, analysis, and systems work. My job is to prepare you for professional practice where AI literacy is essential. You don't need to become a machine learning expert---just know how to use AI tools critically."
 
 ## Accounting & Finance
-> "I understand this is different. But finance professionals use AI for analysis, forecasting, and risk assessment. My job is to prepare you for professional practice where AI tools are standard. You don't need to be a programmer,just know how to use and validate AI outputs."
+> "I understand this is different. But finance professionals use AI for analysis, forecasting, and risk assessment. My job is to prepare you for professional practice where AI tools are standard. You don't need to be a programmer---just know how to use and validate AI outputs."
 
 ## Economics
-> "I understand this is different. But economists use AI for research, forecasting, and policy analysis. My job is to prepare you for professional practice in an AI-integrated field. You don't need to be a computer scientist,just a critical user of AI tools."
+> "I understand this is different. But economists use AI for research, forecasting, and policy analysis. My job is to prepare you for professional practice in an AI-integrated field. You don't need to be a computer scientist---just a critical user of AI tools."
 
 :::
 
 **"I don't trust AI / I think AI is unethical"**
 
 **Response:**
-> "That's actually a valuable perspective. This assignment is a chance for you to critically evaluate AI's limitations and biases in your field. Students who identify what AI gets wrong often score highest, because that demonstrates critical thinking. You don't have to like AI,you just need to understand it and use it responsibly."
+> "That's actually a valuable perspective. This assignment is a chance for you to critically evaluate AI's limitations and biases in your field. Students who identify what AI gets wrong often score highest, because that demonstrates critical thinking. You don't have to like AI---you just need to understand it and use it responsibly."
 
 ### Challenge 2: Resistance from Colleagues
 
 **"You're just making things easier for students"**
 
 **Response:**
-> "Actually, it's harder,students can't just memorize and regurgitate anymore. They have to think critically and demonstrate process. The AI doesn't give them answers; it creates dynamic challenges they have to navigate."
+> "Actually, it's harder---students can't just memorize and regurgitate anymore. They have to think critically and demonstrate process. The AI doesn't give them answers; it creates dynamic challenges they have to navigate."
 
 **"AI feedback isn't as good as human feedback"**
 
 **Response:**
-> "You're right,that's why I'm still grading the final work. But AI feedback is instant and available 24/7. Students can practice and revise multiple times before submission. That's pedagogically valuable even if AI feedback isn't perfect."
+> "You're right---that's why I'm still grading the final work. But AI feedback is instant and available 24/7. Students can practice and revise multiple times before submission. That's pedagogically valuable even if AI feedback isn't perfect."
 
 **"What about academic integrity?"**
 
@@ -749,7 +749,7 @@ Make your existing AI assignment more sophisticated:
 
 **"The AI platform was down during the assignment period"**
 
-**Students affected:** Build in flexibility,allow extensions or alternative submission methods if technical issues occur.
+**Students affected:** Build in flexibility---allow extensions or alternative submission methods if technical issues occur.
 
 **Prevention:** Provide multiple AI tool options (ChatGPT, Claude, etc.) so students have backups.
 
@@ -813,7 +813,7 @@ You don't need to revolutionize your entire curriculum overnight. You don't need
 
 **Your first AI-enhanced assignment will be imperfect. Do it anyway.**
 
-You'll discover what works in your context, with your students, for your content. Every lecturer's implementation will look slightly different,and that's exactly right.
+You'll discover what works in your context, with your students, for your content. Every lecturer's implementation will look slightly different---and that's exactly right.
 
 The chapters before this showed you what's possible. This chapter showed you how to make it real.
 

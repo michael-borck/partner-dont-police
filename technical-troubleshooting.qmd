@@ -165,7 +165,7 @@ AI tools are powerful but not infallible. When implementing AI-enhanced teaching
 - **Skill fragmentation:** Different interfaces require different approaches
 
 #### Coordination Strategies
-- **Platform specialization:** Use each tool for its strengths
+- **Platform specialisation:** Use each tool for its strengths
 - **Central documentation:** Keep all AI interactions in organised system
 - **Regular testing:** Periodically evaluate platform performance
 - **Flexible workflows:** Design activities that work with any platform

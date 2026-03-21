@@ -8,7 +8,7 @@ Imagine this: Your students don't just read case studies about professional chal
 
 They handle real scenarios, make decisions, negotiate, solve problems, and make strategic recommendations. Each interaction builds on previous ones. The AI personas remember past conversations. The organisation has policies, culture, and ongoing challenges that evolve.
 
-**This is the virtual company simulation,the most ambitious application of AI in business education.**
+**This is the virtual company simulation---the most ambitious application of AI in business education.**
 
 It's more complex than a single conversation simulation, but it's increasingly feasible with current AI technology. This chapter will show you how to build toward this vision progressively, starting simple and adding layers of complexity.
 
@@ -22,7 +22,7 @@ Traditional case studies are static snapshots. Students analyse what *already ha
 - You must navigate politics, personalities, and competing priorities simultaneously
 - External events force you to adapt and reconsider strategies
 
-A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* professional work in their field,they practice *doing* it in a realistic context.
+A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* professional work in their field---they practice *doing* it in a realistic context.
 
 ## The Progressive Implementation Model
 
@@ -142,7 +142,7 @@ Now we add complexity: students interact with multiple AI personas representing 
 
 ### Creating the Cast
 
-You create four separate Master Prompts,one for each character. Each prompt includes:
+You create four separate Master Prompts, one for each character. Each prompt includes:
 - The shared company context (so all personas are consistent)
 - The specific character's background and perspective
 - What that character knows and doesn't know
@@ -674,7 +674,7 @@ Stay in character. Begin now.
 
 **Marketing & Creative Industries:**
 - Focus on stakeholder management and creative feedback
-- Emphasize brand consistency and campaign ROI
+- Emphasise brand consistency and campaign ROI
 - Include client relationship dynamics and agency politics
 
 **Accounting & Finance:**
@@ -683,7 +683,7 @@ Stay in character. Begin now.
 - Focus on client relationships and professional skepticism
 
 **Business Analytics:**
-- Emphasize data quality, methodology, and interpretation
+- Emphasise data quality, methodology, and interpretation
 - Include stakeholder communication of complex findings
 - Focus on business value creation and iterative improvement
 
@@ -698,7 +698,7 @@ Stay in character. Begin now.
 - Focus on project management and risk mitigation
 
 **Management:**
-- Emphasize cross-functional collaboration and conflict resolution
+- Emphasise cross-functional collaboration and conflict resolution
 - Include strategic decision-making and organisational change
 - Focus on leadership development and team dynamics
 
@@ -713,7 +713,7 @@ Stay in character. Begin now.
 - **Management:** Start with operational decision-making
 
 **Assessment customisation:**
-Adapt the grading rubric to emphasize discipline-specific competencies while maintaining core HR/management skills like communication, analysis, and stakeholder management.
+Adapt the grading rubric to emphasise discipline-specific competencies while maintaining core HR/management skills like communication, analysis, and stakeholder management.
 
 ---
 
@@ -752,7 +752,7 @@ Imagine your graduates leaving university having:
 - Developed confidence in their professional judgment
 - Experienced emergent complexity in professional contexts
 
-This is what virtual company simulations can achieve. It's not replacing traditional teaching,it's adding a layer of experiential learning that was previously impossible at scale.
+This is what virtual company simulations can achieve. It does not replace traditional teaching. It adds a layer of experiential learning that was previously impossible at scale.
 
 ---
 

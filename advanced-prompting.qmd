@@ -79,7 +79,7 @@ Apply those principles to this new termination scenario.
 
 ### Setting Scenario Parameters
 
-#### **Organizational Context Template**
+#### **Organisational Context Template**
 ```
 You are advising [company type] with [employee count] employees in [industry/sector]. 
 Key characteristics: [list 3-4 relevant factors]
@@ -236,7 +236,7 @@ When addressing this HR issue, apply these ethical principles:
 2. **Fairness and consistency** 
 3. **Transparency and honesty**
 4. **Confidentiality and privacy**
-5. **Organizational responsibility**
+5. **Organisational responsibility**
 
 Show how each principle influences your recommendation.
 ```
@@ -488,7 +488,7 @@ Before sending any prompt, ask yourself:
 
 ### Why Context Management Matters for Advanced Prompts
 
-As your prompting becomes more sophisticated,combining multiple techniques, working through longer sequences, managing complex educational scenarios,the quality of context management becomes critical.
+As your prompting becomes more sophisticated---combining multiple techniques, working through longer sequences, managing complex educational scenarios---the quality of context management becomes critical.
 
 **Advanced prompts demand focused conversations:**
 - Sophisticated personas require consistent framing across exchanges
@@ -587,6 +587,10 @@ When designing complex learning sequences (like the prompt chaining in Chapter 8
 
 This modular approach produces more coherent educational experiences than trying to design everything at once.
 
+::: {.callout-important title="Check before you chain"}
+A prompt chain only works if you review each output before feeding it into the next step. Skip the review and errors from step two become assumptions in step three, foundations in step four, and confident conclusions by step six. You are not automating a pipeline — you are guiding a sequence of decisions, and each one deserves your attention.
+:::
+
 ### Cross-Reference
 
 For comprehensive context management strategies, see **Chapter 6: Managing LLM Context**. That chapter covers:
@@ -627,11 +631,11 @@ For comprehensive context management strategies, see **Chapter 6: Managing LLM C
 **Advanced prompting isn't about complexity - it's about precision.**
 
 The techniques in this appendix help you:
-- **Get more consistent responses** through better context,adapted to your discipline's terminology and frameworks
-- **Maintain professional standards** with persona control,reflecting expertise in your professional field
-- **Generate appropriate content** with constraints and boundaries,respecting discipline-specific ethical standards
-- **Create educational materials** with structured formatting,matching your discipline's learning outcomes
-- **Save time** with templates and patterns,customisable for your teaching context
+- **Get more consistent responses** through better context---adapted to your discipline's terminology and frameworks
+- **Maintain professional standards** with persona control---reflecting expertise in your professional field
+- **Generate appropriate content** with constraints and boundaries---respecting discipline-specific ethical standards
+- **Create educational materials** with structured formatting---matching your discipline's learning outcomes
+- **Save time** with templates and patterns---customisable for your teaching context
 
 **Remember:** The goal is better business education across all disciplines, not perfect AI prompts. Use these techniques as they serve your teaching objectives and your students' professional preparation.
 

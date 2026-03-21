@@ -15,7 +15,7 @@ Over the course of this book, you've explored:
 - **Ethical frameworks** for responsible AI integration and academic integrity
 - **Advanced applications** for unit design and postgraduate research support
 
-You now have the knowledge and tools to integrate AI into your teaching in meaningful, pedagogically sound ways,regardless of your discipline.
+You now have the knowledge and tools to integrate AI into your teaching in meaningful, pedagogically sound ways---regardless of your discipline.
 
 **But knowledge alone isn't enough.**
 
@@ -29,11 +29,11 @@ As you close this book, you face a decision:
 
 It's easy to read about innovative pedagogy and think "That's interesting." It's harder to actually change your practice.
 
-You're busy. You have existing materials that work well enough. You're comfortable with your current approach. Change is risky,what if students resist? What if colleagues judge? What if it doesn't work?
+You're busy. You have existing materials that work well enough. You're comfortable with your current approach. Change is risky---what if students resist? What if colleagues judge? What if it doesn't work?
 
 These are legitimate concerns.
 
-But consider this: **Your students will use AI in their professional careers,regardless of their discipline,whether you teach them to or not.**
+But consider this: **Your students will use AI in their professional careers---regardless of their discipline---whether you teach them to or not.**
 
 The question isn't "Should AI be part of professional practice?" It already is, across all business disciplines.
 
@@ -67,7 +67,7 @@ Choose the smallest experiment that feels manageable:
 - In your next lecture, project a live AI conversation on screen
 - Show students how AI can help them practice skills
 - Answer their questions
-- Don't assign anything,just plant the seed
+- Don't assign anything---just plant the seed
 
 **Time investment:** 15 minutes in class
 **Risk:** None (optional for students)
@@ -159,7 +159,7 @@ How will you know if your AI integration is working?
 - Other lecturers ask you about your approach
 
 **Curriculum:**
-- AI integration is normalized (not novel or controversial)
+- AI integration is normalised (not novel or controversial)
 - Students expect and value AI-enhanced learning opportunities
 - You've expanded from one unit to multiple units or assessment types
 
@@ -229,7 +229,7 @@ Make criteria explicit and transparent.
 
 **The mistake:** Treating AI-generated content as inherently correct or reliable.
 
-**The fix:** Teach students,and remember yourself,that AI makes confident mistakes. Always verify. Always maintain human oversight. Always question.
+**The fix:** Teach students (and remember yourself) that AI makes confident mistakes. Always verify. Always maintain human oversight. Always question.
 
 ---
 
@@ -237,14 +237,14 @@ Make criteria explicit and transparent.
 
 You don't have to do this alone.
 
-### Within Curtin:
+### Within Your Institution:
 - Connect with colleagues experimenting with AI in teaching
 - Join or form a teaching and learning community of practice
 - Share successes and failures openly
 - Co-design activities and assessments
 - Observe each other's classes
 
-### Beyond Curtin:
+### Beyond Your Institution:
 - Attend higher education teaching conferences
 - Share your innovations in academic journals
 - Contribute to online communities exploring AI in education
@@ -280,7 +280,7 @@ Graduates enter workplaces confident with AI tools, critical of AI limitations, 
 
 **This is the future we're building.**
 
-Not a future where AI replaces professionals, but where business professionals across all disciplines use AI skillfully and ethically to do their work better,to serve people, organisations, and society more effectively.
+Not a future where AI replaces professionals, but where business professionals across all disciplines use AI skillfully and ethically to do their work better---to serve people, organisations, and society more effectively.
 
 ---
 
@@ -310,7 +310,7 @@ Every student you teach will work with AI in their careers, regardless of their 
 
 That's in your hands.
 
-When you integrate AI into your teaching,transparently, critically, and pedagogically,you're not just adopting a new tool. You're preparing the next generation of business professionals for a world that will be shaped by technology but must still be guided by human wisdom.
+When you integrate AI into your teaching---transparently, critically, and pedagogically---you're not just adopting a new tool. You're preparing the next generation of business professionals for a world that will be shaped by technology but must still be guided by human wisdom.
 
 That's not a small thing.
 
@@ -324,14 +324,14 @@ If you've read this far, you're the kind of educator who cares about continuous 
 
 **That's exactly the mindset needed for this work.**
 
-AI in education isn't settled science. We're all figuring this out together,what works, what doesn't, what's ethical, what's effective. You're not behind. You're not too late. You're here, right now, at exactly the right time.
+AI in education isn't settled science. We're all figuring this out together---what works, what doesn't, what's ethical, what's effective. You're not behind. You're not too late. You're here, right now, at exactly the right time.
 
 You have:
 - The knowledge (this book)
 - The tools (Appendix A)
 - The frameworks (Chapters 4-11)
 - The support structures (Appendices B-C)
-- The institutional alignment (Curtin's commitment to AI)
+- The institutional alignment framework (Appendix C)
 
 **What you need now is courage.**
 
@@ -356,7 +356,7 @@ Your students are waiting for the learning experiences only you can design.
 
 ## One Last Thing
 
-When you try your first AI-enhanced activity,whether it goes brilliantly or disastrously,take a moment to reflect:
+When you try your first AI-enhanced activity---whether it goes brilliantly or disastrously---take a moment to reflect:
 
 - What surprised you?
 - What will you do differently next time?
@@ -375,21 +375,11 @@ One experiment. One refinement. One semester at a time.
 ---
 
 *For ongoing support, resources, and community:*
-- Curtin Teaching and Learning: [link]
-- HR Education Community: [link]
-- AI in Higher Education: [link]
-
-*To share your experiences or request support:*
-- Contact: [your email]
-- Teaching Innovation Hub: [link]
+- Your institution's Teaching and Learning team
+- AI in Higher Education communities online
+- The companion website: https://michael-borck.github.io/partner-dont-police
 
 **Good luck. And thank you for being the kind of educator who never stops learning.**
-
----
-
-# About the Author
-
-[Note: Insert author bio, credentials, and institutional affiliation here]
 
 ---
 
@@ -397,7 +387,6 @@ One experiment. One refinement. One semester at a time.
 
 **Version:** 1.0
 **Published:** 2025
-**Institution:** Curtin University
 **Scope:** Multidisciplinary Business Education (HR, Marketing, Accounting, Management, Tourism & Hospitality, Supply Chain, Information Systems, Economics, and Business Analytics)
 
 **Technologies Referenced:**
@@ -415,10 +404,4 @@ One experiment. One refinement. One semester at a time.
 
 **Disclaimer:** AI technology evolves rapidly. Specific tools and capabilities described in this book reflect the state of technology in early 2025. Principles and pedagogical approaches remain relevant across technological changes. This book is designed for application across multiple business disciplines with context-specific adaptations.
 
-**Copyright Notice:** [Insert appropriate copyright and Creative Commons licensing information]
-
-**Citation:** [Insert preferred citation format]
-
----
-
-**END OF BOOKLET**
+For copyright, licensing, and citation information, see the Copyright page.

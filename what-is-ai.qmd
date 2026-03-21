@@ -174,64 +174,27 @@ Think of it like this:
 
 ## What AI Can and Cannot Do
 
-### **What AI is Good At:**
+### **What AI is Good At**
 
-**Repetitive Pattern Recognition**
+AI excels at **repetitive pattern recognition**. Processing thousands of insurance claims, reviewing resumes for key qualifications, detecting fraudulent transactions, recommending products: these are tasks where AI consistently outperforms humans in speed and scale. Netflix's recommendation engine, for example, has learned from billions of viewing decisions to predict what you want to watch next.
 
-- Processing thousands of insurance claims
-- Reviewing resumes for key qualifications
-- Detecting fraudulent transactions
-- Recommending products
+AI is also strong at **processing massive amounts of data**. It can analyse customer behaviour across millions of transactions, find trends in medical records, and monitor security camera feeds at a scale no human team could match.
 
-**Processing Massive Amounts of Data**
+Tasks with **clear success metrics** are another strength. When the goal is well-defined (maximise clicks, minimise delivery time, predict customer churn, optimise pricing), AI can iterate toward better performance far faster than manual approaches.
 
-- Analysing customer behaviour across millions of transactions
-- Finding trends in medical records
-- Monitoring security camera feeds
+Finally, AI handles **narrow, well-defined problems** reliably. "Classify this email as spam or not spam." "What's the sentiment of this review?" "Translate this sentence to French." These bounded tasks play to AI's strengths.
 
-**Tasks with Clear Success Metrics**
+### **What AI Struggles With**
 
-- maximise clicks on ads
-- Minimise delivery time
-- Predict customer churn
-- Optimise pricing
+**Common sense reasoning** remains surprisingly difficult for AI. "If I drop a glass, what happens?" is obvious to any human but requires the kind of physical and social understanding that AI lacks. Context, nuance, and social appropriateness are still largely human strengths.
 
-**Narrow, Well-Defined Problems**
+AI also struggles with **truly novel situations**. Because it learns from past patterns, it guesses when it encounters something it has not seen before. It cannot reason from first principles the way humans do.
 
-- "Classify this email as spam or not spam"
-- "What's the sentiment of this review?"
-- "Translate this sentence to French"
+**Ethical judgement** is another limitation. AI can follow ethical rules you programme into it, but it cannot understand the spirit behind those rules or weigh competing moral values the way a professional must.
 
-### **What AI Struggles With:**
+Deep learning models are often **"black boxes"** that can tell you the answer but not always explain why they reached it. This makes it difficult to trust or audit AI decisions in high-stakes contexts.
 
-**Common Sense Reasoning**
-
-- "If I drop a glass, what happens?" (Obvious to humans, hard for AI)
-- Understanding context and nuance
-- Knowing what's socially appropriate
-
-**Truly Novel Situations**
-
-- AI learns from past patterns
-- If it hasn't seen something before, it guesses
-- Can't "figure it out" the way humans do
-
-**Ethical Judgment**
-
-- AI can follow ethical rules you program
-- But it can't understand the "spirit" of ethics
-- Can't weigh competing moral values
-
-**Explaining Its Reasoning**
-
-- Deep learning models are "black boxes"
-- They can tell you the answer, but not always why
-- Makes it hard to trust or audit decisions
-
-**Creativity in the Human Sense**
-
-- AI can combine existing patterns in new ways
-- But it doesn't have original ideas or inspiration
+Finally, while AI can combine existing patterns in new ways, it lacks **creativity in the human sense**. It does not have original ideas, inspiration, or the lived experience that fuels genuine innovation.
 - It's remixing, not inventing
 
 ---
@@ -317,7 +280,7 @@ AI learns from data. If your data is:
 
 **Lesson:** Data quality matters more than algorithm sophistication.
 
-### **2. AI Optimizes for What You Tell It To**
+### **2. AI Optimises for What You Tell It To**
 
 AI does exactly what you ask, which might not be what you want.
 

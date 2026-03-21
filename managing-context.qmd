@@ -4,7 +4,7 @@
 
 ## Why Context Matters: Understanding AI's Limitations
 
-One of the most underrated skills in working with AI is **managing context**,the information you feed to an AI system and how you structure your conversations.
+One of the most underrated skills in working with AI is **managing context**: the information you feed to an AI system and how you structure your conversations.
 
 Think of context like the working memory of AI. Unlike humans, who can maintain focus across days of conversation, AI has specific limitations:
 
@@ -417,11 +417,11 @@ conversation to continue working.
 
 **Key decisions made:**
 - Organised around real supply chain decisions (not functions)
-- Emphasized risk thinking and trade-offs
+- Emphasised risk thinking and trade-offs
 - Used simulation and case critique for learning
 
 **What we've created:**
-1. Learning outcomes (5 outcomes emphasizing strategic thinking)
+1. Learning outcomes (5 outcomes emphasising strategic thinking)
 2. Assessment strategy (3 assessments: case analysis, risk simulation, team project)
 3. Week-by-week learning plan (12 weeks structured around decisions)
 
@@ -535,6 +535,63 @@ These are good. Now adapt question 3 (team conflict) to include an international
 context. Some of my students are from cultures where conflict is handled very
 differently than in Western business tradition.
 ```
+
+---
+
+## The Two-Chat Workflow: Separate Thinking from Building
+
+By now you have seen how breaking tasks into steps and keeping conversations focused improves quality. There is a deeper version of this principle that changes how you work with AI entirely: **use two separate sessions, one for thinking and one for building.**
+
+This idea builds on the Two-Chat Workflow from *Conversation, Not Delegation* (Borck, 2025), adapted here for teaching practice. It is simple, powerful, and worth making a habit.
+
+**Chat 1: Explore and clarify.** Open a session with no expectation of producing finished output. Use it to probe the teaching challenge you are facing. What are you actually trying to achieve? What assumptions are you making about your students? What alternatives have you not considered? Let the conversation wander. Challenge what the AI suggests. Follow tangents. The messier this session is, the clearer your thinking becomes.
+
+**Chat 2: Build from your decisions.** Start a fresh session and arrive with a focused brief — not a vague request, but a set of deliberate choices about what you want, who it is for, and what constraints apply. The quality of this output depends almost entirely on the quality of the brief you wrote after reflecting on Chat 1.
+
+The most important moment is the gap between the two chats. You do not dump everything from the first session into the second. You review what emerged, keep what matters, discard what does not, and write a clear brief that reflects *your* decisions. That act of curation is where your professional judgement lives — and it is the part no AI can do for you.
+
+### Example: Redesigning an Assessment
+
+**Thinking Chat:**
+
+```
+I'm rethinking how I assess critical thinking in my 2nd-year management unit.
+Currently I use a written case analysis, but I'm not sure it actually tests
+critical thinking versus summarising. Help me think through this.
+
+What does critical thinking actually look like in a management context?
+What would strong evidence of it look like in student work?
+```
+
+You spend 10–15 minutes exploring: What counts as critical thinking in management? How is it different from analysis? What would a weak submission look like versus a strong one? The AI helps you think, but you are doing the intellectual work of deciding what matters.
+
+**Build Chat:**
+
+```
+I'm redesigning the critical thinking assessment for my 2nd-year management
+unit (60 students). After reflection, here's what I've decided:
+
+- Critical thinking in management means evaluating competing stakeholder
+  perspectives and defending a position with evidence
+- I want students to critique a real management decision, not just describe it
+- The assessment should be 1500 words with a structured argument
+- I need a rubric that distinguishes "summarising the case" from
+  "evaluating the decision"
+
+Design the assessment brief and rubric based on these decisions.
+```
+
+Notice the difference. The build chat gets a clear, decided brief. The output will be dramatically better than if you had started cold with "design me a critical thinking assessment."
+
+::: {.callout-tip title="Try this (5 minutes)"}
+Pick a teaching task you have been putting off — perhaps redesigning a tutorial activity or rethinking a rubric. Open an AI session and spend five minutes just exploring the problem: what is not working, what you have tried, what you are unsure about. Do not ask for any deliverables. Then close that session, jot down your key decisions in two or three sentences, and open a fresh session with those decisions as your opening brief. Compare the result to what you would have gotten from a single cold prompt. The difference is usually striking.
+:::
+
+::: {.callout-important title="You are the bridge"}
+The exploring chat does not know what you will eventually build. The building chat does not know what options you considered and rejected. Only you hold both sides. That is what makes you irreplaceable in this process — not as someone who checks AI's work after the fact, but as the person whose judgement connects exploration to execution.
+:::
+
+This workflow connects directly to the average-versus-precise, small-versus-large framework from the earlier chapter on LLMs. That framework tells you where a task sits. The two-chat workflow tells you what to do about it. A task that starts in the danger zone (large and precise, like redesigning an entire unit's assessment strategy) feels overwhelming as a single prompt. But the exploring chat breaks it into components that each sit in different quadrants. Some pieces land in the sweet spot. Others need careful verification. Each gets an appropriate level of trust and oversight. The exploring session is where you map the territory. The building session is where you execute with that map in hand.
 
 ---
 

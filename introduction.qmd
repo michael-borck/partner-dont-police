@@ -10,7 +10,11 @@ Here's the truth: **AI is not here to replace you as an educator. It's here to g
 
 This book is written specifically for business lecturers across all disciplines who want to enhance their teaching but don't consider themselves "tech people." You won't need to code, install complex software, or understand how AI actually works under the hood. What you will learn is how to use simple, plain-language instructions (called "prompts") to create powerful learning experiences for your students.
 
-## The Problem We're Solving
+### A word about how you might be feeling
+
+If you are anxious about AI, you are not alone and you are not behind. Most educators feel some version of the same thing: that everyone else seems to understand this already, that the technology is moving faster than they can keep up with, that they might look foolish trying something new in front of students who grew up with technology. That anxiety is normal. It does not mean you are unsuited to this work. It means you are paying attention.
+
+You may also worry that your students already know more about AI than you do. Some of them might. That is not a problem to solve. It is a resource to draw on. An educator who says "show me how you did that" and learns alongside their students is modelling exactly the kind of professional curiosity that matters in every business discipline. You do not need to be the AI expert in the room. You need to be the expert in your discipline who knows how to ask good questions, evaluate evidence, and design learning experiences. AI does not change that. It amplifies it.
 
 ## The Problem We're Solving
 
@@ -158,7 +162,7 @@ Here's what this means in your discipline:
 
 :::
 
-This shift,from testing knowledge recall to evaluating applied professional methodology,is transformational for business education.
+This shift from testing knowledge recall to evaluating applied professional methodology is transformational for business education.
 
 ## The Conversation, Not Delegation Framework
 
@@ -188,6 +192,14 @@ Most good work passes through this loop more than once. The sign that you are do
 The core principle is simple: **your expertise + AI's breadth = amplified thinking.** The bottleneck is always your thinking, not the model.
 
 Every technique in this book, from the flight simulator to the critique toolkit to the seven prompting techniques, is designed to keep you in conversation, not delegation. When you see a prompt that asks the AI to challenge your reasoning, or a simulation that requires you to respond in real time, or an assessment that grades your process rather than the AI's output, you are seeing this framework in action.
+
+::: {.callout-warning title="Are you conversing or delegating?"}
+Here is a quick test. After working with AI on a teaching task, ask yourself: do I understand my pedagogical challenge more clearly than when I started? If the answer is yes, you were thinking alongside the AI. If the answer is no, you handed the task over and accepted what came back. The distinction matters because only one of those processes develops your professional judgement.
+:::
+
+::: {.callout-important title="Skills compound or erode"}
+Every interaction with AI is practice — but practice at what? If you routinely let AI do the thinking, your own capacity for that thinking weakens over time. If you use AI to challenge, extend, and refine your ideas, your expertise deepens. The same dynamic applies in your classroom: the habits your students build now will shape their professional capabilities for years.
+:::
 
 ### Staying Critical: VET and the Cognitive Traps
 
@@ -290,7 +302,7 @@ You don't need to revolutionize your entire curriculum tomorrow. This book will 
 
 **Part 1 (Chapters 1-2)** introduces you to AI and walks you through your first successful AI interaction. No prior experience needed.
 
-**Part 2 (Chapter 3)** gives you five proven prompt techniques specifically adapted for business education,tools you can use immediately.
+**Part 2 (Chapter 3)** gives you five proven prompt techniques specifically adapted for business education---tools you can use immediately.
 
 **Part 3 (Chapters 4-6)** shows you three powerful applications: conversation simulations, self-assessment tools, and virtual company scenarios. Each chapter includes complete worked examples across multiple business disciplines.
 
@@ -298,7 +310,7 @@ You don't need to revolutionize your entire curriculum tomorrow. This book will 
 
 **Part 5 (Chapters 8-9)** provides practical implementation guidance and addresses the academic integrity question directly.
 
-**The Appendices** give you ready-to-use prompts, a workshop guide for colleagues, and alignment with Curtin's learning outcomes.
+**The Appendices** give you ready-to-use prompts, a workshop guide for colleagues, and a framework for aligning AI integration with institutional learning outcomes.
 
 ## A Personal Note
 

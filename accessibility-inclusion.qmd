@@ -110,7 +110,7 @@ Establish resources for students who need additional help:
 - **Real-time interaction:** Fast-moving conversations may be hard to follow
 
 #### Solutions
-- **Text-based AI tools:** Prioritize platforms with strong text interface support
+- **Text-based AI tools:** Prioritise platforms with strong text interface support
 - **Alternative output formats:** Request text descriptions of visual content
 - **Structured responses:** Ask AI to provide well-organised, hierarchical information
 - **Conversation control:** Allow students to pace interactions and review exchanges
@@ -140,7 +140,7 @@ Avoid visual descriptions or references to "see above" or "as shown."
 - **Text-based alternatives:** Ensure all AI interactions available through text
 - **Captioning and transcripts:** Provide text versions of any audio content
 - **Visual indicators:** Use visual cues instead of audio notifications
-- **Written communication:** Prioritize text-based AI interactions
+- **Written communication:** Prioritise text-based AI interactions
 
 **Prompt Examples for Hearing Accessibility:**
 ```
@@ -176,7 +176,7 @@ Use visual descriptions and avoid references to "listen to this" or "as I mentio
 #### Solutions
 - **Structured information:** Clear, organised, and hierarchical content
 - **Pacing control:** Allow students to control interaction speed
-- **Memory aids:** Automatic saving and summarization of key points
+- **Memory aids:** Automatic saving and summarisation of key points
 - **Simplified interfaces:** Reduce cognitive load and decision complexity
 
 **Prompt Examples for Cognitive Accessibility:**
@@ -224,7 +224,7 @@ Use simple language and avoid complex sentences.
 
 #### Mitigation Strategies
 - **Institutional provision:** Provide devices and internet access on campus
-- **Free tool prioritization:** Design assignments around freely available AI tools
+- **Free tool prioritisation:** Design assignments around freely available AI tools
 - **Offline alternatives:** Provide non-AI-dependent options when needed
 - **Flexible scheduling:** Allow completion during times when resources are available
 

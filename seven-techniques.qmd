@@ -31,7 +31,7 @@ Instead of the student immediately solving a problem, the AI asks *them* questio
 Complex problem scoping is fundamental to all business disciplines. Whether designing policies, strategies, systems, or solutions, professionals must think through multiple stakeholders, constraints, legal/ethical implications, and trade-offs. This technique forces students to move beyond obvious surface issues and consider the full complexity before starting to solve.
 
 **Discipline-specific contexts:**
-- **HR:** Policy and program design with stakeholder, legal, operational, and fairness considerations
+- **HR:** Policy and programme design with stakeholder, legal, operational, and fairness considerations
 - **Business/Marketing:** Strategy development with market, competitive, financial, and capability considerations
 - **Management:** Organisational change with stakeholder, cultural, operational, and risk considerations
 - **Supply Chain:** Network design with cost, resilience, sustainability, and operational considerations
@@ -72,14 +72,14 @@ The student must think through each question before responding. By the end, they
 ::: {.panel-tabset}
 
 ## HR
-- "I need to design an onboarding program for graduate hires. Ask me questions to ensure I've thought through all the key elements."
+- "I need to design an onboarding programme for graduate hires. Ask me questions to ensure I've thought through all the key elements."
 - "I'm planning a diversity and inclusion initiative. Help me identify all the stakeholders and considerations through questioning."
 - "I need to restructure our performance review process. What questions should I be asking myself to ensure it's fair and effective?"
 
 ## Business & Marketing
 - "I need to develop a market entry strategy for a new geographic region. Ask me questions to help me think through all the market, competitive, and operational considerations."
 - "I'm launching a new product. Ask me questions to ensure I've scoped out the customer, competitive, and capability requirements."
-- "I need to design a customer loyalty program. What questions should I be asking to ensure it's viable and profitable?"
+- "I need to design a customer loyalty programme. What questions should I be asking to ensure it's viable and profitable?"
 
 ## Management
 - "I need to plan an organisational restructure. Ask me questions to help me think through all the stakeholder, cultural, and operational impacts."
@@ -94,7 +94,7 @@ The student must think through each question before responding. By the end, they
 ## Information Systems
 - "I need to plan a systems implementation. Ask me questions to help me think through stakeholder requirements, technical feasibility, and change management."
 - "I'm designing an IT governance framework. What questions should I be asking about risk, compliance, and organisational adoption?"
-- "I need to scope a digital transformation initiative. Help me identify all the technical, organizational, and capability considerations."
+- "I need to scope a digital transformation initiative. Help me identify all the technical, organisational, and capability considerations."
 
 ## Accounting & Finance
 - "I need to plan an audit approach for a complex client. Ask me questions to help me scope the audit scope, materiality, and key risks."
@@ -148,7 +148,7 @@ The AI will identify 3-4 performance review models (e.g., annual reviews, contin
 ### The Follow-Up Task
 Don't let students simply accept the AI's recommendation. Require them to:
 
-- Challenge one of the "pros" listed,is it really an advantage in all contexts?
+- Challenge one of the "pros" listed---is it really an advantage in all contexts?
 - Add a disadvantage the AI missed
 - Argue for a *different* model than the AI recommended, using evidence
 - Identify which psychological or motivational theory supports or contradicts each approach
@@ -514,7 +514,7 @@ Begin the debate.
 ```
 
 **What Happens:**
-The AI will create a realistic executive debate where each stakeholder has legitimate but competing priorities. Students see that there's rarely a perfect answer,only trade-offs and compromise.
+The AI will create a realistic executive debate where each stakeholder has legitimate but competing priorities. Students see that there's rarely a perfect answer---only trade-offs and compromise.
 
 ### Follow-Up Task for Students
 
@@ -738,7 +738,7 @@ Begin with Scenario 1 at medium difficulty.
 - Student-controlled difficulty progression
 - Mastery-based advancement
 - Builds confidence through appropriate challenge
-- No technical setup required,just good prompting
+- No technical setup required---just good prompting
 
 **Teaching Tip:**
 
@@ -795,7 +795,7 @@ Begin with Expert 1: Organisational Psychologist.
 
 **The AI creates three distinct voices:**
 
-**Organizational Psychologist:**
+**Organisational Psychologist:**
 > "The 35% turnover suggests a breakdown in psychological contract or poor person-organisation fit. Sales roles are inherently stressful, but this level suggests systemic issues,possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."
 
 **Compensation Specialist:**
@@ -823,7 +823,7 @@ After receiving all three perspectives, students must:
    - "What evidence would I need to collect to validate my choice?"
 
 4. **Acknowledge Trade-offs:**
-   - "What am I deprioritizing by choosing this approach?"
+   - "What am I deprioritising by choosing this approach?"
    - "What are the risks if my diagnosis is wrong?"
 
 ### Variations for Different Topics
@@ -887,7 +887,7 @@ Most business teaching presents one "correct" approach. But professional practic
 **This technique teaches:**
 - No single expert has the complete answer
 - Good business decisions balance multiple priorities and perspectives
-- Strategic thinking means choosing which perspective to prioritize when
+- Strategic thinking means choosing which perspective to prioritise when
 - Justification matters more than the specific choice
 - Real problems require synthesis, not just analysis
 
@@ -908,13 +908,13 @@ Most business teaching presents one "correct" approach. But professional practic
 
 ## Technique 8 (Extended): Prompt Chaining - Combining Techniques Into Multi-Step Workflows
 
-All seven techniques above are powerful on their own. But the **real sophistication** comes when you chain them together,creating a multi-step workflow where each step builds on the previous one.
+All seven techniques above are powerful on their own. But the **real sophistication** comes when you chain them together---creating a multi-step workflow where each step builds on the previous one.
 
 This is where prompt chaining becomes a **meta-technique**: a way to orchestrate the other techniques into complex, professional-grade learning experiences.
 
 ### What Is Prompt Chaining in Teaching?
 
-Prompt chaining is guiding students through a **sequence of prompts** where each one builds on the previous result. The student doesn't just use one technique once,they use multiple techniques in sequence to work through a realistic professional challenge.
+Prompt chaining is guiding students through a **sequence of prompts** where each one builds on the previous result. The student doesn't just use one technique once---they use multiple techniques in sequence to work through a realistic professional challenge.
 
 **The educator directs the sequence.** You're like a curriculum designer orchestrating a learning journey: "First, reverse-prompt the problem. Then pros-and-cons the solutions. Then role-play explaining the decision."
 

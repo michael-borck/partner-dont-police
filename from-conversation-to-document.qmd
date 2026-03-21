@@ -51,7 +51,7 @@ This is fundamentally different from "use AI to write a report" (which replaces 
 You have a dataset (CSV or similar) that contains interesting patterns. You want to:
 1. Explore the data conversationally
 2. Identify interesting findings
-3. Create visualizations
+3. Create visualisations
 4. Generate a presentation with charts and interpretation
 
 This is a powerful teaching scenario because it demonstrates **data literacy + AI natural language interface**.
@@ -73,7 +73,7 @@ Can you:
 4. Suggest 3-5 visualizations that would be most revealing
 ```
 
-This is exploratory conversation,you're learning what's in your data.
+This is exploratory conversation---you're learning what's in your data.
 
 #### **Step 2: Request Specific Analysis**
 
@@ -92,7 +92,7 @@ Can you:
 
 This is collaborative analysis,AI helps you think through the data.
 
-#### **Step 3: Generate Visualizations**
+#### **Step 3: Generate Visualisations**
 
 Request charts and graphs:
 
@@ -720,7 +720,7 @@ The difference: You were thinking the first time; the AI was thinking the second
 
 Never use an AI-generated document without reviewing it:
 - Is the analysis accurate?
-- Are the visualizations correct?
+- Are the visualisations correct?
 - Do the interpretations make sense?
 - Is the formatting appropriate?
 
@@ -860,11 +860,11 @@ Now: Have a good conversation. Get a professional output.
 ## Before You Create Documents
 
 Remember:
-1. **Conversation is the work**,the document is output
-2. **You control quality**,review everything before use
-3. **You add value**,edit, refine, make it yours
-4. **You're transparent**,disclose AI use appropriately
-5. **You stay in control**,AI is your assistant, not your replacement
+1. **Conversation is the work.** The document is output.
+2. **You control quality.** Review everything before use.
+3. **You add value.** Edit, refine, make it yours.
+4. **You're transparent.** Disclose AI use appropriately.
+5. **You stay in control.** AI is your assistant, not your replacement.
 
 With those principles, document generation becomes a powerful teaching and professional tool.
 
@@ -881,4 +881,4 @@ Try this in your own work:
 5. Notice: How much more efficient was that than creating it yourself?
 6. Review critically: Is everything accurate? What would you edit?
 
-Then bring that experience to your teaching. Your students will understand the power,and the responsibility,much more clearly when you've tried it yourself.
+Then bring that experience to your teaching. Your students will understand the power---and the responsibility---much more clearly when you've tried it yourself.

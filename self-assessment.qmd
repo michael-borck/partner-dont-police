@@ -20,7 +20,7 @@ Here's the core idea:
 1. **The grading rubric** (what you'll assess them on)
 2. **The exact AI critique prompt** (the tool to check their work)
 
-This transforms AI from a cheating shortcut into a **transparent learning tool**,like giving students the answer key to practice problems before the real exam.
+This transforms AI from a cheating shortcut into a **transparent learning tool**. Think of it like giving students the answer key to practice problems before the real exam.
 
 ### The Psychology Behind It
 
@@ -342,7 +342,7 @@ Students receive feedback from two sources:
 
 Then they write a reflection comparing the two types of feedback: What did each source notice? Where did they disagree? Which feedback was most helpful and why?
 
-This teaches critical evaluation of feedback sources,an important professional skill.
+This teaches critical evaluation of feedback sources---an important professional skill.
 
 ### Variation 3: AI Critique Challenge
 
@@ -512,7 +512,7 @@ Students analyse business requirements for a new IT system and develop functiona
 
 | Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
 |---|---|---|---|---|
-| **Requirements Elicitation** | Comprehensive identification of stakeholder needs with sophisticated prioritization | Good identification and prioritization of key requirements | Basic requirements identification with some gaps | Poor or incomplete requirements analysis |
+| **Requirements Elicitation** | Comprehensive identification of stakeholder needs with sophisticated prioritisation | Good identification and prioritisation of key requirements | Basic requirements identification with some gaps | Poor or incomplete requirements analysis |
 | **Technical Specifications** | Detailed--- unambiguous specifications with appropriate technical depth | Clear specifications covering essential technical requirements | Basic specifications with limited technical detail | Inadequate or unclear technical specifications |
 
 **AI Critique Prompt Example:**
@@ -520,7 +520,7 @@ Students analyse business requirements for a new IT system and develop functiona
 You are a senior IT lecturer evaluating a student's system requirements analysis.
 
 ASSESSMENT CRITERIA:
-1. Requirements Elicitation: Stakeholder identification, needs analysis, and prioritization
+1. Requirements Elicitation: Stakeholder identification, needs analysis, and prioritisation
 2. Technical Specifications: Clarity, completeness, and technical accuracy
 3. Feasibility Analysis: Technical and business feasibility considerations
 4. Validation Approach: Methods for requirements verification and validation
@@ -578,7 +578,7 @@ Here is the student's draft:
 ### Discipline-Specific Considerations
 
 **Creative Fields (Marketing, Design):**
-- Emphasize subjective judgment and professional critique
+- Emphasise subjective judgment and professional critique
 - Include portfolio-style evidence of iterative improvement
 - Focus on both technical skills and creative problem-solving
 
@@ -588,7 +588,7 @@ Here is the student's draft:
 - Focus on professional standards and ethical considerations
 
 **Service Fields (Tourism, Hospitality, Management):**
-- Emphasize stakeholder psychology and relationship dynamics
+- Emphasise stakeholder psychology and relationship dynamics
 - Include cultural sensitivity and contextual factors
 - Focus on practical implementation and operational constraints
 
@@ -632,7 +632,7 @@ This assignment includes access to an AI feedback tool. Here's how to use it eth
 - Ask the AI to write the assignment for you
 - Copy-paste AI-generated text into your submission without understanding it
 - Ignore the feedback and submit your first draft
-- Treat the AI's feedback as infallible,it can be wrong
+- Treat the AI's feedback as infallible---it can be wrong
 
 **REMEMBER:**
 The goal is not to "beat the AI" or trick it into giving you a good score. The goal is to use the AI as a learning tool so that YOU understand the concepts and develop professional judgment better by the time you submit.
@@ -703,4 +703,4 @@ Once you've tested it, you're ready to introduce this model in your class.
 
 ---
 
-**Next Chapter Preview:** In the next chapter, we'll explore advanced applications and considerations for scaling AI-enhanced teaching across your program. We'll discuss how to maintain quality, support different student needs, and prepare students for an AI-integrated professional landscape.
+**Next Chapter Preview:** In the next chapter, we'll explore advanced applications and considerations for scaling AI-enhanced teaching across your programme. We'll discuss how to maintain quality, support different student needs, and prepare students for an AI-integrated professional landscape.

@@ -22,7 +22,7 @@ Both audiences share a common language and approach, creating aligned understand
 
 ### For Educators
 
-- Business lecturers at Curtin University teaching undergraduate or postgraduate students
+- Business lecturers teaching undergraduate or postgraduate students
 - Academics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain
 - Unit coordinators exploring AI integration aligned with learning outcomes
 - Research supervisors supporting business students
@@ -67,6 +67,28 @@ Examples include economic modelling, policy analysis, market equilibrium scenari
 
 :::
 
+## Conventions Used in This Book
+
+Throughout the book you will encounter coloured callout boxes and other visual elements. Each serves a different purpose.
+
+> *Chapter-opening quotes appear as indented text like this. They frame the key idea or challenge each chapter addresses.*
+
+::: {.callout-tip title="Discipline Example"}
+**Green boxes** contain discipline-specific examples — prompts, scenarios, or exercises tailored to a particular business field. In the online edition, these appear as interactive tabs covering all eight disciplines. In the print and ebook editions, a single representative example is shown.
+:::
+
+::: {.callout-note title="Key Idea"}
+**Blue boxes** highlight important concepts, ready-to-use prompts, or ideas worth pausing on.
+:::
+
+::: {.callout-warning title="Watch Out"}
+**Yellow boxes** flag common mistakes, weak examples, or things that look right but are not.
+:::
+
+::: {.callout-important title="Critical Point"}
+**Red boxes** mark habits or principles that are essential. Do not skip these.
+:::
+
 ## What You Won't Find Here
 
 - Technical AI theory or computer science concepts
@@ -83,8 +105,8 @@ Examples include economic modelling, policy analysis, market equilibrium scenari
 - Honest assessment: What AI does well, what it doesn't, and what requires human judgment
 - Ethical frameworks: How to integrate AI responsibly and teach students to do the same in professional practice
 - Disciplinary examples: All major examples appear in **8 different business disciplines**
-- Complex prompts and detailed examples use **Quarto's tabbed interface** so readers can see their discipline's perspective
-- customisation guidance: How to adapt examples and approaches for different institutional contexts
+- Complex prompts and detailed examples use **Quarto's tabbed interface** so readers can see their discipline's perspective (in the online edition). The print and ebook editions feature selected examples from across the disciplines, presented in callout boxes. Visit [the online edition](https://michael-borck.github.io/partner-dont-police) for the complete set of discipline-specific examples
+- Customisation guidance: How to adapt examples and approaches for different institutional contexts
 
 ## Progressive Learning Structure
 
@@ -167,7 +189,7 @@ Read in book order (each chapter builds on previous):
 
 **Institutional Implementation:**
 
-- **Program teams:** Use curriculum planning pathway
+- **Programme teams:** Use curriculum planning pathway
 - **Faculty development:** Use workshop and assessment chapters
 - **Quality assurance:** Use troubleshooting and accessibility frameworks
 
@@ -179,7 +201,7 @@ Read in book order (each chapter builds on previous):
 
 ## Who This Is For
 
-- Business lecturers at Curtin University teaching undergraduate or postgraduate students
+- Business lecturers teaching undergraduate or postgraduate students
 - Academics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain
 - Unit coordinators exploring AI integration aligned with learning outcomes
 - Research supervisors supporting business students
@@ -256,7 +278,7 @@ Throughout this book, **prompting** is your core skill. Whether you're:
 | **Designing assessments** | Read **Chapter 11** (process-based assessment models) and **Chapter 19** (assessment design & rubrics). Use these frameworks to redesign existing assignments. |
 | **Teach postgraduate students** | Focus on **Chapter 17** (AI as research assistant) for guidance on appropriate AI use in research contexts. |
 | **Presenting to colleagues** | Use **Appendix B** (one-hour faculty workshop guide) as a facilitation template. |
-| **Need institutional justification** | Refer to **Appendix C** (alignment with Curtin learning outcomes) to demonstrate how AI integration supports existing educational goals. |
+| **Need institutional justification** | Refer to **Appendix C** (alignment with institutional learning outcomes) to demonstrate how AI integration supports existing educational goals. |
 
 ---
 
@@ -314,12 +336,12 @@ You don't need to revolutionize your entire curriculum overnight. Start with one
 This book synthesises ideas from multiple sources:
 
 - Prompt engineering techniques adapted for professional education contexts
-- Curtin University program information and learning outcomes
+- University programme information and learning outcomes
 - Pedagogical frameworks from experiential learning, reflective practice, and authentic assessment
 - Professional practice standards and ethical guidelines across business disciplines
 - Emerging research on AI in higher education
 
-The goal is not to be cutting-edge or technically impressive. The goal is to help business educators do their work better,prepare confident, competent, ethical professionals for complex workplaces.
+The goal is not to be cutting-edge or technically impressive. The goal is to help business educators do their work better: to prepare confident, competent, ethical professionals for complex workplaces.
 
 ---
 
@@ -331,7 +353,7 @@ AI tools evolve quickly. Specific platform names (ChatGPT, Claude, etc.) and cap
 
 ## Context Matters
 
-This book was developed for Curtin University's business programs. If you're at a different institution or teaching a different discipline, you'll need to adapt examples, learning outcomes, and institutional references. The frameworks are transferable; the specifics may not be.
+This book was developed with Australian business programs in mind. If you are teaching in a different institutional or national context, you may need to adapt examples, learning outcomes, and regulatory references. The frameworks are transferable; the specifics may not be.
 
 ## This Is a Starting Point
 
@@ -343,15 +365,10 @@ Consider this book a foundation, not a complete solution. You'll discover what w
 
 As you implement ideas from this book, you may have questions, encounter challenges, or discover innovative applications we didn't consider.
 
-**For Curtin staff:**
-
-- Contact your Faculty Teaching and Learning team for pedagogical support
+- Contact your Faculty or School Teaching and Learning team for pedagogical support
 - Consult with IT Services for technical access and troubleshooting
 - Connect with colleagues who are experimenting with AI integration
 - Consider forming a learning community around AI-enhanced teaching
-
-**For others:**
-
 - Adapt frameworks to your institutional context
 - Share successes and failures with your teaching and learning community
 - Contribute to the growing body of practice around AI in education

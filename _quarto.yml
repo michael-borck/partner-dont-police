@@ -47,6 +47,7 @@ book:
     - rubric-system.qmd
     - stress-test-sequence.qmd
     - glossary.qmd
+    - further-reading.qmd
     - about-author.qmd
 
 format:
