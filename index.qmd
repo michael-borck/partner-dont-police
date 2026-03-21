@@ -391,6 +391,21 @@ Because ultimately, that's what we're here for.
 
 ---
 
+## Ways to Engage with This Book
+
+This book is available in several formats. Pick whichever fits how you work and learn.
+
+- **Read it online.** The full book is freely available at the [companion website](https://michael-borck.github.io/partner-dont-police), with dark mode, search, navigation, and interactive tabbed examples across all eight business disciplines.
+- **Read it on paper or e-reader.** Available as a paperback and ebook through Amazon KDP, for those who prefer to read offline or away from a screen.
+- **Converse with it.** The online edition includes a chatbot grounded in the book's content. Ask it questions, challenge its answers, and practise the methodology on the methodology itself.
+- **Feed it to your own AI.** The `llm.txt` file provides a clean text version of the entire book, ready to paste into ChatGPT, Claude, or any AI tool for a conversation about the ideas.
+- **Explore the source.** The full source is on [GitHub](https://github.com/michael-borck/partner-dont-police), including every chapter, the build system, and the revision history. [DeepWiki](https://deepwiki.com/michael-borck/partner-dont-police) provides an AI-navigable view of the repository.
+- **Browse all books.** This book is part of a series. See all titles at [books.borck.education](https://books.borck.education).
+
+The online version is always the most current. The printed and ebook editions are updated periodically.
+
+---
+
 # Related Resources
 
 This book applies the methodology developed in **[Conversation, Not Delegation](https://michael-borck.github.io/conversation-not-delegation)** to business education. That companion book covers the full framework in depth: the Conversation Loop, the VET framework for evaluating AI output, the cognitive traps that undermine critical thinking, and the principle of AI Last. If you want the underlying rationale for why the approaches in this book work, or want to share a discipline-neutral version with colleagues or students, start there.
