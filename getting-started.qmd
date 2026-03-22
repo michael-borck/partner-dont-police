@@ -679,6 +679,10 @@ Not everything needs the same level of scrutiny. A casual brainstorm gets a ligh
 
 Here's the secret that most people miss: **the best results come from a conversation, not a single prompt.**
 
+::: {.callout-note title="One prompt, one job"}
+When you ask AI to do five things at once, you get five shallow results. When you give each prompt a single focused task, you get depth and nuance. Think of it as a conversation, not a task list handed to an assistant on their way out the door. One thing at a time. Follow up. Build. This principle applies throughout the book, and the managing context chapter explores it in detail.
+:::
+
 Your first CRAFT prompt gets you started. Your follow-up prompts make it actually useful for your teaching.
 
 ### Common Follow-Up Patterns
