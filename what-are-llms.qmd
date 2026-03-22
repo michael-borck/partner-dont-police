@@ -272,6 +272,8 @@ Analysts use LLM to write SQL queries:
 An LLM will state a fabricated statistic, an invented citation, or an incorrect legal requirement with exactly the same tone and certainty as a verified fact. There is no built-in signal that distinguishes accurate output from hallucination. If the information matters — and in business education it usually does — checking it is part of your workflow, not an optional extra.
 :::
 
+**The key insight:** LLMs interpolate, they do not retrieve. When you ask for a fact, the model is not looking it up. It is predicting what a plausible answer would sound like. A convincing answer and a correct answer are produced by the same process, and the model cannot tell you which one you are getting. This is why every verification habit in this book exists.
+
 **Lesson for business:**
 
 - Don't use LLMs for legal, medical, or financial advice without human verification
