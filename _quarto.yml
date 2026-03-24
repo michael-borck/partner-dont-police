@@ -50,6 +50,19 @@ book:
     - glossary.qmd
     - further-reading.qmd
     - about-author.qmd
+  other-links:
+    - text: Download PDF
+      icon: file-pdf
+      href: partner-dont-police.pdf
+    - text: Download EPUB
+      icon: book
+      href: partner-dont-police.epub
+    - text: Download llm.txt
+      icon: robot
+      href: llm.txt
+    - text: DeepWiki
+      icon: search
+      href: https://deepwiki.com/michael-borck/partner-dont-police
 
 format:
   html:
