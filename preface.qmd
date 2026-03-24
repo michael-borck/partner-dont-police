@@ -1,0 +1,57 @@
+# Preface {.unnumbered}
+
+## Why This Book Exists
+
+The conversation around AI in education has split into two camps, and neither is helping.
+
+On one side: enthusiasm without scrutiny. AI will transform everything, students should use it for everything, and anyone who hesitates is falling behind. On the other: prohibition without understanding. AI is cheating, it threatens academic integrity, and the safest response is to ban it and hope it goes away.
+
+If you are an educator caught between these positions, this book is for you.
+
+I wrote it because the educators I work with are not looking for hype or prohibition. They are looking for practical guidance from someone who understands both the technology and the classroom. They want to know: What can I actually do with this? How do I protect academic integrity without pretending AI does not exist? How do I teach students to use these tools the way a professional would, critically and transparently, rather than as a shortcut around thinking?
+
+Those are the questions this book answers.
+
+## Who This Book Is For
+
+You are a business educator. You teach undergraduates or postgraduates in marketing, management, accounting, economics, information systems, tourism, supply chain, human resources, or a related discipline. You are not a computer scientist. You did not sign up to become an AI expert. But AI has arrived in your classroom whether you invited it or not, and you need to make professional decisions about what to do with it.
+
+You may also be a student navigating a landscape where AI tools are everywhere but guidance on using them well is scarce. The frameworks in this book apply to both sides of the classroom.
+
+## What This Book Is Not
+
+This is not a technology manual. It does not teach you how to use ChatGPT, Claude, Copilot, or any specific platform. Interfaces change constantly; the principles here do not.
+
+It is not a book of copy-paste prompts. You will find prompts throughout, but they are starting points for conversation, not finished products. If you are looking for a recipe book that removes the need to think about your teaching, this is the wrong book.
+
+It is not a defence of AI, and it is not an attack on it. It does not argue that AI will save education or that it will ruin it. It argues that AI is a tool, that tools require judgement, and that your job as an educator is to develop that judgement in yourself and your students.
+
+And it is not a book that requires you to change everything at once. The most common piece of advice in these pages is: start with one thing, in one unit, this semester.
+
+## If You Are Feeling Overwhelmed
+
+You are not alone and you are not behind. Most educators feel some version of the same anxiety: that everyone else has figured this out already, that the technology is moving faster than they can follow, that they might look foolish trying something new in front of students who grew up with technology.
+
+That anxiety is normal. It does not mean you are unsuited to this work. It means you are paying attention.
+
+You may also worry that your students already know more about AI than you do. Some of them might. That is not a problem to solve. It is a resource to draw on. An educator who says "show me how you did that" and learns alongside their students is modelling exactly the kind of professional curiosity that matters in every business discipline.
+
+You do not need to be the AI expert in the room. You need to be the expert in your discipline who knows how to ask good questions, evaluate evidence, and design learning experiences. AI does not change that. It amplifies it.
+
+## How This Book Is Structured
+
+The book follows a progressive structure designed to build confidence gradually:
+
+**Foundation** (Chapters 1--6) builds your understanding of AI, introduces structured prompting through the CRAFT framework, and helps you find your own AI strategy. No prior AI experience is assumed.
+
+**Core Applications** (Chapters 7--18) moves into practical teaching: flight simulators for student practice, the critique toolkit, ethics and data governance, process-based assessment, virtual companies, unit design, and using AI for research supervision.
+
+**Implementation Excellence** (Chapters 19--22) addresses assessment design, technical troubleshooting, accessibility, and adapting the approaches for different institutional and cultural contexts.
+
+**Resources** (Appendices A--E) provides ready-to-use materials: prompt libraries, a workshop guide for colleagues, alignment templates, and advanced prompting techniques.
+
+You do not need to read it in order. The reading pathways in "About This Book" will point you to the chapters that matter most for your situation.
+
+## The Companion Book
+
+The methodology in this book draws on *Conversation, Not Delegation: How to Think With AI, Not Just Use It* (Borck, 2025), which covers the full framework in a discipline-neutral way. If you want the underlying rationale for why these approaches work, or you want to share a version with non-educator colleagues, that book is the place to start. This book is independently complete, but the two are stronger together.
