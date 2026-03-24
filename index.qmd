@@ -1,75 +1,69 @@
-# About This Book
+# Preface {.unnumbered}
 
-This book serves both educators and students, with different pathways designed for each audience's needs and goals.
+## Why This Book Exists
 
-## Audience Overview
+The conversation around AI in education has split into two camps, and neither is helping.
 
-**Primary Audience: Educators and Academic Staff**
+On one side: enthusiasm without scrutiny. AI will transform everything, students should use it for everything, and anyone who hesitates is falling behind. On the other: prohibition without understanding. AI is cheating, it threatens academic integrity, and the safest response is to ban it and hope it goes away.
 
-- Focus: Teaching enhancement, assessment design, curriculum integration
-- Goal: Effective AI integration that maintains academic standards
-- Pathway: Progressive skill development from foundations to advanced implementation
+If you are an educator caught between these positions, this book is for you.
 
-**Secondary Audience: Students and Learners**
+I wrote it because the educators I work with are not looking for hype or prohibition. They are looking for practical guidance from someone who understands both the technology and the classroom. They want to know: What can I actually do with this? How do I protect academic integrity without pretending AI does not exist? How do I teach students to use these tools the way a professional would, critically and transparently, rather than as a shortcut around thinking?
 
-- Focus: Direct AI literacy development and learning support
-- Goal: Effective use of AI for academic success and career preparation
-- Pathway: Skill acquisition and practical application
+Those are the questions this book answers.
 
-Both audiences share a common language and approach, creating aligned understanding between educators and learners. Whether you're teaching business education or learning to use AI more effectively, this book provides relevant frameworks and examples.
+## Who This Book Is For
 
-## Who This Is For
+You are a business educator. You teach undergraduates or postgraduates in marketing, management, accounting, economics, information systems, tourism, supply chain, human resources, or a related discipline. You are not a computer scientist. You did not sign up to become an AI expert. But AI has arrived in your classroom whether you invited it or not, and you need to make professional decisions about what to do with it.
 
-### For Educators
+You may also be a student navigating a landscape where AI tools are everywhere but guidance on using them well is scarce. The frameworks in this book apply to both sides of the classroom.
 
-- Business lecturers teaching undergraduate or postgraduate students
-- Academics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain
-- Unit coordinators exploring AI integration aligned with learning outcomes
-- Research supervisors supporting business students
-- Anyone curious about practical, non-technical AI applications in business education
+## What This Book Is Not
 
-### For Students
+This is not a technology manual. It does not teach you how to use ChatGPT, Claude, Copilot, or any specific platform. Interfaces change constantly; the principles here do not.
 
-- Business students at all levels who want to develop AI literacy skills
-- Learners seeking to understand how to use AI effectively for academic success
-- Students preparing for professional careers where AI tools will be standard
-- Anyone interested in developing meta-skills for learning and working with AI
+It is not a book of copy-paste prompts. You will find prompts throughout, but they are starting points for conversation, not finished products. If you are looking for a recipe book that removes the need to think about your teaching, this is the wrong book.
 
-### Discipline-Specific Pathways
+It is not a defence of AI, and it is not an attack on it. It does not argue that AI will save education or that it will ruin it. It argues that AI is a tool, that tools require judgement, and that your job as an educator is to develop that judgement in yourself and your students.
 
-This book is designed for multiple business disciplines. While the core principles and techniques are universal, examples and prompts are tailored to your field:
+And it is not a book that requires you to change everything at once. The most common piece of advice in these pages is: start with one thing, in one unit, this semester.
 
-::: {.panel-tabset}
+## If You Are Feeling Overwhelmed
 
-# Business & Marketing
-Examples include market analysis, customer behaviour modelling, campaign strategy, brand positioning, and competitive intelligence simulations.
+You are not alone and you are not behind. Most educators feel some version of the same anxiety: that everyone else has figured this out already, that the technology is moving faster than they can follow, that they might look foolish trying something new in front of students who grew up with technology.
 
-# Management & Organisation Studies
-Examples include organisational design, change management, team dynamics, leadership scenarios, and process improvement workflows.
+That anxiety is normal. It does not mean you are unsuited to this work. It means you are paying attention.
 
-# Human Resources
-Examples include recruitment workflows, performance management scenarios, employee relations simulations, talent development, and organisational behaviour case studies.
+You may also worry that your students already know more about AI than you do. Some of them might. That is not a problem to solve. It is a resource to draw on. An educator who says "show me how you did that" and learns alongside their students is modelling exactly the kind of professional curiosity that matters in every business discipline.
 
-# Tourism & Hospitality
-Examples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.
+You do not need to be the AI expert in the room. You need to be the expert in your discipline who knows how to ask good questions, evaluate evidence, and design learning experiences. AI does not change that. It amplifies it.
 
-# Supply Chain & Logistics
-Examples include demand forecasting, inventory optimisation, supplier negotiations, network design, and supply chain risk scenarios.
+## How This Book Is Structured
 
-# Information Systems
-Examples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.
+The book follows a progressive structure designed to build confidence gradually:
 
-# Accounting & Finance
-Examples include financial analysis, audit workflows, budget management, taxation scenarios, and financial reporting simulations.
+**Foundation** (Chapters 1--6) builds your understanding of AI, introduces structured prompting through the CRAFT framework, and helps you find your own AI strategy. No prior AI experience is assumed.
 
-# Economics
-Examples include economic modelling, policy analysis, market equilibrium scenarios, microeconomic analysis, and behavioural economics simulations.
+**Core Applications** (Chapters 7--18) moves into practical teaching: flight simulators for student practice, the critique toolkit, ethics and data governance, process-based assessment, virtual companies, unit design, and using AI for research supervision.
 
-:::
+**Implementation Excellence** (Chapters 19--22) addresses assessment design, technical troubleshooting, accessibility, and adapting the approaches for different institutional and cultural contexts.
+
+**Resources** (Appendices A--E) provides ready-to-use materials: prompt libraries, a workshop guide for colleagues, alignment templates, and advanced prompting techniques.
+
+You do not need to read it in order. The table below will point you to the chapters that matter most for your situation.
+
+| Your Situation | Start Here |
+|---|---|
+| **Completely new to AI** | Chapter 1 (motivation) and Chapter 2 (your first AI conversation) |
+| **Want to implement AI in teaching** | Chapter 3 (first steps) then Chapter 4 (essential techniques). Appendix A for ready-to-use prompts |
+| **Designing assessments** | Chapter 11 (process-based assessment) and Chapter 19 (assessment design and rubrics) |
+| **Teach postgraduate students** | Chapter 17 (AI as research assistant) |
+| **Presenting to colleagues** | Appendix B (one-hour faculty workshop guide) |
+| **Need institutional justification** | Appendix C (alignment with institutional learning outcomes) |
 
 ## Conventions Used in This Book
 
-Throughout the book you will encounter coloured callout boxes and other visual elements. Each serves a different purpose.
+Throughout the book you will encounter coloured callout boxes. Each serves a different purpose.
 
 > *Chapter-opening quotes appear as indented text like this. They frame the key idea or challenge each chapter addresses.*
 
@@ -89,329 +83,29 @@ Throughout the book you will encounter coloured callout boxes and other visual e
 **Red boxes** mark habits or principles that are essential. Do not skip these.
 :::
 
-## What You Won't Find Here
+## Important Notes
 
-- Technical AI theory or computer science concepts
-- Coding or programming requirements
-- Abstract discussions about AI's future
-- Complex software installation guides
-- "One size fits all" solutions
+**Technology changes rapidly.** AI tools evolve quickly. Specific platform names and capabilities described here reflect the state of technology in early 2025. The principles and pedagogical approaches remain relevant even as specific tools change.
 
-## What You Will Find Here
+**Context matters.** This book was developed with Australian business programs in mind. If you are teaching in a different institutional or national context, you may need to adapt examples, learning outcomes, and regulatory references. The frameworks are transferable; the specifics may not be.
 
-- Concrete examples: Every chapter includes ready-to-use prompts and scenarios tailored to multiple business disciplines
-- Practical guidance: Step-by-step implementation for busy lecturers
-- Real pedagogical value: AI applications directly support existing learning outcomes across business programs
-- Honest assessment: What AI does well, what it doesn't, and what requires human judgment
-- Ethical frameworks: How to integrate AI responsibly and teach students to do the same in professional practice
-- Disciplinary examples: All major examples appear in **8 different business disciplines**
-- Complex prompts and detailed examples use **Quarto's tabbed interface** so readers can see their discipline's perspective (in the online edition). The print and ebook editions feature selected examples from across the disciplines, presented in callout boxes. Visit [the online edition](https://michael-borck.github.io/partner-dont-police) for the complete set of discipline-specific examples
-- Customisation guidance: How to adapt examples and approaches for different institutional contexts
-
-## Progressive Learning Structure
-
-This book follows a carefully designed progression from foundational concepts to advanced excellence:
-
-#### **Foundation Pathway** (Chapters 1-6)
-**For educators:** Build pedagogical understanding and basic AI skills  
-**For students:** Develop AI literacy and foundational capabilities
-
-#### **Core Applications Pathway** (Chapters 7-18)
-**For educators:** Practical teaching implementations across disciplines  
-**For students:** Applied learning and professional skill development
-
-#### **Implementation Excellence Pathway** (Chapters 19-22)
-**For educators:** Advanced assessment, accessibility, and global adaptation  
-**For students:** Meta-skills development and inclusive learning practices
-
-#### **Resources Pathway** (Appendices A-E)
-**For both audiences:** Ready-to-use materials and references
-
-## Recommended Reading Pathways
-
-### For Educators - Teaching Excellence Path
-
-**Quick Start (if you have 1-2 hours):**
-
-1. **Chapter 1** (30 min) - Understand the problem we're solving and core principles
-2. **Chapter 2** (45 min) - Your first AI conversation and the CRAFT framework
-3. **Your discipline's examples** - Browse chapters and pick examples most relevant to your field
-
-**Comprehensive Implementation (if you have a semester):**
-Read in book order (each chapter builds on previous):
-
-1. **Introduction** - Pedagogical foundation
-2. **Getting Started** - CRAFT framework for structured prompting
-3. **Discovering Your Strategy** - Using AI to discover your personal AI strategy
-4. **First Steps** - Week-by-week implementation guidance
-5. **Seven Essential Techniques** - Core prompt engineering techniques
-6. **Managing LLM Context** - Working smarter with AI conversations
-7. **Flight Simulator** - Creating realistic practice scenarios
-8. **Critique Toolkit** - Teaching students to evaluate AI critically
-9. **Ethics, Data Governance & Integrity** - Transparent approaches to AI use
-10. **Process Assessment** - Assessing thinking, not just outputs
-11. **Self-Assessment** - Building student metacognition with AI
-12. **Virtual Company** - Sustained simulation learning
-13. **Unit Design** - Integrating AI across full units
-14. **Static to Interactive** - Converting existing content to AI-enhanced learning
-15. **From Conversation to Document** - Creating professional deliverables from AI conversations
-16. **Research Assistant** - AI for postgraduate research
-17. **Advanced Frontiers** - Agents, automation, RAG, emerging capabilities
-18. **Assessment Design and Evaluation Rubrics** - Concrete assessment frameworks
-19. **Technical Troubleshooting and Risk Management** - Handling technical challenges
-20. **Accessibility and Inclusive AI Integration** - Ensuring access for all students
-21. **Global Perspectives and Adaptation** - International context adaptation
-22. **Conclusion** - Bringing it all together
-
-### For Students - Learning Excellence Path
-
-**Direct AI Literacy Development:**
-
-1. **Chapter 2** - Basic prompting skills and CRAFT framework
-2. **Chapter 5** - Seven essential techniques for effective AI interaction
-3. **Chapter 6** - Managing conversations and context
-4. **Chapter 8** - Critical evaluation of AI outputs
-5. **Appendix E** - Using AI to master AI (meta-skills)
-
-**Applied Learning and Practice:**
-
-6. **Chapter 7** - Flight simulator practice scenarios
-7. **Chapter 11** - AI as research assistant
-8. **Chapter 12** - Self-assessment and metacognition
-9. **Chapter 15** - Creating professional work from AI conversations
-
-**Support and Resources:**
-
-10. **Appendix A** - Prompt library for immediate use
-11. **Quick Reference Guide** - Common questions and solutions
-
-### For Both Audiences - Collaborative Path
-
-**Institutional Implementation:**
-
-- **Programme teams:** Use curriculum planning pathway
-- **Faculty development:** Use workshop and assessment chapters
-- **Quality assurance:** Use troubleshooting and accessibility frameworks
-
-**Shared Learning Experience:**
-
-- **Coordinated approach:** Educators and students use shared frameworks
-- **Common language:** Aligned understanding of AI integration goals
-- **Feedback loops:** Both audiences benefit from shared perspectives
-
-## Who This Is For
-
-- Business lecturers teaching undergraduate or postgraduate students
-- Academics in business, marketing, management, tourism, accounting, economics, information systems, and supply chain
-- Unit coordinators exploring AI integration aligned with learning outcomes
-- Research supervisors supporting business students
-- Anyone curious about practical, non-technical AI applications in business education
-
-### Discipline-Specific Pathways
-
-This book is designed for multiple business disciplines. While the core principles and techniques are universal, examples and prompts are tailored to your field:
-
-::: {.panel-tabset}
-
-# Business & Marketing
-Examples include market analysis, customer behaviour modelling, campaign strategy, brand positioning, and competitive intelligence simulations.
-
-# Management & Organisation Studies
-Examples include organisational design, change management, team dynamics, leadership scenarios, and process improvement workflows.
-
-# Human Resources
-Examples include recruitment workflows, performance management scenarios, employee relations simulations, talent development, and organisational behaviour case studies.
-
-# Tourism & Hospitality
-Examples include destination marketing, customer experience design, revenue management, tourism planning, and hospitality crisis scenarios.
-
-# Supply Chain & Logistics
-Examples include demand forecasting, inventory optimisation, supplier negotiations, network design, and supply chain risk scenarios.
-
-# Information Systems
-Examples include systems analysis, project management, IT governance, requirements gathering, and technology implementation planning.
-
-# Accounting & Finance
-Examples include financial analysis, audit workflows, budget management, taxation scenarios, and financial reporting simulations.
-
-# Economics
-Examples include economic modelling, policy analysis, market equilibrium scenarios, microeconomic analysis, and behavioural economics simulations.
-
-:::
-
-
-## What You Won't Find Here
-
-- Technical AI theory or computer science concepts
-- Coding or programming requirements
-- Abstract discussions about AI's future
-- Complex software installation guides
-- "One size fits all" solutions
-
-## What You Will Find Here
-
-- **Concrete examples**: Every chapter includes ready-to-use prompts and scenarios tailored to multiple business disciplines
-- **Practical guidance**: Step-by-step implementation for busy lecturers
-- **Real pedagogical value**: AI applications directly support existing learning outcomes across business programs
-- **Honest assessment**: What AI does well, what it doesn't, and what requires human judgment
-- **Ethical frameworks**: How to integrate AI responsibly and teach students to do the same in professional practice
-
-## A Core Concept: Prompting as Foundation
-
-Throughout this book, **prompting** is your core skill. Whether you're:
-
-- Writing direct instructions to AI tools
-- Integrating AI into familiar software (Word, PowerPoint, Teams)
-- Automating workflows with agents
-- Building custom tools
-
-...you're fundamentally communicating with AI through prompts. Master prompting, and you can adapt to any AI tool,past, present, or future. **Chapters 2-4 teach you prompting as a conceptual foundation; everything else applies that foundation to specific teaching challenges.**
-
----
-
-# How to Use This Book
-
-| Your Situation | Recommended Reading Path |
-|---|---|
-| **Completely new to AI** | Start with **Chapter 1** (motivation) and **Chapter 2** (your first AI conversation). Work through the basics before exploring advanced applications. |
-| **Want to implement AI in teaching** | Read **Chapter 3** (your first steps) for a practical implementation plan. Then move to **Chapter 4** (six essential techniques) and pick one to try immediately. Refer to **Appendix A** for copy-paste prompts. |
-| **Designing assessments** | Read **Chapter 11** (process-based assessment models) and **Chapter 19** (assessment design & rubrics). Use these frameworks to redesign existing assignments. |
-| **Teach postgraduate students** | Focus on **Chapter 17** (AI as research assistant) for guidance on appropriate AI use in research contexts. |
-| **Presenting to colleagues** | Use **Appendix B** (one-hour faculty workshop guide) as a facilitation template. |
-| **Need institutional justification** | Refer to **Appendix C** (alignment with institutional learning outcomes) to demonstrate how AI integration supports existing educational goals. |
-
----
-
-# The Core Philosophy
-
-Three principles underpin everything in this book:
-
-**1. AI as Scaffolding, Not Replacement**
-
-You are the expert educator. AI is a tool that helps you scale what you already know works,personalised practice, immediate feedback, realistic simulations. AI builds the framework quickly; you ensure it's pedagogically sound and academically rigorous.
-
-*How this applies to your discipline:*
-
-::: {.panel-tabset}
-
-# Business & Marketing
-AI generates competitive analysis frameworks and customer segmentation scenarios. You validate the business logic, ensure market assumptions are sound, and teach students to question data sources and market trends.
-
-# Management
-AI creates organisational scenarios and change management workflows. You ensure they reflect real organisational complexity, teach students about stakeholder dynamics, and guide reflection on ethical leadership implications.
-
-# Human Resources
-AI generates candidate profiles and HR scenarios. You ensure they reflect realistic workplace situations, teach students about bias in hiring, and guide ethical decision-making about employee relations.
-
-# Tourism & Hospitality
-AI creates customer journey scenarios and service recovery simulations. You ensure they reflect authentic tourism contexts, teach cultural sensitivity, and guide experience design thinking.
-
-# Supply Chain
-AI generates demand forecasts and logistics scenarios. You validate the economic logic, teach supply chain trade-offs, and guide systems thinking about global complexity.
-
-# Information Systems
-AI generates system requirements and IT scenarios. You ensure technical feasibility, teach about legacy system constraints, and guide project management realities.
-
-# Accounting & Finance
-AI generates financial scenarios and compliance workflows. You ensure accuracy, teach professional standards, and guide ethical judgment in ambiguous situations.
-
-# Economics
-AI generates economic scenarios and policy simulations. You ensure theoretical soundness, teach empirical rigor, and guide students to understand limitations of models.
-
-:::
-
-
-**2. Transparency Over Prohibition**
-
-Rather than trying to prevent AI use (impossible and counterproductive), we teach students to use AI openly, critically, and ethically. This prepares them for professional practice where AI tools are standard across all business disciplines.
-
-**3. Start Small, Scale Gradually**
-
-You don't need to revolutionize your entire curriculum overnight. Start with one prompt, one assignment, one semester. Build confidence and capability progressively.
-
----
-
-# Acknowledgments
-
-This book synthesises ideas from multiple sources:
-
-- Prompt engineering techniques adapted for professional education contexts
-- University programme information and learning outcomes
-- Pedagogical frameworks from experiential learning, reflective practice, and authentic assessment
-- Professional practice standards and ethical guidelines across business disciplines
-- Emerging research on AI in higher education
-
-The goal is not to be cutting-edge or technically impressive. The goal is to help business educators do their work better: to prepare confident, competent, ethical professionals for complex workplaces.
-
----
-
-# Important Notes
-
-## Technology Changes Rapidly
-
-AI tools evolve quickly. Specific platform names (ChatGPT, Claude, etc.) and capabilities described here reflect the state of technology in early 2025. The principles and pedagogical approaches remain relevant even as specific tools change.
-
-## Context Matters
-
-This book was developed with Australian business programs in mind. If you are teaching in a different institutional or national context, you may need to adapt examples, learning outcomes, and regulatory references. The frameworks are transferable; the specifics may not be.
-
-## This Is a Starting Point
-
-Consider this book a foundation, not a complete solution. You'll discover what works for your students, your teaching style, and your context through experimentation. The appendices provide templates you can adapt and build upon.
-
----
-
-# Getting Help and Providing Feedback
-
-As you implement ideas from this book, you may have questions, encounter challenges, or discover innovative applications we didn't consider.
-
-- Contact your Faculty or School Teaching and Learning team for pedagogical support
-- Consult with IT Services for technical access and troubleshooting
-- Connect with colleagues who are experimenting with AI integration
-- Consider forming a learning community around AI-enhanced teaching
-- Adapt frameworks to your institutional context
-- Share successes and failures with your teaching and learning community
-- Contribute to the growing body of practice around AI in education
-
----
-
-# A Personal Note to Readers
-
-If you're feeling skeptical about AI in education, that's healthy. Technology is not inherently good or bad,it's how we use it that matters.
-
-If you're worried this is too technical, I promise it's not. If you can write an email, you can write an AI prompt.
-
-If you're concerned about losing control of your teaching, you won't. You'll gain new capabilities while maintaining your pedagogical judgment and professional expertise.
-
-The goal of this book is simple: **by the end, you should feel excited and equipped to try one new thing in your next class.**
-
-That's it. One simulation. One new assessment approach. One conversation where a student gets to practice being a business professional in a safe environment before they face real workplace challenges.
-
-Because ultimately, that's what we're here for.
-
----
+**This is a starting point.** Consider this book a foundation, not a complete solution. You will discover what works for your students, your teaching style, and your context through experimentation.
 
 ## Ways to Engage with This Book
 
 This book is available in several formats. Pick whichever fits how you work and learn.
 
-- **Read it online.** The full book is freely available at the [companion website](https://michael-borck.github.io/partner-dont-police), with dark mode, search, navigation, and interactive tabbed examples across all eight business disciplines.
+- **Read it online.** The full book is freely available at the companion website, with dark mode, search, navigation, and interactive tabbed examples across all eight business disciplines.
 - **Read it on paper or e-reader.** Available as a paperback and ebook through Amazon KDP, for those who prefer to read offline or away from a screen.
 - **Converse with it.** The online edition includes a chatbot grounded in the book's content. Ask it questions, challenge its answers, and practise the methodology on the methodology itself.
 - **Feed it to your own AI.** The `llm.txt` file provides a clean text version of the entire book, ready to paste into ChatGPT, Claude, or any AI tool for a conversation about the ideas.
-- **Explore the source.** The full source is on [GitHub](https://github.com/michael-borck/partner-dont-police), including every chapter, the build system, and the revision history. [DeepWiki](https://deepwiki.com/michael-borck/partner-dont-police) provides an AI-navigable view of the repository.
+- **Explore the source.** The full source is on GitHub, including every chapter, the build system, and the revision history.
 - **Browse all books.** This book is part of a series. See all titles at [books.borck.education](https://books.borck.education).
 
 The online version is always the most current. The printed and ebook editions are updated periodically.
 
----
+## The Companion Book
 
-# Related Resources
+The methodology in this book draws on *Conversation, Not Delegation: How to Think With AI, Not Just Use It* (Borck, 2025), which covers the full framework in a discipline-neutral way. If you want the underlying rationale for why these approaches work, or you want to share a version with non-educator colleagues, that book is the place to start. This book is independently complete, but the two are stronger together.
 
-This book applies the methodology developed in **[Conversation, Not Delegation](https://michael-borck.github.io/conversation-not-delegation)** to business education. That companion book covers the full framework in depth: the Conversation Loop, the VET framework for evaluating AI output, the cognitive traps that undermine critical thinking, and the principle of AI Last. If you want the underlying rationale for why the approaches in this book work, or want to share a discipline-neutral version with colleagues or students, start there.
-
-**[Converse Python, Partner AI: The Python Edition](https://michael-borck.github.io/converse-python-partner-ai)** applies the same methodology to programming. While focused on software development, its core principles of maintaining human agency, critical evaluation of AI output, and structured interaction patterns apply across disciplines.
-
----
-
-Let's begin.
+All titles are available at [books.borck.education](https://books.borck.education).

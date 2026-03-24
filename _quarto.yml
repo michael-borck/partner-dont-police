@@ -13,6 +13,7 @@ book:
   chapters:
     - copyright.qmd
     - index.qmd
+    - acknowledgments.qmd
     - introduction.qmd
     - what-is-ai.qmd
     - what-are-llms.qmd

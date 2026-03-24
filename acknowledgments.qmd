@@ -1,0 +1,11 @@
+# Acknowledgments {.unnumbered}
+
+The ideas in this book were developed in classrooms, not in the abstract. The students in my business education units were the first to encounter these approaches — the flight simulators, the critique exercises, the process-based assessments — and their responses shaped every chapter. Some approaches worked immediately. Others failed in ways that were far more instructive than the successes. Both made the book better.
+
+Colleagues across business disciplines provided feedback, scepticism, and the occasional "have you tried this with accounting students?" that sent entire chapters in new directions. Teaching and learning teams provided the institutional context that kept the ideas grounded in what is actually possible within a university semester.
+
+This book draws on the methodology developed in *Conversation, Not Delegation*, and the two books were written in parallel, each sharpening the other. The pedagogical frameworks it builds on — experiential learning, reflective practice, authentic assessment — are not new. What is new is applying them through AI, and that application was only possible because decades of educational research provided the foundation.
+
+The technical infrastructure behind this book is entirely open source. Quarto, Python, GitHub, and GitHub Pages made it possible to write, build, and publish across multiple formats without a traditional publisher. The open source community deserves more credit than it typically receives.
+
+AI tools were used throughout the writing process, as described in the preface of the companion book. Claude (Anthropic) served as a conversation partner for drafting, iterating, and refining. The process was exactly what both books advocate: conversation, not delegation. The author's judgement shaped every page. The AI made the work faster. It did not make the decisions.
