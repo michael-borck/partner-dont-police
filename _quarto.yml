@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: _book
+  resources:
+    - tools/**
 
 book:
   title: "Partner, Don't Police: AI in the Business Classroom"
