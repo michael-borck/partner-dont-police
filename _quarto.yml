@@ -16,41 +16,41 @@ book:
     - copyright.qmd
     - index.qmd
     - acknowledgments.qmd
-    - introduction.qmd
-    - what-is-ai.qmd
-    - what-are-llms.qmd
-    - getting-started.qmd
-    - discovering-your-strategy.qmd
-    - first-steps.qmd
-    - seven-techniques.qmd
-    - managing-context.qmd
-    - flight-simulator.qmd
-    - critique-toolkit.qmd
-    - ethics-integrity.qmd
-    - process-assessment.qmd
-    - group-assessment.qmd
-    - self-assessment.qmd
-    - virtual-company.qmd
-    - unit-design.qmd
-    - static-to-interactive.qmd
-    - from-conversation-to-document.qmd
-    - research-assistant.qmd
-    - advanced-frontiers.qmd
-    - assessment-design.qmd
-    - technical-troubleshooting.qmd
-    - accessibility-inclusion.qmd
-    - global-perspectives.qmd
-    - conclusion.qmd
+    - chapters/introduction.qmd
+    - chapters/what-is-ai.qmd
+    - chapters/what-are-llms.qmd
+    - chapters/getting-started.qmd
+    - chapters/discovering-your-strategy.qmd
+    - chapters/first-steps.qmd
+    - chapters/seven-techniques.qmd
+    - chapters/managing-context.qmd
+    - chapters/flight-simulator.qmd
+    - chapters/critique-toolkit.qmd
+    - chapters/ethics-integrity.qmd
+    - chapters/process-assessment.qmd
+    - chapters/group-assessment.qmd
+    - chapters/self-assessment.qmd
+    - chapters/virtual-company.qmd
+    - chapters/unit-design.qmd
+    - chapters/static-to-interactive.qmd
+    - chapters/from-conversation-to-document.qmd
+    - chapters/research-assistant.qmd
+    - chapters/advanced-frontiers.qmd
+    - chapters/assessment-design.qmd
+    - chapters/technical-troubleshooting.qmd
+    - chapters/accessibility-inclusion.qmd
+    - chapters/global-perspectives.qmd
+    - chapters/conclusion.qmd
   appendices:
-    - prompt-library.qmd
-    - workshop-guide.qmd
-    - curtin-alignment.qmd
-    - advanced-prompting.qmd
-    - craft-vs-create.qmd
-    - rubric-system.qmd
-    - stress-test-sequence.qmd
-    - glossary.qmd
-    - further-reading.qmd
+    - appendices/prompt-library.qmd
+    - appendices/workshop-guide.qmd
+    - appendices/curtin-alignment.qmd
+    - appendices/advanced-prompting.qmd
+    - appendices/craft-vs-create.qmd
+    - appendices/rubric-system.qmd
+    - appendices/stress-test-sequence.qmd
+    - appendices/glossary.qmd
+    - appendices/further-reading.qmd
     - about-author.qmd
   other-links:
     - text: Download PDF
