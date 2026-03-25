@@ -161,7 +161,7 @@ The technical infrastructure behind this book is entirely open source. Quarto, P
 AI tools were used throughout the writing process, as described in the preface of the companion book. Claude (Anthropic) served as a conversation partner for drafting, iterating, and refining. The process was exactly what both books advocate: conversation, not delegation. The author's judgement shaped every page. The AI made the work faster. It did not make the decisions.
 
 ============================================================
-SOURCE: introduction.qmd
+SOURCE: chapters/introduction.qmd
 ============================================================
 
 # Introduction - Why AI Matters for Business Education
@@ -442,7 +442,7 @@ The Appendices give you ready-to-use prompts, a workshop guide for colleagues, a
 Let's begin.
 
 ============================================================
-SOURCE: what-is-ai.qmd
+SOURCE: chapters/what-is-ai.qmd
 ============================================================
 
 # What is AI? Foundations for Educators
@@ -800,7 +800,7 @@ Reality: More relevant data is better. A million irrelevant examples teach AI no
 5. Most value comes from simple, well-scoped applications - you don't need cutting-edge AI to get 80% of the benefits
 
 ============================================================
-SOURCE: what-are-llms.qmd
+SOURCE: chapters/what-are-llms.qmd
 ============================================================
 
 # What are Large Language Models (LLMs)?
@@ -1626,7 +1626,7 @@ During the masterclass:
 See you there!
 
 ============================================================
-SOURCE: getting-started.qmd
+SOURCE: chapters/getting-started.qmd
 ============================================================
 
 # Getting Started - Your First AI Conversation
@@ -2363,7 +2363,7 @@ For now, just be aware: if a long conversation starts feeling unwieldy, that's n
 Next Chapter Preview: In Chapter 3, you'll learn the week-by-week timeline for integrating AI into your teaching. Chapter 4 then introduces seven essential prompting techniques,specific approaches that develop different critical thinking skills in your students. Each technique is more sophisticated than "write a prompt," but all of them build on the foundations you've just mastered.
 
 ============================================================
-SOURCE: discovering-your-strategy.qmd
+SOURCE: chapters/discovering-your-strategy.qmd
 ============================================================
 
 # Discovering Your Teaching Strategy: Using AI to Help You Use AI
@@ -2714,7 +2714,7 @@ Once you know that, everything else in the book becomes more actionable and more
 Start your discovery conversation now. The best use of AI is one that's tailored to your unique teaching context.
 
 ============================================================
-SOURCE: first-steps.qmd
+SOURCE: chapters/first-steps.qmd
 ============================================================
 
 # Your First Steps - A Practical Guide
@@ -3426,7 +3426,7 @@ Now it's time to choose your first small experiment and try it.
 Next Chapter Preview: In Chapter 9, we directly address the academic integrity and ethics question. You'll learn how to talk to students about AI use, how to design assignments that minimise misuse while maximising learning, and how to reframe "preventing AI cheating" as "teaching AI literacy and professional ethics." This is the conversation you'll need to have with students, colleagues, and possibly administrators.
 
 ============================================================
-SOURCE: seven-techniques.qmd
+SOURCE: chapters/seven-techniques.qmd
 ============================================================
 
 # Seven Essential Prompt Techniques for Business Teaching
@@ -4215,7 +4215,7 @@ Remember: these aren't just AI tools,they're pedagogical strategies. The AI just
 Next Chapter Preview: In the next chapter, we'll take the Role Play technique and expand it into a full "Flight Simulator" system. You'll learn how to design high-fidelity simulations, structure the debrief and critique phase, and turn the entire experience into a powerful assessment tool. We'll work through complete examples across disciplines.
 
 ============================================================
-SOURCE: managing-context.qmd
+SOURCE: chapters/managing-context.qmd
 ============================================================
 
 # Managing LLM Context: Working Smarter with AI Conversations
@@ -4703,7 +4703,7 @@ As you do this, notice:
 Then bring that experience to your teaching. Your students will benefit from seeing how you work with AI effectively.
 
 ============================================================
-SOURCE: flight-simulator.qmd
+SOURCE: chapters/flight-simulator.qmd
 ============================================================
 
 # The Flight Simulator - Conversation Simulations
@@ -5159,7 +5159,7 @@ Once you've experienced the full cycle yourself, you'll be ready to introduce it
 Next Chapter Preview: In the next chapter, we'll explore how to use AI as a transparent, ethical self-assessment tool. You'll learn how to give students both the grading rubric and the AI critique prompt upfront, teaching them to use AI responsibly as an advanced editing and analysis tool rather than a shortcut. This shifts the conversation from "preventing AI cheating" to "teaching AI literacy."
 
 ============================================================
-SOURCE: critique-toolkit.qmd
+SOURCE: chapters/critique-toolkit.qmd
 ============================================================
 
 # The AI Critique Toolkit - Becoming a Smart Business Professional
@@ -5593,7 +5593,7 @@ This hands-on experience will help you teach students to be thoughtful, critical
 Next Chapter Preview: In the next chapter, we tackle the ethics and integrity question head-on. You'll learn how to talk to students about AI use, how to design assignments that build AI literacy rather than trying to prevent AI use, and how to frame academic integrity in the context of preparing students for professional practice where AI tools will be commonplace.
 
 ============================================================
-SOURCE: ethics-integrity.qmd
+SOURCE: chapters/ethics-integrity.qmd
 ============================================================
 
 # Ethics, Data Governance & Integrity
@@ -6642,7 +6642,7 @@ Key Teaching Message: Professional excellence in the AI era requires both immedi
 Next Section Preview: The Appendices provide ready-to-use resources: a prompt library you can copy and adapt immediately, a one-hour workshop guide for introducing these ideas to colleagues, and a framework for aligning AI integration with your institution's learning outcomes.
 
 ============================================================
-SOURCE: process-assessment.qmd
+SOURCE: chapters/process-assessment.qmd
 ============================================================
 
 # Process Over Product - Rethinking Assessment
@@ -7487,7 +7487,7 @@ You don't have to implement it immediately. Just think through how the shift fro
 Next Chapter Preview: The next chapter extends these principles into group assessment, where AI creates three genuinely new problems (the rewritten section problem, the free rider via AI problem, and a sharpened attribution problem) and where a process-over-product marks structure resolves the oldest student complaint about group work: that someone else's lack of effort directly affects your mark.
 
 ============================================================
-SOURCE: group-assessment.qmd
+SOURCE: chapters/group-assessment.qmd
 ============================================================
 
 # Group Assessment in the AI Era
@@ -7678,7 +7678,7 @@ If you currently run a group assessment, try this: take the team contract templa
 If you do not currently run group assessments, consider whether the individual process-over-product approach from the previous chapter could be extended to a collaborative context in your discipline.
 
 ============================================================
-SOURCE: self-assessment.qmd
+SOURCE: chapters/self-assessment.qmd
 ============================================================
 
 # AI as Study Buddy - Self-Assessment Tool
@@ -8229,7 +8229,7 @@ Once you've tested it, you're ready to introduce this model in your class.
 Next Chapter Preview: In the next chapter, we'll explore advanced applications and considerations for scaling AI-enhanced teaching across your programme. We'll discuss how to maintain quality, support different student needs, and prepare students for an AI-integrated professional landscape.
 
 ============================================================
-SOURCE: virtual-company.qmd
+SOURCE: chapters/virtual-company.qmd
 ============================================================
 
 # Virtual Company Simulation (Future Horizon)
@@ -8749,7 +8749,7 @@ Choose what feels manageable for your current teaching load and technical comfor
 Next Chapter Preview: In the next chapter, we shift from "how to use AI tools" to "how to rethink assessment." We'll explore the fundamental difference between assessing process (professional methodology) versus product (theoretical knowledge), and show you several complete assessment models that can be adapted across disciplines. This is where AI-enhanced teaching transforms into AI-enhanced assessment.
 
 ============================================================
-SOURCE: unit-design.qmd
+SOURCE: chapters/unit-design.qmd
 ============================================================
 
 # Designing an AI-Integrated Unit
@@ -9530,7 +9530,7 @@ You can refine each semester based on what you learn.
 Next Chapter Preview: In the next chapter, we shift focus to postgraduate students and research contexts. You'll learn how to use AI as a research assistant,for literature review, data analysis, research question development, and critical synthesis,while maintaining academic rigor and original thinking. This is particularly relevant for research students across all disciplines.
 
 ============================================================
-SOURCE: static-to-interactive.qmd
+SOURCE: chapters/static-to-interactive.qmd
 ============================================================
 
 # From Static to Interactive - AI-Powered Activity Transformation
@@ -10119,7 +10119,7 @@ Key Principle: This chapter focuses on practical transformations you can do toda
 This chapter bridges the gap between static content and interactive learning experiences, making your teaching materials more engaging and effective across all business disciplines.
 
 ============================================================
-SOURCE: from-conversation-to-document.qmd
+SOURCE: chapters/from-conversation-to-document.qmd
 ============================================================
 
 # From Conversation to Document: AI-Generated Office Suite Deliverables
@@ -10606,7 +10606,7 @@ Try this in your own work:
 Then bring that experience to your teaching. Your students will understand the power---and the responsibility---much more clearly when you've tried it yourself.
 
 ============================================================
-SOURCE: research-assistant.qmd
+SOURCE: chapters/research-assistant.qmd
 ============================================================
 
 # The Research Assistant (Postgraduate Focus)
@@ -11495,7 +11495,7 @@ In the next chapter, we explore how to make static teaching content interactive,
 Cross-Reference: For detailed guidance on creating Word documents, PowerPoint presentations, and other office suite outputs from AI conversations, see Chapter 14: From Conversation to Document. That chapter provides step-by-step workflows and discipline-specific examples for all the document generation scenarios mentioned above.
 
 ============================================================
-SOURCE: advanced-frontiers.qmd
+SOURCE: chapters/advanced-frontiers.qmd
 ============================================================
 
 # Advanced Frontiers: Agents, Automation & Emerging Capabilities
@@ -12319,7 +12319,7 @@ This chapter explores emerging capabilities at the frontier of AI in education. 
 And when you do explore the frontiers, bring your ethical compass (Chapter 8) with you.
 
 ============================================================
-SOURCE: assessment-design.qmd
+SOURCE: chapters/assessment-design.qmd
 ============================================================
 
 # Assessment Design and Evaluation Rubrics
@@ -12749,7 +12749,7 @@ By implementing these assessment approaches, educators can maintain academic sta
 Next Chapter Preview: Chapter 20 addresses the technical challenges that can arise when implementing AI-enhanced teaching, providing troubleshooting strategies and risk management approaches for common technology failures and limitations.
 
 ============================================================
-SOURCE: technical-troubleshooting.qmd
+SOURCE: chapters/technical-troubleshooting.qmd
 ============================================================
 
 # Technical Troubleshooting and Risk Management
@@ -13228,7 +13228,7 @@ By implementing the troubleshooting strategies and risk management frameworks in
 Next Chapter Preview: Chapter 21 addresses accessibility and inclusive design considerations, ensuring AI integration benefits all students regardless of their abilities, backgrounds, or circumstances.
 
 ============================================================
-SOURCE: accessibility-inclusion.qmd
+SOURCE: chapters/accessibility-inclusion.qmd
 ============================================================
 
 # Accessibility and Inclusive AI Integration
@@ -13643,7 +13643,7 @@ By implementing these approaches, educators can create AI-enhanced learning expe
 Next Chapter Preview: Chapter 22 explores global perspectives and cultural adaptation, providing frameworks for implementing AI-enhanced teaching across different international contexts and educational systems.
 
 ============================================================
-SOURCE: global-perspectives.qmd
+SOURCE: chapters/global-perspectives.qmd
 ============================================================
 
 # Global Perspectives and Adaptation
@@ -14091,7 +14091,7 @@ By applying these adaptation frameworks, educators can effectively implement AI-
 Final Chapter: This concludes the comprehensive guide to AI integration in business education. Educators now have the tools, frameworks, and strategies needed to transform their teaching while preparing students for professional success in an AI-augmented world.
 
 ============================================================
-SOURCE: conclusion.qmd
+SOURCE: chapters/conclusion.qmd
 ============================================================
 
 # Conclusion: Where Do We Go From Here?
@@ -14503,7 +14503,7 @@ Disclaimer: AI technology evolves rapidly. Specific tools and capabilities descr
 For copyright, licensing, and citation information, see the Copyright page.
 
 ============================================================
-SOURCE: prompt-library.qmd
+SOURCE: appendices/prompt-library.qmd
 ============================================================
 
 # Ready-to-Use Prompt Library
@@ -14951,7 +14951,7 @@ Remember: These prompts are starting points. The best prompts you'll use are the
 Good luck, and happy prompting!
 
 ============================================================
-SOURCE: workshop-guide.qmd
+SOURCE: appendices/workshop-guide.qmd
 ============================================================
 
 # Workshop Guide: Training Your Colleagues
@@ -15475,7 +15475,7 @@ Cross-reference: Use this appendix alongside Chapter 9: Ethics, Data Governance 
 Good luck with your workshop!
 
 ============================================================
-SOURCE: curtin-alignment.qmd
+SOURCE: appendices/institutional-alignment.qmd
 ============================================================
 
 # Aligning AI Integration with Institutional Learning Outcomes
@@ -15729,7 +15729,7 @@ If you are a business educator interested in exploring AI integration:
 The future of business education includes AI. Your institution has the opportunity to lead in preparing professionals who are not just competent with technology, but ethically and critically engaged with it.
 
 ============================================================
-SOURCE: advanced-prompting.qmd
+SOURCE: appendices/advanced-prompting.qmd
 ============================================================
 
 # Advanced Prompting for Business Education
@@ -16014,7 +16014,7 @@ Adapt these HR-focused examples to your discipline by:
 Return to main chapters for practical applications, or continue experimenting with these advanced techniques as your confidence grows. Your discipline-specific expertise will make these prompts even more powerful.
 
 ============================================================
-SOURCE: craft-vs-create.qmd
+SOURCE: appendices/craft-vs-create.qmd
 ============================================================
 
 # Prompting Frameworks Compared 
@@ -16103,7 +16103,7 @@ No framework will save you from a lazy conversation. A perfectly structured CRAF
 The frameworks in this appendix help you start well. The techniques in this book, the seven prompting techniques, the flight simulator, the critique toolkit, help you stay in the conversation after the opening prompt. The combination is what produces work worth putting your name on.
 
 ============================================================
-SOURCE: rubric-system.qmd
+SOURCE: appendices/rubric-system.qmd
 ============================================================
 
 # AI-Integrated Assessment Rubric System 
@@ -16468,7 +16468,7 @@ When adapting for your specific assessment:
 - Mollick, E. R., & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. arXiv preprint.
 
 ============================================================
-SOURCE: stress-test-sequence.qmd
+SOURCE: appendices/stress-test-sequence.qmd
 ============================================================
 
 # Assessment AI Stress Test: A Prompt Sequence 
@@ -16679,7 +16679,7 @@ On reflective writing:
 This prompt sequence was developed through the SoMM AI Facilitator role. Share freely. Adapt for your own context.
 
 ============================================================
-SOURCE: glossary.qmd
+SOURCE: appendices/glossary.qmd
 ============================================================
 
 # Glossary
@@ -16789,7 +16789,7 @@ Virtual Company: Simulated business environments created through AI conversation
 /Users/michael/Projects/ai-as-a-teaching-partner/glossary.qmd
 
 ============================================================
-SOURCE: further-reading.qmd
+SOURCE: appendices/further-reading.qmd
 ============================================================
 
 # Further Reading 
