@@ -44,7 +44,7 @@ book:
   appendices:
     - appendices/prompt-library.qmd
     - appendices/workshop-guide.qmd
-    - appendices/curtin-alignment.qmd
+    - appendices/institutional-alignment.qmd
     - appendices/advanced-prompting.qmd
     - appendices/craft-vs-create.qmd
     - appendices/rubric-system.qmd

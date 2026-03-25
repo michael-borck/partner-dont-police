@@ -40,7 +40,7 @@ This Quarto book provides practical, evidence-based approaches to using generati
 ### 4 Appendices
 - **Prompt Library** - Ready-to-use prompts with cross-discipline adaptations
 - **Workshop Guide** - Practical training materials for colleagues
-- **Curtin Alignment** - Institutional alignment with learning outcomes
+- **Institutional Alignment** - Mapping AI integration to programme learning outcomes
 - **Advanced Prompting** - Deep dive into sophisticated prompting techniques
 
 ### Multidisciplinary Approach
@@ -80,15 +80,13 @@ quarto preview
 
 Output will be in the `_book/` directory.
 
-### Customizing for Your Institution
+### Adapting for Your Institution
 
-The book is designed around Curtin University but can be easily adapted:
+The book is designed to be institution-neutral. To adapt for your context:
 
-1. **Update title and author** in `_quarto.yml`
-2. **Modify examples** to reference your institution
-3. **Adjust learning outcomes** in appendix C to match your program
-4. **Update institutional policies** in relevant chapters
-5. **Add discipline-specific content** using the existing tabbed structure
+1. **Adjust learning outcomes** in the Institutional Alignment appendix to match your programme
+2. **Update institutional policies** referenced in relevant chapters
+3. **Add discipline-specific content** using the existing tabbed structure
 
 ## Project Structure
 
@@ -198,14 +196,6 @@ Use Appendix B (Workshop Guide) for colleague training that:
 3. Add discipline-specific learning outcomes to Chapter 1
 4. Customize Chapter 13 (Unit Design) with your program's structure
 5. Update Appendix C with your institution's alignment
-
-### For a Different Institution
-
-1. Search for "Curtin" and replace with your institution name
-2. Update Appendix C learning outcomes to match your program
-3. Modify Chapter 4 (First Steps) implementation timeline if needed
-4. Update any institutional policy references
-5. Adjust examples to match your local context
 
 ### For Advanced Users
 
