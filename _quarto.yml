@@ -58,6 +58,15 @@ book:
     - text: All Books
       icon: collection
       href: https://books.borck.education
+    - text: Amazon
+      icon: cart
+      href: https://www.amazon.com.au/s?k=9798254236191
+    - text: Prompt Library
+      icon: list-task
+      href: tools/prompt-library.md
+    - text: Workshop Guide
+      icon: easel
+      href: tools/workshop-guide.md
 
 format:
   html:
