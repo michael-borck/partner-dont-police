@@ -52,7 +52,7 @@ You don't need to implement everything in this book. You don't need to redesign 
 Choose the smallest experiment that feels manageable:
 
 ### Option 1: Try It Yourself (This Week)
-- Pick one prompt from Appendix A
+- Pick one prompt from the examples in this book
 - Generate a teaching resource you actually need (case study, practice questions, discussion prompts)
 - Use it in your next class
 - See what happens
@@ -328,10 +328,10 @@ AI in education isn't settled science. We're all figuring this out together---wh
 
 You have:
 - The knowledge (this book)
-- The tools (Appendix A)
 - The frameworks (Chapters 4-11)
-- The support structures (Appendices B-C)
-- The institutional alignment framework (Appendix C)
+- The institutional alignment framework (Appendix A)
+- The rubrics and stress tests (Appendices B-C)
+- Downloadable prompts and workshop materials at the companion website
 
 **What you need now is courage.**
 

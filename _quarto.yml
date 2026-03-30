@@ -42,11 +42,7 @@ book:
     - chapters/global-perspectives.qmd
     - chapters/conclusion.qmd
   appendices:
-    - appendices/prompt-library.qmd
-    - appendices/workshop-guide.qmd
     - appendices/institutional-alignment.qmd
-    - appendices/advanced-prompting.qmd
-    - appendices/craft-vs-create.qmd
     - appendices/rubric-system.qmd
     - appendices/stress-test-sequence.qmd
     - appendices/glossary.qmd

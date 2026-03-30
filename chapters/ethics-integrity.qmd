@@ -1151,4 +1151,4 @@ The distinction between Black and Grey Swan events helps students understand dif
 
 ---
 
-**Next Section Preview:** The Appendices provide ready-to-use resources: a prompt library you can copy and adapt immediately, a one-hour workshop guide for introducing these ideas to colleagues, and a framework for aligning AI integration with your institution's learning outcomes.
+**Next Section Preview:** The Appendices provide resources for implementation: a framework for aligning AI integration with your institution's learning outcomes, rubrics for assessing AI-enhanced work, and a stress test sequence for validating your assessment designs.

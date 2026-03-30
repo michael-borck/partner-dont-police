@@ -313,7 +313,7 @@ This framework works whether you're using ChatGPT, Copilot, Claude, or any other
 
 **Important caveat:** CRAFT is not the only way to prompt effectively. Some educators find other frameworks work better for them. Some prefer different approaches entirely. The goal isn't to follow CRAFT rigidly---it's to **think intentionally about what you're asking the AI to do**.
 
-For example, the **C.R.E.A.T.E.** framework takes a different approach, emphasising examples and iterative refinement rather than upfront context. See **Appendix E** for a detailed comparison of C.R.E.A.T.E. vs. C.R.A.F.T. frameworks.
+For example, the **C.R.E.A.T.E.** framework takes a different approach, emphasising examples and iterative refinement rather than upfront context. The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several prompting frameworks side by side.
 
 ### The CRAFT Acronym
 
