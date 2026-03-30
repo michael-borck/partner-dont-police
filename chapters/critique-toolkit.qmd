@@ -19,64 +19,13 @@ The difference between good business professionals and great ones isn't whether 
 
 **Scenario Examples Across Disciplines**:
 
-::: {.panel-tabset}
-
-## HR
-Your AI assistant generates a new performance review policy. You implement it without thorough review. Three months later:
-
-- Policy doesn't comply with Fair Work Act requirements
-- Creates unintended pay equity issues
-- Managers spend 15 hours per employee instead of 2
-- Employee satisfaction drops 20%
-
-## Finance
-Your AI generates an investment recommendation. You present it to the board without validating assumptions. Later you discover:
-
-- Key financial assumptions were outdated
-- Risk profile didn't match your organisation's tolerance
-- Tax implications weren't considered
-- Portfolio is now exposed to unexpected losses
-
-## Supply Chain
-Your AI recommends a supplier consolidation strategy. You implement without operational testing. Results:
-
-- Single supplier can't actually scale to your volumes
-- Quality issues emerge under real-world conditions
-- You've lost relationship with backup suppliers
-- Delivery disruptions cascade through operations
-
-## Management
+::: {.callout-tip title="Example: Management"}
 Your AI generates a change management plan. You follow it without stakeholder testing. Outcomes:
 
 - Key influencers weren't engaged early enough
 - Communication messaging doesn't resonate with your culture
 - Implementation timeline is unrealistic given other priorities
 - Change initiative stalls after initial enthusiasm
-
-## Marketing
-Your AI recommends a campaign strategy. You launch without market validation. Results:
-
-- Assumptions about target audience are incorrect
-- Budget allocation doesn't match actual customer behaviour
-- Messaging alienates key segments
-- Campaign underperforms significantly
-
-## Economics
-Your AI generates an economic forecast for a regional development proposal. You present it to the planning committee without validation. Later you discover:
-
-- The model assumed national-level trends without adjusting for local market structure
-- Key structural factors like industry concentration and labour mobility were ignored
-- Correlations were presented as causal relationships, misleading policy recommendations
-- Forecast failed to account for seasonal and cyclical patterns specific to the region
-
-## Tourism & Hospitality
-Your AI generates a guest experience strategy for a coastal resort. You implement it across all properties without review. Results:
-
-- Strategy ignores seasonal demand patterns, leading to overstaffing in low season and understaffing in peak
-- Recommended pricing model doesn't account for tourism industry regulations and rate parity agreements
-- Marketing content uses culturally insensitive language for key international visitor segments
-- Guest satisfaction drops as the one-size-fits-all approach fails across different property types
-
 :::
 
 **Lesson**: Always critique AI-generated recommendations thoroughly before implementation, regardless of discipline.
@@ -146,48 +95,10 @@ AI suggests a sophisticated 360-degree feedback system with custom software, ext
 
 **Your Response** (discipline-specific examples):
 
-::: {.panel-tabset}
-
-## HR
-- "How does this comply with employment law and our awards?"
-- "What are discrimination and privacy risks?"
-- "What union/employee representative concerns might arise?"
-
-## Finance
-- "What are the tax, accounting, and audit implications?"
-- "What regulatory compliance issues need addressing?"
-- "What financial and counterparty risks exist?"
-
-## Supply Chain
+::: {.callout-tip title="Example: Supply Chain"}
 - "What are the operational and financial risks?"
 - "How does this affect compliance and sustainability?"
 - "What supply chain resilience issues exist?"
-
-## Information Systems
-- "What are the security and data protection implications?"
-- "What systems integration and technical risks exist?"
-- "What compliance standards apply (GDPR, industry-specific)?"
-
-## Marketing
-- "What consumer protection and advertising law issues apply?"
-- "What reputation and brand risks exist?"
-- "What data privacy considerations are relevant?"
-
-## Management
-- "What change management and organisational risks exist?"
-- "What stakeholder and communication risks could arise?"
-- "What strategic alignment and feasibility issues exist?"
-
-## Economics
-- "What assumptions is this model making about market structure and behaviour?"
-- "Are there endogeneity or confounding variable problems in this analysis?"
-- "What policy or regulatory constraints would affect these recommendations?"
-
-## Tourism & Hospitality
-- "What tourism-specific regulations apply (licensing, health and safety, consumer guarantees)?"
-- "What cultural sensitivity and accessibility issues exist for diverse visitor markets?"
-- "What seasonal, environmental, or destination-specific risks need to be considered?"
-
 :::
 
 **Critical Questions to Always Ask** (across all disciplines):
@@ -248,50 +159,11 @@ Always consider:
 
 **AI Tendency**: Creates comprehensive but unimplementable recommendations
 
-::: {.panel-tabset}
-
-## HR
-```
-AI might suggest: A 45-page policy covering every scenario
-Better: A 3-page policy with core principles and escalation procedures
-```
-
-## Finance
-```
-AI might suggest: Comprehensive 10-step investment analysis process
-Better: A streamlined 4-step analysis focusing on key decision factors
-```
-
-## Supply Chain
-```
-AI might suggest: Complex multi-supplier strategy with extensive metrics
-Better: A phased approach starting with pilot suppliers
-```
-
-## Marketing
-```
-AI might suggest: 15-channel integrated campaign across all platforms
-Better: Focus on 3-4 highest-ROI channels aligned with target audience
-```
-
-## Management
-```
-AI might suggest: Comprehensive change plan with daily activities
-Better: Milestone-based plan with key decision gates
-```
-
-## Economics
-```
-AI might suggest: Full general equilibrium model with 30 interacting variables
-Better: A focused partial equilibrium analysis targeting the 3-4 key drivers
-```
-
-## Tourism & Hospitality
+::: {.callout-tip title="Example: Tourism & Hospitality"}
 ```
 AI might suggest: 20-touchpoint guest journey map with personalisation at every stage
 Better: Focus on the 5 moments that most influence guest satisfaction and rebooking
 ```
-
 :::
 
 **Your Direction**: "Start with the 80/20 rule---what 20% will address 80% of situations?"
@@ -300,44 +172,11 @@ Better: Focus on the 5 moments that most influence guest satisfaction and rebook
 
 **AI Tendency**: Focuses on best practices without considering legal, technical, or operational realities
 
-::: {.panel-tabset}
-
-## HR
-```
-AI might write: "Implement flexible work arrangements based on preferences"
-Better: "Implement flexible work in accordance with Fair Work Act, with consistent documentation and approval processes"
-```
-
-## Finance
-```
-AI might write: "optimise portfolio for maximum returns"
-Better: "optimise portfolio within our risk tolerance, liquidity needs, and tax constraints"
-```
-
-## IT
-```
-AI might write: "Migrate to cloud-based systems for efficiency"
-Better: "Migrate to cloud while maintaining security standards, data residency requirements, and legacy system integration"
-```
-
-## Supply Chain
-```
-AI might write: "Consolidate to single suppliers for cost savings"
-Better: "Evaluate consolidation considering resilience, backup capacity, and regulatory requirements"
-```
-
-## Economics
+::: {.callout-tip title="Example: Economics"}
 ```
 AI might write: "Reduce interest rates to stimulate growth"
 Better: "Evaluate rate adjustments considering inflation expectations, exchange rate effects, household debt levels, and transmission mechanism lags"
 ```
-
-## Tourism & Hospitality
-```
-AI might write: "Increase room rates during peak season to maximise revenue"
-Better: "Adjust pricing within rate parity agreements, considering repeat guest loyalty, OTA commission structures, and consumer protection requirements"
-```
-
 :::
 
 **Your Direction**: "What are our legal/technical/operational obligations and constraints?"
@@ -346,44 +185,11 @@ Better: "Adjust pricing within rate parity agreements, considering repeat guest 
 
 **AI Tendency**: Provides generic advice without organisational context
 
-::: {.panel-tabset}
-
-## HR
-```
-AI might suggest: "Implement standard performance review across all departments"
-Better: "Implement core framework with adaptations for customer-facing, technical, and creative roles"
-```
-
-## Finance
+::: {.callout-tip title="Example: Finance"}
 ```
 AI might suggest: "Apply standard financial ratios for all investment decisions"
 Better: "Apply ratios adjusted for industry, company stage, and investment type"
 ```
-
-## Marketing
-```
-AI might suggest: "Use same messaging for all customer segments"
-Better: "Develop segment-specific messaging aligned with different customer priorities"
-```
-
-## Supply Chain
-```
-AI might suggest: "Implement same metrics for all suppliers"
-Better: "Use differentiated metrics based on supplier criticality and category"
-```
-
-## Economics
-```
-AI might suggest: "Apply standard GDP multiplier to estimate project impact"
-Better: "Use multipliers adjusted for regional economic structure, leakage rates, and labour market conditions"
-```
-
-## Tourism & Hospitality
-```
-AI might suggest: "Use the same service standards across all properties"
-Better: "Adapt service delivery to property type, guest segment, and cultural expectations of primary visitor markets"
-```
-
 :::
 
 **Your Direction**: "How should this be adapted for our specific context, constraints, and different situations?"
@@ -561,5 +367,3 @@ Before moving to the next chapter, practice the critique framework:
 This hands-on experience will help you teach students to be thoughtful, critical users of AI rather than passive consumers of AI-generated content.
 
 ---
-
-**Next Chapter Preview:** In the next chapter, we tackle the ethics and integrity question head-on. You'll learn how to talk to students about AI use, how to design assignments that build AI literacy rather than trying to prevent AI use, and how to frame academic integrity in the context of preparing students for professional practice where AI tools will be commonplace.

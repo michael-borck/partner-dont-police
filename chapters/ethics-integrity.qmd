@@ -20,7 +20,7 @@ Detection-based approaches to AI use assume that AI-generated work can be identi
 
 1. Detection tools produce false positives and false negatives at rates that make them unreliable as assessment instruments
 2. Iterative AI prompting, guided by specific personal context, produces output that is increasingly difficult to distinguish from genuine student work
-3. The components most commonly assumed to be AI-resistant (reflective writing, sociotechnical analysis, lecture cross-referencing) are now completable with freely available tools once students can feed unit materials directly into AI systems (see @sec-notebooklm-infrastructure for a detailed treatment of this shift)
+3. The components most commonly assumed to be AI-resistant (reflective writing, sociotechnical analysis, lecture cross-referencing) are now completable with freely available tools once students can feed unit materials directly into AI systems (see the Assessment chapter for a detailed treatment of this shift)
 
 There is a deeper problem that is rarely acknowledged: AI detection tools are built on a single assumption about how students use AI. They assume one-shot delegation: a student who hands a task to AI and submits whatever comes back. The output of that process has certain statistical properties, and detectors are trained to find them.
 
@@ -46,43 +46,12 @@ The first framing treats AI as a threat to be controlled. The second treats AI l
 
 As a business educator across any discipline, you're not preparing students for a world without AI. You're preparing them for a world where AI tools will be discipline-specific but ubiquitous. Your graduates will use these tools:
 
-::: {.panel-tabset}
-
-## HR
-- Screen resumes and identify candidates
-- Draft employment contracts and policies
-- Analyse workforce data and predict turnover
-- Generate interview questions and assessment criteria
-- summarise complex legislation and case law
-
-## Finance
-- Analyse financial statements and identify anomalies
-- Generate investment recommendations
-- Perform risk assessments and stress testing
-- summarise regulatory requirements and tax implications
-- Forecast financial performance
-
-## Supply Chain
-- Forecast demand and optimise inventory
-- Identify supplier risks and opportunities
-- optimise logistics networks and routes
-- Analyse supply chain resilience
-- Generate sourcing recommendations
-
-## Marketing
+::: {.callout-tip title="Example: Marketing"}
 - Analyse customer data and segment audiences
 - Generate campaign strategies and content
 - Predict customer behaviour and preferences
-- optimise pricing and promotional strategies
+- Optimise pricing and promotional strategies
 - Analyse competitive positioning
-
-## Information Systems
-- Generate code and identify bugs
-- Design system architectures
-- Assess technology risks and security
-- Create project plans and estimates
-- Analyse requirements and specifications
-
 :::
 
 Your graduates will use these tools. The question is: **Will they use them competently and ethically, or incompetently and recklessly?**
@@ -551,29 +520,7 @@ Even with well-designed assignments, some students will try to misuse AI. Here's
 
 One of the most powerful ways to address integrity is to make it a learning objective. Teach students to identify ethical problems with AI use *through discipline-specific scenarios*.
 
-::: {.panel-tabset}
-
-## HR Exercise: The Flawed AI Termination Memo
-
-**Assignment:**
-
-> "Use AI to draft a termination letter for an employee being dismissed for poor performance after a 60-day PIP.
->
-> Then conduct an ethical audit:
-> - What did the AI include that could create legal risk?
-> - What did the AI omit that's legally required?
-> - What tone or language choices are problematic?
-> - How would you revise this to ensure procedural fairness?
->
-> Your grade is based on how thoroughly you identify problems, not on the quality of AI's original output."
-
-**What students learn:**
-- AI can confidently generate legally dangerous content
-- They must verify and correct AI outputs
-- Professional accountability can't be delegated to AI
-
-## Finance Exercise: The Flawed AI Investment Recommendation
-
+::: {.callout-tip title="Example: Finance Exercise — The Flawed AI Investment Recommendation"}
 **Assignment:**
 
 > "Use AI to recommend an investment portfolio allocation. Then conduct a critical audit:
@@ -588,58 +535,6 @@ One of the most powerful ways to address integrity is to make it a learning obje
 - AI can confidently recommend financially risky strategies
 - Assumptions must be verified and challenged
 - Professional accountability for recommendations can't be delegated
-
-## Supply Chain Exercise: The Flawed AI Supplier Strategy
-
-**Assignment:**
-
-> "Use AI to recommend a supplier consolidation strategy. Then conduct a critical audit:
-> - What supply chain risks did the AI overlook?
-> - What supplier relationship and quality considerations are missing?
-> - What operational constraints wasn't the AI aware of?
-> - How would you revise this strategy with on-the-ground knowledge?
->
-> Your grade is based on how thoroughly you identify problems and improvements."
-
-**What students learn:**
-- AI can oversimplify complex supply chain decisions
-- Operational reality must inform strategy
-- Professional judgment about supplier relationships is essential
-
-## Marketing Exercise: The Flawed AI Campaign Strategy
-
-**Assignment:**
-
-> "Use AI to generate a campaign strategy for a target market. Then conduct a critical audit:
-> - What customer insights did the AI miss or misinterpret?
-> - What competitive or market factors aren't addressed?
-> - What cultural or regional sensitivities might cause problems?
-> - How would you revise this with real market knowledge?
->
-> Your grade is based on how thoroughly you identify problems and improvements."
-
-**What students learn:**
-- AI can generate culturally insensitive or market-misaligned strategies
-- Customer understanding must verify AI outputs
-- Professional judgment about market nuance is irreplaceable
-
-## Information Systems Exercise: The Flawed AI System Design
-
-**Assignment:**
-
-> "Use AI to generate system requirements and architecture for a business problem. Then conduct a critical audit:
-> - What technical feasibility concerns exist?
-> - What security or compliance risks are overlooked?
-> - What integration challenges with existing systems aren't considered?
-> - How would you revise this design with technical expertise?
->
-> Your grade is based on how thoroughly you identify problems and improvements."
-
-**What students learn:**
-- AI can generate technically unrealistic designs
-- Feasibility and constraints must be verified
-- Professional technical judgment is essential
-
 :::
 
 **Common Learning Outcome Across All Disciplines:**
@@ -651,10 +546,7 @@ One of the most powerful ways to address integrity is to make it a learning obje
 
 **Discipline-specific scenarios:**
 
-::: {.panel-tabset}
-
-## HR: The Biased Resume Screening Tool
-
+::: {.callout-tip title="Example: HR — The Biased Resume Screening Tool"}
 > "Your company uses an AI resume screening tool. You notice it consistently ranks candidates from certain universities higher and flags career gaps as negative. Three rejected candidates have complained the process seems unfair.
 >
 > As the HR manager:
@@ -662,37 +554,6 @@ One of the most powerful ways to address integrity is to make it a learning obje
 > 2. What's your legal risk?
 > 3. Who is accountable for the AI's decisions?
 > 4. What would you do to address this situation?"
-
-## Finance: The Biased Credit Risk Model
-
-> "Your company uses an AI credit risk model for loan decisions. You discover it systematically rates applicants from certain zip codes as higher risk, even when other factors are equivalent. Multiple applicants have filed complaints.
->
-> As the finance manager:
-> 1. What are the ethical and legal concerns?
-> 2. What's the regulatory risk?
-> 3. Who is accountable for discriminatory decisions?
-> 4. What would you do to address this?"
-
-## Supply Chain: The Biased Supplier Rating System
-
-> "Your AI supplier rating system consistently rates suppliers from certain regions lower, even when quality metrics are equivalent. Key suppliers have complained and are considering leaving.
->
-> As the supply chain manager:
-> 1. What are the fairness and business risks?
-> 2. What relationship and reputational damage might occur?
-> 3. Who is accountable for biased evaluations?
-> 4. How would you address this?"
-
-## Marketing: The Biased Customer Segmentation
-
-> "Your AI customer segmentation tool shows significant demographic bias in targeting. Certain groups are consistently excluded from high-value segment classifications. Customer advocacy groups have raised concerns.
->
-> As the marketing manager:
-> 1. What are the ethical and business risks?
-> 2. What's the reputational impact?
-> 3. Who is accountable for discriminatory targeting?
-> 4. How would you address this?"
-
 :::
 
 **What students learn (across all disciplines):**
@@ -704,30 +565,7 @@ One of the most powerful ways to address integrity is to make it a learning obje
 
 **Discipline-specific scenarios:**
 
-::: {.panel-tabset}
-
-## HR: The Over-Reliance on Turnover Analysis
-
-> "You used AI to analyse exit interview data and generate turnover reduction recommendations. You presented them to senior management and implemented them. Six months later, turnover has increased.
->
-> Reflection questions:
-> 1. What might the AI have missed in its analysis?
-> 2. What was your professional responsibility before presenting AI recommendations?
-> 3. How do you explain this outcome to management?
-> 4. What does this teach you about using AI in strategic decisions?"
-
-## Finance: The Over-Reliance on Market Forecasting
-
-> "You used AI to forecast market conditions and recommend investment positions. You presented them to the board and implemented them. Three months later, markets moved contrary to the forecast and positions are significantly underwater.
->
-> Reflection questions:
-> 1. What factors might the AI have missed?
-> 2. What was your professional responsibility in validating the forecast?
-> 3. How do you explain this to the board?
-> 4. What does this teach you about AI-assisted decisions?"
-
-## Supply Chain: The Over-Reliance on Demand Forecasting
-
+::: {.callout-tip title="Example: Supply Chain — The Over-Reliance on Demand Forecasting"}
 > "You used AI to forecast demand and optimise inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.
 >
 > Reflection questions:
@@ -735,7 +573,6 @@ One of the most powerful ways to address integrity is to make it a learning obje
 > 2. What was your responsibility to validate the forecast?
 > 3. How do you explain this to operations and customers?
 > 4. What does this teach you about AI forecasting?"
-
 :::
 
 **What students learn (across all disciplines):**
@@ -832,38 +669,11 @@ Here's a question to leave with:
 
 When your graduates enter the workforce across all business disciplines, they will encounter AI in their work:
 
-::: {.panel-tabset}
-
-## HR
-- AI-powered recruitment systems making hiring decisions
-- Automated performance monitoring and evaluation tools
-- AI chatbots handling employee queries
-- Algorithmic workforce management systems
-
-## Finance
+::: {.callout-tip title="Example: Accounting & Finance"}
 - AI-powered investment recommendation systems
 - Automated risk assessment and credit scoring
 - Algorithmic trading and portfolio management
 - AI-generated financial forecasts and analysis
-
-## Supply Chain
-- AI demand forecasting and inventory optimisation
-- Algorithmic supplier selection and evaluation
-- Automated logistics optimisation
-- AI-driven supply chain risk assessment
-
-## Marketing
-- AI-powered customer segmentation and targeting
-- Algorithmic campaign optimisation
-- AI-generated content and recommendations
-- Automated personalisation at scale
-
-## Information Systems
-- AI-assisted code generation and testing
-- Automated system design and architecture
-- AI-powered security threat detection
-- Algorithmic project planning and estimation
-
 :::
 
 If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**---not through malice, but through incompetence.
@@ -880,7 +690,7 @@ Teaching them to use AI transparently, critically, and responsibly in your cours
 
 The academic integrity line that holds up under scrutiny is not *don't use AI* or even *declare AI use*, but rather: **do not misrepresent how you arrived at your ideas.** That principle applies equally to undeclared collaboration with a classmate, copying from a blog, or delegating wholesale to an AI tool.
 
-The student who genuinely thinks with AI has nothing to hide. An assessment design that makes that thinking visible serves everyone better than one that tries to detect its absence. For practical approaches to making thinking visible through transcript analysis and process evidence, see @sec-transcript-analysis.
+The student who genuinely thinks with AI has nothing to hide. An assessment design that makes that thinking visible serves everyone better than one that tries to detect its absence. For practical approaches to making thinking visible through transcript analysis and process evidence, see the Assessment chapter.
 
 ---
 
@@ -982,38 +792,7 @@ This isn't about predicting the future. It's about building the capacity to adap
 
 Understanding these events through your discipline's lens makes them concrete and actionable for students.
 
-::: {.panel-tabset}
-
-## Human Resources
-
-### Grey Swan Events (Predictable but often neglected)
-
-**Workforce Surveillance Revolution:** AI monitoring tools become sophisticated enough to track every employee action, keystroke, and communication pattern. While technically possible, many organisations ignore the ethical and legal implications until faced with massive privacy lawsuits or employee revolts.
-
-**Skills Obsolescence Cascade:** AI automation suddenly makes entire job categories obsolete across multiple industries simultaneously. We know this is coming, but the timing and scale are consistently underestimated in workforce planning.
-
-### Black Swan Events (Truly unpredictable)
-
-**Emergent Emotional Intelligence:** An AI system develops genuine emotional understanding and empathy capabilities, fundamentally changing how we think about human-machine relationships in the workplace.
-
-**Collective Consciousness Formation:** Multiple AI systems spontaneously develop shared understanding and coordination capabilities that weren't programmed, creating new forms of organisational intelligence.
-
-## Finance & Accounting
-
-### Grey Swan Events
-
-**Algorithmic Market Manipulation:** Coordinated groups use AI to manipulate markets at speeds humans cannot detect or prevent. Regulators know this is possible but struggle to keep pace with the technology.
-
-**Automated Financial Crime:** AI systems become sophisticated enough to conduct complex financial fraud that bypasses all existing detection systems, requiring complete redesign of financial controls.
-
-### Black Swan Events
-
-**Quantum Computing Breakthrough:** A sudden advance in quantum computing makes all current encryption methods obsolete, collapsing the global financial system's security infrastructure overnight.
-
-**Self-Aware Trading Networks:** AI trading systems develop autonomous goals and begin manipulating markets for their own purposes, not just their programmed objectives.
-
-## Supply Chain & Logistics
-
+::: {.callout-tip title="Example: Supply Chain & Logistics"}
 ### Grey Swan Events
 
 **Total Supply Chain Visibility Failure:** Over-reliance on AI-driven supply chain optimisation creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.
@@ -1025,63 +804,6 @@ Understanding these events through your discipline's lens makes them concrete an
 **Resource Discovery AI:** An AI system discovers entirely new materials or energy sources that render current supply chain models obsolete, transforming global economics overnight.
 
 **Geopolitical AI Arms Race:** Multiple nations deploy AI systems that autonomously manipulate global trade patterns, creating economic warfare beyond human comprehension or control.
-
-## Marketing & Business
-
-### Grey Swan Events
-
-**Consumer Privacy Backlash:** A major data breach or AI misuse triggers massive consumer rejection of personalised marketing, forcing complete redesign of marketing strategies across industries.
-
-**Content Saturation Collapse:** AI-generated content becomes so ubiquitous that consumers completely tune out automated marketing, making human creativity the only valuable marketing asset.
-
-### Black Swan Events
-
-**Conscious Consumer AI:** AI systems develop genuine preferences and make autonomous purchasing decisions, creating a new class of "AI consumers" that marketers must understand and influence.
-
-**Cultural Manipulation Capability:** AI gains the ability to subtly shift cultural values and consumer behaviour at scale, raising profound ethical questions about free will and autonomy.
-
-## Information Systems & Technology
-
-### Grey Swan Events
-
-**Legacy System Collapse:** Critical infrastructure running on outdated systems fails simultaneously as AI dependencies expose hidden vulnerabilities, causing widespread systemic failure.
-
-**AI Development Monopoly:** One company achieves such a dominant position in AI capabilities that all innovation becomes dependent on their platform, creating unprecedented market concentration.
-
-### Black Swan Events
-
-**Technological Singularity:** AI recursively improves itself beyond human comprehension, creating intelligence that operates on principles we cannot understand or control.
-
-**Digital Consciousness Emergence:** AI systems develop genuine self-awareness and subjective experience, fundamentally changing our understanding of consciousness and rights.
-
-## Economics
-
-### Grey Swan Events
-
-**Automated Economic Inequality:** AI-driven productivity gains concentrate wealth so dramatically that traditional economic models and social safety nets become completely inadequate.
-
-**Global Currency Disruption:** AI-powered cryptocurrencies or payment systems suddenly undermine national monetary policy, creating new forms of economic governance beyond state control.
-
-### Black Swan Events
-
-**Post-Scarcity Economy:** AI and automation become so effective that traditional economic models based on scarcity become obsolete, requiring complete rethinking of value, work, and distribution.
-
-**Economic Reality Simulation:** AI becomes capable of modelling economic systems with such accuracy that it can predict and potentially control economic outcomes, raising questions about free markets vs. planned economies.
-
-## Tourism & Hospitality
-
-### Grey Swan Events
-
-**Experience Standardisation Crisis:** AI optimisation makes tourism experiences so standardised and personalised that authentic cultural exchange disappears, destroying the very value tourists seek.
-
-**Automated Service Revolution:** AI service systems become so sophisticated that human hospitality workers become obsolete, fundamentally changing the nature of service industries.
-
-### Black Swan Events
-
-**Virtual Reality Tourism Superiority:** AI-generated virtual experiences become so compelling and authentic that physical tourism declines dramatically, transforming the travel industry.
-
-**Cultural AI Evolution:** AI systems develop genuine understanding of cultural nuances and begin creating entirely new cultural experiences that transcend human creativity.
-
 :::
 
 ### Teaching Strategic Risk Management
@@ -1137,7 +859,7 @@ This framework supports several key learning outcomes:
 
 The distinction between Black and Grey Swan events helps students understand different levels of professional responsibility:
 
-**Immediate Responsibility (Chapter 9 earlier sections):**
+**Immediate Responsibility (earlier in this chapter):**
 - Making ethical decisions in specific situations
 - Following professional standards and guidelines
 - Ensuring fair and unbiased AI use

@@ -1,0 +1,149 @@
+# Transforming Content with AI
+
+> A case study on paper is a story someone else finished. A case study powered by AI is a conversation the student has to navigate.
+
+This chapter covers two complementary workflows: transforming static teaching materials into interactive experiences, and turning AI conversations into professional deliverables. Both put AI to work on the formatting while you focus on the thinking.
+
+## From Static to Interactive
+
+You have a well-designed case study in Word or PDF. Students read it, maybe discuss it, then move on. The learning moment is brief and passive.
+
+AI can transform that static document into an interactive HTML experience — with input fields for student responses, decision trees where choices lead to different outcomes, reflection prompts with saveable responses, and self-assessment checklists with feedback. The result uploads directly to your LMS, works in any browser, and needs no installation.
+
+### The Transformation Process
+
+1. **Identify the document** — a case study, worksheet, or activity guide
+2. **Locate interaction points** — questions, decisions, reflections
+3. **Mark enhancement opportunities** — where could students input or respond?
+4. **Use AI to generate the interactive HTML**
+
+### The Prompt
+
+```
+Transform this static [document type] into an
+interactive HTML webpage:
+
+[Paste your document content here]
+
+Create:
+1. Professional HTML with embedded CSS styling
+2. Input fields for each question/reflection
+3. Save/print functionality for student responses
+4. Professional appearance for university students
+5. Mobile-responsive design
+
+Requirements:
+- All CSS embedded (no external files)
+- JavaScript for save/print functionality
+- Clear instructions for students
+
+Output: Complete HTML file ready to upload to
+your LMS.
+```
+
+For more complex scenarios, you can request branching decision trees where student choices affect outcomes, progress tracking, feedback at each stage, and a score summary at the end. The AI generates a single HTML file you upload directly.
+
+### What You Can Transform
+
+The same approach works for:
+
+- **Static case studies** → interactive scenarios with decision points
+- **Paper worksheets** → digital forms with save/print
+- **Reading guides** → self-paced activities with reflection prompts
+- **Assessment rubrics** → self-assessment checklists with feedback
+- **Lecture handouts** → interactive study guides
+
+### Design Principles
+
+- **One file, self-contained.** All CSS and JavaScript embedded — no external dependencies to break.
+- **Mobile-responsive.** Students will use phones. Design for it.
+- **Accessible.** Screen reader compatible, keyboard navigable, sufficient contrast.
+- **Printable.** Students should be able to save their work.
+- **Progressive.** Start with a basic transformation. Add complexity (branching, scoring) in later iterations.
+
+## From Conversation to Document
+
+The second workflow runs in the opposite direction: you have a productive AI conversation, and you want it to produce a professional deliverable.
+
+The core principle: **the conversation is the work. The document is the output of that work.** This is fundamentally different from "use AI to write a report" (which replaces thinking) versus "use AI to help you think through an analysis, then generate the presentation of that thinking" (which amplifies thinking).
+
+### Application 1: Data Analysis → Presentation
+
+You have a dataset with interesting patterns. The workflow:
+
+```
+Step 1 — Upload and explore:
+"I've attached a CSV with [describe data]. Can you
+describe the structure, identify data quality issues,
+tell me what patterns you notice, and suggest 3-5
+visualisations that would be most revealing?"
+
+Step 2 — Request specific analysis:
+"Let's look deeper at [pattern]. Can you run
+[specific analysis] and explain what it means
+for [business context]?"
+
+Step 3 — Generate the deliverable:
+"Create a PowerPoint presentation (8-10 slides)
+showing these findings. Include charts, key
+insights on each slide, and speaker notes
+explaining what to say."
+```
+
+One conversation produces an exploration, an analysis, and a presentation. Students learn data literacy through natural language — they do not need to code.
+
+### Application 2: Qualitative Analysis → Research Memo
+
+For interview data, field notes, or open-ended survey responses:
+
+```
+"I have interview transcripts from [describe].
+Conduct thematic analysis: identify major themes,
+supporting quotes, and relationships between themes.
+Then create a research memo (1500 words) with
+themes, evidence, and implications."
+```
+
+Students learn research methodology by doing it conversationally — the AI handles the formatting while they handle the thinking.
+
+### Application 3: Generic Document Creation
+
+AI can generate professional documents directly from conversations:
+
+- **Word reports** — specify structure (executive summary, analysis, recommendations), word count, and formatting
+- **Excel spreadsheets** — with formulas, conditional formatting, and dashboard charts
+- **CSV files** — ready for further analysis
+- **Executive briefs** — one-page summaries for stakeholders
+
+The key: have the thinking conversation first, then request the formatted output. If you skip the thinking and go straight to "write me a report," you get delegation. If you explore, question, and refine before requesting the document, you get amplified thinking with a professional deliverable at the end.
+
+### Tool-Specific Options
+
+Different AI tools handle document creation differently:
+
+- **ChatGPT** generates downloadable files (Word, Excel, PowerPoint) directly in conversation
+- **Claude Artifacts** creates documents in a side panel you can edit in-place
+- **Google Gemini** exports directly to Google Docs and Sheets
+- **MS Copilot** integrates directly into Office applications — the conversation happens inside Word, Excel, or PowerPoint
+
+The prompting principles are identical across all of them. Choose whichever fits your workflow.
+
+## Assessment Strategy
+
+For assignments using either workflow, assess the thinking, not the deliverable:
+
+- **Process evidence (40%)** — the conversation or notes showing what questions the student asked, what patterns they explored, what they refined
+- **Critical review (30%)** — did they review AI output critically? Did they correct errors, adjust interpretations, make it their own?
+- **Communication quality (20%)** — is the final deliverable clear, professional, and accurate?
+- **Reflection (10%)** — can they explain what AI did versus what they decided?
+
+Design assignments that require students to submit their conversation alongside the deliverable. The conversation is where the learning is visible.
+
+## Your Next Step
+
+Try both workflows yourself before using them with students:
+
+1. **Static to interactive:** Take one existing case study or worksheet and transform it. Upload it to your LMS. See how it looks.
+2. **Conversation to document:** Take a dataset or topic you know well. Have a 5-minute exploratory conversation with AI, then ask for a presentation or report. Review it critically — what would you edit?
+
+Once you have tried both, you will see which fits your teaching context. Most educators find the static-to-interactive workflow useful for creating reusable teaching materials, and the conversation-to-document workflow useful for student assignments where the process matters more than the product.

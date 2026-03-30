@@ -1,155 +1,14 @@
-# Getting Started - Your First AI Conversation
+# Getting Started — Your First AI Conversation
 
 > The best way to understand AI is to use it. Not to read about it, not to watch a demo, but to sit down and have a conversation.
 
-## What You'll Do in This Chapter
+## Accessing an AI Tool
 
-In the next 15 minutes, you're going to have your first productive conversation with an AI tool. By the end of this chapter, you'll understand:
+Many institutions now provide enterprise AI tools through existing software agreements — commonly MS Copilot Enterprise (through Microsoft 365) or Google Gemini (through Google Workspace for Education). Check with your IT department first, because enterprise tools keep your data within institutional boundaries.
 
-- How to access free AI tools (no installation required)
-- What a "prompt" actually is
-- How to write clear instructions that get useful results
-- The difference between a weak prompt and a powerful one
-- How to think about AI as a teaching assistant, not a magic oracle
+If your institution does not provide one, several free tools are available: ChatGPT (chat.openai.com), Claude (claude.ai), and Google Gemini (gemini.google.com). All work directly in your web browser — no installation, no configuration. Create a free account and you will see a text box waiting for your instructions.
 
-Let's jump straight in.
-
-## Step 1: Accessing an AI Tool
-
-Many institutions now provide enterprise AI tools through existing software agreements. Check with your IT department — you may already have access to an approved option. If not, several excellent free tools are available.
-
-### Option A: Institutional Enterprise Tools (Recommended for Work)
-
-Many universities provide enterprise AI access through existing agreements — commonly **MS Copilot Enterprise** (through Microsoft 365) or **Google Gemini** (through Google Workspace for Education). These are worth checking for first because:
-
-- Your data is protected within your institution's secure instance
-- They meet institutional data governance and compliance requirements
-- They reflect how enterprise professionals use AI tools in practice
-
-**How to check:** Contact your IT department or look for AI guidance on your institution's teaching and learning website.
-
-**MS Copilot Enterprise** integrates with tools you already use:
-
-- **In Word**: A chat panel opens on the right side — draft paragraphs, get feedback, revise
-- **In Excel**: Analyse data, create formulas, visualise patterns
-- **In PowerPoint**: Generate slides, refine content, create speaker notes
-- **In Outlook**: Draft emails, organise content, summarise threads
-- **In Teams**: Access Copilot in chats and meetings for real-time assistance
-
-This integration means you can work directly in your document while AI assists — no copying/pasting between windows.
-
-### Option B: ChatGPT (Free)
-
-1. Go to **chat.openai.com** in any web browser
-2. Create a free account (takes 2 minutes) or use a Google/Microsoft account
-3. You'll see a simple text box at the bottom of the screen
-4. Ready to go
-
-**Advantages:**
-- Simple, clean interface
-- No institutional login needed
-- Widely familiar
-- Can generate and export Word/Excel files (with Pro subscription)
-
-**Data Note:** Conversations may be retained by OpenAI. For institutional work involving student data, use your enterprise tool if available.
-
-### Option C: Claude (Free, Anthropic)
-
-1. Go to **claude.ai** in any web browser
-2. Create a free account
-3. Same interface — a clean text box waiting for your instructions
-
-**Advantages:**
-
-- Clear, thoughtful responses
-- Good for nuanced writing and analysis
-- No login required
-
-**Data Note:** Conversations may be retained. Not integrated with Office Suite.
-
-### Option D: Google Gemini (Free, Google Ecosystem)
-
-If you prefer the Google ecosystem:
-
-1. Go to **gemini.google.com** in any web browser
-2. Sign in with your Google account
-3. Access Gemini directly
-
-**Integration with Google Workspace:**
-
-- Integrates with Google Docs, Sheets, and Slides
-- Right-side panel for real-time assistance
-- Built on Google's LLM technology
-
-**Data Note:** Subject to Google's data policies. Good for personal use; check institutional requirements for sensitive work.
-
-### Summary: Which Tool to Choose?
-
-| Tool | Best For | Data Protection | Office Integration |
-|------|----------|-----------------|-------------------|
-| **Enterprise tool (e.g. MS Copilot)** | Institutional work, course materials, student data | Enterprise-protected | Full Office Suite |
-| **ChatGPT** | General exploration, standalone use | Consumer retention | Manual export (Pro) |
-| **Claude** | Writing and nuanced analysis | Consumer retention | None |
-| **Google Gemini** | Google Workspace users | Google policies | Google Workspace |
-
-**If your institution provides an enterprise tool:** Use it for anything involving course materials, student work, or institutional data.
-
-**For general exploration:** Any tool works — they all have similar core capabilities.
-
-**Note:** You don't need to download anything or configure complex settings. All options work directly in your web browser. If your institution offers an enterprise tool, start there. Otherwise, ChatGPT is the most familiar starting point.
-
-## Step 2: Understanding Prompts
-
-A **prompt** is simply the instruction or question you type into the AI tool. Think of it like briefing a very capable research assistant who:
-
-- Has read an enormous amount of material on nearly every subject
-- Can generate text, analyse situations, and role-play scenarios
-- Follows your instructions literally (which is both powerful and requires precision)
-- Doesn't have opinions, emotions, or genuine understanding,just pattern recognition
-
-The quality of what you get back depends almost entirely on the quality of your prompt.
-
-### Why Prompts Matter: The Foundation of All AI
-
-Here's something important to understand: **Every AI tool, no matter how sophisticated, is fundamentally powered by prompts.**
-
-Whether you're:
-- Typing directly into ChatGPT
-- Using MS Copilot in Word
-- Working with specialised teaching tools
-- Exploring emerging automation platforms
-- Building custom agents
-
-...at the heart, there's a prompt (or series of prompts) that tells the AI what to do.
-
-**The anatomy of every AI interaction:**
-
-```
-System Prompt (hidden): "You are a helpful AI assistant for education..."
-[Optional: Rules, context, instructions about how to behave]
-
-User Prompt (your input): "Create a quiz about supply chain management"
-
-Result: AI output based on both prompts combined
-```
-
-**Why this matters:**
-- Learning to write clear prompts is learning to communicate effectively with AI
-- Whether it's a standalone tool or integrated into Word, the principles are the same
-- When you see AI integrated into traditional software (increasingly common), you're seeing a prompt window embedded in familiar tools
-- Understanding prompts gives you conceptual mastery; specific tools will change, but prompting skills transfer
-
-**The agency implication:** When you write your own prompts, you control the conversation: you decide the role, the context, the constraints. When you use an app that hides the prompt (a writing assistant, a copilot, an AI-powered grading tool), someone else made those decisions for you. The output may be useful, but you cannot push back on framing you did not choose. For routine tasks, that trade-off is often fine. For anything that requires your professional judgement, start with a tool where you can see and shape the prompt yourself. Teaching students to recognise this distinction is part of teaching AI literacy.
-
-**Your progression in this book:**
-1. **Chapter 2-4** (this section): Master basic prompting concepts and techniques
-2. **Chapters 5-12**: Apply prompting to specific teaching scenarios
-3. **Chapter 13**: Transform static content to interactive using prompts
-4. **Chapter 14**: See how prompts scale through automation and agents
-
-This chapter teaches you the foundation. Everything else builds on it.
-
-Let's see prompts in action.
+For institutional work involving student data or course materials, use your enterprise tool. For general exploration and learning, any tool works — they all have similar core capabilities.
 
 ## Your First Prompt: The Weak Version
 
@@ -159,827 +18,297 @@ Open your chosen AI tool and type this exactly:
 Write a case study about business.
 ```
 
-Hit enter and see what you get.
-
-You'll probably receive something generic,maybe a story about a marketing campaign or a financial decision. It's *fine*, but it's not particularly useful for your specific teaching needs.
-
-**Why was this weak?** Because the prompt was vague. "Business" covers everything from accounting to marketing. "A case study" could be 100 words or 5,000 words. The AI had to guess what you wanted.
+You will receive something generic — maybe a story about a marketing campaign or a financial decision. It is fine, but it is not useful for your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.
 
 ## Your Second Prompt: The Powerful Version
 
-Now try this. Copy and paste the prompt that matches your discipline:
+Now try this instead:
 
 ::: {.panel-tabset}
 
 ## Business & Marketing
 ```
-You are an expert marketing lecturer at a university level.
+You are an expert marketing lecturer at a
+university level.
 
-I need you to create a case study for my undergraduate students that will help them practice strategic market analysis and competitive positioning.
+I need you to create a case study for my
+undergraduate students that will help them
+practice strategic market analysis and
+competitive positioning.
 
 Here are the requirements:
-- The scenario should involve a product launch decision where the company faces competitive threats
-- Include enough detail that students need to identify which market analysis principles apply
+- The scenario should involve a product launch
+  decision where the company faces competitive
+  threats
+- Include enough detail that students need to
+  identify which market analysis principles apply
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse the market strategy and positioning
+- End with three discussion questions requiring
+  students to analyse the market strategy and
+  positioning
 
 Begin.
 ```
 
 ## Management
 ```
-You are an expert organisational management lecturer at a university level.
+You are an expert organisational management
+lecturer at a university level.
 
-I need you to create a case study for my undergraduate students that will help them practice applying change management principles to a real organisational challenge.
+I need you to create a case study for my
+undergraduate students that will help them
+practice applying change management principles
+to a real organisational challenge.
 
 Here are the requirements:
-- The scenario should involve organisational change where managers face stakeholder resistance
-- Include enough detail that students need to identify which change management principles apply
+- The scenario should involve organisational
+  change where managers face stakeholder
+  resistance
+- Include enough detail that students need to
+  identify which change management principles
+  apply
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse how leadership handled change effectively
+- End with three discussion questions requiring
+  students to analyse how leadership handled
+  change effectively
 
 Begin.
 ```
 
 ## Human Resources
 ```
-You are an expert HR lecturer at a university level.
+You are an expert HR management lecturer at a
+university level.
 
-I need you to create a case study for my undergraduate students that will help them practice applying HR strategy to organisational challenges.
+I need you to create a case study for my
+undergraduate students that will help them
+practice applying employee relations principles.
 
 Here are the requirements:
-- The scenario should involve a talent management or employee relations decision with legal/ethical complexity
-- Include enough detail that students need to identify which HR principles apply
+- The scenario should involve a workplace
+  conflict requiring HR intervention
+- Include enough detail that students need to
+  identify legal and ethical considerations
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse HR decision-making and compliance
+- End with three discussion questions requiring
+  students to analyse the HR response
 
 Begin.
 ```
 
 ## Tourism & Hospitality
 ```
-You are an expert hospitality management lecturer at a university level.
+You are an expert hospitality management
+lecturer at a university level.
 
-I need you to create a case study for my undergraduate students that will help them practice customer experience management and service strategy.
+I need you to create a case study for my
+undergraduate students that will help them
+practice service recovery decision-making.
 
 Here are the requirements:
-- The scenario should involve a service failure or revenue management challenge in a hospitality context
-- Include enough detail that students need to identify which service principles apply
+- The scenario should involve a service failure
+  with a demanding guest
+- Include enough detail that students need to
+  balance guest satisfaction with operational
+  constraints
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse service strategy and customer recovery
+- End with three discussion questions requiring
+  students to analyse the service recovery
+  approach
 
 Begin.
 ```
 
 ## Supply Chain & Logistics
 ```
-You are an expert supply chain management lecturer at a university level.
+You are an expert supply chain management
+lecturer at a university level.
 
-I need you to create a case study for my undergraduate students that will help them practice supply chain decision-making under uncertainty.
+I need you to create a case study for my
+undergraduate students that will help them
+practice supply chain disruption management.
 
 Here are the requirements:
-- The scenario should involve a supply disruption or network optimisation challenge
-- Include enough detail that students need to identify which supply chain principles apply
+- The scenario should involve a supply chain
+  disruption requiring rapid decision-making
+- Include enough detail that students need to
+  evaluate trade-offs between cost, speed, and
+  reliability
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse trade-offs and resilience strategies
+- End with three discussion questions requiring
+  students to analyse the supply chain response
 
 Begin.
 ```
 
 ## Information Systems
 ```
-You are an expert IT project management lecturer at a university level.
+You are an expert IT project management lecturer
+at a university level.
 
-I need you to create a case study for my undergraduate students that will help them practice systems analysis and project management decision-making.
+I need you to create a case study for my
+undergraduate students that will help them
+practice requirements gathering and scope
+management.
 
 Here are the requirements:
-- The scenario should involve a systems implementation challenge with scope and stakeholder complexity
-- Include enough detail that students need to identify which project management principles apply
+- The scenario should involve conflicting
+  stakeholder requirements in a systems project
+- Include enough detail that students need to
+  identify priorities and manage scope
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse technical and managerial trade-offs
+- End with three discussion questions requiring
+  students to analyse the project management
+  approach
 
 Begin.
 ```
 
 ## Accounting & Finance
 ```
-You are an expert accounting and finance lecturer at a university level.
+You are an expert accounting lecturer at a
+university level.
 
-I need you to create a case study for my undergraduate students that will help them practice financial analysis and professional judgment.
+I need you to create a case study for my
+undergraduate students that will help them
+practice professional judgement in financial
+analysis.
 
 Here are the requirements:
-- The scenario should involve a financial analysis decision with ambiguous accounting or valuation treatment
-- Include enough detail that students need to identify which accounting principles apply
+- The scenario should involve ambiguous
+  accounting treatments where multiple approaches
+  are defensible
+- Include enough detail that students need to
+  justify their chosen treatment
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse accounting judgments and compliance
+- End with three discussion questions requiring
+  students to analyse the accounting judgement
 
 Begin.
 ```
 
 ## Economics
 ```
-You are an expert economics lecturer at a university level.
+You are an expert economics lecturer at a
+university level.
 
-I need you to create a case study for my undergraduate students that will help them practice economic analysis and policy reasoning.
+I need you to create a case study for my
+undergraduate students that will help them
+practice economic policy analysis.
 
 Here are the requirements:
-- The scenario should involve an economic policy decision with competing stakeholder interests
-- Include enough detail that students need to identify which economic principles apply
+- The scenario should involve competing policy
+  options with trade-offs
+- Include enough detail that students need to
+  apply economic models to evaluate outcomes
 - The scenario should be 300-400 words
-- End with three discussion questions requiring students to analyse trade-offs between economic models
+- End with three discussion questions requiring
+  students to analyse the policy trade-offs
 
 Begin.
 ```
 
 :::
 
-Hit enter.
+The output should be dramatically more useful. The difference is that you told the AI who you are, what you need, what constraints matter, and what format to use. The AI did not get smarter between your first prompt and your second. You got clearer.
 
-**Notice the difference?** The AI now knows:
-- What role to adopt (expert lecturer in YOUR discipline)
-- Who the audience is (undergraduate students)
-- What specific learning objective you're targeting (discipline-specific skill)
-- What the scenario should contain (field-specific challenge)
-- How long it should be (300-400 words)
-- What format you want (scenario + three discussion questions)
+## The CRAFT Framework
 
-The output should be dramatically more useful. It's tailored to your discipline, specific, and ready to use in your class (with your refinement, of course).
+What made that second prompt powerful? It included five elements that you can remember with the acronym **CRAFT**:
 
-## The CRAFT Framework: One Approach to Structured Prompting
+| Letter | Element | What it does |
+|--------|---------|--------------|
+| **C** | **Context** | Sets the situation — your course, your students, their level |
+| **R** | **Role** | Defines the AI's perspective — expert lecturer, consultant, practitioner |
+| **A** | **Action** | Specifies the task — create, analyse, critique, explain |
+| **F** | **Format** | Describes the structure — word count, number of questions, table format |
+| **T** | **Tone/Target** | Sets the style and level — professional, introductory, sophisticated |
 
-Let's break down what made that second prompt powerful using a **memorable framework**: **CRAFT**.
+You do not need every element every time. But when a prompt gives you something vague or generic, check which CRAFT elements are missing. The answer is usually context or format.
 
-This framework works whether you're using ChatGPT, Copilot, Claude, or any other AI tool. CRAFT is a helpful **starting point** for structuring your thinking.
+**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. The goal is not to follow CRAFT rigidly — it is to think intentionally about what you are asking the AI to do.
 
-**Important caveat:** CRAFT is not the only way to prompt effectively. Some educators find other frameworks work better for them. Some prefer different approaches entirely. The goal isn't to follow CRAFT rigidly---it's to **think intentionally about what you're asking the AI to do**.
+## Conversation, Not One-Shot
 
-For example, the **C.R.E.A.T.E.** framework takes a different approach, emphasising examples and iterative refinement rather than upfront context. The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several prompting frameworks side by side.
+Here is the most important idea in this chapter: **CRAFT is your first message, not your only message.**
 
-### The CRAFT Acronym
+When you send one prompt and take the output as-is, you get generic content that could work for anyone. The AI produces safe, middle-ground responses. It misses your specific teaching voice and context.
 
-| Letter | Element | Example |
-|--------|---------|---------|
-| **C** | **Context** | "This is for my undergraduate marketing unit covering competitive strategy" |
-| **R** | **Role** | "You are an experienced marketing director" |
-| **A** | **Action** | "Create a case study about a product launch decision" |
-| **F** | **Format** | "300-400 words with three discussion questions at the end" |
-| **T** | **Tone/Target** | "Professional and realistic--- suitable for university students" |
-
-**You don't need to use every element every time**, but this gives you a clear structure to work with.
-
-### Breaking Down Each Element
-
-#### C: **Context** - Set the situation
-> "This is for my undergraduate marketing unit. Students have learned about competitive positioning and market analysis."
-
-Why it matters: Helps AI understand what background knowledge students already have and what level of sophistication to aim for.
-
-Discipline examples:
-
-::: {.panel-tabset}
-
-## Business & Marketing
-"This is for an introductory marketing course where students are learning about digital customer acquisition strategies."
-
-## Management
-"This is for a management unit on organisational change where students have covered Kotter's 8-step model."
-
-## Human Resources
-"This is for an HR management course on employee relations and conflict resolution."
-
-## Tourism & Hospitality
-"This is for a hospitality management unit focused on service recovery and customer experience design."
-
-## Supply Chain & Logistics
-"This is for a supply chain management course on disruption management and network resilience."
-
-## Information Systems
-"This is for an IT project management unit where students have learned agile and waterfall approaches."
-
-## Accounting & Finance
-"This is for an intermediate accounting course on financial analysis and audit methodology."
-
-## Economics
-"This is for a microeconomics course on market structures and competitive dynamics."
-
-:::
-
-#### R: **Role** - Define the perspective
-> "You are an experienced marketing director"
-
-Why it matters: The role shapes the tone, vocabulary, and approach. "Marketing director" will sound different from "market researcher" even when discussing the same topic.
-
-Discipline examples:
-
-::: {.panel-tabset}
-
-## Business & Marketing
-"You are an experienced marketing director launching a new product" or "You are a market research analyst evaluating competitive positioning"
-
-## Management
-"You are a senior manager navigating organisational change" or "You are an executive coach helping with team dynamics"
-
-## Human Resources
-"You are an HR business partner handling sensitive employee situations" or "You are a recruitment specialist evaluating candidate fit"
-
-## Tourism & Hospitality
-"You are a hotel general manager managing service delivery" or "You are a guest services trainer improving customer experience"
-
-## Supply Chain & Logistics
-"You are a supply chain manager handling network optimisation" or "You are a logistics director managing disruption"
-
-## Information Systems
-"You are an IT project manager implementing enterprise systems" or "You are a systems analyst gathering requirements"
-
-## Accounting & Finance
-"You are an auditor evaluating financial statements" or "You are a financial analyst making investment recommendations"
-
-## Economics
-"You are an economist advising on policy decisions" or "You are a researcher analysing economic trends"
-
-:::
-
-#### A: **Action** - Specify what to create
-> "Create a case study about a product launch decision"
-
-Why it matters: Be specific about what you want. "Create a case study" is clearer than "write something about strategy."
-
-#### F: **Format** - Describe the structure
-> "300-400 words with three discussion questions at the end"
-
-Why it matters: Format constraints guide the AI and prevent it from delivering something unusable. Too long? Too short? Wrong structure? Format prevents that.
-
-Examples:
-- "Bullet point list with 5-7 items"
-- "Conversational dialogue between two characters"
-- "Table with three columns: Challenge, Strategy, Outcome"
-- "Step-by-step instructions numbered 1-10"
-
-#### T: **Tone/Target** - Set the style and level
-> "Professional and realistic, suitable for university students who are new to this topic"
-
-Why it matters: This prevents the AI from pitching too high (too academic) or too low (too simplistic).
-
-Examples by level:
-- **Introductory:** "Use simple, clear language. Avoid jargon."
-- **Intermediate:** "Assume students understand basic concepts. Use professional terminology."
-- **Advanced:** "Use sophisticated analysis. Reference theoretical frameworks and empirical research."
-
----
-
-### Alternative Approaches: There's More Than One Way
-
-CRAFT is helpful, but it's not the only effective prompting approach. Depending on your thinking style and what you're trying to achieve, these alternatives might work better:
-
-#### **Ask for Step-by-Step Thinking**
-
-Instead of relying on CRAFT structure, ask the AI to show its reasoning:
+The solution is to have a conversation:
 
 ```
-"I need a supply chain risk analysis. Before you give me recommendations,
-walk me through your thinking: What are the main risk categories?
-What information would help identify which risks matter most?
-Then provide your analysis."
-```
-
-This gets at how the AI thinks, not just what it outputs.
-
-#### **Provide Examples of What You Want**
-
-Sometimes showing is better than telling:
-
-```
-"Here's what a GOOD case study looks like for my students:
-[example of strong case study from your files]
-
-Here's what a WEAK case study looks like:
-[example of weak case study]
-
-Now create a case study for [your topic] that matches the GOOD example's quality."
-```
-
-This uses your expertise to calibrate the AI, rather than relying on CRAFT's generic structure.
-
-#### **Request Comparative Approaches**
-
-Ask the AI to explore multiple angles:
-
-```
-"Show me three different ways to explain this accounting concept:
-1. For a student who learns visually
-2. For a student who learns through examples
-3. For a student who prefers logical frameworks
-
-Then tell me which approach seems most effective."
-```
-
-This creates conversation and exploration, not just output.
-
-#### **Use Iterative Exploration**
-
-Start vague, then get more specific as you see what the AI generates:
-
-```
-PROMPT 1: "What are the key ethical issues in AI implementation in healthcare?"
-[AI responds with 5 issues]
-
-PROMPT 2: "Which of those is most relevant to Australian healthcare compliance?"
-[AI elaborates on one issue]
-
-PROMPT 3: "How would you teach students to analyse this issue?"
-[AI proposes teaching approach]
-
-PROMPT 4: "What's a scenario that would help students understand this?"
-[AI creates scenario you can then refine]
-```
-
-Notice: you don't need a perfect first prompt. You explore together.
-
----
-
-### The Philosophy: Conversation Over One-Shot Prompting
-
-Here's a crucial insight: **One-shot prompts (even well-structured CRAFT ones) tend to produce "AI sameness."**
-
-When you send one prompt and take the output as-is, you get:
-- Generic content that could work for anyone
-- Safe middle-ground responses
-- Missing your specific teaching voice and perspective
-- The same tone the AI uses for every other prompt
-
-**The solution: Have a conversation.**
-
-Real teaching improvement comes from iterative exploration where:
-- You share your thinking ("Here's what I want students to understand...")
-- The AI responds ("Here are three ways to approach this...")
-- You push back or build ("Good, but can we make it less academic?" or "Add this element...")
-- The result emerges through back-and-forth
-
-This is why the **Seven Techniques** (in Chapter 4) matter more than perfect prompt structure. Techniques like Chain of Thought, Pros/Cons Analysis, and Role Play are **conversation tools**,they invite the AI to think alongside you, not just execute your commands.
-
----
-
-### Complete CRAFT Example
-
-Here's how all five elements work together:
-
-```
-Context: "This is for my undergraduate Business course on marketing strategy."
-
-Role: "You are an experienced marketing director."
-
-Action: "Create a case study about a product launch decision where the company faces competitive threats."
-
-Format: "300-400 words with three discussion questions requiring students to analyse market strategy and positioning."
-
-Tone/Target: "Professional and realistic. Use clear language suitable for first-year university students."
-```
-
-This is the "powerful" prompt we tried earlier. Now you can see **why** it's powerful---it includes all five CRAFT elements.
-
----
-
-### CRAFT as a Starting Point, Not the Endpoint
-
-Here's something crucial: **CRAFT is your first message, not your only message.**
-
-The best results come from **conversations**, not one-shot commands.
-
-#### Why This Matters
-
-If you use CRAFT and stop, you get:
-- A competent response
-- But it's generic and somewhat "AI-sounding"
-- Likely missing your teaching perspective
-- Probably not exactly what you actually need
-
-If you use CRAFT and then **have a conversation**, you get:
-- Content shaped by your specific context
-- Your teaching voice reflected in the output
-- Solutions to problems the first prompt didn't anticipate
-- Something genuinely useful for YOUR students
-
-#### The Conversation Pattern
-
-After your initial CRAFT prompt, you can:
-1. **Refine:** "Can you make the discussion questions more challenging?"
-2. **Expand:** "Add a section about the financial impact of this decision."
-3. **Adapt:** "Rewrite this for postgraduate students instead of undergraduates."
-4. **Repurpose:** "Turn this into a 10-slide PowerPoint presentation."
-5. **Push back:** "That's too generic. Here's what I actually need..." and keep talking
-
-You're not just telling the AI what to do---you're **working together** to get exactly what you need.
-
-This conversation approach is why **Chapters 4-7 focus on techniques (Reverse Prompting, Pros/Cons, Chain of Thought, etc.) rather than just prompting structure.** Those techniques are conversation starters, not rigid templates.
-
-## Practice Exercise: Your Turn
-
-Now it's your turn to write a prompt from scratch. Think of something you currently teach in your business course---a topic where you wish you had more practice materials or better scenarios.
-
-Use this template:
-
-```
-You are [define the role].
-
-I need you to [state the specific task] for [define your audience].
-
-Here are the requirements:
-- [Requirement 1]
-- [Requirement 2]
-- [Requirement 3]
-
-[Any additional context or constraints]
-
-Begin.
-```
-
-**Example topics to try---pick one from your discipline:**
-
-::: {.panel-tabset}
-
-## Business & Marketing
-- Generate market analysis questions for a product launch
-- Create a customer objection scenario that students must handle
-- Draft a competitive intelligence report with bias students must identify
-- Write a customer feedback scenario requiring strategic response
-
-## Management
-- Create a team conflict scenario showing poor leadership
-- Draft a change management plan for students to evaluate
-- Generate a delegation scenario showing poor decision-making
-- Write a stakeholder meeting dialogue with communication errors
-
-## Human Resources
-- Generate interview questions with bias that students must identify
-- Create a termination scenario showing poor HR judgment
-- Draft a performance management conversation with legal risks
-- Write an employee relations scenario requiring ethical judgment
-
-## Tourism & Hospitality
-- Generate demanding guest scenarios students must handle
-- Create a service recovery situation showing poor response
-- Draft a revenue management decision students must evaluate
-- Write a cultural sensitivity scenario for hospitality context
-
-## Supply Chain & Logistics
-- Generate demand disruption scenarios with trade-offs
-- Create a supplier negotiation dialogue students must evaluate
-- Draft an inventory optimisation problem with constraints
-- Write a logistics crisis scenario requiring real-time decisions
-
-## Information Systems
-- Generate stakeholder requirement scenarios with conflicts
-- Create a project scope creep situation students must manage
-- Draft a systems implementation plan with risks students must identify
-- Write a technical trade-off scenario requiring judgment
-
-## Accounting & Finance
-- Generate financial statements with accounting errors to find
-- Create a valuation decision with ambiguous treatments
-- Draft an audit report with missed red flags
-- Write a fraud detection scenario students must analyse
-
-## Economics
-- Generate economic policy scenarios with competing interests
-- Create a market analysis with model disagreements
-- Draft an economic forecast students must evaluate
-- Write a trade-off scenario between economic objectives
-
-:::
-
-Type your prompt into the AI tool and see what happens.
-
-## What to Expect (and Not Expect)
-
-As you experiment, keep these realities in mind:
-
-### What AI Does Well:
-- Generates diverse scenarios and examples quickly
-- Creates consistent, well-structured text
-- Role-plays different perspectives convincingly
-- Provides frameworks and outlines
-- analyses text against criteria you define
-
-### What AI Doesn't Do:
-- Understand context the way humans do
-- Have actual expertise or professional judgment
-- Know your specific students, university policies, or local employment laws
-- Guarantee factual accuracy (it can confidently state incorrect information)
-- Replace your pedagogical design or assessment judgment
-
-**The golden rule:** AI is a powerful draft generator and practice partner. You are still the expert who evaluates, refines, and ensures accuracy.
-
-::: {.callout-note title="Calibrate your effort"}
-Not everything needs the same level of scrutiny. A casual brainstorm gets a light pass. A student-facing handout gets a careful review. A published assessment rubric gets the full treatment. The higher the stakes, the more thorough your check should be.
-:::
-
----
-
-## Beyond Your First Prompt: The Follow-Up Conversation
-
-Here's the secret that most people miss: **the best results come from a conversation, not a single prompt.**
-
-::: {.callout-note title="One prompt, one job"}
-When you ask AI to do five things at once, you get five shallow results. When you give each prompt a single focused task, you get depth and nuance. Think of it as a conversation, not a task list handed to an assistant on their way out the door. One thing at a time. Follow up. Build. This principle applies throughout the book, and the managing context chapter explores it in detail.
-:::
-
-Your first CRAFT prompt gets you started. Your follow-up prompts make it actually useful for your teaching.
-
-### Common Follow-Up Patterns
-
-After your initial CRAFT prompt generates something, you can have a conversation to refine it:
-
-#### Pattern 1: **Refine for Your Exact Needs**
-
-**Initial prompt:** CRAFT framework generates a case study
-
-**Follow-up:** "Can you make the discussion questions more challenging? Students should need to apply the frameworks we've covered, not just recall information."
-
-**Why this works:** The AI understood your context from the first prompt. Now you're fine-tuning toward excellence.
-
-#### Pattern 2: **Adapt for Different Audiences**
-
-**Initial prompt:** Generate a finance case study for undergraduate students
-
-**Follow-up:** "Rewrite this for postgraduate students. Assume they understand ratio analysis and want more sophisticated valuation challenges."
-
-**Why this works:** The core content doesn't need to be regenerated; it just needs repositioning.
-
-#### Pattern 3: **Expand with Additional Dimensions**
-
-**Initial prompt:** Create an HR scenario
-
-**Follow-up:** "Add a section about the legal and compliance implications. Include references to relevant employment law."
-
-**Why this works:** You're building on what works rather than starting from scratch.
-
-#### Pattern 4: **Repurpose Into Multiple Formats**
-
-**Initial prompt:** Generate a supply chain analysis framework
-
-**Follow-up 1:** "Turn this into a 10-slide PowerPoint with speaker notes."
-**Follow-up 2:** "Create a checklist version students can print and use in class."
-**Follow-up 3:** "Write a 2-minute explanation of this framework for a podcast."
-
-**Why this works:** One good idea becomes multiple teaching assets.
-
-### Real Example: Conversation in Action
-
-Here's how a conversation might unfold:
-
-```
-PROMPT 1 (Initial CRAFT):
-Context: "This is for my second-year marketing unit on competitive strategy."
-Role: "You are an experienced marketing director."
-Action: "Create a market analysis case study."
-Format: "500 words with 4 discussion questions"
-Tone: "Professional, suitable for university students."
-
-AI OUTPUT: [Case study about streaming service competition]
+PROMPT 1 (CRAFT):
+"You are an experienced marketing director.
+Create a market analysis case study for my
+second-year students. 500 words with 4
+discussion questions."
+
+[AI produces a case study]
 
 PROMPT 2 (Refine):
-"Great! Can you make the discussion questions more specific?
-Instead of asking 'What's wrong?' ask students to identify:
-- Which Porter's Five Forces are most important here?
-- How would you calculate market share?
-- What data would you need to support your recommendation?"
-
-AI OUTPUT: [Same case study, improved questions aligned with course framework]
+"Good. Make the discussion questions more
+specific — ask students to identify which
+of Porter's Five Forces apply and what data
+they would need to support their recommendation."
 
 PROMPT 3 (Expand):
-"Add a section showing three different market analysis approaches
-and how each one would lead to different conclusions. Include:
-- Porter's Five Forces
-- Ansoff Matrix
-- SWOT analysis"
-
-AI OUTPUT: [Expanded case study with multiple analytical frameworks]
+"Add a section comparing three analytical
+frameworks and how each leads to different
+conclusions."
 
 PROMPT 4 (Repurpose):
-"Turn this into a 10-minute classroom activity. Include:
-- 2-minute scenario introduction for students
-- 5-minute small group analysis task
-- 3-minute discussion and comparison of frameworks"
-
-AI OUTPUT: [Classroom activity structured for your timing]
+"Turn this into a 10-minute classroom activity
+with a 2-minute intro, 5-minute group task,
+and 3-minute discussion."
 ```
 
-Notice: you didn't write four prompts from scratch. You had a conversation where each follow-up built on what was working.
+You did not write four prompts from scratch. You had a conversation where each follow-up built on what was working. This is what *conversation, not delegation* looks like in practice.
 
-### Types of Follow-Up Prompts by Discipline
+## Discover Your Strategy: Using AI to Help You Use AI
 
-::: {.panel-tabset}
+Here is something most tools cannot do: **AI can teach you how to use itself.**
 
-## Business & Marketing
-**Refine:** "Make the competitive analysis more realistic---include actual market data from Australian retail"
-**Adapt:** "Rewrite this for students with no marketing background"
-**Expand:** "Add customer perception data and explain how it changes the analysis"
-**Repurpose:** "Create a 1-page executive summary version for busy managers"
+Instead of reading generic advice, you can have a personalised consultation where AI interviews you about your teaching context and then recommends both obvious and unexpected applications. Copy this prompt and try it now:
 
-## Management
-**Refine:** "Make the stakeholder conflicts more nuanced---not just good vs. bad decisions"
-**Adapt:** "Rewrite for public sector context instead of private company"
-**Expand:** "Add the perspective of each stakeholder and explain their reasoning"
-**Repurpose:** "Turn this into a role-play activity where students play different stakeholders"
+```
+You're an AI expert consultant for business
+educators. I'd love your help discovering
+how I could better use AI in my teaching.
 
-## Human Resources
-**Refine:** "Include specific Australian employment law references for this scenario"
-**Adapt:** "Rewrite for a small business context instead of multinational"
-**Expand:** "Add information about possible employee grievance or legal challenge"
-**Repurpose:** "Create a training guide for new HR staff based on this scenario"
+Please ask me one question at a time. I'll
+answer, then you'll ask the next question.
+Keep asking until you understand:
 
-## Tourism & Hospitality
-**Refine:** "Make the customer service challenge more complex,multiple guests, conflicting needs"
-**Adapt:** "Set this in an Australian luxury hotel instead of mid-range"
-**Expand:** "Add budget constraints and explain the trade-offs"
-**Repurpose:** "Turn this into a 5-station rotation activity for staff training"
+- My discipline and the students I teach
+- My main teaching challenges
+- My key teaching goals
+- My constraints (time, resources, skills)
+- What I've already tried with AI
 
-## Supply Chain & Logistics
-**Refine:** "Include real logistics costs and supply chain complexity"
-**Adapt:** "Rewrite for Australian manufacturing context"
-**Expand:** "Add supply chain disruption scenario---how does your solution handle it?"
-**Repurpose:** "Create a simulation where students track changes week by week"
+Once you have enough context, provide TWO
+types of recommendations:
 
-## Information Systems
-**Refine:** "Include technical constraints and legacy system integration challenges"
-**Adapt:** "Rewrite for a non-technical stakeholder audience"
-**Expand:** "Add cybersecurity and data governance requirements"
-**Repurpose:** "Turn this into a sprint-based project management simulation"
+1. OBVIOUS OPPORTUNITIES: Clear, straightforward
+   AI applications most educators think of
 
-## Accounting & Finance
-**Refine:** "Include accounting ambiguity where multiple treatments are defensible"
-**Adapt:** "Rewrite for Australian tax and accounting standards context"
-**Expand:** "Add audit evidence requirements and explain what's sufficient"
-**Repurpose:** "Create a checklist auditors use when reviewing this situation"
+2. NON-OBVIOUS OPPORTUNITIES: Unexpected or
+   creative uses specific to my discipline
+   that I might not have considered
 
-## Economics
-**Refine:** "Include actual market data and explain why real markets deviate from theory"
-**Adapt:** "Use Australian economic data instead of generic examples"
-**Expand:** "Show how government policy changes would affect this analysis"
-**Repurpose:** "Create a data visualisation exercise from this scenario"
+Format your recommendations clearly with
+implementation tips for each.
 
+Please start by asking your first question.
+```
+
+Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations — it is in the clarity you gain about your own teaching by having to explain it. Educators consistently report that articulating their teaching philosophy to an AI helped them see how AI could enhance it, not replace it.
+
+::: {.callout-tip title="Try this (15 minutes)"}
+Run the consultation prompt above. Answer the questions honestly — don't polish your responses. Then pick one obvious recommendation and one non-obvious recommendation to try this semester. Return to the same conversation after you have tried them and report what happened. The AI will help you iterate.
 :::
 
-### Key Principle: You're the Director
+## The Foundation
 
-Think of yourself as a **director**, not a subordinate giving orders.
+If you have followed along, you have accessed an AI tool, written a structured prompt, had a conversation that refined the output, and discovered personalised recommendations for your teaching. That is not a small thing. Everything else in this book builds on this foundation.
 
-- The AI is your assistant generating drafts
-- You're evaluating, refining, and improving those drafts
-- Each follow-up question shapes the output toward excellence
-- You stop when it's ready for your class
-
-This is what makes AI powerful for teaching: **you stay in control while multiplying your output quality.**
-
----
-
-## Troubleshooting Common Issues
-
-**"The AI gave me something too simple/complex."**
-→ Add to your prompt: "Pitch this at the level of a third-year undergraduate student" or specify your context: "This is for students with no prior supply chain experience" or "Students already understand financial statement analysis."
-
-**"The response was too short/long."**
-→ Specify word count or structure: "Provide 500 words" or "Write exactly 5 paragraphs" or "Create a scenario followed by 4 discussion questions."
-
-**"It's too generic---not specific to Australia/my context."**
-→ Add context relevant to your discipline:
-
-::: {.panel-tabset}
-
-## Business & Marketing
-"Set this in an Australian retail context" or "Reference Australian Consumer Law and ACCC regulations"
-
-## Management
-"Set this in an Australian public sector organisation" or "Reference Fair Work Act requirements"
-
-## Human Resources
-"Include Australian employment law and Fair Work Commission context" or "Reference Australian workplace discrimination law"
-
-## Tourism & Hospitality
-"Set this in an Australian hotel/tourism context" or "Reference Australian tourism industry standards"
-
-## Supply Chain
-"Set this in an Australian manufacturing context" or "Reference Australian logistics regulations"
-
-## Information Systems
-"Reference Australian Privacy Act and data protection requirements" or "Set in Australian banking context"
-
-## Accounting & Finance
-"Reference Australian Accounting Standards and ASIC rules" or "Use Australian tax law context"
-
-## Economics
-"Reference Australian economic policy and RBA context" or "Use Australian labour market data"
-
-:::
-
-**"The AI ignored part of my prompt."**
-→ This happens sometimes. Just follow up: "Please revise that to include [the missing element]."
-
-**"I want to change just one part."**
-→ You can have a conversation: "Keep everything the same, but make the scenario more realistic" or "Add a section about the ethical considerations" or discipline-specific tweaks like "Include regulatory compliance issues" or "Add supply chain complexity."
-
-## Your First Win
-
-If you've followed along, you've just:
-1. Accessed an AI tool
-2. Written a structured prompt
-3. Generated a teaching resource you didn't have 5 minutes ago
-
-That's not a small thing. You've learned the fundamental skill that everything else in this book builds on.
-
-## Before You Move On
-
-Try this homework before Chapter 3. Choose three prompts from your discipline:
-
-::: {.panel-tabset}
-
-## Business & Marketing
-1. Generate market research questions for a competitor analysis
-2. Role-play a demanding customer objecting to your product pricing
-3. Analyse a marketing plan for strategic alignment and competitive position
-
-## Management
-1. Generate an organisational change scenario for students to analyse
-2. Role-play a resistant employee in a change management conversation
-3. Analyse a leadership decision for stakeholder impact
-
-## Human Resources
-1. Generate interview questions and evaluate them for bias
-2. Role-play a difficult performance management conversation
-3. Analyse an HR policy for legal compliance and fairness
-
-## Tourism & Hospitality
-1. Generate guest complaint scenarios for service recovery
-2. Role-play a demanding guest in a difficult service situation
-3. Analyse a service strategy for customer experience effectiveness
-
-## Supply Chain & Logistics
-1. Generate supply chain disruption scenarios with constraints
-2. Role-play a demanding supplier in a negotiation
-3. Analyse a logistics plan for efficiency and resilience
-
-## Information Systems
-1. Generate IT project requirements with stakeholder conflicts
-2. Role-play a demanding stakeholder with unclear needs
-3. Analyse a project plan for scope management and risk
-
-## Accounting & Finance
-1. Generate financial statements with errors for audit analysis
-2. Role-play an auditor questioning a financial treatment
-3. Analyse a valuation decision for accounting judgment
-
-## Economics
-1. Generate economic policy scenarios with trade-offs
-2. Role-play an economist presenting competing models
-3. Analyse an economic forecast for assumptions and limitations
-
-:::
-
-Get comfortable with the basic rhythm: prompt → response → refine → use.
-
-The more you practice, the more natural it becomes. And the more specific your prompts, the more useful your outputs.
-
----
-
-## Why This Matters: Prompting as Transferable Skill
-
-You now understand something crucial: **prompting is the core skill underneath all AI tools.**
-
-Notice that whether you were using:
-- ChatGPT
-- MS Copilot in Word
-- Claude
-- Any other tool
-
-...the prompting principles were identical. You set a role, defined context, specified requirements, and got results.
-
-This matters because:
-
-1. **Tools will change, skills will remain** - ChatGPT might be replaced. Copilot might evolve. But the ability to communicate clearly with AI? That's portable.
-
-2. **Prompting scales** - The same prompting principles that work one-on-one with a tool also underlie:
-   - Custom GPTs that serve your entire class
-   - Automation workflows that generate content automatically
-   - Agents that handle complex multi-step processes
-   - RAG systems that ground AI in your course materials
-
-3. **Integration is prompting in disguise** - When you see AI integrated into Word, PowerPoint, or emerging teaching tools, you're seeing a prompt window embedded in familiar software. The principles you just learned apply.
-
-In the next chapters, you'll learn **specific prompting techniques** tailored to teaching. Then you'll apply them to increasingly sophisticated scenarios. All of it builds on what you've just learned here.
-
----
-
-## A Note on Conversation Length and Context
-
-When you start having longer conversations with AI,iterating on a unit design, asking follow-up questions, building on earlier work,you might eventually notice that outputs become less consistent or less accurate. This is a context management issue: as conversations grow very long, AI has limitations on what it can reliably track.
-
-**Don't worry about this for simple prompts.** But as you move to more complex work, **see Chapter 6 (Managing LLM Context)** for strategies to keep conversations focused and high-quality. You'll learn techniques like:
-- Breaking complex tasks into steps
-- Starting new conversations when appropriate
-- Explicitly restating context to keep AI on track
-
-For now, just be aware: if a long conversation starts feeling unwieldy, that's normal. Chapter 6 shows you how to manage it.
-
----
-
-**Next Chapter Preview:** In Chapter 3, you'll learn the week-by-week timeline for integrating AI into your teaching. Chapter 4 then introduces seven essential prompting **techniques**,specific approaches that develop different critical thinking skills in your students. Each technique is more sophisticated than "write a prompt," but all of them build on the foundations you've just mastered.
+The quality of what you get from AI depends almost entirely on how you work with it. Give it a vague instruction and you get a generic response. Work with it through a structured conversation and you get something genuinely useful. The tools will change. This skill transfers to all of them.

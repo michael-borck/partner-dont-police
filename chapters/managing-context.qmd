@@ -281,50 +281,7 @@ over completeness.
 
 ### Discipline-Specific Example
 
-::: {.panel-tabset}
-
-#### Human Resources
-```
-I need a comparison of recruitment approaches for a business program.
-Compare: traditional hiring, competency-based assessment, and team interviews.
-
-For each:
-- 2 advantages for HR
-- 2 limitations
-- Best for: [one sentence about when to use]
-
-Keep each section to 3–4 sentences. Focus on what a busy HR manager needs
-to know.
-```
-
-#### Supply Chain
-```
-Compare three supplier evaluation methods: scorecard, audit, and relationship.
-
-For each:
-- 2 advantages for supply chain risk
-- 2 limitations
-- Cost and time: approximate resource requirements
-- Best when: [one sentence]
-
-Keep focused on practical supply chain decisions.
-```
-
-#### Marketing
-```
-Compare three approaches to customer research: surveys, focus groups, and
-social listening.
-
-For each:
-- 2 advantages for market insights
-- 2 limitations
-- Best for understanding: [what customer dimension]
-- Time/cost: rough estimate
-
-Keep concise for a marketing decision-maker.
-```
-
-#### Accounting
+::: {.callout-tip title="Example: Accounting"}
 ```
 Compare three audit sampling approaches: statistical, risk-based, and
 procedural.
@@ -337,7 +294,6 @@ For each:
 
 Focus on what an audit team needs to decide.
 ```
-
 :::
 
 ---

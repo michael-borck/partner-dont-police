@@ -4,7 +4,7 @@
 
 This appendix provides a complete rubric generation pipeline: a generic template that works across disciplines, a structured guide for adapting it to your specific AI modality and discipline, and a worked example showing the full adaptation in practice.
 
-The system is built on a single principle: **assess the quality of the student's thinking about AI, not the quality of the AI's output.** The rubric criteria operationalise the engagement spectrum described in @sec-engagement-spectrum, translating the conceptual distinction between collaborative thinking and pure delegation into markable performance levels.
+The system is built on a single principle: **assess the quality of the student's thinking about AI, not the quality of the AI's output.** The rubric criteria operationalise the engagement spectrum described in the Assessment chapter, translating the conceptual distinction between collaborative thinking and pure delegation into markable performance levels.
 
 ### Why Critical Engagement Is Weighted at 30%
 
@@ -12,7 +12,7 @@ This is the differentiator. Any tool can generate fast output. Critical evaluati
 
 ### How the Rubric Connects to Transcript Analysis
 
-The transcript analysis metrics described in @sec-transcript-analysis (Flesch readability scores, turn counts, prompt specificity over time, evidence of pushback) provide a scalable triage layer that sits underneath this rubric. The metrics help markers quickly identify which performance band a student is likely operating in before reading the submission in detail:
+The transcript analysis metrics described in the Assessment chapter (Flesch readability scores, turn counts, prompt specificity over time, evidence of pushback) provide a scalable triage layer that sits underneath this rubric. The metrics help markers quickly identify which performance band a student is likely operating in before reading the submission in detail:
 
 | Transcript Signal | Likely Rubric Level |
 |---|---|
@@ -39,7 +39,7 @@ This is the starting point. Five criteria, four performance levels, adaptable to
 
 ### Mapping to the Engagement Spectrum {#sec-rubric-engagement-mapping}
 
-The **Conversation Quality & Accountability** criterion directly operationalises the engagement spectrum from @sec-engagement-spectrum:
+The **Conversation Quality & Accountability** criterion directly operationalises the engagement spectrum from the Assessment chapter:
 
 | Engagement Level | What It Looks Like in the Transcript | Rubric Level |
 |---|---|---|
@@ -202,7 +202,7 @@ The generic template works as-is for most contexts, but the **Critical Engagemen
 - Evidence & Examples: 20% (supporting claims)
 - Communication: 20% (verbal delivery and structure)
 
-This modality connects directly to the Tier 1 oral checkpoint described in @sec-minimum-viable. Even a five-minute conversation after submission closes the most significant integrity gap.
+This modality connects directly to the Tier 1 oral checkpoint described in the Assessment chapter. Even a five-minute conversation after submission closes the most significant integrity gap.
 
 ### For Different Disciplines
 
@@ -307,7 +307,7 @@ This example shows the generic template fully adapted for a specific assessment:
 - Look for evidence in the audit transcript: Can you see quality prompting? Validation? Follow-ups?
 - Check the LLM transcript (if submitted): Does it show iterative refinement or one-shot prompting?
 - Read the conversation transcript carefully: This is where students reveal their critical judgement. Look for conversation, not delegation
-- Use the transcript analysis metrics from @sec-transcript-analysis as a first-pass triage before reading in detail
+- Use the transcript analysis metrics from the Assessment chapter as a first-pass triage before reading in detail
 
 **Adapted for Other Audit Contexts:**
 
@@ -323,7 +323,7 @@ This rubric works well for ISO 27001 readiness audits, tech vendor assessments, 
 - What matters most in your discipline?
 - What would a professional in your field do with AI?
 - What skills do you want students to develop?
-- Where on the engagement spectrum (see @sec-engagement-spectrum) do you want students operating, and how will you know?
+- Where on the engagement spectrum (see the Assessment chapter) do you want students operating, and how will you know?
 
 ### Step 2: Customise in This Order
 
@@ -371,7 +371,7 @@ When adapting for your specific assessment:
 - **Don't** ignore the discipline (one-size-fits-all rarely works). **Do** customise weights and descriptors to your field.
 - **Don't** focus only on tool efficiency (faster is not better). **Do** reward critical thinking about AI, not speed of output.
 - **Don't** punish AI use and incentivise it being hidden. **Do** make transparency and critical evaluation rewarded behaviours.
-- **Don't** assume all students know how to "prompt well." **Do** teach and demonstrate effective AI engagement first. This is especially important if the process mark carries significant weight; see the AI literacy prerequisite discussed in @sec-marks-split.
+- **Don't** assume all students know how to "prompt well." **Do** teach and demonstrate effective AI engagement first. This is especially important if the process mark carries significant weight; see the AI literacy prerequisite discussed in the Assessment chapter.
 
 ---
 

@@ -359,117 +359,7 @@ This prevents students from blindly accepting AI suggestions and develops critic
 
 The transparency model can be adapted for any professional discipline. Below are examples showing how to implement self-assessment tools across different business contexts.
 
-::: {.panel-tabset}
-
-## Marketing
-
-### Campaign Strategy Analysis Assignment
-
-**Assignment Context:**
-Students analyse a failed marketing campaign and recommend improvements, justifying their approach with marketing theory and consumer behaviour principles.
-
-**Sample Rubric Excerpt:**
-
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Market Analysis** | Demonstrates sophisticated understanding of target audience--- competitive landscape--- and market trends | Shows good understanding of market factors with clear analysis | Basic market analysis with some gaps | Poor or missing market analysis |
-| **Strategic Recommendations** | Recommendations are innovative--- data-driven--- and aligned with business objectives | Solid recommendations with clear rationale and objectives alignment | Generic recommendations lacking specificity or strong rationale | Poor or impractical recommendations |
-
-**AI Critique Prompt Example:**
-```
-You are a senior marketing lecturer evaluating a student's campaign analysis.
-
-ASSESSMENT CRITERIA:
-1. Market Analysis: Understanding of consumer behaviour, segmentation, and competitive factors
-2. Strategic Recommendations: Innovation, feasibility, and alignment with marketing objectives
-3. Metrics & Measurement: Appropriate KPIs and success measurement approaches
-4. Implementation Planning: Realistic timelines, resource requirements, and risk mitigation
-
-For each criterion, provide a score (1-4) with specific justification, quote student work, and give actionable improvement suggestions.
-
-Here is the student's draft:
-[STUDENT PASTES DRAFT HERE]
-```
-
-**Key Learning Focus:**
-- Critical evaluation of marketing strategies
-- Application of consumer behaviour theory
-- Development of measurable campaign objectives
-
-## Accounting
-
-### Audit Risk Assessment Assignment
-
-**Assignment Context:**
-Students evaluate financial statements for potential material misstatements and recommend audit procedures, applying auditing standards and risk assessment frameworks.
-
-**Sample Rubric Excerpt:**
-
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Risk Identification** | Identifies all significant risks with sophisticated understanding of business processes and financial reporting implications | Identifies key risks with good understanding of business and financial factors | Identifies some risks but misses important areas or lacks depth | Fails to identify critical risks |
-| **Audit Procedures** | Recommends comprehensive--- risk-based procedures that address identified risks appropriately | Recommends appropriate procedures for most identified risks | Basic procedures recommended but not fully risk-based or comprehensive | Inadequate or inappropriate procedures |
-
-**AI Critique Prompt Example:**
-```
-You are a senior audit lecturer evaluating a student's risk assessment.
-
-ASSESSMENT CRITERIA:
-1. Risk Identification: Understanding of business risks, financial reporting risks, and control environment
-2. Audit Procedures: Appropriateness, sufficiency, and risk-based approach
-3. Professional Standards: Compliance with auditing standards and ethical requirements
-4. Documentation: Clarity and completeness of audit evidence requirements
-
-For each criterion, provide a score (1-4) with specific justification, quote student work, and give actionable improvement suggestions.
-
-Here is the student's draft:
-[STUDENT PASTES DRAFT HERE]
-```
-
-**Key Learning Focus:**
-- Application of audit risk assessment frameworks
-- Design of risk-based audit procedures
-- Compliance with professional auditing standards
-
-## Business Analytics
-
-### Data-Driven Decision Analysis Assignment
-
-**Assignment Context:**
-Students analyse a business dataset, identify insights, and recommend strategic actions, demonstrating statistical analysis and business acumen.
-
-**Sample Rubric Excerpt:**
-
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Data Analysis** | Sophisticated application of appropriate statistical methods with correct interpretation | Good application of statistical methods with accurate interpretation | Basic statistical analysis with some errors in application or interpretation | Poor or incorrect data analysis |
-| **Business Insights** | Translates data findings into actionable business recommendations with clear strategic implications | Connects data insights to business recommendations effectively | Basic connection between data and business implications | Weak or missing link between data and business strategy |
-
-**AI Critique Prompt Example:**
-```
-You are a senior analytics lecturer evaluating a student's data analysis report.
-
-ASSESSMENT CRITERIA:
-1. Data Analysis: Appropriate methodology, statistical validity, and correct interpretation
-2. Business Insights: Translation of data findings into strategic recommendations
-3. Visualization: Effective presentation of data and findings
-4. Assumptions & Limitations: Recognition of data constraints and analysis limitations
-
-For each criterion, provide a score (1-4) with specific justification, quote student work, and give actionable improvement suggestions.
-
-Here is the student's draft:
-[STUDENT PASTES DRAFT HERE]
-```
-
-**Key Learning Focus:**
-- Statistical analysis and interpretation
-- Communication of complex data insights
-- Strategic application of analytics findings
-
-## Tourism & Hospitality
-
-### Service Recovery Strategy Assignment
-
+::: {.callout-tip title="Example: Tourism & Hospitality — Service Recovery Strategy Assignment"}
 **Assignment Context:**
 Students analyse a customer complaint scenario in a hospitality setting and develop a comprehensive service recovery plan, applying customer service theory and operational considerations.
 
@@ -477,8 +367,8 @@ Students analyse a customer complaint scenario in a hospitality setting and deve
 
 | Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
 |---|---|---|---|---|
-| **Problem Analysis** | Sophisticated analysis of customer expectations--- service failure impact--- and underlying causes | Good analysis of customer issues and service failure elements | Basic identification of problems with limited depth | Poor or incomplete problem analysis |
-| **Recovery Strategy** | Comprehensive--- customer-centric recovery plan with multiple touchpoints and follow-up | Effective recovery strategy addressing key customer needs | Basic recovery approach with limited scope | Inadequate or inappropriate recovery strategy |
+| **Problem Analysis** | Sophisticated analysis of customer expectations, service failure impact, and underlying causes | Good analysis of customer issues and service failure elements | Basic identification of problems with limited depth | Poor or incomplete problem analysis |
+| **Recovery Strategy** | Comprehensive, customer-centric recovery plan with multiple touchpoints and follow-up | Effective recovery strategy addressing key customer needs | Basic recovery approach with limited scope | Inadequate or inappropriate recovery strategy |
 
 **AI Critique Prompt Example:**
 ```
@@ -500,77 +390,6 @@ Here is the student's draft:
 - Customer service psychology and expectations
 - Multi-touchpoint service recovery design
 - Operational constraints in hospitality settings
-
-## Information Systems
-
-### System Requirements Analysis Assignment
-
-**Assignment Context:**
-Students analyse business requirements for a new IT system and develop functional specifications, demonstrating requirements gathering and technical specification skills.
-
-**Sample Rubric Excerpt:**
-
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Requirements Elicitation** | Comprehensive identification of stakeholder needs with sophisticated prioritisation | Good identification and prioritisation of key requirements | Basic requirements identification with some gaps | Poor or incomplete requirements analysis |
-| **Technical Specifications** | Detailed--- unambiguous specifications with appropriate technical depth | Clear specifications covering essential technical requirements | Basic specifications with limited technical detail | Inadequate or unclear technical specifications |
-
-**AI Critique Prompt Example:**
-```
-You are a senior IT lecturer evaluating a student's system requirements analysis.
-
-ASSESSMENT CRITERIA:
-1. Requirements Elicitation: Stakeholder identification, needs analysis, and prioritisation
-2. Technical Specifications: Clarity, completeness, and technical accuracy
-3. Feasibility Analysis: Technical and business feasibility considerations
-4. Validation Approach: Methods for requirements verification and validation
-
-For each criterion, provide a score (1-4) with specific justification, quote student work, and give actionable improvement suggestions.
-
-Here is the student's draft:
-[STUDENT PASTES DRAFT HERE]
-```
-
-**Key Learning Focus:**
-- Stakeholder requirements gathering and analysis
-- Technical specification development
-- Requirements validation and verification
-
-## Management
-
-### Organisational Change Strategy Assignment
-
-**Assignment Context:**
-Students analyse a change management scenario and develop an implementation plan, applying organisational behaviour theory and change management frameworks.
-
-**Sample Rubric Excerpt:**
-
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Change Analysis** | Sophisticated analysis of organisational readiness--- stakeholder impact--- and change complexity | Good analysis of change factors and stakeholder considerations | Basic identification of change elements with limited depth | Poor or incomplete change analysis |
-| **Implementation Strategy** | Comprehensive change plan with clear phases--- stakeholder engagement--- and risk mitigation | Effective implementation strategy with good stakeholder consideration | Basic change approach with limited strategic elements | Inadequate or poorly structured change strategy |
-
-**AI Critique Prompt Example:**
-```
-You are a senior management lecturer evaluating a student's change management plan.
-
-ASSESSMENT CRITERIA:
-1. Change Analysis: Understanding of organisational dynamics and stakeholder impact
-2. Implementation Strategy: Phased approach, stakeholder engagement, and communication planning
-3. Risk Management: Identification and mitigation of change resistance and implementation risks
-4. Success Metrics: Appropriate measurement of change effectiveness and organisational impact
-
-For each criterion, provide a score (1-4) with specific justification, quote student work, and give actionable improvement suggestions.
-
-Here is the student's draft:
-[STUDENT PASTES DRAFT HERE]
-```
-
-**Key Learning Focus:**
-- Organisational change theory application
-- Stakeholder engagement and communication
-- Change implementation planning and risk management
-
 :::
 
 ## Adapting Self-Assessment Across Disciplines
@@ -702,5 +521,3 @@ Before moving to the next chapter, try this:
 Once you've tested it, you're ready to introduce this model in your class.
 
 ---
-
-**Next Chapter Preview:** In the next chapter, we'll explore advanced applications and considerations for scaling AI-enhanced teaching across your programme. We'll discuss how to maintain quality, support different student needs, and prepare students for an AI-integrated professional landscape.

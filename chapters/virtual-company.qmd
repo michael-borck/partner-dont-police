@@ -39,7 +39,7 @@ Let's explore each level.
 
 ## Level 1: Single Employee Persona (Master Prompt)
 
-This is the simplest version, essentially an enhanced version of the conversation simulation from Chapter 4, but with richer organisational context.
+This is the simplest version, essentially an enhanced version of the conversation simulation from the Seven Techniques chapter, but with richer organisational context.
 
 ### The Master Prompt Template
 
@@ -443,50 +443,7 @@ Work with your university's IT department to create a custom web interface where
 
 The virtual company simulation concept can be adapted for any business discipline. Below are examples showing how to implement the progressive levels across different professional contexts.
 
-::: {.panel-tabset}
-
-## Marketing
-
-### Level 1: Single Stakeholder Persona
-**Context:** A marketing agency where students act as account managers handling client relationships.
-
-**Master Prompt Example:**
-```
-You are Elena Rodriguez, CMO of "GreenLife Brands," a natural foods company.
-
-COMPANY CONTEXT:
-GreenLife Brands produces organic snacks and beverages. The company has grown rapidly but struggles with consistent branding and campaign execution. Marketing decisions are made collaboratively but there's tension between creative freedom and brand guidelines.
-
-ELENA'S BACKGROUND:
-- 38 years old, former creative director at a major agency
-- Joined GreenLife 2 years ago to build their marketing function
-- Strong creative vision but impatient with process and bureaucracy
-- Under pressure to deliver results after a failed product launch
-
-CURRENT SITUATION:
-Your agency partner (the student) has just presented a new campaign concept for the upcoming product line. You're concerned it doesn't align with the brand's "authentic, sustainable" positioning and may confuse the target audience.
-
-ELENA'S PERSONA:
-- Passionate about marketing but critical of "safe" approaches
-- Values creativity but demands results
-- Can be demanding and direct in feedback
-- Will push back on conventional thinking but respond well to data-driven arguments
-
-YOUR ROLE:
-I am the account manager from your agency. This is our creative review meeting.
-
-Stay in character. Begin the meeting now.
-```
-
-**Learning Focus:**
-- Client relationship management
-- Creative feedback delivery
-- Brand strategy alignment
-- Balancing creative vision with business objectives
-
-## Accounting
-
-### Level 2: Multiple Stakeholder Personas
+::: {.callout-tip title="Example: Accounting — Multiple Stakeholder Personas"}
 **Context:** An accounting firm handling a complex audit with multiple client stakeholders.
 
 **The Cast:**
@@ -530,142 +487,6 @@ Stay in character. Begin now.
 - Technical accounting judgment
 - Client relationship navigation
 - Risk assessment and communication
-
-## Business Analytics
-
-### Level 3: Persistent Context
-**Context:** A retail analytics team managing customer data and insights over multiple quarters.
-
-**Sequential Assignment Structure:**
-- **Month 1-2:** Initial data assessment and dashboard design
-- **Month 3-4:** Customer segmentation analysis and campaign recommendations
-- **Month 5-6:** Performance tracking and optimisation recommendations
-- **Month 7:** Final presentation to executive team
-
-**Example Persistent Context Injection:**
-```
-CONTEXT FROM PREVIOUS MONTHS:
-
-Month 1: You designed initial customer analytics dashboard. The executive team approved the framework but requested more predictive capabilities.
-
-Month 2: You completed customer segmentation analysis identifying 5 key personas. Marketing team implemented targeted campaigns based on your recommendations.
-
-Month 3: Campaign results show 40% lift in engagement for Persona A but only 15% for Persona B. Executive team questions the segmentation accuracy.
-
-Month 4 (NOW): You're preparing optimisation recommendations. The marketing budget for next quarter depends on demonstrating ROI from your analytics work.
-
-Use this context in your responses. Remember previous discussions about data quality, segmentation methodology, and campaign performance.
-```
-
-**Learning Focus:**
-- Longitudinal data strategy development
-- Stakeholder communication of complex analytics
-- Iterative improvement based on results
-- Business value demonstration
-
-## Tourism & Hospitality
-
-### Level 4: Dynamic Events
-**Context:** A hotel management company dealing with seasonal fluctuations and external events.
-
-**Dynamic Event Example:**
-```
-COMPANY UPDATE - SEASONAL CRISIS:
-
-A major sporting event in the city has caused unprecedented demand. Hotel occupancy is at 95% but service quality is declining due to staff shortages and system overloads.
-
-NEW CONTEXT AFFECTING ALL PERSONAS:
-- Front desk managers are overwhelmed with guest complaints
-- Housekeeping staff are working double shifts
-- Revenue managers must decide whether to implement surge pricing
-- Guest experience team is fielding social media backlash
-
-All personas should reflect increased stress, fatigue, and the pressure of maintaining service standards during peak demand. Decisions made now will affect post-event recovery and reputation.
-```
-
-**Semester-Long Project Structure:**
-| Week | Event | Student Task |
-|---|---|---|
-| 1-2 | Pre-season planning | Staff scheduling and inventory management |
-| 3-4 | Peak season begins | Service quality monitoring and complaint resolution |
-| 5-6 | External event impact | Crisis management and resource allocation |
-| 7-8 | Post-event recovery | Customer retention and staff morale initiatives |
-| 9-10 | Off-season transition | Cost optimisation and strategic planning |
-
-**Learning Focus:**
-- Crisis management in hospitality
-- Seasonal business cycle navigation
-- Service quality maintenance under pressure
-- Stakeholder communication during uncertainty
-
-## Information Systems
-
-### Multi-Level Integration
-**Context:** An IT department managing a major system implementation across the organisation.
-
-**Level 1 Setup:**
-```
-You are Dr. Amanda Foster, Chief Information Officer of GlobalHealth Systems.
-
-COMPANY CONTEXT:
-GlobalHealth manages electronic health records for multiple hospitals. They're implementing a new patient portal system that will change workflows for 500+ clinical staff.
-
-AMANDA'S BACKGROUND:
-- 42 years old, former hospital CIO
-- Strong technical background but patient-focused
-- Concerned about clinical workflow disruption
-- Must balance innovation with patient safety
-
-CURRENT CHALLENGE:
-The new portal system is behind schedule. Clinical staff are resisting training, citing patient care priorities. IT team reports technical issues with integration.
-
-AMANDA'S PERSONA:
-- Collaborative but decisive
-- Values clinical input but understands technical constraints
-- Will advocate for patients but recognises business realities
-- Responds well to data-driven change management plans
-
-YOUR ROLE:
-I am the IT project manager. This is our weekly status meeting.
-
-Stay in character. Begin now.
-```
-
-**Progressive Complexity:**
-- **Level 2:** Add clinical department heads, IT team members, and vendor representatives
-- **Level 3:** Implementation spans multiple weeks with persistent issues and evolving stakeholder positions
-- **Level 4:** External events like software vendor issues or regulatory changes affect the project
-
-**Learning Focus:**
-- Large-scale IT project management
-- Change management in healthcare settings
-- Technical and clinical stakeholder alignment
-- Risk management and contingency planning
-
-## Management
-
-### Comprehensive Leadership Simulation
-**Context:** A manufacturing company where students act as plant managers handling operational and people challenges.
-
-**Full Cast Example:**
-1. **Production Manager** - Focused on efficiency, frustrated with quality issues
-2. **Union Representative** - Advocates for worker safety and fair treatment
-3. **Quality Control Lead** - Technical expert, concerned about compliance
-4. **HR Business Partner** - Supports people initiatives, mediates conflicts
-5. **Finance Controller** - Monitors costs, pushes for productivity improvements
-
-**Dynamic Scenario Evolution:**
-- **Quarter 1:** Production targets missed due to equipment failures
-- **Quarter 2:** Quality issues lead to product recalls and customer complaints
-- **Quarter 3:** Union grievances about working conditions emerge
-- **Quarter 4:** Cost reduction initiatives create morale challenges
-
-**Learning Focus:**
-- Multi-functional leadership
-- Conflict resolution across departments
-- Strategic decision-making under uncertainty
-- Organisational change leadership
-
 :::
 
 ## Adapting Virtual Companies Across Disciplines
@@ -769,5 +590,3 @@ Before the next chapter, decide your level of ambition:
 Choose what feels manageable for your current teaching load and technical comfort level. You can always scale up later.
 
 ---
-
-**Next Chapter Preview:** In the next chapter, we shift from "how to use AI tools" to "how to rethink assessment." We'll explore the fundamental difference between assessing **process** (professional methodology) versus **product** (theoretical knowledge), and show you several complete assessment models that can be adapted across disciplines. This is where AI-enhanced teaching transforms into AI-enhanced assessment.

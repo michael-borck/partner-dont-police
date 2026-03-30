@@ -2,11 +2,27 @@
 
 > One AI-enhanced activity is an experiment. A whole unit designed around AI integration is a pedagogy.
 
+## Start Small, Then Scale
+
+Before redesigning an entire unit, most educators benefit from a phased approach:
+
+**Phase 1: Personal experimentation.** Before your next class, spend an hour generating teaching resources with AI. Create a case study, run a simulation yourself, review an existing assignment through the lens of "could AI enhance this?" You need to be comfortable with the tool before introducing it to students.
+
+**Phase 2: Low-stakes student introduction.** Introduce AI as an optional practice tool for an upcoming assignment, or demonstrate it live in a lecture. No grades attached. Let students see what it does and form their own impressions. Students who try it will spread the word to peers.
+
+**Phase 3: Pilot one assessment.** Choose a single assignment worth 15-25% of the grade. Test the prompts thoroughly yourself first. Provide clear instructions, do a live demo, and build in flexibility for technical issues. Grade thinking and process, not just outputs.
+
+**Phase 4: Gather feedback.** Survey students. Reflect on what worked. Make 2-3 specific changes for next time.
+
+**Phase 5: Expand next semester.** Add a second AI component, or make the existing one more sophisticated. By now you know what works in your context.
+
+Most lecturers should complete at least one pilot before attempting whole-unit redesign. Once you have, you are ready for what follows.
+
 ## Beyond Individual Assignments: Whole-Unit Design
 
-The previous chapters showed you how to create individual AI-enhanced assignments. But the real power of AI in education emerges when you design an entire unit---a complete semester's learning---with AI integration from the start.
+The real power of AI in education emerges when you design an entire unit — a complete semester's learning — with AI integration from the start.
 
-This isn't about "adding AI" to an existing unit. It's about **redesigning with AI as a pedagogical partner**, creating learning experiences that weren't previously possible.
+This is not about "adding AI" to an existing unit. It is about redesigning with AI as a pedagogical partner, creating learning experiences that were not previously possible.
 
 This chapter walks through complete unit design using backwards design principles, showing you how to scaffold student learning from "first encounter with AI" to "competent professional use."
 
@@ -18,7 +34,7 @@ This chapter walks through complete unit design using backwards design principle
 
 Start here, always. What should students be able to do by the end of the unit?
 
-**Example Unit:** HRMT3004 - Workplace Conflict and Resolution (Third-year undergraduate)
+**Example Unit:** Workplace Conflict and Resolution (Third-year undergraduate, HR)
 
 **Learning Outcomes:**
 1. Analyse workplace conflicts using conflict resolution theory and organisational justice frameworks
@@ -36,7 +52,7 @@ Start here, always. What should students be able to do by the end of the unit?
 
 ### Step 2: Design Assessments (How Will Students Demonstrate Mastery?)
 
-Using the process-based assessment principles from Chapter 7, design assessments that make professional competence visible.
+Using the process-based assessment principles from the Assessment chapter, design assessments that make professional competence visible.
 
 **Assessment 1: Investigation Interview Simulation (25%)**
 - **What:** Students conduct simulated investigation interview with AI persona, submit transcript + process audit
@@ -55,7 +71,7 @@ Using the process-based assessment principles from Chapter 7, design assessments
 - **Assesses:** Learning outcomes 1, 5
 - **Due:** Week 13 (exam period)
 - **Why this timing:** Synthesizes learning from entire semester
-- **AI integration:** Students use AI for literature synthesis and draft feedback (Chapter 5 self-assessment model)
+- **AI integration:** Students use AI for literature synthesis and draft feedback (the Self-Assessment chapter model)
 
 ---
 
@@ -92,7 +108,7 @@ In-class demonstration:
 
 **Student Task:**
 - Install ChatGPT or Claude
-- Complete the "Getting Started" tutorial (Chapter 2 exercise)
+- Complete the "Getting Started" tutorial (the Getting Started chapter exercise)
 - Submit screenshot showing they successfully generated a simple HR scenario
 
 ---
@@ -223,7 +239,7 @@ Students submit:
 ```
 Scenario Exploration:
 - Students receive a conflict scenario suitable for mediation
-- Use AI "Pros and Cons" technique (Chapter 3) to evaluate which mediation approach is best
+- Use AI "Pros and Cons" technique (the Seven Techniques chapter) to evaluate which mediation approach is best
 - In-class discussion: Did different students reach different conclusions? Why?
 ```
 
@@ -576,44 +592,7 @@ After the semester, evaluate systematically:
 
 The backwards design approach can be adapted for any business discipline. Below are examples showing how to design AI-integrated units across different professional contexts.
 
-::: {.panel-tabset}
-
-## Marketing
-
-### Unit: Digital Marketing Strategy and Analytics
-
-**Learning Outcomes (AI-Neutral):**
-1. Analyse market data and consumer behaviour patterns
-2. Develop data-driven marketing strategies and campaigns
-3. Evaluate campaign performance using analytics frameworks
-4. Communicate marketing insights to diverse stakeholders
-5. Apply ethical considerations in digital marketing practices
-6. Demonstrate critical evaluation of marketing technology tools
-
-**Assessment Structure:**
-- **Assessment 1 (25%):** Market Analysis Simulation - Students conduct AI stakeholder consultation to gather requirements, submit analysis + process audit
-- **Assessment 2 (40%):** Campaign Strategy Portfolio - Students design multi-channel campaign using AI for competitor analysis and creative ideation, with critical evaluation of AI recommendations
-- **Assessment 3 (35%):** Campaign Performance Analysis - Students evaluate real campaign data using AI for initial insights, then provide critical analysis and strategic recommendations
-
-**Weekly Progression Example:**
-- **Weeks 1-2:** Consumer behaviour theory + AI prompt basics (market research scenarios)
-- **Weeks 3-4:** Analytics frameworks + AI data analysis practice (campaign metrics evaluation)
-- **Weeks 5-6:** Assessment 1 - Stakeholder consultation simulation
-- **Weeks 7-8:** Creative strategy + AI ideation tools (campaign concept generation)
-- **Weeks 9-10:** Digital channels + AI competitor analysis (strategy development)
-- **Weeks 11-12:** Assessment 2 - Strategy portfolio + performance analysis preparation
-- **Week 13:** Assessment 3 - Critical evaluation of marketing analytics
-
-**Key AI Integration Points:**
-- Consumer persona development and validation
-- Competitor analysis and market trend identification
-- Campaign performance prediction and optimisation recommendations
-- Creative concept evaluation and stakeholder feedback simulation
-
-## Accounting
-
-### Unit: Advanced Audit and Assurance
-
+::: {.callout-tip title="Example: Accounting — Advanced Audit and Assurance"}
 **Learning Outcomes (AI-Neutral):**
 1. Apply professional auditing standards and ethical principles
 2. Design risk-based audit procedures and testing strategies
@@ -641,135 +620,6 @@ The backwards design approach can be adapted for any business discipline. Below 
 - Internal control design and testing procedure generation
 - Audit evidence analysis and pattern recognition
 - Stakeholder communication and audit finding presentation
-
-## Business Analytics
-
-### Unit: Strategic Business Intelligence
-
-**Learning Outcomes (AI-Neutral):**
-1. Apply statistical and analytical methods to business problems
-2. Design and implement data collection and analysis frameworks
-3. Interpret complex data sets and communicate insights effectively
-4. Evaluate analytical model validity and limitations
-5. Apply ethical considerations in data analysis and reporting
-6. Develop data-driven business strategies and recommendations
-
-**Assessment Structure:**
-- **Assessment 1 (25%):** Stakeholder Requirements Analysis - Students conduct AI consultation to understand business needs, submit requirements analysis + process audit
-- **Assessment 2 (40%):** Analytics Solution Portfolio - Students design comprehensive analytics solution using AI for initial model development and testing, with critical evaluation of AI approaches
-- **Assessment 3 (35%):** Strategic Insights Report - Students analyse complex business data using AI for initial insights, then provide strategic recommendations and implementation plans
-
-**Weekly Progression Example:**
-- **Weeks 1-2:** Data fundamentals and ethics + AI prompt basics (data quality assessment)
-- **Weeks 3-4:** Statistical methods + AI analysis practice (hypothesis testing and validation)
-- **Weeks 5-6:** Assessment 1 - Requirements analysis simulation
-- **Weeks 7-8:** Machine learning concepts + AI model development (predictive modelling approaches)
-- **Weeks 9-10:** Data visualisation + AI dashboard design (insights communication)
-- **Weeks 11-12:** Assessment 2 - Analytics portfolio + strategic analysis preparation
-- **Week 13:** Assessment 3 - Business intelligence reporting and strategic recommendations
-
-**Key AI Integration Points:**
-- Data quality assessment and cleansing recommendations
-- Statistical model selection and validation
-- Predictive analytics and forecasting
-- Business intelligence dashboard design and user experience
-
-## Tourism & Hospitality
-
-### Unit: Strategic Hospitality Management
-
-**Learning Outcomes (AI-Neutral):**
-1. Analyse hospitality market trends and competitive dynamics
-2. Develop customer experience strategies and service innovations
-3. Apply revenue management and operational optimisation techniques
-4. Evaluate service quality and customer satisfaction metrics
-5. Demonstrate cultural competence in global hospitality contexts
-6. Design sustainable and ethical hospitality practices
-
-**Assessment Structure:**
-- **Assessment 1 (25%):** Guest Experience Consultation - Students conduct AI guest/stakeholder consultation to understand service expectations, submit analysis + process audit
-- **Assessment 2 (40%):** Service Innovation Portfolio - Students design comprehensive service improvement strategy using AI for trend analysis and idea generation, with critical evaluation of AI recommendations
-- **Assessment 3 (35%):** Operational Strategy Report - Students analyse hospitality performance data using AI for initial insights, then provide strategic recommendations and implementation plans
-
-**Weekly Progression Example:**
-- **Weeks 1-2:** Hospitality fundamentals + AI prompt basics (service quality assessment)
-- **Weeks 3-4:** Customer experience theory + AI feedback analysis practice (sentiment and trend analysis)
-- **Weeks 5-6:** Assessment 1 - Guest consultation simulation
-- **Weeks 7-8:** Revenue management + AI pricing optimisation (demand forecasting and dynamic pricing)
-- **Weeks 9-10:** Service innovation + AI trend analysis (market opportunity identification)
-- **Weeks 11-12:** Assessment 2 - Innovation portfolio + strategy development preparation
-- **Week 13:** Assessment 3 - Operational strategy and performance optimisation
-
-**Key AI Integration Points:**
-- Customer sentiment analysis and experience mapping
-- Revenue optimisation and demand forecasting
-- Competitive intelligence and market trend analysis
-- Service innovation ideation and concept validation
-
-## Information Systems
-
-### Unit: Enterprise Systems Implementation
-
-**Learning Outcomes (AI-Neutral):**
-1. Analyse business requirements for technology solutions
-2. Design and implement enterprise system architectures
-3. Manage organisational change and user adoption processes
-4. Evaluate system performance and security considerations
-5. Apply project management methodologies in IT contexts
-6. Demonstrate ethical use of technology and data governance
-
-**Assessment Structure:**
-- **Assessment 1 (25%):** Requirements Gathering Simulation - Students conduct AI stakeholder consultation to understand system needs, submit requirements analysis + process audit
-- **Assessment 2 (40%):** System Design Portfolio - Students develop comprehensive system solution using AI for initial architecture design and risk assessment, with critical evaluation of AI recommendations
-- **Assessment 3 (35%):** Implementation Strategy Report - Students analyse system implementation challenges using AI for initial planning, then provide strategic recommendations and change management plans
-
-**Weekly Progression Example:**
-- **Weeks 1-2:** Systems analysis fundamentals + AI prompt basics (requirements documentation)
-- **Weeks 3-4:** System design principles + AI architecture practice (solution design and evaluation)
-- **Weeks 5-6:** Assessment 1 - Requirements gathering simulation
-- **Weeks 7-8:** Project management + AI risk assessment (implementation planning and contingency development)
-- **Weeks 9-10:** Change management + AI adoption analysis (user training and communication strategies)
-- **Weeks 11-12:** Assessment 2 - System design portfolio + implementation preparation
-- **Week 13:** Assessment 3 - Strategic implementation and governance planning
-
-**Key AI Integration Points:**
-- Requirements elicitation and stakeholder analysis
-- System architecture design and technology evaluation
-- Risk assessment and mitigation strategy development
-- Change management and user adoption planning
-
-## Management
-
-### Unit: Strategic Leadership and Change Management
-
-**Learning Outcomes (AI-Neutral):**
-1. Analyse organisational dynamics and stakeholder relationships
-2. Develop strategic change management and leadership plans
-3. Apply conflict resolution and negotiation techniques
-4. Evaluate organisational culture and employee engagement
-5. Demonstrate ethical leadership and decision-making
-6. Design performance management and development systems
-
-**Assessment Structure:**
-- **Assessment 1 (25%):** Organisational Assessment Consultation - Students conduct AI stakeholder consultation to understand organisational dynamics, submit analysis + process audit
-- **Assessment 2 (40%):** Change Strategy Portfolio - Students design comprehensive change management plan using AI for stakeholder analysis and resistance assessment, with critical evaluation of AI recommendations
-- **Assessment 3 (35%):** Leadership Development Report - Students analyse leadership challenges using AI for initial assessment, then provide strategic recommendations and development plans
-
-**Weekly Progression Example:**
-- **Weeks 1-2:** Organisational behaviour theory + AI prompt basics (stakeholder mapping)
-- **Weeks 3-4:** Leadership frameworks + AI assessment practice (organisational culture analysis)
-- **Weeks 5-6:** Assessment 1 - Organisational consultation simulation
-- **Weeks 7-8:** Change management + AI resistance analysis (change impact assessment)
-- **Weeks 9-10:** Conflict resolution + AI scenario planning (negotiation and mediation strategies)
-- **Weeks 11-12:** Assessment 2 - Change strategy portfolio + leadership development preparation
-- **Week 13:** Assessment 3 - Strategic leadership and organisational development
-
-**Key AI Integration Points:**
-- Stakeholder analysis and relationship mapping
-- Organisational culture assessment and change readiness evaluation
-- Conflict resolution scenario planning and strategy development
-- Leadership development planning and succession management
-
 :::
 
 ## Adapting Unit Design Principles Across Disciplines
@@ -844,5 +694,3 @@ Don't aim for perfection---aim for "better than what I'm currently doing."
 You can refine each semester based on what you learn.
 
 ---
-
-**Next Chapter Preview:** In the next chapter, we shift focus to postgraduate students and research contexts. You'll learn how to use AI as a research assistant,for literature review, data analysis, research question development, and critical synthesis,while maintaining academic rigor and original thinking. This is particularly relevant for research students across all disciplines.

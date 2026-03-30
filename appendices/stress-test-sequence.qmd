@@ -105,7 +105,7 @@ These prompts work for any assessment type: essays, literature reviews, case stu
 >
 > For each point on the spectrum, describe what the student's behaviour looks like and what learning, if any, is still happening. The goal is to help me understand where the real learning failure is, and how likely it is.
 
-For more on the engagement spectrum as a conceptual framework for assessment design, see @sec-engagement-spectrum.
+For more on the engagement spectrum as a conceptual framework for assessment design, see the Assessment chapter.
 
 ---
 
@@ -185,13 +185,13 @@ This optional prompt tends to produce a concrete realisation for staff about the
 
 > If I wanted to shift the weighting of this assessment so that the process (how the student used AI to develop their work) carries more marks than the final artefact, what would that look like in practice? Suggest a marks split and describe what the process component would require students to submit and how a marker would assess it at scale.
 
-For more on the process-over-product marks split, see @sec-marks-split.
+For more on the process-over-product marks split, see the Assessment chapter.
 
 **On NotebookLM as student research infrastructure:**
 
 > A student maintains a NotebookLM notebook for this unit loaded with lecture slides, readings, and the marking rubric, and a separate notebook for this specific assignment loaded with everything they have found on the topic. How does this change your completability analysis? What components, if any, become harder for AI to complete when the student has built this kind of personalised research context?
 
-For more on why this matters for assessment design, see @sec-notebooklm-infrastructure.
+For more on why this matters for assessment design, see the Assessment chapter.
 
 **On essays and literature reviews:**
 

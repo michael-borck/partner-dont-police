@@ -42,24 +42,25 @@ You do not need to be the AI expert in the room. You need to be the expert in yo
 
 The book follows a progressive structure designed to build confidence gradually:
 
-**Foundation** (Chapters 1--6) builds your understanding of AI, introduces structured prompting through the CRAFT framework, and helps you find your own AI strategy. No prior AI experience is assumed.
+**Foundation** (Chapters 1--3) builds your understanding of AI and LLMs, introduces structured prompting through the CRAFT framework, and gets you into your first productive AI conversation. No prior AI experience is assumed.
 
-**Core Applications** (Chapters 7--18) moves into practical teaching: flight simulators for student practice, the critique toolkit, ethics and data governance, process-based assessment, virtual companies, unit design, and using AI for research supervision.
+**Core Techniques** (Chapters 4--7) gives you seven essential prompt techniques, strategies for managing AI context, the flight simulator concept for student practice, and the critique toolkit for teaching critical evaluation.
 
-**Implementation Excellence** (Chapters 19--22) addresses assessment design, technical troubleshooting, accessibility, and adapting the approaches for different institutional and cultural contexts.
+**Teaching with AI** (Chapters 8--12) moves into ethics and data governance, process-based assessment, self-assessment tools, virtual company simulations, and full unit design with a phased implementation roadmap.
 
-**Resources** (Appendices A--E) provides ready-to-use materials: prompt libraries, a workshop guide for colleagues, alignment templates, and advanced prompting techniques.
+**Putting It Together** (Chapters 13--16) covers transforming content with AI, global perspectives and adaptation, implementation practicalities (technical and accessibility), and where to go from here.
+
+**Appendices** provide institutional alignment frameworks, rubric templates, stress test sequences for validating your assessments, a glossary, and further reading.
 
 You do not need to read it in order. The table below will point you to the chapters that matter most for your situation.
 
 | Your Situation | Start Here |
 |---|---|
-| **Completely new to AI** | Chapter 1 (motivation) and Chapter 2 (your first AI conversation) |
-| **Want to implement AI in teaching** | Chapter 3 (first steps) then Chapter 4 (essential techniques). Appendix A for ready-to-use prompts |
-| **Designing assessments** | Chapter 11 (process-based assessment) and Chapter 19 (assessment design and rubrics) |
-| **Teach postgraduate students** | Chapter 17 (AI as research assistant) |
-| **Presenting to colleagues** | Appendix B (one-hour faculty workshop guide) |
-| **Need institutional justification** | Appendix C (alignment with institutional learning outcomes) |
+| **Completely new to AI** | Chapter 1 (motivation) and Chapter 3 (your first AI conversation) |
+| **Want to implement AI in teaching** | Chapter 4 (essential techniques) then Chapter 12 (unit design with phased roadmap) |
+| **Designing assessments** | Chapter 8 (assessment: process over product) and the Rubric System appendix |
+| **Concerned about integrity** | Chapter 7 (ethics, data governance, and integrity) |
+| **Need institutional justification** | Institutional Alignment appendix |
 
 ## Conventions Used in This Book
 

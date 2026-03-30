@@ -1,0 +1,93 @@
+# Implementation Practicalities
+
+> Plan for the tool to fail. The pedagogy should work even when the technology does not.
+
+> If AI integration only works for some students, it is not integration. It is exclusion with better technology.
+
+## When Things Go Wrong
+
+AI tools are powerful but not infallible. When implementing AI-enhanced teaching, technical issues are inevitable. The question is not whether something will fail, but whether you have a plan when it does.
+
+### The Essential Preparations
+
+**Have backup platforms.** If your primary tool goes down, students should be able to switch to an alternative. Design assignments that work with any AI tool — ChatGPT, Claude, Gemini, Copilot — rather than depending on one. Specify this in your assignment instructions.
+
+**Build in deadline flexibility.** Include a clear policy: if the AI platform is unavailable during the assignment period, students can request an extension. This removes anxiety and prevents a wave of panicked emails.
+
+**Prepare offline alternatives.** For any AI-enhanced activity, have a non-AI version ready. A conversation simulation can fall back to a written case analysis. An interactive exercise can fall back to a paper worksheet. The learning objectives should be achievable either way.
+
+**Test before you launch.** Run every prompt yourself before assigning it to students. Check that the AI stays in character, produces useful output, and handles edge cases. A prompt that works for you in a calm office may fail when 80 students use slightly different wording.
+
+### Common Issues and Quick Fixes
+
+| Problem | Response |
+|---|---|
+| Platform is down | Switch to alternative tool. Extend deadline if needed. |
+| AI not staying in character | Start a fresh conversation. Check full prompt was copied. |
+| AI giving inconsistent quality | Try a different model or platform. Simplify the task. |
+| Student cannot access tool | Offer office hours to run it together. Provide alternative. |
+| Student says "is this cheating?" | "This IS the assignment. You're graded on critical use, not avoidance." |
+| Conversation gets too long and degrades | Start a new conversation. Restate key context explicitly. |
+
+### Risk Assessment
+
+| Risk | Probability | Impact | Mitigation |
+|---|---|---|---|
+| Service outage | Medium | High | Multiple platforms, offline alternatives |
+| Quality degradation | High | Medium | Benchmark testing, platform switching |
+| Data loss | Medium | High | Local backups, screenshot important outputs |
+| Security/privacy incident | Low | Critical | Enterprise tools, data sanitisation |
+
+## Accessibility and Inclusion
+
+AI integration creates new opportunities but also new barriers. If you design only for students with reliable internet, modern devices, and strong English skills, you are excluding a significant portion of your cohort.
+
+### The Digital Divide
+
+Not all students have equal access to technology. Before assigning AI-enhanced work, consider:
+
+- **Device availability.** Some students access coursework only through phones or shared computers. Design activities that work on mobile browsers, not just desktops.
+- **Internet reliability.** Rural and low-income students may have poor connectivity. Allow activities to be completed in short sessions rather than requiring extended online time. Provide campus lab time as an option.
+- **Cost barriers.** Free-tier tools have usage limits. Design assignments around freely available platforms. If your institution provides enterprise AI access, make sure students know how to use it.
+- **Digital literacy.** Not all students arrive with the same comfort level. A five-minute demo of "here is where you paste the prompt" removes a barrier that feels obvious to you but is not obvious to everyone.
+
+### Universal Design Principles
+
+Design AI activities that work for the widest range of students:
+
+**Multiple means of engagement.** Offer text-based, voice-based, and visual interaction options where possible. Allow students to pace interactions at their own speed.
+
+**Multiple means of expression.** Let students demonstrate learning in different ways — written reflection, verbal explanation, visual presentation, or process documentation. A student who struggles with written English may demonstrate excellent critical thinking verbally.
+
+**Multiple means of representation.** Request AI output in different formats — text summaries, bullet points, step-by-step breakdowns — so students can choose what works for their learning style.
+
+### Specific Accommodations
+
+**Students with visual impairments.** Prioritise text-based AI tools with strong screen reader support. Ask AI to provide structured, hierarchical responses rather than visual content. Avoid prompts that depend on "see above" or visual references.
+
+**Students with hearing impairments.** Ensure all AI interactions are available in text. If using voice-based AI features, provide text alternatives.
+
+**Neurodivergent students.** AI conversations can be overwhelming. Allow breaks, provide templates that structure the interaction, and keep prompts focused on one task at a time. The "one prompt, one job" principle from CRAFT is especially important here.
+
+**Non-native English speakers.** AI tools are primarily trained on English. Allow students to work in their preferred language where possible. Include cultural context in prompts to avoid Western-centric examples.
+
+### The Process Assessment Safeguard
+
+The process-over-product assessment approach described in the Assessment chapter has a built-in accessibility benefit: the process component should not require AI use. A student who keeps a research journal, annotates readings, or documents their decision-making in any form should be able to submit equivalent process evidence. The assessment measures engaged thinking, not AI use. This ensures students with limited access, disability-related barriers, or personal preferences against AI can demonstrate the same learning through alternative means.
+
+### Course Design Checklist
+
+Before launching any AI-enhanced activity:
+
+- [ ] Are chosen AI tools accessible on mobile and desktop?
+- [ ] Can students participate using free-tier tools?
+- [ ] Are alternative (non-AI) pathways available?
+- [ ] Is campus lab time available for students without reliable home access?
+- [ ] Are instructions clear enough for students with no prior AI experience?
+- [ ] Are timing accommodations built in for students who need extended time?
+- [ ] Does the activity work for students using screen readers or assistive technology?
+- [ ] Are examples culturally diverse rather than Western-centric?
+
+## Your Action Step
+
+Pick one AI-enhanced activity you are planning. Run through the checklist above. Identify the two biggest accessibility gaps and fix them before launching. Then ask yourself: if the AI platform went down the night before, what would students do? If you do not have a good answer, create the backup plan now.

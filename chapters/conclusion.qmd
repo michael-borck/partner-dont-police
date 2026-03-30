@@ -88,7 +88,7 @@ Choose the smallest experiment that feels manageable:
 ---
 
 ### Option 4: Pilot Assessment (Next Semester)
-- Redesign one existing assignment using ideas from Chapter 4, 5, or 7
+- Redesign one existing assignment using ideas from the techniques, flight simulator, or assessment chapters
 - Worth 15-25% of the grade (significant but not high-stakes)
 - Document what works and what doesn't
 - Refine for future iterations
@@ -100,7 +100,7 @@ Choose the smallest experiment that feels manageable:
 ---
 
 ### Option 5: Full Unit Redesign (Next Academic Year)
-- Use the backwards design approach from Chapter 10
+- Use the backwards design approach from the Unit Design chapter
 - Integrate AI throughout one complete unit
 - Build scaffolded progression from Week 1 to Week 12
 - Measure impact on student learning

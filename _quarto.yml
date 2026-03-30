@@ -17,29 +17,20 @@ book:
     - index.qmd
     - acknowledgments.qmd
     - chapters/introduction.qmd
-    - chapters/what-is-ai.qmd
-    - chapters/what-are-llms.qmd
+    - chapters/understanding-ai.qmd
     - chapters/getting-started.qmd
-    - chapters/discovering-your-strategy.qmd
-    - chapters/first-steps.qmd
     - chapters/seven-techniques.qmd
     - chapters/managing-context.qmd
     - chapters/flight-simulator.qmd
     - chapters/critique-toolkit.qmd
     - chapters/ethics-integrity.qmd
-    - chapters/process-assessment.qmd
-    - chapters/group-assessment.qmd
+    - chapters/assessment.qmd
     - chapters/self-assessment.qmd
     - chapters/virtual-company.qmd
     - chapters/unit-design.qmd
-    - chapters/static-to-interactive.qmd
-    - chapters/from-conversation-to-document.qmd
-    - chapters/research-assistant.qmd
-    - chapters/advanced-frontiers.qmd
-    - chapters/assessment-design.qmd
-    - chapters/technical-troubleshooting.qmd
-    - chapters/accessibility-inclusion.qmd
+    - chapters/transforming-content.qmd
     - chapters/global-perspectives.qmd
+    - chapters/implementation-practicalities.qmd
     - chapters/conclusion.qmd
   appendices:
     - appendices/institutional-alignment.qmd

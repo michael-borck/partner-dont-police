@@ -1,0 +1,90 @@
+# Understanding AI and Large Language Models
+
+> It has read everything and experienced nothing. That single fact explains both its usefulness and its limitations.
+
+---
+
+## What AI Actually Is
+
+**Artificial Intelligence (AI)** is software that can perform tasks that typically require human intelligence — recognising patterns, making decisions, understanding language, predicting outcomes, and generating content.
+
+AI is not new. The term was coined in 1956. What changed is that three things converged: we now have massive amounts of data to learn from, computing power got cheap and fast, and better algorithms (particularly "deep learning") were discovered. The result is AI that was science fiction ten years ago is now practical and affordable.
+
+You do not need to understand how the engine works to drive the car. But you do need to know what the car can and cannot do. For business educators, the AI that matters most right now is the **large language model**.
+
+## How Large Language Models Work
+
+A Large Language Model (LLM) is AI trained to predict the next word in a sentence. That sounds simple, but from that single task — predicting the next word — these models learned to write essays, answer questions, translate languages, summarise documents, explain concepts, and hold conversations.
+
+**Examples you have probably heard of:** ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Copilot (Microsoft).
+
+### The Training Process
+
+Imagine learning language by seeing billions of examples:
+
+- "The cat sat on the ___" → You learn "mat" is likely
+- "The capital of France is ___" → You learn "Paris"
+- "If you drop a glass, it will ___" → You learn "break"
+
+Now multiply that by billions of examples from Wikipedia, books, news articles, academic papers, code repositories, and conversations. By learning to predict the next word across all of that text, the model absorbed grammar, facts about the world, how arguments are structured, and how to write in different styles.
+
+Think of it as autocomplete on your phone, but trained on trillions of words instead of just your texts, and able to predict entire paragraphs rather than a single word.
+
+### What Makes Them "Large"
+
+"Large" means three things: huge amounts of training data (hundreds of billions of words), massive numbers of parameters (the patterns the model learned — GPT-4 has over a trillion), and enormous computing power to train. Bigger models learn more subtle patterns and handle more complex tasks, but are more expensive to run.
+
+## The Key Insight: Interpolation, Not Retrieval
+
+If you remember one thing from this chapter, make it this: **LLMs interpolate, they do not retrieve.**
+
+When you ask for a fact, the model is not looking it up in a database. It is predicting what a plausible answer would sound like, based on patterns in everything it was trained on. A convincing answer and a correct answer are produced by exactly the same process. The model cannot tell the difference.
+
+This is why LLMs "hallucinate" — confidently stating false information. The model will fabricate a statistic, invent a citation, or state an incorrect legal requirement with exactly the same tone and certainty as a verified fact. There is no built-in signal that distinguishes accurate output from hallucination.
+
+::: {.callout-warning title="Confidence is not accuracy"}
+An LLM will state a fabricated citation or an incorrect fact with exactly the same certainty as a verified one. If the information matters — and in business education it usually does — checking it is part of your workflow, not an optional extra.
+:::
+
+This is not a flaw to be fixed in the next version. It is the nature of the technology. LLMs are extraordinarily capable pattern matchers trained on the written record of human thought. That makes them powerful tools. It also means they have real limits — limits that do not go away just because the outputs sound confident.
+
+## What LLMs Do Well and Where They Struggle
+
+### Strengths
+
+LLMs excel at tasks where producing a convincing average is enough:
+
+- **Writing and content generation** — emails, reports, summaries, marketing copy, lesson plans
+- **Summarisation** — condensing long documents while maintaining meaning
+- **Explanation** — breaking down complex topics for different audiences
+- **Translation** — not just word-for-word, but with awareness of meaning and context
+- **Brainstorming** — generating ideas, angles, and approaches you might not have considered
+
+### Limitations
+
+- **Factual accuracy** — they predict plausible answers, not correct ones. Always verify.
+- **Current information** — training data has a cutoff. They cannot browse the internet unless specifically connected to search.
+- **Genuine reasoning** — they pattern-match, not reason. Complex logic, mathematics, and multi-step reasoning are unreliable.
+- **Memory** — each conversation is isolated. They do not remember previous sessions.
+- **Creativity** — they remix and recombine patterns, but do not have original insights or lived experience.
+
+## The Decision Framework: Average vs Precise, Small vs Large
+
+There is a simple way to predict when an LLM will serve you well and when it will let you down. Think along two axes: **how precise does the output need to be?** and **how big is the task?**
+
+| | Small | Large |
+|---|---|---|
+| **Average** | **Sweet spot.** Drafts, summaries, brainstorming. Trust with light review. | **Plausible but brittle.** Looks right at first glance, falls apart on inspection. |
+| **Precise** | **Workable with verification.** Facts, citations, specific details. Check before using. | **Danger zone.** Confident structure that is subtly wrong. Stay in the loop at every step. |
+
+Sweet spot tasks can often be handled with a light check. Everything else requires conversation, iteration, and human judgement proportional to where it sits on the grid.
+
+This framework is covered in depth in *Conversation, Not Delegation*, including how it connects to the conversation loop and the two-chat workflow. For this book, the practical takeaway is: before using AI on any task, ask these two questions. The answers tell you how much oversight the task requires.
+
+## Why This Matters for Your Teaching
+
+If you understand that LLMs are sophisticated prediction engines, not omniscient oracles, you will use them differently in your classroom.
+
+You will not hand students a tool and tell them to trust the output. You will teach them to generate a draft and then apply their own judgement. You will not ask them to get the answer from AI. You will ask them to use AI to think through the problem. You will teach them to recognise when output is echoing a pattern rather than reflecting genuine reasoning, and to push back.
+
+The difference between someone who uses AI well and someone who uses it poorly is rarely about technical skill. It is about understanding what the tool actually is — and what it is not. That understanding starts here, and it runs through every chapter that follows.
