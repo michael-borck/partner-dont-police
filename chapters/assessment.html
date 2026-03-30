@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
+
+<title>9&nbsp; Rethinking Assessment: Process Over Product – Partner, Don't Police: AI in the Business Classroom</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/self-assessment.html" rel="next">
+<link href="../chapters/ethics-integrity.html" rel="prev">
+<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-234501a227967ac462f24af7be37efa8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/assessment.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rethinking Assessment: Process Over Product</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copyright</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../acknowledgments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acknowledgments</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction - Why AI Matters for Business Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/understanding-ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Understanding AI and Large Language Models</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/getting-started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started — Your First AI Conversation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/seven-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/managing-context.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/critique-toolkit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rethinking Assessment: Process Over Product</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/self-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Virtual Company Simulation (Future Horizon)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Designing an AI-Integrated Unit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/transforming-content.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Transforming Content with AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/global-perspectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Global Perspectives and Adaptation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/implementation-practicalities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Implementation Practicalities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/institutional-alignment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Aligning AI Integration with Institutional Learning Outcomes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/rubric-system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/stress-test-sequence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Assessment AI Stress Test: A Prompt Sequence</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/further-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-fundamental-question" id="toc-the-fundamental-question" class="nav-link active" data-scroll-target="#the-fundamental-question"><span class="header-section-number">9.1</span> The Fundamental Question</a></li>
+  <li><a href="#why-this-was-not-possible-before" id="toc-why-this-was-not-possible-before" class="nav-link" data-scroll-target="#why-this-was-not-possible-before"><span class="header-section-number">9.2</span> Why This Was Not Possible Before</a></li>
+  <li><a href="#three-assessment-models" id="toc-three-assessment-models" class="nav-link" data-scroll-target="#three-assessment-models"><span class="header-section-number">9.3</span> Three Assessment Models</a>
+  <ul class="collapse">
+  <li><a href="#model-1-simulated-consultation-and-process-audit" id="toc-model-1-simulated-consultation-and-process-audit" class="nav-link" data-scroll-target="#model-1-simulated-consultation-and-process-audit"><span class="header-section-number">9.3.1</span> Model 1: Simulated Consultation and Process Audit</a></li>
+  <li><a href="#model-2-evidence-based-intervention-plan" id="toc-model-2-evidence-based-intervention-plan" class="nav-link" data-scroll-target="#model-2-evidence-based-intervention-plan"><span class="header-section-number">9.3.2</span> Model 2: Evidence-Based Intervention Plan</a></li>
+  <li><a href="#model-3-competency-based-critical-override" id="toc-model-3-competency-based-critical-override" class="nav-link" data-scroll-target="#model-3-competency-based-critical-override"><span class="header-section-number">9.3.3</span> Model 3: Competency-Based Critical Override</a></li>
+  </ul></li>
+  <li><a href="#the-engagement-spectrum" id="toc-the-engagement-spectrum" class="nav-link" data-scroll-target="#the-engagement-spectrum"><span class="header-section-number">9.4</span> The Engagement Spectrum</a></li>
+  <li><a href="#making-ai-engagement-visible-transcript-analysis" id="toc-making-ai-engagement-visible-transcript-analysis" class="nav-link" data-scroll-target="#making-ai-engagement-visible-transcript-analysis"><span class="header-section-number">9.5</span> Making AI Engagement Visible: Transcript Analysis</a></li>
+  <li><a href="#the-notebooklm-problem" id="toc-the-notebooklm-problem" class="nav-link" data-scroll-target="#the-notebooklm-problem"><span class="header-section-number">9.6</span> The NotebookLM Problem</a></li>
+  <li><a href="#the-marks-split-process-over-product" id="toc-the-marks-split-process-over-product" class="nav-link" data-scroll-target="#the-marks-split-process-over-product"><span class="header-section-number">9.7</span> The Marks Split: Process Over Product</a></li>
+  <li><a href="#a-minimum-viable-adoption-path" id="toc-a-minimum-viable-adoption-path" class="nav-link" data-scroll-target="#a-minimum-viable-adoption-path"><span class="header-section-number">9.8</span> A Minimum Viable Adoption Path</a></li>
+  <li><a href="#group-assessment-in-the-ai-era" id="toc-group-assessment-in-the-ai-era" class="nav-link" data-scroll-target="#group-assessment-in-the-ai-era"><span class="header-section-number">9.9</span> Group Assessment in the AI Era</a>
+  <ul class="collapse">
+  <li><a href="#the-presentation-assumption" id="toc-the-presentation-assumption" class="nav-link" data-scroll-target="#the-presentation-assumption"><span class="header-section-number">9.9.1</span> The Presentation Assumption</a></li>
+  <li><a href="#new-problems-ai-creates" id="toc-new-problems-ai-creates" class="nav-link" data-scroll-target="#new-problems-ai-creates"><span class="header-section-number">9.9.2</span> New Problems AI Creates</a></li>
+  <li><a href="#marks-structure-for-groups" id="toc-marks-structure-for-groups" class="nav-link" data-scroll-target="#marks-structure-for-groups"><span class="header-section-number">9.9.3</span> Marks Structure for Groups</a></li>
+  </ul></li>
+  <li><a href="#core-assessment-design-principles" id="toc-core-assessment-design-principles" class="nav-link" data-scroll-target="#core-assessment-design-principles"><span class="header-section-number">9.10</span> Core Assessment Design Principles</a></li>
+  <li><a href="#your-action-step" id="toc-your-action-step" class="nav-link" data-scroll-target="#your-action-step"><span class="header-section-number">9.11</span> Your Action Step</a></li>
+  </ul>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="../llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rethinking Assessment: Process Over Product</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>If AI can produce the product, then the product was never what mattered. The thinking was.</p>
+</blockquote>
+<section id="the-fundamental-question" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="the-fundamental-question"><span class="header-section-number">9.1</span> The Fundamental Question</h2>
+<p>What are you really trying to assess in business education?</p>
+<p><strong>Traditional approach:</strong> Can the student define key concepts? Can they list the steps in a process? Can they identify relevant frameworks?</p>
+<p><strong>This is assessing product — the knowledge artifact.</strong></p>
+<p><strong>Process-based approach:</strong> Watch the student conduct a professional task — a negotiation, analysis, consultation, or design. Did they demonstrate the competency? Did they follow sound methodology? Did they apply frameworks appropriately in real-time?</p>
+<p><strong>This is assessing process — the professional methodology.</strong></p>
+<p>The difference matters enormously. A student can memorise definitions and still conduct a terrible negotiation. They can recite frameworks and still make decisions that expose an organisation to risk.</p>
+<p>Professional work is a process discipline. The value lies not in what you know, but in what you do with what you know — how you investigate, communicate, analyse evidence, and make decisions under uncertainty. AI makes it possible, for the first time, to assess process at scale.</p>
+</section>
+<section id="why-this-was-not-possible-before" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="why-this-was-not-possible-before"><span class="header-section-number">9.2</span> Why This Was Not Possible Before</h2>
+<p>Traditional process assessment has serious limitations. Role-play in class is time-consuming, allowing only a few students to participate per session. Peer actors vary in quality. Public performance anxiety reduces authenticity. There is minimal documentation of what actually happened.</p>
+<p>Written case analysis tests knowledge <em>about</em> process rather than demonstration <em>of</em> process. Students can look up answers, and the format does not capture decision-making under pressure.</p>
+<p>AI-enabled assessment addresses all of these problems. Every student gets unlimited practice in realistic scenarios where conversations are dynamic and unpredictable. Complete transcripts provide evidence of methodology. And because the conversation responds in real-time, students cannot rehearse a scripted answer.</p>
+</section>
+<section id="three-assessment-models" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="three-assessment-models"><span class="header-section-number">9.3</span> Three Assessment Models</h2>
+<section id="model-1-simulated-consultation-and-process-audit" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="model-1-simulated-consultation-and-process-audit"><span class="header-section-number">9.3.1</span> Model 1: Simulated Consultation and Process Audit</h3>
+<p>Students conduct a simulated professional consultation (a conversation with an AI persona) and then audit their own process against professional standards. The grade focuses on methodology, not outcome.</p>
+<p><strong>Example scenario:</strong> &gt; You are the HR representative meeting with Taylor Kim, an employee who has requested a formal meeting to discuss concerns about their working conditions. Taylor has been with the company for 3 years and has never raised concerns before. You do not know what the specific issues are yet.</p>
+<p>Students navigate the conversation, uncover issues, demonstrate appropriate process, and conclude professionally. Then they submit the transcript and a structured process audit where they identify every point where they applied (or failed to apply) professional standards, cite relevant principles, note missed opportunities, and explain what they would do differently.</p>
+<p>The process audit is where the real assessment happens. The conversation produces the evidence. The audit demonstrates the understanding.</p>
+</section>
+<section id="model-2-evidence-based-intervention-plan" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="model-2-evidence-based-intervention-plan"><span class="header-section-number">9.3.2</span> Model 2: Evidence-Based Intervention Plan</h3>
+<p>Students analyse data or a complex scenario using AI, then critique and improve the AI’s recommendations.</p>
+<p><strong>Structure:</strong> 1. Students receive data or a complex scenario 2. AI generates analysis and recommendations 3. Students critique the AI’s output — what did it miss? What assumptions are flawed? What context did it not have? 4. Students produce their own recommendation with explicit justification</p>
+<p>The grade weights the critique and justification, not the final recommendation. A student who identifies what AI got wrong and explains why demonstrates more learning than one who accepts a correct answer uncritically.</p>
+</section>
+<section id="model-3-competency-based-critical-override" class="level3" data-number="9.3.3">
+<h3 data-number="9.3.3" class="anchored" data-anchor-id="model-3-competency-based-critical-override"><span class="header-section-number">9.3.3</span> Model 3: Competency-Based Critical Override</h3>
+<p>Students use AI to generate professional outputs (job descriptions, audit plans, policy documents), then critically evaluate and override the AI’s work.</p>
+<p><strong>Example — Recruitment:</strong> 1. AI generates 10 behavioural interview questions 2. Student selects the 5 best and rejects 5, explaining why each was kept or cut 3. AI scores mock candidate responses against the student’s rubric 4. Student overrides at least 2 AI scores with justification referencing theory, legal principles, or evidence the AI missed</p>
+<p>The critical override is the assessment. A student who can identify what AI got wrong — and articulate why using professional knowledge — has demonstrated competence no amount of delegation can fake.</p>
+</section>
+</section>
+<section id="the-engagement-spectrum" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="the-engagement-spectrum"><span class="header-section-number">9.4</span> The Engagement Spectrum</h2>
+<p>Not all AI-assisted work is equivalent. A useful spectrum for assessment thinking:</p>
+<ul>
+<li><strong>Genuine collaborative thinking:</strong> the student drives the inquiry, pushes back on AI outputs, and iterates toward their own understanding. Highest cognitive engagement.</li>
+<li><strong>Guided drafting:</strong> the student provides context and direction, evaluates outputs critically, and modifies toward a coherent submission. Moderate engagement.</li>
+<li><strong>Curated delegation:</strong> the student uses AI to produce a submission and exercises judgment about what passes. Lower engagement, but not zero.</li>
+<li><strong>Pure delegation with no engagement:</strong> the actual failure case. Harder to achieve than assumed once any reflective or demonstrative component is required.</li>
+</ul>
+<p>Rather than asking “did the student use AI?”, the question becomes “where on the engagement spectrum did the student operate?” That question is answerable from process evidence. For a rubric that operationalises this spectrum into markable performance levels, see the Rubric System appendix.</p>
+</section>
+<section id="making-ai-engagement-visible-transcript-analysis" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="making-ai-engagement-visible-transcript-analysis"><span class="header-section-number">9.5</span> Making AI Engagement Visible: Transcript Analysis</h2>
+<p>At scale — 50 to 100 students — no marker can read every transcript in full. The solution is signal-based analysis. A lightweight script can extract the student’s own prompts from a conversation transcript and compute:</p>
+<ul>
+<li><strong>Flesch readability score on student prompts</strong> (measuring the student’s own language, not the AI’s)</li>
+<li><strong>Average prompt length</strong> (very short prompts suggest low engagement)</li>
+<li><strong>Number of turns</strong> (a four-turn conversation is not a working session)</li>
+<li><strong>Prompt specificity over time</strong> (do prompts become more precise? This signals learning in progress)</li>
+<li><strong>Presence of pushback</strong> (does the student ever question or redirect an AI response?)</li>
+</ul>
+<p>The marker reviews a one-page summary per student rather than full transcripts, dipping into specific conversations only when signals flag something worth examining. This is scalable at 50 to 100 students in a way that reading every transcript is not.</p>
+<p>One caveat: these metrics support marker judgement, they do not replace it. A low turn count might reflect efficient thinking. A high Flesch score might reflect a second-language student. The signals are a triage tool, not a verdict.</p>
+</section>
+<section id="the-notebooklm-problem" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="the-notebooklm-problem"><span class="header-section-number">9.6</span> The NotebookLM Problem</h2>
+<p>Sophisticated students are already building personal research infrastructure: a notebook per unit loaded with lecture slides, readings, and rubrics, a separate notebook per assignment loaded with everything they have found on the topic. At that point the tool is not answering isolated questions — it is acting as a personalised tutor with full context.</p>
+<p>This applies to essays, literature reviews, case studies, and reflective writing. The reflective section that feels resistant to AI is completable once a student has uploaded their own notes as context. The literature review requiring synthesis is completable once the sources are in the notebook.</p>
+<p>Assessment types traditionally considered AI-resistant are not resistant to a student who has invested in building their own AI-ready research context. This is not a reason for alarm, but it is a reason for honesty. The stress test sequence in the appendix helps you assess where your assignments actually stand.</p>
+</section>
+<section id="the-marks-split-process-over-product" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="the-marks-split-process-over-product"><span class="header-section-number">9.7</span> The Marks Split: Process Over Product</h2>
+<p>If the process of engaging with material is what we are actually trying to assess, the marks weighting should reflect that:</p>
+<ul>
+<li><strong>30% for the submitted artefact</strong> (the essay, report, or other product)</li>
+<li><strong>70% for the process</strong> (evidence of critical engagement, iteration, and reflective thinking)</li>
+</ul>
+<p>An important clarification: the process component should not require AI use. A student who chose to think independently and kept a research journal, annotated their readings, or maintained a design log should be able to submit that instead. The assessment measures engaged thinking, not AI use. Students with limited internet access or preferences against AI should be able to demonstrate the same engagement through equivalent means.</p>
+<p>This inversion signals to students that the destination matters less than the journey. It makes the final artefact almost irrelevant as an integrity concern. And it rewards the student who thinks carefully over time rather than the one who writes well under pressure on one occasion.</p>
+</section>
+<section id="a-minimum-viable-adoption-path" class="level2" data-number="9.8">
+<h2 data-number="9.8" class="anchored" data-anchor-id="a-minimum-viable-adoption-path"><span class="header-section-number">9.8</span> A Minimum Viable Adoption Path</h2>
+<p>The full framework represents a significant shift. Three starting points, in order of increasing commitment:</p>
+<p><strong>Tier 1: Add a single oral checkpoint.</strong> Ask students to spend five minutes explaining two or three decisions in their submission. No transcript required, no new rubric. This alone closes the most significant integrity gap.</p>
+<p><strong>Tier 2: Request a transcript with self-reflection.</strong> Ask students to submit their AI conversation alongside their work, with a brief reflection highlighting three moments where they pushed back, changed direction, or learned something unexpected. The marker reads the reflection and dips into the transcript if something seems thin.</p>
+<p><strong>Tier 3: Full signal-based analysis.</strong> Implement transcript analysis with automated metrics providing a one-page summary per student. Most appropriate once staff are comfortable with the earlier tiers.</p>
+<p>Each tier is a genuine improvement on the status quo. Starting at Tier 1 and moving up over successive semesters is more sustainable than a full redesign at once.</p>
+</section>
+<section id="group-assessment-in-the-ai-era" class="level2" data-number="9.9">
+<h2 data-number="9.9" class="anchored" data-anchor-id="group-assessment-in-the-ai-era"><span class="header-section-number">9.9</span> Group Assessment in the AI Era</h2>
+<p>Group assessment has always required balancing individual accountability with shared outcomes. AI sharpens that tension in ways existing frameworks were not designed to handle.</p>
+<section id="the-presentation-assumption" class="level3" data-number="9.9.1">
+<h3 data-number="9.9.1" class="anchored" data-anchor-id="the-presentation-assumption"><span class="header-section-number">9.9.1</span> The Presentation Assumption</h3>
+<p>Group presentations are widely assumed to be AI-resistant because students must show up and speak. The assumption is partially correct. But a group can rehearse AI-generated content to fluency. Fluency under rehearsal is not the same as understanding under pressure.</p>
+<p>The integrity mechanism is not the presentation — it is the Q&amp;A. Questions the group could not have anticipated, distributed randomly across members, surface understanding in a way rehearsed presentations cannot. Five minutes of genuine interrogation reveals more than twenty minutes of polished presentation. The marks weighting should reflect that.</p>
+</section>
+<section id="new-problems-ai-creates" class="level3" data-number="9.9.2">
+<h3 data-number="9.9.2" class="anchored" data-anchor-id="new-problems-ai-creates"><span class="header-section-number">9.9.2</span> New Problems AI Creates</h3>
+<p>AI introduces three challenges existing group frameworks were not designed for:</p>
+<ul>
+<li><strong>The rewritten section problem.</strong> Students report group members rewriting each other’s sections using AI without consent. This is not plagiarism in the traditional sense, but it undermines individual contribution. Groups need explicit agreements about what counts as editing versus replacing.</li>
+<li><strong>The free rider via AI problem.</strong> A student who contributes nothing can generate a plausible-looking section at the last minute. Traditional free rider detection through peer assessment becomes less reliable when the output signal is no longer correlated with effort.</li>
+<li><strong>The attribution problem.</strong> A polished section no longer signals high individual effort. Attribution requires process evidence, and process evidence requires infrastructure.</li>
+</ul>
+</section>
+<section id="marks-structure-for-groups" class="level3" data-number="9.9.3">
+<h3 data-number="9.9.3" class="anchored" data-anchor-id="marks-structure-for-groups"><span class="header-section-number">9.9.3</span> Marks Structure for Groups</h3>
+<p>Both problems point toward the same solution: assess the process, not the product.</p>
+<ul>
+<li><strong>Individual process mark (60-80%):</strong> each student’s AI conversation transcript, quality of engagement, and demonstrated personal understanding</li>
+<li><strong>Group product mark (20-40%):</strong> the shared artefact, assessed as a team</li>
+</ul>
+<p>This changes the incentive structure completely. A student who contributes nothing cannot fabricate a rich individual transcript across a full semester. The free rider problem largely dissolves. And it mirrors professional life — nobody receives a group performance review. Every individual is assessed on their contribution.</p>
+<p>A useful bridging component: a short Group AI Reflection where the group answers one question together — how did you decide which AI-generated ideas to keep, which to discard, and why? This surfaces collaborative sense-making that distinguishes a genuine group from a collection of individuals who assembled separately.</p>
+</section>
+</section>
+<section id="core-assessment-design-principles" class="level2" data-number="9.10">
+<h2 data-number="9.10" class="anchored" data-anchor-id="core-assessment-design-principles"><span class="header-section-number">9.10</span> Core Assessment Design Principles</h2>
+<p>Whether designing individual or group assessments, four principles apply:</p>
+<ol type="1">
+<li><strong>Process transparency</strong> — students must show their thinking process, not just final output</li>
+<li><strong>Critical engagement</strong> — assess how students interact with AI, not whether they use it</li>
+<li><strong>Authentic application</strong> — evaluate whether students can apply AI outputs in realistic professional contexts</li>
+<li><strong>Metacognitive development</strong> — assess students’ ability to reflect on their own learning and identify gaps</li>
+</ol>
+<p>For ready-to-use rubric templates that operationalise these principles across disciplines, see the Rubric System appendix. For a structured process to stress-test any assessment against AI capabilities before deploying it, see the Stress Test Sequence appendix.</p>
+</section>
+<section id="your-action-step" class="level2" data-number="9.11">
+<h2 data-number="9.11" class="anchored" data-anchor-id="your-action-step"><span class="header-section-number">9.11</span> Your Action Step</h2>
+<p>Choose one assessment in your current curriculum. Ask: what am I really trying to measure — knowledge recall, professional judgement, or process skill? Then sketch how you would redesign it using one of the three models. You do not have to implement it immediately. Just think through how the shift from product to process might work in your context.</p>
+
+
+<!-- -->
+
+</section>
+
+</main> <!-- /main -->
+<script data-embed-id="deabab89-b1b2-4102-b42e-a99593976984" data-base-api-url="https://chat.eduserver.au/api/embed" src="https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js">
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/ethics-integrity.html" class="pagination-link" aria-label="Ethics, Data Governance &amp; Integrity">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/self-assessment.html" class="pagination-link" aria-label="AI as Study Buddy - Self-Assessment Tool">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Rethinking Assessment: Process Over Product</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; If AI can produce the product, then the product was never what mattered. The thinking was.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Fundamental Question</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>What are you really trying to assess in business education?</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>**Traditional approach:** Can the student define key concepts? Can they list the steps in a process? Can they identify relevant frameworks?</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>**This is assessing product — the knowledge artifact.**</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>**Process-based approach:** Watch the student conduct a professional task — a negotiation, analysis, consultation, or design. Did they demonstrate the competency? Did they follow sound methodology? Did they apply frameworks appropriately in real-time?</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>**This is assessing process — the professional methodology.**</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>The difference matters enormously. A student can memorise definitions and still conduct a terrible negotiation. They can recite frameworks and still make decisions that expose an organisation to risk.</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Professional work is a process discipline. The value lies not in what you know, but in what you do with what you know — how you investigate, communicate, analyse evidence, and make decisions under uncertainty. AI makes it possible, for the first time, to assess process at scale.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why This Was Not Possible Before</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>Traditional process assessment has serious limitations. Role-play in class is time-consuming, allowing only a few students to participate per session. Peer actors vary in quality. Public performance anxiety reduces authenticity. There is minimal documentation of what actually happened.</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Written case analysis tests knowledge *about* process rather than demonstration *of* process. Students can look up answers, and the format does not capture decision-making under pressure.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>AI-enabled assessment addresses all of these problems. Every student gets unlimited practice in realistic scenarios where conversations are dynamic and unpredictable. Complete transcripts provide evidence of methodology. And because the conversation responds in real-time, students cannot rehearse a scripted answer.</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## Three Assessment Models</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### Model 1: Simulated Consultation and Process Audit</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>Students conduct a simulated professional consultation (a conversation with an AI persona) and then audit their own process against professional standards. The grade focuses on methodology, not outcome.</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>**Example scenario:**</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; You are the HR representative meeting with Taylor Kim, an employee who has requested a formal meeting to discuss concerns about their working conditions. Taylor has been with the company for 3 years and has never raised concerns before. You do not know what the specific issues are yet.</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Students navigate the conversation, uncover issues, demonstrate appropriate process, and conclude professionally. Then they submit the transcript and a structured process audit where they identify every point where they applied (or failed to apply) professional standards, cite relevant principles, note missed opportunities, and explain what they would do differently.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>The process audit is where the real assessment happens. The conversation produces the evidence. The audit demonstrates the understanding.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="fu">### Model 2: Evidence-Based Intervention Plan</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>Students analyse data or a complex scenario using AI, then critique and improve the AI's recommendations.</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>**Structure:**</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Students receive data or a complex scenario</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>AI generates analysis and recommendations</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Students critique the AI's output — what did it miss? What assumptions are flawed? What context did it not have?</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Students produce their own recommendation with explicit justification</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>The grade weights the critique and justification, not the final recommendation. A student who identifies what AI got wrong and explains why demonstrates more learning than one who accepts a correct answer uncritically.</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="fu">### Model 3: Competency-Based Critical Override</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>Students use AI to generate professional outputs (job descriptions, audit plans, policy documents), then critically evaluate and override the AI's work.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>**Example — Recruitment:**</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>AI generates 10 behavioural interview questions</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Student selects the 5 best and rejects 5, explaining why each was kept or cut</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>AI scores mock candidate responses against the student's rubric</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Student overrides at least 2 AI scores with justification referencing theory, legal principles, or evidence the AI missed</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>The critical override is the assessment. A student who can identify what AI got wrong — and articulate why using professional knowledge — has demonstrated competence no amount of delegation can fake.</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Engagement Spectrum</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>Not all AI-assisted work is equivalent. A useful spectrum for assessment thinking:</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Genuine collaborative thinking:** the student drives the inquiry, pushes back on AI outputs, and iterates toward their own understanding. Highest cognitive engagement.</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Guided drafting:** the student provides context and direction, evaluates outputs critically, and modifies toward a coherent submission. Moderate engagement.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Curated delegation:** the student uses AI to produce a submission and exercises judgment about what passes. Lower engagement, but not zero.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pure delegation with no engagement:** the actual failure case. Harder to achieve than assumed once any reflective or demonstrative component is required.</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>Rather than asking "did the student use AI?", the question becomes "where on the engagement spectrum did the student operate?" That question is answerable from process evidence. For a rubric that operationalises this spectrum into markable performance levels, see the Rubric System appendix.</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="fu">## Making AI Engagement Visible: Transcript Analysis</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>At scale — 50 to 100 students — no marker can read every transcript in full. The solution is signal-based analysis. A lightweight script can extract the student's own prompts from a conversation transcript and compute:</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Flesch readability score on student prompts** (measuring the student's own language, not the AI's)</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Average prompt length** (very short prompts suggest low engagement)</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Number of turns** (a four-turn conversation is not a working session)</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Prompt specificity over time** (do prompts become more precise? This signals learning in progress)</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Presence of pushback** (does the student ever question or redirect an AI response?)</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>The marker reviews a one-page summary per student rather than full transcripts, dipping into specific conversations only when signals flag something worth examining. This is scalable at 50 to 100 students in a way that reading every transcript is not.</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>One caveat: these metrics support marker judgement, they do not replace it. A low turn count might reflect efficient thinking. A high Flesch score might reflect a second-language student. The signals are a triage tool, not a verdict.</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="fu">## The NotebookLM Problem</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>Sophisticated students are already building personal research infrastructure: a notebook per unit loaded with lecture slides, readings, and rubrics, a separate notebook per assignment loaded with everything they have found on the topic. At that point the tool is not answering isolated questions — it is acting as a personalised tutor with full context.</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>This applies to essays, literature reviews, case studies, and reflective writing. The reflective section that feels resistant to AI is completable once a student has uploaded their own notes as context. The literature review requiring synthesis is completable once the sources are in the notebook.</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>Assessment types traditionally considered AI-resistant are not resistant to a student who has invested in building their own AI-ready research context. This is not a reason for alarm, but it is a reason for honesty. The stress test sequence in the appendix helps you assess where your assignments actually stand.</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Marks Split: Process Over Product</span></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>If the process of engaging with material is what we are actually trying to assess, the marks weighting should reflect that:</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**30% for the submitted artefact** (the essay, report, or other product)</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**70% for the process** (evidence of critical engagement, iteration, and reflective thinking)</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>An important clarification: the process component should not require AI use. A student who chose to think independently and kept a research journal, annotated their readings, or maintained a design log should be able to submit that instead. The assessment measures engaged thinking, not AI use. Students with limited internet access or preferences against AI should be able to demonstrate the same engagement through equivalent means.</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>This inversion signals to students that the destination matters less than the journey. It makes the final artefact almost irrelevant as an integrity concern. And it rewards the student who thinks carefully over time rather than the one who writes well under pressure on one occasion.</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">## A Minimum Viable Adoption Path</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>The full framework represents a significant shift. Three starting points, in order of increasing commitment:</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>**Tier 1: Add a single oral checkpoint.** Ask students to spend five minutes explaining two or three decisions in their submission. No transcript required, no new rubric. This alone closes the most significant integrity gap.</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>**Tier 2: Request a transcript with self-reflection.** Ask students to submit their AI conversation alongside their work, with a brief reflection highlighting three moments where they pushed back, changed direction, or learned something unexpected. The marker reads the reflection and dips into the transcript if something seems thin.</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>**Tier 3: Full signal-based analysis.** Implement transcript analysis with automated metrics providing a one-page summary per student. Most appropriate once staff are comfortable with the earlier tiers.</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>Each tier is a genuine improvement on the status quo. Starting at Tier 1 and moving up over successive semesters is more sustainable than a full redesign at once.</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="fu">## Group Assessment in the AI Era</span></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>Group assessment has always required balancing individual accountability with shared outcomes. AI sharpens that tension in ways existing frameworks were not designed to handle.</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Presentation Assumption</span></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a>Group presentations are widely assumed to be AI-resistant because students must show up and speak. The assumption is partially correct. But a group can rehearse AI-generated content to fluency. Fluency under rehearsal is not the same as understanding under pressure.</span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a>The integrity mechanism is not the presentation — it is the Q&amp;A. Questions the group could not have anticipated, distributed randomly across members, surface understanding in a way rehearsed presentations cannot. Five minutes of genuine interrogation reveals more than twenty minutes of polished presentation. The marks weighting should reflect that.</span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="fu">### New Problems AI Creates</span></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>AI introduces three challenges existing group frameworks were not designed for:</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The rewritten section problem.** Students report group members rewriting each other's sections using AI without consent. This is not plagiarism in the traditional sense, but it undermines individual contribution. Groups need explicit agreements about what counts as editing versus replacing.</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The free rider via AI problem.** A student who contributes nothing can generate a plausible-looking section at the last minute. Traditional free rider detection through peer assessment becomes less reliable when the output signal is no longer correlated with effort.</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The attribution problem.** A polished section no longer signals high individual effort. Attribution requires process evidence, and process evidence requires infrastructure.</span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="fu">### Marks Structure for Groups</span></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a>Both problems point toward the same solution: assess the process, not the product.</span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Individual process mark (60-80%):** each student's AI conversation transcript, quality of engagement, and demonstrated personal understanding</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Group product mark (20-40%):** the shared artefact, assessed as a team</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>This changes the incentive structure completely. A student who contributes nothing cannot fabricate a rich individual transcript across a full semester. The free rider problem largely dissolves. And it mirrors professional life — nobody receives a group performance review. Every individual is assessed on their contribution.</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a>A useful bridging component: a short Group AI Reflection where the group answers one question together — how did you decide which AI-generated ideas to keep, which to discard, and why? This surfaces collaborative sense-making that distinguishes a genuine group from a collection of individuals who assembled separately.</span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a><span class="fu">## Core Assessment Design Principles</span></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a>Whether designing individual or group assessments, four principles apply:</span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Process transparency** — students must show their thinking process, not just final output</span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Critical engagement** — assess how students interact with AI, not whether they use it</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Authentic application** — evaluate whether students can apply AI outputs in realistic professional contexts</span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Metacognitive development** — assess students' ability to reflect on their own learning and identify gaps</span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a>For ready-to-use rubric templates that operationalise these principles across disciplines, see the Rubric System appendix. For a structured process to stress-test any assessment against AI capabilities before deploying it, see the Stress Test Sequence appendix.</span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your Action Step</span></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>Choose one assessment in your current curriculum. Ask: what am I really trying to measure — knowledge recall, professional judgement, or process skill? Then sketch how you would redesign it using one of the three models. You do not have to implement it immediately. Just think through how the shift from product to process might work in your context.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
