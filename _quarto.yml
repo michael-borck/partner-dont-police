@@ -10,7 +10,6 @@ book:
   date: today
   license: "CC BY"
   description: "A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples."
-  cover-image: cover.png
   favicon: favicon.svg
   chapters:
     - copyright.qmd
@@ -73,6 +72,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
+    cover-image: cover.png
     include-after-body: chatbot.html
     toc: true
     toc-depth: 3
