@@ -423,22 +423,6 @@ You will receive something generic — maybe a story about a marketing campaign 
 
 Now try this instead:
 
-## Business & Marketing
-
-## Management
-
-## Human Resources
-
-## Tourism & Hospitality
-
-## Supply Chain & Logistics
-
-## Information Systems
-
-## Accounting & Finance
-
-## Economics
-
 The output should be dramatically more useful. The difference is that you told the AI who you are, what you need, what constraints matter, and what format to use. The AI did not get smarter between your first prompt and your second. You got clearer.
 
 ## The CRAFT Framework
