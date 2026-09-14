@@ -502,9 +502,9 @@ This idea builds on the Two-Chat Workflow from *Conversation, Not Delegation* (B
 
 **Chat 1: Explore and clarify.** Open a session with no expectation of producing finished output. Use it to probe the teaching challenge you are facing. What are you actually trying to achieve? What assumptions are you making about your students? What alternatives have you not considered? Let the conversation wander. Challenge what the AI suggests. Follow tangents. The messier this session is, the clearer your thinking becomes.
 
-**Chat 2: Build from your decisions.** Start a fresh session and arrive with a focused brief — not a vague request, but a set of deliberate choices about what you want, who it is for, and what constraints apply. The quality of this output depends almost entirely on the quality of the brief you wrote after reflecting on Chat 1.
+**Chat 2: Build from your decisions.** Start a fresh session and arrive with a focused brief: not a vague request, but a set of deliberate choices about what you want, who it is for, and what constraints apply. The quality of this output depends almost entirely on the quality of the brief you wrote after reflecting on Chat 1.
 
-The most important moment is the gap between the two chats. You do not dump everything from the first session into the second. You review what emerged, keep what matters, discard what does not, and write a clear brief that reflects *your* decisions. That act of curation is where your professional judgement lives — and it is the part no AI can do for you.
+The most important moment is the gap between the two chats. You do not dump everything from the first session into the second. You review what emerged, keep what matters, discard what does not, and write a clear brief that reflects *your* decisions. That act of curation is where your professional judgement lives, and it is the part no AI can do for you.
 
 ### Example: Redesigning an Assessment
 
@@ -540,11 +540,11 @@ Design the assessment brief and rubric based on these decisions.
 Notice the difference. The build chat gets a clear, decided brief. The output will be dramatically better than if you had started cold with "design me a critical thinking assessment."
 
 ::: {.callout-tip title="Try this (5 minutes)"}
-Pick a teaching task you have been putting off — perhaps redesigning a tutorial activity or rethinking a rubric. Open an AI session and spend five minutes just exploring the problem: what is not working, what you have tried, what you are unsure about. Do not ask for any deliverables. Then close that session, jot down your key decisions in two or three sentences, and open a fresh session with those decisions as your opening brief. Compare the result to what you would have gotten from a single cold prompt. The difference is usually striking.
+Pick a teaching task you have been putting off, perhaps redesigning a tutorial activity or rethinking a rubric. Open an AI session and spend five minutes just exploring the problem: what is not working, what you have tried, what you are unsure about. Do not ask for any deliverables. Then close that session, jot down your key decisions in two or three sentences, and open a fresh session with those decisions as your opening brief. Compare the result to what you would have gotten from a single cold prompt. The difference is usually striking.
 :::
 
 ::: {.callout-important title="You are the bridge"}
-The exploring chat does not know what you will eventually build. The building chat does not know what options you considered and rejected. Only you hold both sides. That is what makes you irreplaceable in this process — not as someone who checks AI's work after the fact, but as the person whose judgement connects exploration to execution.
+The exploring chat does not know what you will eventually build. The building chat does not know what options you considered and rejected. Only you hold both sides. That is what makes you irreplaceable in this process, not as someone who checks AI's work after the fact, but as the person whose judgement connects exploration to execution.
 :::
 
 This workflow connects directly to the average-versus-precise, small-versus-large framework from the earlier chapter on LLMs. That framework tells you where a task sits. The two-chat workflow tells you what to do about it. A task that starts in the danger zone (large and precise, like redesigning an entire unit's assessment strategy) feels overwhelming as a single prompt. But the exploring chat breaks it into components that each sit in different quadrants. Some pieces land in the sweet spot. Others need careful verification. Each gets an appropriate level of trust and oversight. The exploring session is where you map the territory. The building session is where you execute with that map in hand.
@@ -555,15 +555,15 @@ This workflow connects directly to the average-versus-precise, small-versus-larg
 
 | Mistake | What Goes Wrong | Fix |
 |---------|-----------------|-----|
-| **Asking for 10 things at once** | Output is shallow; tokens divided 10 ways | Break into 2–3 prompts--- one main task per prompt |
-| **Vague task description** | AI misunderstands what you want | Add explicit context: who--- what--- why--- constraints |
-| **"Design my whole course" in one go** | Incoherent--- shallow output | Ask for plan first--- then design one section at a time |
+| **Asking for 10 things at once** | Output is shallow; tokens divided 10 ways | Break into 2–3 prompts, one main task per prompt |
+| **Vague task description** | AI misunderstands what you want | Add explicit context: who, what, why, constraints |
+| **"Design my whole course" in one go** | Incoherent, shallow output | Ask for plan first, then design one section at a time |
 | **Leaving conversation open indefinitely** | Hallucination risk increases; unwieldy to navigate | Start new conversation every 50+ exchanges |
-| **Not specifying output format** | AI guesses format; may not match needs | Say "3 bullet points---" "one paragraph---" "table---" etc. |
+| **Not specifying output format** | AI guesses format; may not match needs | Say "3 bullet points," "one paragraph," "table," etc. |
 | **Asking "what am I missing?"** | AI invents irrelevant things | Be specific: "What am I missing in my assessment of [specific skill]?" |
-| **Forgetting to review outputs** | Errors and hallucinations slip through | Always quality-check--- especially facts/citations |
+| **Forgetting to review outputs** | Errors and hallucinations slip through | Always quality-check, especially facts/citations |
 | **Pasting entire documents without framing** | AI doesn't know what to focus on | Add a sentence: "Here's my unit outline. Focus on the assessment section." |
-| **Starting a new conversation when context is long** | Lost work and having to re-explain everything | summarise first--- then paste summary into new chat |
+| **Starting a new conversation when context is long** | Lost work and having to re-explain everything | summarise first, then paste summary into new chat |
 
 ---
 

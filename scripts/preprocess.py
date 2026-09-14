@@ -185,6 +185,10 @@ def main():
     # Process all .qmd files in _print_source/
     qmd_files = sorted(OUTPUT_DIR.rglob("*.qmd"))
     for qmd_file in qmd_files:
+        # External macOS volumes create AppleDouble sidecar files such as
+        # ._index.qmd. They are binary metadata, not manuscript sources.
+        if qmd_file.name.startswith("._"):
+            continue
         text = qmd_file.read_text(encoding="utf-8")
 
         # Only process files that actually contain tabsets

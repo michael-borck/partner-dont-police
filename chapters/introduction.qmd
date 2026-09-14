@@ -84,7 +84,7 @@ Here is a quick test. After working with AI on a teaching task, ask yourself: do
 :::
 
 ::: {.callout-important title="Skills compound or erode"}
-Every interaction with AI is practice — but practice at what? If you routinely let AI do the thinking, your own capacity for that thinking weakens over time. If you use AI to challenge, extend, and refine your ideas, your expertise deepens. The same dynamic applies in your classroom: the habits your students build now will shape their professional capabilities for years.
+Every interaction with AI is practice, but practice at what? If you routinely let AI do the thinking, your own capacity for that thinking weakens over time. If you use AI to challenge, extend, and refine your ideas, your expertise deepens. The same dynamic applies in your classroom: the habits your students build now will shape their professional capabilities for years.
 :::
 
 ### Staying Critical: VET and the Cognitive Traps
@@ -140,7 +140,7 @@ You don't need to revolutionize your entire curriculum tomorrow. This book will 
 
 **Chapters 1-2** introduce you to AI and walk you through your first successful AI interaction. No prior experience needed.
 
-**Chapter 3** gives you five proven prompt techniques specifically adapted for business education---tools you can use immediately.
+**Chapter 3** gives you five proven prompt techniques specifically adapted for business education: tools you can use immediately.
 
 **Chapters 4-6** show you three powerful applications: conversation simulations, self-assessment tools, and virtual company scenarios. Each chapter includes complete worked examples across multiple business disciplines.
 

@@ -10,7 +10,7 @@ AI tools are powerful but not infallible. When implementing AI-enhanced teaching
 
 ### The Essential Preparations
 
-**Have backup platforms.** If your primary tool goes down, students should be able to switch to an alternative. Design assignments that work with any AI tool — ChatGPT, Claude, Gemini, Copilot — rather than depending on one. Specify this in your assignment instructions.
+**Have backup platforms.** If your primary tool goes down, students should be able to switch to an alternative. Design assignments that work with any AI tool (ChatGPT, Claude, Gemini, Copilot) rather than depending on one. Specify this in your assignment instructions.
 
 **Build in deadline flexibility.** Include a clear policy: if the AI platform is unavailable during the assignment period, students can request an extension. This removes anxiety and prevents a wave of panicked emails.
 
@@ -57,9 +57,9 @@ Design AI activities that work for the widest range of students:
 
 **Multiple means of engagement.** Offer text-based, voice-based, and visual interaction options where possible. Allow students to pace interactions at their own speed.
 
-**Multiple means of expression.** Let students demonstrate learning in different ways — written reflection, verbal explanation, visual presentation, or process documentation. A student who struggles with written English may demonstrate excellent critical thinking verbally.
+**Multiple means of expression.** Let students demonstrate learning in different ways: written reflection, verbal explanation, visual presentation, or process documentation. A student who struggles with written English may demonstrate excellent critical thinking verbally.
 
-**Multiple means of representation.** Request AI output in different formats — text summaries, bullet points, step-by-step breakdowns — so students can choose what works for their learning style.
+**Multiple means of representation.** Request AI output in different formats (text summaries, bullet points, step-by-step breakdowns) so students can choose what works for their learning style.
 
 ### Specific Accommodations
 

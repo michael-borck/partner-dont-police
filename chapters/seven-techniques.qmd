@@ -6,15 +6,15 @@
 
 These are seven proven prompting techniques chosen because they develop critical thinking skills that business professionals across all disciplines need:
 
-1. **Reverse Prompting** — teaches comprehensive scoping and requirement gathering
-2. **Pros and Cons** — builds analytical decision-making skills
-3. **Stepwise Chain of Thought** — reinforces process adherence and documentation
-4. **Role Play** — develops communication and interpersonal skills
-5. **Debating** — strengthens strategic thinking and ethical reasoning
-6. **Formative Assessment Generator** — provides unlimited practice and immediate feedback
-7. **The Expert Panel** — develops multi-perspective analysis and synthesis skills
+1. **Reverse Prompting**: teaches comprehensive scoping and requirement gathering
+2. **Pros and Cons**: builds analytical decision-making skills
+3. **Stepwise Chain of Thought**: reinforces process adherence and documentation
+4. **Role Play**: develops communication and interpersonal skills
+5. **Debating**: strengthens strategic thinking and ethical reasoning
+6. **Formative Assessment Generator**: provides unlimited practice and immediate feedback
+7. **The Expert Panel**: develops multi-perspective analysis and synthesis skills
 
-Each technique works across all business disciplines. The examples below use different disciplines to show the range — adapt the prompts for your own field.
+Each technique works across all business disciplines. The examples below use different disciplines to show the range, so adapt the prompts for your own field.
 
 These seven are adapted from *Conversation, Not Delegation*, which covers the same approaches for a general audience. If you want the underlying rationale for why each technique works, see the companion book.
 
@@ -24,7 +24,7 @@ These seven are adapted from *Conversation, Not Delegation*, which covers the sa
 
 Instead of solving a problem immediately, the AI asks the student questions to help scope out all requirements, considerations, and potential issues. This mirrors professional work where defining the problem is half the battle.
 
-**Example (HR — policy design):**
+**Example (HR: policy design):**
 
 ```
 I need to draft a new "Flexible Work
@@ -43,9 +43,9 @@ aspects.
 Begin with your first question.
 ```
 
-The AI asks questions the student must think through before responding — fairness, logistics, legal compliance, technology needs, cultural impact. By the end, they have considered the full complexity before drafting a single sentence.
+The AI asks questions the student must think through before responding: fairness, logistics, legal compliance, technology needs, cultural impact. By the end, they have considered the full complexity before drafting a single sentence.
 
-**Adapt for your discipline:** Replace the policy topic with whatever scoping challenge fits — a market entry strategy, an audit plan, a supply chain redesign, an IT implementation. The technique is the same: AI questions, student thinks.
+**Adapt for your discipline:** Replace the policy topic with whatever scoping challenge fits: a market entry strategy, an audit plan, a supply chain redesign, an IT implementation. The technique is the same: AI questions, student thinks.
 
 **Teaching tip:** Use as a pre-writing exercise. Require students to submit both the transcript and their subsequent draft. Assess whether they incorporated the insights.
 
@@ -53,9 +53,9 @@ The AI asks questions the student must think through before responding — fairn
 
 ## Technique 2: Pros and Cons (for Decision Making)
 
-The AI systematically analyses multiple approaches to a problem, evaluating each against specific criteria. Students must then critically evaluate the analysis — not just accept it.
+The AI systematically analyses multiple approaches to a problem, evaluating each against specific criteria. Students must then critically evaluate the analysis rather than just accept it.
 
-**Example (Supply Chain — strategy evaluation):**
+**Example (Supply Chain: strategy evaluation):**
 
 ```
 Compare different supply chain strategies for a
@@ -87,7 +87,7 @@ your choice.
 
 The AI walks through a complex process one step at a time, pausing after each step until the student signals readiness. This slows down high-stakes processes that students rush through.
 
-**Example (Accounting — audit process):**
+**Example (Accounting: audit process):**
 
 ```
 I am learning how to conduct an audit engagement
@@ -109,15 +109,15 @@ Begin with Step 1.
 
 The student must actively engage with each step before progressing. This prevents skipping to the conclusion without understanding the required process.
 
-**Teaching tip:** Have students repeat the exercise with complications introduced at each step — "What if the client refuses to provide documentation at Step 3?" The AI explains how to handle variations.
+**Teaching tip:** Have students repeat the exercise with complications introduced at each step: "What if the client refuses to provide documentation at Step 3?" The AI explains how to handle variations.
 
 ---
 
 ## Technique 4: Role Play (for Communication Skills)
 
-The AI adopts a specific persona and engages in a realistic conversation. This is the "flight simulator" concept — students practice difficult professional interactions where the AI responds dynamically.
+The AI adopts a specific persona and engages in a realistic conversation. This is the "flight simulator" concept: students practice difficult professional interactions where the AI responds dynamically.
 
-**Example (Management — difficult conversation):**
+**Example (Management: difficult conversation):**
 
 ```
 You are Sarah, a high-performing marketing
@@ -141,11 +141,11 @@ dialogue.
 Begin the meeting. I will speak first.
 ```
 
-The student must manage a realistic, emotionally charged scenario — practicing de-escalation, empathy, and procedural fairness while the AI responds dynamically.
+The student must manage a realistic, emotionally charged scenario, practicing de-escalation, empathy, and procedural fairness while the AI responds dynamically.
 
 **Adapt for your discipline:** AI plays a demanding customer (marketing), a resistant employee (management), a skeptical auditor (accounting), a supplier announcing delays (supply chain), a stakeholder with unclear requirements (IT).
 
-**Teaching tip:** Require students to submit the transcript with a reflective analysis — what worked, what did not, what they would do differently.
+**Teaching tip:** Require students to submit the transcript with a reflective analysis: what worked, what did not, what they would do differently.
 
 ---
 
@@ -153,7 +153,7 @@ The student must manage a realistic, emotionally charged scenario — practicing
 
 The AI examines multiple perspectives on a contentious issue, argues both sides, and helps students see complexity and trade-offs.
 
-**Example (Economics — multi-stakeholder debate):**
+**Example (Economics: multi-stakeholder debate):**
 
 ```
 Simulate a leadership debate on whether to
@@ -183,7 +183,7 @@ look like.
 Begin the debate.
 ```
 
-Students cannot just pick a side — they must understand legitimate competing perspectives and make a justified recommendation that acknowledges trade-offs.
+Students cannot just pick a side. They must understand legitimate competing perspectives and make a justified recommendation that acknowledges trade-offs.
 
 **Teaching tip:** Perfect for preparing students for case study exams. Instead of memorising model answers, they practise analysing competing priorities.
 
@@ -193,7 +193,7 @@ Students cannot just pick a side — they must understand legitimate competing p
 
 The AI generates unlimited practice questions, scenarios, or quizzes for low-stakes repetition and immediate feedback.
 
-**Example (Tourism & Hospitality — scenario practice):**
+**Example (Tourism & Hospitality: scenario practice):**
 
 ```
 I'm studying for an exam on service recovery in
@@ -224,7 +224,7 @@ Students can generate unlimited practice with instant feedback and adaptive diff
 
 Students consult multiple AI "experts" with different professional perspectives on the same problem, then synthesise the competing advice into a strategic recommendation.
 
-**Example (Information Systems — system implementation):**
+**Example (Information Systems: system implementation):**
 
 ```
 Our company needs to decide on an ERP
@@ -279,8 +279,8 @@ The real power comes from combining techniques into a professional workflow:
 4. Student uses **Role Play** to practice explaining it to a skeptical stakeholder
 5. Student uses **Debating** to analyse potential criticisms from different perspectives
 
-This sequence takes the student through analysis, decision-making, communication, and critical reflection — a complete professional process.
+This sequence takes the student through analysis, decision-making, communication, and critical reflection: a complete professional process.
 
 ## Your Action Step
 
-Choose one technique and try it yourself. Pick the one that feels most immediately useful for a topic you are currently teaching. Adapt the example prompt to your discipline and content. These are not just AI tools — they are pedagogical strategies. The AI makes them scalable and available to every student, any time they want to practice.
+Choose one technique and try it yourself. Pick the one that feels most immediately useful for a topic you are currently teaching. Adapt the example prompt to your discipline and content. These are not just AI tools. They are pedagogical strategies. The AI makes them scalable and available to every student, any time they want to practice.

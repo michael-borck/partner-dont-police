@@ -20,7 +20,7 @@ Most lecturers should complete at least one pilot before attempting whole-unit r
 
 ## Beyond Individual Assignments: Whole-Unit Design
 
-The real power of AI in education emerges when you design an entire unit — a complete semester's learning — with AI integration from the start.
+The real power of AI in education emerges when you design an entire unit, a complete semester's learning, with AI integration from the start.
 
 This is not about "adding AI" to an existing unit. It is about redesigning with AI as a pedagogical partner, creating learning experiences that were not previously possible.
 
@@ -104,7 +104,7 @@ In-class demonstration:
 **Purpose:**
 - Students see AI in action (demystify)
 - Understand AI can help explore complexity
-- No pressure---just observation
+- No pressure, just observation
 
 **Student Task:**
 - Install ChatGPT or Claude
@@ -213,7 +213,7 @@ Scaffolded practice for Assessment 1:
 
 ### Week 6: **Assessment 1 Due - Investigation Interview Simulation**
 
-**No new content this week---focus on assessment**
+**No new content this week: focus on assessment**
 
 Students submit:
 1. Transcript of investigation interview with AI persona
@@ -366,10 +366,10 @@ Notice how AI integration increases in complexity:
 
 | Week | AI Complexity | Student Agency | Stakes |
 |---|---|---|---|
-| 1-2 | Observation--- simple prompts | Low (following instructions) | None (ungraded) |
-| 3-4 | Single persona--- structured scenarios | Medium (some choice in approach) | Low (formative) |
-| 5-6 | Graded simulation--- self-assessment | High (must plan and execute) | Medium (25% of grade) |
-| 7-9 | Multi-persona--- ethical critique | High (designing interventions) | Preparation for high-stakes |
+| 1-2 | Observation, simple prompts | Low (following instructions) | None (ungraded) |
+| 3-4 | Single persona, structured scenarios | Medium (some choice in approach) | Low (formative) |
+| 5-6 | Graded simulation, self-assessment | High (must plan and execute) | Medium (25% of grade) |
+| 7-9 | Multi-persona, ethical critique | High (designing interventions) | Preparation for high-stakes |
 | 10-11 | Complex portfolio with multiple components | Very high (strategic choices) | High (40% of grade) |
 | 12-13 | AI as research assistant | Very high (independent work) | High (35% of grade) |
 
@@ -513,7 +513,7 @@ Use this template to design your AI-integrated unit:
 
 ## Aligning Unit Design with Programme Goals
 
-Your unit doesn't exist in isolation---it's part of a degree programme.
+Your unit doesn't exist in isolation. It is part of a degree programme.
 
 ### Consider:
 
@@ -535,7 +535,7 @@ Your unit doesn't exist in isolation---it's part of a degree programme.
 
 ## Communicating the Design to Students
 
-Students need to understand the pedagogical design---it helps them engage meaningfully.
+Students need to understand the pedagogical design, because it helps them engage meaningfully.
 
 ### First lecture (explain the approach):
 
@@ -592,7 +592,7 @@ After the semester, evaluate systematically:
 
 The backwards design approach can be adapted for any business discipline. Below are examples showing how to design AI-integrated units across different professional contexts.
 
-::: {.callout-tip title="Example: Accounting — Advanced Audit and Assurance"}
+::: {.callout-tip title="Example: Accounting: Advanced Audit and Assurance"}
 **Learning Outcomes (AI-Neutral):**
 1. Apply professional auditing standards and ethical principles
 2. Design risk-based audit procedures and testing strategies
@@ -689,7 +689,7 @@ Design (or redesign) one unit using this backwards design approach:
 5. **Check balance** (60% traditional, 40% AI-enhanced)
 6. **Plan equity supports** (access, alternatives, scaffolding)
 
-Don't aim for perfection---aim for "better than what I'm currently doing."
+Don't aim for perfection. Aim for "better than what I'm currently doing."
 
 You can refine each semester based on what you learn.
 

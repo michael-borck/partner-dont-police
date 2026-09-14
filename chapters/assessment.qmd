@@ -8,15 +8,15 @@ What are you really trying to assess in business education?
 
 **Traditional approach:** Can the student define key concepts? Can they list the steps in a process? Can they identify relevant frameworks?
 
-**This is assessing product — the knowledge artifact.**
+**This is assessing product: the knowledge artifact.**
 
-**Process-based approach:** Watch the student conduct a professional task — a negotiation, analysis, consultation, or design. Did they demonstrate the competency? Did they follow sound methodology? Did they apply frameworks appropriately in real-time?
+**Process-based approach:** Watch the student conduct a professional task: a negotiation, analysis, consultation, or design. Did they demonstrate the competency? Did they follow sound methodology? Did they apply frameworks appropriately in real-time?
 
-**This is assessing process — the professional methodology.**
+**This is assessing process: the professional methodology.**
 
 The difference matters enormously. A student can memorise definitions and still conduct a terrible negotiation. They can recite frameworks and still make decisions that expose an organisation to risk.
 
-Professional work is a process discipline. The value lies not in what you know, but in what you do with what you know — how you investigate, communicate, analyse evidence, and make decisions under uncertainty. AI makes it possible, for the first time, to assess process at scale.
+Professional work is a process discipline. The value lies not in what you know, but in what you do with what you know: how you investigate, communicate, analyse evidence, and make decisions under uncertainty. AI makes it possible, for the first time, to assess process at scale.
 
 ## Why This Was Not Possible Before
 
@@ -46,7 +46,7 @@ Students analyse data or a complex scenario using AI, then critique and improve 
 **Structure:**
 1. Students receive data or a complex scenario
 2. AI generates analysis and recommendations
-3. Students critique the AI's output — what did it miss? What assumptions are flawed? What context did it not have?
+3. Students critique the AI's output: what did it miss? What assumptions are flawed? What context did it not have?
 4. Students produce their own recommendation with explicit justification
 
 The grade weights the critique and justification, not the final recommendation. A student who identifies what AI got wrong and explains why demonstrates more learning than one who accepts a correct answer uncritically.
@@ -55,13 +55,13 @@ The grade weights the critique and justification, not the final recommendation. 
 
 Students use AI to generate professional outputs (job descriptions, audit plans, policy documents), then critically evaluate and override the AI's work.
 
-**Example — Recruitment:**
+**Example: Recruitment**
 1. AI generates 10 behavioural interview questions
 2. Student selects the 5 best and rejects 5, explaining why each was kept or cut
 3. AI scores mock candidate responses against the student's rubric
 4. Student overrides at least 2 AI scores with justification referencing theory, legal principles, or evidence the AI missed
 
-The critical override is the assessment. A student who can identify what AI got wrong — and articulate why using professional knowledge — has demonstrated competence no amount of delegation can fake.
+The critical override is the assessment. A student who can identify what AI got wrong, and articulate why using professional knowledge, has demonstrated competence no amount of delegation can fake.
 
 ## The Engagement Spectrum
 
@@ -76,7 +76,7 @@ Rather than asking "did the student use AI?", the question becomes "where on the
 
 ## Making AI Engagement Visible: Transcript Analysis
 
-At scale — 50 to 100 students — no marker can read every transcript in full. The solution is signal-based analysis. A lightweight script can extract the student's own prompts from a conversation transcript and compute:
+At scale, with 50 to 100 students, no marker can read every transcript in full. The solution is signal-based analysis. A lightweight script can extract the student's own prompts from a conversation transcript and compute:
 
 - **Flesch readability score on student prompts** (measuring the student's own language, not the AI's)
 - **Average prompt length** (very short prompts suggest low engagement)
@@ -90,7 +90,7 @@ One caveat: these metrics support marker judgement, they do not replace it. A lo
 
 ## The NotebookLM Problem
 
-Sophisticated students are already building personal research infrastructure: a notebook per unit loaded with lecture slides, readings, and rubrics, a separate notebook per assignment loaded with everything they have found on the topic. At that point the tool is not answering isolated questions — it is acting as a personalised tutor with full context.
+Sophisticated students are already building personal research infrastructure: a notebook per unit loaded with lecture slides, readings, and rubrics, a separate notebook per assignment loaded with everything they have found on the topic. At that point the tool is not answering isolated questions. It is acting as a personalised tutor with full context.
 
 This applies to essays, literature reviews, case studies, and reflective writing. The reflective section that feels resistant to AI is completable once a student has uploaded their own notes as context. The literature review requiring synthesis is completable once the sources are in the notebook.
 
@@ -127,7 +127,7 @@ Group assessment has always required balancing individual accountability with sh
 
 Group presentations are widely assumed to be AI-resistant because students must show up and speak. The assumption is partially correct. But a group can rehearse AI-generated content to fluency. Fluency under rehearsal is not the same as understanding under pressure.
 
-The integrity mechanism is not the presentation — it is the Q&A. Questions the group could not have anticipated, distributed randomly across members, surface understanding in a way rehearsed presentations cannot. Five minutes of genuine interrogation reveals more than twenty minutes of polished presentation. The marks weighting should reflect that.
+The integrity mechanism is not the presentation. It is the Q&A. Questions the group could not have anticipated, distributed randomly across members, surface understanding in a way rehearsed presentations cannot. Five minutes of genuine interrogation reveals more than twenty minutes of polished presentation. The marks weighting should reflect that.
 
 ### New Problems AI Creates
 
@@ -144,21 +144,21 @@ Both problems point toward the same solution: assess the process, not the produc
 - **Individual process mark (60-80%):** each student's AI conversation transcript, quality of engagement, and demonstrated personal understanding
 - **Group product mark (20-40%):** the shared artefact, assessed as a team
 
-This changes the incentive structure completely. A student who contributes nothing cannot fabricate a rich individual transcript across a full semester. The free rider problem largely dissolves. And it mirrors professional life — nobody receives a group performance review. Every individual is assessed on their contribution.
+This changes the incentive structure completely. A student who contributes nothing cannot fabricate a rich individual transcript across a full semester. The free rider problem largely dissolves. And it mirrors professional life, because nobody receives a group performance review. Every individual is assessed on their contribution.
 
-A useful bridging component: a short Group AI Reflection where the group answers one question together — how did you decide which AI-generated ideas to keep, which to discard, and why? This surfaces collaborative sense-making that distinguishes a genuine group from a collection of individuals who assembled separately.
+A useful bridging component: a short Group AI Reflection where the group answers one question together: how did you decide which AI-generated ideas to keep, which to discard, and why? This surfaces collaborative sense-making that distinguishes a genuine group from a collection of individuals who assembled separately.
 
 ## Core Assessment Design Principles
 
 Whether designing individual or group assessments, four principles apply:
 
-1. **Process transparency** — students must show their thinking process, not just final output
-2. **Critical engagement** — assess how students interact with AI, not whether they use it
-3. **Authentic application** — evaluate whether students can apply AI outputs in realistic professional contexts
-4. **Metacognitive development** — assess students' ability to reflect on their own learning and identify gaps
+1. **Process transparency**: students must show their thinking process, not just final output
+2. **Critical engagement**: assess how students interact with AI, not whether they use it
+3. **Authentic application**: evaluate whether students can apply AI outputs in realistic professional contexts
+4. **Metacognitive development**: assess students' ability to reflect on their own learning and identify gaps
 
 For ready-to-use rubric templates that operationalise these principles across disciplines, see the Rubric System appendix. For a structured process to stress-test any assessment against AI capabilities before deploying it, see the Stress Test Sequence appendix.
 
 ## Your Action Step
 
-Choose one assessment in your current curriculum. Ask: what am I really trying to measure — knowledge recall, professional judgement, or process skill? Then sketch how you would redesign it using one of the three models. You do not have to implement it immediately. Just think through how the shift from product to process might work in your context.
+Choose one assessment in your current curriculum. Ask: what am I really trying to measure: knowledge recall, professional judgement, or process skill? Then sketch how you would redesign it using one of the three models. You do not have to implement it immediately. Just think through how the shift from product to process might work in your context.

@@ -116,10 +116,10 @@ While this book was developed within an Australian educational context, AI integ
 
 | Cultural Dimension | Low-Context Examples | High-Context Examples | AI Adaptation Strategies |
 |---|---|---|---|
-| **Communication** | Direct--- explicit--- detailed | Indirect--- nuanced--- relationship-based | Prompt for cultural context awareness |
-| **Feedback** | Direct criticism--- explicit improvement areas | Indirect suggestions--- face-saving approaches | Train AI to recognise cultural feedback patterns |
-| **Decision-making** | Individual--- quick--- explicit | Group-based--- consensus-seeking | Include stakeholder consultation scenarios |
-| **Conflict resolution** | Direct confrontation--- legal frameworks | Mediation--- relationship preservation | Design culturally appropriate resolution scenarios |
+| **Communication** | Direct, explicit, detailed | Indirect, nuanced, relationship-based | Prompt for cultural context awareness |
+| **Feedback** | Direct criticism, explicit improvement areas | Indirect suggestions, face-saving approaches | Train AI to recognise cultural feedback patterns |
+| **Decision-making** | Individual, quick, explicit | Group-based, consensus-seeking | Include stakeholder consultation scenarios |
+| **Conflict resolution** | Direct confrontation, legal frameworks | Mediation, relationship preservation | Design culturally appropriate resolution scenarios |
 
 #### Implementation Examples
 
@@ -261,11 +261,11 @@ Focus on group success and contributing to collective goals.
 
 | Region | Quality Body | Focus Areas | AI Integration Implications |
 |---|---|---|---|
-| **Australia** | TEQSA | Learning outcomes--- student support--- institutional governance | Evidence of AI effectiveness--- student support for AI tools |
-| **UK** | QAA | Academic standards--- student experience--- quality enhancement | AI literacy development--- digital infrastructure quality |
-| **US** | Regional Accreditors | Mission fulfillment--- student learning--- institutional effectiveness | AI alignment with learning outcomes--- assessment integrity |
-| **EU** | ENQA | Harmonized standards--- student mobility--- quality assurance | Cross-border AI tool compatibility--- multilingual support |
-| **Asia** | Various | National standards--- international competitiveness--- technology integration | AI innovation--- global competitiveness preparation |
+| **Australia** | TEQSA | Learning outcomes, student support, institutional governance | Evidence of AI effectiveness, student support for AI tools |
+| **UK** | QAA | Academic standards, student experience, quality enhancement | AI literacy development, digital infrastructure quality |
+| **US** | Regional Accreditors | Mission fulfillment, student learning, institutional effectiveness | AI alignment with learning outcomes, assessment integrity |
+| **EU** | ENQA | Harmonized standards, student mobility, quality assurance | Cross-border AI tool compatibility, multilingual support |
+| **Asia** | Various | National standards, international competitiveness, technology integration | AI innovation, global competitiveness preparation |
 
 #### Adaptation Strategies
 - **Standards mapping:** Align AI integration with local quality requirements
@@ -497,11 +497,11 @@ Provide culturally appropriate tourism examples and implementation strategies.
 
 | Criterion | Questions to Consider | Evidence of Success |
 |---|---|---|
-| **Cultural Appropriateness** | Are examples and scenarios culturally relevant and respectful? | Positive student feedback--- engagement metrics |
-| **Regulatory Compliance** | Does implementation meet local legal requirements? | Compliance audits--- institutional approval |
-| **Educational Effectiveness** | Are learning outcomes achieved in local context? | Assessment results--- learning analytics |
-| **Technical Feasibility** | Do AI tools work with local infrastructure? | Usage statistics--- technical support requests |
-| **Stakeholder Acceptance** | Do local educators--- students--- and employers find value? | Survey results--- partnership feedback |
+| **Cultural Appropriateness** | Are examples and scenarios culturally relevant and respectful? | Positive student feedback, engagement metrics |
+| **Regulatory Compliance** | Does implementation meet local legal requirements? | Compliance audits, institutional approval |
+| **Educational Effectiveness** | Are learning outcomes achieved in local context? | Assessment results, learning analytics |
+| **Technical Feasibility** | Do AI tools work with local infrastructure? | Usage statistics, technical support requests |
+| **Stakeholder Acceptance** | Do local educators, students, and employers find value? | Survey results, partnership feedback |
 
 #### Continuous Improvement Process
 1. **Regular monitoring:** Ongoing assessment of adaptation effectiveness

@@ -8,7 +8,7 @@ Imagine this: Your students don't just read case studies about professional chal
 
 They handle real scenarios, make decisions, negotiate, solve problems, and make strategic recommendations. Each interaction builds on previous ones. The AI personas remember past conversations. The organisation has policies, culture, and ongoing challenges that evolve.
 
-**This is the virtual company simulation---the most ambitious application of AI in business education.**
+**This is the virtual company simulation: the most ambitious application of AI in business education.**
 
 It's more complex than a single conversation simulation, but it's increasingly feasible with current AI technology. This chapter will show you how to build toward this vision progressively, starting simple and adding layers of complexity.
 
@@ -22,7 +22,7 @@ Traditional case studies are static snapshots. Students analyse what *already ha
 - You must navigate politics, personalities, and competing priorities simultaneously
 - External events force you to adapt and reconsider strategies
 
-A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* professional work in their field---they practice *doing* it in a realistic context.
+A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* professional work in their field. They practice *doing* it in a realistic context.
 
 ## The Progressive Implementation Model
 
@@ -366,11 +366,11 @@ Create a semester-long project where students act as the HR team for a virtual c
 
 | Week | Event | Student Task |
 |---|---|---|
-| 1-2 | Introduction to InnovateCo--- cast of characters | Conduct organisational culture assessment |
+| 1-2 | Introduction to InnovateCo, cast of characters | Conduct organisational culture assessment |
 | 3-4 | Performance management complaint (Jamie/Priya) | Investigate and resolve |
-| 5-6 | Employee requests union representation | Respond to union inquiry--- prepare for negotiation |
-| 7-8 | Diversity audit reveals gender pay gap | Analyse data--- recommend corrective action |
-| 9-10 | Acquisition announced--- restructuring begins | Manage change communication--- handle redundancies |
+| 5-6 | Employee requests union representation | Respond to union inquiry, prepare for negotiation |
+| 7-8 | Diversity audit reveals gender pay gap | Analyse data, recommend corrective action |
+| 9-10 | Acquisition announced, restructuring begins | Manage change communication, handle redundancies |
 | 11-12 | Post-restructure morale crisis | Design retention and engagement strategy |
 
 Students work in teams (acting as the HR department). All teams interact with the same personas, but the personas respond differently based on each team's approach.
@@ -431,11 +431,11 @@ Work with your university's IT department to create a custom web interface where
 
 | Criterion | Weight | Description |
 |---|---|---|
-| Investigation Process | 25% | Quality of questions--- fairness--- thoroughness |
-| Stakeholder Management | 20% | Rapport-building--- empathy--- professionalism |
+| Investigation Process | 25% | Quality of questions, fairness, thoroughness |
+| Stakeholder Management | 20% | Rapport-building, empathy, professionalism |
 | Analysis & Synthesis | 25% | Ability to integrate multiple perspectives and identify underlying issues |
-| Recommendations | 20% | Practical--- justified--- legally sound solutions |
-| Reflection | 10% | Metacognitive awareness--- learning demonstrated |
+| Recommendations | 20% | Practical, justified, legally sound solutions |
+| Reflection | 10% | Metacognitive awareness, learning demonstrated |
 
 ---
 
@@ -443,7 +443,7 @@ Work with your university's IT department to create a custom web interface where
 
 The virtual company simulation concept can be adapted for any business discipline. Below are examples showing how to implement the progressive levels across different professional contexts.
 
-::: {.callout-tip title="Example: Accounting — Multiple Stakeholder Personas"}
+::: {.callout-tip title="Example: Accounting: Multiple Stakeholder Personas"}
 **Context:** An accounting firm handling a complex audit with multiple client stakeholders.
 
 **The Cast:**

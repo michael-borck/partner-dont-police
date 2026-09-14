@@ -229,7 +229,7 @@ This is not a comprehensive literature review. It is a trail of breadcrumbs for 
 
 - Deming, D. J. (2017). The growing importance of social skills in the labor market. *The Quarterly Journal of Economics, 132*(4), 1593–1640.
 
-- Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. *Educational Researcher, 13*(6), 4–16. The research showing that personalised tutoring produces dramatic learning gains — the aspiration behind AI-as-tutor approaches.
+- Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. *Educational Researcher, 13*(6), 4–16. The research showing that personalised tutoring produces dramatic learning gains, the aspiration behind AI-as-tutor approaches.
 
 **Agentic AI:**
 

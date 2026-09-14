@@ -4,11 +4,11 @@
 
 ## The Conversation You Must Have
 
-If you implement any of the ideas in this book, you will have this conversation---with students, with colleagues, possibly with administrators:
+If you implement any of the ideas in this book, you will have this conversation, with students, with colleagues, possibly with administrators:
 
 **"Aren't you just teaching students to cheat?"**
 
-This chapter gives you the framework, language, and evidence to respond confidently. More importantly, it helps you position AI integration not as an academic integrity *problem*, but as an academic integrity *opportunity*---a chance to teach professional ethics and responsible technology use.
+This chapter gives you the framework, language, and evidence to respond confidently. More importantly, it helps you position AI integration not as an academic integrity *problem*, but as an academic integrity *opportunity*: a chance to teach professional ethics and responsible technology use.
 
 ---
 
@@ -101,7 +101,7 @@ Students learn that using AI thoughtfully is harder than avoiding it. They devel
 - Include AI literacy as a stated learning objective in your unit outline
 
 **Why this builds integrity:**
-When students see AI use as professional skill development rather than academic shortcut, they engage differently. They're not "cheating the system"---they're practicing for their careers.
+When students see AI use as professional skill development rather than academic shortcut, they engage differently. They're not "cheating the system"; they're practicing for their careers.
 
 ---
 
@@ -136,7 +136,7 @@ While you may recommend (or require) students use your institution's approved to
 - Peer recommendations
 - "Just quickly checking" with ChatGPT
 
-This isn't a failure of your instruction — it's the reality of tool adoption. Your role is to help students make informed choices, not to prevent use of other tools entirely. For strategic thinking about larger-scale risks, see the **Strategic Risk Thinking** section later in this chapter.
+This isn't a failure of your instruction. It is the reality of tool adoption. Your role is to help students make informed choices, not to prevent use of other tools entirely. For strategic thinking about larger-scale risks, see the **Strategic Risk Thinking** section later in this chapter.
 
 ### Why Enterprise Tools Matter
 
@@ -383,7 +383,7 @@ I'm here to help you learn to use these tools well and ethically.
 >
 > In this unit, we'll use AI openly in some assignments. You'll learn when AI is helpful, when it's risky, and when human judgment must override AI recommendations. That's a professional skill you'll need.
 >
-> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent professional practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know---because your work won't demonstrate understanding.
+> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent professional practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know, because your work won't demonstrate understanding.
 >
 > Questions or concerns about this approach?"
 
@@ -498,7 +498,7 @@ Even with well-designed assignments, some students will try to misuse AI. Here's
 
 **Response approach:**
 - **Return for revision:** "Your self-audit suggests your performance was perfect. Reflective practice requires identifying areas for growth. Please resubmit with honest self-assessment."
-- **Offer guidance:** "Everyone makes mistakes in complex HR conversations. Look specifically at moments where the employee seemed frustrated or defensive---what might you have done differently?"
+- **Offer guidance:** "Everyone makes mistakes in complex HR conversations. Look specifically at moments where the employee seemed frustrated or defensive. What might you have done differently?"
 
 **Teaching moment:** Explain that honest self-assessment is more valuable than false perfection.
 
@@ -520,7 +520,7 @@ Even with well-designed assignments, some students will try to misuse AI. Here's
 
 One of the most powerful ways to address integrity is to make it a learning objective. Teach students to identify ethical problems with AI use *through discipline-specific scenarios*.
 
-::: {.callout-tip title="Example: Finance Exercise — The Flawed AI Investment Recommendation"}
+::: {.callout-tip title="Example: Finance Exercise: The Flawed AI Investment Recommendation"}
 **Assignment:**
 
 > "Use AI to recommend an investment portfolio allocation. Then conduct a critical audit:
@@ -546,7 +546,7 @@ One of the most powerful ways to address integrity is to make it a learning obje
 
 **Discipline-specific scenarios:**
 
-::: {.callout-tip title="Example: HR — The Biased Resume Screening Tool"}
+::: {.callout-tip title="Example: HR: The Biased Resume Screening Tool"}
 > "Your company uses an AI resume screening tool. You notice it consistently ranks candidates from certain universities higher and flags career gaps as negative. Three rejected candidates have complained the process seems unfair.
 >
 > As the HR manager:
@@ -565,7 +565,7 @@ One of the most powerful ways to address integrity is to make it a learning obje
 
 **Discipline-specific scenarios:**
 
-::: {.callout-tip title="Example: Supply Chain — The Over-Reliance on Demand Forecasting"}
+::: {.callout-tip title="Example: Supply Chain: The Over-Reliance on Demand Forecasting"}
 > "You used AI to forecast demand and optimise inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.
 >
 > Reflection questions:
@@ -590,7 +590,7 @@ You may need to justify your approach to colleagues or administrators who are sk
 
 **Response:**
 
-> "Actually, it raises standards. I'm no longer testing whether students can recall information---I'm testing whether they can apply it in realistic, dynamic scenarios. I'm assessing higher-order thinking: critical evaluation, professional judgment, and ethical reasoning. These are harder to demonstrate than memorization."
+> "Actually, it raises standards. I'm no longer testing whether students can recall information. I'm testing whether they can apply it in realistic, dynamic scenarios. I'm assessing higher-order thinking: critical evaluation, professional judgment, and ethical reasoning. These are harder to demonstrate than memorization."
 
 ### Concern: "How do you know they're learning anything?"
 
@@ -610,7 +610,7 @@ For the full treatment of group assessment, including the rewritten section prob
 
 **Response:**
 
-> "University policies typically prohibit *unacknowledged* or *uncritical* use of external sources. My approach makes AI use acknowledged and requires critical evaluation. Students aren't hiding AI use---they're demonstrating competent use. That's consistent with academic integrity principles, just applied to a new tool."
+> "University policies typically prohibit *unacknowledged* or *uncritical* use of external sources. My approach makes AI use acknowledged and requires critical evaluation. Students aren't hiding AI use. They're demonstrating competent use. That's consistent with academic integrity principles, just applied to a new tool."
 
 **Supporting evidence:**
 - Many universities are updating policies to allow appropriate AI use
@@ -621,7 +621,7 @@ For the full treatment of group assessment, including the rewritten section prob
 
 **Response:**
 
-> "That's fine---pedagogical approaches can vary across units. I'm being transparent with students about expectations in *my* unit. If other lecturers prohibit AI use, students can follow those different expectations. Professional practice requires adapting to different contexts anyway---this models that."
+> "That's fine, because pedagogical approaches can vary across units. I'm being transparent with students about expectations in *my* unit. If other lecturers prohibit AI use, students can follow those different expectations. Professional practice requires adapting to different contexts anyway, and this models that."
 
 ---
 
@@ -676,7 +676,7 @@ When your graduates enter the workforce across all business disciplines, they wi
 - AI-generated financial forecasts and analysis
 :::
 
-If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**---not through malice, but through incompetence.
+If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**, not through malice but through incompetence.
 
 Your responsibility as an educator isn't to protect students from AI. It's to prepare them to be ethical, competent professionals in an AI-augmented world.
 

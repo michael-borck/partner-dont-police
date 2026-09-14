@@ -98,12 +98,12 @@ Your analysis will be assessed using the rubric provided below.
 
 | Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
 |---|---|---|---|---|
-| **Issue Identification** | Identifies all major legal--- ethical--- and interpersonal issues with nuanced understanding | Identifies most major issues with reasonable understanding | Identifies some issues but misses key elements or lacks depth | Fails to identify critical issues or shows misunderstanding |
+| **Issue Identification** | Identifies all major legal, ethical, and interpersonal issues with nuanced understanding | Identifies most major issues with reasonable understanding | Identifies some issues but misses key elements or lacks depth | Fails to identify critical issues or shows misunderstanding |
 | **Investigation Process** | Demonstrates comprehensive understanding of fair investigative process; identifies all relevant information needed | Shows good understanding of investigation requirements; identifies most relevant information | Shows basic understanding but missing important investigative steps | Little evidence of understanding proper investigation process |
 | **Legal/Policy Application** | Accurately applies relevant law/policy with sophisticated understanding of implications | Correctly applies relevant law/policy with good understanding | Applies some relevant law/policy but with gaps or minor errors | Fails to apply relevant law/policy or shows significant misunderstanding |
-| **Theoretical Integration** | Expertly integrates psychological theory to justify recommendations; makes sophisticated connections | Effectively uses theory to support recommendations; makes clear connections | Attempts to use theory but connections are superficial or underdeveloped | Minimal or no use of theory--- or theory is incorrectly applied |
+| **Theoretical Integration** | Expertly integrates psychological theory to justify recommendations; makes sophisticated connections | Effectively uses theory to support recommendations; makes clear connections | Attempts to use theory but connections are superficial or underdeveloped | Minimal or no use of theory, or theory is incorrectly applied |
 | **Risk Analysis** | Identifies multiple realistic risks with sophisticated understanding of consequences | Identifies key risks with good understanding of consequences | Identifies some risks but analysis is basic or incomplete | Fails to identify realistic risks or shows poor understanding |
-| **Writing Quality** | Clear--- professional--- well-structured with no errors | Mostly clear and professional with minor issues | Adequate but has clarity or structural issues | Poor writing quality that impedes understanding |
+| **Writing Quality** | Clear, professional, well-structured with no errors | Mostly clear and professional with minor issues | Adequate but has clarity or structural issues | Poor writing quality that impedes understanding |
 
 **Total: /24**
 
@@ -342,7 +342,7 @@ Students receive feedback from two sources:
 
 Then they write a reflection comparing the two types of feedback: What did each source notice? Where did they disagree? Which feedback was most helpful and why?
 
-This teaches critical evaluation of feedback sources---an important professional skill.
+This teaches critical evaluation of feedback sources, an important professional skill.
 
 ### Variation 3: AI Critique Challenge
 
@@ -359,7 +359,7 @@ This prevents students from blindly accepting AI suggestions and develops critic
 
 The transparency model can be adapted for any professional discipline. Below are examples showing how to implement self-assessment tools across different business contexts.
 
-::: {.callout-tip title="Example: Tourism & Hospitality — Service Recovery Strategy Assignment"}
+::: {.callout-tip title="Example: Tourism & Hospitality: Service Recovery Strategy Assignment"}
 **Assignment Context:**
 Students analyse a customer complaint scenario in a hospitality setting and develop a comprehensive service recovery plan, applying customer service theory and operational considerations.
 
@@ -451,7 +451,7 @@ This assignment includes access to an AI feedback tool. Here's how to use it eth
 - Ask the AI to write the assignment for you
 - Copy-paste AI-generated text into your submission without understanding it
 - Ignore the feedback and submit your first draft
-- Treat the AI's feedback as infallible---it can be wrong
+- Treat the AI's feedback as infallible; it can be wrong
 
 **REMEMBER:**
 The goal is not to "beat the AI" or trick it into giving you a good score. The goal is to use the AI as a learning tool so that YOU understand the concepts and develop professional judgment better by the time you submit.

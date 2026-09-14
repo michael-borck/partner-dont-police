@@ -7,10 +7,15 @@ project:
 book:
   title: "Partner, Don't Police: AI in the Business Classroom"
   author: "Michael Borck"
+  isbn: "979-8-2542-3619-1"
   date: today
   license: "CC BY"
   description: "A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples."
   favicon: favicon.svg
+  sidebar:
+    footer: |
+      Paperback ISBN 979-8-2542-3619-1<br>
+      [Support the open edition](https://www.amazon.com.au/s?k=9798254236191)
   chapters:
     - copyright.qmd
     - index.qmd

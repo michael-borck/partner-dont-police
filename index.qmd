@@ -69,7 +69,7 @@ Throughout the book you will encounter coloured callout boxes. Each serves a dif
 > *Chapter-opening quotes appear as indented text like this. They frame the key idea or challenge each chapter addresses.*
 
 ::: {.callout-tip title="Discipline Example"}
-**Green boxes** contain discipline-specific examples — prompts, scenarios, or exercises tailored to a particular business field. In the online edition, these appear as interactive tabs covering all eight disciplines. In the print and ebook editions, a single representative example is shown.
+**Green boxes** contain discipline-specific examples: prompts, scenarios, or exercises tailored to a particular business field. In the online edition, these appear as interactive tabs covering all eight disciplines. In the print and ebook editions, a single representative example is shown.
 :::
 
 ::: {.callout-note title="Key Idea"}

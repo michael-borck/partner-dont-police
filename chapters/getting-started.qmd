@@ -1,14 +1,14 @@
-# Getting Started — Your First AI Conversation
+# Getting Started: Your First AI Conversation
 
 > The best way to understand AI is to use it. Not to read about it, not to watch a demo, but to sit down and have a conversation.
 
 ## Accessing an AI Tool
 
-Many institutions now provide enterprise AI tools through existing software agreements — commonly MS Copilot Enterprise (through Microsoft 365) or Google Gemini (through Google Workspace for Education). Check with your IT department first, because enterprise tools keep your data within institutional boundaries.
+Many institutions now provide enterprise AI tools through existing software agreements, commonly MS Copilot Enterprise (through Microsoft 365) or Google Gemini (through Google Workspace for Education). Check with your IT department first, because enterprise tools keep your data within institutional boundaries.
 
-If your institution does not provide one, several free tools are available: ChatGPT (chat.openai.com), Claude (claude.ai), and Google Gemini (gemini.google.com). All work directly in your web browser — no installation, no configuration. Create a free account and you will see a text box waiting for your instructions.
+If your institution does not provide one, several free tools are available: ChatGPT (chat.openai.com), Claude (claude.ai), and Google Gemini (gemini.google.com). All work directly in your web browser: no installation, no configuration. Create a free account and you will see a text box waiting for your instructions.
 
-For institutional work involving student data or course materials, use your enterprise tool. For general exploration and learning, any tool works — they all have similar core capabilities.
+For institutional work involving student data or course materials, use your enterprise tool. For general exploration and learning, any tool works, because they all have similar core capabilities.
 
 ## Your First Prompt: The Weak Version
 
@@ -18,7 +18,7 @@ Open your chosen AI tool and type this exactly:
 Write a case study about business.
 ```
 
-You will receive something generic — maybe a story about a marketing campaign or a financial decision. It is fine, but it is not useful for your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.
+You will receive something generic, maybe a story about a marketing campaign or a financial decision. It is fine, but it is not useful for your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.
 
 ## Your Second Prompt: The Powerful Version
 
@@ -55,15 +55,15 @@ What made that second prompt powerful? It included five elements that you can re
 
 | Letter | Element | What it does |
 |--------|---------|--------------|
-| **C** | **Context** | Sets the situation — your course, your students, their level |
-| **R** | **Role** | Defines the AI's perspective — expert lecturer, consultant, practitioner |
-| **A** | **Action** | Specifies the task — create, analyse, critique, explain |
-| **F** | **Format** | Describes the structure — word count, number of questions, table format |
-| **T** | **Tone/Target** | Sets the style and level — professional, introductory, sophisticated |
+| **C** | **Context** | Sets the situation: your course, your students, their level |
+| **R** | **Role** | Defines the AI's perspective: expert lecturer, consultant, practitioner |
+| **A** | **Action** | Specifies the task: create, analyse, critique, explain |
+| **F** | **Format** | Describes the structure: word count, number of questions, table format |
+| **T** | **Tone/Target** | Sets the style and level: professional, introductory, sophisticated |
 
 You do not need every element every time. But when a prompt gives you something vague or generic, check which CRAFT elements are missing. The answer is usually context or format.
 
-**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. The goal is not to follow CRAFT rigidly — it is to think intentionally about what you are asking the AI to do.
+**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. The goal is not to follow CRAFT rigidly. It is to think intentionally about what you are asking the AI to do.
 
 ## Conversation, Not One-Shot
 
@@ -138,10 +138,10 @@ implementation tips for each.
 Please start by asking your first question.
 ```
 
-Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations — it is in the clarity you gain about your own teaching by having to explain it. Educators consistently report that articulating their teaching philosophy to an AI helped them see how AI could enhance it, not replace it.
+Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations. It is in the clarity you gain about your own teaching by having to explain it. Educators consistently report that articulating their teaching philosophy to an AI helped them see how AI could enhance it, not replace it.
 
 ::: {.callout-tip title="Try this (15 minutes)"}
-Run the consultation prompt above. Answer the questions honestly — don't polish your responses. Then pick one obvious recommendation and one non-obvious recommendation to try this semester. Return to the same conversation after you have tried them and report what happened. The AI will help you iterate.
+Run the consultation prompt above. Answer the questions honestly, and don't polish your responses. Then pick one obvious recommendation and one non-obvious recommendation to try this semester. Return to the same conversation after you have tried them and report what happened. The AI will help you iterate.
 :::
 
 ## The Foundation
