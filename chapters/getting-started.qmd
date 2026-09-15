@@ -1,26 +1,29 @@
 # Getting Started: Your First AI Conversation
 
-> The best way to understand AI is to use it. Not to read about it, not to watch a demo, but to sit down and have a conversation.
+> Begin with a task you can inspect and evidence you can check.
 
-## Accessing an AI Tool
+## Choose a safe route first
 
-Many institutions now provide enterprise AI tools through existing software agreements, commonly MS Copilot Enterprise (through Microsoft 365) or Google Gemini (through Google Workspace for Education). Check with your IT department first, because enterprise tools keep your data within institutional boundaries.
+Complete the [first-use data gate](ethics-integrity.qmd) before opening a tool.
+Use only the fictional pilot materials or your own non-sensitive invented
+example. Institutional approval must cover the account, features and intended
+use; an enterprise label alone is not permission to upload course or student data.
 
-If your institution does not provide one, several free tools are available: ChatGPT (chat.openai.com), Claude (claude.ai), and Google Gemini (gemini.google.com). All work directly in your web browser: no installation, no configuration. Create a free account and you will see a text box waiting for your instructions.
-
-For institutional work involving student data or course materials, use your enterprise tool. For general exploration and learning, any tool works, because they all have similar core capabilities.
+The exercise works in a browser-based approved service if available. Otherwise,
+compare the supplied responses below on paper. No paid account is needed to
+learn how context and criteria change the usefulness of a request.
 
 ## Your First Prompt: The Weak Version
 
-Open your chosen AI tool and type this exactly:
+If you have an approved tool, try this request. Otherwise use the authored excerpt below:
 
 ```
 Write a case study about business.
 ```
 
-You will receive something generic, maybe a story about a marketing campaign or a financial decision. It is fine, but it is not useful for your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.
+The response may be generic, such as a story about a marketing campaign or financial decision. The request supplies little basis for meeting your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.
 
-## Your Second Prompt: The Powerful Version
+## Your Second Prompt: A More Specific Version
 
 Now try this instead:
 
@@ -47,11 +50,25 @@ Here are the requirements:
 Begin.
 ```
 
-The output should be dramatically more useful. The difference is that you told the AI who you are, what you need, what constraints matter, and what format to use. The AI did not get smarter between your first prompt and your second. You got clearer.
+The second request gives a clearer task. It may produce more relevant material,
+but still needs checking. Here are two **authored illustrative excerpts**, not
+outputs from a measured comparison:
+
+**Generic excerpt:** “A business wants to increase sales. It launches a new
+product. Discuss the marketing strategy.”
+
+**More specific excerpt:** “A small drink producer can fund only one launch
+channel. Retail buyers want discounts; direct sales need fulfilment capacity.
+The producer has no reliable repeat-purchase estimate. Which evidence would
+you request before choosing a channel?”
+
+The second creates a decision and missing information. It still needs enough
+supplied data and a criterion for evaluating the student's response. Do not
+mistake a more detailed story for a complete classroom activity.
 
 ## The CRAFT Framework
 
-What made that second prompt powerful? It included five elements that you can remember with the acronym **CRAFT**:
+What made that second prompt more specific? It included five elements that you can remember with the acronym **CRAFT**:
 
 | Letter | Element | What it does |
 |--------|---------|--------------|
@@ -69,7 +86,7 @@ You do not need every element every time. But when a prompt gives you something 
 
 Here is the most important idea in this chapter: **CRAFT is your first message, not your only message.**
 
-When you send one prompt and take the output as-is, you get generic content that could work for anyone. The AI produces safe, middle-ground responses. It misses your specific teaching voice and context.
+An initial response may miss your teaching context or contain unsupported assumptions. Check it before deciding whether another exchange would help.
 
 The solution is to have a conversation:
 
@@ -103,7 +120,7 @@ You did not write four prompts from scratch. You had a conversation where each f
 
 ## Discover Your Strategy: Using AI to Help You Use AI
 
-Here is something most tools cannot do: **AI can teach you how to use itself.**
+A model can suggest ways to use a tool, but its advice about current features or policy may be wrong. Check those claims against the product's documentation and your institution's rules.
 
 Instead of reading generic advice, you can have a personalised consultation where AI interviews you about your teaching context and then recommends both obvious and unexpected applications. Copy this prompt and try it now:
 
@@ -114,7 +131,9 @@ how I could better use AI in my teaching.
 
 Please ask me one question at a time. I'll
 answer, then you'll ask the next question.
-Keep asking until you understand:
+Ask at most five questions using fictional or
+non-sensitive context. Stop if I say STOP.
+Focus on:
 
 - My discipline and the students I teach
 - My main teaching challenges
@@ -138,14 +157,19 @@ implementation tips for each.
 Please start by asking your first question.
 ```
 
-Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations. It is in the clarity you gain about your own teaching by having to explain it. Educators consistently report that articulating their teaching philosophy to an AI helped them see how AI could enhance it, not replace it.
+Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations. It is in the clarity you gain about your own teaching by having to explain it. Writing down those constraints can clarify the task whether you discuss them with a model, a colleague or on paper. Treat the model's recommendations as proposals to evaluate.
 
 ::: {.callout-tip title="Try this (15 minutes)"}
-Run the consultation prompt above. Answer the questions honestly, and don't polish your responses. Then pick one obvious recommendation and one non-obvious recommendation to try this semester. Return to the same conversation after you have tried them and report what happened. The AI will help you iterate.
+Run the consultation prompt above. Answer the questions honestly, and don't polish your responses. Choose one proposal to evaluate against the outcome, data gate, access requirements and staff time. Trying it in class is a separate decision. You can carry out the same planning exercise on paper.
 :::
 
-## The Foundation
+## Activity: inspect the proposed task
 
-If you have followed along, you have accessed an AI tool, written a structured prompt, had a conversation that refined the output, and discovered personalised recommendations for your teaching. That is not a small thing. Everything else in this book builds on this foundation.
+**Allow ten minutes; no AI required.** Compare the two supplied excerpts.
+Name one decision the learner must make, one missing input and one criterion
+you would use to assess the response. Then adapt the stronger request to your
+own discipline without adding real personal or confidential information.
 
-The quality of what you get from AI depends almost entirely on how you work with it. Give it a vague instruction and you get a generic response. Work with it through a structured conversation and you get something genuinely useful. The tools will change. This skill transfers to all of them.
+The [pilot pack](../appendices/pilot-pack.qmd) supplies the next step: fixed
+inputs and worked checks. A usable prompt is only the beginning of a usable
+learning activity.

@@ -18,7 +18,7 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 ## C
 
-**Chain of Thought**: A prompting technique where AI is guided to show its reasoning step-by-step, rather than jumping directly to a final answer.
+**Chain of Thought**: Generated intermediate reasoning text. A plausible explanation is not a guarantee of a correct answer or a faithful account of the model's internal computation. This book's stepwise tutoring asks the learner to attempt and justify steps.
 
 **CRAFT Framework**: A structured approach to writing effective prompts, consisting of:
 - **C**: Context (background information)
@@ -33,7 +33,7 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 **Deep Learning**: A subset of machine learning using neural networks with multiple layers to process complex patterns and data.
 
-**dialogue-Based Assessment**: Assessment methods that evaluate student thinking through interactive conversations rather than static products.
+**Dialogue-Based Assessment**: Assessment methods that evaluate student thinking through interactive conversations rather than static products.
 
 ## E
 
@@ -41,7 +41,7 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 ## F
 
-**Few-Shot Learning**: AI's ability to learn and perform tasks from just a few examples, rather than requiring extensive training data.
+**Few-Shot Prompting**: Supplying a few examples in a prompt to guide the response. This does not necessarily update the model's trained parameters.
 
 ## G
 
@@ -59,7 +59,7 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 ## L
 
-**Large Language Models (LLMs)**: Advanced AI models trained on vast amounts of text data to understand and generate human-like language. Examples include ChatGPT, Claude, and Gemini.
+**Large Language Models (LLMs)**: Models trained on language data to generate and process text. A model is distinct from the product that supplies its interface, retrieval, memory and account controls.
 
 **Learning Outcomes**: Specific statements describing what students should know, understand, or be able to do after completing a learning experience.
 
@@ -83,11 +83,13 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 ## R
 
-**Retrieval-Augmented Generation (RAG)**: A technique where AI combines its training knowledge with real-time data retrieval to provide more accurate and current information.
+**Retrieval-Augmented Generation (RAG)**: Providing retrieved material as context for generation. The material need not be current, accurate or complete; the response still requires verification.
 
 **Rubrics**: Detailed scoring guides that specify criteria for different levels of performance on assessment tasks.
 
 ## S
+
+**Stepwise Tutoring**: A practice pattern in which a learner attempts one step, receives checked feedback and explains a correction before continuing.
 
 **Scaffolding**: Educational support structures that help students achieve tasks they couldn't accomplish independently, gradually removed as competence develops.
 
@@ -95,11 +97,10 @@ This glossary provides definitions for key terms and concepts used throughout th
 
 ## T
 
-**Transparency Model**: An approach to AI integration where students openly acknowledge AI use, submit their interaction history, and critically evaluate AI outputs.
+**Transparency Model**: An approach that asks learners to disclose relevant permitted assistance and explain consequential decisions. It need not require complete private chat histories and does not by itself establish authorship.
 
 **Transfer Learning**: AI's ability to apply knowledge learned from one task to perform well on related tasks.
 
 ## V
 
-**Virtual Company**: Simulated business environments created through AI conversations, allowing students to practice professional scenarios safely.</content>
-<parameter name="filePath">/Users/michael/Projects/ai-as-a-teaching-partner/glossary.qmd
+**Virtual Company**: Simulated business environments created through AI conversations, allowing students to practise bounded professional scenarios. Simulation still requires safeguards and debriefing.

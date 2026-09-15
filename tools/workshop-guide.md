@@ -1,937 +1,134 @@
-# Workshop Guide: Training Your Colleagues
+This guide supports a **90-minute educator workshop**, not an evaluated training programme. It uses the fictional [PDP-2026.1 pilot pack](../appendices/pilot-pack.qmd). The goal is for participants to leave with one bounded practice activity and a distinct plan for checking independent capability.
 
-## Purpose: Train the Trainer
+## Before inviting participants
 
-This appendix equips you to run AI integration workshops for your colleagues. Whether you're presenting at a faculty meeting, leading a professional development session, or training your teaching team, this provides the framework, examples, and confidence-building activities you need.
+Choose a facilitator who can explain the source pack and moderate the sample responses. Confirm the room, accessible materials, printing or screen access and a way to participate without a personal AI account. No live AI service is required.
 
-**Why run workshops?** You become a force multiplier, extending the book's impact beyond your own classroom and building institutional capacity for AI-enhanced teaching.
+If a live demonstration is planned, complete the [ethics and data gate](../chapters/ethics-integrity.qmd#sec-data-gate) beforehand. Use only the fictional pack and an approved account/configuration. Bring the fixed excerpts as a fallback; do not switch to an unapproved service if access fails.
 
-**The Hook: What if you could help 20 colleagues transform their teaching in one hour?**
+Send participants the purpose, agenda and access options. Invite requests for adjustments through the normal private process, not by public disclosure. Say explicitly that nobody will be asked to role-play a personal dispute.
 
-This guide gives you everything needed to run effective workshops that scale AI integration across your department. You don't need to be the AI expert; you need to be the teaching expert who can open doors for colleagues.
+## Materials and preparation
 
----
+Provide each participant with:
 
-## Workshop Overview
+- P1-D1–D5, the role boundary and P1-A/P1-B.
+- The five-criterion rubric and a blank scoring sheet.
+- P1-F, kept separate until the feedback exercise.
+- P2-D1–D4, kept separate until independent transfer.
+- The S1 and M1 alternatives for non-HR teaching.
+- A blank activity-design record and the pilot decision sheet P3.
 
-**Title:** "AI as a Teaching Partner: Practical Applications for Business Education"  
-**Duration:** 60 minutes  
-**Audience:** Business faculty (all disciplines) with varying technical confidence  
-**Goal:** Participants leave with one concrete idea they can implement next week
+Keep the educator calibration notes separate until participants have made their own decisions. Do not call the illustrative scores an institutional standard. Check that everyone can read the tables; offer a linear text copy if needed.
 
-**Key Philosophy:** Make it accessible, practical, and focused on teaching, not technology.
+## Timed agenda
 
----
-
-## Workshop Structure (60 minutes)
-
-### Opening: The Possibility (5 minutes)
-
-**Your opening question:**
-> "What if every student could practice professional scenarios 10 times before facing real assessment?"
-
-**Core message:** AI isn't about replacing teaching. It's about scaling what we know works but can't do for everyone.
-
-**Traditional vs. AI-Enhanced:**
-
-| Traditional Approach | AI-Enhanced Approach |
+| Minutes | Activity |
 |---|---|
-| Case study (read once) | Conversation simulation (practice repeatedly) |
-| Group discussion (limited participation) | Individual role-play (everyone practices) |
-| Written assignment (delayed feedback) | Immediate AI feedback |
+| 0–10 | Purpose, boundaries and data gate |
+| 10–20 | Individual first judgement of P1-A and P1-B |
+| 20–35 | Pair moderation against records and criteria |
+| 35–45 | Challenge the flawed feedback P1-F |
+| 45–55 | Bounded practice exchange or written alternative |
+| 55–65 | Independent changed case P2 |
+| 65–80 | Draft one local activity and assurance plan |
+| 80–90 | Review access, workload and pilot decision |
 
-**Why this matters:** You're still the expert designer. AI just makes personalised practice feasible for all students, not just a lucky few.
+These allocations total 90 minutes. If a discussion overruns, shorten the optional live demonstration, not the data gate or independent task. Do not equate completing this workshop with competence in every practice it discusses.
 
----
+## Opening: 0–10 minutes
 
-### Core Concept: Zero Learning Curve (10 minutes)
+State the target: *plan and justify a fair first response to a disputed performance concern, distinguishing evidence, uncertainty and authority*. Explain that it is a fictional educational exercise, not legal advice or an investigation procedure.
 
-**Key message:** If you can use Google, you can use AI.
+Ask participants to distinguish:
 
-**What AI is (and isn't):**
-- **Is:** Sophisticated text pattern generator that follows instructions
-- **Isn't:** Intelligent, creative, or reliable without human oversight
-- **Think of it as:** Tireless teaching assistant that needs your guidance
+1. Practice with help.
+2. Evidence submitted about a process.
+3. Capability demonstrated under stated independent conditions.
 
-**The skill isn't technical; it's pedagogical:**
-- What do you want students to learn?
-- How will you assess their thinking?
-- What scenarios provide authentic practice?
+A transcript may illuminate the second without establishing the third. Explain the paper route and STOP convention. Show where the approved case records end and where a generated response could begin to invent facts.
 
----
+## First judgement and moderation: 10–35 minutes
 
-### Live Demo: Three Quick Wins (20 minutes)
+Ask participants to read P1-A and P1-B individually. Underline consequential claims and identify the record that supports each. They should score provisionally before talking to a partner.
 
-This is the heart of the workshop. Show, don't just tell.
+Pairs compare the largest scoring difference. Ask them to resolve it through a criterion and record, not through the most confident speaker. Then show the illustrative educator scores: A totals 4/20 and B totals 17/20. Discuss reasonable variation and what would require further moderation.
 
-#### Demo 1: Bad Prompt vs. Good Prompt (5 minutes)
+Useful facilitator questions:
 
-**Bad prompt (type live):**
-```
-Write a case study about business.
-```
-*Show generic, unhelpful result.*
+- Where does the April warning appear in the supplied records?
+- Is the absence of an agreed action a licence to invent one?
+- Who can approve changes to hours?
+- Does concise wording conceal a missing decision, or avoid unnecessary prose?
 
-**Good prompt (discipline-specific):**
+Do not use agreement with the sample mark as the only success measure. The participant should be able to explain a defensible judgement.
 
-::: {.panel-tabset}
+## Feedback challenge: 35–45 minutes
 
-## HR
-```
-You are an expert HR lecturer. Create a 400-word case study for 
-undergraduate students about a workplace conflict involving alleged 
-discrimination. Set it in an Australian context. Include 3 discussion 
-questions requiring critical analysis. Begin.
-```
+Distribute P1-F. Explain that it is deliberately authored flawed feedback, not a captured model benchmark. Give participants three minutes to decide what to retain, correct or reject.
 
-## Marketing
-```
-You are an expert Marketing lecturer. Create a 400-word case study for 
-undergraduate students about a brand crisis and competitive response. 
-Focus on marketing strategy and customer perception. Include 3 discussion 
-questions requiring critical analysis. Begin.
-```
+The feedback's confident 90% is not a reason to disregard the records. Nor must every sentence be rejected. Require one specific decision supported by a source ID, followed by a revision in the participant's own words.
 
-## Finance
-```
-You are an expert Finance lecturer. Create a 400-word case study for 
-undergraduate students about an investment dilemma with ethical implications. 
-Include 3 discussion questions requiring critical analysis. Begin.
-```
+Show P1-R after attempts are complete. Discuss how the revised response limits authority, checks the missing evidence and respects privacy.
 
-## Management
-```
-You are an expert Management lecturer. Create a 400-word case study for 
-undergraduate students about an organisational change facing stakeholder 
-resistance. Include 3 discussion questions requiring critical analysis. Begin.
-```
+## Practice exchange: 45–55 minutes
 
-:::
+Offer three routes:
 
-*Show much better result.*
+- A partner reads Alex's fixed role card.
+- Participants respond individually to Alex's fixed opening.
+- An approved tool plays the bounded role under the prompt-library instructions.
 
-**Key point:** Same tool, different instruction. Quality depends entirely on what you ask for.
+Keep the sources, outcome and time similar across routes. Stop after six exchanges or immediately on STOP. A facilitator should interrupt invented policy or intrusive personal questioning, then explain the boundary using the fictional record.
 
-#### Demo 2: Conversation Simulation (10 minutes)
+Ask for a short debrief: one phrase that helped, one unsupported assumption and one next action. Do not grade confidence, eye contact or theatrical performance as proxies for the target capability.
 
-**Setup prompt (type live):**
-```
-You are Jamie, a team leader called to HR because a team member 
-complained about your "micromanagement."
+## Independent transfer: 55–65 minutes
 
-Your perspective: You believe you're doing your job properly and that 
-employee is oversensitive. You're defensive but professional.
+Give participants the changed P2 records. Allow eight minutes to plan a response without AI, feedback or the P1-R script; case cards remain available. Use the remaining two minutes to identify what changed.
 
-Hidden context: You've been under enormous pressure to meet targets and 
-haven't had management training. You'll reveal this only if HR person 
-asks good questions and shows empathy.
+The new case includes a safety concern about the manager and a route to independent review. Reusing the earlier response without noticing that change does not demonstrate transfer. Explain that a short written task checks planning and judgement, not every aspect of a live workplace conversation.
 
-I am the HR representative. Stay in character.
+Participants may discuss afterwards. Keep that discussion distinct from the independent attempt.
 
-I'll begin: "Thanks for meeting with me today, Jamie. I wanted to talk 
-with you about some concerns that have been raised..."
-```
+## Local activity design: 65–80 minutes
 
-**Have 5-7 exchanges live.** Make deliberate mistakes to show it's not perfect.
+Each participant drafts:
 
-**Debrief:** "Imagine every student practicing this 5 times before assessment. They learn from mistakes without requiring 60 individual role-plays or inconsistent peer practice."
+- One capability sentence.
+- Fictional or otherwise approved source records and their version.
+- What learners attempt before receiving assistance.
+- A checked feedback source and a decision learners must explain.
+- A changed task and its independent conditions.
+- Equivalent access routes, stopping conditions and support.
+- Who reviews the results and how much time that requires.
 
-#### Demo 3: Instant Feedback Tool (5 minutes)
+HR educators can adapt P1's narrow first-response task. Supply-chain educators can use S1's quantity, capacity and budget constraints. Marketing educators can use M1's rate comparison and missing causal evidence. Do not copy the HR rubric's Fair Process criterion into another discipline without considering its purpose; the pack offers alternative criteria.
 
-**Show a mediocre student response** (prepare 2-3 paragraphs with flaws).
+Ask pairs to find one claim the design cannot yet support. Possible examples are "the students learned more", "this cannot be fabricated" or "an AI mark will save all moderation time". Replace the claim with a check or a clearly stated limit.
 
-**Feedback prompt (type live):**
-```
-You are a [DISCIPLINE] lecturer. Evaluate this student's response. 
-Tell them what they did well and what needs improvement. Focus on:
-1. Issue identification
-2. Theory application  
-3. Practical recommendations
+## Pilot decision: 80–90 minutes
 
-[paste student response here]
-```
+Use P3 to decide **continue, revise, pause or stop**. This is a planning decision, not a result from an actual trial. Identify the owner of every unresolved approval or access issue.
 
-**Key message:** Students get immediate formative feedback. You still grade final work, but it's much better quality.
+Estimate workload concretely. For example, eight minutes of review for 24 learners is 192 minutes, plus any moderation, preparation and support. Decide whether the activity fits the available time before expanding it.
 
----
+Each participant leaves with the activity record, one unresolved issue and the next person or source needed to resolve it. A decision to pause can be appropriate when permission, evidence or an equivalent route is missing.
 
-### Hands-On Practice (15 minutes)
+## Facilitator contingencies
 
-**Your instruction:** "Your turn. Write one prompt for something you actually teach."
+**No network or unavailable tool:** use the fixed excerpts and paper route. The workshop's reasoning tasks do not depend on a live model.
 
-**Three options:**
-1. **Generate teaching content** (case study, scenario, discussion questions)
-2. **Create role-play persona** (for student practice)
-3. **Design feedback tool** (for student work improvement)
+**A participant brings real student or employee records:** do not project, upload or circulate them. Return to the fictional pack and the institution's approved handling process.
 
-**Quick Start Template (handout):**
-```
-You are [your role: expert lecturer in YOUR DISCIPLINE].
+**Disagreement about marks:** refer to the criterion and record. Record a genuine ambiguity for rubric revision; do not resolve it by asking a model for a final verdict.
 
-I need you to [specific task] for my [audience: student level].
+**Discomfort with the scenario:** offer S1 or M1, or allow observation and a written analysis. Do not require a reason in front of the group.
 
-Requirements:
-- [Requirement 1: length, format]
-- [Requirement 2: discipline-specific focus]
-- [Requirement 3: learning outcome]
+**Generated content introduces an allegation or false rule:** stop the exchange, label the content as unsupported and restore the original source version. It is a failure to inspect, not an additional case fact.
 
-Begin.
-```
+## After the workshop
 
-**Circulate and help.** After 10 minutes, test 2-3 prompts live (or have volunteers test if they have devices).
+Collect only feedback covered by the stated purpose and handling arrangement. Ask whether instructions, access routes and marking criteria were clear, and what prevented completion. Separate satisfaction from evidence of learning.
 
----
-
-### Addressing Concerns & Next Steps (10 minutes)
-
-**Common concerns and responses:**
-
-**Q: "What about academic integrity?"**
-A: "Chapter 9 covers this in depth. Short answer: Make AI use transparent, then grade students' critical evaluation of AI outputs, not their avoidance of it."
-
-**Q: "I'm not technical."**
-A: "If you can use Google, you can use AI. The challenge is pedagogical, not technical: What do you want students to learn? How will you assess it?"
-
-**Q: "What if AI gives wrong information?"**
-A: "Perfect! That's a teaching opportunity. When students catch AI errors, they're developing exactly the critical thinking we want."
-
-**Next steps for participants:**
-1. **This week:** Create one prompt for something you're teaching next month
-2. **This month:** Try one low-stakes AI activity with students  
-3. **This semester:** Pilot one AI-enhanced assignment (10-15% of grade)
-
-**Your support:**
-- Share this book link
-- Offer individual help
-- Create faculty learning community
-
----
-
-## Discipline-Specific Examples
-
-### Quick Prompts by Discipline
-
-::: {.panel-tabset}
-
-## Human Resources
-**Conversation Starter:**
-```
-You are an experienced HR manager conducting a termination meeting for poor performance. I am the employee.
-
-Start the conversation professionally but with empathy. Include:
-- Clear explanation of decision
-- Specific performance issues
-- Next steps for employee
-- Support resources available
-
-Begin now.
-```
-
-**Feedback Generator:**
-```
-Review this HR response and provide constructive feedback:
-"[paste student work]"
-
-Evaluate for:
-1. Tone and professionalism
-2. Legal compliance
-3. Clarity and structure
-4. Stakeholder impact
-5. Alternative approaches
-```
-
-## Marketing
-**Campaign Strategy:**
-```
-You are a Marketing Director. Create a campaign strategy for a new sustainable product targeting Gen Z.
-
-Include:
-- Target audience insights
-- Key messaging pillars
-- Channel recommendations
-- Budget allocation rationale
-- Success metrics
-
-Keep it under 500 words. Begin.
-```
-
-**Critical Analysis:**
-```
-Evaluate this marketing plan against these criteria:
-1. Market understanding
-2. Competitive positioning
-3. Resource allocation
-4. Risk assessment
-5. Measurement approach
-
-[paste student plan]
-```
-
-## Finance
-**Investment Analysis:**
-```
-You are a Financial Advisor. A client wants to invest $50,000 with moderate risk tolerance.
-
-Create a portfolio recommendation with:
-- Asset allocation percentages
-- Specific investment suggestions
-- Risk assessment
-- Expected returns
-- Diversification rationale
-
-Explain your reasoning. Begin.
-```
-
-**Ethical Dilemma:**
-```
-Present this finance scenario: "Your company can increase profits by using a tax loophole that's technically legal but ethically questionable."
-
-Provide:
-- Stakeholder analysis
-- Legal vs. ethical considerations
-- Short-term vs. long-term impacts
-- Professional guidance
-- Decision framework
-```
-
-## Supply Chain
-**Crisis Response:**
-```
-You are a Supply Chain Manager. A key supplier in Country X just shut down due to political instability.
-
-Provide immediate response plan covering:
-- Impact assessment
-- Alternative suppliers
-- Customer communication
-- Inventory reallocation
-- Risk mitigation strategies
-
-You have 48 hours to act. Begin.
-```
-
-**optimisation Challenge:**
-```
-Analyse this supply chain network for efficiency improvements:
-- Current bottlenecks
-- Cost reduction opportunities
-- Risk mitigation strategies
-- Technology integration options
-- Implementation timeline
-
-[paste network details]
-```
-
-## Information Systems
-**System Requirements:**
-```
-You are a Systems Analyst. A business needs a customer relationship management system.
-
-Gather requirements by asking me questions about:
-- Business processes
-- User needs
-- Integration requirements
-- Budget constraints
-- Success criteria
-
-Start your requirements gathering now.
-```
-
-**Security Assessment:**
-```
-Evaluate this IT system design for security vulnerabilities:
-- Access control weaknesses
-- Data protection gaps
-- Network security issues
-- User training needs
-- Compliance requirements
-
-[paste system design]
-```
-
-## Accounting
-**Audit Judgment:**
-```
-You are an Auditor. You discovered inventory valuation discrepancies that could materially impact financial statements.
-
-Provide professional response covering:
-- Audit procedures performed
-- Professional judgment applied
-- Regulatory requirements
-- Client communication approach
-- Potential report modifications
-
-Begin your analysis.
-```
-
-**Ethical Reasoning:**
-```
-Present this accounting dilemma: "Your manager wants you to recognise revenue early to meet quarterly targets."
-
-Analyse from:
-- Technical accounting standards
-- Ethical professional responsibilities
-- Stakeholder impacts
-- Legal implications
-- Career considerations
-```
-
-## Management
-**Change Leadership:**
-```
-You are a CEO implementing a major organisational restructuring.
-
-Communicate this change to employees addressing:
-- Business rationale
-- Impact on roles
-- Support available
-- Timeline for transition
-- Opportunities ahead
-
-Deliver with empathy and clarity. Begin.
-```
-
-**Strategic Decision:**
-```
-Analyse this management decision: "Should our company go fully remote permanently?"
-
-Provide:
-- SWOT analysis
-- Employee impact assessment
-- Productivity considerations
-- Cultural implications
-- Implementation challenges
-```
-
-## Economics
-**Policy Analysis:**
-```
-You are an Economic Advisor. A government is considering implementing a universal basic income.
-
-Analyse potential impacts on:
-- Labour market participation
-- Inflation and prices
-- Government budget
-- Social welfare outcomes
-- Economic growth
-
-Use economic theory and evidence. Begin.
-```
-
-**Market Analysis:**
-```
-Evaluate this economic policy proposal: "Implement carbon tax to reduce emissions."
-
-Assess:
-- Economic efficiency
-- Distributional effects
-- Competitiveness impacts
-- Environmental benefits
-- Implementation challenges
-```
-
-## Tourism & Hospitality
-**Service Recovery:**
-```
-You are a Hotel Manager. A VIP guest had a terrible experience due to multiple service failures.
-
-Design a service recovery plan including:
-- Immediate apology and resolution
-- Compensation offer
-- Process improvements
-- Staff training needs
-- Follow-up communication
-
-Begin your response.
-```
-
-**Experience Design:**
-```
-Create a tourism experience for post-pandemic travelers seeking:
-- Authentic local connections
-- Safety and flexibility
-- Sustainable practices
-- Digital integration
-- Value for money
-
-Design the full customer journey. Begin.
-```
-
-:::
-
----
-
-## Building Critical Thinking with AI
-
-### Beyond Basic Prompts
-
-**1. AI as Debate Partner**
-```
-Present this business policy: "[relevant policy]"
-
-You argue FOR this policy. I will argue AGAINST it.
-After 3 rounds, summarise strongest arguments from both sides.
-Then ask me to identify which arguments are most persuasive and why.
-```
-
-**2. Multiple Perspective Analysis**
-```
-Analyse this business decision from 4 perspectives:
-1. Financial impact
-2. Ethical considerations  
-3. Stakeholder effects
-4. Long-term consequences
-
-Then ask students to evaluate which perspective carries most weight.
-```
-
-**3. Pros/Cons Evaluation**
-```
-Evaluate this business strategy: "[strategy]"
-
-Provide:
-- 5 potential benefits
-- 5 potential risks
-- 3 mitigation strategies
-- Final recommendation with reasoning
-
-Then ask students to critique your analysis.
-```
-
-**Why this works:** Students learn to evaluate multiple viewpoints, identify bias, construct arguments, and make evidence-based decisions.
-
----
-
-## Assessment Design Shift
-
-### From Product to Process
-
-**Traditional Assessment:** Submit final business plan  
-**Process Assessment:** Show AI conversation + reflection + improvement
-
-**Example workflow:**
-1. **AI Practice:** Handle scenario (recorded)
-2. **Self-Analysis:** Student identifies what worked/didn't
-3. **Improvement:** Practice again with refined approach  
-4. **Reflection:** What did you learn about professional judgment?
-
-**Benefits:**
-- Assesses thinking, not just final output
-- Makes learning process visible
-- Develops metacognitive skills
-- Reduces academic integrity concerns
-
----
-
-## Handling Common Faculty Concerns
-
-### Skepticism: "This is just a fad"
-**Response:** "The tools will change, but the principle won't. Students need practice with realistic scenarios. AI makes that scalable. The specific platform matters less than the pedagogical approach."
-
-### Fear: "AI will make students lazy"
-**Response:** "Actually, it makes them think harder. When students must critique AI outputs, identify errors, and improve on them, they're doing higher-order thinking, not avoiding work."
-
-### Overwhelm: "I don't have time to learn this"
-**Response:** "Start with one prompt. That's it. Try it yourself. If it works, expand. If not, try something else. Small experiments, not curriculum overhaul."
-
-### Technical Anxiety: "I'm not good with technology"
-**Response:** "You don't need to be. If you can type an email, you can use AI. The challenge isn't technical; it's knowing what to ask for. That's your teaching expertise."
-
-### Quality Concerns: "What if AI gives wrong information?"
-**Response:** "Perfect teaching opportunity. When students catch AI errors, they're developing exactly the critical thinking and professional skepticism we want."
-
----
-
-## Workshop Success Indicators
-
-**Immediate signs workshop is working:**
-- Participants actively engage in hands-on practice
-- Questions shift from "why?" to "how?" (skepticism to curiosity)
-- At least half the room writes a prompt
-
-**Short-term success (1-2 weeks):**
-- 3-5 colleagues report trying something with AI
-- You receive follow-up questions
-- Participants share examples with their networks
-
-**Long-term success (end of semester):**
-- 2-3 faculty implement AI-enhanced assignments
-- Student feedback on AI-integrated teaching is positive
-- Department requests advanced workshops
-
----
-
-## Your Facilitation Toolkit
-
-### Essential Materials
-- Laptop with projector
-- Access to ChatGPT or Claude (have both ready)
-- Quick Start Guide handout (template below)
-- Whiteboard for questions and ideas
-
-### Backup Plan
-- Screenshots of successful prompts
-- Pre-recorded demo videos
-- Offline prompt examples
-
-### Follow-Up Support
-- Your email for questions
-- Offer individual consultations
-- Create faculty learning community
-- Share success stories widely
-
----
-
-## Quick Start Guide (Handout)
-
-### **AI IN BUSINESS TEACHING: QUICK START**
-
-**What you need:**
-- ChatGPT (chat.openai.com) or Claude (claude.ai) – free versions work
-- 10 minutes to experiment
-
-**Basic Prompt Template:**
-```
-You are [your role: expert lecturer in DISCIPLINE].
-
-I need you to [specific task] for my [audience: student level].
-
-Requirements:
-- [Requirement 1: length, format]
-- [Requirement 2: discipline focus]
-- [Requirement 3: learning outcome]
-
-Begin.
-```
-
-**Three starter prompts (choose your discipline):**
-
-[Insert discipline-specific examples from earlier section]
-
-**Tips for success:**
-- Be specific about context and audience
-- Define what good looks like
-- Test and refine your prompts
-- Focus on learning, not technology
-
-**Need help?** Contact: [your email]  
-**Want more?** Read the full book: [link]
-
----
-
-## Final Note
-
-Your goal isn't to convert everyone to AI use. Your goal is to:
-
-1. **Demystify** - Show AI is accessible, not scary
-2. **Spark curiosity** - Demonstrate what's possible  
-3. **Provide pathway** - Give tools and support
-4. **Build confidence** - Help colleagues take first steps
-
-Some will implement immediately. Some will wait and watch. Some will remain skeptical. All are fine.
-
-**Success is planting seeds and offering support.** The faculty ready to grow will flourish from there.
-
----
-
-## Adapting for Student Workshops
-
-The same framework can be adapted to run workshops directly for students. While faculty workshops focus on teaching methodology, student workshops focus on skill development and academic success.
-
-### Key Differences
-
-| Aspect | Faculty Workshop | Student Workshop |
-|---|---|---|
-| **Goal** | Enhance teaching practices | Develop AI literacy and study skills |
-| **Hook** | "Help 20 colleagues transform teaching" | "Transform your study effectiveness and career readiness" |
-| **Concerns** | Pedagogical effectiveness--- time investment | Academic integrity--- skill development--- job preparation |
-| **Examples** | Teaching scenarios and assessment design | Study aids and professional practice |
-
-### Student Workshop Structure (60 minutes)
-
-#### Opening: AI as Study Partner (5 minutes)
-
-**Hook:** "What if you could practice professional scenarios infinitely, with instant feedback, before facing real assessments or job interviews?"
-
-**Core message:** AI isn't about cheating. It's about developing the professional skills employers expect, with unlimited practice opportunities.
-
-**Student benefits:**
-- **Unlimited practice** - Try scenarios multiple times
-- **Immediate feedback** - Learn from mistakes instantly  
-- **Career preparation** - Practice real workplace situations
-- **Skill development** - Build critical thinking and communication
-
-#### Core Concept: AI as Professional Development Tool (10 minutes)
-
-**What AI is for students:**
-- **Practice partner** - Role-play professional scenarios
-- **Feedback generator** - Improve work before submission
-- **Knowledge explainer** - Understand complex concepts
-- **Critical thinking partner** - Challenge and refine ideas
-
-**What AI isn't:**
-- **Answer machine** - Still requires your thinking and judgment
-- **Replacement for learning** - Tool to enhance, not avoid, learning
-- **Perfect source** - Can make errors and have biases
-
-**Academic integrity focus:**
-- **Transparent use** - Acknowledge AI assistance appropriately
-- **Critical engagement** - Evaluate and improve AI outputs
-- **Original thinking** - Use AI to develop your ideas, not replace them
-
-#### Live Demo: Student-Focused Examples (20 minutes)
-
-##### Demo 1: Study Practice (5 minutes)
-
-**Prompt for students:**
-```
-You are an expert tutor in [SUBJECT]. 
-
-I'm studying [TOPIC] and struggling with [SPECIFIC CONCEPT].
-
-Explain this concept using:
-- Simple language
-- Real-world examples
-- Step-by-step approach
-- Practice questions to test my understanding
-
-Focus on [COURSE CONTEXT - e.g., Australian business environment].
-
-Begin explanation.
-```
-
-**Show how this creates personalised tutoring.**
-
-##### Demo 2: Professional Practice (10 minutes)
-
-**Interview practice prompt:**
-```
-You are an experienced [PROFESSIONAL ROLE] conducting a job interview for [POSITION].
-
-I am a final-year business student applying for this role.
-
-Ask me realistic interview questions including:
-- Behavioural questions about my experience
-- Situational questions to test judgment
-- Technical questions about [DISCIPLINE-SPECIFIC KNOWLEDGE]
-- Questions about how I handle challenges
-
-Provide feedback after each response on:
-- Clarity and relevance
-- Examples and evidence provided
-- Professional communication style
-- Areas for improvement
-
-Begin the interview now.
-```
-
-**Have 3-4 exchanges live.**
-
-##### Demo 3: Assignment Improvement (5 minutes)
-
-**Feedback prompt:**
-```
-You are a [DISCIPLINE] lecturer.
-
-I've written this draft for my assignment: [paste brief excerpt]
-
-Provide feedback on:
-1. **Structure and clarity** - Is my argument logical?
-2. **Content quality** - Am I missing key points?
-3. **Evidence and support** - Do I back up my claims?
-4. **Professional relevance** - Does this connect to workplace practice?
-5. **Areas for improvement** - What should I revise?
-
-Give specific, actionable suggestions.
-```
-
-#### Hands-On Student Practice (15 minutes)
-
-**Three student options:**
-
-**Option 1: Concept Understanding**
-```
-You are an expert tutor in [YOUR SUBJECT].
-
-I'm struggling to understand [DIFFICULT CONCEPT] from my [COURSE NAME] course.
-
-Explain it using:
-- Simple analogy
-- Real business example
-- Step-by-step breakdown
-- Why it matters professionally
-
-Test my understanding with 2 questions.
-```
-
-**Option 2: Professional Scenario Practice**
-```
-You are a [PROFESSIONAL ROLE] dealing with [WORKPLACE CHALLENGE].
-
-I am a [YOUR ROLE] practicing how to handle this situation.
-
-Create a realistic scenario where I need to [SKILL TO PRACTICE]. 
-Guide me through the conversation, providing feedback on my approach.
-
-Stay in character as the professional I'm dealing with.
-```
-
-**Option 3: Assignment Feedback**
-```
-You are a [DISCIPLINE] writing tutor.
-
-Review this section of my assignment and help me improve it:
-
-[paste your assignment excerpt]
-
-Focus on:
-- Argument clarity
-- Evidence quality
-- Professional relevance
-- Writing style
-- Missing elements
-
-Suggest specific improvements.
-```
-
-#### Academic Integrity and Professional Ethics (10 minutes)
-
-**Transparent AI Use Guidelines for Students:**
-
-**When AI use is APPROPRIATE:**
-- Brainstorming and exploring ideas
-- Understanding complex concepts
-- Practicing professional scenarios
-- Getting feedback on draft work
-- Checking grammar and clarity
-
-**When AI use is NOT APPROPRIATE:**
-- Generating final assignments without your thinking
-- During closed-book exams
-- When instructions explicitly prohibit it
-- Submitting AI work as your own without critical engagement
-
-**How to use AI RESPONSIBLY:**
-1. **Acknowledge use** - "I used AI to..."
-2. **Show your thinking** - Explain your decisions and improvements
-3. **Critique outputs** - Identify what AI got wrong or missed
-4. **Make it your own** - Add your insights, examples, analysis
-
-**Professional ethics discussion:**
-> "In your career, you'll use AI tools daily. Employers will expect you to use them effectively and ethically. Learning to use AI responsibly now prepares you for professional practice, not just academic success."
-
-#### Next Steps for Students (5 minutes)
-
-**Immediate actions:**
-1. **This week:** Try one AI tool for studying or practice
-2. **This assignment:** Use AI for feedback or concept understanding
-3. **This semester:** Develop your AI literacy skills
-
-**Long-term benefits:**
-- **Better grades** through improved understanding and practice
-- **Career readiness** with tools professionals use
-- **Critical thinking** skills from evaluating AI outputs
-- **Time efficiency** in studying and assignment preparation
-
-### Student Workshop Handout
-
-#### **AI STUDY GUIDE: QUICK START**
-
-**What you need:**
-- ChatGPT (chat.openai.com) or Claude (claude.ai)
-- Your course materials and assignments
-- 10 minutes to experiment
-
-**Study Prompts to Try:**
-
-**Concept Understanding:**
-```
-Explain [CONCEPT] from my [COURSE] using:
-- Simple language
-- Real example
-- Why it matters
-- Practice question
-```
-
-**Assignment Feedback:**
-```
-Review this assignment section:
-[paste your work]
-
-Give feedback on:
-1. Clarity and structure
-2. Missing content
-3. Better examples
-4. Professional relevance
-```
-
-**Professional Practice:**
-```
-I am a [YOUR ROLE] practicing [SKILL].
-
-Create a scenario where I need to [TASK]. 
-Guide me through it with feedback on my approach.
-
-Stay in character as [PROFESSIONAL I'm dealing with].
-```
-
-**Academic Integrity Reminders:**
-- Use AI to learn, not to avoid learning
-- Always acknowledge AI assistance
-- Critique and improve AI outputs
-- Make final work your own
-
-**Success = Better understanding + professional skills**
-
-### Adapting Content for Different Student Levels
-
-#### Undergraduate Students
-- **Focus:** Study skills and basic professional practice
-- **Examples:** Course concepts, entry-level scenarios
-- **Concerns:** Academic integrity, understanding fundamentals
-
-#### Postgraduate Students  
-- **Focus:** Research assistance and advanced professional practice
-- **Examples:** Research methodology, complex workplace scenarios
-- **Concerns:** Research integrity, advanced critical thinking
-
-#### Executive Education
-- **Focus:** Immediate workplace application and strategic thinking
-- **Examples:** Leadership challenges, strategic decisions
-- **Concerns:** Practical relevance, time efficiency
-
-### Measuring Student Workshop Success
-
-**Immediate indicators:**
-- Students actively participate in hands-on practice
-- Questions focus on "how to use effectively" rather than "whether to use"
-- Students report specific applications for their coursework
-
-**Short-term success (2-3 weeks):**
-- Students report using AI for studying and practice
-- Assignment quality improves through AI feedback
-- Reduced anxiety about professional skill development
-
-**Long-term success (end of semester):**
-- Higher grades and deeper understanding
-- Students report feeling career-ready
-- Positive feedback on AI-enhanced learning experiences
-- Students demonstrate responsible AI use habits
-
-### Combining Faculty and Student Workshops
-
-**Recommended sequence:**
-1. **Faculty workshop first** - Build teaching capacity
-2. **Student workshop second** - Develop student skills  
-3. **Integrated approach** - Faculty and students aligned on AI use
-
-**Benefits of combined approach:**
-- Shared understanding of expectations
-- Consistent academic integrity framework
-- Coordinated skill development
-- Better learning outcomes
-
-**Cross-reference:** Use this appendix alongside **Chapter 9: Ethics, Data Governance & Integrity** to ensure both faculty and student approaches align with institutional policies and educational goals.
-
----
-
-Good luck with your workshop!
+If an educator runs a classroom pilot, record actual observations in a new dated P3 sheet: participation and route, independent-task evidence, errors, access difficulties and staff time. Do not turn this workshop's hypothetical examples into success claims. Review the evidence before continuing, expanding or reporting effectiveness.

@@ -1,153 +1,118 @@
-# Introduction - Why AI Matters for Business Education
+# Introduction: A Defensible Classroom Pilot {#sec-introduction}
 
-> The question is not whether your students will use AI. It is whether they will use it well, and that depends on what you teach them.
+> Start with a learning decision you can examine.
 
-## The Problem We're Solving
+## The problem this book addresses
 
-As a business educator, you face a persistent challenge: **how do you prepare students for the messy, high-stakes reality of professional business work when your classroom is safe, controlled, and hypothetical?**
+A business educator may want students to practise difficult decisions more
+often than a timetable allows: asking a fair question, checking a recommendation,
+explaining an uncertainty or revising an unsupported conclusion. AI can help
+generate practice and feedback, but it can also make weak reasoning look fluent.
 
-The specific challenge depends on your discipline. Here are just a few examples:
+This book offers a way to design and evaluate that practice. The aim is not to
+maximise AI use. It is to help you decide where assistance is useful, where
+checks are needed and how the learner will demonstrate capability.
 
-::: {.callout-tip title="Example: Supply Chain & Logistics"}
-You can teach supply chain theory and optimisation models, but you can't easily let students experience demand disruptions, supplier failures, or make real-time logistics decisions with uncertain information. You can't scale practice in crisis management across complex networks.
-:::
+You bring disciplinary and teaching judgement. A model may contribute alternative
+wording, questions or a simulated role. Neither its confidence nor the length
+of the resulting conversation establishes what a student knows.
 
-**The common challenge across all these disciplines:** You can't easily give every student practice in high-stakes, complex, realistic scenarios with immediate feedback and the freedom to fail safely.
+## A small example of the difference
 
-**Until now.**
+In the fictional pilot, a junior adviser meets an employee whose manager has
+proposed a performance plan. A polished response announces the plan, invents
+an earlier warning and offers to approve support arrangements. It sounds
+empathetic, but conflicts with the supplied records and authority.
 
-## The Flight Simulator Concept
+A shorter response checks the missing evidence, preserves the opportunity to
+respond and refers the decision appropriately. It leaves the matter unresolved.
+That is the stronger first response because its reasoning fits the facts.
 
-Think about how pilots are trained. They don't learn to handle engine failure during a storm by reading a textbook. They don't practice emergency landings by watching videos. They use **flight simulators**,sophisticated environments where they can crash the plane, make terrible decisions, experience rare scenarios, and learn from catastrophic failures without anyone getting hurt.
+The [pilot pack](../appendices/pilot-pack.qmd) provides both responses, flawed
+feedback, a correction and a changed case. You do not have to invent a scenario
+or trust a live model to work through the book.
 
-That's what AI can do for business education.
+## The reader and the outcome
 
-AI conversation tools can create a **professional practice simulator** where your students can practice in their field:
+The main reader is an educator teaching business or a related professional
+discipline. You do not need to code or purchase an AI subscription. You do need
+enough disciplinary knowledge to recognise the task's standards and arrange
+expert review where the material exceeds your competence.
 
-::: {.callout-tip title="Example: Human Resources"}
-- Conduct recruitment interviews and evaluate candidate fit
-- Handle sensitive employee relations and discrimination scenarios
-- Navigate termination conversations with legal and emotional complexity
-- Practice benefits negotiation and compensation discussions
-:::
+Student-facing prompts and instructions are labelled as such. They are examples
+to adapt, not institution-wide policies or ready-made legal advice.
 
-And here's the remarkable part: **after the simulation, the AI can act as an expert supervisor**, reviewing the transcript of what happened and providing detailed critique based on discipline-specific theory, professional standards, and ethical principles.
+By the end, you should be able to:
 
-## What Makes This Different from Traditional Teaching?
+- Specify a bounded capability and the evidence needed to assess it.
+- Select permitted data and an approved or non-AI route.
+- Design practice and feedback with checkable inputs.
+- Inspect a response and justify a correction or warranted agreement.
+- Include an appropriate independent demonstration.
+- Evaluate access, workload and learning evidence before expanding a pilot.
 
-Traditional business education often focuses on **product**,the final answer, the correct calculation, the right theoretical framework. Students write essays, complete exams, and submit reports that demonstrate they *know* things.
+A model's success at producing a handout is not the same as your success at
+designing an assessment. The latter requires these decisions to fit together.
 
-But professional business work is about **process**,the methodology of how you analyse financial data, the approach you take in strategic planning, the steps you follow to ensure market research validity, the communication style you use to negotiate deals.
+## Conversation as a working method
 
-**AI allows us to assess and teach process, not just product.**
+The companion *Conversation, Not Delegation* develops the broader method of
+thinking with AI. PDP uses a short practical version: clarify the question,
+consider alternatives, check consequential claims and make a decision you can
+defend.
 
-Here's what this means in your discipline:
+Its VET reminder is useful here: **Verify** the claim, **Explain** your reasoning
+and **Test** it against a changed condition. The classroom application adds a
+further question: which part of the student's performance was assisted, and
+which part demonstrates independent capability?
 
-::: {.callout-tip title="Example: Accounting & Finance"}
-**Traditional:** "Apply the going concern principle" (rules-based knowledge)
-**Process-focused:** "Audit this financial statement. What red flags did you identify? How did you investigate? What judgment calls did you make?"
-:::
+A conversation can support that work. It can also become a long rehearsal of
+unsupported assertions. Do not reward the conversation itself without examining
+the decisions it contains.
 
-This shift from testing knowledge recall to evaluating applied professional methodology is transformational for business education.
+## Three design commitments
 
-## The Conversation, Not Delegation Framework
+First, establish safety before use. The data gate covers permission, account
+features, handling and alternatives. Fictional material is the default for
+practice; a real placement case is not automatically suitable because names
+were removed.
 
-Most people use AI the same way: they give it a task and accept what comes back. Write this email. Summarise this report. Answer this question. This is **delegation**. It produces outputs. It does not produce understanding.
+Second, make feedback contestable. A model can misapply a rubric or invent a
+fact. Students need supplied criteria and examples that let them check its
+comments. They should be allowed to retain correct advice as well as reject
+errors.
 
-There is a different approach. Instead of handing tasks to AI, you think alongside it. You bring a question, not a task. You explore possibilities together. You push back on what it gives you. You refine, redirect, and challenge until the result reflects your judgement, not just the model's fluency.
+Third, preserve the learner's opportunity to act independently. The final
+changed case cannot be replaced by a reflection that merely says learning
+occurred. Choose a demonstration appropriate to the outcome and access needs.
 
-This is **conversation**. And it changes what AI does for the person using it.
+## The route through the book
 
-**Delegation asks:** "How do I get AI to do this for me?"
+Begin with [Understanding AI](understanding-ai.qmd) and
+[Ethics and Data Governance](ethics-integrity.qmd). Then try
+[Getting Started](getting-started.qmd), choose a
+[prompt pattern](seven-techniques.qmd) and practise a
+[checked handoff](managing-context.qmd).
 
-**Conversation asks:** "How do I use AI to think better with me?"
+The next sequence develops [critique](critique-toolkit.qmd),
+[simulation](flight-simulator.qmd), [self-assessment](self-assessment.qmd) and
+[assessment design](assessment.qmd). Small content activities and the virtual
+company then lead into whole-unit design.
 
-The difference matters because judgement cannot be delegated to something that has read everything but experienced nothing. AI has processed more text than any person could read in a lifetime. But it has never made a decision under pressure, never felt the weight of getting something wrong, never had a stake in the outcome. It can generate plausible answers. It cannot know which answer is right for your situation. That is your job.
+The closing chapters address adaptation, implementation and a pilot decision.
+The appendices supply the cases, rubric, stress test and workshop resources.
+These support a standalone route; the other books are optional extensions.
 
-### The Four-Part Loop
+## Activity: choose one capability
 
-The framework has four moving parts:
+**Allow eight minutes; no AI required.** Pick a task you teach. Complete:
 
-- **Brainstorm:** Arrive with a real question, not a task to outsource.
-- **Ideate:** Go wide. Explore angles, alternatives, framings you had not considered.
-- **Iterate:** Push back. Challenge what the AI gives you. Refine until it fits your context.
-- **Amplify:** Take the best of what emerged and make it yours. You own the result.
+> After this activity, the student can ___ using ___ evidence, under ___ conditions.
 
-Most good work passes through this loop more than once. The sign that you are done is not that the AI has stopped producing output. It is that your thinking has landed somewhere solid.
+Avoid “understand AI better” or “produce a professional report” without saying
+what would demonstrate that outcome. In the pilot, the target is to plan and
+justify a fair first response using supplied records. It does not claim to
+certify a competent workplace investigator.
 
-The core principle is simple: **your expertise + AI's breadth = amplified thinking.** The bottleneck is always your thinking, not the model.
-
-Every technique in this book, from the flight simulator to the critique toolkit to the seven prompting techniques, is designed to keep you in conversation, not delegation. When you see a prompt that asks the AI to challenge your reasoning, or a simulation that requires you to respond in real time, or an assessment that grades your process rather than the AI's output, you are seeing this framework in action.
-
-::: {.callout-warning title="Are you conversing or delegating?"}
-Here is a quick test. After working with AI on a teaching task, ask yourself: do I understand my pedagogical challenge more clearly than when I started? If the answer is yes, you were thinking alongside the AI. If the answer is no, you handed the task over and accepted what came back. The distinction matters because only one of those processes develops your professional judgement.
-:::
-
-::: {.callout-important title="Skills compound or erode"}
-Every interaction with AI is practice, but practice at what? If you routinely let AI do the thinking, your own capacity for that thinking weakens over time. If you use AI to challenge, extend, and refine your ideas, your expertise deepens. The same dynamic applies in your classroom: the habits your students build now will shape their professional capabilities for years.
-:::
-
-### Staying Critical: VET and the Cognitive Traps
-
-Conversation only works if you stay critical. *Conversation, Not Delegation* introduces the **VET framework**, three questions to ask before acting on any AI output:
-
-- **Verify:** Can I find this independently? Check sources, cross-reference claims.
-- **Explain:** Can I explain this in my own words? If not, I do not understand it yet.
-- **Test:** Does this hold up under scrutiny? Change a variable, try an edge case.
-
-It also names three cognitive traps that undermine critical engagement:
-
-- **Gell-Mann Amnesia:** You catch AI errors in your area of expertise, then trust it completely on topics you know less about.
-- **The Sycophancy Trap:** AI is trained to agree with you. Ask "what do you think?" and you get flattery, not feedback. Ask "what are the three weakest points?" and you get something useful.
-- **The AI Dismissal Fallacy:** Rejecting an idea solely because AI was involved. "That is just ChatGPT" is not a critique; it is a refusal to engage with the content.
-
-These traps matter for teaching because students will fall into all three. Naming them makes them visible, and visibility is the first step to resisting them. The critique toolkit in this book and the VET framework from *Conversation, Not Delegation* reinforce each other: both teach the habit of evaluating AI output on its merits rather than accepting or rejecting it reflexively.
-
----
-
-## Three Core Principles of This Approach
-
-As you read through this book and begin experimenting with AI in your teaching, keep these three principles in mind:
-
-### 1. **AI as Scaffolding, Not Replacement**
-
-AI is like a construction crew that can quickly build the framework for complex learning scenarios. But your role as the educator is irreplaceable: you design the learning objectives, you set the ethical boundaries, you guide students to inspect and refine their work, and you ensure the final structure is robust and professionally sound.
-
-Examples of how this works across disciplines:
-
-::: {.callout-tip title="Example: Tourism & Hospitality"}
-AI creates demanding guests and service scenarios. You ensure cultural authenticity, teach service excellence principles, and guide professional judgment about when to escalate.
-:::
-
-
-### 2. **Transparency Over Prohibition**
-
-Many educators worry about students using AI to cheat. This book takes the opposite approach: **give students the AI tools, teach them to use AI ethically, and grade them on their ability to critically evaluate and improve AI outputs.**
-
-In the real world, professionals across all business disciplines will use AI tools:
-
-::: {.callout-tip title="Example: Information Systems"}
-IT professionals use AI for code generation, systems analysis, and automation. Our job is to teach students to review AI outputs, maintain security and quality, and understand when to override automation.
-:::
-
-Our job isn't to prevent AI use,it's to ensure students can use AI tools responsibly, identify their limitations, and maintain human judgment on ethical, legal, and disciplinary-specific matters.
-
-### 3. **Start Simple, Scale Gradually**
-
-You don't need to revolutionize your entire curriculum tomorrow. This book will show you how to start with a single prompt, try one simulation exercise, or enhance one assessment. Each chapter builds progressively, so you can adopt techniques at your own pace.
-
-## What You'll Learn in This Book
-
-**Chapters 1-2** introduce you to AI and walk you through your first successful AI interaction. No prior experience needed.
-
-**Chapter 3** gives you five proven prompt techniques specifically adapted for business education: tools you can use immediately.
-
-**Chapters 4-6** show you three powerful applications: conversation simulations, self-assessment tools, and virtual company scenarios. Each chapter includes complete worked examples across multiple business disciplines.
-
-**Chapters 7-8** reimagine assessment in business education and show you how to design complete AI-integrated units from scratch.
-
-**Chapters 9-10** address ethics, academic integrity, and practical implementation guidance directly.
-
-**The Appendices** give you ready-to-use prompts, a workshop guide for colleagues, and a framework for aligning AI integration with institutional learning outcomes.
-
-Let's begin.
+Keep your sentence. Each later chapter should help you make a concrete design
+decision about that capability.

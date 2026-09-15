@@ -1,523 +1,166 @@
-# AI as Study Buddy - Self-Assessment Tool
+# Self-Assessment: Judge Before Receiving Feedback {#sec-self-assessment}
 
-> The student who uses AI to test their own understanding is doing something fundamentally different from the student who uses AI to avoid understanding altogether.
+> Feedback is useful when the learner can decide what to do with it.
 
-## The Academic Integrity Challenge
+## Keep the learner in the judgement
 
-Let's address the elephant in the room: you're worried students will use AI to cheat.
+A model commenting on a draft is giving external feedback. Self-assessment
+happens when the learner compares their own work with criteria, identifies
+what is supported and decides what to revise or retain.
 
-That's a legitimate concern. Students could paste assignment questions into ChatGPT, get answers, and submit them as their own work. Many universities have responded by trying to detect AI-generated text, banning AI tools, or designing "AI-proof" assessments.
+Make that judgement before showing the model's answer. Otherwise, a student
+may simply adopt the feedback's vocabulary and call it reflection. The same
+risk exists with an answer key or a peer's opinion.
 
-**This chapter proposes a radically different approach: Give students the AI tools openly, teach them to use AI ethically, and grade them on their ability to critically improve AI outputs.**
+This chapter uses the [pilot pack](../appendices/pilot-pack.qmd). Students can
+complete the sequence using supplied responses and feedback, without a personal
+account or subscription. The educator can then compare decisions across routes
+using the same [rubric](../appendices/rubric-system.qmd).
 
-Why? Because in their professional careers across all business disciplines, they *will* use AI tools. Our job isn't to prevent that,it's to ensure they use them responsibly, understand their limitations, and maintain human judgment on critical matters.
+## The five-step cycle
 
-## The Transparency Model
+1. Attempt the task before receiving feedback.
+2. Assess the response against the supplied criteria.
+3. Examine feedback and verify its claims.
+4. Revise or retain the work, explaining why.
+5. Attempt a changed task independently.
 
-Here's the core idea:
+Revision is not automatically improvement. A learner may remove a justified
+qualification because a model calls it hesitant. A sound self-assessment can
+therefore conclude that part of the original response should remain.
 
-**Give students BOTH:**
-1. **The grading rubric** (what you'll assess them on)
-2. **The exact AI critique prompt** (the tool to check their work)
+## Worked example: from reassurance to a defensible response
 
-This transforms AI from a cheating shortcut into a **transparent learning tool**. Think of it like giving students the answer key to practice problems before the real exam.
+P1-A is a fluent response to Alex. It asserts an April warning, announces a plan,
+promises to approve support and asks for personal details. Before looking at
+P1-F, ask the learner to identify evidence for each consequential statement.
 
-### The Psychology Behind It
+The cards show the problem. D3 records a May conversation without an agreed
+warning. D1/D5 reserve approval to the people manager. D4 does not require Alex
+to explain the private circumstances behind the requested work adjustment.
 
-When you give students the rubric and the AI critique tool:
-- They can practice and get immediate feedback before submission
-- They learn to evaluate their own work against professional standards
-- They develop **metacognitive skills** (thinking about their thinking)
-- They take ownership of their learning (self-directed improvement)
-- The focus shifts from "fooling the teacher" to "meeting the standard"
+P1-F then praises the response and recommends asking for written family details.
+A learner who has already checked the cards can explain why that apparently
+helpful feedback should be rejected.
 
-This is pedagogically powerful across all business disciplines because **reflective practice**, **self-directed learning**, and **continuous improvement** are core professional competencies.
+### The feedback decision record
 
----
+| Feedback claim | Decision | Basis |
+|---|---|---|
+| April warning strengthens the case | Reject | D3 does not supply that warning |
+| Adviser should approve hours | Reject | D5 reserves the decision |
+| Communication should remain respectful | Retain | Consistent with a fair first response |
+| Employee will improve after the meeting | Withhold | No outcome evidence supplied |
 
-## How It Works: A Step-by-Step Example
+There is no quota for disagreement. These decisions follow from the evidence.
+If a model correctly identifies an unsupported date, the learner should accept
+that criticism and explain why.
 
-### Scenario: A Written HR Case Analysis Assignment
+### Complete the revision
 
-**The Assignment:**
-Students must analyse a workplace conflict scenario and recommend an appropriate HR intervention, justifying their recommendation with employment law and psychological theory.
+P1-R shows a completed revision. It checks the delivery dependencies, keeps the
+formal recommendation open and refers the support request. Its decision note
+explains what changed and identifies missing evidence.
 
-**Traditional Approach:**
-- Give students the case
-- They write their analysis
-- You grade it (hopefully they didn't just ask ChatGPT to write it)
-- They get a grade 2 weeks later with minimal feedback
+The educational artifact is not just the polished paragraph. It is the link
+between a defect, a source check and a reasoned revision. A short explanation
+can show that link better than a long account of every prompt.
 
-**Transparency Approach:**
-- Give students the case
-- Give them the detailed rubric showing exactly what you're assessing
-- Give them the AI critique prompt they can use to check their draft
-- They write, self-assess using the AI, revise based on feedback, and submit
-- You grade the final submission (and can see evidence of their revision process)
+## If a live model provides the feedback
 
-Let's see this in action.
+Use only the approved route and supplied fictional inputs. Do not paste actual
+student drafts into a service without the relevant permissions, account and
+handling decision. The [data gate](ethics-integrity.qmd) applies to feedback
+as much as to generation.
 
----
-
-## Complete Worked Example
-
-### Step 1: The Assignment Prompt
-
-```
-ASSIGNMENT: Workplace Conflict Analysis
-
-Read the following scenario:
-
-Maria, a team leader in the marketing department, has filed a formal
-complaint alleging that her manager, David, has created a hostile work
-environment. Maria claims that David regularly dismisses her ideas in
-meetings, assigns her the least desirable projects, and has denied her
-professional development opportunities that he's offered to other team
-leaders. David denies these allegations and states that Maria is
-"oversensitive" and "not a team player." There have been no previous
-formal complaints, but two other team members have informally mentioned
-that they find David's management style "difficult."
-
-YOUR TASK:
-Write a 750-word analysis that includes:
-
-1. Identification of the key HR issues in this scenario (legal, ethical,
-   and interpersonal)
-2. An evaluation of what information you would need to gather to
-   investigate this properly
-3. A recommended HR intervention with justification based on:
-   - Relevant employment law or workplace policy principles
-   - Psychological theory (e.g., conflict resolution, motivation,
-     organisational justice)
-4. Potential risks if the situation is not handled appropriately
-
-Your analysis will be assessed using the rubric provided below.
+```text
+Here are the fictional task, source cards,
+rubric and my draft.
+Give provisional formative feedback.
+For each comment, cite a source card or criterion
+and quote the relevant wording from my draft.
+Separate missing evidence from incorrect evidence.
+Allow justified agreement and uncertainty.
+Do not invent laws, facts or expected outcomes.
+Do not treat length or confidence as competence.
 ```
 
-### Step 2: The Grading Rubric (Given to Students)
+Check that the quoted wording actually exists. If the feedback adds a legal
+rule or new case fact, do not integrate it merely because it sounds specific.
+Return to the supplied criterion or an authorised external source.
 
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Issue Identification** | Identifies all major legal, ethical, and interpersonal issues with nuanced understanding | Identifies most major issues with reasonable understanding | Identifies some issues but misses key elements or lacks depth | Fails to identify critical issues or shows misunderstanding |
-| **Investigation Process** | Demonstrates comprehensive understanding of fair investigative process; identifies all relevant information needed | Shows good understanding of investigation requirements; identifies most relevant information | Shows basic understanding but missing important investigative steps | Little evidence of understanding proper investigation process |
-| **Legal/Policy Application** | Accurately applies relevant law/policy with sophisticated understanding of implications | Correctly applies relevant law/policy with good understanding | Applies some relevant law/policy but with gaps or minor errors | Fails to apply relevant law/policy or shows significant misunderstanding |
-| **Theoretical Integration** | Expertly integrates psychological theory to justify recommendations; makes sophisticated connections | Effectively uses theory to support recommendations; makes clear connections | Attempts to use theory but connections are superficial or underdeveloped | Minimal or no use of theory, or theory is incorrectly applied |
-| **Risk Analysis** | Identifies multiple realistic risks with sophisticated understanding of consequences | Identifies key risks with good understanding of consequences | Identifies some risks but analysis is basic or incomplete | Fails to identify realistic risks or shows poor understanding |
-| **Writing Quality** | Clear, professional, well-structured with no errors | Mostly clear and professional with minor issues | Adequate but has clarity or structural issues | Poor writing quality that impedes understanding |
+The model's score, if it gives one, is not the institutional mark. Prefer
+descriptive feedback while students learn the criteria. The educator should
+sample for errors and disagreement before using the method, and retain
+responsibility for formal marking.
 
-**Total: /24**
+## What an educator should look for
 
-### Step 3: The AI Self-Assessment Prompt (Given to Students)
+A useful self-assessment identifies a claim and shows how it was checked.
+It explains a change or a justified decision not to change. It can acknowledge
+that some uncertainty remains.
 
-This is what students use to check their work *before* submission.
+Weak evidence includes a generic “I improved clarity”, repeated praise from a
+model or a rewritten answer with no explanation of its consequential decisions.
+Those weaknesses should guide feedback and marking. They do not, by themselves,
+prove dishonest conduct.
 
-```
-You are an expert HR lecturer providing formative feedback to a student on
-their assignment draft. Your role is to provide constructive, specific
-feedback that helps the student improve their work before final submission.
+Do not assume a student must criticise their own work to be honest. A correct
+calculation can remain correct; the question is whether the learner can explain
+and defend it with suitable evidence.
 
-You should be rigorous but supportive—your goal is to help them learn, not
-to simply validate their work.
+## A contrasting quantitative example
 
-ASSESSMENT CRITERIA:
-Evaluate the student's response against these criteria:
-1. Issue Identification: Have they identified the key legal, ethical, and
-   interpersonal issues?
-2. Investigation Process: Do they demonstrate understanding of fair,
-   thorough investigation?
-3. Legal/Policy Application: Have they correctly applied relevant
-   employment law or policy?
-4. Theoretical Integration: Have they used psychological theory to justify
-   their recommendations?
-5. Risk Analysis: Have they identified realistic risks if the issue isn't
-   handled well?
-6. Writing Quality: Is it clear, professional, and well-structured?
+Use S1 in the pilot pack. Before feedback, calculate each quote and check the
+deadline. The low price of B may look attractive, but its capacity is only
+160 units against a 200-unit requirement.
 
-YOUR TASK:
-1. For each criterion, provide a score (1-4) and brief justification
-2. Quote specific sentences from the student's work to illustrate your
-   points
-3. Identify the strongest aspect of their analysis
-4. Identify the weakest aspect that needs the most improvement
-5. Provide THREE specific, actionable suggestions for revision
+A model might praise B's cost efficiency. The learner should retain the price
+calculation while rejecting the claim that the requirement is met. A different
+model might correctly recommend A; the learner should verify and accept that
+recommendation, while noting that real procurement would need further checks
+on quality and reliability.
 
-Be honest. If something is missing, say so. If their legal analysis is
-incorrect, explain why. If they've misapplied theory, guide them to the
-correct application.
+This is self-assessment of the decision, not a contest to out-argue a tool.
 
-Here is the student's draft:
+## Independent transfer
 
-[STUDENT PASTES THEIR DRAFT HERE]
+After revising P1, attempt P2 without the feedback or worked answer available.
+The retaliation allegation requires an independent review route. Simply changing
+Alex's name to Morgan in P1-R does not address the changed condition.
 
-Begin your feedback.
-```
+Use the same criteria and the stated task conditions. Compare the reasoned
+decisions, and teach gaps before increasing stakes. A single result is limited
+evidence; delayed checks and other assessments may be needed to understand
+retention and broader competence.
 
----
+Research on AI-assisted mathematics illustrates why supported performance and
+later unaided performance should be measured separately. It does not establish
+that this particular business-classroom method improves outcomes.
+[Bastani et al., author manuscript](https://hamsabastani.github.io/education_llm.pdf).
 
-## What This Looks Like in Practice
+## Fit the feedback into a unit
 
-### Student's First Draft (Excerpt)
+You might use a first draft, a checked revision note and a later independent
+task. Decide the workload and timing before requesting repeated submissions.
 
-> "This scenario shows a conflict between Maria and David. The main issue is
-> that David is not being a good manager. Maria feels like she's being treated
-> unfairly, which is creating a hostile work environment. This could be
-> bullying or harassment. The HR department should investigate by talking to
-> both Maria and David to get both sides of the story. They should also
-> implement conflict resolution training for David. If this isn't handled, it
-> could lead to a lawsuit or Maria quitting."
+If the final report is the primary outcome, its accuracy and evidence should
+carry substantial weight. If the task assesses consultation process, observed
+decisions may carry more. The assessment chapter gives complete illustrative
+allocations; there is no default 70/30 split that applies to every activity.
 
-### AI Feedback (Using the Prompt Above)
+Make alternative feedback available. A student can compare with the supplied
+educator annotation or receive structured peer feedback. A model-generated
+critique is not the only route to evaluative judgement.
 
-**FORMATIVE FEEDBACK ON DRAFT**
+## Activity: retain, revise or investigate
 
-**CRITERION 1: Issue Identification - Score: 2/4**
+**Allow ten minutes; no AI required.** Review P1-F and complete three entries:
 
-You've identified the surface-level conflict, but your analysis lacks specificity and misses critical issues.
+- One claim to reject, with the source that contradicts it.
+- One useful principle to retain, with its applicable limit.
+- One question that needs more evidence.
 
-**What you wrote:** "This could be bullying or harassment."
-
-**The problem:** You've used these terms interchangeably, but they have different legal definitions and implications. Bullying is repeated, unreasonable behaviour; harassment typically relates to discrimination based on protected characteristics (gender, race, age, etc.). Which applies here, and why? Is there evidence of discrimination based on Maria's gender or another protected characteristic, or is this a management style issue?
-
-**What's missing:** You haven't identified potential procedural issues (why wasn't this addressed earlier?), power dynamics (David is Maria's manager), or organisational culture problems (two other employees find his style "difficult").
-
----
-
-**CRITERION 2: Investigation Process - Score: 2/4**
-
-You've identified the need for an investigation, but your description is too vague.
-
-**What you wrote:** "Talking to both Maria and David to get both sides of the story."
-
-**The problem:** A fair investigation requires more than just hearing "both sides." You need to:
-- Interview the two employees who informally raised concerns
-- Review any documented evidence (emails, performance reviews, meeting notes)
-- Examine whether other team leaders received opportunities Maria was denied
-- Maintain confidentiality and impartiality throughout
-- Document everything
-
-**What's missing:** Any mention of procedural fairness, natural justice, or legal compliance in the investigation process.
-
----
-
-**CRITERION 3: Legal/Policy Application - Score: 1/4**
-
-This is your weakest area. You haven't applied any specific legal principles or policies.
-
-**What you wrote:** "This could lead to a lawsuit."
-
-**The problem:** This is too vague. *What kind* of lawsuit? Under what legal theory? You need to reference specific legal risks like:
-- Potential discrimination claim under the Fair Work Act (if there's evidence David's treatment relates to a protected characteristic)
-- Potential bullying claim under work health and safety legislation
-- Potential breach of the employer's duty of care
-
-You also need to reference the organisation's obligations,to provide a safe workplace, to investigate complaints fairly, to act on findings.
-
----
-
-**CRITERION 4: Theoretical Integration - Score: 1/4**
-
-You have not applied any psychological theory to your analysis.
-
-**What's missing entirely:** There's no reference to conflict resolution theory, organisational justice theory, motivation theory, or any framework that would explain *why* this situation is problematic beyond "it's unfair." For example:
-- Organisational justice theory explains why Maria perceives inequity
-- Conflict resolution models would guide your intervention choice
-- Leadership or management theory could inform what training David might need
-
----
-
-**CRITERION 5: Risk Analysis - Score: 2/4**
-
-You've identified two risks (lawsuit, resignation) but your analysis is shallow.
-
-**What you wrote:** "This could lead to a lawsuit or Maria quitting."
-
-**The problem:** These are possible outcomes, but you haven't explained *why* or *how* they might occur, or what other risks exist:
-- Reputational damage if other employees witness inaction
-- Decreased team morale and productivity
-- Potential for retaliation against Maria if not handled carefully
-- Liability if the organisation knew about the problem and didn't act
-
----
-
-**CRITERION 6: Writing Quality - Score: 3/4**
-
-Your writing is clear and easy to follow, which is good. However, it's quite informal for a professional HR analysis ("not being a good manager"). Use more precise, professional language.
-
----
-
-**STRONGEST ASPECT:**
-You correctly identified that this requires formal investigation and that there are consequences for inaction. You've grasped the seriousness of the situation.
-
-**WEAKEST ASPECT:**
-Complete lack of theoretical integration and very weak legal/policy analysis. You're describing the problem but not demonstrating deep HR knowledge or analytical skill.
-
----
-
-**THREE SPECIFIC ACTIONS FOR REVISION:**
-
-1. **Add legal specificity:** Research and cite at least two specific legal principles or obligations that apply here (e.g., employer's duty to provide a safe workplace under WHS legislation, prohibition of workplace bullying, Fair Work Act provisions on adverse action). Explain *how* these apply to the scenario.
-
-2. **Integrate theory:** Choose one psychological or organisational theory (e.g., organisational justice theory, Adams' equity theory, or conflict resolution models) and explicitly use it to explain why Maria is experiencing the situation as unfair and/or to justify your recommended intervention.
-
-3. **Detail the investigation:** Expand your investigation section to list at least five specific steps the HR team should take, including who should be interviewed, what documents should be reviewed, and how to ensure procedural fairness.
-
-**CURRENT ESTIMATED SCORE: 11/24 (46%)**
-
-This draft needs substantial development before submission. Focus on the three actions above and your score will improve significantly.
-
----
-
-## The Impact on Learning
-
-Notice what just happened:
-
-1. **The student received specific, detailed feedback** identifying exactly what's missing
-2. **The feedback is educational**, not just evaluative,it explains *why* things are problems and *what* good looks like
-3. **The student has clear actions** for improvement
-4. **The student can revise and resubmit to the AI** multiple times until they meet the standard
-
-This is **formative assessment at scale**. Every student gets personalised feedback. They can iterate until they learn. And they arrive at your desk with work that's already been through multiple revision cycles.
-
----
-
-## What You Grade
-
-When students submit their final work, they also submit:
-
-1. **Their final analysis** (the polished version)
-2. **Evidence of their revision process**:
-   - Screenshots or transcripts of AI feedback they received
-   - A brief reflection (250 words) explaining:
-     - What the AI identified as weak
-     - What changes they made
-     - What they learned from the process
-
-### Grading Approach
-
-You grade on **two dimensions**:
-
-**Dimension 1: Quality of Final Work (70%)**
-Use your rubric to assess the final submission. Because students have had the chance to improve with AI feedback, you should see much higher quality work overall.
-
-**Dimension 2: Quality of Learning Process (30%)**
-Assess their reflection:
-
-- Did they engage meaningfully with the AI feedback?
-- Did they make substantive revisions?
-- Do they show metacognitive awareness (understanding of their own learning)?
-- Did they critically evaluate the AI's suggestions or just accept them blindly?
-
-**Key Question for Dimension 2:** "Did the student just ask AI to write it for them, or did they use AI to learn how to write better?"
-
-### Red Flags for AI Misuse
-
-If a student:
-- Shows no evidence of revision between drafts
-- Can't explain in their reflection what they changed or why
-- Submits work that's suddenly far beyond their previous capability with no learning process shown
-- Has AI feedback that's generic (suggesting they didn't actually use your provided prompt)
-
-...then you have grounds for a conversation about academic integrity.
-
-But the transparency model makes genuine misuse much harder, because students have to show their working.
-
----
-
-## Variations and Adaptations
-
-### Variation 1: Multiple Draft Checkpoints
-
-Require students to submit:
-- First draft + AI feedback (Week 8)
-- Revised draft + AI feedback (Week 10)
-- Final submission with reflection (Week 12)
-
-This scaffolds the revision process and prevents last-minute cramming.
-
-### Variation 2: Peer Review + AI Review
-
-Students receive feedback from two sources:
-- A peer using a structured peer review form
-- The AI using your critique prompt
-
-Then they write a reflection comparing the two types of feedback: What did each source notice? Where did they disagree? Which feedback was most helpful and why?
-
-This teaches critical evaluation of feedback sources, an important professional skill.
-
-### Variation 3: AI Critique Challenge
-
-After receiving AI feedback, students must:
-- Identify one piece of feedback they disagree with
-- Argue why the AI is wrong or has misunderstood their work
-- Provide evidence for their position
-
-This prevents students from blindly accepting AI suggestions and develops critical thinking about AI limitations.
-
----
-
-## Cross-Discipline Applications: Self-Assessment Transparency
-
-The transparency model can be adapted for any professional discipline. Below are examples showing how to implement self-assessment tools across different business contexts.
-
-::: {.callout-tip title="Example: Tourism & Hospitality: Service Recovery Strategy Assignment"}
-**Assignment Context:**
-Students analyse a customer complaint scenario in a hospitality setting and develop a comprehensive service recovery plan, applying customer service theory and operational considerations.
-
-**Sample Rubric Excerpt:**
-
-| Criterion | Excellent (4) | Good (3) | Adequate (2) | Poor (1) |
-|---|---|---|---|---|
-| **Problem Analysis** | Sophisticated analysis of customer expectations, service failure impact, and underlying causes | Good analysis of customer issues and service failure elements | Basic identification of problems with limited depth | Poor or incomplete problem analysis |
-| **Recovery Strategy** | Comprehensive, customer-centric recovery plan with multiple touchpoints and follow-up | Effective recovery strategy addressing key customer needs | Basic recovery approach with limited scope | Inadequate or inappropriate recovery strategy |
-
-**AI Critique Prompt Example:**
-```
-You are a senior hospitality lecturer evaluating a student's service recovery plan.
-
-ASSESSMENT CRITERIA:
-1. Problem Analysis: Understanding of customer expectations and service failure psychology
-2. Recovery Strategy: Customer-centric approach, multiple recovery touchpoints, and follow-up
-3. Operational Feasibility: Realistic implementation within hospitality constraints
-4. Brand Impact: Consideration of reputation and loyalty implications
-
-For each criterion, provide a score (1-4) with specific justification, quote student work, and give actionable improvement suggestions.
-
-Here is the student's draft:
-[STUDENT PASTES DRAFT HERE]
-```
-
-**Key Learning Focus:**
-- Customer service psychology and expectations
-- Multi-touchpoint service recovery design
-- Operational constraints in hospitality settings
-:::
-
-## Adapting Self-Assessment Across Disciplines
-
-### Discipline-Specific Considerations
-
-**Creative Fields (Marketing, Design):**
-- Emphasise subjective judgment and professional critique
-- Include portfolio-style evidence of iterative improvement
-- Focus on both technical skills and creative problem-solving
-
-**Technical Fields (Accounting, IT, Analytics):**
-- Stress accuracy, compliance, and methodological rigor
-- Include validation of technical assumptions and limitations
-- Focus on professional standards and ethical considerations
-
-**Service Fields (Tourism, Hospitality, Management):**
-- Emphasise stakeholder psychology and relationship dynamics
-- Include cultural sensitivity and contextual factors
-- Focus on practical implementation and operational constraints
-
-### Implementation Tips
-
-**Rubric Development:**
-- Adapt criteria to reflect discipline-specific competencies
-- Include both technical proficiency and professional judgment
-- Balance quantitative and qualitative assessment elements
-
-**AI Prompt customisation:**
-- Modify critique criteria to match professional standards
-- Include discipline-specific jargon and frameworks
-- Ensure feedback addresses both skill development and professional practice
-
-**Student Preparation:**
-- Provide discipline-specific examples of good vs. poor work
-- Teach students how to interpret AI feedback in their professional context
-- Encourage reflection on how AI tools will be used in their future careers
-
----
-
-## Student-Facing Instructions
-
-When you introduce this to students, be explicit about the learning model:
-
----
-
-**HOW TO USE THE AI SELF-ASSESSMENT TOOL**
-
-This assignment includes access to an AI feedback tool. Here's how to use it ethically and effectively:
-
-**DO:**
-- Use the AI to check your draft and identify areas for improvement
-- Revise your work based on the feedback
-- Run multiple drafts through the AI as you improve
-- Think critically about whether the AI's suggestions are correct
-- Use the AI to learn discipline-specific concepts and improve your analytical skills
-
-**DON'T:**
-- Ask the AI to write the assignment for you
-- Copy-paste AI-generated text into your submission without understanding it
-- Ignore the feedback and submit your first draft
-- Treat the AI's feedback as infallible; it can be wrong
-
-**REMEMBER:**
-The goal is not to "beat the AI" or trick it into giving you a good score. The goal is to use the AI as a learning tool so that YOU understand the concepts and develop professional judgment better by the time you submit.
-
-You will submit evidence of your revision process, so I can see your learning journey. The quality of your final work AND your learning process will both be graded.
-
----
-
-## Addressing Lecturer Concerns
-
-**"Won't this just teach students to game the AI?"**
-
-No,because you're assessing the learning process, not just the final product. Students who genuinely engage with feedback and revise their thinking will show that in their reflection. Students who just prompt-engineer to get a high score without learning will have nothing meaningful to say about what they learned.
-
-**"What if the AI gives them incorrect feedback?"**
-
-This is actually a valuable learning opportunity. If the AI makes an error (e.g., misapplies a legal principle), students who know their material will catch it and can challenge it in their reflection. This demonstrates higher-order thinking.
-
-Also, because you're providing the critique prompt, you control the assessment criteria. The AI is applying *your* rubric, so it should align with your expectations.
-
-**"Isn't this just making things easier for students?"**
-
-No,it's making feedback faster and more accessible, but the cognitive work hasn't changed. Students still need to understand the concepts, apply theory correctly, and demonstrate critical thinking. The AI just accelerates the feedback loop so they can learn faster.
-
-In fact, this model often reveals students who've been hiding behind vague writing,the AI forces them to be specific and substantive.
-
-**"What about students who don't have access to AI tools?"**
-
-If equity is a concern, you can:
-- Provide access to AI tools through the university (many institutions now have educational subscriptions)
-- Run the AI critique process in class or during office hours
-- Make the AI feedback optional but provide other scaffolding for students who don't use it
-
----
-
-## The Bigger Picture: Teaching AI Literacy
-
-This transparency approach does something more important than preventing cheating: **it teaches students how to work with AI responsibly.**
-
-In their professional careers, they'll have access to AI tools that can:
-- Analyse complex datasets and generate insights
-- Draft strategies, policies, and recommendations
-- Generate scenarios and simulations
-- summarise regulations, standards, and best practices
-- (discipline-specific applications too numerous to list)
-
-Your job isn't to prevent them from using these tools. It's to teach them:
-- When AI is helpful and when it's risky
-- How to critically evaluate AI outputs
-- When human judgment must override AI suggestions
-- How to use AI as a thinking partner, not a replacement for thinking
-
-By making AI use transparent and educational, you're preparing them for professional practice in an AI-augmented world.
-
----
-
-## Your Action Step
-
-Before moving to the next chapter, try this:
-
-1. **Choose one assignment** you currently give students
-2. **Write the AI critique prompt** based on your existing rubric
-3. **Test it:** Write a mediocre draft answer yourself and run it through the AI critique
-4. **Evaluate:** Is the feedback accurate? Helpful? Aligned with your standards?
-5. **Refine the prompt** until the AI gives the kind of feedback you'd want students to receive
-
-Once you've tested it, you're ready to introduce this model in your class.
-
----
+Then write a two-sentence revision explanation. A good explanation links the
+change to the criterion and record. It does not say merely that the second
+answer sounds more professional.

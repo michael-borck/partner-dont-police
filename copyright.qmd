@@ -15,7 +15,11 @@
 
 **Partner, Don't Police: AI in the Business Classroom**
 
-Copyright © 2025 Michael Borck. All rights reserved.
+Copyright © 2025 Michael Borck.
+
+Book content is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0 International)](https://creativecommons.org/licenses/by/4.0/). Original code examples and accompanying software are licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+These grants cover material the author has authority to license. Separately credited third-party material retains its stated terms. Give appropriate credit, link the content licence and indicate changes; retain the MIT notice when reusing code.
 
 Published by Michael Borck\
 Perth, Western Australia
@@ -24,14 +28,11 @@ Perth, Western Australia
 
 First edition, 2025.
 
-No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author, except for brief quotations in reviews and certain non-commercial uses permitted by copyright law.
-
-This work is also available under a Creative Commons Attribution (CC BY) licence at the companion website. See below for details.
 
 **AI disclosure:** This book was written using the methodology described in its companion, *Conversation, Not Delegation*. AI tools were used as thinking partners throughout the drafting, iterating, and refining process. The author reviewed, challenged, and took responsibility for every sentence.
 
 **Companion website:** [https://michael-borck.github.io/partner-dont-police](https://michael-borck.github.io/partner-dont-police)\
-**Amazon:** *(add your Amazon listing URL here)*\
+**Amazon:** [Search by paperback ISBN](https://www.amazon.com.au/s?k=9798254236191)\
 **Source:** [https://github.com/michael-borck/partner-dont-police](https://github.com/michael-borck/partner-dont-police)
 
 ::: {.content-visible when-format="pdf"}

@@ -4,17 +4,17 @@
 
 ## Why These Seven?
 
-These are seven proven prompting techniques chosen because they develop critical thinking skills that business professionals across all disciplines need:
+These seven prompting patterns offer different ways to organise practice. Their educational value depends on the task, evidence, feedback and learner activity; the list is not a claim that each pattern has been validated across every discipline.
 
 1. **Reverse Prompting**: teaches comprehensive scoping and requirement gathering
 2. **Pros and Cons**: builds analytical decision-making skills
-3. **Stepwise Chain of Thought**: reinforces process adherence and documentation
+3. **Stepwise Tutoring**: reinforces process adherence and documentation
 4. **Role Play**: develops communication and interpersonal skills
 5. **Debating**: strengthens strategic thinking and ethical reasoning
-6. **Formative Assessment Generator**: provides unlimited practice and immediate feedback
+6. **Formative Assessment Generator**: supplies draft practice questions and provisional feedback
 7. **The Expert Panel**: develops multi-perspective analysis and synthesis skills
 
-Each technique works across all business disciplines. The examples below use different disciplines to show the range, so adapt the prompts for your own field.
+Each pattern needs adaptation to the discipline, supplied records and intended capability. The examples below use different disciplines to show the range, so adapt the prompts for your own field.
 
 These seven are adapted from *Conversation, Not Delegation*, which covers the same approaches for a general audience. If you want the underlying rationale for why each technique works, see the companion book.
 
@@ -43,11 +43,11 @@ aspects.
 Begin with your first question.
 ```
 
-The AI asks questions the student must think through before responding: fairness, logistics, legal compliance, technology needs, cultural impact. By the end, they have considered the full complexity before drafting a single sentence.
+The AI asks questions the student must think through before responding: fairness, logistics, legal compliance, technology needs, cultural impact. The questions may broaden their scope, but cannot guarantee completeness. Compare the resulting scope with the supplied task criteria.
 
 **Adapt for your discipline:** Replace the policy topic with whatever scoping challenge fits: a market entry strategy, an audit plan, a supply chain redesign, an IT implementation. The technique is the same: AI questions, student thinks.
 
-**Teaching tip:** Use as a pre-writing exercise. Require students to submit both the transcript and their subsequent draft. Assess whether they incorporated the insights.
+**Teaching tip:** Use as a pre-writing exercise. Ask for a short evidence index and the subsequent draft. Assess the reasons for consequential decisions; a complete private chat history is not required.
 
 ---
 
@@ -77,15 +77,15 @@ facing unpredictable seasonal demand and justify
 your choice.
 ```
 
-**The follow-up task (essential):** Do not let students accept the AI's recommendation. Require them to challenge one "pro," add a disadvantage the AI missed, and argue for a different strategy using evidence.
+**The follow-up task:** Check one consequential advantage and one disadvantage against supplied evidence. Identify a genuine omission if there is one. Students may retain the recommendation when it is justified; do not require a different strategy merely to demonstrate opposition.
 
 **Teaching tip:** Project the AI's analysis on screen. Divide students into groups, each arguing for a different strategy. They use the AI's framework but add their own reasoning.
 
 ---
 
-## Technique 3: Stepwise Chain of Thought (for Process)
+## Technique 3: Stepwise Tutoring (for Process)
 
-The AI walks through a complex process one step at a time, pausing after each step until the student signals readiness. This slows down high-stakes processes that students rush through.
+The AI walks through a complex process one step at a time, pausing after each step until the student signals readiness. Use a checked teaching procedure and inspect each learner attempt.
 
 **Example (Accounting: audit process):**
 
@@ -100,16 +100,19 @@ step, tell me:
 3. What professional standard or legal
    requirement applies at this stage
 
-After you explain each step, STOP and wait for
-me to type "next" before moving on. Do not
-provide the entire process at once.
+Use the supplied teaching procedure and criteria.
+Do not invent standards or legal requirements.
+After each step, ask me to apply it to the
+supplied case and justify my decision. STOP
+while I answer. Identify missing information.
+Do not provide the entire process at once.
 
 Begin with Step 1.
 ```
 
-The student must actively engage with each step before progressing. This prevents skipping to the conclusion without understanding the required process.
+Typing “next” would not demonstrate understanding. Inspect the student's application and justification against checked teaching criteria before proceeding. A generated explanation is not a view into the model's internal reasoning.
 
-**Teaching tip:** Have students repeat the exercise with complications introduced at each step: "What if the client refuses to provide documentation at Step 3?" The AI explains how to handle variations.
+**Teaching tip:** Have students repeat the exercise with complications introduced at each step: "What if the client refuses to provide documentation at Step 3?" Check any generated guidance against the supplied procedure before relying on it.
 
 ---
 
@@ -120,32 +123,22 @@ The AI adopts a specific persona and engages in a realistic conversation. This i
 **Example (Management: difficult conversation):**
 
 ```
-You are Sarah, a high-performing marketing
-manager who has just been told she is being put
-on a Performance Improvement Plan. You are
-shocked, defensive, and angry because you
-believe this is unfair.
-
-Your behaviour:
-- Immediately challenge the fairness of the PIP
-- Bring up a recent successful project you led
-- Hint that you believe this is retaliation for
-  raising a complaint about your manager
-- Be emotional but not abusive
-
-I am the manager who has to conduct this meeting
-professionally. Stay in character until I manage
-to de-escalate and establish constructive
-dialogue.
-
-Begin the meeting. I will speak first.
+Play Alex in the fictional P1 practice pack.
+Use only P1-D1 to P1-D5.
+Open with the concern about dependencies in P1-D4.
+I am the junior adviser, not the decision-maker.
+Do not invent private history, policy or evidence.
+Say when an answer is not supplied.
+Stop immediately on STOP or after six exchanges.
+Do not require disclosure, agreement or a final ruling.
+I will respond to your opening statement.
 ```
 
-The student must manage a realistic, emotionally charged scenario, practicing de-escalation, empathy, and procedural fairness while the AI responds dynamically.
+The learner practises wording, evidence checks and a bounded next step. Text role-play does not establish competence in every aspect of a live workplace meeting.
 
 **Adapt for your discipline:** AI plays a demanding customer (marketing), a resistant employee (management), a skeptical auditor (accounting), a supplier announcing delays (supply chain), a stakeholder with unclear requirements (IT).
 
-**Teaching tip:** Require students to submit the transcript with a reflective analysis: what worked, what did not, what they would do differently.
+**Teaching tip:** Ask for a relevant excerpt or the response to the fixed opening, with a short explanation of what the learner would retain or change.
 
 ---
 
@@ -175,6 +168,9 @@ Focus: revenue, fiscal policy, implementation
 feasibility
 
 Have each persona make their opening argument.
+Use only the supplied teaching sources. Label these
+as generated perspectives, not independent evidence.
+Do not invent empirical claims or citations.
 Then have them respond to each other through
 three rounds. After the debate, summarise the
 key tensions and what a compromise policy might
@@ -185,13 +181,13 @@ Begin the debate.
 
 Students cannot just pick a side. They must understand legitimate competing perspectives and make a justified recommendation that acknowledges trade-offs.
 
-**Teaching tip:** Perfect for preparing students for case study exams. Instead of memorising model answers, they practise analysing competing priorities.
+**Teaching tip:** This can support practice in analysing a case. Instead of memorising model answers, they practise analysing competing priorities.
 
 ---
 
 ## Technique 6: Formative Assessment Generator (for Practice)
 
-The AI generates unlimited practice questions, scenarios, or quizzes for low-stakes repetition and immediate feedback.
+An educator can request draft questions, scenarios or quizzes for low-stakes practice. Review the question, intended answer and feedback before student use.
 
 **Example (Tourism & Hospitality: scenario practice):**
 
@@ -203,18 +199,20 @@ Generate 10 short scenarios (2-3 sentences each)
 where I need to identify:
 1. What went wrong in the service delivery
 2. The appropriate recovery strategy
-3. What the long-term impact on guest loyalty
-   would be
+3. A possible impact on guest loyalty and what
+   evidence would be needed to investigate it
 
-After I answer each one, tell me if I'm correct
-and explain why.
+Use the supplied teaching criteria and answer notes.
+After each attempt, offer provisional feedback
+with its source. Flag ambiguity instead of
+inventing a definitive answer.
 
 Make the scenarios progressively more complex.
 
 Begin with Scenario 1.
 ```
 
-Students can generate unlimited practice with instant feedback and adaptive difficulty. Unlike a textbook with 5 practice problems, this provides mastery-based learning.
+Students can request further practice, subject to access and tool limits. Use checked questions and feedback, then an independent changed problem to examine learning. Repetition and a model's approval do not establish mastery.
 
 **Critical principle:** This is for practice, not graded assessment. Students need to struggle and make mistakes in low-stakes environments.
 
@@ -242,7 +240,8 @@ readiness, resistance
 Expert 3: CFO
 Focus: cost, ROI, risk, business case
 
-Have each expert independently provide:
+Treat these as generated viewpoints, not real
+experts or independent evidence. For each provide:
 1. Their assessment of the key risks
 2. Their recommended approach
 3. Limitations of their recommendation
@@ -251,7 +250,7 @@ Have each expert independently provide:
 Begin with Expert 1.
 ```
 
-After receiving all perspectives, students must compare where experts agree and conflict, synthesise a recommendation, justify it with theory, and acknowledge trade-offs.
+After receiving the perspectives, students compare the claims, check them against supplied records or independent sources, and justify a recommendation. Agreement among personas is not corroboration.
 
 **Teaching tip:** This technique combines well with Debating (have the experts debate each other) and Role Play (present your synthesis to a skeptical stakeholder).
 
@@ -263,7 +262,7 @@ After receiving all perspectives, students must compare where experts agree and 
 |---|---|
 | Define a complex problem comprehensively | **Reverse Prompting** |
 | Evaluate competing options and justify a choice | **Pros and Cons** |
-| Follow a sensitive process correctly | **Stepwise Chain of Thought** |
+| Follow a sensitive process correctly | **Stepwise Tutoring** |
 | Practice difficult conversations | **Role Play** |
 | Understand multiple perspectives and trade-offs | **Debating** |
 | Build confidence through repetition | **Formative Assessment Generator** |
@@ -279,8 +278,19 @@ The real power comes from combining techniques into a professional workflow:
 4. Student uses **Role Play** to practice explaining it to a skeptical stakeholder
 5. Student uses **Debating** to analyse potential criticisms from different perspectives
 
-This sequence takes the student through analysis, decision-making, communication, and critical reflection: a complete professional process.
+This sequence takes the student through analysis, decision-making, communication, and critical reflection: a bounded rehearsal, not evidence of a complete professional capability.
 
-## Your Action Step
+## Choose and test a pattern
 
-Choose one technique and try it yourself. Pick the one that feels most immediately useful for a topic you are currently teaching. Adapt the example prompt to your discipline and content. These are not just AI tools. They are pedagogical strategies. The AI makes them scalable and available to every student, any time they want to practice.
+**Allow 12 minutes.** Select a pattern and identify the learner action it supports.
+Write the source/criteria check and an independent follow-up. You can do this
+on paper using the pilot pack's fixed responses.
+
+For example, reverse prompting may help scope a review, but the learner must
+decide which question is relevant and why. A role-play can rehearse wording,
+but its emotional response is not a grade. A generated quiz needs checked
+answers before students rely on it.
+
+Use the [data gate](ethics-integrity.qmd) for every live prompt and retain a
+non-AI route. The [prompt library](../appendices/prompt-library.qmd) collects
+bounded versions of these patterns.

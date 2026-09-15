@@ -1,0 +1,100 @@
+{
+  "version": "PDP-2026.1",
+  "fictional": true,
+  "case_date": "2026-07-20",
+  "cohort": 24,
+  "lesson_minutes": [
+    5,
+    8,
+    7,
+    12,
+    10,
+    8,
+    10
+  ],
+  "criteria": [
+    "Evidence and accuracy",
+    "Fair process",
+    "Judgement and authority",
+    "Communication",
+    "Verification and limits"
+  ],
+  "weights": [
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "max_each": 4,
+  "sample_scores": {
+    "P1-A": [
+      1,
+      0,
+      1,
+      2,
+      0
+    ],
+    "P1-B": [
+      3,
+      4,
+      4,
+      3,
+      3
+    ]
+  },
+  "practice_threshold": {
+    "total": 14,
+    "min_fair_process": 2,
+    "min_judgement": 2,
+    "institutional_standard": false
+  },
+  "sources": [
+    "P1-D1",
+    "P1-D2",
+    "P1-D3",
+    "P1-D4",
+    "P1-D5",
+    "P2-D1",
+    "P2-D2",
+    "P2-D3",
+    "P2-D4"
+  ],
+  "supplier": {
+    "quantity": 200,
+    "deadline_days": 5,
+    "budget": 4000,
+    "offers": [
+      {
+        "id": "A",
+        "unit_price": 18,
+        "freight": 200,
+        "capacity": 200
+      },
+      {
+        "id": "B",
+        "unit_price": 17,
+        "freight": 100,
+        "capacity": 160
+      },
+      {
+        "id": "C",
+        "unit_price": 20,
+        "freight": 0,
+        "capacity": 200
+      }
+    ]
+  },
+  "marketing": [
+    {
+      "impressions": 10000,
+      "clicks": 400,
+      "purchases": 20
+    },
+    {
+      "impressions": 8000,
+      "clicks": 400,
+      "purchases": 20
+    }
+  ]
+}

@@ -1,696 +1,185 @@
-# Designing an AI-Integrated Unit
+# Designing an AI-Supported Unit {#sec-unit-design}
+
+> Choose the evidence of learning before choosing the tool.
 
-> One AI-enhanced activity is an experiment. A whole unit designed around AI integration is a pedagogy.
+## Start with a bounded pilot
+
+Before redesigning a whole unit, test one activity with a colleague and, where
+appropriate, an ungraded student group. Check the source facts, rubric, access,
+feedback quality and effort. A successful prompt demonstration does not yet
+justify a high-stakes assessment.
+
+The [pilot pack](../appendices/pilot-pack.qmd) provides an example. Use its P3
+decision sheet to decide what should change before expansion. The route may
+remain non-AI if that better serves the students and outcome.
+
+## Backwards design
+
+First name what students should be able to do. Then identify what evidence
+would demonstrate it, choose the assessment conditions and design practice that
+prepares them. AI can support some of that practice; it need not appear in
+every outcome or activity.
+
+For a fictional third-year Workplace Conflict unit, possible outcomes are:
+
+1. Distinguish accounts, documents and unresolved facts.
+2. Plan a fair inquiry within role and authority.
+3. Communicate a bounded next step respectfully.
+4. Justify a recommendation using supplied policy and relevant disciplinary knowledge.
+5. Evaluate feedback and apply the learning to a changed case.
+
+These outcomes do not qualify students to conduct real legal investigations.
+Use appropriately reviewed sources and teaching where actual law is part
+of the curriculum.
+
+## An illustrative assessment design
 
-## Start Small, Then Scale
+A possible allocation is:
 
-Before redesigning an entire unit, most educators benefit from a phased approach:
+- **Practice analysis and revision, 25%:** a response, selected evidence checks
+  and an explained revision. Permitted help is declared.
+- **Case portfolio, 40%:** a bounded multi-source recommendation and evidence
+  index, with appropriate individual contribution evidence.
+- **Independent application, 35%:** a supervised changed-case task and explanation
+  under published conditions, with access adjustments.
+
+These weights total 100%. They are a design example, not a prescribed split.
+The programme team should approve where independent assurance occurs and
+whether this design covers the intended outcomes.
+
+The portfolio may be assisted, so its fluency is not treated as an unaided
+demonstration. The independent task should assess relevant understanding,
+not whether the student can reproduce an obscure fact from memory.
+If live communication is an outcome, include an observed interaction rather
+than relying solely on written work.
+
+## A 12-week teaching route
+
+The following schedule is illustrative. It distinguishes preparation, practice,
+feedback and assurance rather than increasing AI complexity for its own sake.
+
+| Week | Learning focus | Student evidence |
+|---|---|---|
+| 1 | Sources, permissions, access and task boundaries | First-use decision and a short baseline |
+| 2 | Facts, allegations and missing information | Annotated source cards |
+| 3 | Questions and a fair first response | Paired or fixed-exchange practice |
+| 4 | Apply the supplied policy; check feedback | Correction of P1-F with reasons |
+| 5 | Revise and explain a decision | Response plus selected decision notes |
+| 6 | First assessment and independent check | Changed-case explanation |
+| 7 | Review errors; compare stakeholder accounts | Questions linked to missing evidence |
+| 8 | Multi-source analysis | InnovateCo evidence index |
+| 9 | Adaptation, access and ethical boundaries | Critique of a proposed process |
+| 10 | Portfolio development and moderation | Recommendation with uncertainty |
+| 11 | Portfolio submission and individual review | Contribution and reasoning evidence |
+| 12 | Independent application and unit evaluation | New case and pilot decision |
+
+Critical verification starts in week 1, not after students have spent half a
+semester trusting generated feedback. The initial baseline and later tasks
+should be comparable enough to inform teaching, while acknowledging differences
+in assistance, task difficulty and marking.
 
-**Phase 1: Personal experimentation.** Before your next class, spend an hour generating teaching resources with AI. Create a case study, run a simulation yourself, review an existing assignment through the lens of "could AI enhance this?" You need to be comfortable with the tool before introducing it to students.
+### A closer look at week 4
+
+Students first judge P1-A against the supplied policy. Then they inspect the
+deliberately flawed feedback. They identify the invented warning, inappropriate
+approval and unnecessary disclosure request.
+
+Only after documenting those checks do they write a revision. The teacher
+compares two explanations and discusses why one is better supported.
+A live model is optional. Asking students to retry until a model gives 100%
+would assess neither the source check nor independent judgement.
+
+### A closer look at week 8
+
+Students use all four InnovateCo role cards and the documents. They identify
+what each source can support, formulate follow-up questions and recommend a
+bounded next step.
+
+Do not ask the model to invent whatever evidence is needed to close the case.
+The supplied gaps are part of the task. A well-supported “not enough evidence”
+conclusion can be stronger than a confident finding.
+
+## Balance activities by purpose
 
-**Phase 2: Low-stakes student introduction.** Introduce AI as an optional practice tool for an upcoming assignment, or demonstrate it live in a lecture. No grades attached. Let students see what it does and form their own impressions. Students who try it will spread the word to peers.
+There is no universal 60/40 balance between traditional and AI-supported
+teaching. Choose the mix according to the outcome, students, available support
+and assurance design.
 
-**Phase 3: Pilot one assessment.** Choose a single assignment worth 15-25% of the grade. Test the prompts thoroughly yourself first. Provide clear instructions, do a live demo, and build in flexibility for technical issues. Grade thinking and process, not just outputs.
+A lecture or reading may introduce a necessary concept. Peer discussion can
+reveal differences in interpretation. A role-play can rehearse a question.
+An independent task can check transfer. AI may support some of these, but
+its presence is not itself a learning progression.
 
-**Phase 4: Gather feedback.** Survey students. Reflect on what worked. Make 2-3 specific changes for next time.
+Make substantial activities possible without a model. For the planning task,
+the printed records and feedback are enough. For interaction skills, provide
+a structured peer/facilitator route. For AI-specific outcomes, provide suitable
+approved access rather than pretend the tool is optional.
 
-**Phase 5: Expand next semester.** Add a second AI component, or make the existing one more sophisticated. By now you know what works in your context.
+## Two genuine disciplinary adaptations
 
-Most lecturers should complete at least one pilot before attempting whole-unit redesign. Once you have, you are ready for what follows.
+For supply chain, use S1's quantity, deadline, capacity and budget. The learner
+must calculate costs and reject an option that fails a constraint. A suitable
+independent task changes capacity or deadline, so the student must recompute
+the decision.
 
-## Beyond Individual Assignments: Whole-Unit Design
+For marketing, use M1's campaign figures. The learner distinguishes measured
+rates from unsupported profit and causal claims. A changed task can supply
+costs but retain non-comparable audiences, testing whether the learner separates
+financial calculation from causal inference.
 
-The real power of AI in education emerges when you design an entire unit, a complete semester's learning, with AI integration from the start.
+Do not simply replace employee names with customer names. Adapt the evidence,
+disciplinary criteria and independent check. A specialist should review added
+technical assumptions.
 
-This is not about "adding AI" to an existing unit. It is about redesigning with AI as a pedagogical partner, creating learning experiences that were not previously possible.
+## A unit design record
 
-This chapter walks through complete unit design using backwards design principles, showing you how to scaffold student learning from "first encounter with AI" to "competent professional use."
+For each assessment, record:
 
----
+- Target outcome and prerequisite knowledge.
+- Supplied sources and their version.
+- What students do before receiving assistance.
+- Permitted help, data and approved routes.
+- Criteria, complete weights and any critical requirements.
+- What independent evidence is collected and under what conditions.
+- Access arrangements and a capability-matched fallback.
+- Staff/student workload and moderation plan.
+- What a successful and an unsuccessful response look like.
+- Review date and unresolved limitations.
 
-## The Backwards Design Approach
+Map the record to programme outcomes with the
+[institutional alignment appendix](../appendices/institutional-alignment.qmd).
+Do not assume a tool-supported activity automatically satisfies an accreditation
+requirement.
 
-### Step 1: Define Learning Outcomes (AI-Neutral)
+## Explain the design to students
 
-Start here, always. What should students be able to do by the end of the unit?
+Tell students why they receive support during practice and why a later task
+has different conditions. Publish the distinction in the brief.
 
-**Example Unit:** Workplace Conflict and Resolution (Third-year undergraduate, HR)
+For example: “During rehearsal, use the supplied records, peer feedback or
+the approved AI route. In the independent task, apply the criteria yourself
+to a new record. We assess the decision and its basis, not the amount of chat.”
 
-**Learning Outcomes:**
-1. Analyse workplace conflicts using conflict resolution theory and organisational justice frameworks
-2. Conduct fair, impartial investigations of workplace complaints
-3. Demonstrate effective communication in difficult conversations (de-escalation, active listening, empathy)
-4. Design and facilitate conflict resolution interventions appropriate to context
-5. Apply relevant employment law and procedural fairness principles
-6. Reflect critically on own practice and identify areas for development
+Clarify the process for questions, access adjustments and technical failures.
+An outage should not send students to an unapproved service or force a private
+account requirement at the last minute.
 
-**Note:** These outcomes don't mention AI. They describe professional competencies. AI is the *means*, not the *end*.
+## Evaluate cautiously
 
-**Other discipline examples:** The same principle applies whether you're designing a Marketing, Accounting, Supply Chain, or Management unit,define what professionals need to *do*, not how they'll do it.
+Compare work under sufficiently similar criteria, inspect persistent errors
+and record access and effort. Higher final marks may reflect assistance,
+changed assessment difficulty or marking changes, not necessarily learning.
 
----
+A small pilot can identify problems and promising practices. It cannot
+establish that an entire approach works for all disciplines. Share the
+materials, assumptions and limitations along with any results.
 
-### Step 2: Design Assessments (How Will Students Demonstrate Mastery?)
+## Activity: map one assessment
 
-Using the process-based assessment principles from the Assessment chapter, design assessments that make professional competence visible.
+**Allow 20 minutes; no AI required.** Complete the unit design record for one
+assessment. Test it against P1-A, P1-B and a response that correctly states
+insufficient evidence. Check whether the marks reward the intended capability.
 
-**Assessment 1: Investigation Interview Simulation (25%)**
-- **What:** Students conduct simulated investigation interview with AI persona, submit transcript + process audit
-- **Assesses:** Learning outcomes 2, 3, 5, 6
-- **Due:** Week 6 (mid-semester)
-- **Why this timing:** Gives students foundational practice before more complex work
-
-**Assessment 2: Conflict Resolution Portfolio (40%)**
-- **What:** Students design intervention for multi-stakeholder conflict, conduct simulated mediation/facilitation, write reflective analysis
-- **Assesses:** Learning outcomes 1, 3, 4, 6
-- **Due:** Week 11
-- **Why this timing:** Builds on skills from Assessment 1, integrates theory from mid-semester content
-
-**Assessment 3: Research Essay (Critical Analysis) (35%)**
-- **What:** Critical analysis of conflict resolution approaches in specific organisational contexts (e.g., remote work, culturally diverse teams, union environments)
-- **Assesses:** Learning outcomes 1, 5
-- **Due:** Week 13 (exam period)
-- **Why this timing:** Synthesizes learning from entire semester
-- **AI integration:** Students use AI for literature synthesis and draft feedback (the Self-Assessment chapter model)
-
----
-
-### Step 3: Map Learning Activities (How Will Students Prepare for Assessments?)
-
-Now design the week-by-week learning journey that scaffolds students from novice to competent.
-
-**Key principle:** Gradually increase complexity of AI interaction while building skill.
-
----
-
-## Complete 12-Week Unit Design Example
-
-### Week 1: Introduction to Conflict and Introduction to AI
-
-**Learning Focus:** Understand types of workplace conflict, introduce AI as learning tool
-
-**Content:**
-- Lecture: Sources and types of workplace conflict
-- Workshop: Conflict analysis frameworks (task vs. relationship conflict, etc.)
-
-**AI Activity (Low stakes, introductory):**
-```
-In-class demonstration:
-- Show students a simple conflict scenario
-- Use AI to generate 3 different stakeholder perspectives on the same incident
-- Discuss: "How can seeing multiple perspectives help us understand conflict?"
-```
-
-**Purpose:**
-- Students see AI in action (demystify)
-- Understand AI can help explore complexity
-- No pressure, just observation
-
-**Student Task:**
-- Install ChatGPT or Claude
-- Complete the "Getting Started" tutorial (the Getting Started chapter exercise)
-- Submit screenshot showing they successfully generated a simple HR scenario
-
----
-
-### Week 2: Conflict Theory and AI Exploration
-
-**Learning Focus:** Apply conflict theory; practice writing prompts
-
-**Content:**
-- Lecture: Conflict resolution theories (interest-based, transformative, etc.)
-- Workshop: Analysing conflict through theoretical lenses
-
-**AI Activity (First hands-on practice):**
-```
-Assignment: Theory Application Practice (ungraded)
-- Students receive a workplace conflict scenario
-- Use AI to analyse the conflict through 2 different theoretical frameworks
-- Write 300 words comparing the insights each theory provides
-- Submit both the AI conversation and their reflection
-```
-
-**Purpose:**
-- Students practice prompt writing
-- Students evaluate AI's theoretical analysis
-- Low-stakes experimentation
-- Lecturer can see who needs prompt-writing help
-
----
-
-### Week 3: Communication Skills for Conflict
-
-**Learning Focus:** Active listening, empathetic communication, managing emotion
-
-**Content:**
-- Lecture: Communication theory and de-escalation techniques
-- Workshop: Communication analysis (watch video examples, critique)
-
-**AI Activity (First simulation):**
-```
-Practice Simulation (ungraded, but required):
-- Students conduct 5-minute conversation with AI playing "frustrated employee"
-- Focus: Practice de-escalation language
-- Students can retry as many times as they want
-- Submit their best attempt + 200-word reflection: "What did I learn about my communication?"
-```
-
-**Purpose:**
-- First taste of "flight simulator"
-- Builds confidence before graded assessment
-- Students realise they can practice privately and improve
-
----
-
-### Week 4: Legal Framework and Procedural Fairness
-
-**Learning Focus:** Natural justice, procedural fairness, relevant legislation
-
-**Content:**
-- Lecture: Legal obligations in workplace investigations
-- Workshop: Case studies of procedural failures and consequences
-
-**AI Activity (Legal application practice):**
-```
-Formative Exercise:
-- AI generates 5 short investigation scenarios
-- For each, students identify: What legal principle is at risk? What should HR do?
-- Immediate AI feedback on their responses
-- Students retry until they achieve 100%
-```
-
-**Purpose:**
-- Spaced repetition of legal knowledge
-- Students can practice until mastery (not time-limited)
-- AI provides immediate correction
-
----
-
-### Week 5: Investigation Skills
-
-**Learning Focus:** Conducting fair, thorough workplace investigations
-
-**Content:**
-- Lecture: Investigation methodology and common pitfalls
-- Workshop: Planning an investigation (what questions, what order, what documentation)
-
-**AI Activity (Assessment preparation):**
-```
-Scaffolded practice for Assessment 1:
-- Students receive the persona they'll encounter in Assessment 1 (preview)
-- Conduct practice interview
-- Generate AI critique
-- Revise approach
-- Conduct second practice interview
-```
-
-**Purpose:**
-- Direct preparation for upcoming assessment
-- Students enter Assessment 1 having already practiced
-- Reduces anxiety, improves quality
-
----
-
-### Week 6: **Assessment 1 Due - Investigation Interview Simulation**
-
-**No new content this week: focus on assessment**
-
-Students submit:
-1. Transcript of investigation interview with AI persona
-2. Process audit document analysing their own performance
-3. 500-word reflection on learning
-
-**Teaching focus this week:**
-- Availability for consultation/questions
-- Technical support for any AI access issues
-
----
-
-### Week 7: Feedback Week + Mediation Theory
-
-**Learning Focus:** Understanding Assessment 1 feedback; introduction to mediation
-
-**Content:**
-- Return Assessment 1 with feedback
-- Lecture: Mediation and facilitation approaches
-- Workshop: Compare mediation models (evaluative, facilitative, transformative)
-
-**AI Activity (Exploring alternatives):**
-```
-Scenario Exploration:
-- Students receive a conflict scenario suitable for mediation
-- Use AI "Pros and Cons" technique (the Seven Techniques chapter) to evaluate which mediation approach is best
-- In-class discussion: Did different students reach different conclusions? Why?
-```
-
-**Purpose:**
-- Recover from assessment submission
-- Introduce new content at moderate cognitive load
-- Build toward Assessment 2
-
----
-
-### Week 8: Facilitation Skills
-
-**Learning Focus:** Facilitation techniques for multi-party conflict
-
-**Content:**
-- Lecture: Managing multi-stakeholder conversations
-- Workshop: Power dynamics, coalition-building, impasse-breaking
-
-**AI Activity (Complex simulation introduction):**
-```
-Multi-party simulation practice:
-- Students manage conversation between 2 AI personas in conflict
-- Practice balancing airtime, managing interruptions, keeping focus
-- Ungraded but highly recommended for Assessment 2 preparation
-```
-
-**Purpose:**
-- Increase complexity (now managing 2 personas, not 1)
-- Build skills for Assessment 2
-- Students who struggled with Assessment 1 get redemption opportunity
-
----
-
-### Week 9: Cultural and Ethical Considerations
-
-**Learning Focus:** Cross-cultural conflict, ethical dilemmas, bias awareness
-
-**Content:**
-- Lecture: Cultural dimensions in conflict (individualism/collectivism, face-saving, etc.)
-- Workshop: Ethical dilemmas in conflict resolution (confidentiality, power imbalances, organisational pressure)
-
-**AI Activity (Critical evaluation):**
-```
-AI Ethics Exercise:
-- AI generates a conflict resolution plan
-- Students critique it for:
-  - Cultural insensitivity
-  - Ethical gaps
-  - Bias toward organisational interests over fairness
-- Write memo explaining what AI got wrong and why
-```
-
-**Purpose:**
-- Develop critical oversight of AI
-- Connect theory (cultural frameworks, ethics) to practice
-- Prepare for Assessment 2 cultural/ethical analysis
-
----
-
-### Week 10: Designing Interventions
-
-**Learning Focus:** Strategic planning for conflict resolution
-
-**Content:**
-- Lecture: Matching interventions to conflict type and context
-- Workshop: Intervention design process
-
-**AI Activity (Assessment 2 preparation):**
-```
-Portfolio Development:
-- Students begin working on Assessment 2
-- Use AI to generate multiple intervention options for their chosen scenario
-- Bring draft analysis to workshop for peer feedback
-```
-
-**Purpose:**
-- Structured time for assessment work
-- Peer learning and feedback
-- Lecturer can identify students who need additional support
-
----
-
-### Week 11: **Assessment 2 Due - Conflict Resolution Portfolio**
-
-Students submit:
-1. Conflict analysis and intervention design (written component)
-2. Transcript(s) of simulated intervention (conversation with AI personas)
-3. Reflective analysis integrating theory and evaluating their practice
-
----
-
-### Week 12: Contemporary Issues and Research Essay Support
-
-**Learning Focus:** Emerging trends in workplace conflict; research essay preparation
-
-**Content:**
-- Lecture: Special topics (remote work conflict, AI in HR, gig economy disputes)
-- Workshop: Research essay planning and literature review strategies
-
-**AI Activity (Research support):**
-```
-Essay development support:
-- Students use AI to identify key literature on their chosen topic
-- Use AI self-assessment tool to check essay plan
-- Optional: Book consultation with lecturer to discuss draft
-```
-
-**Purpose:**
-- Support final assessment
-- Lighter week (no new major concepts)
-- Celebrate semester's learning
-
----
-
-### Week 13: **Assessment 3 Due - Research Essay**
-
-Students submit critical analysis essay.
-
----
-
-## The Scaffolding Progression Model
-
-Notice how AI integration increases in complexity:
-
-| Week | AI Complexity | Student Agency | Stakes |
-|---|---|---|---|
-| 1-2 | Observation, simple prompts | Low (following instructions) | None (ungraded) |
-| 3-4 | Single persona, structured scenarios | Medium (some choice in approach) | Low (formative) |
-| 5-6 | Graded simulation, self-assessment | High (must plan and execute) | Medium (25% of grade) |
-| 7-9 | Multi-persona, ethical critique | High (designing interventions) | Preparation for high-stakes |
-| 10-11 | Complex portfolio with multiple components | Very high (strategic choices) | High (40% of grade) |
-| 12-13 | AI as research assistant | Very high (independent work) | High (35% of grade) |
-
-**This progression develops:**
-1. **Technical comfort** (Weeks 1-2)
-2. **Basic AI literacy** (Weeks 3-4)
-3. **Applied competence** (Weeks 5-8)
-4. **Critical oversight** (Weeks 9-11)
-5. **Independent professional use** (Weeks 12-13)
-
----
-
-## Balancing AI and Non-AI Activities
-
-**Important:** Not everything should involve AI.
-
-### This unit includes traditional elements:
-
-- **Lectures:** Content delivery (theory, legal frameworks, research findings)
-- **Workshops:** Peer discussion, case analysis, group problem-solving
-- **Readings:** Textbook chapters, journal articles, policy documents
-- **Live role-play:** At least 1-2 in-person practice sessions for social learning
-- **Guest speaker:** Practicing mediator or workplace investigator
-- **Reflective journaling:** Weekly reflections on learning (not AI-assessed)
-
-### The 60/40 rule:
-
-Aim for approximately:
-- **60% traditional teaching and learning activities**
-- **40% AI-enhanced activities**
-
-This ensures students develop both technological proficiency and traditional professional skills (working with humans, not just chatbots).
-
----
-
-## Supporting Student AI Literacy Development
-
-Across the semester, explicitly teach AI literacy:
-
-### Week 1: What AI Is (and Isn't)
-- AI as pattern generator, not intelligence
-- Strengths and limitations
-- When to trust vs. verify
-
-### Week 4: Advanced Prompting
-- How to write effective prompts
-- Troubleshooting poor responses
-- Iterating to improve results
-
-### Week 7: Critical Evaluation
-- How to spot AI errors
-- When AI oversimplifies
-- recognising bias in AI outputs
-
-### Week 9: Professional Ethics
-- Accountability when using AI tools
-- When to use AI vs. when human judgment is essential
-- Transparent vs. hidden AI use
-
-By semester's end, students haven't just used AI,they've developed **AI literacy as a professional competency**.
-
----
-
-## Unit Outline Template (for Your Own Design)
-
-Use this template to design your AI-integrated unit:
-
-### **UNIT INFORMATION**
-- Unit code and title:
-- Year level and semester:
-- Credit points:
-- Prerequisites:
-
-### **LEARNING OUTCOMES** (AI-neutral)
-1.
-2.
-3.
-4.
-5.
-
-### **ASSESSMENT SUMMARY**
-| Assessment | Weight | Due Week | AI Integration | Outcomes Assessed |
-|---|---|---|---|---|
-| | | | | |
-| | | | | |
-| | | | | |
-
-### **WEEKLY SCHEDULE**
-
-**Week [X]: [Topic]**
-- Learning focus:
-- Content delivery:
-- AI activity:
-- Purpose:
-- Preparation for next week:
-
-[Repeat for 12-13 weeks]
-
-### **AI LITERACY PROGRESSION**
-- Weeks 1-3: [foundational skills]
-- Weeks 4-6: [applied practice]
-- Weeks 7-9: [critical evaluation]
-- Weeks 10-13: [independent professional use]
-
-### **BALANCE CHECK**
-- Traditional activities: [%]
-- AI-enhanced activities: [%]
-- Justification for this balance:
-
-### **STUDENT SUPPORT**
-- Resources provided for AI access:
-- Technical support available:
-- Academic support for AI use:
-- Equity considerations addressed:
-
----
-
-## Common Design Mistakes to Avoid
-
-### Mistake 1: "AI for AI's Sake"
-**Problem:** Including AI because it's trendy, not because it serves learning outcomes.
-**Solution:** Every AI activity must clearly connect to a learning outcome. If you can't justify it pedagogically, remove it.
-
-### Mistake 2: All or Nothing
-**Problem:** Either avoiding AI entirely or making everything AI-based.
-**Solution:** Balance. Use AI where it adds value (simulation, feedback, practice) and traditional methods where they're superior (peer learning, live practice, social skills).
-
-### Mistake 3: Assuming Technical Competence
-**Problem:** Expecting students to figure out AI tools independently.
-**Solution:** Explicitly teach prompt writing, troubleshooting, critical evaluation. Scaffold technical skills just like you scaffold content knowledge.
-
-### Mistake 4: No Progression
-**Problem:** Same level of AI complexity all semester.
-**Solution:** Design deliberate progression from simple to complex, guided to independent, low-stakes to high-stakes.
-
-### Mistake 5: Ignoring Equity
-**Problem:** Assuming all students have equal access to AI tools, devices, internet.
-**Solution:** Provide alternatives (lab access, in-class time for AI activities), use university-subscribed tools where possible, ensure core learning is accessible without premium AI access.
-
----
-
-## Aligning Unit Design with Programme Goals
-
-Your unit doesn't exist in isolation. It is part of a degree programme.
-
-### Consider:
-
-**Vertical integration:**
-- What AI skills do students bring from earlier units?
-- What AI competencies will later units assume?
-- How does your unit scaffold toward programme-level AI literacy?
-
-**Horizontal integration:**
-- What other units are students taking concurrently?
-- Could you coordinate AI activities across multiple units?
-- Are there opportunities for cross-unit projects?
-
-**Programme-level graduate capabilities:**
-- How does your AI integration support overarching graduate capabilities?
-- Communication? Critical thinking? Professional practice? Technological proficiency?
-
----
-
-## Communicating the Design to Students
-
-Students need to understand the pedagogical design, because it helps them engage meaningfully.
-
-### First lecture (explain the approach):
-
-> "This unit uses AI tools as part of your learning. Here's why:
->
-> In your [professional field] careers, you'll use AI for analysis, strategy development, decision support, and other professional tasks. Our job is to prepare you to use those tools competently and ethically.
->
-> You'll notice the AI activities progress across the semester:
-> - Early weeks: You'll practice basic skills in safe, low-stakes environments
-> - Mid-semester: You'll apply those skills in realistic scenarios for assessment
-> - Late semester: You'll use AI independently as a professional tool
->
-> By the end, you'll have practiced complex professional scenarios dozens of times,something that would be impossible without AI. You'll also know when to trust AI, when to question it, and when human judgment must override technology.
->
-> This isn't about making your degree easier. It's about preparing you for professional practice in an AI-augmented world."
-
-### In your unit outline (be explicit):
-
-Include a section titled **"AI Integration in This Unit"** that explains:
-- Why AI is used
-- How it supports learning outcomes
-- What skills students will develop
-- Expectations for academic integrity
-- Support available
-
----
-
-## Evaluating Your AI-Integrated Unit
-
-After the semester, evaluate systematically:
-
-### Student learning evidence:
-- Did assessment results improve compared to previous semesters?
-- Did students demonstrate competencies that previous cohorts struggled with?
-- What does student work reveal about their AI literacy development?
-
-### Student feedback:
-- Survey: How useful was AI for your learning? (1-5 scale)
-- What AI activities were most valuable?
-- What AI activities felt like "busy work"?
-- Do you feel more prepared for professional practice?
-
-### Your experience:
-- Did AI integration save or cost you time overall?
-- What worked better than expected? Worse?
-- What would you change next semester?
-- What would you keep?
-
-### Iterate and refine based on evidence.
-
----
-
-## Cross-Discipline Unit Design Examples
-
-The backwards design approach can be adapted for any business discipline. Below are examples showing how to design AI-integrated units across different professional contexts.
-
-::: {.callout-tip title="Example: Accounting: Advanced Audit and Assurance"}
-**Learning Outcomes (AI-Neutral):**
-1. Apply professional auditing standards and ethical principles
-2. Design risk-based audit procedures and testing strategies
-3. Evaluate internal controls and assess control effectiveness
-4. Communicate audit findings to diverse stakeholders
-5. Demonstrate professional skepticism and critical analysis
-6. Apply data analytics in audit planning and execution
-
-**Assessment Structure:**
-- **Assessment 1 (25%):** Risk Assessment Simulation - Students conduct AI client consultation to understand business processes, submit risk analysis + process audit
-- **Assessment 2 (40%):** Audit Planning Portfolio - Students develop comprehensive audit plan using AI for initial risk assessment and procedure generation, with critical evaluation of AI recommendations
-- **Assessment 3 (35%):** Audit Findings Report - Students analyse audit evidence using AI for pattern identification, then provide professional audit conclusions and recommendations
-
-**Weekly Progression Example:**
-- **Weeks 1-2:** Audit standards and ethics + AI prompt basics (control environment analysis)
-- **Weeks 3-4:** Risk assessment frameworks + AI risk analysis practice (business process evaluation)
-- **Weeks 5-6:** Assessment 1 - Client consultation simulation
-- **Weeks 7-8:** Audit procedures + AI testing strategy generation (sampling and testing approaches)
-- **Weeks 9-10:** Data analytics + AI audit data analysis (anomaly detection and trend analysis)
-- **Weeks 11-12:** Assessment 2 - Audit planning portfolio + findings analysis preparation
-- **Week 13:** Assessment 3 - Professional audit reporting and stakeholder communication
-
-**Key AI Integration Points:**
-- Risk assessment and materiality evaluation
-- Internal control design and testing procedure generation
-- Audit evidence analysis and pattern recognition
-- Stakeholder communication and audit finding presentation
-:::
-
-## Adapting Unit Design Principles Across Disciplines
-
-### Common Design Elements
-
-**Progression Framework:**
-Regardless of discipline, follow the same scaffolding progression:
-
-- **Weeks 1-2:** Foundational content + AI basics
-- **Weeks 3-4:** Core concepts + AI application practice
-- **Weeks 5-6:** First assessment (simulation-based)
-- **Weeks 7-9:** Advanced concepts + critical AI evaluation
-- **Weeks 10-12:** Major assessment (portfolio-based)
-- **Week 13:** Synthesis assessment (research/analysis-based)
-
-**Assessment Balance:**
-Maintain similar weighting across disciplines:
-
-- **25%:** Process-focused simulation (consultation/interview)
-- **40%:** Portfolio assessment (design/strategy development)
-- **35%:** Critical analysis (research/strategic evaluation)
-
-**AI Literacy Development:**
-Include the same AI literacy progression in all disciplines:
-
-- **Technical comfort** (prompt writing, tool navigation)
-- **Applied competence** (discipline-specific applications)
-- **Critical oversight** (evaluation of AI outputs)
-- **Independent professional use** (strategic AI integration)
-
-### Discipline-Specific Considerations
-
-**Creative Fields (Marketing, Design):**
-- Emphasise subjective evaluation and iterative refinement
-- Include portfolio development and presentation skills
-- Balance analytical and creative AI applications
-
-**Technical Fields (Accounting, IT, Analytics):**
-- Stress accuracy, compliance, and methodological rigor
-- Include validation frameworks and ethical considerations
-- Focus on professional standards and regulatory requirements
-
-**Service Fields (Tourism, Hospitality, Management):**
-- Emphasise stakeholder dynamics and relationship management
-- Include cultural competence and emotional intelligence
-- Focus on practical implementation and human factors
-
-**Adaptation Strategy:**
-Start with the HR unit design as a template, then modify:
-
-1. **Content:** Replace HR-specific topics with discipline-specific concepts
-2. **Scenarios:** Adapt AI personas and contexts to discipline-appropriate situations
-3. **Assessments:** Modify evaluation criteria to reflect professional standards
-4. **Progression:** Maintain scaffolding structure while adjusting complexity levels
-
----
-
-## Your Action Step
-
-Design (or redesign) one unit using this backwards design approach:
-
-1. **Choose a unit** you teach (or will teach)
-2. **Define learning outcomes** (without mentioning AI)
-3. **Design assessments** that make competence visible
-4. **Map 12-week learning journey** with deliberate AI scaffolding
-5. **Check balance** (60% traditional, 40% AI-enhanced)
-6. **Plan equity supports** (access, alternatives, scaffolding)
-
-Don't aim for perfection. Aim for "better than what I'm currently doing."
-
-You can refine each semester based on what you learn.
-
----
+Finish with one change you would make before launch and one question a
+colleague should challenge. Expand the design only after those questions have
+a satisfactory answer.

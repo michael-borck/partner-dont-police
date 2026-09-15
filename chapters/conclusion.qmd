@@ -1,407 +1,72 @@
-# Conclusion: Where Do We Go From Here?
+# Conclusion: Make the Next Decision {#sec-conclusion}
 
-> The goal was never to use more AI. It was to teach more effectively, with AI as the catalyst, not the point.
+> A useful pilot can tell you to change course.
 
-## What You've Learned
+## What you should have now
 
-Over the course of this book, you've explored:
+You began with a capability, not a promise that AI would improve everything.
+The chapters helped you specify permitted data, check a response, design practice,
+evaluate feedback and choose an appropriate independent demonstration.
 
-- **Why AI matters** for preparing business professionals across all disciplines for real-world practice
-- **How to use AI** through simple prompts that anyone can write
-- **Seven core techniques** that develop critical thinking and professional skills
-- **Three major applications**: conversation simulations, self-assessment tools, and virtual company scenarios
-- **New assessment models** that evaluate process and methodology, not just knowledge recall
-- **Practical implementation** from your first experiment through full unit redesign
-- **Ethical frameworks** for responsible AI integration and academic integrity
-- **Advanced applications** for unit design and postgraduate research support
+Your resulting pilot should contain a task, source material, rubric, worked
+example, access route and decision about what remains untested. The supplied
+PDP-2026.1 pack demonstrates those components. It is an original teaching
+example, not evidence that a real cohort achieved the proposed outcomes.
 
-You now have the knowledge and tools to integrate AI into your teaching in meaningful, pedagogically sound ways, regardless of your discipline.
+You do not need to adopt every technique. Choose the method that serves the
+capability and that you can support responsibly.
 
-**But knowledge alone isn't enough.**
+## Review the design before launch
 
----
+Read your student instructions as someone unfamiliar with the activity.
+Can they tell what to do, which help is permitted, what to submit and how the
+work will be judged? Can they complete an equivalent route without a paid
+subscription or personal disclosure?
 
-## The Question That Matters
+Then inspect the evidence chain. Does the recommendation cite a supplied fact?
+Does the feedback apply the actual rubric? Does the independent task require
+a changed decision, rather than a renamed copy of the practice case?
 
-As you close this book, you face a decision:
+If those links are missing, revise the design before assigning marks.
+A polished handout is not a substitute for them.
 
-**Will you actually try something?**
+## Choose one bounded next step
 
-It's easy to read about innovative pedagogy and think "That's interesting." It's harder to actually change your practice.
+You may be ready to test the materials with a colleague, run an ungraded
+tutorial or revise an existing assessment through your institution's process.
+You may instead need permission, better source material or an accessible
+alternative. Record that need rather than treating hesitation as failure.
 
-You're busy. You have existing materials that work well enough. You're comfortable with your current approach. Change is risky: what if students resist? What if colleagues judge? What if it doesn't work?
+Use the [pilot decision sheet](../appendices/pilot-pack.qmd). Name the outcome
+you will inspect, the effort you can support and the condition that would make
+you stop or change the activity.
 
-These are legitimate concerns.
+After an actual pilot, report what happened without inventing success:
+who could participate, what the independent work showed, which errors persisted,
+what support was needed and what remains unknown. A small pilot cannot establish
+long-term professional capability or general effectiveness across disciplines.
 
-But consider this: **Your students will use AI in their professional careers, regardless of their discipline, whether you teach them to or not.**
+## Keep the method open to correction
 
-The question isn't "Should AI be part of professional practice?" It already is, across all business disciplines.
+Students should be able to challenge AI feedback with evidence. Colleagues
+should be able to challenge the teaching design in the same way. Share the
+scenario, criteria and limitations, not only the attractive outputs.
 
-The question is: **"Will my graduates know how to use AI responsibly, critically, and ethically in their field?"**
+The free edition and downloadable resources are intended to make that scrutiny
+and adaptation possible. The printed edition offers another way to read and
+support the work; neither format removes the need to check local policy,
+professional requirements and learner needs.
 
-If the answer is "I hope so" or "They'll figure it out," you're sending students into professional practice unprepared.
+## Final activity: a decision note
 
----
+**Allow ten minutes; no AI required.** Write five sentences:
 
-## Start With One Thing
+1. The capability my activity targets.
+2. The evidence that will demonstrate it.
+3. The assistance and data use I permit.
+4. The access or assurance limitation I still need to address.
+5. My next action, owner and review date.
 
-You don't need to implement everything in this book. You don't need to redesign your entire curriculum. You don't even need to be certain it will work perfectly.
-
-**You just need to try one thing.**
-
-Choose the smallest experiment that feels manageable:
-
-### Option 1: Try It Yourself (This Week)
-- Pick one prompt from the examples in this book
-- Generate a teaching resource you actually need (case study, practice questions, discussion prompts)
-- Use it in your next class
-- See what happens
-
-**Time investment:** 30 minutes
-**Risk:** Minimal
-**Learning:** High
-
----
-
-### Option 2: Student Demonstration (Next Class)
-- In your next lecture, project a live AI conversation on screen
-- Show students how AI can help them practice skills
-- Answer their questions
-- Don't assign anything; just plant the seed
-
-**Time investment:** 15 minutes in class
-**Risk:** None (optional for students)
-**Learning:** Medium
-
----
-
-### Option 3: Low-Stakes Practice Exercise (This Semester)
-- Add one optional AI practice activity to an existing assignment
-- Recommended but not required
-- See who uses it and gather feedback
-- Iterate for next semester
-
-**Time investment:** 1-2 hours setup
-**Risk:** Low (it's optional)
-**Learning:** Substantial (you'll see what students actually do with AI)
-
----
-
-### Option 4: Pilot Assessment (Next Semester)
-- Redesign one existing assignment using ideas from the techniques, flight simulator, or assessment chapters
-- Worth 15-25% of the grade (significant but not high-stakes)
-- Document what works and what doesn't
-- Refine for future iterations
-
-**Time investment:** 3-5 hours initial design
-**Risk:** Moderate (but manageable with clear instructions)
-**Learning:** Transformative (you'll see process-based assessment in action)
-
----
-
-### Option 5: Full Unit Redesign (Next Academic Year)
-- Use the backwards design approach from the Unit Design chapter
-- Integrate AI throughout one complete unit
-- Build scaffolded progression from Week 1 to Week 12
-- Measure impact on student learning
-
-**Time investment:** Significant (20-30 hours initial design)
-**Risk:** Higher (but with high potential reward)
-**Learning:** Comprehensive (you'll develop deep expertise in AI-enhanced pedagogy)
-
----
-
-## Pick one. Not five. One.
-
-The biggest mistake educators make with innovation is trying to do too much at once. They get overwhelmed, it doesn't go perfectly, and they abandon the whole thing.
-
-**Small, successful experiments build confidence and capability.**
-
-One well-executed pilot teaches you more than five half-baked attempts.
-
----
-
-## What Success Looks Like
-
-How will you know if your AI integration is working?
-
-### Short-Term Success (First Semester)
-
-**Student engagement:**
-- Students ask questions about AI use (curiosity)
-- Students report that AI helped them prepare or practice (utility)
-- Students use AI activities even when optional (voluntary adoption)
-
-**Your experience:**
-- You complete the pilot without major disasters
-- You learn something about what works and what doesn't
-- You feel more confident about AI tools and their limitations
-
-**Tangible outcomes:**
-- At least one student says "That simulation really helped me understand..."
-- You create at least one reusable resource you'll use again
-- You gather feedback that informs your next iteration
-
----
-
-### Medium-Term Success (Within 2-3 Semesters)
-
-**Student learning:**
-- Improved performance on assessments related to AI-practiced skills
-- Students demonstrate competencies earlier in the semester
-- Fewer students make basic procedural or communication errors
-- Students reference their AI practice in reflections and discussions
-
-**Your teaching:**
-- You have 2-3 reliable AI-enhanced activities you use regularly
-- You've refined prompts and instructions based on student experience
-- You feel AI is enhancing rather than complicating your teaching
-- Other lecturers ask you about your approach
-
-**Curriculum:**
-- AI integration is normalised (not novel or controversial)
-- Students expect and value AI-enhanced learning opportunities
-- You've expanded from one unit to multiple units or assessment types
-
----
-
-### Long-Term Success (3+ Years)
-
-**Graduate outcomes:**
-- Alumni report that AI-enhanced learning prepared them for professional practice
-- Employers or practicum supervisors notice your graduates are better prepared
-- Students explicitly mention AI literacy as a valuable skill they developed
-
-**Professional leadership:**
-- You've shared your approach at teaching conferences or with colleagues
-- You've refined your model enough to document and teach to others
-- You've contributed to the scholarship of teaching and learning in HR education
-- Other institutions ask about your approach
-
-**Institutional impact:**
-- AI integration becomes standard practice in HR programs
-- Your university recognises this as teaching innovation
-- The approach influences accreditation or curriculum design discussions
-
----
-
-## Avoiding Common Pitfalls
-
-As you move forward, watch for these mistakes:
-
-### Pitfall 1: Technology for Technology's Sake
-
-**The mistake:** Using AI because it's trendy, not because it serves learning outcomes.
-
-**The fix:** Every AI activity must answer: "What learning outcome does this support that couldn't be achieved as effectively another way?"
-
-If you can't answer that clearly, don't use AI for that task.
-
----
-
-### Pitfall 2: Assuming Technical Competence
-
-**The mistake:** Expecting students to figure out AI tools on their own.
-
-**The fix:** Explicitly teach prompt writing, critical evaluation, and ethical use. Build technical scaffolding just like you build content scaffolding.
-
----
-
-### Pitfall 3: No Clear Assessment Criteria
-
-**The mistake:** Assigning AI-enhanced activities without clear rubrics or expectations.
-
-**The fix:** Students need to know what "success" looks like. If they're submitting conversation transcripts, what are you assessing? If they're using AI for self-assessment, what's your role in grading?
-
-Make criteria explicit and transparent.
-
----
-
-### Pitfall 4: Ignoring Equity
-
-**The mistake:** Assuming all students have equal access to AI tools, devices, and internet.
-
-**The fix:** Provide alternatives (lab time, office hours facilitation, university-subscribed tools). Ensure core learning is accessible regardless of premium AI access.
-
----
-
-### Pitfall 5: Blind Faith in AI Outputs
-
-**The mistake:** Treating AI-generated content as inherently correct or reliable.
-
-**The fix:** Teach students (and remember yourself) that AI makes confident mistakes. Always verify. Always maintain human oversight. Always question.
-
----
-
-## Building Community
-
-You don't have to do this alone.
-
-### Within Your Institution:
-- Connect with colleagues experimenting with AI in teaching
-- Join or form a teaching and learning community of practice
-- Share successes and failures openly
-- Co-design activities and assessments
-- Observe each other's classes
-
-### Beyond Your Institution:
-- Attend higher education teaching conferences
-- Share your innovations in academic journals
-- Contribute to online communities exploring AI in education
-- Collaborate with colleagues at other institutions
-- Document and publish case studies
-
-**Why community matters:**
-- You learn faster from others' experiments
-- You avoid reinventing solutions to common problems
-- You have support when things don't go as planned
-- You build evidence for institutional change
-- You contribute to the field's understanding
-
----
-
-## The Bigger Picture: Transforming Business Education
-
-Individual educators trying new things is important. But the real transformation happens when entire programs evolve.
-
-### Vision for Business Education with AI Integration
-
-**Year 1 (Undergraduate):**
-Students develop AI literacy alongside foundational disciplinary knowledge. They learn to use AI for exploration, practice, and self-assessment. They develop critical evaluation skills specific to their field.
-
-**Year 2-3 (Undergraduate):**
-Students apply AI tools to complex scenarios in their discipline. They use conversation simulations and decision-making activities extensively. They demonstrate competence through process-based assessments. They critique AI outputs and improve on them.
-
-**Year 4-5 (Undergraduate/Honours/Research Programs):**
-Students use AI as a professional tool. They integrate AI into strategic thinking and research in their discipline. They teach others how to use AI responsibly. They understand when AI helps and when human judgment must override technology.
-
-**Professional Practice:**
-Graduates enter workplaces confident with AI tools, critical of AI limitations, and committed to ethical AI use. They advocate for fairness when organisations implement AI systems in their field. They maintain human accountability for AI-assisted decisions.
-
-**This is the future we're building.**
-
-Not a future where AI replaces professionals, but where business professionals across all disciplines use AI skillfully and ethically to do their work better, to serve people, organisations, and society more effectively.
-
----
-
-## What Employers Are Looking For
-
-Employers increasingly expect graduates to use AI. That expectation is no longer a differentiator. It is baseline. What separates candidates is whether they can use AI *well*, and whether they can talk about it with any substance.
-
-The skills this book teaches (critical evaluation, process thinking, transparency about how you arrived at a recommendation) are precisely what hiring managers are starting to probe in interviews. Questions like "How do you use AI in your work?" and "Can you give an example of when you identified a problem with AI output?" are becoming standard. Graduates who can answer those questions with specific, reflective examples will stand out.
-
-Here is the gap: almost every graduate now says "I use AI." Very few can say "I use AI critically and can explain my process." The first statement is common. The second is rare, and it is the one that signals professional judgment.
-
-Think about what a strong answer looks like. A candidate who says "I asked ChatGPT and it gave me a good answer" is describing passive consumption. A candidate who says "I generated three approaches, evaluated each against our compliance requirements and organisational constraints, identified gaps in the AI's assumptions, and iterated until I had something I could defend" is describing professional practice. That is the difference employers notice.
-
-This is not hypothetical. Across industries, organisations are discovering that AI adoption without critical oversight creates real problems: flawed analysis, compliance failures, recommendations that ignore context. They need people who can catch those issues before they cause damage. That is a skill, and it is teachable.
-
-The frameworks in this book (the 5-step critique process, the VET framework, process-based documentation) give students a vocabulary and a method for demonstrating this competence. When a graduate walks into an interview and can describe *how* they evaluate AI output, not just *that* they use it, they are showing exactly the kind of professional maturity that employers are looking for.
-
-Preparing students for these conversations is not an add-on. It is one of the most practical things you can do for their career readiness.
-
----
-
-## Your Legacy
-
-Every student you teach will work with AI in their careers, regardless of their discipline.
-
-**The question is: Will they be competent or incompetent? Ethical or reckless? Critical or credulous?**
-
-That's in your hands.
-
-When you integrate AI into your teaching, transparently and critically and pedagogically, you're not just adopting a new tool. You're preparing the next generation of business professionals for a world that will be shaped by technology but must still be guided by human wisdom.
-
-That's not a small thing.
-
-That's your professional responsibility and your legacy.
-
----
-
-## Final Words
-
-If you've read this far, you're the kind of educator who cares about continuous improvement. You're not content with "good enough." You're asking "What could be better?"
-
-**That's exactly the mindset needed for this work.**
-
-AI in education isn't settled science. We're all figuring this out together: what works, what doesn't, what's ethical, what's effective. You're not behind. You're not too late. You're here, right now, at exactly the right time.
-
-You have:
-- The knowledge (this book)
-- The frameworks (Chapters 4-11)
-- The institutional alignment framework (Appendix A)
-- The rubrics and stress tests (Appendices B-C)
-- Downloadable prompts and workshop materials at the companion website
-
-**What you need now is courage.**
-
-Courage to try something new.
-Courage to fail, learn, and try again.
-Courage to change your practice when change is uncomfortable.
-Courage to lead when others are still watching and waiting.
-
-**You have that courage.**
-
-I know this because you read 300+ pages about AI in education. That's not something an unimaginative or risk-averse educator does.
-
-So here's my final challenge:
-
-**Close this book. Choose one thing. Do it this week.**
-
-Not next month. Not next semester. This week.
-
-Your students are waiting for the learning experiences only you can design.
-
----
-
-## One Last Thing
-
-When you try your first AI-enhanced activity, whether it goes brilliantly or disastrously, take a moment to reflect:
-
-- What surprised you?
-- What will you do differently next time?
-- What did students learn that they wouldn't have otherwise?
-
-Then do it again, better.
-
-That's how transformation happens.
-
-One experiment. One refinement. One semester at a time.
-
-**Welcome to the future of business education.**
-
-**You're ready.**
-
----
-
-*For ongoing support, resources, and community:*
-- Your institution's Teaching and Learning team
-- AI in Higher Education communities online
-- The companion website: https://michael-borck.github.io/partner-dont-police
-
-**Good luck. And thank you for being the kind of educator who never stops learning.**
-
----
-
-# Colophon
-
-**Version:** 1.0
-**Published:** 2025
-**Scope:** Multidisciplinary Business Education (HR, Marketing, Accounting, Management, Tourism & Hospitality, Supply Chain, Information Systems, Economics, and Business Analytics)
-
-**Technologies Referenced:**
-- ChatGPT (OpenAI)
-- Claude (Anthropic)
-- Various AI transcription and analysis tools
-
-**Pedagogical Frameworks:**
-- Backwards Design (Wiggins & McTighe)
-- Experiential Learning (Kolb)
-- Reflective Practice (Schön)
-- Authentic Assessment
-- Self-Directed Learning
-- Process-Based Assessment
-
-**Disclaimer:** AI technology evolves rapidly. Specific tools and capabilities described in this book reflect the state of technology in early 2025. Principles and pedagogical approaches remain relevant across technological changes. This book is designed for application across multiple business disciplines with context-specific adaptations.
-
-For copyright, licensing, and citation information, see the Copyright page.
+A defensible decision may be to proceed, revise, pause or stop. What matters is
+that the decision follows from the learning purpose and evidence, not enthusiasm
+for the tool or confidence in its prose.

@@ -1,149 +1,107 @@
-# Transforming Content with AI
+# Transforming Content: Keep the Learning Decision Visible {#sec-transforming}
 
-> A case study on paper is a story someone else finished. A case study powered by AI is a conversation the student has to navigate.
+> An interactive page is a delivery format, not evidence that the activity teaches well.
 
-This chapter covers two complementary workflows: transforming static teaching materials into interactive experiences, and turning AI conversations into professional deliverables. Both put AI to work on the formatting while you focus on the thinking.
+## Start with a task that already works
 
-## From Static to Interactive
+A paper activity may be effective without becoming an app. Before adding
+interactivity, identify what the student must decide, what information is supplied
+and how the response will be checked.
 
-You have a well-designed case study in Word or PDF. Students read it, maybe discuss it, then move on. The learning moment is brief and passive.
+This chapter uses M1 in the [pilot pack](../appendices/pilot-pack.qmd).
+Students calculate campaign rates, distinguish an observation from an unsupported
+profit/causal claim and request useful evidence. That task works on paper.
+A digital form offers another way to record the same reasoning.
 
-AI can transform that static document into an interactive HTML experience, with input fields for student responses, decision trees where choices lead to different outcomes, reflection prompts with saveable responses, and self-assessment checklists with feedback. The result uploads directly to your LMS, works in any browser, and needs no installation.
+The supplied [decision sheet](../tools/decision-sheet.html) is a small,
+self-contained HTML example. It has labelled fields, a text-export button and
+a print route. It does not grade, autosave, submit work to an LMS or send
+responses to a server. Use fictional information only.
 
-### The Transformation Process
+## What to ask AI to help produce
 
-1. **Identify the document**: a case study, worksheet, or activity guide
-2. **Locate interaction points**: questions, decisions, reflections
-3. **Mark enhancement opportunities**: where could students input or respond?
-4. **Use AI to generate the interactive HTML**
+After deciding the activity, a bounded request might be:
 
-### The Prompt
-
-```
-Transform this static [document type] into an
-interactive HTML webpage:
-
-[Paste your document content here]
-
-Create:
-1. Professional HTML with embedded CSS styling
-2. Input fields for each question/reflection
-3. Save/print functionality for student responses
-4. Professional appearance for university students
-5. Mobile-responsive design
-
-Requirements:
-- All CSS embedded (no external files)
-- JavaScript for save/print functionality
-- Clear instructions for students
-
-Output: Complete HTML file ready to upload to
-your LMS.
+```text
+Create a self-contained page for this fictional task.
+Preserve the supplied facts and learner questions.
+Use labelled fields and ordinary keyboard controls.
+No external libraries, requests, analytics or login.
+Provide a plain-text export and printable alternative.
+State clearly whether answers are saved.
+Do not add model scoring or invent answer criteria.
 ```
 
-For more complex scenarios, you can request branching decision trees where student choices affect outcomes, progress tracking, feedback at each stage, and a score summary at the end. The AI generates a single HTML file you upload directly.
+A generated file still needs inspection. Do not upload it directly to a live
+course merely because it opens in your browser.
 
-### What You Can Transform
+For readers interested in the development work itself, *Build Web, Guide AI*
+covers that route. Here the purpose is evaluating the teaching artifact, not
+learning to maintain a web application.
 
-The same approach works for:
+## Inspect the supplied example
 
-- **Static case studies** → interactive scenarios with decision points
-- **Paper worksheets** → digital forms with save/print
-- **Reading guides** → self-paced activities with reflection prompts
-- **Assessment rubrics** → self-assessment checklists with feedback
-- **Lecture handouts** → interactive study guides
+The M1 sheet displays the complete small dataset and asks for three decisions.
+It does not hide an answer behind a score or require a model connection.
 
-### Design Principles
+Test the rate calculation separately: A has a 4% click-through rate; B has 5%.
+Both have 5% click-to-purchase conversion and 20 purchases. Spend, margin and
+a comparable experimental design are not supplied. A correct response retains
+the measurable rate difference while withholding profit and causal claims.
 
-- **One file, self-contained.** All CSS and JavaScript embedded, so there are no external dependencies to break.
-- **Mobile-responsive.** Students will use phones. Design for it.
-- **Accessible.** Screen reader compatible, keyboard navigable, sufficient contrast.
-- **Printable.** Students should be able to save their work.
-- **Progressive.** Start with a basic transformation. Add complexity (branching, scoring) in later iterations.
+If a form displayed “B wins” merely because its click-through rate is higher,
+the interaction would teach an unsupported conclusion. Better styling would
+not repair it.
 
-## From Conversation to Document
+## Test delivery, saving and access
 
-The second workflow runs in the opposite direction: you have a productive AI conversation, and you want it to produce a professional deliverable.
+Open the example using your intended device/browser. Enter fictional responses,
+export the text and open the saved file. Check that every field is included and
+that long or non-English text survives. Reloading the page loses the on-page
+answers; the exported file is the record. There is no automatic import.
 
-The core principle: **the conversation is the work. The document is the output of that work.** This is fundamentally different from "use AI to write a report" (which replaces thinking) versus "use AI to help you think through an analysis, then generate the presentation of that thinking" (which amplifies thinking).
+Try keyboard-only navigation and the assistive technologies relevant to your
+students. Check zoom, contrast, labels, mobile layout and printing with long
+answers. Source-level checks can catch some errors, but are not an accessibility
+certification or a substitute for target-device testing.
 
-### Application 1: Data Analysis → Presentation
+An LMS may block scripts, restrict downloads or display files differently.
+Use an approved staging area and test its settings. If the form cannot work
+there, use the printed questions or an institutionally supported form tool
+under the same data rules.
 
-You have a dataset with interesting patterns. The workflow:
+## From analysis to a deliverable
 
-```
-Step 1 — Upload and explore:
-"I've attached a CSV with [describe data]. Can you
-describe the structure, identify data quality issues,
-tell me what patterns you notice, and suggest 3-5
-visualisations that would be most revealing?"
+A model can help format a decision already checked by the learner. For M1, the
+learner first records the calculations, missing evidence and limits. Only then
+might a model help turn that decision into a short client memo.
 
-Step 2 — Request specific analysis:
-"Let's look deeper at [pattern]. Can you run
-[specific analysis] and explain what it means
-for [business context]?"
+The learner verifies that the memo preserves uncertainty and has not added a
+profit claim. The final artifact should be accurate as well as clear. Keep
+the calculation and source note so the decision can be inspected.
 
-Step 3 — Generate the deliverable:
-"Create a PowerPoint presentation (8-10 slides)
-showing these findings. Include charts, key
-insights on each slide, and speaker notes
-explaining what to say."
-```
+For spreadsheets, independently check formulas and totals. For charts, check
+the underlying values and labels. A file being downloadable does not establish
+that its analysis is correct.
 
-One conversation produces an exploration, an analysis, and a presentation. Students learn data literacy through natural language, and they do not need to code.
+## Narrow the research claim
 
-### Application 2: Qualitative Analysis → Research Memo
+A prompt asking a model to identify themes, interpret quotations and write a
+research memo delegates substantive analysis, not just formatting. Do not
+describe that as the model merely making a document look professional.
 
-For interview data, field notes, or open-ended survey responses:
+A research activity needs a suitable method, authorised data, traceable coding,
+source checks and review of alternative interpretations. This chapter does not
+supply that research curriculum. Use a reviewed synthetic example or appropriate
+research-methods teaching before asking students to analyse real interview
+transcripts. The [data gate](ethics-integrity.qmd) applies throughout.
 
-```
-"I have interview transcripts from [describe].
-Conduct thematic analysis: identify major themes,
-supporting quotes, and relationships between themes.
-Then create a research memo (1500 words) with
-themes, evidence, and implications."
-```
+## Activity: test the response artifact
 
-Students learn research methodology by doing it conversationally, so the AI handles the formatting while they handle the thinking.
+**Allow 15 minutes.** Complete M1 using the decision sheet or paper. Check the
+answer against the pack, then write a short memo preserving the verified rates
+and limitations.
 
-### Application 3: Generic Document Creation
-
-AI can generate professional documents directly from conversations:
-
-- **Word reports**: specify structure (executive summary, analysis, recommendations), word count, and formatting
-- **Excel spreadsheets**: with formulas, conditional formatting, and dashboard charts
-- **CSV files**: ready for further analysis
-- **Executive briefs**: one-page summaries for stakeholders
-
-The key: have the thinking conversation first, then request the formatted output. If you skip the thinking and go straight to "write me a report," you get delegation. If you explore, question, and refine before requesting the document, you get amplified thinking with a professional deliverable at the end.
-
-### Tool-Specific Options
-
-Different AI tools handle document creation differently:
-
-- **ChatGPT** generates downloadable files (Word, Excel, PowerPoint) directly in conversation
-- **Claude Artifacts** creates documents in a side panel you can edit in-place
-- **Google Gemini** exports directly to Google Docs and Sheets
-- **MS Copilot** integrates directly into Office applications, so the conversation happens inside Word, Excel, or PowerPoint
-
-The prompting principles are identical across all of them. Choose whichever fits your workflow.
-
-## Assessment Strategy
-
-For assignments using either workflow, assess the thinking, not the deliverable:
-
-- **Process evidence (40%)**: the conversation or notes showing what questions the student asked, what patterns they explored, what they refined
-- **Critical review (30%)**: did they review AI output critically? Did they correct errors, adjust interpretations, make it their own?
-- **Communication quality (20%)**: is the final deliverable clear, professional, and accurate?
-- **Reflection (10%)**: can they explain what AI did versus what they decided?
-
-Design assignments that require students to submit their conversation alongside the deliverable. The conversation is where the learning is visible.
-
-## Your Next Step
-
-Try both workflows yourself before using them with students:
-
-1. **Static to interactive:** Take one existing case study or worksheet and transform it. Upload it to your LMS. See how it looks.
-2. **Conversation to document:** Take a dataset or topic you know well. Have a 5-minute exploratory conversation with AI, then ask for a presentation or report. Review it critically. What would you edit?
-
-Once you have tried both, you will see which fits your teaching context. Most educators find the static-to-interactive workflow useful for creating reusable teaching materials, and the conversation-to-document workflow useful for student assignments where the process matters more than the product.
+If using the page, export the responses and check the file. If using paper,
+ensure another reader can follow the calculation and decision. Both routes
+are judged on the same reasoning, not the sophistication of the delivery format.

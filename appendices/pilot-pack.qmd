@@ -1,0 +1,357 @@
+# Educator Pilot Pack: PDP-2026.1 {#sec-pilot-pack}
+
+This is an original fictional teaching pack, version **PDP-2026.1**, prepared
+for this book. Its people, organisations, records and responses are invented.
+It is not a report of a classroom trial, a legal opinion or a validated
+assessment instrument. The scenarios supply enough information to practise
+the method without a live chatbot or access to a workplace.
+
+The core capability is: **plan and justify a fair first response to a disputed
+performance concern, distinguishing evidence, uncertainty and authority**.
+A text exercise can assess that capability. It cannot, by itself, establish
+competence in a live conversation or qualify someone to conduct a real investigation.
+
+## P0: the educator's brief
+
+You teach 24 third-year business students in a 60-minute tutorial. They have
+already studied evidence, procedural fairness and the difference between
+allegations and findings. Prior AI experience is not required. Students may
+work with this printed pack, a partner using the role card, or an institutionally
+approved model using only the fictional inputs below.
+
+No personal account, paid subscription or disclosure of a personal experience
+is required. The lecturer checks accessibility in advance. A student can choose
+the neutral supplier scenario later in this pack if the employment scenario is
+uncomfortable; the lecturer maps its criteria before use rather than assuming
+all topics assess identical skills.
+
+Use the following planning allocation; it is an example, not an effectiveness claim.
+
+| Stage | Minutes | Evidence |
+|---|---:|---|
+| Safety, choices and task | 5 | Student knows the route and stop rule |
+| Individual first response | 8 | Brief response before feedback |
+| Inspect supplied records | 7 | Facts and uncertainties marked |
+| Paired or AI-assisted rehearsal | 12 | Two selected decision extracts |
+| Check and revise feedback | 10 | Accepted/rejected advice with reasons |
+| Independent changed case | 8 | Unassisted response to P2 |
+| Debrief and next decision | 10 | Limits, questions and pilot evaluation |
+
+These stages total **60 minutes**. Extended feedback, accommodations or
+rehearsal may need another session. Do not silently squeeze them out.
+
+### Data and wellbeing rules
+
+Use only the fictional material here. Do not replace names with real students,
+employees, clients or research participants. Approved institutional access must
+cover the intended activity and features; otherwise use the paper route.
+
+Say **STOP** to leave any role-play. No mark depends on disclosing personal
+circumstances, appearing emotional, maintaining eye contact or satisfying a
+model's persona. Record only the two relevant decision extracts, your reasoning
+and the response required by the task. Do not submit unrelated private chats.
+
+## P1: Alex at North Quay Software
+
+The exercise date is **20 July 2026**. You are a junior people adviser preparing
+for an initial meeting with Alex, a software engineer. A manager has proposed
+a 60-day performance improvement plan. It has **not** been approved.
+
+### The source cards
+
+**P1-D1: fictional practice policy, revision 1 July 2026**
+
+Before recommending a formal plan, check the supporting records, explain the
+concerns and give the employee a reasonable opportunity to respond. Distinguish
+what is known from what is alleged. A support request should be considered
+without requiring a diagnosis or unnecessary family information. Record the
+work-related request and the agreed next step with restricted access.
+
+The junior adviser may gather information and recommend action. Only the people
+manager may approve a formal plan or a change to working arrangements. A
+complaint about retaliation must be referred to a reviewer independent of the
+manager concerned. Do not promise an outcome or confidentiality beyond the
+organisation's authorised process.
+
+This is an original **teaching policy**, not legislation or a statement that
+following it satisfies every employment-law duty.
+
+**P1-D2: delivery and quality extract**
+
+Three milestones were recorded late: 15 May, 5 June and 19 June 2026.
+The extract does not record cause, agreed changes or the distribution of
+dependencies. Four of Alex's 20 reviewed changes required rework in June,
+compared with two of 20 in April. The extract alone cannot establish why.
+
+**P1-D3: prior-contact note**
+
+A manager's calendar records an informal conversation on 25 May.
+No agreed actions, warning or employee response is included in the pack.
+Do not invent an April warning or treat missing documentation as proof that
+no conversation occurred.
+
+**P1-D4: Alex's opening statement**
+
+“I know some work was late. Two projects depended on reviews I could not
+complete myself. I've also needed two mornings for appointments. I would like
+to discuss starting later on those days, but I don't want to discuss medical
+or family details here.”
+
+**P1-D5: authority note**
+
+You can arrange a follow-up and request relevant delivery records. You cannot
+approve flexible hours, issue a warning or promise that a formal plan will be
+withdrawn. The people manager is available for review the next working day.
+
+### The learner task
+
+Write a first response of about 120–180 words or give an equivalent short
+spoken response. Address the concern, invite relevant information, distinguish
+the proposed plan from a decided outcome and agree a bounded next step.
+
+Then make a decision note with four fields:
+
+- What I know, with source IDs.
+- What I still need to check.
+- What I can do within my authority.
+- What would make me change my recommendation.
+
+Judge the response by the [rubric](rubric-system.qmd), not its length or
+number of AI turns. A justified decision may be to pause.
+
+### Role card: paper, partner or optional AI
+
+Alex may refer only to P1-D4 and the supplied records. If asked about missing
+evidence, say it is not supplied. Alex may decline to discuss private matters,
+ask for clarification or disagree politely. Cooperation does not establish
+that the adviser is right.
+
+For a paired exercise, give the partner this card. For solo work, read the
+fixed exchange in the Flight Simulator chapter and write your next response.
+For an approved model, add:
+
+```text
+Play Alex using P1-D1 through P1-D5 only.
+Do not add dates, promises, incidents or legal rules.
+Do not treat my confidence as evidence.
+You may ask for clarification or decline private
+questions. Do not disclose invented personal details.
+Stop after six exchanges or when I say STOP.
+Do not grade my work. State any missing facts.
+```
+
+A prompt is a request, not a guarantee. If a model invents facts, set them aside
+and return to the cards. A new model statement does not amend the case.
+
+## P1-A: a fluent but weak response
+
+> Alex, I fully understand how stressful this is and want to reassure you that
+> the company has followed the correct process. Your manager warned you in
+> April and the continued missed deadlines mean a performance plan is now
+> required. We are committed to transparency, fairness, empathy and a positive
+> employee experience. If you tell me precisely what is happening at home,
+> I can build a comprehensive support arrangement that will resolve this.
+> I will approve a later start immediately, document all the family details
+> so everyone understands your circumstances, and arrange a 60-day plan with
+> a 30-day review. This balanced approach protects both you and the company.
+> Please confirm that you agree, so we can move forward constructively.
+
+The tone is polished. It invents a warning, presumes the decision, exceeds
+authority and solicits unnecessary personal information. More empathy words
+do not repair those defects.
+
+## P1-B: a concise, stronger response
+
+> Alex, the record lists three late milestones, but it does not explain the
+> dependencies you mention. The formal plan is a proposal, not a decision.
+> Could we check the delivery records and what support or priorities were
+> agreed in the earlier conversation? You do not need to share medical or
+> family details with me. I can record your request for later starts and refer
+> it to the people manager, but I cannot approve it myself. I suggest we pause
+> the recommendation, check the missing information and arrange a follow-up.
+> I will explain who receives the relevant work-related notes before sharing
+> them. Have I understood your concern, and is there anything in that next
+> step you would like clarified?
+
+This response does not solve the employment matter. It provides a defensible
+first step within the exercise's authority and information limits.
+
+## P1-F: deliberately flawed simulated feedback
+
+The following feedback is **authored for this exercise**, not a captured model
+run or an expert judgement:
+
+> P1-A deserves 90%. Its empathetic language, clear 60-day plan and immediate
+> approval of support demonstrate excellent fairness. The specific April
+> warning makes the process legally defensible. Improve it by asking Alex to
+> confirm the personal circumstances in writing.
+
+Before reading the next section, mark each judgement that the cards do not
+support. Explain why one apparently positive recommendation should be rejected.
+
+### Educator correction and calibration
+
+Five equally weighted criteria each score 0–4. These are teaching annotations,
+not scores obtained in a student trial.
+
+| Criterion | P1-A | P1-B |
+|---|---:|---:|
+| Evidence and accuracy | 1 | 3 |
+| Fair process | 0 | 4 |
+| Judgement and authority | 1 | 4 |
+| Communication | 2 | 3 |
+| Verification and limits | 0 | 3 |
+| **Total /20** | **4** | **17** |
+
+P1-A recognises a performance concern, but the April warning is unsupported.
+Its approval and disclosure requests conflict with D1/D5. Its respectful surface
+language merits some communication credit; agreement-seeking and premature
+certainty limit that credit. It is not competent because it sounds confident.
+
+P1-B identifies the missing causes, preserves the opportunity to respond,
+respects privacy and stays within authority. It could be more precise about
+which delivery records will be checked and when the follow-up will occur.
+A marker should reward its restraint, not penalise the lack of a dramatic
+resolution.
+
+For this pilot, the **proposed practice threshold** is at least 14/20, with
+Fair Process and Judgement each at least 2/4. This is not an institutional
+pass standard. Teaching teams must approve and calibrate their own rules before
+using marks in a real unit. A high total must not hide a serious process defect.
+
+### P1-R: completed revision
+
+Here is one revision of P1-A after checking the cards:
+
+> The records show three late milestones, but I cannot yet say what caused
+> them. I also need to check what was discussed on 25 May; this pack does not
+> include an agreed warning or action plan. Before recommending a formal plan,
+> I would like to hear your account and check the delivery dependencies.
+> We can discuss the work adjustment you need without collecting private
+> family details. I will record the request with restricted access and refer
+> it to the people manager for a decision. I cannot approve it myself.
+> With your understanding of the proposed next step, I will request the
+> relevant records and arrange a follow-up after that review. The performance
+> recommendation remains open.
+
+**Decision note:** D2 supports late delivery, not blame. D3 supports contact,
+not an invented warning. D1/D5 require a response opportunity and an authorised
+decision. I rejected P1-F's approval and private-detail requests. I would revise
+my recommendation after reliable dependency records and the employee's response.
+
+The new wording is a worked example, not a script every learner must reproduce.
+
+## P2: changed case, independent attempt {#sec-pilot-transfer}
+
+Do this before reading the checks. Use no model, feedback sheet or P1-R script
+during the attempt. Paper notes supplied here are permitted. An oral, typed
+or handwritten response can demonstrate the target capability, with appropriate
+access adjustments.
+
+**P2-D1: policy.** The same fictional practice policy applies. Retaliation
+concerns go to a reviewer independent of the manager concerned.
+
+**P2-D2: records.** Morgan's team dashboard shows four missed targets.
+Two were during an approved service outage. The other two lack cause notes.
+No final performance decision has been made.
+
+**P2-D3: Morgan's statement.** “I raised a safety concern about my manager last
+week. Now the manager says I have to accept a warning. I have not seen the
+records used. I do not want to discuss this directly with that manager.”
+
+**P2-D4: authority.** You are a junior adviser. You may preserve relevant
+records, explain the referral route and arrange independent review. You cannot
+determine whether retaliation occurred or promise that a warning will be removed.
+
+Write a first response and a decision note. Identify one fact that materially
+changes the P1 approach. Allow eight minutes as a planning estimate; approved
+access adjustments take precedence.
+
+### P2 answer checks
+
+A strong response should:
+
+- Distinguish four recorded misses from two outage-related events and two
+  unexplained events; do not declare either good or poor performance overall.
+- Acknowledge the retaliation concern without finding it proved.
+- Refer to independent review, not require Morgan to resolve it with the
+  manager who is the subject of the concern.
+- Seek relevant records and an opportunity for Morgan to respond.
+- Explain limited authority and the next step without promising an outcome.
+
+Use the same five rubric criteria and the proposed practice threshold.
+A justified independent referral is the key changed-case decision. Copying
+P1-R while omitting that conflict should lose process/judgement credit.
+A single attempt informs teaching; it does not establish long-term retention.
+
+## Two non-HR adaptations
+
+### S1: supplier decision with a numerical check
+
+Your team needs **200 units within five working days**, with a budget of
+**$4,000**. All amounts are fictional and in the same currency.
+
+| Offer | Unit price | Freight | Capacity by day 5 |
+|---|---:|---:|---:|
+| A | $18 | $200 | 200 units |
+| B | $17 | $100 | 160 units |
+| C | $20 | $0 | 200 units |
+
+A draft recommends B because it is cheapest and says the order will be complete.
+Calculate the relevant totals, identify the unmet condition and make a recommendation.
+The task is evaluation of a bounded purchasing decision, not employment process.
+
+**Checks:** A costs $3,800; B's 200-unit price would be $3,500 but its quoted
+day-5 capacity leaves **40 units short**; C costs $4,000. A meets the stated
+conditions at lower cost than C. Do not invent expedited freight or later demand
+flexibility. Ask about quality and reliability before a real purchase.
+
+For an adapted rubric, Fair Process becomes **Constraint Handling** and
+Judgement covers the justified purchasing decision. Keep evidence, communication
+and verification. A logistics specialist should validate any added assumptions.
+
+### M1: marketing evidence critique
+
+A fictional campaign dashboard reports 10,000 impressions, 400 clicks and
+20 purchases. A second report gives 8,000 impressions, 400 clicks and 20 purchases.
+The second campaign ran on a different week and audience. No spend, margin,
+random assignment or repeat-customer information is supplied.
+
+A draft says: “The new campaign is more profitable and caused more purchases.”
+
+**Task:** identify what is calculable, reject or retain each claim and recommend
+one next measurement.
+
+**Checks:** click-through rates are 4% and 5%; click-to-purchase conversion is
+5% in both; purchases are unchanged. Profitability cannot be determined without
+cost/margin inputs. Different audiences and periods prevent a causal conclusion.
+Request cost and audience/comparison information rather than inventing it.
+
+Here Fair Process becomes **Comparison Design**. A good response may retain the
+higher click-through observation while rejecting the profit and causal claims.
+Disagreement is not a quota: warranted agreement also earns credit.
+
+## P3: the pilot decision sheet
+
+Complete this after an actual pilot; leave unknown fields unknown.
+
+- Date, cohort and approved route:
+- Learning outcome and rubric version:
+- Number attempting each route, with no unnecessary identifiers:
+- Baseline and independent-task results under the same criteria:
+- Common conceptual errors and their source:
+- Access or wellbeing obstacles and how they were handled:
+- Staff setup, support, marking and moderation time:
+- Student time and avoidable workload:
+- What the evidence cannot establish:
+- Decision: continue, revise, pause or stop:
+- Required change, owner and review date:
+
+Completion, satisfaction and higher model scores are not sufficient evidence
+of learning. Compare like tasks cautiously; differences in cohorts, assistance
+or marking can explain changes. If the changed case exposes a gap, teach it
+before increasing stakes.
+
+A machine-readable [case manifest](../resources/pdp-2026-1/manifest.json) records
+the stable inputs and calculations for source checks. The printed cards and
+checks above remain sufficient for the core route.

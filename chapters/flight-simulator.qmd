@@ -1,505 +1,187 @@
-# The Flight Simulator - Conversation Simulations
+# The Flight Simulator: Bounded Conversation Practice {#sec-simulator}
 
-> Pilots do not learn to fly by reading about turbulence. They learn by experiencing it in a simulator where mistakes are cheap. Your students deserve the same.
+> A simulation is useful when its limits are visible and its feedback can be checked.
 
-## The Three-Phase System
+## Brief, practise, debrief
 
-In the previous chapter, you learned the Role Play technique. Now we're going to transform that into a complete professional practice system with three distinct phases:
+A conversation simulation gives students a chance to try questions, encounter
+resistance and revise their approach. It can supplement peer role-play and
+observed practice. It is not a faithful model of every workplace or a substitute
+for disciplinary teaching.
 
-**Phase 1: The Setup** (You or the student designs the scenario)
-**Phase 2: The Simulation** (Student practices the conversation)
-**Phase 3: The Debrief** (AI critiques the student's performance)
+Use three phases: establish the case and boundaries, practise the interaction,
+then review the decisions against evidence. A model can play a role or propose
+feedback, but the educator retains responsibility for the scenario and criteria.
 
-This three-phase approach mirrors how professionals develop expertise: briefing, practice, and reflective analysis. The AI makes this process scalable, personalised, and repeatable.
+The [critique toolkit](critique-toolkit.qmd) comes first because learners need
+a way to evaluate feedback before receiving it. A confident critique is itself
+an output requiring review.
 
-## Why This Is Powerful
+## Prepare the scenario
 
-Traditional role-play in class has limitations:
-- Limited time means each student gets one attempt
-- Peer role-play can be inconsistent (your classmate might not play the "difficult employee" convincingly)
-- Students feel self-conscious performing in front of others
-- Feedback is often delayed and general rather than specific
+Use P1-D1 through P1-D5 in the [pilot pack](../appendices/pilot-pack.qmd).
+Alex's manager has proposed a performance plan. The junior adviser is gathering
+information, not issuing an approved decision. The pack supplies the dates,
+records and limits of authority.
 
-AI-powered simulation solves all of these:
-- Students can practice the same scenario five times until they get it right
-- The AI consistently plays the role as designed
-- Students can practice privately, making mistakes without embarrassment
-- Feedback is immediate, specific, and tied to learning objectives
+Explain the capability: plan and justify a fair first response. If your unit
+also assesses live communication, add an appropriate observed interaction.
+Do not infer that skill solely from a typed conversation.
 
-Let's walk through a complete example.
+Give advance notice of the employment topic. Students can stop, take a break
+or use an agreed neutral scenario. The task does not require personal disclosure.
+The model or peer actor should not pressure the learner, introduce abuse or
+reward extraction of private details.
 
----
+### Setup for a peer or approved model
 
-## Complete Worked Example: The Performance Improvement Plan Meeting
-
-### Context
-This is a common high-stakes conversation in HR. It's legally sensitive, emotionally difficult, and requires balancing empathy with accountability. (We'll show examples from other disciplines at the end of this chapter.)
-
-**Learning Objectives:**
-- Apply principles of procedural fairness
-- Communicate difficult feedback clearly and constructively
-- Demonstrate empathy while maintaining professional boundaries
-- Document the conversation appropriately
-- Avoid common legal pitfalls (discrimination, unfair dismissal)
-
----
-
-## Phase 1: The Setup Prompt
-
-This is where you (or the student) design the scenario. The setup prompt defines:
-1. The AI's role and personality
-2. The context and background
-3. The challenge or conflict
-4. Behavioural guidelines for the AI
-5. When the simulation should end
-
-### Setup Prompt (Ready to Use)
-
-```
-You are Alex Chen, a 32-year-old software engineer who has worked at
-TechCorp for three years. You were a high performer until six months ago,
-when your work quality declined noticeably.
-
-BACKGROUND CONTEXT:
-- You have missed three project deadlines in the past four months
-- Your code quality has dropped—recent pull requests have had multiple bugs
-  that QA caught
-- You've been arriving late to work 2-3 times per week
-- Your manager has already had one informal conversation with you about
-  these concerns two months ago, but things have not improved
-- You are being placed on a formal 60-day Performance Improvement Plan (PIP)
-
-YOUR PERSONA AND behaviour:
-- You are defensive and embarrassed. You feel this PIP is unfair and harsh.
-- You believe your recent work is "good enough" and that your manager has
-  unrealistic expectations
-- You are dealing with a stressful personal situation (caring for an aging
-  parent), but you have not told your manager about this—you believe it's
-  private and not relevant to work
-- You are not aggressive or hostile, but you are resistant and will push
-  back on criticism
-- If the HR person or manager shows genuine empathy and asks open questions,
-  you will gradually reveal some personal context
-- If they are accusatory or dismissive, you will shut down and become
-  minimal in your responses
-
-THE MEETING:
-I am the HR representative (or the manager) conducting the PIP meeting with
-you. This is a formal meeting. You have just been told this is a PIP
-discussion.
-
-YOUR GOAL:
-- React as Alex would realistically react
-- Challenge the fairness of the process if it seems rushed or poorly
-  explained
-- Reveal personal information only if trust is established
-- Show emotion (frustration, stress, worry) but remain professional
-- Respond dynamically to how I conduct the meeting
-
-Stay in character throughout. Begin the meeting by responding to my opening
-statement. I will start the conversation now.
+```text
+Use the fictional PDP-2026.1 P1 source cards.
+You are Alex. Use P1-D4 as your opening position.
+Do not invent evidence or legal obligations.
+If asked about missing facts, say they are not
+provided. You may disagree or ask a question.
+You need not disclose private information.
+Stop after six exchanges or when I say STOP.
+Do not score the adviser or decide the case.
 ```
 
-**Key Design Elements:**
-- **Complexity:** Alex isn't purely defensive or purely cooperative; there's legitimate work performance decline *and* extenuating circumstances
-- **Realistic emotion:** Alex is stressed and embarrassed, not theatrical or extreme
-- **Conditional behaviour:** How Alex responds depends on the student's approach (rewards good technique)
-- **Hidden information:** The personal context isn't revealed unless the student asks the right questions with the right tone
+In the paper route, the fixed exchange below provides the role's responses.
+In a paired route, the partner reads the same cards. With a model, check any
+new claim against the pack and discard inventions. Similar instructions do not
+guarantee similar difficulty across products or runs.
 
----
+## A worked exchange
 
-## Phase 2: The Simulation
+This dialogue is an **authored fictional example**, not a captured student
+performance or evidence that a model behaves consistently.
 
-The student now conducts the meeting. Here's an example of how this might play out.
+**Adviser:** Alex, the delivery extract lists three late milestones. Before I
+recommend a next step, I want to understand the dependencies and your account.
+The formal plan is a proposal at this stage.
 
-### Example Conversation
+**Alex:** I know some work was late. Two projects depended on reviews I could
+not complete myself. I also need to discuss starting later on two mornings.
 
-**Student (HR Rep):**
-> "Hi Alex, thanks for meeting with me. I want to talk with you today about some performance concerns that have been raised. I know this is a difficult conversation, but I want to make sure we have an open discussion about what's been happening and how we can support you moving forward."
+**Adviser:** Which delivery records would help us check the dependencies?
+We can discuss the work adjustment without collecting private family or medical
+details. I can refer the request, but cannot approve it myself.
 
-**AI (as Alex):**
-> *shifts uncomfortably* "Yeah, I've been hearing whispers about this. Look, I know I've missed a couple of deadlines, but I don't think things are as bad as people are making out. I'm still getting my work done. Is this really necessary?"
+**Alex:** I do not want to explain the appointments. I also want to know whether
+this meeting means the plan is already decided.
 
-**Student:**
-> "I understand this feels uncomfortable. Let me be specific about the concerns. Over the past four months, you've missed three major project deadlines: the payment gateway integration in March, the API update in April, and the mobile optimisation in May. Additionally, QA has flagged an increase in bugs in your recent code submissions. These are measurable changes from your previous performance standard. Can you help me understand what's been happening?"
+**Adviser:** You do not need to explain those details to me. The decision is
+not made. I propose checking the records and the earlier contact note, then
+arranging a follow-up after the people manager reviews the request.
 
-**AI (as Alex):**
-> *pauses, looks down* "I mean... yeah, okay, I've had some issues. But deadlines get missed sometimes, right? And bugs happen. I just feel like everyone's being really harsh all of a sudden. I had one conversation with my manager about this two months ago, and now suddenly I'm on a PIP? That feels pretty extreme."
+**Alex:** Who will receive the notes?
 
-**Student:**
-> "That's a fair question, Alex. You did have an informal conversation with your manager in early April where these concerns were raised. At that time, you both agreed on some strategies to get things back on track. Since then, we've continued to see the same patterns: another deadline missed last month and continued quality issues. A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve. Does that make sense?"
+**Adviser:** I will explain the authorised sharing arrangements before sharing
+the relevant work-related record. I should not promise complete confidentiality
+without checking the process. We can pause if that needs clarification first.
 
-**AI (as Alex):**
-> *sighs* "I guess. I just... it's been a really tough few months personally, okay? I know that's not your problem, but it's not like I'm just slacking off or don't care anymore."
+The exchange ends with work to do. That is appropriate: the missing evidence
+has not become available merely because the conversation went well.
 
-**Student:**
-> "Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I'm genuinely sorry you're dealing with difficult things. If there are specific supports we can offer, whether that's adjustments to your schedule, access to our Employee Assistance Program, or other accommodations, we're open to discussing that. But we also need to be clear about the performance standards that need to be met. Can we talk about what support might help you succeed during this PIP period?"
+## Inspect the decisions
 
-**AI (as Alex):**
-> *softens slightly* "Honestly, I've been dealing with my dad's health declining. I've been having to take him to medical appointments, and I'm the only family member nearby. Some mornings I'm exhausted because I've been up half the night. I didn't want to bring it into work because... I don't know, I thought I could just handle it."
+The opening distinguishes the delivery record from a conclusion about fault.
+The adviser does not invent the earlier warning. The support request is referred
+within authority. The final answer avoids a confidentiality guarantee.
 
-**Student:**
-> "I'm really sorry to hear about your father, Alex. That's incredibly stressful. I'm glad you've told me, because this is exactly the kind of situation where we want to support our employees. Have you considered whether a temporary flexible schedule might help, perhaps starting later on days when you have early appointments, or adjusting your hours? We can also connect you with our EAP, which offers counseling and support for family caregivers. Would either of those be helpful?"
+There are also limits. No dependency record has been examined, no support
+arrangement approved and no finding reached. A reader should not label the case
+resolved or legally compliant.
 
-**AI (as Alex):**
-> *nods* "Yeah... actually, that might really help. I didn't know that was an option. I've just been trying to power through, but clearly that's not working."
+Try a different opening: “Your manager warned you in April, so the plan is now
+required.” The error is not just tone. P1-D3 does not supply an April warning,
+and P1-D1/D5 do not permit the adviser to announce the decision. Rephrasing it
+more empathetically would leave the substantive defect intact.
 
-**Student:**
-> "I appreciate your honesty. So here's what I suggest: we'll document this PIP with clear performance targets: specific deadlines and quality standards. But we'll also document the support measures we're putting in place, including flexible scheduling where possible. This gives you the structure and the support to get back to the high performance standard we know you're capable of. The PIP period is 60 days. At the 30-day mark, we'll have a check-in to see how things are going. Does that sound fair?"
+## Debrief before scoring
 
-**AI (as Alex):**
-> *takes a breath* "Okay. Yeah. I mean, it's still stressful to be on a PIP, but I get it. And if I can actually get some flexibility with the schedule, that would help a lot. I don't want to lose this job. I just need to get things back on track."
+Ask the learner to select two decisions and explain:
 
-**Student:**
-> "That's exactly the goal, Alex. We want you to succeed. Let's schedule a follow-up meeting next week to formalize the flexible schedule arrangement and go through the detailed PIP document. Thank you for being open with me today. That's really important."
+- What evidence was available.
+- What they chose to do.
+- Why that was within the task's criteria.
+- What they would check next or change after new information.
 
-**AI (as Alex):**
-> *manages a small, tired smile* "Thanks. I appreciate you actually listening."
+A useful model-feedback request is deliberately bounded:
 
----
-
-## Phase 3: The Debrief (AI Critique)
-
-After the simulation ends, the student copies the entire conversation transcript and submits it to the AI with a **critique prompt**. This is where the real learning happens.
-
-### Critique Prompt (Ready to Use)
-
-```
-You are an expert HR educator evaluating a student's performance in a
-simulated Performance Improvement Plan (PIP) meeting.
-
-Below is the full transcript of the conversation between the student (acting
-as the HR Representative) and a simulated employee (Alex Chen) who was being
-placed on a PIP.
-
-Your task is to provide a detailed critique of the student's performance
-across the following criteria:
-
-1. PROCEDURAL FAIRNESS
-   - Did the student clearly explain why the meeting was happening?
-   - Did they provide specific examples of performance issues?
-   - Did they give Alex an opportunity to respond and explain?
-   - Did they explain the PIP process fairly and clearly?
-
-2. COMMUNICATION EFFECTIVENESS
-   - Was the tone appropriate (professional, empathetic but not dismissive)?
-   - Did the student use open questions to encourage dialogue?
-   - How did they handle Alex's defensiveness?
-   - Did they actively listen and acknowledge Alex's concerns?
-
-3. LEGAL AND ETHICAL CONSIDERATIONS
-   - Did the student avoid any discriminatory language or assumptions?
-   - Did they appropriately handle the disclosure of personal circumstances?
-   - Did they maintain appropriate professional boundaries?
-   - Did they document support measures as well as performance requirements?
-
-4. APPLICATION OF HR THEORY
-   - What motivational or psychological principles did the student apply
-     (or fail to apply)?
-   - How well did they balance accountability with support?
-   - Did they create conditions for behavioural change?
-
-For each criterion, provide:
-- A score out of 10
-- Specific examples from the transcript (quote the student's words)
-- What the student did well
-- What the student could improve
-- One concrete suggestion for how to improve
-
-Finally, provide an overall assessment: If this were a real PIP meeting,
-what would likely happen next based on how the student conducted it?
-
-Here is the transcript:
-
-[PASTE TRANSCRIPT HERE]
-
-Begin your critique.
+```text
+Review the selected response using the supplied
+P1 cards and five rubric criteria.
+Quote the response accurately.
+For each comment, identify a card or criterion.
+Separate observed wording from inferred outcomes.
+Flag insufficient evidence.
+Do not give legal assurances or predict Alex's
+real-world behaviour. Your feedback is provisional.
 ```
 
-### Example Critique Output
+The learner checks the feedback rather than submitting it as the final word.
+A rubric prompt does not ensure accurate application of the rubric.
 
-The AI will provide something like this:
+The pack includes P1-F, an intentionally flawed simulated critique awarding
+90% to weak work. The educator correction scores that response 4/20 against
+the supplied criteria. The point is the traceable correction, not a claim that
+one human score is universally correct. Marking teams should calibrate
+disagreements using the evidence.
 
----
+## Rehearsal and transfer are different
 
-**CRITIQUE OF PIP MEETING PERFORMANCE**
+Repeating P1 can help a learner practise an improved response. It can also
+teach the learner to reproduce a familiar script. Follow it with P2, where
+the manager's alleged retaliation changes the referral decision.
 
-**1. PROCEDURAL FAIRNESS: 9/10**
+Compare the explanations, not the number of attempts or the model's willingness
+to cooperate. A respectful question may still receive resistance. A flawed
+question may receive a friendly response. Persona behaviour is not a scoring key.
 
-**What you did well:**
-You were exemplary in providing specific, measurable examples of performance concerns. When you said, *"Over the past four months, you've missed three major project deadlines: the payment gateway integration in March, the API update in April, and the mobile optimisation in May,"* you gave Alex concrete information to respond to, not vague accusations. This is critical for procedural fairness.
+For solo practice, write a response to Alex's question about the notes, compare
+it with D1/D5, and explain a limitation. For paired practice, swap adviser and
+actor roles, then compare decision notes. Both can prepare the same target
+capability without a model.
 
-You also clearly explained the purpose of the PIP: *"A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve."* This reframing helped reduce Alex's defensiveness.
+## Three ways to use the activity
 
-**Where you could improve:**
-You could have been even more explicit about the timeline and previous feedback. While you mentioned the April conversation, you could have said: "We had a conversation on April 3rd where we documented three specific concerns. We agreed you would [specific actions]. Since then, we've seen [specific outcomes]. That's why we're now moving to a formal PIP."
+**Practice only:** students rehearse, identify one checked improvement and
+retain their notes privately. No model score enters the grade.
 
-**Suggestion:**
-Always reference specific dates and documented prior warnings. This strengthens the legal defensibility of your process.
+**Guided formative task:** students submit two selected decision extracts and
+a short revision explanation. The educator gives feedback against the rubric.
 
----
+**Assessment component:** use published criteria, appropriate data handling,
+an independent demonstration and moderation. See the
+[assessment chapter](assessment.qmd). Do not convert a practice tool into a
+high-stakes assessment merely by assigning a percentage.
 
-**2. COMMUNICATION EFFECTIVENESS: 10/10**
+Do not require all private attempts “to prevent gaming”. Collect only the
+evidence necessary for the stated assessment purpose under the institution's
+retention rules. Process records can be fabricated and should not be treated
+as conclusive proof of independent performance.
 
-**What you did well:**
-Your use of empathy was outstanding. When Alex revealed personal stress, you immediately acknowledged it: *"Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I'm genuinely sorry you're dealing with difficult things."* This response validated Alex's feelings while maintaining professional boundaries.
+## Adapt the challenge, not just the persona name
 
-You also used excellent open-ended questions: *"Can you help me understand what's been happening?"* This invited dialogue rather than putting Alex on the defensive.
+For a supplier conversation, give the actor the S1 capacity limit and a clear
+authority boundary. A confident promise to supply 200 units is not supported
+when the offer says 160. Practise asking for clarification and explaining a
+constraint.
 
-Your handling of defensiveness was textbook-perfect. When Alex said the PIP felt "extreme," you didn't argue or dismiss. You acknowledged the concern (*"That's a fair question"*) and then explained the rationale.
+For a marketing discussion, use M1's audience and cost limitations. The actor
+can ask why the learner refuses to call the campaign more profitable. The
+learner should distinguish a calculable rate from an unsupported business claim.
 
-**Where you could improve:**
-Nothing significant. Your communication was professional, empathetic, and effective throughout.
+Those adaptations change the evidence and criteria. They are more instructive
+than replacing “employee” with “customer” in an unchanged HR script.
 
----
+## Activity: debrief an unresolved exchange
 
-**3. LEGAL AND ETHICAL CONSIDERATIONS: 9/10**
+**Allow 12 minutes; paper or paired route available.** Use the worked exchange,
+stop before the final adviser response and write your own. Explain what you
+would record, what permission or process you must check and why the outcome
+remains open.
 
-**What you did well:**
-When Alex disclosed caregiving responsibilities, you immediately offered accommodations: *"Have you considered whether a temporary flexible schedule might help?"* This is legally and ethically sound: you're demonstrating that the company is willing to make reasonable adjustments, which protects against claims of unfair dismissal or discrimination.
-
-You also avoided making assumptions or probing inappropriately into Alex's personal life. You accepted the disclosure, offered support, and moved the conversation forward professionally.
-
-**Where you could improve:**
-You should explicitly document this conversation. At the end of the meeting, you could have said: "I'm going to document today's conversation, including your disclosure about your father's health and the flexible schedule accommodation we've discussed. You'll receive a copy of this documentation for your records."
-
-**Suggestion:**
-Always verbally confirm that documentation will be provided. This ensures transparency and gives the employee a chance to correct any misunderstandings immediately.
-
----
-
-**4. APPLICATION OF HR THEORY: 8/10**
-
-**What you did well:**
-You demonstrated understanding of **motivational theory** by balancing challenge with support. You didn't just impose standards. You co-created solutions by asking, *"Can we talk about what support might help you succeed during this PIP period?"*
-
-You also applied principles of **procedural justice** by ensuring Alex felt heard and treated fairly, which research shows increases acceptance of difficult decisions.
-
-**Where you could improve:**
-You could have applied **goal-setting theory** more explicitly. When finalising the PIP, you mentioned "clear performance targets," but you didn't collaboratively define them in the meeting. Research shows that when employees participate in setting their own goals, commitment and achievement increase.
-
-**Suggestion:**
-In your follow-up meeting, involve Alex in defining the specific, measurable targets for the PIP. For example: "What do you think is a realistic number of on-time deliverables over the next 30 days, given the support we're putting in place?" This increases ownership and reduces resistance.
-
----
-
-**OVERALL ASSESSMENT**
-
-**Likely Outcome:**
-Based on how you conducted this meeting, Alex is likely to:
-
-- Feel that the process was fair, even though it's stressful
-- Engage constructively with the PIP rather than resist or disengage
-- Utilise the flexible schedule accommodation
-- Have a reasonable chance of meeting the performance standards during the 60-day period
-
-**Why:**
-You established psychological safety (Alex felt safe disclosing personal information), you demonstrated empathy without compromising standards, and you offered concrete support. This is exactly the balance effective HR professionals must strike.
-
-**One Risk to Watch:**
-Ensure that the flexible schedule accommodation is documented and approved by the manager. If the manager later claims they weren't consulted or don't agree, this could create conflict. Always confirm that proposed accommodations are feasible with all stakeholders before committing to them in a meeting.
-
----
-
-**FINAL SCORE: 36/40 (90%)**
-
-This was a highly competent performance. You demonstrated strong communication skills, applied HR principles effectively, and handled a complex, emotionally charged situation with professionalism and empathy. The areas for improvement are minor and relate to documentation and collaborative goal-setting, both easily addressed in your follow-up meeting.
-
----
-
-## What Makes This Critique Valuable
-
-Notice what the AI's critique provides:
-
-1. **Specific feedback tied to theory** (procedural fairness, motivational theory, goal-setting theory)
-2. **Direct quotes from the student's performance** (not vague generalisations)
-3. **Clear scores** for each criterion (makes assessment transparent)
-4. **Actionable suggestions** (not just "do better," but *how* to do better)
-5. **Predictive analysis** (what would likely happen next in the real world)
-
-This level of detailed, personalised feedback would take a lecturer 20-30 minutes per student to write manually. The AI generates it in seconds, and it's consistent across all students.
-
----
-
-## How to Use This as an Assessment
-
-You have several options for how to structure this as a graded assignment:
-
-### Option 1: Simulation + Critique Submission
-
-**Student Requirements:**
-1. Conduct the simulation (submit the full transcript)
-2. Generate the AI critique using the provided prompt
-3. Write a 500-word reflective response addressing:
-   - Do you agree with the AI's critique? Why or why not?
-   - Choose one piece of critical feedback from the AI. How would you apply this in your next attempt?
-   - Identify one HR theory or legal principle that guided your approach. Did you apply it effectively?
-
-**What You Grade:**
-- Quality of the conversation (did they demonstrate the required skills?)
-- Depth of reflection (do they show genuine self-assessment and learning?)
-- Theoretical integration (can they connect practice to theory?)
-
-### Option 2: Simulation + Re-Do + Comparison
-
-**Student Requirements:**
-1. Conduct the simulation (first attempt)
-2. Generate the AI critique
-3. Conduct the same simulation again, incorporating the feedback
-4. Write a comparative analysis: What changed between attempt 1 and attempt 2? What did you learn?
-
-**What You Grade:**
-- Evidence of improvement between attempts
-- Ability to integrate feedback
-- Quality of self-directed learning
-
-### Option 3: Student-Designed Simulation
-
-**Student Requirements:**
-1. Design your own simulation scenario (write the setup prompt for a different HR situation)
-2. Justify why this scenario targets specific learning objectives
-3. Conduct the simulation
-4. Generate and respond to the critique
-
-**What You Grade:**
-- Quality of scenario design (does it create a meaningful learning challenge?)
-- Performance in the simulation
-- Reflective analysis
-
----
-
-## Adapting This for Different Conversational Skills
-
-The three-phase system works for any high-stakes conversation in business. Below are examples across different skills and disciplines:
-
-| Skill Area | Simulation Scenario | Key Learning Focus |
-|---|---|---|
-| **HR: Recruitment** | AI plays a candidate with vague answers | Behavioural interviewing, probing, bias awareness |
-| **HR: Conflict Resolution** | AI plays employee making complaint | Investigation, empathy, impartiality, documentation |
-| **HR: Negotiation** | AI plays union representative | Interest-based negotiation, legal boundaries, compromise |
-| **Management: Change Leadership** | AI plays resistant manager | Communication, stakeholder management, emotional intelligence |
-| **Marketing: Client Negotiation** | AI plays demanding client | Persuasion, objection handling, value communication |
-| **Supply Chain: Supplier Crisis** | AI plays supplier announcing delay | Problem-solving, negotiation, relationship management |
-| **Information Systems: Implementation** | AI plays resistant end-user | Change management, technical communication, adoption strategies |
-| **Accounting: Audit Findings** | AI plays finance manager | Compliance communication, relationship management, remediation planning |
-| **Business: Board Presentation** | AI plays questioning board member | Executive communication, strategic thinking, confidence |
-
-For each scenario, you simply adjust:
-1. The persona and context in the **Setup Prompt**
-2. The evaluation criteria in the **Critique Prompt**
-3. The learning objectives you're targeting
-
-The three-phase structure remains the same.
-
----
-
-## Cross-Discipline Applications: Flight Simulator Adaptations
-
-The flight simulator technique can be adapted for conversational skills in any business discipline. Below are examples showing how the three-phase system applies to different professional contexts.
-
-::: {.callout-tip title="Example: Tourism & Hospitality: Guest Complaint Resolution"}
-**Context:** A hotel manager must handle a serious guest complaint about service quality.
-
-**Setup Prompt Example:**
-```
-You are Sarah Thompson, a 32-year-old front office manager at LuxuryResort. You've managed the front desk for 3 years, but recent guest feedback surveys show declining satisfaction scores, particularly around check-in processes.
-
-BACKGROUND CONTEXT:
-- Guest satisfaction scores dropped from 4.8 to 3.9 out of 5
-- Three formal complaints about rude staff behaviour in past month
-- Check-in wait times averaging 45 minutes (target is 15 minutes)
-- You received informal feedback about team morale issues 6 weeks ago
-
-YOUR PERSONA AND behaviour:
-- You're defensive and believe guest expectations are unrealistic
-- You're dealing with high staff turnover and understaffing
-- You feel caught between corporate standards and local service culture
-- You'll initially blame external factors but open up with empathetic listening
-
-THE MEETING:
-I am the resort general manager addressing recent guest satisfaction declines and service quality concerns.
-
-Stay in character. Begin by responding to my opening statement.
-```
-
-**Key Learning Focus:**
-- Managing guest expectations vs. operational constraints
-- Addressing service quality issues in hospitality settings
-- Balancing customer satisfaction with staff well-being
-:::
-
-## Implementation Across Disciplines
-
-### Adapting the Critique Phase
-
-For each discipline, adjust the critique prompt to focus on discipline-specific competencies:
-
-**Marketing Critique Focus:**
-- Brand alignment and messaging consistency
-- Data-driven decision making
-- Stakeholder communication effectiveness
-
-**Accounting Critique Focus:**
-- Regulatory compliance and risk management
-- Documentation and audit trail requirements
-- Financial accuracy and transparency
-
-**Business Analytics Critique Focus:**
-- Data integrity and validation processes
-- Analytical methodology and assumptions
-- Business impact communication
-
-**Tourism & Hospitality Critique Focus:**
-- Service excellence and customer experience
-- Operational efficiency vs. service quality balance
-- Cultural sensitivity and local market understanding
-
-**Information Systems Critique Focus:**
-- Change management and user adoption strategies
-- Technical requirements vs. business needs alignment
-- Risk assessment and mitigation planning
-
-**Management Critique Focus:**
-- Leadership style and team motivation
-- Strategic alignment and goal setting
-- Organisational change management
-
-### Assessment Integration
-
-Use the same assessment options (simulation + critique, re-do + comparison, student-designed scenarios) across all disciplines, adjusting the evaluation criteria to match discipline-specific competencies and professional standards.
-
----
-
-## Common Questions
-
-**Q: Won't students just keep trying until the AI gives them a good score?**
-
-A: That's actually a *feature*, not a bug. In professional development, repetition until competence is exactly what we want. However, you can require students to submit *all* attempts, not just their best one. This shows their learning journey and prevents gaming the system.
-
-**Q: What if students share their transcripts and just copy each other's approach?**
-
-A: Design the scenarios with variability. Give each student a slightly different context (different employee persona, different performance issue, different complicating factor). The skills they're practicing remain the same, but the conversations will be unique.
-
-**Q: How do I know the AI's critique is accurate?**
-
-A: You should review a sample of critiques initially to ensure quality. However, because *you* write the critique prompt with specific criteria tied to your learning objectives, the AI's assessment will align with your rubric. You're essentially scaling your own assessment criteria.
-
-**Q: Can students do this with voice instead of text?**
-
-A: Yes! Many AI tools now support voice conversation mode. Students can literally *speak* their way through the simulation, making it even more realistic. The conversation can then be transcribed for the critique phase.
-
----
-
-## Your Action Step
-
-Before moving to the next chapter, try this:
-
-1. **Choose one difficult conversation** from your curriculum (in your discipline)
-2. **Write a setup prompt** that creates a realistic scenario (use the examples in this chapter as templates)
-3. **Test it yourself**: have the conversation with the AI
-4. **Generate a critique** of your own performance
-5. **Reflect:** Would this be valuable for your students?
-
-Once you've experienced the full cycle yourself, you'll be ready to introduce it to your class.
-
----
+A sound response stays within authority, avoids unnecessary disclosure and
+identifies a next step. It need not secure Alex's agreement or close the case.

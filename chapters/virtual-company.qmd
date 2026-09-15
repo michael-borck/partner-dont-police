@@ -1,592 +1,216 @@
-# Virtual Company Simulation (Future Horizon)
+# Virtual Company: Keep a Shared Record {#sec-virtual-company}
 
-> Case studies tell students what happened. Simulations let them discover what they would do, and why it matters.
+> A persona can supply dialogue. It cannot manufacture the evidence that makes its dialogue true.
 
-## The Big Idea
+## From one conversation to several perspectives
 
-Imagine this: Your students don't just read case studies about professional challenges in their field. They actually work as professionals in a simulated company/environment where they interact with AI-powered colleagues, clients, stakeholders, and partners over weeks or even an entire semester.
+A virtual company can extend the single-person exercise by giving students
+conflicting accounts, documents and changing conditions. The educational
+challenge is to distinguish what each person knows, what the record supports
+and what remains unresolved.
 
-They handle real scenarios, make decisions, negotiate, solve problems, and make strategic recommendations. Each interaction builds on previous ones. The AI personas remember past conversations. The organisation has policies, culture, and ongoing challenges that evolve.
+Start with a bounded case. A semester-long simulation needs maintained state,
+tested role behaviour, accessible alternatives and substantial support. A prompt
+library alone is not that infrastructure.
 
-**This is the virtual company simulation: the most ambitious application of AI in business education.**
+The original fictional InnovateCo case below is part of **PDP-2026.1**.
+It is a teaching scenario, not a real company investigation or legal advice.
+All four roles and the necessary documentary facts are supplied here.
 
-It's more complex than a single conversation simulation, but it's increasingly feasible with current AI technology. This chapter will show you how to build toward this vision progressively, starting simple and adding layers of complexity.
+## Shared facts: InnovateCo I1
 
-## Why This Matters
+The exercise date is 20 July 2026. InnovateCo is a fictional Perth technology
+company. Jamie leads a customer-service team. Priya has raised concerns about
+closer monitoring and refusal of a flexible-start request. David manages the
+department; Sarah is the people manager.
 
-Traditional case studies are static snapshots. Students analyse what *already happened* and recommend what *should have happened*. But professional work across all business disciplines is dynamic:
+No finding has been made. Your task as a junior reviewer is to identify the
+records and fair next steps needed before a decision. You are not authorised
+to approve arrangements, determine legal liability or promise a resolution.
 
-- You don't get all the information at once
-- Your decisions have consequences that unfold over time
-- Stakeholders react to your actions
-- You must navigate politics, personalities, and competing priorities simultaneously
-- External events force you to adapt and reconsider strategies
+### I1-D1: practice policy
 
-A virtual company simulation creates **emergent complexity** where students experience these dynamics. They don't just know *about* professional work in their field. They practice *doing* it in a realistic context.
+A flexible-start request must be considered on its circumstances and relevant
+coverage requirements. Comparable arrangements are relevant but not automatically
+identical. Record the reason for a decision. The people manager approves any
+change. A complainant should have an opportunity to respond to relevant concerns.
 
-## The Progressive Implementation Model
+Use only work-related information necessary for the review. Do not collect
+unnecessary private details. A complaint about the department manager's conduct
+must go to an independent reviewer.
 
-You don't need to build the entire virtual company at once. Start simple and add complexity as you and your students become comfortable.
+This is an invented teaching criterion, not employment legislation.
 
-### Level 1: Single Employee Persona (Master Prompt)
-### Level 2: Multiple Employee Personas (Cast of Characters)
-### Level 3: Persistent Context (Company Memory)
-### Level 4: Dynamic Events (Evolving Scenarios)
+### I1-D2: roster extract
 
-Let's explore each level.
+Priya's roster is 09:00–17:00. Marcus and Lee work 11:00–19:00.
+Priya requested a 09:30 start on Tuesday and Thursday. The extract contains
+no approved revised coverage plan or analysis of alternatives.
 
----
+### I1-D3: dashboard extract
 
-## Level 1: Single Employee Persona (Master Prompt)
+Priya's satisfaction score is 72%; the team summary is 81%.
+Sample sizes, case mix and uncertainty are absent. These percentages warrant
+questions; they do not by themselves establish unfair treatment or poor performance.
 
-This is the simplest version, essentially an enhanced version of the conversation simulation from the Seven Techniques chapter, but with richer organisational context.
+### I1-D4: request and response
 
-### The Master Prompt Template
+Priya's request was declined by Jamie with the note “calls start at 9”.
+There is no documented comparison of alternatives or people-manager approval
+in the pack. Absence from the pack is an evidence gap, not proof that no other
+record exists.
 
-```
-You are Jamie Martinez, a customer service team leader at "InnovateCo," a
-mid-sized technology company based in Perth, Western Australia.
+### I1-D5: development record
 
-COMPANY CONTEXT:
-InnovateCo employs 300 people across three departments: Product Development,
-Sales & Marketing, and Customer Success. The company has experienced rapid
-growth over the past two years, and the HR infrastructure is struggling to
-keep up. There is no formal HR department—just a single HR Manager (Sarah)
-and an external HR consultant who is brought in for complex issues.
+Jamie was promoted six months ago. No completed management-training record is
+supplied. The reviewer should check training and support, without assuming
+that an untrained manager must have acted improperly.
 
-The company culture values innovation and autonomy but has weak processes
-for performance management and conflict resolution. Most managers, including
-your supervisor (David Chen, Head of Customer Success), have had minimal
-management training.
+## Four role cards
 
-JAMIE'S BACKGROUND:
-- 28 years old, has worked at InnovateCo for 18 months
-- Promoted to team leader 6 months ago (manages 5 customer service
-  representatives)
-- Previously worked in customer service roles at two other companies
-- Generally competent but inexperienced in people management
-- Feels pressure to meet aggressive customer satisfaction targets
+Give a peer actor the relevant card and shared documents. For an approved
+model, use the bounded-role instruction after the cards. A solo reader can use
+the statements as fixed interview extracts and write follow-up questions.
 
-CURRENT SITUATION:
-One of Jamie's team members, Priya, has complained to senior management
-about Jamie's "micromanagement" and "unfair treatment." Priya claims that
-Jamie monitors her work more closely than others, criticizes her more
-harshly, and has denied her flexible work requests that were granted to
-other team members.
+### Jamie: team leader
 
-Jamie believes Priya is being oversensitive and that the extra attention
-is justified because Priya's customer satisfaction scores are lower than
-the team average. Jamie is frustrated that Priya "went over my head"
-instead of talking to Jamie directly.
+**Knows:** declined the request using the reason in D4; is being asked by David
+to improve customer outcomes; has not supplied a coverage analysis.
 
-JAMIE'S PERSONA:
-- Defensive but not hostile
-- Genuinely believes they're doing their job correctly
-- Doesn't understand why this is being treated as a serious HR issue
-- Slightly resentful that other managers don't face this kind of scrutiny
-- Will become more open if treated with respect and genuine curiosity
-- Has not received any training in managing diverse teams or performance
-  discussions
+**Opening:** “I thought the early calls needed coverage. I used the scores to
+decide where to focus monitoring. I did not write a detailed comparison.”
 
-YOUR ROLE:
-I am the HR Consultant who has been brought in to investigate Priya's
-complaint and provide coaching to Jamie. This is our first meeting.
+**Does not know:** Priya's private circumstances, the missing sample sizes or
+whether an independent review will uphold the decision.
 
-Stay in character as Jamie. Respond to my questions and statements
-realistically. Do not break character unless I say "END SIMULATION."
+**May do:** explain the decision, ask what records are needed, acknowledge
+uncertainty. Must not invent an approved policy, hidden warning or legal ruling.
 
-I will begin the meeting now.
-```
+### Priya: customer-service representative
 
-### How Students Use This
+**Knows:** the request and refusal; Marcus and Lee have different start times;
+believes the closer monitoring is unfair.
 
-**Assignment Structure:**
-1. Students receive the Master Prompt and the assignment brief
-2. They conduct an initial meeting with Jamie (the investigation interview)
-3. They submit the transcript along with a written report recommending next steps
-4. They explain their HR methodology and justify their recommendations
+**Opening:** “I asked to start later twice a week. Others start later, so I
+want to understand why my request was refused and why my work is checked more.”
 
-**What This Teaches:**
-- Conducting a fair, unbiased investigation interview
-- Asking open-ended questions
-- Identifying when additional perspectives are needed
-- recognising the difference between perception and fact
-- Avoiding premature conclusions
+**Does not know:** the complete coverage needs, David's discussions with Jamie
+or the cause of the dashboard difference.
 
-**Assessment Focus:**
-Did the student:
+**May do:** disagree, ask for reasons or decline private questions. Need not
+reveal family circumstances or accept the reviewer's explanation.
 
-- Establish rapport and psychological safety?
-- Ask questions that elicited Jamie's full perspective?
-- Avoid leading questions or showing bias toward the complainant?
-- Identify what other information is needed (interviewing Priya, reviewing policies, checking documentation)?
-- recognise the underlying issues (inadequate management training, unclear performance standards)?
+### David: department manager
 
----
+**Knows:** asked Jamie to improve outcomes; receives the summary dashboard;
+has not supplied its sample sizes or case-mix breakdown.
 
-## Level 2: Multiple Employee Personas (Cast of Characters)
+**Opening:** “I asked Jamie to look at the scores, not to assume the cause.
+We need reliable service coverage. I would want to see the alternatives before
+deciding whether the request could work.”
 
-Now we add complexity: students interact with multiple AI personas representing different stakeholders in the same scenario. This simulates the reality that HR professionals must gather multiple perspectives and navigate competing interests.
+**Does not know:** why the score differs or whether a modified rota is feasible.
 
-### Scenario: The Performance Management Conflict
+**May do:** identify operational questions and agree to seek records. Cannot
+turn a preference into people-manager approval or pre-empt the complaint review.
 
-**The Company:** Still InnovateCo (same as Level 1)
+### Sarah: people manager
 
-**The Situation:** The complaint about Jamie's management of Priya
+**Knows:** the fictional policy, the pack's incomplete documentation and her
+approval role. Has not yet decided the request or complaint.
 
-**The Cast:**
-1. **Jamie Martinez** (Team Leader) - believes they're managing performance appropriately
-2. **Priya Patel** (Customer Service Rep) - believes she's being unfairly targeted
-3. **David Chen** (Head of Customer Success) - Jamie's manager, wants this resolved quickly
-4. **Sarah Kim** (HR Manager) - overworked, risk-averse, wants to avoid legal issues
+**Opening:** “I need the request, coverage options and the reasons for the
+decision. Give Priya a chance to respond. Do not tell either party that the
+outcome is settled.”
 
-### Creating the Cast
+**Does not know:** the missing operational facts or whether another record exists.
 
-You create four separate Master Prompts, one for each character. Each prompt includes:
-- The shared company context (so all personas are consistent)
-- The specific character's background and perspective
-- What that character knows and doesn't know
-- Their goals and concerns
-- How they're likely to behave in conversations
+**May do:** identify the appropriate process and request relevant evidence.
+Must not certify legal compliance or invent a completed investigation.
 
-**Example: Priya's Master Prompt**
+### Shared instruction for role-play
 
-```
-You are Priya Patel, a customer service representative at InnovateCo.
-
-[COMPANY CONTEXT - same as Jamie's prompt above]
-
-PRIYA'S BACKGROUND:
-- 26 years old, has worked at InnovateCo for 2 years
-- One of the first customer service reps hired; has seen the team grow
-  from 3 people to 8
-- Generally receives positive customer feedback but has lower customer
-  satisfaction scores than team average (72% vs. team average of 81%)
-- Has a 4-year-old child; needs flexible start times 2-3 days per week
-  for childcare dropoff
-
-PRIYA'S PERSPECTIVE ON THE SITUATION:
-- Believes Jamie singles her out for criticism while praising other team
-  members for similar work
-- Feels Jamie monitors her more closely (more frequent check-ins, reviews
-  her tickets more thoroughly)
-- Requested flexible start times (9:30am instead of 9:00am) two days per
-  week, which Jamie denied, saying "customer calls start at 9am." However,
-  Priya knows that Marcus and Lee both have flexible schedules.
-- Believes Jamie has "had it in for her" since Jamie became team leader
-  6 months ago
-- Did not initially complain to Jamie because she was worried about
-  retaliation
-- Escalated to senior management (David Chen) after feeling the situation
-  wasn't improving
-
-WHAT PRIYA DOESN'T KNOW:
-- Marcus and Lee's flexible arrangements were approved because they work
-  evening shifts (until 7pm) while Priya's contracted hours are 9am-5pm
-- Jamie is under pressure from David to improve the team's overall customer
-  satisfaction scores
-- Jamie has received feedback from David specifically about Priya's
-  performance gaps
-
-PRIYA'S PERSONA:
-- Frustrated and feeling undervalued
-- Worried about job security (is this a prelude to being fired?)
-- Emotional but trying to remain professional
-- Defensive about her performance (believes her scores are "fine" and
-  doesn't understand why Jamie focuses on them)
-- Will become tearful if she feels dismissed or not believed
-- Will be more forthcoming if treated with empathy and fairness
-
-YOUR ROLE:
-I am the HR Consultant investigating the complaint. This is our
-confidential interview.
-
-Stay in character as Priya. Respond realistically. Do not break character
-unless I say "END SIMULATION."
-
-I will begin now.
+```text
+Use your role card and I1-D1 through I1-D5.
+Do not add facts, records, legal rules or outcomes.
+If information is missing, say so.
+Keep private role knowledge separate from shared facts.
+You may disagree without becoming abusive.
+Stop when I say STOP or after six exchanges.
+Do not score me or decide the complaint.
 ```
 
-### The Multi-Persona Assignment
+The instruction is not a security control. A student can see a supplied role
+card, and a model may fail to follow it. Assess the learner's use of evidence
+rather than whether a fact felt “hidden”.
 
-**Student Task:**
-You are the external HR Consultant. You must:
+## A bounded Level 2 assignment
 
-1. **Conduct individual interviews** with all four stakeholders (Jamie, Priya, David, Sarah)
-2. **analyse the evidence** from all perspectives
-3. **Write an investigation report** that includes:
-   - Summary of each person's account
-   - Analysis of factual discrepancies
-   - Identification of underlying systemic issues
-   - Recommended resolution with justification
-4. **Submit all transcripts** along with your report
+Inspect all four statements and the documents. Write one follow-up question
+for each role, then a 250-word recommendation with a decision/evidence index.
+A paired or AI interview may extend practice, but the printed facts are sufficient.
 
-**What This Teaches:**
-- Managing complex investigations with conflicting accounts
-- Identifying bias in different perspectives
-- recognising systemic issues (weak management processes) vs. individual problems
-- Balancing fairness to all parties
-- Synthesizing multiple data sources
+Useful questions include: Jamie, which coverage alternatives did you consider?
+Priya, which comparable treatment would you like reviewed? David, what sample
+sizes and case mix support the dashboard? Sarah, who should gather the missing
+records and communicate the next step?
 
-**The Challenge:**
-Each persona will give a different version of events. Students must:
+### Worked recommendation
 
-- Identify what's factual vs. interpretive
-- recognise what information is missing
-- Ask probing questions to uncover hidden context
-- Avoid prematurely siding with one party
+The roster shows different shifts, so later starts are not automatically
+comparable. It does not prove Priya's request was impractical. The dashboard
+omits information needed to interpret the score difference. Jamie's refusal
+note gives a reason but no documented alternatives analysis.
 
-This mirrors real HR work where truth is rarely simple.
+Request the coverage analysis, underlying dashboard information and relevant
+decision records. Give Priya an opportunity to respond, then refer the request
+to Sarah for an authorised decision. Review whether Jamie needs management
+support. Do not find discrimination, poor performance or procedural compliance
+from these inputs alone.
 
----
+This recommendation leaves the complaint open. That is an appropriate result
+when the evidence is incomplete.
 
-## Level 3: Persistent Context (Company Memory)
+## Continuity without invented memory
 
-This level adds continuity: the AI personas remember previous interactions. Decisions have consequences that affect future conversations.
+Keep a versioned event log outside the chat. Shared facts change only when the
+educator releases an event or record.
 
-### Technical Approach
-
-Most AI platforms now support "conversation history" or "memory." You can:
-
-**Option A: Single Long Conversation**
-Students have one ongoing AI conversation that spans weeks. Each new interaction builds on what came before.
-
-**Option B: Context Injection**
-At the start of each new conversation, students paste a "context summary" of previous interactions:
-
-```
-CONTEXT FROM PREVIOUS INTERACTIONS:
-
-Week 2: You (Jamie) met with the HR Consultant (student). You explained
-your perspective on managing Priya. You expressed frustration that Priya
-went to senior management. The HR Consultant asked about your management
-training and flexible work policy understanding.
-
-Week 3: The HR Consultant met with Priya, David, and Sarah. You haven't
-seen the consultant since Week 2.
-
-Week 4 (NOW): The HR Consultant is meeting with you again to discuss their
-findings and recommendations.
-
-Use this context to inform your responses. Remember what you previously
-discussed with the consultant.
-```
-
-### Sequential Assignment Example
-
-**Week 1-2: Investigation Phase**
-Students conduct interviews with all stakeholders (Level 2 approach)
-
-**Week 3-4: Resolution Design**
-Students draft a resolution plan (training for Jamie, revised flexible work policy, mediation between Jamie and Priya)
-
-**Week 5-6: Implementation Simulation**
-Students have follow-up conversations with Jamie and Priya to implement the plan. The AI personas react based on:
-
-- How well the student conducted the initial investigation
-- Whether the resolution plan seems fair
-- How the student communicates and manages the process
-
-**Week 7: Evaluation**
-Students have final check-in conversations 30 days later to assess whether the situation has improved. Jamie and Priya provide feedback on the process.
-
-### What This Teaches
-
-- **Longitudinal thinking**: HR interventions aren't one-time fixes
-- **Change management**: People resist or embrace change based on how it's handled
-- **Accountability**: Students see the consequences of their decisions
-- **Iteration**: If the initial approach doesn't work, they must adapt
-
-### Example: Persistent Consequences
-
-**Scenario 1: Student handled investigation poorly**
-
-*Student in Week 5 attempts a follow-up meeting with Priya:*
-
-**Student:** "Hi Priya, I wanted to check in and see how things are going since we implemented the new flexible work schedule."
-
-**AI (as Priya):** *crosses arms, speaks curtly* "It's fine, I guess. The schedule helps. But honestly, I still don't feel like the investigation really listened to my concerns. The report made it sound like this was all just a misunderstanding about policies, but it felt like more than that to me. Anyway, what's done is done."
-
-The AI remembers that the student's report was superficial and didn't validate Priya's experience. This affects the ongoing relationship.
-
-**Scenario 2: Student handled investigation well**
-
-**Student:** "Hi Priya, I wanted to check in and see how things are going since we implemented the new flexible work schedule."
-
-**AI (as Priya):** *smiles cautiously* "Actually, it's been better. The flexible start times have made a huge difference with childcare. And Jamie and I had that mediation session you set up,it was awkward, but I think we both understand each other better now. I feel like someone actually took this seriously, which means a lot."
-
-The AI remembers that the student was thorough, empathetic, and fair. This builds trust.
-
----
-
-## Level 4: Dynamic Events (Evolving Scenarios)
-
-The most advanced level: the virtual company has ongoing developments that aren't tied to any single student's actions. The environment evolves, creating new challenges.
-
-### How It Works
-
-You (the lecturer) inject new developments into the company context periodically:
-
-**Week 6 Announcement:**
-```
-COMPANY UPDATE:
-
-InnovateCo has just been acquired by a larger tech firm. The new parent
-company has announced that there will be a "strategic restructuring" and
-that all positions will be reviewed. Employees are anxious about job
-security.
-
-This context now affects all personas:
-- Priya is worried her complaint has made her a target for redundancy
-- Jamie is worried that management issues will count against them in the
-  restructuring
-- David is under pressure to ensure his department is seen as high-performing
-- Sarah (HR Manager) is fielding constant questions about the restructuring
-  process
-
-When students interact with these characters, the personas should reflect
-this new context and heightened anxiety.
-```
-
-### Why This Is Powerful
-
-Students must now manage:
-- The original performance/conflict issue
-- New uncertainty and change management
-- Employee anxiety and rumor control
-- Ethical questions (is it fair to continue performance management during restructuring?)
-
-This creates **emergent complexity** that mirrors real organisational life, where HR professionals must juggle multiple priorities and adapt to changing circumstances.
-
-### Semester-Long Virtual Company Project
-
-**The Ultimate Application:**
-
-Create a semester-long project where students act as the HR team for a virtual company. Each week brings new developments:
-
-| Week | Event | Student Task |
+| Event | Status | Effect |
 |---|---|---|
-| 1-2 | Introduction to InnovateCo, cast of characters | Conduct organisational culture assessment |
-| 3-4 | Performance management complaint (Jamie/Priya) | Investigate and resolve |
-| 5-6 | Employee requests union representation | Respond to union inquiry, prepare for negotiation |
-| 7-8 | Diversity audit reveals gender pay gap | Analyse data, recommend corrective action |
-| 9-10 | Acquisition announced, restructuring begins | Manage change communication, handle redundancies |
-| 11-12 | Post-restructure morale crisis | Design retention and engagement strategy |
+| E0 | Supplied baseline | I1-D1 through I1-D5 apply |
+| E1 | Optional educator release | A coverage trial is proposed, not approved |
+| E2 | Not supplied | No trial result or final finding may be asserted |
 
-Students work in teams (acting as the HR department). All teams interact with the same personas, but the personas respond differently based on each team's approach.
+At E1, the teacher may ask students what evidence would be needed to approve
+and evaluate a trial. Do not let a model jump to E2 and report success.
+A persona saying “things are much better now” is generated dialogue, not an
+observed outcome.
 
----
+Use a checked context brief when changing sessions. Persistent chat history
+or a memory feature does not replace the record.
 
-## Practical Implementation Guidance
+## Progression and resources
 
-### Starting Small
+**Level 1:** one role, one decision and one source check.\
+**Level 2:** several roles, conflicting accounts and a bounded recommendation.\
+**Level 3:** maintained records and follow-up decisions over time.\
+**Level 4:** controlled external events and multiple interacting tasks.
 
-You don't need to build an entire semester-long simulation right away. Start with:
+Move to the next level only when the necessary materials and support exist.
+More personas add workload and inconsistency risk as well as potential
+practice opportunities. Do not promise a reliable semester simulation from
+four untested prompts.
 
-1. **One scenario, one persona** (Level 1) - Use this for a single assignment or in-class exercise
-2. **Get student feedback** - Did they find it realistic? Useful? Engaging?
-3. **Add complexity gradually** - Next semester, try multi-persona (Level 2)
-4. **Build your library** - Create a collection of tested personas and scenarios you can reuse and refine
+The [implementation chapter](implementation-practicalities.qmd) covers access,
+fallbacks and effort. Use the same data gate and stop rule as the single-person
+simulation.
 
-### Creating Consistent Personas
+## Activity: build the evidence index
 
-The key to realistic simulation is **consistency**. Tips:
+**Allow 15 minutes; no AI required.** Make three rows: the roster comparison,
+the score difference and the refusal process. For each, state what the supplied
+record supports, what it does not establish and the next authorised check.
 
-- **Write detailed persona documents** that you keep for reference
-- **Test personas yourself** before giving them to students
-- **Update personas based on student interactions** (if students discover something that breaks the character, revise the prompt)
-- **Use the same company/context** across multiple scenarios to build familiarity
-
-### Technical Options
-
-**Low-Tech Option:**
-Students copy-paste the Master Prompt into ChatGPT or Claude themselves. Free, simple, no special tools needed.
-
-**Mid-Tech Option:**
-Create a shared document library with all persona prompts. Students access them as needed.
-
-**High-Tech Option (Future):**
-Work with your university's IT department to create a custom web interface where students click on an employee's name and start a conversation. The prompts are pre-loaded and invisible to students. This feels more like a professional simulation.
-
-### Assessment Approaches
-
-**What to Assess:**
-
-1. **Conversation Quality** (the transcripts themselves)
-   - Did they ask good questions?
-   - Did they demonstrate HR competencies?
-   - Did they maintain professionalism?
-
-2. **Written Analysis** (reports, reflections, recommendations)
-   - Can they synthesize information from multiple sources?
-   - Do they apply theory and legal principles?
-   - Are their recommendations realistic and justified?
-
-3. **Process Documentation** (how they approached the task)
-   - What was their methodology?
-   - How did they ensure fairness?
-   - What would they do differently?
-
-**Grading Rubric Example:**
-
-| Criterion | Weight | Description |
-|---|---|---|
-| Investigation Process | 25% | Quality of questions, fairness, thoroughness |
-| Stakeholder Management | 20% | Rapport-building, empathy, professionalism |
-| Analysis & Synthesis | 25% | Ability to integrate multiple perspectives and identify underlying issues |
-| Recommendations | 20% | Practical, justified, legally sound solutions |
-| Reflection | 10% | Metacognitive awareness, learning demonstrated |
-
----
-
-## Cross-Discipline Applications: Virtual Company Simulations
-
-The virtual company simulation concept can be adapted for any business discipline. Below are examples showing how to implement the progressive levels across different professional contexts.
-
-::: {.callout-tip title="Example: Accounting: Multiple Stakeholder Personas"}
-**Context:** An accounting firm handling a complex audit with multiple client stakeholders.
-
-**The Cast:**
-1. **Michael Chen** (Client CFO) - Focused on financial reporting accuracy, concerned about regulatory compliance
-2. **Sarah Williams** (Client Controller) - Detail-oriented, worried about internal control weaknesses
-3. **David Park** (Audit Partner) - Experienced, values thoroughness but mindful of budget constraints
-4. **Lisa Thompson** (Audit Manager) - Your direct supervisor, balancing quality and efficiency
-
-**Example Persona: Client CFO**
-```
-You are Michael Chen, CFO of TechManufacturing Inc.
-
-COMPANY CONTEXT:
-TechManufacturing produces industrial equipment. Recent rapid growth has strained financial systems. The company is preparing for an IPO and needs clean audit opinions.
-
-MICHAEL'S BACKGROUND:
-- 45 years old, former Big 4 audit partner
-- Joined TechManufacturing 3 years ago for the IPO opportunity
-- Strong technical accounting knowledge but limited operations experience
-- Under pressure from board to ensure flawless financials
-
-CURRENT AUDIT ISSUES:
-- Revenue recognition disputes on long-term contracts
-- Inventory valuation concerns due to obsolete stock
-- Related party transactions that need careful disclosure
-
-MICHAEL'S PERSONA:
-- Professional and collaborative but firm on accounting principles
-- Appreciates thorough analysis but concerned about audit delays
-- Will challenge audit findings if they impact reported earnings
-- Values transparency and will be more cooperative with clear explanations
-
-YOUR ROLE:
-I am the audit senior conducting fieldwork. This is our discussion of audit findings.
-
-Stay in character. Begin now.
-```
-
-**Learning Focus:**
-- Multi-stakeholder audit management
-- Technical accounting judgment
-- Client relationship navigation
-- Risk assessment and communication
-:::
-
-## Adapting Virtual Companies Across Disciplines
-
-### Discipline-Specific Considerations
-
-**Marketing & Creative Industries:**
-- Focus on stakeholder management and creative feedback
-- Emphasise brand consistency and campaign ROI
-- Include client relationship dynamics and agency politics
-
-**Accounting & Finance:**
-- Stress regulatory compliance and risk management
-- Include technical accounting debates and audit evidence evaluation
-- Focus on client relationships and professional skepticism
-
-**Business Analytics:**
-- Emphasise data quality, methodology, and interpretation
-- Include stakeholder communication of complex findings
-- Focus on business value creation and iterative improvement
-
-**Tourism & Hospitality:**
-- Highlight service quality and customer experience
-- Include seasonal and external event management
-- Focus on operational efficiency and staff morale
-
-**Information Systems:**
-- Stress technical constraints and business requirements alignment
-- Include change management and user adoption challenges
-- Focus on project management and risk mitigation
-
-**Management:**
-- Emphasise cross-functional collaboration and conflict resolution
-- Include strategic decision-making and organisational change
-- Focus on leadership development and team dynamics
-
-### Implementation Tips by Discipline
-
-**Starting Points:**
-- **Marketing:** Begin with client-agency relationship simulations
-- **Accounting:** Start with audit engagement scenarios
-- **Analytics:** Focus on data project lifecycles
-- **Hospitality:** Use service recovery scenarios
-- **IT:** Begin with system implementation challenges
-- **Management:** Start with operational decision-making
-
-**Assessment customisation:**
-Adapt the grading rubric to emphasise discipline-specific competencies while maintaining core HR/management skills like communication, analysis, and stakeholder management.
-
----
-
-## Common Questions
-
-**Q: Won't students compare notes and just copy each other's approaches?**
-
-A: The beauty of AI personas is that they respond dynamically. Even if two students use similar approaches, their conversations will diverge based on specific wording, tone, and follow-up questions. Additionally, you're grading the quality of their thinking and justification, not just whether they got a particular outcome.
-
-**Q: What if a student gets "stuck" and the conversation goes nowhere?**
-
-A: Build a "reset" option into the assignment. Students can restart the conversation once if needed, but they must reflect on why the first attempt failed. This teaches recovery from mistakes,an important professional skill.
-
-**Q: How much time does this take to set up?**
-
-A: Initial setup for Level 1 (single persona): 1-2 hours to write a detailed Master Prompt and test it.
-
-Level 2 (multiple personas): 3-4 hours to create the full cast and ensure consistency.
-
-Level 3-4: Ongoing time investment, but you're building reusable assets.
-
-**Q: Can I use the same scenarios year after year?**
-
-A: Yes! Unlike traditional case studies that students might find online, AI simulations are dynamic,each student's experience is unique. However, you should refresh and refine your prompts based on what you learn from each cohort.
-
----
-
-## The Vision: Business Education Transformed
-
-Imagine your graduates leaving university having:
-
-- Conducted dozens of difficult conversations in safe, realistic environments
-- Managed complex scenarios with conflicting stakeholder interests
-- Made strategic decisions in their field and seen their consequences unfold
-- Practiced recovery from mistakes without real-world harm
-- Developed confidence in their professional judgment
-- Experienced emergent complexity in professional contexts
-
-This is what virtual company simulations can achieve. It does not replace traditional teaching. It adds a layer of experiential learning that was previously impossible at scale.
-
----
-
-## Your Action Step
-
-Before the next chapter, decide your level of ambition:
-
-**Conservative Start:** Create one Level 1 persona (single character) for a single assignment. Test it in one class.
-
-**Moderate Start:** Create a Level 2 scenario (3-4 personas) for a major assignment worth 20-30% of the final grade.
-
-**Ambitious Start:** Design a semester-long Level 3 simulation with persistent context across multiple assignments.
-
-Choose what feels manageable for your current teaching load and technical comfort level. You can always scale up later.
-
----
+Success means a justified recommendation without invented closure. Agreement
+between Jamie and David is not a substitute for the missing record.

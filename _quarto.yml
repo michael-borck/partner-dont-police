@@ -2,14 +2,20 @@ project:
   type: book
   output-dir: _book
   resources:
+    - LICENSE
+    - LICENSE-CONTENT.md
+    - LICENSE-CODE.md
+    - cover.png
+    - images/**
     - tools/**
+    - resources/**
 
 book:
   title: "Partner, Don't Police: AI in the Business Classroom"
   author: "Michael Borck"
   isbn: "979-8-2542-3619-1"
   date: today
-  license: "CC BY"
+  license: "CC BY 4.0 International"
   description: "A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples."
   favicon: favicon.svg
   sidebar:
@@ -17,26 +23,29 @@ book:
       Paperback ISBN 979-8-2542-3619-1<br>
       [Support the open edition](https://www.amazon.com.au/s?k=9798254236191)
   chapters:
-    - copyright.qmd
     - index.qmd
+    - copyright.qmd
     - acknowledgments.qmd
     - chapters/introduction.qmd
     - chapters/understanding-ai.qmd
+    - chapters/ethics-integrity.qmd
     - chapters/getting-started.qmd
     - chapters/seven-techniques.qmd
     - chapters/managing-context.qmd
-    - chapters/flight-simulator.qmd
     - chapters/critique-toolkit.qmd
-    - chapters/ethics-integrity.qmd
-    - chapters/assessment.qmd
+    - chapters/flight-simulator.qmd
     - chapters/self-assessment.qmd
+    - chapters/assessment.qmd
+    - chapters/transforming-content.qmd
     - chapters/virtual-company.qmd
     - chapters/unit-design.qmd
-    - chapters/transforming-content.qmd
     - chapters/global-perspectives.qmd
     - chapters/implementation-practicalities.qmd
     - chapters/conclusion.qmd
   appendices:
+    - appendices/pilot-pack.qmd
+    - appendices/prompt-library.qmd
+    - appendices/workshop-guide.qmd
     - appendices/institutional-alignment.qmd
     - appendices/rubric-system.qmd
     - appendices/stress-test-sequence.qmd
@@ -46,13 +55,13 @@ book:
   other-links:
     - text: Download PDF
       icon: file-pdf
-      href: partner-dont-police.pdf
+      href: /partner-dont-police.pdf
     - text: Download EPUB
       icon: book
-      href: partner-dont-police.epub
+      href: /partner-dont-police.epub
     - text: Download llm.txt
       icon: robot
-      href: llm.txt
+      href: /llm.txt
     - text: GitHub
       icon: github
       href: https://github.com/michael-borck/partner-dont-police
@@ -67,10 +76,10 @@ book:
       href: https://www.amazon.com.au/s?k=9798254236191
     - text: Prompt Library
       icon: list-task
-      href: tools/prompt-library.md
+      href: /appendices/prompt-library.html
     - text: Workshop Guide
       icon: easel
-      href: tools/workshop-guide.md
+      href: /appendices/workshop-guide.html
 
 format:
   html:

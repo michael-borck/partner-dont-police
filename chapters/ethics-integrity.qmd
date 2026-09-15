@@ -1,876 +1,203 @@
-# Ethics, Data Governance & Integrity
-
-> The institution that tries to detect AI use will always be one step behind. The institution that teaches thoughtful AI use will always be one step ahead.
-
-## The Conversation You Must Have
-
-If you implement any of the ideas in this book, you will have this conversation, with students, with colleagues, possibly with administrators:
-
-**"Aren't you just teaching students to cheat?"**
-
-This chapter gives you the framework, language, and evidence to respond confidently. More importantly, it helps you position AI integration not as an academic integrity *problem*, but as an academic integrity *opportunity*: a chance to teach professional ethics and responsible technology use.
-
----
-
-## The Problem with Detection {#sec-problem-with-detection}
-
-Before we reframe the question, it is worth understanding why the most common answer, detect and punish AI use, does not work.
-
-Detection-based approaches to AI use assume that AI-generated work can be identified and discounted. In practice, three things undermine this:
-
-1. Detection tools produce false positives and false negatives at rates that make them unreliable as assessment instruments
-2. Iterative AI prompting, guided by specific personal context, produces output that is increasingly difficult to distinguish from genuine student work
-3. The components most commonly assumed to be AI-resistant (reflective writing, sociotechnical analysis, lecture cross-referencing) are now completable with freely available tools once students can feed unit materials directly into AI systems (see the Assessment chapter for a detailed treatment of this shift)
-
-There is a deeper problem that is rarely acknowledged: AI detection tools are built on a single assumption about how students use AI. They assume one-shot delegation: a student who hands a task to AI and submits whatever comes back. The output of that process has certain statistical properties, and detectors are trained to find them.
-
-But a student who uses AI well does not produce that kind of output. They brainstorm, ideate, push back, refine, reject, and iterate across many turns. The final product of that process may look similar on the surface to a one-shot output, but the path to get there is entirely different. Detection tools cannot see that path. They look at the destination, not the journey.
-
-This means that even if detection worked perfectly, it would still fail at the thing that matters. It cannot distinguish between the student who delegated and the student who genuinely thought with AI. Both might trigger a detector. Neither should be treated the same way. The question detection cannot answer is the only question worth asking: *how did the student engage with the material on the way to producing this?*
-
-That question leads to a more useful framing.
-
----
-
-## Reframing the Question
-
-The traditional framing:
-> "How do we prevent students from using AI inappropriately?"
-
-The professional framing:
-> "How do we teach students to use AI responsibly in their professional careers?"
-
-**The shift matters.**
-
-The first framing treats AI as a threat to be controlled. The second treats AI literacy as a learning objective to be developed.
-
-As a business educator across any discipline, you're not preparing students for a world without AI. You're preparing them for a world where AI tools will be discipline-specific but ubiquitous. Your graduates will use these tools:
-
-::: {.callout-tip title="Example: Marketing"}
-- Analyse customer data and segment audiences
-- Generate campaign strategies and content
-- Predict customer behaviour and preferences
-- Optimise pricing and promotional strategies
-- Analyse competitive positioning
-:::
-
-Your graduates will use these tools. The question is: **Will they use them competently and ethically, or incompetently and recklessly?**
-
-That's what this chapter is about.
-
----
-
-## The Three-Part Framework for Ethical AI Use
-
-This framework works for talking to students, colleagues, and administrators. It has three components:
-
-### 1. Transparency (Not Prohibition)
-
-**The principle:** Make AI use explicit, expected, and assessable rather than hidden and policed.
-
-**In practice:**
-- Tell students exactly when and how they can use AI
-- Provide the prompts and tools yourself
-- Assess their *use* of AI, not their *avoidance* of AI
-- Reward students who identify AI's errors and limitations
-
-**Why this builds integrity:**
-When AI use is transparent, students learn to use it openly and responsibly. When it's prohibited, students use it secretly and don't develop critical oversight skills.
-
-### 2. Critical Oversight (Not Blind Reliance)
-
-**The principle:** Teach students that AI is a tool requiring human judgment, not an authority to be trusted.
-
-**In practice:**
-- Design assignments where students must critique or override AI outputs
-- Require students to identify what AI gets wrong
-- Grade students on their ability to improve on AI suggestions
-- Show examples of AI failures (bias, errors, oversimplification)
-
-**Why this builds integrity:**
-Students learn that using AI thoughtfully is harder than avoiding it. They develop the professional habit of verification and critical thinking.
-
-### 3. Professional Relevance (Not Academic Abstraction)
-
-**The principle:** Connect AI use in coursework to AI use in professional practice.
-
-**In practice:**
-- Frame assignments as professional scenarios: "You're the HR manager using AI to draft a policy..."
-- Discuss workplace AI ethics: "What happens if your AI resume screening tool discriminates?"
-- Teach governance: "Who is accountable when AI-assisted decisions go wrong?"
-- Include AI literacy as a stated learning objective in your unit outline
-
-**Why this builds integrity:**
-When students see AI use as professional skill development rather than academic shortcut, they engage differently. They're not "cheating the system"; they're practicing for their careers.
-
----
-
-## Data Governance: The Practical Reality
-
-While your institution may have an approved enterprise LLM with data protections, the reality is that students will use multiple tools. Some will have strong data governance; others won't. This section addresses the data governance considerations you need to discuss with students and build into your assignment design.
-
-### The Data Governance Landscape
-
-Different LLMs handle data differently:
-
-**Enterprise/Approved Tools** (e.g., MS Copilot Enterprise, institutional Google Gemini)
-- Data is siloed and protected within the enterprise
-- Individual user data is isolated
-- Training data exclusions in place
-- Compliance with institutional requirements
-- **Appropriate for:** Course materials, assignments, institutional data
-
-**Consumer/Free Tools** (e.g., ChatGPT free tier, Bing Chat, standard Claude)
-- User conversations may be retained for model improvement
-- Data could potentially be used for training future models
-- Less transparency about data handling
-- No institutional protection or agreement
-- **Risk:** Course materials, assignment content, student work uploaded here can be incorporated into training data
-
-**The Student Reality**
-While you may recommend (or require) students use your institution's approved tool, students will inevitably use other tools:
-
-- More familiar interfaces
-- No institutional login required
-- Access on personal devices/accounts
-- Peer recommendations
-- "Just quickly checking" with ChatGPT
-
-This isn't a failure of your instruction. It is the reality of tool adoption. Your role is to help students make informed choices, not to prevent use of other tools entirely. For strategic thinking about larger-scale risks, see the **Strategic Risk Thinking** section later in this chapter.
-
-### Why Enterprise Tools Matter
-
-If your institution provides an enterprise AI licence (such as MS Copilot Enterprise or institutional Google Gemini), there are strong reasons to use it:
-
-- **Data Protection**: Your data and your students' work is siloed within your institution's instance
-- **Institutional Compliance**: Meets your institution's data governance and privacy requirements
-- **Professional Standard**: Reflects how enterprise professionals use AI tools in practice
-- **Approved Use**: This is the officially sanctioned tool for institutional work
-
-**What This Means in Practice:**
-- Course materials and institutional data should be processed through the approved enterprise tool
-- Student assignments containing course content are safer in enterprise-protected environments
-- Sensitive institutional information should never go into consumer LLMs
-- Teaching students to use enterprise tools is teaching them to work like professionals
-
-### Data Governance Considerations for Assignment Design
-
-Rather than prohibiting certain tools (impossible to enforce), design assignments that naturally encourage responsible data handling:
-
-#### Strategy 1: Use Generic/Fictional Scenarios
-
-Instead of: "Upload this real case study and ask the AI to analyse it"
-
-Try: "Here's a fictional scenario. Analyse it using the provided AI tool. What would you need to verify before applying this to real data?"
-
-**Benefit:** Students practice with realistic scenarios without uploading sensitive materials.
-
-#### Strategy 2: De-Identification Before Upload
-
-If students need to work with real or realistic data:
-- Require them to remove identifying information first
-- Create assignment steps: "1) Anonymize data, 2) Upload to AI, 3) Document what you removed"
-- Assess their decision-making about what constitutes sensitive information
-
-**Benefit:** Students learn data governance practices they'll use professionally.
-
-#### Strategy 3: Process Documentation Over Output Sharing
-
-Instead of: "Submit your full AI conversation transcript"
-
-Try: "Show the three key prompts you used and explain why you modified your approach between each"
-
-**Benefit:** Students demonstrate thinking without uploading entire conversations with potentially sensitive content.
-
-#### Strategy 4: Explicit Tool Choices in Assignment Design
-
-Be clear about which tool to use:
-- "Use the institutional AI tool for this assignment (login with your university credentials)"
-- "You may use any AI tool for brainstorming, but final analysis should use the approved enterprise tool"
-- "If using a non-approved tool, anonymize all case data first"
-
-**Benefit:** Students make informed choices and understand why tool selection matters.
-
-#### Strategy 5: Structured Prompts in Approved Tools
-
-Rather than leaving students to compose prompts in any tool they choose, provide:
-- Prepared prompts in the approved enterprise tool
-- Shared workspace conversations students can access
-- Pre-configured scenarios they interact with, rather than create
-
-**Benefit:** You control what data enters the system while students still develop prompting skills.
-
-### Student-Facing Guidance on Data Governance
-
-Here's language you can adapt for student-facing materials:
-
-```
-DATA GOVERNANCE AND AI TOOL SELECTION
-
-This university has an approved enterprise AI tool for coursework because it protects
-your data and the university's data. Here's what this means:
-
-WHAT HAPPENS WITH YOUR DATA:
-- Enterprise AI tool: Your conversations are siloed within the university's secure instance.
-  Your data is not used to train other models. Your work is protected.
-
-- Other AI tools (ChatGPT, etc.): Your conversations may be retained and potentially
-  used to improve those services. Anything you upload could theoretically be seen
-  by the company or used in their training.
-
-WHAT THIS MEANS FOR THIS COURSE:
-
-DO use the approved enterprise tool when:
-- Working with course materials or case studies
-- Analysing real (or realistic) business scenarios
-- Uploading assignment drafts for feedback
-- Working with any data you wouldn't want public
-
-DO use other tools when:
-- Brainstorming general ideas
-- Exploring concepts with simple, generic examples
-- Personal learning outside formal assignments
-
-DON'T upload to any AI tool:
-- Course materials before they're public
-- Student work (yours or classmates') without permission
-- Real company data or confidential information
-- Anything marked as confidential or proprietary
-
-IF YOU USE OTHER TOOLS:
-- Remove identifying information first (anonymize real data)
-- Document what you removed and why
-- Be prepared to explain your tool choice in class discussion
-- Understand that your data may not be protected the same way
-
-PROFESSIONAL PRACTICE:
-In your careers, you'll work with different tools in different contexts. This course
-teaches you to think about data governance: Where does data go? Who can see it?
-What risks exist? These are questions you'll ask professionally, not just in class.
+# Ethics, Data Governance & Integrity {#sec-ethics}
+
+> Decide what may enter the tool before asking what the tool can do with it.
+
+## A decision before the first prompt {#sec-data-gate}
+
+This chapter belongs before the first activity because a useful output does not
+justify an inappropriate input. Use the fictional [pilot pack](../appendices/pilot-pack.qmd)
+while learning. Do not substitute a real student, employee, client or research
+participant to make the exercise more realistic.
+
+Apply the same first-use gate to drafting, simulations, feedback, research and
+workshops:
+
+1. **Classify the material.** Is it public, confidential, personal, sensitive,
+   contract-restricted or otherwise controlled? Who might be identifiable from
+   combinations of details?
+2. **Check authority and rights.** Are you permitted to process it for this
+   purpose and share it with this service? Possessing a document is not the same
+   as having permission to upload it.
+3. **Check the approved account and features.** Institutional approval should
+   cover the use, account, data class and enabled features, not just a brand name.
+4. **Check handling.** Consider retention, training use, access, sharing, external
+   search/integrations and relevant processing locations. Ask the institution's
+   appropriate adviser where information is unclear.
+5. **Choose a route.** If the requirements are not met, use synthetic material,
+   an approved alternative or the non-AI version. Do not upload first and seek
+   permission afterwards.
+
+Record the decision briefly, without copying the sensitive information into
+the record. An approved service may still be inappropriate for a particular
+dataset or purpose.
+
+### What enterprise protection does and does not establish
+
+Enterprise services can offer contractual protections and administrative controls.
+They do not automatically establish your institution's permission for every
+use. Features and connected services can have different boundaries.
+Microsoft, for example, distinguishes Copilot protections from web-search
+processing. Check the actual service and configuration.
+[Microsoft privacy and protections](https://learn.microsoft.com/en-us/copilot/privacy-and-protections).
+
+OAIC recommends due diligence appropriate to an AI product's intended use,
+including access, oversight and privacy/security risks. Its guidance also
+recognises re-identification risk. Removing names is not a universal clearance
+to use an unapproved tool.
+[OAIC guidance on commercial AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products).
+
+De-identification is a contextual risk decision, not a “find and replace names”
+exercise. A rare role, incident date, small cohort or distinctive quotation may
+still identify someone. It also does not remove copyright, contractual or
+research-ethics restrictions. For classroom practice, a genuinely invented case
+is usually easier to govern than a disguised real case.
+
+## Keep different data risks separate
+
+A conversation can be retained as a service record without being used for
+model training. If it enters training, the resulting model is not simply a
+searchable folder of every document; nevertheless, memorisation and extraction
+can occur. A retrieval-enabled system can also access stored documents through
+a separate mechanism. These are different pathways.
+
+Published extraction research shows that some training text can be recovered
+from language models. That rules out blanket claims of impossibility. It does
+not show that another user can retrieve any arbitrary one-off upload.
+[Carlini et al.](https://arxiv.org/abs/2012.07805),
+[Nasr et al.](https://arxiv.org/abs/2311.17035).
+
+Training exclusions address one pathway, not every retention, sharing or security
+risk. Likewise, similar ideas appearing elsewhere establish neither theft nor
+independent invention. Teach students to identify the evidence needed for a
+claim instead of substituting reassurance or suspicion.
+
+Credentials, access tokens and unnecessary personal information do not belong
+in classroom prompts. If sensitive material is accidentally uploaded, stop the
+activity, preserve appropriate incident details without further disclosure and
+follow institutional reporting procedures. Do not ask the model to certify
+that the information has been deleted.
+
+## Transparent use with real boundaries {#sec-integrity-principle}
+
+Students should know what help is permitted, what must be disclosed and what
+they must demonstrate independently. Permission is task-specific. An institution
+may legitimately restrict assistance at a particular assurance point while
+supporting its use during practice.
+
+A suitable statement might say:
+
+```text
+In this activity, use only the supplied fictional pack.
+You may rehearse with a partner, the printed exchange
+or the approved institutional AI service.
+
+Submit your response and two decision notes. Explain
+what assistance you used and which claims you checked.
+Do not submit unrelated private conversations.
+
+The changed-case task is completed independently under
+the conditions stated in the assessment brief.
+Access adjustments are arranged before the task.
+
+Ask if a tool, data source or form of help is unclear.
+Institutional academic-integrity procedures apply.
 ```
 
-### Red Flags: Data Governance Issues
+Adapt this to the actual unit policy. Do not claim that disclosure makes every
+use permissible, or that any uncritical use automatically meets the institution's
+definition of misconduct. Poor work and dishonest conduct are different questions.
 
-Watch for assignments or discussions where students might be uploading sensitive information inappropriately:
+## Detection and assurance {#sec-problem-with-detection}
 
-**Red Flag:** Student uploads course materials verbatim into consumer tool
-- **Response:** Not acceptable for this assignment. Use the approved enterprise tool, or anonymize first.
+A detector result is not direct evidence of the student's learning process.
+Neither is a long, polished conversation. A student may generate a plausible
+reflection; a genuine learner may write briefly or struggle to explain under
+pressure.
 
-**Red Flag:** Student shares screenshot of conversation with real client names/data
-- **Response:** Opportunity to discuss professional confidentiality and data governance in context.
+The [assessment chapter](assessment.qmd) therefore combines selected process
+evidence with meaningful independent demonstrations. These support a learning
+judgement but do not remove the need for fair misconduct procedures.
 
-**Red Flag:** Assignment design that assumes students will upload confidential materials
-- **Response:** Redesign to use fictional scenarios or require de-identification first.
+Avoid giving students mixed messages. If the assignment permits extensive
+assistance, do not later penalise its mere use. If it restricts assistance,
+explain the restriction and the assurance purpose. Follow-up questions should
+be relevant, accessible and consistent with published expectations.
 
-**Red Flag:** No mention of data governance in unit outline or assignment instructions
-- **Response:** Add explicit guidance about which tools to use and why.
+## Teach verification without forced opposition
 
-### Institutional Policy Reference
+Critical engagement does not mean always finding fault. A learner should be able
+to accept a correct calculation, reject an unsupported inference and say that
+there is not enough information to decide.
 
-As an educator, you can reference:
-- Your institution's Data Governance Policy
-- The terms of your enterprise AI licence
-- Professional standards in your discipline about data handling
-- Privacy and confidentiality principles relevant to your field
+The pilot's marketing example illustrates all three. The higher click-through
+rate can be calculated. The claim of greater profit lacks cost data. A causal
+claim cannot be established from different audiences and weeks alone. The same
+response can reasonably contain agreement, rejection and uncertainty.
 
-This grounds data governance in institutional reality, not abstract rules.
+A model-generated persona is not an independent expert. Agreement between
+three personas does not create three sources. Check against the supplied records,
+reliable external material or an authorised person, depending on the question.
 
-### Understanding the Real Risks
+## Sensitive scenarios and student wellbeing
 
-Data governance matters. But the conversation around AI and data privacy has become so fear-driven that many organisations refuse to engage with AI at all, which carries its own risks. If you are going to teach students to make informed professional decisions about AI, you need to understand what the actual risks are, not just the imagined ones.
+Performance plans, discrimination complaints and termination conversations can
+be useful teaching contexts, but students may have personal experience of them.
+Provide advance notice, a stop instruction, a neutral route and a debrief.
 
-**What actually happens to your data**
+Do not reward disclosure of private information, emotional conformity or success
+at making the simulated employee agree. A respectful decision may be to pause,
+seek independent advice or leave the outcome unresolved.
 
-When you type a prompt into ChatGPT, Claude, or similar tools, your text is sent to a server, processed, and a response is generated. Your conversation may be logged for safety monitoring or, on some free tiers, used as training data. But "used as training data" does not mean what most people think it means.
+For the pilot, the invented policy is the exercise criterion. It is not legal
+advice. If teaching actual Australian workplace bullying law, use the complete
+applicable definition and scope: health/safety risk and the distinction for
+reasonable management action matter, as well as repeated unreasonable behaviour.
+[Fair Work Ombudsman guidance](https://www.fairwork.gov.au/employment-conditions/bullying-and-harassment).
+Have an appropriately qualified person review consequential legal teaching.
 
-Training an LLM means adjusting billions of numerical parameters so that the model becomes slightly better at predicting useful responses across all inputs. Your document becomes a vanishingly small statistical signal distributed across those billions of parameters. It is not stored as a retrievable file. It is not sitting in a database that someone can search. It is dissolved into the model's general capability, like a drop of ink in a swimming pool.
+## Equity is a design requirement
 
-**Can someone extract your document from a model?**
+Conversational skill does not erase differences in access, language support,
+model capability, disability or available time. Provide a route that uses the
+same learning criteria without a paid subscription or personal account.
 
-This is the fear you hear most often: someone will jailbreak the model and pull out what you uploaded. The short answer is no. Jailbreaking an LLM means manipulating its behaviour, getting it to ignore safety guidelines, adopt a persona, or produce content it normally would not. It does not give anyone access to other users' conversations or uploaded documents. These are fundamentally different things. A jailbreak is like persuading a librarian to recommend a banned book. It is not like breaking into the library's filing cabinet.
+When the capability is planning and justification, paper or an accommodated
+spoken response may work. When the capability is live communication, a written
+case analysis alone is not an equivalent demonstration: provide an appropriate
+interaction, such as a structured peer/facilitator role-play.
 
-There is a narrow category of research called "training data extraction" where researchers have demonstrated that models can sometimes reproduce fragments of text they were trained on, typically memorised sequences like phone numbers or code snippets that appeared many times in the training corpus. But reproducing a specific document that one user uploaded in one conversation is not a realistic attack. The signal is too weak, too distributed, and too entangled with billions of other inputs. And remember the key point from the "What Are LLMs?" chapter: LLMs interpolate, they do not retrieve. There is no mechanism by which another user could query the model and get your document back, because the model never stored it as a document in the first place.
+Do not require every private chat as proof of effort. Ask for bounded extracts
+and permit working notes where appropriate. Set retention and access rules for
+submitted evidence through institutional processes.
 
-Enterprise-tier tools (where your institution has a data processing agreement) typically exclude your data from training entirely, which makes even this theoretical risk disappear.
+## A bounded ethics discussion
 
-**The convergent development fallacy**
+A fictional recruitment tool ranks applicants with career gaps lower.
+Three candidates question the decision. The supplied facts do not establish
+the cause or legal outcome.
 
-You will hear stories like this: "I was developing an idea using an AI tool, and then the company released something very similar. They must have stolen my concept." This is almost certainly convergent development, not intellectual property theft. Thousands of professionals are working on similar problems, reading similar research, responding to the same market signals. When multiple people independently arrive at similar solutions, that is innovation working as expected, not evidence of data theft.
+Ask learners what evidence would distinguish a relevant job criterion from an
+unfair proxy, who is authorised to review the system, and what should happen
+while the concern is investigated. They should not diagnose the algorithm by
+asking another model whether it is biased.
 
-This matters for teaching because students (and colleagues) will encounter this pattern and may draw the wrong conclusion. Teaching them to recognise convergent development as normal helps them engage with AI tools without unfounded suspicion.
+Speculative systemic risks can be worthwhile extension topics, but should be
+labelled scenarios rather than predictions. A claimed “95% accurate” system
+needs a defined population, outcome, error distribution and validation method
+before that number can inform an ethical decision.
 
-**What risks ARE real**
+## Activity: make the upload decision
 
-The risks worth taking seriously are practical and specific:
+**Allow 10 minutes; no AI required.** Apply the five-step gate to:
 
-- **Personally identifiable information.** Pasting student names, ID numbers, health records, or employee details into any external tool is a genuine compliance risk, regardless of whether the tool trains on your data. The data leaves your institutional boundary. That is the issue, not model extraction.
-- **Regulated or classified data.** If your discipline involves data subject to specific legislation (health records, financial data, legal case files), those regulations apply to AI tools just as they apply to email or cloud storage.
-- **Credentials and access tokens.** Pasting passwords, API keys, or access credentials into a chat is an immediate operational security risk.
-- **Professional liability.** Using AI-generated content without verification in contexts where accuracy has legal or professional consequences (audit reports, medical advice, legal opinions) is a real risk, but it is a verification problem, not a data leakage problem.
+- The fictional P1 pack.
+- A placement client's spreadsheet with names removed.
+- A student's draft containing a personal disclosure.
 
-**The risk of not using AI**
+For each, write what you know, what permission or handling detail is missing
+and the safe alternative. The first can support a bounded practice activity
+after the account/use check. The second and third need further authority and
+risk assessment; removing names or choosing an enterprise logo is insufficient.
 
-The "non-zero risk means do not use it" stance deserves scrutiny. Every technology decision involves trade-offs. Email can be intercepted. Cloud storage can be breached. Video conferencing can be recorded. We manage these risks through policy and practice, not prohibition.
-
-Organisations that refuse to engage with AI because of overestimated data risks face a different set of consequences: graduates unprepared for AI-augmented workplaces, educators unable to scale personalised learning, and institutions falling behind peers who made informed decisions rather than fearful ones. The question is not whether there is risk. The question is whether the risk is proportionate to the concern, and whether avoidance creates risks of its own.
-
-**What to teach students**
-
-The goal is professional judgement, not paranoia. Teach students to ask three practical questions before uploading anything to an AI tool:
-
-1. **Does this contain information about a real, identifiable person?** If yes, de-identify first or use an enterprise tool.
-2. **Is this subject to specific regulations or confidentiality agreements?** If yes, check whether your tool's data handling meets those requirements.
-3. **Would I be comfortable if this text appeared in a public forum?** If no, think carefully about whether an enterprise tool or a fictional scenario would serve just as well.
-
-These three questions cover the real risks without falling into the trap of treating every interaction as a potential data breach.
-
----
-
-## Student-Facing Language: Setting Expectations
-
-You need clear, direct communication about AI use. Here's a model you can adapt:
-
-### Example: Unit Outline AI Policy Statement
-
-```
-ARTIFICIAL INTELLIGENCE USE IN THIS UNIT
-
-In professional practice across all business disciplines, you will use AI tools
-to support decision-making, analysis, and communication. This unit teaches you to
-use AI responsibly and critically.
-
-WHEN AI USE IS EXPECTED:
-- Assignment 2 (Conversation Simulation / Scenario Analysis): You will interact
-  with AI-generated scenarios or personas and demonstrate your professional skills
-- Assignment 3 (Self-Assessment): You will use the provided AI critique prompt
-  to assess your draft before submission
-- [Any other assignments where AI engagement is part of learning objectives]
-
-WHEN AI USE IS PERMITTED:
-- Brainstorming ideas and approaches
-- Generating practice questions and scenarios for exam preparation
-- Checking grammar and clarity in written work
-- Exploring concepts you don't fully understand yet
-- Researching and understanding professional standards and frameworks
-
-WHEN AI USE IS NOT PERMITTED:
-- Final exam (closed book, no technology unless specified)
-- Any assignment where instructions explicitly state "no AI tools"
-- Any assessment explicitly designed to test recall or your unaided thinking
-
-WHAT YOU MUST DO WHEN USING AI:
-- Use it as a tool that supports YOUR thinking, not replaces it
-- Critically evaluate AI outputs—don't assume they're correct
-- Be able to explain and justify any AI-assisted work in your own words
-- Acknowledge AI use where required (e.g., "I used Claude to generate initial
-  analysis, which I then critically reviewed and revised based on...")
-
-ACADEMIC INTEGRITY EXPECTATIONS:
-Using AI inappropriately (e.g., submitting AI-generated work as your own without
-critical engagement) is academic misconduct, just like plagiarism.
-
-If you're ever unsure whether your AI use is appropriate, ask before submitting.
-I'm here to help you learn to use these tools well and ethically.
-```
-
-### Example: First-Day Class Discussion
-
-**What to say:**
-
-> "Let's talk about AI. Some of you are probably already using ChatGPT or similar tools. Some of you are worried that using AI is cheating. Some of you are wondering if I'm going to try to detect and punish AI use.
->
-> Here's my position: **AI tools exist, and you'll use them in your professional careers. My job is to teach you to use them wisely and ethically.**
->
-> In this unit, we'll use AI openly in some assignments. You'll learn when AI is helpful, when it's risky, and when human judgment must override AI recommendations. That's a professional skill you'll need.
->
-> I'm not interested in playing 'gotcha' with AI detection software. I'm interested in whether you can think critically, justify your decisions, and demonstrate competent professional practice. If you can do that with AI assistance, great. If you use AI to avoid thinking, I'll know, because your work won't demonstrate understanding.
->
-> Questions or concerns about this approach?"
-
-**Why this works:**
-- Sets a clear, positive tone
-- Positions you as a guide, not a cop
-- Acknowledges student anxiety
-- Makes professional relevance explicit
-- Invites dialogue
-
----
-
-## Designing "Integrity-Resistant" Assignments
-
-Some assignments are easier to misuse with AI than others. Here's how to design assessments that are inherently resistant to misuse:
-
-### Principle 1: Assess Process, Not Just Product
-
-**Vulnerable design:** "Write a 1500-word essay analysing a workplace conflict."
-- Student can paste this into AI and submit the output
-
-**Integrity-resistant design:** "Conduct a simulated investigation interview (submit transcript), then audit your own process against procedural fairness criteria."
-- Student must engage in real-time conversation (can't be pre-written)
-- Assessment focuses on methodology visible in transcript
-- Self-audit requires metacognitive engagement
-
-### Principle 2: Require Evidence of Thinking
-
-**Vulnerable design:** "Recommend a solution to this [discipline] problem."
-- AI can generate a plausible recommendation
-
-**Integrity-resistant design:** "AI generated three solutions to this problem [provide them]. Critique each option, identify which one is best and why, and explain what the AI got wrong."
-- Student must think beyond what AI provided
-- Requires critical evaluation, not just generation
-- Makes AI outputs the starting point, not the end point
-
-**Examples by discipline:**
-- HR: "Critique three AI-generated performance management approaches"
-- Finance: "Critique three AI-generated investment recommendations"
-- Supply Chain: "Critique three AI-generated supplier selection strategies"
-- Marketing: "Critique three AI-generated campaign strategies"
-
-### Principle 3: Make Personal Context Essential
-
-**Vulnerable design:** "Analyse the pros and cons of [generic professional concept]."
-- Generic question AI can answer generally
-
-**Integrity-resistant design:** "Based on your earlier [simulation/analysis/project], analyse how [concept] would address the specific situation while meeting [organisational/business requirement]."
-- Requires integration of previous personalised work
-- Context is unique to each student
-- Generic AI response won't fit
-
-**Examples by discipline:**
-- HR: "Based on your PIP simulation with Jamie, analyse flexible work approaches"
-- Finance: "Based on your company analysis, evaluate investment timing strategies"
-- Supply Chain: "Based on your supplier evaluation, analyse relationship strategies"
-- Marketing: "Based on your segment analysis, evaluate messaging approaches"
-
-### Principle 4: Assess Revision and Iteration
-
-**Vulnerable design:** Submit final work only
-- No visibility into how it was created
-
-**Integrity-resistant design:** Submit first draft, AI feedback received, revised draft, and reflection on changes made
-- Process is visible and assessable
-- Shows learning trajectory
-- Difficult to fake iterative improvement
-
-### Principle 5: Require Justification of Choices
-
-**Vulnerable design:** "Create a recruitment interview guide."
-- AI can generate a complete guide
-
-**Integrity-resistant design:** "Create an interview guide. For each question, justify why you chose it, what competency it targets, and what poor response would sound like. Identify two questions the AI generated that you rejected and explain why they were inadequate."
-- Requires deep understanding, not just production
-- Student must demonstrate judgment beyond AI capability
-- Reveals whether they understand what they're submitting
-
----
-
-## Red Flags for AI Misuse (And How to Address Them)
-
-Even with well-designed assignments, some students will try to misuse AI. Here's how to identify and respond:
-
-### Red Flag 1: Sudden Quality Shift
-
-**What you see:** Student whose previous work was weak suddenly submits sophisticated analysis.
-
-**Response approach:**
-- **Don't immediately accuse.** There could be legitimate reasons (they got help from writing centre, they finally understood the concept, etc.)
-- **Ask questions:** "Your analysis has improved significantly. Can you walk me through your thinking process on this particular section?"
-- **Request elaboration:** "This point about organisational justice theory is interesting. Can you explain how you see it applying to this specific scenario?"
-
-**If genuine learning:** They can explain their thinking.
-**If inappropriate AI use:** They struggle to explain or elaborate.
-
-### Red Flag 2: Work That Doesn't Match Assignment Context
-
-**What you see:** Student used generic AI response that doesn't fit the specific scenario or constraints you provided.
-
-**Example:** Assignment asked for Australian employment law context, student submitted response referencing US legislation.
-
-**Response approach:**
-- **Point out the mismatch:** "I notice you've referenced Title VII of the Civil Rights Act, but this assignment requires Australian context. Can you explain how this applies to our scenario?"
-- **Provide opportunity to revise:** "I think you may have used a resource that wasn't contextually appropriate. Please resubmit with correct jurisdictional references."
-
-**Teaching moment:** Use this to discuss the importance of contextual verification when using AI tools professionally.
-
-### Red Flag 3: No Evidence of Process in Process-Based Assessment
-
-**What you see:** Student submitted required components but shows no genuine engagement (e.g., self-audit identifies no mistakes, reflection is superficial).
-
-**Response approach:**
-- **Return for revision:** "Your self-audit suggests your performance was perfect. Reflective practice requires identifying areas for growth. Please resubmit with honest self-assessment."
-- **Offer guidance:** "Everyone makes mistakes in complex HR conversations. Look specifically at moments where the employee seemed frustrated or defensive. What might you have done differently?"
-
-**Teaching moment:** Explain that honest self-assessment is more valuable than false perfection.
-
-### Red Flag 4: Can't Explain or Defend Work in Person
-
-**What you see:** High-quality written submission, but student can't discuss it in office hours or oral follow-up.
-
-**Response approach:**
-- **For high-stakes situations:** Schedule a brief oral examination: "I'd like to discuss your assignment. Can you walk me through your main recommendation and why you chose it?"
-- **Frame it as learning:** "I was impressed by your analysis. I'd love to hear more about your thinking process."
-
-**If inappropriate use is confirmed:**
-- Follow university academic misconduct procedures
-- Use it as a teaching moment about professional accountability
-
----
-
-## Teaching AI Ethics Through Professional Scenarios
-
-One of the most powerful ways to address integrity is to make it a learning objective. Teach students to identify ethical problems with AI use *through discipline-specific scenarios*.
-
-::: {.callout-tip title="Example: Finance Exercise: The Flawed AI Investment Recommendation"}
-**Assignment:**
-
-> "Use AI to recommend an investment portfolio allocation. Then conduct a critical audit:
-> - What assumptions did the AI make about risk tolerance and time horizon?
-> - What did the AI miss about current market conditions?
-> - What tax or regulatory implications are overlooked?
-> - How would you revise this recommendation with your professional judgment?
->
-> Your grade is based on how thoroughly you identify problems and limitations, not on the quality of AI's original output."
-
-**What students learn:**
-- AI can confidently recommend financially risky strategies
-- Assumptions must be verified and challenged
-- Professional accountability for recommendations can't be delegated
-:::
-
-**Common Learning Outcome Across All Disciplines:**
-- AI can confidently generate problematic recommendations
-- Critical verification and improvement is necessary
-- Professional accountability can't be delegated to AI
-
-### Exercise 2: The AI Bias and Fairness Challenge
-
-**Discipline-specific scenarios:**
-
-::: {.callout-tip title="Example: HR: The Biased Resume Screening Tool"}
-> "Your company uses an AI resume screening tool. You notice it consistently ranks candidates from certain universities higher and flags career gaps as negative. Three rejected candidates have complained the process seems unfair.
->
-> As the HR manager:
-> 1. What are the ethical concerns with this AI tool?
-> 2. What's your legal risk?
-> 3. Who is accountable for the AI's decisions?
-> 4. What would you do to address this situation?"
-:::
-
-**What students learn (across all disciplines):**
-- Algorithmic bias is a real professional issue
-- Using AI doesn't eliminate human responsibility
-- Professionals must advocate for fair processes even when using technology
-
-### Exercise 3: The Over-Reliance Problem
-
-**Discipline-specific scenarios:**
-
-::: {.callout-tip title="Example: Supply Chain: The Over-Reliance on Demand Forecasting"}
-> "You used AI to forecast demand and optimise inventory. You implemented major supplier and inventory changes based on this. Demand changed unexpectedly and you now have significant stockouts.
->
-> Reflection questions:
-> 1. What assumptions might the AI have made incorrectly?
-> 2. What was your responsibility to validate the forecast?
-> 3. How do you explain this to operations and customers?
-> 4. What does this teach you about AI forecasting?"
-:::
-
-**What students learn (across all disciplines):**
-- AI analysis isn't inherently correct
-- Professional judgment can't be outsourced
-- They're accountable for recommendations they present, regardless of AI assistance
-
----
-
-## Responding to Colleague and Administrator Concerns
-
-You may need to justify your approach to colleagues or administrators who are skeptical about AI integration.
-
-### Concern: "This undermines academic standards"
-
-**Response:**
-
-> "Actually, it raises standards. I'm no longer testing whether students can recall information. I'm testing whether they can apply it in realistic, dynamic scenarios. I'm assessing higher-order thinking: critical evaluation, professional judgment, and ethical reasoning. These are harder to demonstrate than memorization."
-
-### Concern: "How do you know they're learning anything?"
-
-**Response:**
-
-> "I assess their process, not just their final product. I can see their thinking in conversation transcripts, in their critiques of AI outputs, and in their reflective analysis. When students can identify what AI got wrong and explain why, they're demonstrating deep understanding."
-
-### Concern: "What about group work? Students can hide behind each other"
-
-**Response:**
-
-> "That's a real concern, and AI sharpens it. But the answer is the same: assess the process, not just the product. When each group member submits their own AI conversation transcript alongside the group deliverable, individual engagement becomes visible. You can see who thought deeply and who delegated. The group assessment chapter covers this in detail, including a marks structure that mirrors how professional accountability actually works."
-
-For the full treatment of group assessment, including the rewritten section problem and the free rider via AI problem, see the Group Assessment in the AI Era chapter.
-
-### Concern: "This doesn't align with university academic integrity policies"
-
-**Response:**
-
-> "University policies typically prohibit *unacknowledged* or *uncritical* use of external sources. My approach makes AI use acknowledged and requires critical evaluation. Students aren't hiding AI use. They're demonstrating competent use. That's consistent with academic integrity principles, just applied to a new tool."
-
-**Supporting evidence:**
-- Many universities are updating policies to allow appropriate AI use
-- Professional accreditation bodies are recognising AI literacy as essential
-- Employer expectations include ability to use AI tools responsibly
-
-### Concern: "What if other lecturers don't agree?"
-
-**Response:**
-
-> "That's fine, because pedagogical approaches can vary across units. I'm being transparent with students about expectations in *my* unit. If other lecturers prohibit AI use, students can follow those different expectations. Professional practice requires adapting to different contexts anyway, and this models that."
-
----
-
-## The Bigger Picture: AI Literacy as Graduate Capability
-
-Position AI literacy as a graduate capability alongside communication, critical thinking, and ethical practice.
-
-### What AI Literacy Means for Business Graduates (All Disciplines)
-
-**Competent graduates across all disciplines should be able to:**
-
-1. **Identify appropriate use cases**
-   - When is AI helpful? (data analysis, initial drafts, generating options, research)
-   - When is AI risky? (sensitive decisions, final strategic recommendations, high-stakes judgments)
-   - When is human judgment essential? (ethical dilemmas, complex stakeholder situations, judgment calls)
-
-2. **Evaluate AI outputs critically**
-   - Does this align with legal/regulatory/professional requirements?
-   - Is this ethically sound?
-   - What assumptions has the AI made?
-   - What context or domain expertise is missing?
-
-3. **Maintain accountability**
-   - Understanding that using AI doesn't eliminate professional responsibility
-   - Knowing when to verify AI recommendations with subject matter experts
-   - Documenting decision-making processes and AI role
-
-4. **recognise bias and limitations**
-   - **HR:** Algorithmic bias in recruitment, performance, compensation
-   - **Finance:** Bias in risk models, forecasting overconfidence
-   - **Supply Chain:** Oversimplification of complex relationships, geopolitical blindspots
-   - **Marketing:** Demographic bias in targeting, cultural insensitivity
-   - **IT:** Technical feasibility blindness, security oversights
-   - **All disciplines:** Over-generalisation of complex situations, missing domain context
-
-**This is professional education, not just academic integrity management.**
-
----
-
-## A Final Ethical Consideration
-
-Here's a question to leave with:
-
-**Is it ethical to graduate professionals who don't know how to use AI responsibly in their field?**
-
-When your graduates enter the workforce across all business disciplines, they will encounter AI in their work:
-
-::: {.callout-tip title="Example: Accounting & Finance"}
-- AI-powered investment recommendation systems
-- Automated risk assessment and credit scoring
-- Algorithmic trading and portfolio management
-- AI-generated financial forecasts and analysis
-:::
-
-If they don't understand how to evaluate these tools critically, advocate for responsible use, and identify when human oversight is essential, **they will cause harm**, not through malice but through incompetence.
-
-Your responsibility as an educator isn't to protect students from AI. It's to prepare them to be ethical, competent professionals in an AI-augmented world.
-
-Teaching them to use AI transparently, critically, and responsibly in your course isn't lowering standards.
-
-**It's fulfilling your educational duty.**
-
----
-
-## The Integrity Principle Worth Keeping {#sec-integrity-principle}
-
-The academic integrity line that holds up under scrutiny is not *don't use AI* or even *declare AI use*, but rather: **do not misrepresent how you arrived at your ideas.** That principle applies equally to undeclared collaboration with a classmate, copying from a blog, or delegating wholesale to an AI tool.
-
-The student who genuinely thinks with AI has nothing to hide. An assessment design that makes that thinking visible serves everyone better than one that tries to detect its absence. For practical approaches to making thinking visible through transcript analysis and process evidence, see the Assessment chapter.
-
----
-
-## A Note on Institutional Risk {#sec-institutional-risk}
-
-The pedagogical case for a transparency-based approach is strong. For heads of school and academic integrity committees, the institutional risk argument may be equally persuasive.
-
-Detection-based approaches expose institutions to two risks simultaneously: false accusations against students who used AI legitimately, and missed cases where AI use was genuinely problematic. Both generate disputes, appeals, and workload. Neither makes the institution look good.
-
-A transparency-based approach reduces both risks. When the process of thinking is the assessed component, there is less ambiguity about what is being evaluated and more defensible evidence to point to when questions arise. Marking decisions become easier to justify, disputes become less likely, and the conversation with a student who underperformed shifts from "we think you used AI" to "your process evidence did not demonstrate sufficient engagement," which is a far more defensible position.
-
-This approach also future-proofs the assessment design. Detection tools chase a moving target as AI capabilities improve. An assessment that measures engagement does not need to change every time a new model is released.
-
----
-
-## Conversation, Not Delegation: The Real Equity Question
-
-The prevailing assumption in AI-assisted learning is that better models produce better outcomes. It follows, in this framing, that students with access to frontier models have an inherent advantage over those using smaller, cheaper, or locally-hosted alternatives. This assumption is worth examining carefully, because it may be wrong in an instructive way.
-
-Consider what a student is actually doing when they use AI for a learning task. If the goal is precision, a correct legal citation, an accurate drug dosage, a verified financial figure, then model quality matters enormously, and the assumption holds. But most learning tasks in higher education are not precision tasks. They are *idea tasks*: analyse this scenario, propose a solution, construct an argument, identify the risks. For these tasks, the student does not need the AI to be right. They need the AI to be generative enough to be worth arguing with.
-
-A smaller model that surfaces three plausible but imperfect framings of a problem, challenged and refined through genuine conversation, may produce better thinking than a frontier model that delivers one polished answer the student accepts without question.
-
-### The Core Insight
-
-This is the core insight of the **Conversation, Not Delegation** framework. The value of AI in learning is not in the quality of its output but in the quality of the thinking it provokes. Conversation amplifies whatever thinking the student brings to the interaction. Delegation replaces it. A student who converses with a modest model is exercising and developing their own reasoning. A student who delegates to a frontier model may be borrowing reasoning they cannot yet reproduce independently.
-
-### The Active Risk of Delegation
-
-The danger of delegation is not just shallow learning. It carries an active risk that no AI use does not. When a student does not use AI, they know the limits of what they know. When a student delegates to AI and accepts the output uncritically, they may leave with confident possession of misinformation, a plausible-sounding answer that is wrong, incomplete, or contextually inappropriate, absorbed without the friction that would have revealed its flaws.
-
-In this respect, passive delegation to even the most capable model can produce worse outcomes than no AI assistance at all. The model's fluency and confidence make its errors harder to detect, not easier. And with smaller models, where hallucination and inaccuracy are more frequent, uncritical delegation is more dangerous still. Students risk absorbing misinformation dressed in the language of authority.
-
-### The Conversational Nudge as Protection
-
-The conversational nudge addresses this directly. By structurally inviting the student to push back at every response, to notice when something does not match expectations, to name what seems wrong, it creates the friction that uncritical acceptance suppresses. That friction is protective regardless of model quality. It is arguably more important with weaker models, where errors are more frequent, but it matters with frontier models too, where errors are rarer but more convincingly dressed.
-
-Three cognitive traps, named in *Conversation, Not Delegation*, are worth teaching students explicitly:
-
-- **Gell-Mann Amnesia:** A student catches AI errors in their strongest subject, then trusts it uncritically in subjects they find harder. The remedy is to apply the same scepticism everywhere, and more scepticism, not less, in unfamiliar territory.
-- **The Sycophancy Trap:** AI is trained to agree. A student who asks "is my analysis good?" will almost always hear yes. A student who asks "what are the three weakest points in my analysis?" will get genuinely useful feedback. Teaching students to prompt past the flattery is a concrete, teachable skill.
-- **The AI Dismissal Fallacy:** The opposite trap, dismissing work because AI was involved. "That is just ChatGPT" is not a critique. If the reasoning is sound, the origin does not matter. Students need to evaluate content on its merits, not its source.
-
-Naming these traps makes them visible. Visibility makes them resistible. Consider introducing them early in any unit that involves AI, so students have the vocabulary to recognise these patterns in their own behaviour.
-
-### The Equity Implication
-
-The implication for equity is significant. If conversation quality compensates for model quality, then the gap between students with paid frontier access and those without is not the defining equity problem in AI-integrated education. The defining problem is whether every student, regardless of the tool they are using, has been taught and scaffolded to engage conversationally rather than to delegate.
-
-That is a curriculum and pedagogy problem. It is one universities can actually solve.
-
----
-
-## Your Action Step
-
-Before the Appendices, draft your own AI use statement for your next unit outline. Use the framework from this chapter:
-
-1. **When AI use is expected** (specific assignments)
-2. **When AI use is permitted** (general study support)
-3. **When AI use is not permitted** (exams, specific constraints)
-4. **What students must do** (critical engagement, acknowledgment)
-5. **Academic integrity expectations** (consequences of misuse)
-
-Write it in your own voice. Make it clear, direct, and positive.
-
-Then review it against this question: **Would a student reading this understand how to use AI appropriately and why it matters for their professional development?**
-
----
-
----
-
-## Strategic Risk Thinking: Black Swan and Grey Swan Events
-
-This section extends the ethical framework from immediate concerns to strategic thinking about systemic risks. While the previous sections focus on what professionals should do **today**, this section addresses how they should think about **tomorrow's** challenges.
-
-### From Immediate Ethics to Strategic Foresight
-
-The ethical frameworks discussed earlier help students make good decisions in specific situations. But professionals also need to think about larger-scale risks that could affect their entire organisation or industry.
-
-This isn't about predicting the future. It's about building the capacity to adapt to whatever future emerges. In the context of AI, we distinguish between two types of high-impact events:
-
-#### Black Swan Events
-**Definition:** Unpredictable, massive-impact events that are rationalized in hindsight. In AI, these are "unknown unknowns": scenarios not in our training data or risk models that fundamentally change technology or society.
-
-**Key Characteristics:**
-- **Rarity:** Outliers with no historical precedent
-- **Impact:** Extreme consequences (catastrophic or revolutionary)  
-- **Retrospective Predictability:** Explanations created after the fact
-
-#### Grey Swan Events  
-**Definition:** Predictable and known to be possible, but considered unlikely. In AI, these are "known unknowns": risks we know exist but often ignore due to complexity or cost.
-
-**Key Characteristics:**
-- **Foreseeability:** We know it could happen
-- **Neglect:** Often dismissed as too expensive or complex to prevent
-- **Impact:** Significant, cascading consequences
-
-### Discipline-Specific Strategic Risks
-
-Understanding these events through your discipline's lens makes them concrete and actionable for students.
-
-::: {.callout-tip title="Example: Supply Chain & Logistics"}
-### Grey Swan Events
-
-**Total Supply Chain Visibility Failure:** Over-reliance on AI-driven supply chain optimisation creates systemic fragility. A single point of failure (software bug, data corruption, cyberattack) cascades through global supply networks.
-
-**Autonomous Shipping Disruption:** Self-driving ships, trucks, and drones simultaneously experience a critical software failure or coordinated cyberattack, halting global logistics.
-
-### Black Swan Events
-
-**Resource Discovery AI:** An AI system discovers entirely new materials or energy sources that render current supply chain models obsolete, transforming global economics overnight.
-
-**Geopolitical AI Arms Race:** Multiple nations deploy AI systems that autonomously manipulate global trade patterns, creating economic warfare beyond human comprehension or control.
-:::
-
-### Teaching Strategic Risk Management
-
-This framework helps students move beyond immediate ethical concerns to systemic risk thinking. Here's how to integrate it into your teaching:
-
-#### Risk Assessment Exercises
-
-**Assignment Example:**
-> "Identify three Grey Swan events specific to your discipline. For each, analyse:
-> - What early warning signs should professionals monitor?
-> - What preventive measures can organisations implement now?
-> - What contingency plans should be in place?
-> - How would this event affect your professional role and responsibilities?"
-
-#### Strategic Planning Simulations
-
-**Classroom Activity:**
-> "Your organisation's board asks you to prepare a risk briefing on AI-related threats. Focus on Grey Swan events that are predictable but often neglected. Present your analysis and recommendations for mitigation strategies."
-
-#### Ethical Decision-Making Under Uncertainty
-
-**Discussion Prompt:**
-> "A Grey Swan event occurs: AI monitoring systems become so sophisticated that they can predict employee resignations with 95% accuracy. As a manager, you receive a list of employees likely to quit in the next six months. What are the ethical implications? How do you use this information responsibly?"
-
-### Professional Response Framework
-
-Teach students this practical approach to strategic risk management:
-
-#### For Grey Swan Events (Predictable but neglected)
-- **Monitor Actively:** Establish early warning systems
-- **Prepare Specifically:** Develop targeted mitigation strategies  
-- **Build Resilience:** Create organisational capacity to absorb shocks
-- **Plan Contingencies:** Have specific response protocols ready
-
-#### For Black Swan Events (Unpredictable)
-- **Build General Resilience:** Create flexible, adaptive organisations
-- **Maintain Redundancy:** Avoid single points of failure
-- **Cultivate Critical Thinking:** Develop human judgment that can handle novelty
-- **Foster Learning Culture:** Create organisations that can adapt quickly
-
-### Assessment Integration
-
-This framework supports several key learning outcomes:
-
-**Critical Thinking:** Students analyse complex, uncertain situations
-**Risk Management:** Professional skill in identifying and mitigating threats  
-**Strategic Planning:** Long-term thinking beyond immediate concerns
-**Ethical Reasoning:** Considering implications of technological development
-**Professional Responsibility:** Understanding obligations in uncertain futures
-
-### From Classroom to Career
-
-The distinction between Black and Grey Swan events helps students understand different levels of professional responsibility:
-
-**Immediate Responsibility (earlier in this chapter):**
-- Making ethical decisions in specific situations
-- Following professional standards and guidelines
-- Ensuring fair and unbiased AI use
-
-**Strategic Responsibility (This section):**
-- Thinking about systemic risks and organisational resilience
-- Planning for uncertain futures
-- Building adaptive capacity in their organisations
-
-**Key Teaching Message:** Professional excellence in the AI era requires both immediate ethical judgment AND strategic foresight. The best professionals don't just avoid doing wrong today; they help their organisations prepare for and adapt to whatever the future may bring.
-
----
-
-**Next Section Preview:** The Appendices provide resources for implementation: a framework for aligning AI integration with your institution's learning outcomes, rubrics for assessing AI-enhanced work, and a stress test sequence for validating your assessment designs.
+Keep your resulting rule beside the first student-facing prompt. Safety advice
+that appears only in a later appendix will not guide the upload decision.

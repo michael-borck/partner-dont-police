@@ -1,607 +1,143 @@
-# Global Perspectives and Adaptation
-
-> The frameworks are transferable. The assumptions behind them are not. Every context demands its own adaptation.
-
-## Introduction
-
-While this book was developed within an Australian educational context, AI integration in business education is a global phenomenon. This chapter provides frameworks for adapting the principles and practices discussed throughout this book to different international contexts, educational systems, and cultural environments.
-
-**Core principle:** Effective AI integration must respect local educational traditions, cultural norms, and regulatory requirements while maintaining pedagogical excellence.
-
----
-
-## Understanding Educational Contexts
-
-### Australian Context (Book Foundation)
-
-#### Educational System Characteristics
-- **Tertiary structure:** Unified system with clear quality frameworks (TEQSA)
-- **Semester timing:** February-June and July-November
-- **Assessment approach:** Mix of continuous assessment and final examinations
-- **Industry integration:** Strong focus on workplace relevance and practical skills
-- **Student diversity:** Significant international student population
-
-#### AI Integration Environment
-- **Institutional support:** Growing investment in educational technology
-- **Regulatory framework:** Developing guidelines for AI use in education
-- **Industry partnership:** Strong connections between universities and workplaces
-- **Cultural context:** Multicultural society with inclusive education focus
-
-### North American Context
-
-#### United States Educational System
-- **Structure:** Diverse system with public, private, and community colleges
-- **Semester timing:** August-December and January-May
-- **Assessment:** Heavy emphasis on continuous assessment and participation
-- **Accreditation:** Regional accreditation bodies with varying standards
-- **Student demographics:** Diverse student populations with varying preparation
-
-#### Canadian Educational System
-- **Provincial jurisdiction:** Education primarily managed at provincial level
-- **Semester structure:** September-December and January-April
-- **Assessment balance:** Mix of coursework and examinations
-- **Bilingual context:** English and French language considerations
-- **International focus:** Strong emphasis on global perspectives
-
-#### AI Integration Considerations
-- **Regulatory diversity:** Varying state/provincial regulations on AI use
-- **Legal compliance:** FERPA, privacy laws, and accessibility requirements
-- **Industry connections:** Strong ties between business schools and corporate partners
-- **Technology access:** Varying levels of institutional AI tool provision
-
-### European Context
-
-#### United Kingdom Educational System
-- **Structure:** Unified system with quality assurance (QAA)
-- **Academic year:** September-June with three terms
-- **Assessment emphasis:** Balance of coursework and final assessments
-- **Quality frameworks:** Strong focus on teaching excellence and student satisfaction
-- **Brexit impact:** Changing relationships with European educational systems
-
-#### Continental European System
-- **Bologna Process:** Harmonized system across 48 countries
-- **Credit transfer:** ECTS system for student mobility
-- **Degree structure:** Bachelor-Master-Doctorate progression
-- **Language diversity:** Multiple languages of instruction
-- **Quality assurance:** European Standards and Guidelines for Quality Assurance
-
-#### AI Integration Environment
-- **GDPR compliance:** Strict data protection and privacy regulations
-- **Accessibility requirements:** Comprehensive digital accessibility mandates
-- **Multilingual support:** Need for AI tools across multiple languages
-- **Public funding:** Strong public investment in educational technology
-
-### Asian Context
-
-#### East Asian Educational Systems
-- **China:** Gaokao system, intense competition, strong government direction
-- **Japan:** Semester system, emphasis on group work and harmony
-- **South Korea:** Highly competitive, strong technology integration
-- **Singapore:** Meritocratic system, strong government support for AI
-
-#### Southeast Asian Systems
-- **Varied structures:** Colonial influences mixed with local traditions
-- **English medium:** Many programs taught in English
-- **Growing economies:** Rapid development and technology adoption
-- **Student mobility:** Strong international student exchange programs
-
-#### AI Integration Considerations
-- **Language diversity:** Need for multilingual AI support
-- **Cultural context:** High-context communication styles
-- **Government involvement:** Strong state direction in technology adoption
-- **Mobile access:** High smartphone usage and mobile-first approaches
-
-### Developing Country Context
-
-#### Educational Challenges
-- **Resource constraints:** Limited funding for educational technology
-- **Infrastructure issues:** Unreliable internet and power systems
-- **Teacher training:** Varying levels of digital literacy among educators
-- **Access inequality:** Significant urban-rural digital divides
-- **Language complexity:** Multiple local languages with varying digital support
+# Adapting to a Different Teaching Context {#sec-global}
 
-#### AI Integration Opportunities
-- **Mobile learning:** Leapfrogging desktop technology to mobile solutions
-- **Open source solutions:** Free and open AI tools to reduce cost barriers
-- **Adaptive technologies:** customised solutions for local contexts
-- **International collaboration:** Partnerships with better-resourced institutions
+> Ask about the learners and institution in front of you.
 
----
+## Transfer the questions, check the assumptions
 
-## Cultural Adaptation Frameworks
+The book's examples have an Australian business-education starting point.
+They are not templates for every institution, culture or legal system.
+Adapt the evidence, criteria, language and conditions, not just the names.
 
-### Communication Styles
+A national label does not tell you an individual student's communication
+preferences or an institution's assessment rules. Ask students and local
+colleagues about the actual constraints. Avoid prompting a model to stereotype
+an entire region as indirect, hierarchical or technologically advanced.
 
-#### High-Context vs. Low-Context Cultures
+## A worked adaptation decision
 
-| Cultural Dimension | Low-Context Examples | High-Context Examples | AI Adaptation Strategies |
-|---|---|---|---|
-| **Communication** | Direct, explicit, detailed | Indirect, nuanced, relationship-based | Prompt for cultural context awareness |
-| **Feedback** | Direct criticism, explicit improvement areas | Indirect suggestions, face-saving approaches | Train AI to recognise cultural feedback patterns |
-| **Decision-making** | Individual, quick, explicit | Group-based, consensus-seeking | Include stakeholder consultation scenarios |
-| **Conflict resolution** | Direct confrontation, legal frameworks | Mediation, relationship preservation | Design culturally appropriate resolution scenarios |
+Consider a **hypothetical** delivery of the PDP pilot in a multilingual class
+where some students use shared phones and connectivity is intermittent.
+These are supplied planning constraints, not research findings about a country.
 
-#### Implementation Examples
+The capability remains planning and justifying a fair first response.
+The educator provides the source cards in accessible print and digital form,
+checks translated terminology with a suitable reviewer and permits a typed,
+handwritten or appropriately accommodated spoken response.
 
-**Low-Context Adaptation (US, Germany, Scandinavia):**
-```
-You are a business consultant working in a direct communication culture.
+The model route is optional. Students can use the fixed exchange and feedback.
+No personal account is required. Where a student chooses another language,
+the marking plan must support judging the same reasoning rather than relying
+on an unchecked machine translation.
 
-Provide feedback that is:
-- Specific and action-oriented
-- Focused on individual performance
-- Based on objective criteria
-- Delivered in straightforward manner
+For the employment context, replace the invented policy only after suitable
+local review. Until then, label it clearly as an exercise criterion and do not
+present the activity as teaching local employment law.
 
-Avoid indirect language or relationship-focused framing.
-```
+These adaptations preserve the capability while changing how students access
+and demonstrate it. They do not claim that all differences can be solved by
+translating the prompt.
 
-**High-Context Adaptation (Japan, China, Arab cultures):**
-```
-You are a business consultant working in a relationship-focused culture.
+## A local adaptation record
 
-Provide feedback that is:
-- Respectful of hierarchy and relationships
-- Focused on group harmony and improvement
-- Delivered through appropriate channels
-- Sensitive to face-saving considerations
+| Question | Evidence to obtain |
+|---|---|
+| What capability is required? | Unit/programme outcomes and assessor agreement |
+| What rules apply? | Institutional policy and appropriate local advice |
+| What access is available? | Student input and practical device/format tests |
+| What language support is needed? | Learner needs and reviewed terminology |
+| What could cause harm or exclusion? | Student/support-team consultation |
+| What shows independent capability? | Outcome-matched assessment design |
 
-Include cultural context and indirect communication patterns.
-```
+Record who checked each item and what remains uncertain. A model's country
+summary is not an institutional approval.
 
-### Power Distance Considerations
+## Legal summaries need scope
 
-#### High Power Distance Cultures
-- **Characteristics:** Respect for authority, hierarchical structures, formal communication
-- **Examples:** Many Asian, African, and Latin American cultures
-- **AI Adaptation:** Include appropriate formal language and hierarchical scenarios
+GDPR does not universally require explicit consent for every processing activity.
+Article 6 provides several lawful bases; other rules, including special-category
+conditions, may also matter. The appropriate basis and safeguards require a
+context-specific decision.
+[GDPR official text](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng).
 
-#### Low Power Distance Cultures  
-- **Characteristics:** Informal communication, flat structures, challenging authority
-- **Examples:** US, Australia, Scandinavian countries
-- **AI Adaptation:** Include collaborative scenarios and informal communication
+Under FERPA, rights transfer to an eligible student at age 18 or attendance at
+a postsecondary institution, including attendance below 18. A blanket rule
+about parental consent for all minors is therefore misleading in this setting.
+[US Department of Education guidance](https://studentprivacy.ed.gov/resources/eligible-student-guide-family-educational-rights-and-privacy-act-ferpa).
 
-**Prompt Examples:**
+These examples illustrate why short regional recipes are unreliable. Use
+institutional privacy and legal support for the actual activity. Do not ask
+students to upload records while the applicable permissions are unresolved.
 
-**High Power Distance:**
-```
-You are a senior manager in a hierarchical organisation.
+## Distinguish proposals from observed outcomes
 
-Communicate this decision to your team:
-- Acknowledge your authority and responsibility
-- Show respect for organisational structure
-- Provide clear direction and expectations
-- Maintain appropriate formal tone
+A proposed adaptation may be sensible without having been tested. State what
+would be measured: independent-task performance, access, staff/student time and
+unintended effects. Satisfaction alone does not establish learning.
 
-Consider cultural expectations about leadership and authority.
-```
+### Three hypothetical planning examples
 
-**Low Power Distance:**
-```
-You are a team leader in a collaborative organisation.
+The following examples are **fictional teaching scenarios**, not reports about
+identified institutions or observed results. Their constraints are invented for
+planning practice, not claims about the countries named. None demonstrates
+improved learning, satisfaction, access or regulatory compliance.
 
-Discuss this decision with your team:
-- Encourage open discussion and feedback
-- Seek consensus and input from all members
-- Share decision-making process transparently
-- Welcome questions and challenges
+#### Example 1: a multilingual course in Germany
 
-Consider cultural expectations about participation and equality.
-```
+Suppose a business school wants to run P1 in a class using two languages of
+instruction. The teaching team has source cards but has not yet approved an AI
+service or checked the translated assessment terminology.
 
-### Individualism vs. Collectivism
+A proposed first step is to have a suitable reviewer check both language versions
+against the same capability and criteria. Until the institution approves an AI
+route and its data handling, learners use the fixed records and feedback.
+Locating a provider in Europe would not, by itself, establish compliance.
 
-#### Individualistic Cultures
-- **Characteristics:** Personal achievement, individual recognition, direct communication
-- **Examples:** US, UK, Australia, Western Europe
-- **AI Adaptation:** Focus on individual performance and personal development
+Before a pilot, the team must agree who can assess both language versions,
+what students may submit and how records will be handled. After an actual pilot,
+it could inspect disagreements in marking, independent-task evidence and access
+problems. Those observations are not supplied here.
 
-#### Collectivistic Cultures
-- **Characteristics:** Group harmony, collective success, indirect communication
-- **Examples:** Many Asian, African, and Latin American cultures
-- **AI Adaptation:** Include group-based scenarios and team success
+#### Example 2: disagreement in a Singapore seminar
 
-**Implementation Examples:**
-
-**Individualistic Focus:**
-```
-You are a career coach working with individualistic values.
-
-Develop personal achievement plans that emphasize:
-- Individual goals and accomplishments
-- Personal recognition and advancement
-- Direct communication of achievements
-- Competitive advantage development
-
-Focus on personal success and standing out from others.
-```
-
-**Collectivistic Focus:**
-```
-You are a team facilitator working with collectivistic values.
-
-Develop team success plans that emphasize:
-- Group goals and collective achievements
-- Harmony and collaboration
-- Shared recognition and success
-- Support for team members
-
-Focus on group success and contributing to collective goals.
-```
-
----
-
-## Regulatory and Legal Adaptations
-
-### Data Protection and Privacy
-
-#### European Union (GDPR)
-- **Requirements:** Explicit consent, data minimisation, right to erasure
-- **AI Implications:** Careful data handling, transparent AI use policies
-- **Educational Adaptation:** Clear guidelines for student data in AI systems
-
-#### United States (FERPA and State Laws)
-- **Requirements:** Educational records privacy, parental consent for minors
-- **AI Implications:** Restrictions on student data use and sharing
-- **Educational Adaptation:** Separate AI tools from official educational records
-
-#### Australia (Privacy Act)
-- **Requirements:** Australian Privacy Principles, notification requirements
-- **AI Implications:** Reasonable data collection, storage limitations
-- **Educational Adaptation:** Clear data handling policies for AI integration
-
-#### Developing Country Considerations
-- **Challenges:** Varying data protection laws and enforcement
-- **Opportunities:** Leapfrogging to modern data protection frameworks
-- **Educational Adaptation:** Focus on ethical data practices regardless of legal requirements
-
-### Educational Quality Assurance
-
-#### Quality Frameworks by Region
-
-| Region | Quality Body | Focus Areas | AI Integration Implications |
-|---|---|---|---|
-| **Australia** | TEQSA | Learning outcomes, student support, institutional governance | Evidence of AI effectiveness, student support for AI tools |
-| **UK** | QAA | Academic standards, student experience, quality enhancement | AI literacy development, digital infrastructure quality |
-| **US** | Regional Accreditors | Mission fulfillment, student learning, institutional effectiveness | AI alignment with learning outcomes, assessment integrity |
-| **EU** | ENQA | Harmonized standards, student mobility, quality assurance | Cross-border AI tool compatibility, multilingual support |
-| **Asia** | Various | National standards, international competitiveness, technology integration | AI innovation, global competitiveness preparation |
-
-#### Adaptation Strategies
-- **Standards mapping:** Align AI integration with local quality requirements
-- **Evidence collection:** Document AI effectiveness for quality assurance
-- **Continuous improvement:** Regular review and enhancement of AI practices
-- **International benchmarking:** Learn from global best practices
-
----
-
-## Discipline-Specific Global Adaptations
-
-### Business and Marketing
-
-#### Cultural Market Considerations
-- **Consumer behaviour:** Varying purchasing patterns and decision-making processes
-- **Communication styles:** Different advertising effectiveness across cultures
-- **Brand perception:** Cultural values and brand relationship development
-- **Digital marketing:** Varying platform usage and online behaviour
-
-#### Global Marketing AI Adaptations
-```
-You are an international marketing consultant working in [REGION/COUNTRY].
-
-Develop marketing strategy that considers:
-- Local consumer behaviour and cultural values
-- Appropriate communication styles and messaging
-- Regulatory requirements and advertising standards
-- Competitive landscape and local market conditions
-- Digital platform usage and preferences
-
-Provide culturally appropriate examples and implementation considerations.
-```
-
-### Human Resources
-
-#### Employment Law Variations
-- **Worker protections:** Varying levels of employee rights and protections
-- **Termination procedures:** Different legal requirements and processes
-- **Discrimination laws:** Varying protected characteristics and enforcement
-- **Union relationships:** Different roles and legal status of labour organisations
-
-#### Global HR AI Adaptations
-```
-You are an international HR consultant working in [COUNTRY].
-
-Develop HR policies that comply with:
-- Local employment laws and regulations
-- Cultural expectations about workplace relationships
-- Worker protection requirements and union considerations
-- Industry standards and best practices
-- Cultural communication and management styles
-
-Provide specific legal references and cultural considerations.
-```
-
-### Accounting and Finance
-
-#### Regulatory Variations
-- **Accounting standards:** IFRS vs. US GAAP vs. local standards
-- **Taxation systems:** Varying tax laws and compliance requirements
-- **Financial regulations:** Different banking and investment regulations
-- **Audit requirements:** Varying standards and enforcement mechanisms
-
-#### Global Finance AI Adaptations
-```
-You are an international financial advisor working in [REGION].
-
-Provide financial analysis that considers:
-- Local accounting standards and reporting requirements
-- Tax implications and regulatory compliance
-- Cultural attitudes toward risk and investment
-- Local market conditions and economic factors
-- International business considerations and exchange rate impacts
-
-Specify all regulatory requirements and cultural factors.
-```
-
-### Supply Chain Management
-
-#### Global Supply Chain Considerations
-- **Trade regulations:** Varying import/export restrictions and documentation
-- **Infrastructure quality:** Different transportation and logistics capabilities
-- **Cultural business practices:** Varying negotiation styles and relationship building
-- **Geopolitical factors:** Regional stability and trade relationship considerations
-
-#### Global Supply Chain AI Adaptations
-```
-You are an international supply chain consultant working in [REGION].
-
-Develop supply chain strategy that addresses:
-- Local infrastructure capabilities and constraints
-- Trade regulations and compliance requirements
-- Cultural business practices and negotiation styles
-- Geopolitical risks and mitigation strategies
-- Regional logistics networks and distribution channels
-
-Consider local business customs and relationship expectations.
-```
-
-### Information Systems
-
-#### Technology Infrastructure Variations
-- **Internet penetration:** Varying levels of connectivity and bandwidth
-- **Device availability:** Different access to computers and smartphones
-- **Technical skills:** Varying levels of digital literacy and training
-- **Software adoption:** Different preferences for platforms and applications
-
-#### Global IT AI Adaptations
-```
-You are an international IT consultant working in [REGION].
-
-Design technology solutions that consider:
-- Local infrastructure capabilities and limitations
-- Device availability and user preferences
-- Technical skill levels and training needs
-- Language requirements and localization needs
-- Regulatory compliance and data sovereignty requirements
-- Cultural preferences for technology adoption
-
-Provide implementation strategies for local context.
-```
-
-### Management and Organisational Studies
-
-#### Cultural Management Styles
-- **Leadership expectations:** Varying perceptions of effective leadership
-- **Decision-making processes:** Different approaches to consensus and authority
-- **Communication patterns:** Varying expectations about directness and hierarchy
-- **Team dynamics:** Different approaches to collaboration and conflict resolution
-
-#### Global Management AI Adaptations
-```
-You are an international management consultant working in [COUNTRY].
-
-Develop management approaches that consider:
-- Local leadership expectations and cultural preferences
-- Decision-making processes and authority structures
-- Communication styles and relationship expectations
-- Team collaboration patterns and conflict resolution approaches
-- Motivation factors and employee engagement strategies
-
-Provide culturally appropriate management examples and implementation guidance.
-```
-
-### Economics
-
-#### Economic System Variations
-- **Market structures:** Different levels of market freedom and regulation
-- **Government involvement:** Varying roles of state in economic management
-- **Development stages:** Different economic development levels and challenges
-- **Trade relationships:** Varying international trade patterns and dependencies
-
-#### Global Economics AI Adaptations
-```
-You are an international economic advisor working in [REGION/COUNTRY].
-
-Provide economic analysis that considers:
-- Local economic system and regulatory framework
-- Development level and economic challenges
-- Cultural factors in economic decision-making
-- International trade relationships and dependencies
-- Regional economic integration and cooperation
-
-Specify economic assumptions and cultural considerations.
-```
-
-### Tourism and Hospitality
-
-#### Cultural Tourism Considerations
-- **Service expectations:** Varying standards for hospitality and service quality
-- **Cultural tourism:** Different approaches to cultural heritage and authenticity
-- **Travel patterns:** Varying tourism behaviours and preferences
-- **Hospitality traditions:** Different cultural expectations about hosting and service
-
-#### Global Tourism AI Adaptations
-```
-You are an international tourism consultant working in [REGION].
-
-Develop tourism strategies that consider:
-- Local service standards and hospitality expectations
-- Cultural heritage preservation and presentation
-- Tourist preferences and behaviour patterns
-- Seasonal variations and cultural events
-- Infrastructure capabilities and limitations
-- Cultural sensitivity and authentic representation
-
-Provide culturally appropriate tourism examples and implementation strategies.
-```
-
----
-
-## Implementation Strategies
-
-### Step-by-Step Adaptation Process
-
-#### Step 1: Context Analysis
-- **Educational system mapping:** Understand local structures and requirements
-- **Cultural assessment:** Identify relevant cultural dimensions and preferences
-- **Regulatory review:** Analyse legal requirements and compliance needs
-- **Resource evaluation:** Assess technological infrastructure and support systems
-
-#### Step 2: Stakeholder Engagement
-- **Local consultation:** Engage with local educators and administrators
-- **Student input:** Gather feedback from local student populations
-- **Industry partnership:** Connect with local businesses and organisations
-- **Cultural experts:** Consult with cultural specialists and community leaders
-
-#### Step 3: customisation Development
-- **Content adaptation:** Modify examples and scenarios for local context
-- **Platform selection:** Choose AI tools appropriate for local infrastructure
-- **Assessment design:** Align evaluation with local educational standards
-- **Support systems:** Develop resources appropriate for local needs
-
-#### Step 4: Implementation and Testing
-- **Pilot programs:** Test adaptations with small groups
-- **Feedback collection:** Gather systematic input from all participants
-- **Iteration and refinement:** Improve based on testing results
-- **Scale-up planning:** Prepare for broader implementation
-
-#### Step 5: Evaluation and Improvement
-- **Effectiveness assessment:** Measure success of adapted approaches
-- **Comparison with benchmarks:** Compare results with global best practices
-- **Continuous improvement:** Regular updates and enhancements
-- **Knowledge sharing:** Share learning with global education community
-
-### Quality Assurance Framework
-
-#### Adaptation Evaluation Criteria
-
-| Criterion | Questions to Consider | Evidence of Success |
-|---|---|---|
-| **Cultural Appropriateness** | Are examples and scenarios culturally relevant and respectful? | Positive student feedback, engagement metrics |
-| **Regulatory Compliance** | Does implementation meet local legal requirements? | Compliance audits, institutional approval |
-| **Educational Effectiveness** | Are learning outcomes achieved in local context? | Assessment results, learning analytics |
-| **Technical Feasibility** | Do AI tools work with local infrastructure? | Usage statistics, technical support requests |
-| **Stakeholder Acceptance** | Do local educators, students, and employers find value? | Survey results, partnership feedback |
-
-#### Continuous Improvement Process
-1. **Regular monitoring:** Ongoing assessment of adaptation effectiveness
-2. **Stakeholder feedback:** Systematic collection of user experiences
-3. **Benchmark comparison:** Regular comparison with global best practices
-4. **Adaptation updates:** Periodic refinement based on evidence
-5. **Knowledge sharing:** Contribution to global education community
-
-### Building Global Networks
-
-#### International Collaboration
-- **Partner institutions:** Develop relationships with schools in different regions
-- **Exchange programs:** Share faculty and student experiences
-- **Joint research:** Collaborate on AI integration research
-- **Resource sharing:** Exchange adapted materials and approaches
-
-#### Professional Development
-- **International conferences:** Present and learn about global AI integration
-- **Cross-cultural training:** Develop skills for working in diverse contexts
-- **Language skills:** Improve ability to work across language barriers
-- **Cultural competence:** Build understanding of different educational traditions
-
-#### Community of Practice
-- **Global networks:** Connect with AI integration educators worldwide
-- **Online platforms:** Participate in international discussions and forums
-- **Resource repositories:** Contribute to and access global adaptation resources
-- **Mentorship programs:** Support and be supported by international colleagues
-
----
-
-## Case Studies and Examples
-
-### Successful Adaptation Examples
-
-#### Case Study 1: European University Adaptation
-**Context:** German business school implementing AI integration
-**Challenges:** GDPR compliance, multilingual student body, quality assurance requirements
-**Solutions:**
-- Developed comprehensive data protection policies for AI use
-- Created multilingual prompt templates and examples
-- Established quality assurance processes for AI-enhanced assessments
-- Built partnerships with European AI companies for local support
-
-**Results:** Successful implementation with high student satisfaction and compliance with European standards
-
-#### Case Study 2: Asian University Adaptation
-**Context:** Singaporean university integrating AI into business curriculum
-**Challenges:** High-context communication culture, competitive environment, technology expectations
-**Solutions:**
-- Developed AI scenarios emphasising relationship-building and harmony
-- Created competitive yet collaborative learning environments
-- Integrated cutting-edge AI tools to meet high technology expectations
-- Emphasised face-saving communication approaches in AI interactions
-
-**Results:** Enhanced student engagement, improved learning outcomes, maintained cultural values
-
-#### Case Study 3: Developing Country Adaptation
-**Context:** Nigerian business school with limited resources
-**Challenges:** Infrastructure limitations, cost constraints, unreliable internet
-**Solutions:**
-- Focused on mobile-first AI applications
-- Utilised free and open-source AI tools
-- Developed offline AI-enhanced activities
-- Created peer-to-peer learning networks for AI skill development
-
-**Results:** Expanded access to AI-enhanced learning, improved educational quality despite resource constraints
-
-### Lessons Learned
-
-#### Common Success Factors
-- **Cultural sensitivity:** Respect for local educational traditions and values
-- **Stakeholder engagement:** Involvement of local community in adaptation process
-- **Flexibility:** Willingness to modify approaches based on local feedback
-- **Sustainability:** Building local capacity and long-term viability
-
-#### Common Challenges
-- **Resource constraints:** Limited funding and infrastructure in some regions
-- **Regulatory complexity:** Navigating different legal and quality frameworks
-- **Cultural resistance:** Overcoming skepticism about new educational approaches
-- **Technical barriers:** Infrastructure limitations and digital divides
-
-#### Best Practices
-- **Start small:** Pilot programs before full implementation
-- **Local leadership:** Empower local educators to lead adaptation efforts
-- **Contextual relevance:** Ensure all examples and scenarios are locally meaningful
-- **Continuous learning:** Regular assessment and improvement of adaptations
-
----
-
-## Conclusion
-
-AI integration in business education is a global phenomenon that requires local adaptation. The frameworks and strategies in this chapter provide guidance for implementing AI-enhanced teaching across diverse international contexts while maintaining pedagogical excellence and cultural respect.
-
-Key principles for successful global adaptation:
-1. **Understand local context:** Educational systems, cultural norms, and regulatory requirements
-2. **Engage local stakeholders:** Involve educators, students, and communities in adaptation process
-3. **Respect cultural differences:** Adapt communication styles, examples, and approaches appropriately
-4. **Ensure regulatory compliance:** Meet local legal requirements and quality standards
-5. **Build sustainable capacity:** Develop local expertise and long-term implementation strategies
-
-By applying these adaptation frameworks, educators can effectively implement AI-enhanced teaching that is both globally informed and locally relevant, preparing students for success in both their local contexts and the global business environment.
-
-**Final Chapter:** This concludes the comprehensive guide to AI integration in business education. Educators now have the tools, frameworks, and strategies needed to transform their teaching while preparing students for professional success in an AI-augmented world.
+Suppose a business educator in Singapore wants students to question P1-F's
+confident feedback. In this invented class, some learners prefer a private
+written response before discussing disagreement aloud. This is a supplied class
+constraint, not a description of Singaporean students generally.
+
+The educator could let everyone annotate P1-F individually, then compare one
+decision with a partner before choosing whether to contribute to the group.
+Credit would depend on the source-backed explanation, not on public confidence
+or willingness to oppose an authority figure.
+
+The pilot question is whether learners can identify the unsupported April warning
+and explain their response under the stated conditions. The educator would also
+ask which participation routes were usable. No gain in engagement or learning
+is assumed from the proposed format.
+
+#### Example 3: intermittent connectivity in Nigeria
+
+Suppose a Nigerian business school plans an S1 supplier activity where some
+learners share phones and the room's internet connection is unreliable. These
+are fictional local conditions, not a national infrastructure assessment.
+
+The educator could distribute a compact print sheet containing every offer,
+the quantity, deadline and budget. Learners calculate costs and capacity before
+comparing a fixed recommendation. A digital copy provides the same inputs;
+neither route requires a personal account or a live model.
+
+Before teaching, check printing costs, readable layout and whether every learner
+can obtain the materials. During an actual pilot, record missing inputs, arithmetic
+errors, completion obstacles and staff time. If either route excludes learners,
+revise access arrangements before expansion. The scenario does not establish
+that a mobile-first approach improves educational quality.
+
+## Activity: adapt one constraint
+
+**Allow 15 minutes; no AI required.** Change one condition in the pilot:
+unreliable connectivity, a different language of instruction or a different
+institutional data policy. Identify what must change, what capability remains
+the same and who needs to review the adaptation.
+
+A sound answer names a practical route and a remaining check. “Ask AI to make
+it culturally appropriate” is a proposal for another output, not evidence that
+the adaptation works.
