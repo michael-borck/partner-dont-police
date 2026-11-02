@@ -86,8 +86,8 @@ has not become available merely because the conversation went well.
 ## Inspect the decisions
 
 The opening distinguishes the delivery record from a conclusion about fault.
-The adviser does not invent the earlier warning. The support request is referred
-within authority. The final answer avoids a confidentiality guarantee.
+The adviser does not invent the earlier warning, refers the support request
+within authority and, in the final answer, avoids a confidentiality guarantee.
 
 There are also limits. No dependency record has been examined, no support
 arrangement approved and no finding reached. A reader should not label the case

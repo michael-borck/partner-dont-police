@@ -270,7 +270,7 @@ After receiving the perspectives, students compare the claims, check them agains
 
 ## Combining Techniques
 
-The real power comes from combining techniques into a professional workflow:
+You can also combine techniques into a professional workflow:
 
 1. Student uses **Reverse Prompting** to scope out all requirements for a new policy
 2. Student uses **Pros and Cons** to evaluate three different approaches

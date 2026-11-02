@@ -9,9 +9,10 @@ often than a timetable allows: asking a fair question, checking a recommendation
 explaining an uncertainty or revising an unsupported conclusion. AI can help
 generate practice and feedback, but it can also make weak reasoning look fluent.
 
-This book offers a way to design and evaluate that practice. The aim is not to
-maximise AI use. It is to help you decide where assistance is useful, where
-checks are needed and how the learner will demonstrate capability.
+This book offers a way to design and evaluate that practice. The aim is to
+help you decide where assistance is useful, where checks are needed and how
+the learner will demonstrate capability. More AI use is not by itself the
+measure of success.
 
 You bring disciplinary and teaching judgement. A model may contribute alternative
 wording, questions or a simulated role. Neither its confidence nor the length

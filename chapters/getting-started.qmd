@@ -10,8 +10,8 @@ example. Institutional approval must cover the account, features and intended
 use; an enterprise label alone is not permission to upload course or student data.
 
 The exercise works in a browser-based approved service if available. Otherwise,
-compare the supplied responses below on paper. No paid account is needed to
-learn how context and criteria change the usefulness of a request.
+compare the supplied responses below on paper. You do not need a paid account
+to learn how context and criteria change the usefulness of a request.
 
 ## Your First Prompt: The Weak Version
 
@@ -80,11 +80,11 @@ What made that second prompt more specific? It included five elements that you c
 
 You do not need every element every time. But when a prompt gives you something vague or generic, check which CRAFT elements are missing. The answer is usually context or format.
 
-**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. The goal is not to follow CRAFT rigidly. It is to think intentionally about what you are asking the AI to do.
+**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. Use CRAFT to think intentionally about what you are asking the AI to do, rather than as a rigid formula.
 
 ## Conversation, Not One-Shot
 
-Here is the most important idea in this chapter: **CRAFT is your first message, not your only message.**
+**CRAFT is your first message, not your only message.**
 
 An initial response may miss your teaching context or contain unsupported assumptions. Check it before deciding whether another exchange would help.
 
@@ -116,7 +116,7 @@ with a 2-minute intro, 5-minute group task,
 and 3-minute discussion."
 ```
 
-You did not write four prompts from scratch. You had a conversation where each follow-up built on what was working. This is what *conversation, not delegation* looks like in practice.
+You had a conversation in which each follow-up built on what was working, which is what *conversation, not delegation* means in practice.
 
 ## Discover Your Strategy: Using AI to Help You Use AI
 
@@ -157,7 +157,7 @@ implementation tips for each.
 Please start by asking your first question.
 ```
 
-Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations. It is in the clarity you gain about your own teaching by having to explain it. Writing down those constraints can clarify the task whether you discuss them with a model, a colleague or on paper. Treat the model's recommendations as proposals to evaluate.
+Spend 10-15 minutes answering honestly. The recommendations are only part of the value; you also learn about your own teaching by having to explain it. Writing down those constraints can clarify the task whether you discuss them with a model, a colleague or on paper. Treat the model's recommendations as proposals to evaluate.
 
 ::: {.callout-tip title="Try this (15 minutes)"}
 Run the consultation prompt above. Answer the questions honestly, and don't polish your responses. Choose one proposal to evaluate against the outcome, data gate, access requirements and staff time. Trying it in class is a separate decision. You can carry out the same planning exercise on paper.

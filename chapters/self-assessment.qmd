@@ -62,8 +62,8 @@ P1-R shows a completed revision. It checks the delivery dependencies, keeps the
 formal recommendation open and refers the support request. Its decision note
 explains what changed and identifies missing evidence.
 
-The educational artifact is not just the polished paragraph. It is the link
-between a defect, a source check and a reasoned revision. A short explanation
+The polished paragraph by itself does not show the link between a defect,
+a source check and a reasoned revision. A short explanation
 can show that link better than a long account of every prompt.
 
 ## If a live model provides the feedback
@@ -121,7 +121,7 @@ model might correctly recommend A; the learner should verify and accept that
 recommendation, while noting that real procurement would need further checks
 on quality and reliability.
 
-This is self-assessment of the decision, not a contest to out-argue a tool.
+That is self-assessment of the decision.
 
 ## Independent transfer
 

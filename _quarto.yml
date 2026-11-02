@@ -11,6 +11,7 @@ project:
     - resources/**
 
 book:
+  cover-image: cover.png
   title: "Partner, Don't Police: AI in the Business Classroom"
   author: "Michael Borck"
   isbn: "979-8-2542-3619-1"
@@ -86,6 +87,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
+    css: book-design.css
     cover-image: cover.png
     include-after-body: chatbot.html
     toc: true
@@ -93,6 +95,9 @@ format:
     number-sections: true
     code-tools: true
   pdf:
+    pdf-engine: lualatex
+    fontsize: 11pt
+    linestretch: 1.08
     documentclass: book
     toc: true
     toc-depth: 1
@@ -105,10 +110,11 @@ format:
       - outer=0.625in
       - top=0.75in
       - bottom=0.75in
-    include-in-header: pdf-header.tex
+    include-in-header: [pdf-header.tex, book-design.tex]
     include-before-body:
       - copyright-page.tex
   epub:
+    epub-cover-image: cover.png
     toc: true
     toc-depth: 1
-    css: epub-styles.css
+    css: [epub-styles.css, book-design-epub.css]
