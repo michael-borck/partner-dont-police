@@ -2,21 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
-<title>6&nbsp; The Flight Simulator - Conversation Simulations – Partner, Don't Police: AI in the Business Classroom</title>
+<title>8&nbsp; The Flight Simulator: Bounded Conversation Practice – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -69,8 +72,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/critique-toolkit.html" rel="next">
-<link href="../chapters/managing-context.html" rel="prev">
+<link href="../chapters/self-assessment.html" rel="next">
+<link href="../chapters/critique-toolkit.html" rel="prev">
 <link href="../favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -78,14 +81,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-37a0ccb6f5b9899fcb884e11bb6f7458.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,6 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="../book-design.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -288,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/flight-simulator.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/flight-simulator.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator: Bounded Conversation Practice</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -318,14 +322,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Copyright</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copyright</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -337,7 +341,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction - Why AI Matters for Business Education</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: A Defensible Classroom Pilot</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -348,74 +352,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/getting-started.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started — Your First AI Conversation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Getting Started: Your First AI Conversation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/seven-techniques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/managing-context.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing Context: A Checked Handoff</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/critique-toolkit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Critique Toolkit: Check the Recommendation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rethinking Assessment: Process Over Product</span></span></a>
+  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator: Bounded Conversation Practice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/self-assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Self-Assessment: Judge Before Receiving Feedback</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Virtual Company Simulation (Future Horizon)</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Designing an AI-Integrated Unit</span></span></a>
+  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Assessing Learning: Process, Product and Independent Capability</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/transforming-content.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Transforming Content with AI</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Transforming Content: Keep the Learning Decision Visible</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Virtual Company: Keep a Shared Record</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Designing an AI-Supported Unit</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/global-perspectives.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Global Perspectives and Adaptation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Adapting to a Different Teaching Context</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -427,7 +431,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Make the Next Decision</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -441,32 +445,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../appendices/pilot-pack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Educator Pilot Pack: PDP-2026.1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/prompt-library.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Library</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Workshop Guide</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../appendices/institutional-alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Aligning AI Integration with Institutional Learning Outcomes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Aligning the Activity with Institutional Outcomes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/rubric-system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">A Calibrated Assessment Rubric</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/stress-test-sequence.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Assessment AI Stress Test: A Prompt Sequence</span></span></a>
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Stress-Test the Assessment</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/further-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -479,7 +501,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>Paperback ISBN 979-8-2542-3619-1<br> <a href="https://www.amazon.com.au/s?k=9798254236191">Support the open edition</a></p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -487,43 +511,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-three-phase-system" id="toc-the-three-phase-system" class="nav-link active" data-scroll-target="#the-three-phase-system"><span class="header-section-number">6.1</span> The Three-Phase System</a></li>
-  <li><a href="#why-this-is-powerful" id="toc-why-this-is-powerful" class="nav-link" data-scroll-target="#why-this-is-powerful"><span class="header-section-number">6.2</span> Why This Is Powerful</a></li>
-  <li><a href="#complete-worked-example-the-performance-improvement-plan-meeting" id="toc-complete-worked-example-the-performance-improvement-plan-meeting" class="nav-link" data-scroll-target="#complete-worked-example-the-performance-improvement-plan-meeting"><span class="header-section-number">6.3</span> Complete Worked Example: The Performance Improvement Plan Meeting</a>
+  <li><a href="#brief-practise-debrief" id="toc-brief-practise-debrief" class="nav-link active" data-scroll-target="#brief-practise-debrief"><span class="header-section-number">8.1</span> Brief, practise, debrief</a></li>
+  <li><a href="#prepare-the-scenario" id="toc-prepare-the-scenario" class="nav-link" data-scroll-target="#prepare-the-scenario"><span class="header-section-number">8.2</span> Prepare the scenario</a>
   <ul class="collapse">
-  <li><a href="#context" id="toc-context" class="nav-link" data-scroll-target="#context"><span class="header-section-number">6.3.1</span> Context</a></li>
+  <li><a href="#setup-for-a-peer-or-approved-model" id="toc-setup-for-a-peer-or-approved-model" class="nav-link" data-scroll-target="#setup-for-a-peer-or-approved-model"><span class="header-section-number">8.2.1</span> Setup for a peer or approved model</a></li>
   </ul></li>
-  <li><a href="#phase-1-the-setup-prompt" id="toc-phase-1-the-setup-prompt" class="nav-link" data-scroll-target="#phase-1-the-setup-prompt"><span class="header-section-number">6.4</span> Phase 1: The Setup Prompt</a>
-  <ul class="collapse">
-  <li><a href="#setup-prompt-ready-to-use" id="toc-setup-prompt-ready-to-use" class="nav-link" data-scroll-target="#setup-prompt-ready-to-use"><span class="header-section-number">6.4.1</span> Setup Prompt (Ready to Use)</a></li>
-  </ul></li>
-  <li><a href="#phase-2-the-simulation" id="toc-phase-2-the-simulation" class="nav-link" data-scroll-target="#phase-2-the-simulation"><span class="header-section-number">6.5</span> Phase 2: The Simulation</a>
-  <ul class="collapse">
-  <li><a href="#example-conversation" id="toc-example-conversation" class="nav-link" data-scroll-target="#example-conversation"><span class="header-section-number">6.5.1</span> Example Conversation</a></li>
-  </ul></li>
-  <li><a href="#phase-3-the-debrief-ai-critique" id="toc-phase-3-the-debrief-ai-critique" class="nav-link" data-scroll-target="#phase-3-the-debrief-ai-critique"><span class="header-section-number">6.6</span> Phase 3: The Debrief (AI Critique)</a>
-  <ul class="collapse">
-  <li><a href="#critique-prompt-ready-to-use" id="toc-critique-prompt-ready-to-use" class="nav-link" data-scroll-target="#critique-prompt-ready-to-use"><span class="header-section-number">6.6.1</span> Critique Prompt (Ready to Use)</a></li>
-  <li><a href="#example-critique-output" id="toc-example-critique-output" class="nav-link" data-scroll-target="#example-critique-output"><span class="header-section-number">6.6.2</span> Example Critique Output</a></li>
-  </ul></li>
-  <li><a href="#what-makes-this-critique-valuable" id="toc-what-makes-this-critique-valuable" class="nav-link" data-scroll-target="#what-makes-this-critique-valuable"><span class="header-section-number">6.7</span> What Makes This Critique Valuable</a></li>
-  <li><a href="#how-to-use-this-as-an-assessment" id="toc-how-to-use-this-as-an-assessment" class="nav-link" data-scroll-target="#how-to-use-this-as-an-assessment"><span class="header-section-number">6.8</span> How to Use This as an Assessment</a>
-  <ul class="collapse">
-  <li><a href="#option-1-simulation-critique-submission" id="toc-option-1-simulation-critique-submission" class="nav-link" data-scroll-target="#option-1-simulation-critique-submission"><span class="header-section-number">6.8.1</span> Option 1: Simulation + Critique Submission</a></li>
-  <li><a href="#option-2-simulation-re-do-comparison" id="toc-option-2-simulation-re-do-comparison" class="nav-link" data-scroll-target="#option-2-simulation-re-do-comparison"><span class="header-section-number">6.8.2</span> Option 2: Simulation + Re-Do + Comparison</a></li>
-  <li><a href="#option-3-student-designed-simulation" id="toc-option-3-student-designed-simulation" class="nav-link" data-scroll-target="#option-3-student-designed-simulation"><span class="header-section-number">6.8.3</span> Option 3: Student-Designed Simulation</a></li>
-  </ul></li>
-  <li><a href="#adapting-this-for-different-conversational-skills" id="toc-adapting-this-for-different-conversational-skills" class="nav-link" data-scroll-target="#adapting-this-for-different-conversational-skills"><span class="header-section-number">6.9</span> Adapting This for Different Conversational Skills</a></li>
-  <li><a href="#cross-discipline-applications-flight-simulator-adaptations" id="toc-cross-discipline-applications-flight-simulator-adaptations" class="nav-link" data-scroll-target="#cross-discipline-applications-flight-simulator-adaptations"><span class="header-section-number">6.10</span> Cross-Discipline Applications: Flight Simulator Adaptations</a></li>
-  <li><a href="#implementation-across-disciplines" id="toc-implementation-across-disciplines" class="nav-link" data-scroll-target="#implementation-across-disciplines"><span class="header-section-number">6.11</span> Implementation Across Disciplines</a>
-  <ul class="collapse">
-  <li><a href="#adapting-the-critique-phase" id="toc-adapting-the-critique-phase" class="nav-link" data-scroll-target="#adapting-the-critique-phase"><span class="header-section-number">6.11.1</span> Adapting the Critique Phase</a></li>
-  <li><a href="#assessment-integration" id="toc-assessment-integration" class="nav-link" data-scroll-target="#assessment-integration"><span class="header-section-number">6.11.2</span> Assessment Integration</a></li>
-  </ul></li>
-  <li><a href="#common-questions" id="toc-common-questions" class="nav-link" data-scroll-target="#common-questions"><span class="header-section-number">6.12</span> Common Questions</a></li>
-  <li><a href="#your-action-step" id="toc-your-action-step" class="nav-link" data-scroll-target="#your-action-step"><span class="header-section-number">6.13</span> Your Action Step</a></li>
+  <li><a href="#a-worked-exchange" id="toc-a-worked-exchange" class="nav-link" data-scroll-target="#a-worked-exchange"><span class="header-section-number">8.3</span> A worked exchange</a></li>
+  <li><a href="#inspect-the-decisions" id="toc-inspect-the-decisions" class="nav-link" data-scroll-target="#inspect-the-decisions"><span class="header-section-number">8.4</span> Inspect the decisions</a></li>
+  <li><a href="#debrief-before-scoring" id="toc-debrief-before-scoring" class="nav-link" data-scroll-target="#debrief-before-scoring"><span class="header-section-number">8.5</span> Debrief before scoring</a></li>
+  <li><a href="#rehearsal-and-transfer-are-different" id="toc-rehearsal-and-transfer-are-different" class="nav-link" data-scroll-target="#rehearsal-and-transfer-are-different"><span class="header-section-number">8.6</span> Rehearsal and transfer are different</a></li>
+  <li><a href="#three-ways-to-use-the-activity" id="toc-three-ways-to-use-the-activity" class="nav-link" data-scroll-target="#three-ways-to-use-the-activity"><span class="header-section-number">8.7</span> Three ways to use the activity</a></li>
+  <li><a href="#adapt-the-challenge-not-just-the-persona-name" id="toc-adapt-the-challenge-not-just-the-persona-name" class="nav-link" data-scroll-target="#adapt-the-challenge-not-just-the-persona-name"><span class="header-section-number">8.8</span> Adapt the challenge, not just the persona name</a></li>
+  <li><a href="#activity-debrief-an-unresolved-exchange" id="toc-activity-debrief-an-unresolved-exchange" class="nav-link" data-scroll-target="#activity-debrief-an-unresolved-exchange"><span class="header-section-number">8.9</span> Activity: debrief an unresolved exchange</a></li>
   </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="../llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="../tools/prompt-library.md"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="../tools/workshop-guide.md"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="/partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="/partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="/llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="/appendices/prompt-library.html"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="/appendices/workshop-guide.html"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -531,7 +532,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-simulator" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator: Bounded Conversation Practice</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -549,383 +550,94 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <blockquote class="blockquote">
-<p>Pilots do not learn to fly by reading about turbulence. They learn by experiencing it in a simulator where mistakes are cheap. Your students deserve the same.</p>
+<p>A simulation is useful when its limits are visible and its feedback can be checked.</p>
 </blockquote>
-<section id="the-three-phase-system" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="the-three-phase-system"><span class="header-section-number">6.1</span> The Three-Phase System</h2>
-<p>In the previous chapter, you learned the Role Play technique. Now we’re going to transform that into a complete professional practice system with three distinct phases:</p>
-<p><strong>Phase 1: The Setup</strong> (You or the student designs the scenario) <strong>Phase 2: The Simulation</strong> (Student practices the conversation) <strong>Phase 3: The Debrief</strong> (AI critiques the student’s performance)</p>
-<p>This three-phase approach mirrors how professionals develop expertise: briefing, practice, and reflective analysis. The AI makes this process scalable, personalised, and repeatable.</p>
+<section id="brief-practise-debrief" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="brief-practise-debrief"><span class="header-section-number">8.1</span> Brief, practise, debrief</h2>
+<p>A conversation simulation gives students a chance to try questions, encounter resistance and revise their approach. It can supplement peer role-play and observed practice. It is not a faithful model of every workplace or a substitute for disciplinary teaching.</p>
+<p>Use three phases: establish the case and boundaries, practise the interaction, then review the decisions against evidence. A model can play a role or propose feedback, but the educator retains responsibility for the scenario and criteria.</p>
+<p>The <a href="../chapters/critique-toolkit.html">critique toolkit</a> comes first because learners need a way to evaluate feedback before receiving it. A confident critique is itself an output requiring review.</p>
 </section>
-<section id="why-this-is-powerful" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="why-this-is-powerful"><span class="header-section-number">6.2</span> Why This Is Powerful</h2>
-<p>Traditional role-play in class has limitations: - Limited time means each student gets one attempt - Peer role-play can be inconsistent (your classmate might not play the “difficult employee” convincingly) - Students feel self-conscious performing in front of others - Feedback is often delayed and general rather than specific</p>
-<p>AI-powered simulation solves all of these: - Students can practice the same scenario five times until they get it right - The AI consistently plays the role as designed - Students can practice privately, making mistakes without embarrassment - Feedback is immediate, specific, and tied to learning objectives</p>
-<p>Let’s walk through a complete example.</p>
-<hr>
-</section>
-<section id="complete-worked-example-the-performance-improvement-plan-meeting" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="complete-worked-example-the-performance-improvement-plan-meeting"><span class="header-section-number">6.3</span> Complete Worked Example: The Performance Improvement Plan Meeting</h2>
-<section id="context" class="level3" data-number="6.3.1">
-<h3 data-number="6.3.1" class="anchored" data-anchor-id="context"><span class="header-section-number">6.3.1</span> Context</h3>
-<p>This is a common high-stakes conversation in HR. It’s legally sensitive, emotionally difficult, and requires balancing empathy with accountability. (We’ll show examples from other disciplines at the end of this chapter.)</p>
-<p><strong>Learning Objectives:</strong> - Apply principles of procedural fairness - Communicate difficult feedback clearly and constructively - Demonstrate empathy while maintaining professional boundaries - Document the conversation appropriately - Avoid common legal pitfalls (discrimination, unfair dismissal)</p>
-<hr>
-</section>
-</section>
-<section id="phase-1-the-setup-prompt" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="phase-1-the-setup-prompt"><span class="header-section-number">6.4</span> Phase 1: The Setup Prompt</h2>
-<p>This is where you (or the student) design the scenario. The setup prompt defines: 1. The AI’s role and personality 2. The context and background 3. The challenge or conflict 4. Behavioural guidelines for the AI 5. When the simulation should end</p>
-<section id="setup-prompt-ready-to-use" class="level3" data-number="6.4.1">
-<h3 data-number="6.4.1" class="anchored" data-anchor-id="setup-prompt-ready-to-use"><span class="header-section-number">6.4.1</span> Setup Prompt (Ready to Use)</h3>
-<pre><code>You are Alex Chen, a 32-year-old software engineer who has worked at
-TechCorp for three years. You were a high performer until six months ago,
-when your work quality declined noticeably.
-
-BACKGROUND CONTEXT:
-- You have missed three project deadlines in the past four months
-- Your code quality has dropped—recent pull requests have had multiple bugs
-  that QA caught
-- You've been arriving late to work 2-3 times per week
-- Your manager has already had one informal conversation with you about
-  these concerns two months ago, but things have not improved
-- You are being placed on a formal 60-day Performance Improvement Plan (PIP)
-
-YOUR PERSONA AND behaviour:
-- You are defensive and embarrassed. You feel this PIP is unfair and harsh.
-- You believe your recent work is "good enough" and that your manager has
-  unrealistic expectations
-- You are dealing with a stressful personal situation (caring for an aging
-  parent), but you have not told your manager about this—you believe it's
-  private and not relevant to work
-- You are not aggressive or hostile, but you are resistant and will push
-  back on criticism
-- If the HR person or manager shows genuine empathy and asks open questions,
-  you will gradually reveal some personal context
-- If they are accusatory or dismissive, you will shut down and become
-  minimal in your responses
-
-THE MEETING:
-I am the HR representative (or the manager) conducting the PIP meeting with
-you. This is a formal meeting. You have just been told this is a PIP
-discussion.
-
-YOUR GOAL:
-- React as Alex would realistically react
-- Challenge the fairness of the process if it seems rushed or poorly
-  explained
-- Reveal personal information only if trust is established
-- Show emotion (frustration, stress, worry) but remain professional
-- Respond dynamically to how I conduct the meeting
-
-Stay in character throughout. Begin the meeting by responding to my opening
-statement. I will start the conversation now.</code></pre>
-<p><strong>Key Design Elements:</strong> - <strong>Complexity:</strong> Alex isn’t purely defensive or purely cooperative—there’s legitimate work performance decline <em>and</em> extenuating circumstances - <strong>Realistic emotion:</strong> Alex is stressed and embarrassed, not theatrical or extreme - <strong>Conditional behaviour:</strong> How Alex responds depends on the student’s approach (rewards good technique) - <strong>Hidden information:</strong> The personal context isn’t revealed unless the student asks the right questions with the right tone</p>
-<hr>
+<section id="prepare-the-scenario" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="prepare-the-scenario"><span class="header-section-number">8.2</span> Prepare the scenario</h2>
+<p>Use P1-D1 through P1-D5 in the <a href="../appendices/pilot-pack.html">pilot pack</a>. Alex’s manager has proposed a performance plan. The junior adviser is gathering information, not issuing an approved decision. The pack supplies the dates, records and limits of authority.</p>
+<p>Explain the capability: plan and justify a fair first response. If your unit also assesses live communication, add an appropriate observed interaction. Do not infer that skill solely from a typed conversation.</p>
+<p>Give advance notice of the employment topic. Students can stop, take a break or use an agreed neutral scenario. The task does not require personal disclosure. The model or peer actor should not pressure the learner, introduce abuse or reward extraction of private details.</p>
+<section id="setup-for-a-peer-or-approved-model" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="setup-for-a-peer-or-approved-model"><span class="header-section-number">8.2.1</span> Setup for a peer or approved model</h3>
+<pre class="text"><code>Use the fictional PDP-2026.1 P1 source cards.
+You are Alex. Use P1-D4 as your opening position.
+Do not invent evidence or legal obligations.
+If asked about missing facts, say they are not
+provided. You may disagree or ask a question.
+You need not disclose private information.
+Stop after six exchanges or when I say STOP.
+Do not score the adviser or decide the case.</code></pre>
+<p>In the paper route, the fixed exchange below provides the role’s responses. In a paired route, the partner reads the same cards. With a model, check any new claim against the pack and discard inventions. Similar instructions do not guarantee similar difficulty across products or runs.</p>
 </section>
 </section>
-<section id="phase-2-the-simulation" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="phase-2-the-simulation"><span class="header-section-number">6.5</span> Phase 2: The Simulation</h2>
-<p>The student now conducts the meeting. Here’s an example of how this might play out.</p>
-<section id="example-conversation" class="level3" data-number="6.5.1">
-<h3 data-number="6.5.1" class="anchored" data-anchor-id="example-conversation"><span class="header-section-number">6.5.1</span> Example Conversation</h3>
-<p><strong>Student (HR Rep):</strong> &gt; “Hi Alex, thanks for meeting with me. I want to talk with you today about some performance concerns that have been raised. I know this is a difficult conversation, but I want to make sure we have an open discussion about what’s been happening and how we can support you moving forward.”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>shifts uncomfortably</em> “Yeah, I’ve been hearing whispers about this. Look, I know I’ve missed a couple of deadlines, but I don’t think things are as bad as people are making out. I’m still getting my work done. Is this really necessary?”</p>
-<p><strong>Student:</strong> &gt; “I understand this feels uncomfortable. Let me be specific about the concerns. Over the past four months, you’ve missed three major project deadlines—the payment gateway integration in March, the API update in April, and the mobile optimisation in May. Additionally, QA has flagged an increase in bugs in your recent code submissions. These are measurable changes from your previous performance standard. Can you help me understand what’s been happening?”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>pauses, looks down</em> “I mean… yeah, okay, I’ve had some issues. But deadlines get missed sometimes, right? And bugs happen. I just feel like everyone’s being really harsh all of a sudden. I had one conversation with my manager about this two months ago, and now suddenly I’m on a PIP? That feels pretty extreme.”</p>
-<p><strong>Student:</strong> &gt; “That’s a fair question, Alex. You did have an informal conversation with your manager in early April where these concerns were raised. At that time, you both agreed on some strategies to get things back on track. Since then, we’ve continued to see the same patterns—another deadline missed last month and continued quality issues. A PIP isn’t a punishment; it’s a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve. Does that make sense?”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>sighs</em> “I guess. I just… it’s been a really tough few months personally, okay? I know that’s not your problem, but it’s not like I’m just slacking off or don’t care anymore.”</p>
-<p><strong>Student:</strong> &gt; “Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I’m genuinely sorry you’re dealing with difficult things. If there are specific supports we can offer—whether that’s adjustments to your schedule, access to our Employee Assistance Program, or other accommodations—we’re open to discussing that. But we also need to be clear about the performance standards that need to be met. Can we talk about what support might help you succeed during this PIP period?”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>softens slightly</em> “Honestly, I’ve been dealing with my dad’s health declining. I’ve been having to take him to medical appointments, and I’m the only family member nearby. Some mornings I’m exhausted because I’ve been up half the night. I didn’t want to bring it into work because… I don’t know, I thought I could just handle it.”</p>
-<p><strong>Student:</strong> &gt; “I’m really sorry to hear about your father, Alex. That’s incredibly stressful. I’m glad you’ve told me, because this is exactly the kind of situation where we want to support our employees. Have you considered whether a temporary flexible schedule might help—perhaps starting later on days when you have early appointments, or adjusting your hours? We can also connect you with our EAP, which offers counseling and support for family caregivers. Would either of those be helpful?”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>nods</em> “Yeah… actually, that might really help. I didn’t know that was an option. I’ve just been trying to power through, but clearly that’s not working.”</p>
-<p><strong>Student:</strong> &gt; “I appreciate your honesty. So here’s what I suggest: we’ll document this PIP with clear performance targets—specific deadlines and quality standards. But we’ll also document the support measures we’re putting in place, including flexible scheduling where possible. This gives you the structure and the support to get back to the high performance standard we know you’re capable of. The PIP period is 60 days. At the 30-day mark, we’ll have a check-in to see how things are going. Does that sound fair?”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>takes a breath</em> “Okay. Yeah. I mean, it’s still stressful to be on a PIP, but I get it. And if I can actually get some flexibility with the schedule, that would help a lot. I don’t want to lose this job—I just need to get things back on track.”</p>
-<p><strong>Student:</strong> &gt; “That’s exactly the goal, Alex. We want you to succeed. Let’s schedule a follow-up meeting next week to formalize the flexible schedule arrangement and go through the detailed PIP document. Thank you for being open with me today—that’s really important.”</p>
-<p><strong>AI (as Alex):</strong> &gt; <em>manages a small, tired smile</em> “Thanks. I appreciate you actually listening.”</p>
-<hr>
+<section id="a-worked-exchange" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="a-worked-exchange"><span class="header-section-number">8.3</span> A worked exchange</h2>
+<p>This dialogue is an <strong>authored fictional example</strong>, not a captured student performance or evidence that a model behaves consistently.</p>
+<p><strong>Adviser:</strong> Alex, the delivery extract lists three late milestones. Before I recommend a next step, I want to understand the dependencies and your account. The formal plan is a proposal at this stage.</p>
+<p><strong>Alex:</strong> I know some work was late. Two projects depended on reviews I could not complete myself. I also need to discuss starting later on two mornings.</p>
+<p><strong>Adviser:</strong> Which delivery records would help us check the dependencies? We can discuss the work adjustment without collecting private family or medical details. I can refer the request, but cannot approve it myself.</p>
+<p><strong>Alex:</strong> I do not want to explain the appointments. I also want to know whether this meeting means the plan is already decided.</p>
+<p><strong>Adviser:</strong> You do not need to explain those details to me. The decision is not made. I propose checking the records and the earlier contact note, then arranging a follow-up after the people manager reviews the request.</p>
+<p><strong>Alex:</strong> Who will receive the notes?</p>
+<p><strong>Adviser:</strong> I will explain the authorised sharing arrangements before sharing the relevant work-related record. I should not promise complete confidentiality without checking the process. We can pause if that needs clarification first.</p>
+<p>The exchange ends with work to do. That is appropriate: the missing evidence has not become available merely because the conversation went well.</p>
 </section>
+<section id="inspect-the-decisions" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="inspect-the-decisions"><span class="header-section-number">8.4</span> Inspect the decisions</h2>
+<p>The opening distinguishes the delivery record from a conclusion about fault. The adviser does not invent the earlier warning, refers the support request within authority and, in the final answer, avoids a confidentiality guarantee.</p>
+<p>There are also limits. No dependency record has been examined, no support arrangement approved and no finding reached. A reader should not label the case resolved or legally compliant.</p>
+<p>Try a different opening: “Your manager warned you in April, so the plan is now required.” The error is not just tone. P1-D3 does not supply an April warning, and P1-D1/D5 do not permit the adviser to announce the decision. Rephrasing it more empathetically would leave the substantive defect intact.</p>
 </section>
-<section id="phase-3-the-debrief-ai-critique" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="phase-3-the-debrief-ai-critique"><span class="header-section-number">6.6</span> Phase 3: The Debrief (AI Critique)</h2>
-<p>After the simulation ends, the student copies the entire conversation transcript and submits it to the AI with a <strong>critique prompt</strong>. This is where the real learning happens.</p>
-<section id="critique-prompt-ready-to-use" class="level3" data-number="6.6.1">
-<h3 data-number="6.6.1" class="anchored" data-anchor-id="critique-prompt-ready-to-use"><span class="header-section-number">6.6.1</span> Critique Prompt (Ready to Use)</h3>
-<pre><code>You are an expert HR educator evaluating a student's performance in a
-simulated Performance Improvement Plan (PIP) meeting.
-
-Below is the full transcript of the conversation between the student (acting
-as the HR Representative) and a simulated employee (Alex Chen) who was being
-placed on a PIP.
-
-Your task is to provide a detailed critique of the student's performance
-across the following criteria:
-
-1. PROCEDURAL FAIRNESS
-   - Did the student clearly explain why the meeting was happening?
-   - Did they provide specific examples of performance issues?
-   - Did they give Alex an opportunity to respond and explain?
-   - Did they explain the PIP process fairly and clearly?
-
-2. COMMUNICATION EFFECTIVENESS
-   - Was the tone appropriate (professional, empathetic but not dismissive)?
-   - Did the student use open questions to encourage dialogue?
-   - How did they handle Alex's defensiveness?
-   - Did they actively listen and acknowledge Alex's concerns?
-
-3. LEGAL AND ETHICAL CONSIDERATIONS
-   - Did the student avoid any discriminatory language or assumptions?
-   - Did they appropriately handle the disclosure of personal circumstances?
-   - Did they maintain appropriate professional boundaries?
-   - Did they document support measures as well as performance requirements?
-
-4. APPLICATION OF HR THEORY
-   - What motivational or psychological principles did the student apply
-     (or fail to apply)?
-   - How well did they balance accountability with support?
-   - Did they create conditions for behavioural change?
-
-For each criterion, provide:
-- A score out of 10
-- Specific examples from the transcript (quote the student's words)
-- What the student did well
-- What the student could improve
-- One concrete suggestion for how to improve
-
-Finally, provide an overall assessment: If this were a real PIP meeting,
-what would likely happen next based on how the student conducted it?
-
-Here is the transcript:
-
-[PASTE TRANSCRIPT HERE]
-
-Begin your critique.</code></pre>
-</section>
-<section id="example-critique-output" class="level3" data-number="6.6.2">
-<h3 data-number="6.6.2" class="anchored" data-anchor-id="example-critique-output"><span class="header-section-number">6.6.2</span> Example Critique Output</h3>
-<p>The AI will provide something like this:</p>
-<hr>
-<p><strong>CRITIQUE OF PIP MEETING PERFORMANCE</strong></p>
-<p><strong>1. PROCEDURAL FAIRNESS: 9/10</strong></p>
-<p><strong>What you did well:</strong> You were exemplary in providing specific, measurable examples of performance concerns. When you said, <em>“Over the past four months, you’ve missed three major project deadlines—the payment gateway integration in March, the API update in April, and the mobile optimisation in May,”</em> you gave Alex concrete information to respond to, not vague accusations. This is critical for procedural fairness.</p>
-<p>You also clearly explained the purpose of the PIP: <em>“A PIP isn’t a punishment; it’s a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve.”</em> This reframing helped reduce Alex’s defensiveness.</p>
-<p><strong>Where you could improve:</strong> You could have been even more explicit about the timeline and previous feedback. While you mentioned the April conversation, you could have said: “We had a conversation on April 3rd where we documented three specific concerns. We agreed you would [specific actions]. Since then, we’ve seen [specific outcomes]. That’s why we’re now moving to a formal PIP.”</p>
-<p><strong>Suggestion:</strong> Always reference specific dates and documented prior warnings. This strengthens the legal defensibility of your process.</p>
-<hr>
-<p><strong>2. COMMUNICATION EFFECTIVENESS: 10/10</strong></p>
-<p><strong>What you did well:</strong> Your use of empathy was outstanding. When Alex revealed personal stress, you immediately acknowledged it: <em>“Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I’m genuinely sorry you’re dealing with difficult things.”</em> This response validated Alex’s feelings while maintaining professional boundaries.</p>
-<p>You also used excellent open-ended questions: <em>“Can you help me understand what’s been happening?”</em> This invited dialogue rather than putting Alex on the defensive.</p>
-<p>Your handling of defensiveness was textbook-perfect. When Alex said the PIP felt “extreme,” you didn’t argue or dismiss—you acknowledged the concern (<em>“That’s a fair question”</em>) and then explained the rationale.</p>
-<p><strong>Where you could improve:</strong> Nothing significant. Your communication was professional, empathetic, and effective throughout.</p>
-<hr>
-<p><strong>3. LEGAL AND ETHICAL CONSIDERATIONS: 9/10</strong></p>
-<p><strong>What you did well:</strong> When Alex disclosed caregiving responsibilities, you immediately offered accommodations: <em>“Have you considered whether a temporary flexible schedule might help?”</em> This is legally and ethically sound—you’re demonstrating that the company is willing to make reasonable adjustments, which protects against claims of unfair dismissal or discrimination.</p>
-<p>You also avoided making assumptions or probing inappropriately into Alex’s personal life. You accepted the disclosure, offered support, and moved the conversation forward professionally.</p>
-<p><strong>Where you could improve:</strong> You should explicitly document this conversation. At the end of the meeting, you could have said: “I’m going to document today’s conversation, including your disclosure about your father’s health and the flexible schedule accommodation we’ve discussed. You’ll receive a copy of this documentation for your records.”</p>
-<p><strong>Suggestion:</strong> Always verbally confirm that documentation will be provided. This ensures transparency and gives the employee a chance to correct any misunderstandings immediately.</p>
-<hr>
-<p><strong>4. APPLICATION OF HR THEORY: 8/10</strong></p>
-<p><strong>What you did well:</strong> You demonstrated understanding of <strong>motivational theory</strong> by balancing challenge with support. You didn’t just impose standards—you co-created solutions by asking, <em>“Can we talk about what support might help you succeed during this PIP period?”</em></p>
-<p>You also applied principles of <strong>procedural justice</strong> by ensuring Alex felt heard and treated fairly, which research shows increases acceptance of difficult decisions.</p>
-<p><strong>Where you could improve:</strong> You could have applied <strong>goal-setting theory</strong> more explicitly. When finalising the PIP, you mentioned “clear performance targets,” but you didn’t collaboratively define them in the meeting. Research shows that when employees participate in setting their own goals, commitment and achievement increase.</p>
-<p><strong>Suggestion:</strong> In your follow-up meeting, involve Alex in defining the specific, measurable targets for the PIP. For example: “What do you think is a realistic number of on-time deliverables over the next 30 days, given the support we’re putting in place?” This increases ownership and reduces resistance.</p>
-<hr>
-<p><strong>OVERALL ASSESSMENT</strong></p>
-<p><strong>Likely Outcome:</strong> Based on how you conducted this meeting, Alex is likely to:</p>
+<section id="debrief-before-scoring" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="debrief-before-scoring"><span class="header-section-number">8.5</span> Debrief before scoring</h2>
+<p>Ask the learner to select two decisions and explain:</p>
 <ul>
-<li>Feel that the process was fair, even though it’s stressful</li>
-<li>Engage constructively with the PIP rather than resist or disengage</li>
-<li>Utilise the flexible schedule accommodation</li>
-<li>Have a reasonable chance of meeting the performance standards during the 60-day period</li>
+<li>What evidence was available.</li>
+<li>What they chose to do.</li>
+<li>Why that was within the task’s criteria.</li>
+<li>What they would check next or change after new information.</li>
 </ul>
-<p><strong>Why:</strong> You established psychological safety (Alex felt safe disclosing personal information), you demonstrated empathy without compromising standards, and you offered concrete support. This is exactly the balance effective HR professionals must strike.</p>
-<p><strong>One Risk to Watch:</strong> Ensure that the flexible schedule accommodation is documented and approved by the manager. If the manager later claims they weren’t consulted or don’t agree, this could create conflict. Always confirm that proposed accommodations are feasible with all stakeholders before committing to them in a meeting.</p>
-<hr>
-<p><strong>FINAL SCORE: 36/40 (90%)</strong></p>
-<p>This was a highly competent performance. You demonstrated strong communication skills, applied HR principles effectively, and handled a complex, emotionally charged situation with professionalism and empathy. The areas for improvement are minor and relate to documentation and collaborative goal-setting—both easily addressed in your follow-up meeting.</p>
-<hr>
+<p>A useful model-feedback request is deliberately bounded:</p>
+<pre class="text"><code>Review the selected response using the supplied
+P1 cards and five rubric criteria.
+Quote the response accurately.
+For each comment, identify a card or criterion.
+Separate observed wording from inferred outcomes.
+Flag insufficient evidence.
+Do not give legal assurances or predict Alex's
+real-world behaviour. Your feedback is provisional.</code></pre>
+<p>The learner checks the feedback rather than submitting it as the final word. A rubric prompt does not ensure accurate application of the rubric.</p>
+<p>The pack includes P1-F, an intentionally flawed simulated critique awarding 90% to weak work. The educator correction scores that response 4/20 against the supplied criteria. The point is the traceable correction, not a claim that one human score is universally correct. Marking teams should calibrate disagreements using the evidence.</p>
 </section>
+<section id="rehearsal-and-transfer-are-different" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="rehearsal-and-transfer-are-different"><span class="header-section-number">8.6</span> Rehearsal and transfer are different</h2>
+<p>Repeating P1 can help a learner practise an improved response. It can also teach the learner to reproduce a familiar script. Follow it with P2, where the manager’s alleged retaliation changes the referral decision.</p>
+<p>Compare the explanations, not the number of attempts or the model’s willingness to cooperate. A respectful question may still receive resistance. A flawed question may receive a friendly response. Persona behaviour is not a scoring key.</p>
+<p>For solo practice, write a response to Alex’s question about the notes, compare it with D1/D5, and explain a limitation. For paired practice, swap adviser and actor roles, then compare decision notes. Both can prepare the same target capability without a model.</p>
 </section>
-<section id="what-makes-this-critique-valuable" class="level2" data-number="6.7">
-<h2 data-number="6.7" class="anchored" data-anchor-id="what-makes-this-critique-valuable"><span class="header-section-number">6.7</span> What Makes This Critique Valuable</h2>
-<p>Notice what the AI’s critique provides:</p>
-<ol type="1">
-<li><strong>Specific feedback tied to theory</strong> (procedural fairness, motivational theory, goal-setting theory)</li>
-<li><strong>Direct quotes from the student’s performance</strong> (not vague generalisations)</li>
-<li><strong>Clear scores</strong> for each criterion (makes assessment transparent)</li>
-<li><strong>Actionable suggestions</strong> (not just “do better,” but <em>how</em> to do better)</li>
-<li><strong>Predictive analysis</strong> (what would likely happen next in the real world)</li>
-</ol>
-<p>This level of detailed, personalised feedback would take a lecturer 20-30 minutes per student to write manually. The AI generates it in seconds, and it’s consistent across all students.</p>
-<hr>
+<section id="three-ways-to-use-the-activity" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="three-ways-to-use-the-activity"><span class="header-section-number">8.7</span> Three ways to use the activity</h2>
+<p><strong>Practice only:</strong> students rehearse, identify one checked improvement and retain their notes privately. No model score enters the grade.</p>
+<p><strong>Guided formative task:</strong> students submit two selected decision extracts and a short revision explanation. The educator gives feedback against the rubric.</p>
+<p><strong>Assessment component:</strong> use published criteria, appropriate data handling, an independent demonstration and moderation. See the <a href="../chapters/assessment.html">assessment chapter</a>. Do not convert a practice tool into a high-stakes assessment merely by assigning a percentage.</p>
+<p>Do not require all private attempts “to prevent gaming”. Collect only the evidence necessary for the stated assessment purpose under the institution’s retention rules. Process records can be fabricated and should not be treated as conclusive proof of independent performance.</p>
 </section>
-<section id="how-to-use-this-as-an-assessment" class="level2" data-number="6.8">
-<h2 data-number="6.8" class="anchored" data-anchor-id="how-to-use-this-as-an-assessment"><span class="header-section-number">6.8</span> How to Use This as an Assessment</h2>
-<p>You have several options for how to structure this as a graded assignment:</p>
-<section id="option-1-simulation-critique-submission" class="level3" data-number="6.8.1">
-<h3 data-number="6.8.1" class="anchored" data-anchor-id="option-1-simulation-critique-submission"><span class="header-section-number">6.8.1</span> Option 1: Simulation + Critique Submission</h3>
-<p><strong>Student Requirements:</strong> 1. Conduct the simulation (submit the full transcript) 2. Generate the AI critique using the provided prompt 3. Write a 500-word reflective response addressing: - Do you agree with the AI’s critique? Why or why not? - Choose one piece of critical feedback from the AI. How would you apply this in your next attempt? - Identify one HR theory or legal principle that guided your approach. Did you apply it effectively?</p>
-<p><strong>What You Grade:</strong> - Quality of the conversation (did they demonstrate the required skills?) - Depth of reflection (do they show genuine self-assessment and learning?) - Theoretical integration (can they connect practice to theory?)</p>
+<section id="adapt-the-challenge-not-just-the-persona-name" class="level2" data-number="8.8">
+<h2 data-number="8.8" class="anchored" data-anchor-id="adapt-the-challenge-not-just-the-persona-name"><span class="header-section-number">8.8</span> Adapt the challenge, not just the persona name</h2>
+<p>For a supplier conversation, give the actor the S1 capacity limit and a clear authority boundary. A confident promise to supply 200 units is not supported when the offer says 160. Practise asking for clarification and explaining a constraint.</p>
+<p>For a marketing discussion, use M1’s audience and cost limitations. The actor can ask why the learner refuses to call the campaign more profitable. The learner should distinguish a calculable rate from an unsupported business claim.</p>
+<p>Those adaptations change the evidence and criteria. They are more instructive than replacing “employee” with “customer” in an unchanged HR script.</p>
 </section>
-<section id="option-2-simulation-re-do-comparison" class="level3" data-number="6.8.2">
-<h3 data-number="6.8.2" class="anchored" data-anchor-id="option-2-simulation-re-do-comparison"><span class="header-section-number">6.8.2</span> Option 2: Simulation + Re-Do + Comparison</h3>
-<p><strong>Student Requirements:</strong> 1. Conduct the simulation (first attempt) 2. Generate the AI critique 3. Conduct the same simulation again, incorporating the feedback 4. Write a comparative analysis: What changed between attempt 1 and attempt 2? What did you learn?</p>
-<p><strong>What You Grade:</strong> - Evidence of improvement between attempts - Ability to integrate feedback - Quality of self-directed learning</p>
-</section>
-<section id="option-3-student-designed-simulation" class="level3" data-number="6.8.3">
-<h3 data-number="6.8.3" class="anchored" data-anchor-id="option-3-student-designed-simulation"><span class="header-section-number">6.8.3</span> Option 3: Student-Designed Simulation</h3>
-<p><strong>Student Requirements:</strong> 1. Design your own simulation scenario (write the setup prompt for a different HR situation) 2. Justify why this scenario targets specific learning objectives 3. Conduct the simulation 4. Generate and respond to the critique</p>
-<p><strong>What You Grade:</strong> - Quality of scenario design (does it create a meaningful learning challenge?) - Performance in the simulation - Reflective analysis</p>
-<hr>
-</section>
-</section>
-<section id="adapting-this-for-different-conversational-skills" class="level2" data-number="6.9">
-<h2 data-number="6.9" class="anchored" data-anchor-id="adapting-this-for-different-conversational-skills"><span class="header-section-number">6.9</span> Adapting This for Different Conversational Skills</h2>
-<p>The three-phase system works for any high-stakes conversation in business. Below are examples across different skills and disciplines:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Skill Area</th>
-<th>Simulation Scenario</th>
-<th>Key Learning Focus</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>HR: Recruitment</strong></td>
-<td>AI plays a candidate with vague answers</td>
-<td>Behavioural interviewing— probing— bias awareness</td>
-</tr>
-<tr class="even">
-<td><strong>HR: Conflict Resolution</strong></td>
-<td>AI plays employee making complaint</td>
-<td>Investigation— empathy— impartiality— documentation</td>
-</tr>
-<tr class="odd">
-<td><strong>HR: Negotiation</strong></td>
-<td>AI plays union representative</td>
-<td>Interest-based negotiation— legal boundaries— compromise</td>
-</tr>
-<tr class="even">
-<td><strong>Management: Change Leadership</strong></td>
-<td>AI plays resistant manager</td>
-<td>Communication— stakeholder management— emotional intelligence</td>
-</tr>
-<tr class="odd">
-<td><strong>Marketing: Client Negotiation</strong></td>
-<td>AI plays demanding client</td>
-<td>Persuasion— objection handling— value communication</td>
-</tr>
-<tr class="even">
-<td><strong>Supply Chain: Supplier Crisis</strong></td>
-<td>AI plays supplier announcing delay</td>
-<td>Problem-solving— negotiation— relationship management</td>
-</tr>
-<tr class="odd">
-<td><strong>Information Systems: Implementation</strong></td>
-<td>AI plays resistant end-user</td>
-<td>Change management— technical communication— adoption strategies</td>
-</tr>
-<tr class="even">
-<td><strong>Accounting: Audit Findings</strong></td>
-<td>AI plays finance manager</td>
-<td>Compliance communication— relationship management— remediation planning</td>
-</tr>
-<tr class="odd">
-<td><strong>Business: Board Presentation</strong></td>
-<td>AI plays questioning board member</td>
-<td>Executive communication— strategic thinking— confidence</td>
-</tr>
-</tbody>
-</table>
-<p>For each scenario, you simply adjust: 1. The persona and context in the <strong>Setup Prompt</strong> 2. The evaluation criteria in the <strong>Critique Prompt</strong> 3. The learning objectives you’re targeting</p>
-<p>The three-phase structure remains the same.</p>
-<hr>
-</section>
-<section id="cross-discipline-applications-flight-simulator-adaptations" class="level2" data-number="6.10">
-<h2 data-number="6.10" class="anchored" data-anchor-id="cross-discipline-applications-flight-simulator-adaptations"><span class="header-section-number">6.10</span> Cross-Discipline Applications: Flight Simulator Adaptations</h2>
-<p>The flight simulator technique can be adapted for conversational skills in any business discipline. Below are examples showing how the three-phase system applies to different professional contexts.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Example: Tourism &amp; Hospitality — Guest Complaint Resolution">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Example: Tourism &amp; Hospitality — Guest Complaint Resolution
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Context:</strong> A hotel manager must handle a serious guest complaint about service quality.</p>
-<p><strong>Setup Prompt Example:</strong></p>
-<pre><code>You are Sarah Thompson, a 32-year-old front office manager at LuxuryResort. You've managed the front desk for 3 years, but recent guest feedback surveys show declining satisfaction scores, particularly around check-in processes.
-
-BACKGROUND CONTEXT:
-- Guest satisfaction scores dropped from 4.8 to 3.9 out of 5
-- Three formal complaints about rude staff behaviour in past month
-- Check-in wait times averaging 45 minutes (target is 15 minutes)
-- You received informal feedback about team morale issues 6 weeks ago
-
-YOUR PERSONA AND behaviour:
-- You're defensive and believe guest expectations are unrealistic
-- You're dealing with high staff turnover and understaffing
-- You feel caught between corporate standards and local service culture
-- You'll initially blame external factors but open up with empathetic listening
-
-THE MEETING:
-I am the resort general manager addressing recent guest satisfaction declines and service quality concerns.
-
-Stay in character. Begin by responding to my opening statement.</code></pre>
-<p><strong>Key Learning Focus:</strong> - Managing guest expectations vs.&nbsp;operational constraints - Addressing service quality issues in hospitality settings - Balancing customer satisfaction with staff well-being</p>
-</div>
-</div>
-</section>
-<section id="implementation-across-disciplines" class="level2" data-number="6.11">
-<h2 data-number="6.11" class="anchored" data-anchor-id="implementation-across-disciplines"><span class="header-section-number">6.11</span> Implementation Across Disciplines</h2>
-<section id="adapting-the-critique-phase" class="level3" data-number="6.11.1">
-<h3 data-number="6.11.1" class="anchored" data-anchor-id="adapting-the-critique-phase"><span class="header-section-number">6.11.1</span> Adapting the Critique Phase</h3>
-<p>For each discipline, adjust the critique prompt to focus on discipline-specific competencies:</p>
-<p><strong>Marketing Critique Focus:</strong> - Brand alignment and messaging consistency - Data-driven decision making - Stakeholder communication effectiveness</p>
-<p><strong>Accounting Critique Focus:</strong> - Regulatory compliance and risk management - Documentation and audit trail requirements - Financial accuracy and transparency</p>
-<p><strong>Business Analytics Critique Focus:</strong> - Data integrity and validation processes - Analytical methodology and assumptions - Business impact communication</p>
-<p><strong>Tourism &amp; Hospitality Critique Focus:</strong> - Service excellence and customer experience - Operational efficiency vs.&nbsp;service quality balance - Cultural sensitivity and local market understanding</p>
-<p><strong>Information Systems Critique Focus:</strong> - Change management and user adoption strategies - Technical requirements vs.&nbsp;business needs alignment - Risk assessment and mitigation planning</p>
-<p><strong>Management Critique Focus:</strong> - Leadership style and team motivation - Strategic alignment and goal setting - Organisational change management</p>
-</section>
-<section id="assessment-integration" class="level3" data-number="6.11.2">
-<h3 data-number="6.11.2" class="anchored" data-anchor-id="assessment-integration"><span class="header-section-number">6.11.2</span> Assessment Integration</h3>
-<p>Use the same assessment options (simulation + critique, re-do + comparison, student-designed scenarios) across all disciplines, adjusting the evaluation criteria to match discipline-specific competencies and professional standards.</p>
-<hr>
-</section>
-</section>
-<section id="common-questions" class="level2" data-number="6.12">
-<h2 data-number="6.12" class="anchored" data-anchor-id="common-questions"><span class="header-section-number">6.12</span> Common Questions</h2>
-<p><strong>Q: Won’t students just keep trying until the AI gives them a good score?</strong></p>
-<p>A: That’s actually a <em>feature</em>, not a bug. In professional development, repetition until competence is exactly what we want. However, you can require students to submit <em>all</em> attempts, not just their best one. This shows their learning journey and prevents gaming the system.</p>
-<p><strong>Q: What if students share their transcripts and just copy each other’s approach?</strong></p>
-<p>A: Design the scenarios with variability. Give each student a slightly different context (different employee persona, different performance issue, different complicating factor). The skills they’re practicing remain the same, but the conversations will be unique.</p>
-<p><strong>Q: How do I know the AI’s critique is accurate?</strong></p>
-<p>A: You should review a sample of critiques initially to ensure quality. However, because <em>you</em> write the critique prompt with specific criteria tied to your learning objectives, the AI’s assessment will align with your rubric. You’re essentially scaling your own assessment criteria.</p>
-<p><strong>Q: Can students do this with voice instead of text?</strong></p>
-<p>A: Yes! Many AI tools now support voice conversation mode. Students can literally <em>speak</em> their way through the simulation, making it even more realistic. The conversation can then be transcribed for the critique phase.</p>
-<hr>
-</section>
-<section id="your-action-step" class="level2" data-number="6.13">
-<h2 data-number="6.13" class="anchored" data-anchor-id="your-action-step"><span class="header-section-number">6.13</span> Your Action Step</h2>
-<p>Before moving to the next chapter, try this:</p>
-<ol type="1">
-<li><strong>Choose one difficult conversation</strong> from your curriculum (in your discipline)</li>
-<li><strong>Write a setup prompt</strong> that creates a realistic scenario (use the examples in this chapter as templates)</li>
-<li><strong>Test it yourself</strong>—have the conversation with the AI</li>
-<li><strong>Generate a critique</strong> of your own performance</li>
-<li><strong>Reflect:</strong> Would this be valuable for your students?</li>
-</ol>
-<p>Once you’ve experienced the full cycle yourself, you’ll be ready to introduce it to your class.</p>
-<hr>
+<section id="activity-debrief-an-unresolved-exchange" class="level2" data-number="8.9">
+<h2 data-number="8.9" class="anchored" data-anchor-id="activity-debrief-an-unresolved-exchange"><span class="header-section-number">8.9</span> Activity: debrief an unresolved exchange</h2>
+<p><strong>Allow 12 minutes; paper or paired route available.</strong> Use the worked exchange, stop before the final adviser response and write your own. Explain what you would record, what permission or process you must check and why the outcome remains open.</p>
+<p>A sound response stays within authority, avoids unnecessary disclosure and identifies a next step. It need not secure Alex’s agreement or close the case.</p>
 
 
 <!-- -->
@@ -1040,16 +752,16 @@ Stay in character. Begin by responding to my opening statement.</code></pre>
     }
     function toggleCodeHandler(show) {
       return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
           if (show) {
             details.open = true;
           } else {
             details.removeAttribute("open");
           }
         }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
         const fromCls = show ? "hidden" : "unhidden";
         const toCls = show ? "unhidden" : "hidden";
         for (let i=0; i<cellCodeDivs.length; i++) {
@@ -1401,521 +1113,203 @@ Stay in character. Begin by responding to my opening statement.</code></pre>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/managing-context.html" class="pagination-link" aria-label="Managing LLM Context: Working Smarter with AI Conversations">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span>
+      <a href="../chapters/critique-toolkit.html" class="pagination-link" aria-label="The Critique Toolkit: Check the Recommendation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Critique Toolkit: Check the Recommendation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/critique-toolkit.html" class="pagination-link" aria-label="The AI Critique Toolkit - Becoming a Smart Business Professional">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/self-assessment.html" class="pagination-link" aria-label="Self-Assessment: Judge Before Receiving Feedback">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Self-Assessment: Judge Before Receiving Feedback</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># The Flight Simulator - Conversation Simulations</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Pilots do not learn to fly by reading about turbulence. They learn by experiencing it in a simulator where mistakes are cheap. Your students deserve the same.</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Three-Phase System</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>In the previous chapter, you learned the Role Play technique. Now we're going to transform that into a complete professional practice system with three distinct phases:</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>**Phase 1: The Setup** (You or the student designs the scenario)</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>**Phase 2: The Simulation** (Student practices the conversation)</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>**Phase 3: The Debrief** (AI critiques the student's performance)</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>This three-phase approach mirrors how professionals develop expertise: briefing, practice, and reflective analysis. The AI makes this process scalable, personalised, and repeatable.</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why This Is Powerful</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>Traditional role-play in class has limitations:</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Limited time means each student gets one attempt</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Peer role-play can be inconsistent (your classmate might not play the "difficult employee" convincingly)</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Students feel self-conscious performing in front of others</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Feedback is often delayed and general rather than specific</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>AI-powered simulation solves all of these:</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Students can practice the same scenario five times until they get it right</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The AI consistently plays the role as designed</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Students can practice privately, making mistakes without embarrassment</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Feedback is immediate, specific, and tied to learning objectives</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>Let's walk through a complete example.</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Complete Worked Example: The Performance Improvement Plan Meeting</span></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a><span class="fu">### Context</span></span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>This is a common high-stakes conversation in HR. It's legally sensitive, emotionally difficult, and requires balancing empathy with accountability. (We'll show examples from other disciplines at the end of this chapter.)</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>**Learning Objectives:**</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Apply principles of procedural fairness</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communicate difficult feedback clearly and constructively</span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Demonstrate empathy while maintaining professional boundaries</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Document the conversation appropriately</span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Avoid common legal pitfalls (discrimination, unfair dismissal)</span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a><span class="fu">## Phase 1: The Setup Prompt</span></span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>This is where you (or the student) design the scenario. The setup prompt defines:</span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>The AI's role and personality</span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>The context and background</span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>The challenge or conflict</span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Behavioural guidelines for the AI</span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>When the simulation should end</span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a><span class="fu">### Setup Prompt (Ready to Use)</span></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a><span class="in">You are Alex Chen, a 32-year-old software engineer who has worked at</span></span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a><span class="in">TechCorp for three years. You were a high performer until six months ago,</span></span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a><span class="in">when your work quality declined noticeably.</span></span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a><span class="in">BACKGROUND CONTEXT:</span></span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a><span class="in">- You have missed three project deadlines in the past four months</span></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a><span class="in">- Your code quality has dropped—recent pull requests have had multiple bugs</span></span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a><span class="in">  that QA caught</span></span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="in">- You've been arriving late to work 2-3 times per week</span></span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a><span class="in">- Your manager has already had one informal conversation with you about</span></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a><span class="in">  these concerns two months ago, but things have not improved</span></span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a><span class="in">- You are being placed on a formal 60-day Performance Improvement Plan (PIP)</span></span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR PERSONA AND behaviour:</span></span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a><span class="in">- You are defensive and embarrassed. You feel this PIP is unfair and harsh.</span></span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a><span class="in">- You believe your recent work is "good enough" and that your manager has</span></span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a><span class="in">  unrealistic expectations</span></span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a><span class="in">- You are dealing with a stressful personal situation (caring for an aging</span></span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a><span class="in">  parent), but you have not told your manager about this—you believe it's</span></span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a><span class="in">  private and not relevant to work</span></span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a><span class="in">- You are not aggressive or hostile, but you are resistant and will push</span></span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a><span class="in">  back on criticism</span></span>
-<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a><span class="in">- If the HR person or manager shows genuine empathy and asks open questions,</span></span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a><span class="in">  you will gradually reveal some personal context</span></span>
-<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a><span class="in">- If they are accusatory or dismissive, you will shut down and become</span></span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a><span class="in">  minimal in your responses</span></span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a><span class="in">THE MEETING:</span></span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a><span class="in">I am the HR representative (or the manager) conducting the PIP meeting with</span></span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a><span class="in">you. This is a formal meeting. You have just been told this is a PIP</span></span>
-<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a><span class="in">discussion.</span></span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR GOAL:</span></span>
-<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a><span class="in">- React as Alex would realistically react</span></span>
-<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a><span class="in">- Challenge the fairness of the process if it seems rushed or poorly</span></span>
-<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="in">  explained</span></span>
-<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a><span class="in">- Reveal personal information only if trust is established</span></span>
-<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a><span class="in">- Show emotion (frustration, stress, worry) but remain professional</span></span>
-<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a><span class="in">- Respond dynamically to how I conduct the meeting</span></span>
-<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a><span class="in">Stay in character throughout. Begin the meeting by responding to my opening</span></span>
-<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a><span class="in">statement. I will start the conversation now.</span></span>
-<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>**Key Design Elements:**</span>
-<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Complexity:** Alex isn't purely defensive or purely cooperative---there's legitimate work performance decline *and* extenuating circumstances</span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Realistic emotion:** Alex is stressed and embarrassed, not theatrical or extreme</span>
-<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Conditional behaviour:** How Alex responds depends on the student's approach (rewards good technique)</span>
-<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Hidden information:** The personal context isn't revealed unless the student asks the right questions with the right tone</span>
-<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a><span class="fu">## Phase 2: The Simulation</span></span>
-<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>The student now conducts the meeting. Here's an example of how this might play out.</span>
-<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a><span class="fu">### Example Conversation</span></span>
-<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>**Student (HR Rep):**</span>
-<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Hi Alex, thanks for meeting with me. I want to talk with you today about some performance concerns that have been raised. I know this is a difficult conversation, but I want to make sure we have an open discussion about what's been happening and how we can support you moving forward."</span></span>
-<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *shifts uncomfortably* "Yeah, I've been hearing whispers about this. Look, I know I've missed a couple of deadlines, but I don't think things are as bad as people are making out. I'm still getting my work done. Is this really necessary?"</span></span>
-<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>**Student:**</span>
-<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I understand this feels uncomfortable. Let me be specific about the concerns. Over the past four months, you've missed three major project deadlines---the payment gateway integration in March, the API update in April, and the mobile optimisation in May. Additionally, QA has flagged an increase in bugs in your recent code submissions. These are measurable changes from your previous performance standard. Can you help me understand what's been happening?"</span></span>
-<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *pauses, looks down* "I mean... yeah, okay, I've had some issues. But deadlines get missed sometimes, right? And bugs happen. I just feel like everyone's being really harsh all of a sudden. I had one conversation with my manager about this two months ago, and now suddenly I'm on a PIP? That feels pretty extreme."</span></span>
-<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>**Student:**</span>
-<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "That's a fair question, Alex. You did have an informal conversation with your manager in early April where these concerns were raised. At that time, you both agreed on some strategies to get things back on track. Since then, we've continued to see the same patterns---another deadline missed last month and continued quality issues. A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve. Does that make sense?"</span></span>
-<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *sighs* "I guess. I just... it's been a really tough few months personally, okay? I know that's not your problem, but it's not like I'm just slacking off or don't care anymore."</span></span>
-<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>**Student:**</span>
-<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I'm genuinely sorry you're dealing with difficult things. If there are specific supports we can offer---whether that's adjustments to your schedule, access to our Employee Assistance Program, or other accommodations---we're open to discussing that. But we also need to be clear about the performance standards that need to be met. Can we talk about what support might help you succeed during this PIP period?"</span></span>
-<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *softens slightly* "Honestly, I've been dealing with my dad's health declining. I've been having to take him to medical appointments, and I'm the only family member nearby. Some mornings I'm exhausted because I've been up half the night. I didn't want to bring it into work because... I don't know, I thought I could just handle it."</span></span>
-<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>**Student:**</span>
-<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I'm really sorry to hear about your father, Alex. That's incredibly stressful. I'm glad you've told me, because this is exactly the kind of situation where we want to support our employees. Have you considered whether a temporary flexible schedule might help---perhaps starting later on days when you have early appointments, or adjusting your hours? We can also connect you with our EAP, which offers counseling and support for family caregivers. Would either of those be helpful?"</span></span>
-<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *nods* "Yeah... actually, that might really help. I didn't know that was an option. I've just been trying to power through, but clearly that's not working."</span></span>
-<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a>**Student:**</span>
-<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "I appreciate your honesty. So here's what I suggest: we'll document this PIP with clear performance targets---specific deadlines and quality standards. But we'll also document the support measures we're putting in place, including flexible scheduling where possible. This gives you the structure and the support to get back to the high performance standard we know you're capable of. The PIP period is 60 days. At the 30-day mark, we'll have a check-in to see how things are going. Does that sound fair?"</span></span>
-<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-150"><a href="#cb4-150" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *takes a breath* "Okay. Yeah. I mean, it's still stressful to be on a PIP, but I get it. And if I can actually get some flexibility with the schedule, that would help a lot. I don't want to lose this job---I just need to get things back on track."</span></span>
-<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a>**Student:**</span>
-<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "That's exactly the goal, Alex. We want you to succeed. Let's schedule a follow-up meeting next week to formalize the flexible schedule arrangement and go through the detailed PIP document. Thank you for being open with me today---that's really important."</span></span>
-<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a>**AI (as Alex):**</span>
-<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *manages a small, tired smile* "Thanks. I appreciate you actually listening."</span></span>
-<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a><span class="fu">## Phase 3: The Debrief (AI Critique)</span></span>
-<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a>After the simulation ends, the student copies the entire conversation transcript and submits it to the AI with a **critique prompt**. This is where the real learning happens.</span>
-<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a><span class="fu">### Critique Prompt (Ready to Use)</span></span>
-<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a><span class="in">You are an expert HR educator evaluating a student's performance in a</span></span>
-<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a><span class="in">simulated Performance Improvement Plan (PIP) meeting.</span></span>
-<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a><span class="in">Below is the full transcript of the conversation between the student (acting</span></span>
-<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a><span class="in">as the HR Representative) and a simulated employee (Alex Chen) who was being</span></span>
-<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a><span class="in">placed on a PIP.</span></span>
-<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a><span class="in">Your task is to provide a detailed critique of the student's performance</span></span>
-<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a><span class="in">across the following criteria:</span></span>
-<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a><span class="in">1. PROCEDURAL FAIRNESS</span></span>
-<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did the student clearly explain why the meeting was happening?</span></span>
-<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they provide specific examples of performance issues?</span></span>
-<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they give Alex an opportunity to respond and explain?</span></span>
-<span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they explain the PIP process fairly and clearly?</span></span>
-<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a><span class="in">2. COMMUNICATION EFFECTIVENESS</span></span>
-<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a><span class="in">   - Was the tone appropriate (professional, empathetic but not dismissive)?</span></span>
-<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did the student use open questions to encourage dialogue?</span></span>
-<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a><span class="in">   - How did they handle Alex's defensiveness?</span></span>
-<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they actively listen and acknowledge Alex's concerns?</span></span>
-<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a><span class="in">3. LEGAL AND ETHICAL CONSIDERATIONS</span></span>
-<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did the student avoid any discriminatory language or assumptions?</span></span>
-<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they appropriately handle the disclosure of personal circumstances?</span></span>
-<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they maintain appropriate professional boundaries?</span></span>
-<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they document support measures as well as performance requirements?</span></span>
-<span id="cb4-195"><a href="#cb4-195" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-196"><a href="#cb4-196" aria-hidden="true" tabindex="-1"></a><span class="in">4. APPLICATION OF HR THEORY</span></span>
-<span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a><span class="in">   - What motivational or psychological principles did the student apply</span></span>
-<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a><span class="in">     (or fail to apply)?</span></span>
-<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a><span class="in">   - How well did they balance accountability with support?</span></span>
-<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a><span class="in">   - Did they create conditions for behavioural change?</span></span>
-<span id="cb4-201"><a href="#cb4-201" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-202"><a href="#cb4-202" aria-hidden="true" tabindex="-1"></a><span class="in">For each criterion, provide:</span></span>
-<span id="cb4-203"><a href="#cb4-203" aria-hidden="true" tabindex="-1"></a><span class="in">- A score out of 10</span></span>
-<span id="cb4-204"><a href="#cb4-204" aria-hidden="true" tabindex="-1"></a><span class="in">- Specific examples from the transcript (quote the student's words)</span></span>
-<span id="cb4-205"><a href="#cb4-205" aria-hidden="true" tabindex="-1"></a><span class="in">- What the student did well</span></span>
-<span id="cb4-206"><a href="#cb4-206" aria-hidden="true" tabindex="-1"></a><span class="in">- What the student could improve</span></span>
-<span id="cb4-207"><a href="#cb4-207" aria-hidden="true" tabindex="-1"></a><span class="in">- One concrete suggestion for how to improve</span></span>
-<span id="cb4-208"><a href="#cb4-208" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-209"><a href="#cb4-209" aria-hidden="true" tabindex="-1"></a><span class="in">Finally, provide an overall assessment: If this were a real PIP meeting,</span></span>
-<span id="cb4-210"><a href="#cb4-210" aria-hidden="true" tabindex="-1"></a><span class="in">what would likely happen next based on how the student conducted it?</span></span>
-<span id="cb4-211"><a href="#cb4-211" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-212"><a href="#cb4-212" aria-hidden="true" tabindex="-1"></a><span class="in">Here is the transcript:</span></span>
-<span id="cb4-213"><a href="#cb4-213" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-214"><a href="#cb4-214" aria-hidden="true" tabindex="-1"></a><span class="in">[PASTE TRANSCRIPT HERE]</span></span>
-<span id="cb4-215"><a href="#cb4-215" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-216"><a href="#cb4-216" aria-hidden="true" tabindex="-1"></a><span class="in">Begin your critique.</span></span>
-<span id="cb4-217"><a href="#cb4-217" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-218"><a href="#cb4-218" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-219"><a href="#cb4-219" aria-hidden="true" tabindex="-1"></a><span class="fu">### Example Critique Output</span></span>
-<span id="cb4-220"><a href="#cb4-220" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-221"><a href="#cb4-221" aria-hidden="true" tabindex="-1"></a>The AI will provide something like this:</span>
-<span id="cb4-222"><a href="#cb4-222" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-223"><a href="#cb4-223" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-224"><a href="#cb4-224" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-225"><a href="#cb4-225" aria-hidden="true" tabindex="-1"></a>**CRITIQUE OF PIP MEETING PERFORMANCE**</span>
-<span id="cb4-226"><a href="#cb4-226" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-227"><a href="#cb4-227" aria-hidden="true" tabindex="-1"></a>**1. PROCEDURAL FAIRNESS: 9/10**</span>
-<span id="cb4-228"><a href="#cb4-228" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-229"><a href="#cb4-229" aria-hidden="true" tabindex="-1"></a>**What you did well:**</span>
-<span id="cb4-230"><a href="#cb4-230" aria-hidden="true" tabindex="-1"></a>You were exemplary in providing specific, measurable examples of performance concerns. When you said, *"Over the past four months, you've missed three major project deadlines---the payment gateway integration in March, the API update in April, and the mobile optimisation in May,"* you gave Alex concrete information to respond to, not vague accusations. This is critical for procedural fairness.</span>
-<span id="cb4-231"><a href="#cb4-231" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-232"><a href="#cb4-232" aria-hidden="true" tabindex="-1"></a>You also clearly explained the purpose of the PIP: *"A PIP isn't a punishment; it's a structured way to clearly define expectations, provide support, and give you a fair opportunity to improve."* This reframing helped reduce Alex's defensiveness.</span>
-<span id="cb4-233"><a href="#cb4-233" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-234"><a href="#cb4-234" aria-hidden="true" tabindex="-1"></a>**Where you could improve:**</span>
-<span id="cb4-235"><a href="#cb4-235" aria-hidden="true" tabindex="-1"></a>You could have been even more explicit about the timeline and previous feedback. While you mentioned the April conversation, you could have said: "We had a conversation on April 3rd where we documented three specific concerns. We agreed you would <span class="co">[</span><span class="ot">specific actions</span><span class="co">]</span>. Since then, we've seen <span class="co">[</span><span class="ot">specific outcomes</span><span class="co">]</span>. That's why we're now moving to a formal PIP."</span>
-<span id="cb4-236"><a href="#cb4-236" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-237"><a href="#cb4-237" aria-hidden="true" tabindex="-1"></a>**Suggestion:**</span>
-<span id="cb4-238"><a href="#cb4-238" aria-hidden="true" tabindex="-1"></a>Always reference specific dates and documented prior warnings. This strengthens the legal defensibility of your process.</span>
-<span id="cb4-239"><a href="#cb4-239" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-240"><a href="#cb4-240" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-241"><a href="#cb4-241" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-242"><a href="#cb4-242" aria-hidden="true" tabindex="-1"></a>**2. COMMUNICATION EFFECTIVENESS: 10/10**</span>
-<span id="cb4-243"><a href="#cb4-243" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-244"><a href="#cb4-244" aria-hidden="true" tabindex="-1"></a>**What you did well:**</span>
-<span id="cb4-245"><a href="#cb4-245" aria-hidden="true" tabindex="-1"></a>Your use of empathy was outstanding. When Alex revealed personal stress, you immediately acknowledged it: *"Thank you for sharing that, Alex. I appreciate that personal circumstances can affect work, and I'm genuinely sorry you're dealing with difficult things."* This response validated Alex's feelings while maintaining professional boundaries.</span>
-<span id="cb4-246"><a href="#cb4-246" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-247"><a href="#cb4-247" aria-hidden="true" tabindex="-1"></a>You also used excellent open-ended questions: *"Can you help me understand what's been happening?"* This invited dialogue rather than putting Alex on the defensive.</span>
-<span id="cb4-248"><a href="#cb4-248" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-249"><a href="#cb4-249" aria-hidden="true" tabindex="-1"></a>Your handling of defensiveness was textbook-perfect. When Alex said the PIP felt "extreme," you didn't argue or dismiss---you acknowledged the concern (*"That's a fair question"*) and then explained the rationale.</span>
-<span id="cb4-250"><a href="#cb4-250" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-251"><a href="#cb4-251" aria-hidden="true" tabindex="-1"></a>**Where you could improve:**</span>
-<span id="cb4-252"><a href="#cb4-252" aria-hidden="true" tabindex="-1"></a>Nothing significant. Your communication was professional, empathetic, and effective throughout.</span>
-<span id="cb4-253"><a href="#cb4-253" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-254"><a href="#cb4-254" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-255"><a href="#cb4-255" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-256"><a href="#cb4-256" aria-hidden="true" tabindex="-1"></a>**3. LEGAL AND ETHICAL CONSIDERATIONS: 9/10**</span>
-<span id="cb4-257"><a href="#cb4-257" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-258"><a href="#cb4-258" aria-hidden="true" tabindex="-1"></a>**What you did well:**</span>
-<span id="cb4-259"><a href="#cb4-259" aria-hidden="true" tabindex="-1"></a>When Alex disclosed caregiving responsibilities, you immediately offered accommodations: *"Have you considered whether a temporary flexible schedule might help?"* This is legally and ethically sound---you're demonstrating that the company is willing to make reasonable adjustments, which protects against claims of unfair dismissal or discrimination.</span>
-<span id="cb4-260"><a href="#cb4-260" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-261"><a href="#cb4-261" aria-hidden="true" tabindex="-1"></a>You also avoided making assumptions or probing inappropriately into Alex's personal life. You accepted the disclosure, offered support, and moved the conversation forward professionally.</span>
-<span id="cb4-262"><a href="#cb4-262" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-263"><a href="#cb4-263" aria-hidden="true" tabindex="-1"></a>**Where you could improve:**</span>
-<span id="cb4-264"><a href="#cb4-264" aria-hidden="true" tabindex="-1"></a>You should explicitly document this conversation. At the end of the meeting, you could have said: "I'm going to document today's conversation, including your disclosure about your father's health and the flexible schedule accommodation we've discussed. You'll receive a copy of this documentation for your records."</span>
-<span id="cb4-265"><a href="#cb4-265" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-266"><a href="#cb4-266" aria-hidden="true" tabindex="-1"></a>**Suggestion:**</span>
-<span id="cb4-267"><a href="#cb4-267" aria-hidden="true" tabindex="-1"></a>Always verbally confirm that documentation will be provided. This ensures transparency and gives the employee a chance to correct any misunderstandings immediately.</span>
-<span id="cb4-268"><a href="#cb4-268" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-269"><a href="#cb4-269" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-270"><a href="#cb4-270" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-271"><a href="#cb4-271" aria-hidden="true" tabindex="-1"></a>**4. APPLICATION OF HR THEORY: 8/10**</span>
-<span id="cb4-272"><a href="#cb4-272" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-273"><a href="#cb4-273" aria-hidden="true" tabindex="-1"></a>**What you did well:**</span>
-<span id="cb4-274"><a href="#cb4-274" aria-hidden="true" tabindex="-1"></a>You demonstrated understanding of **motivational theory** by balancing challenge with support. You didn't just impose standards---you co-created solutions by asking, *"Can we talk about what support might help you succeed during this PIP period?"*</span>
-<span id="cb4-275"><a href="#cb4-275" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-276"><a href="#cb4-276" aria-hidden="true" tabindex="-1"></a>You also applied principles of **procedural justice** by ensuring Alex felt heard and treated fairly, which research shows increases acceptance of difficult decisions.</span>
-<span id="cb4-277"><a href="#cb4-277" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-278"><a href="#cb4-278" aria-hidden="true" tabindex="-1"></a>**Where you could improve:**</span>
-<span id="cb4-279"><a href="#cb4-279" aria-hidden="true" tabindex="-1"></a>You could have applied **goal-setting theory** more explicitly. When finalising the PIP, you mentioned "clear performance targets," but you didn't collaboratively define them in the meeting. Research shows that when employees participate in setting their own goals, commitment and achievement increase.</span>
-<span id="cb4-280"><a href="#cb4-280" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-281"><a href="#cb4-281" aria-hidden="true" tabindex="-1"></a>**Suggestion:**</span>
-<span id="cb4-282"><a href="#cb4-282" aria-hidden="true" tabindex="-1"></a>In your follow-up meeting, involve Alex in defining the specific, measurable targets for the PIP. For example: "What do you think is a realistic number of on-time deliverables over the next 30 days, given the support we're putting in place?" This increases ownership and reduces resistance.</span>
-<span id="cb4-283"><a href="#cb4-283" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-284"><a href="#cb4-284" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-285"><a href="#cb4-285" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-286"><a href="#cb4-286" aria-hidden="true" tabindex="-1"></a>**OVERALL ASSESSMENT**</span>
-<span id="cb4-287"><a href="#cb4-287" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-288"><a href="#cb4-288" aria-hidden="true" tabindex="-1"></a>**Likely Outcome:**</span>
-<span id="cb4-289"><a href="#cb4-289" aria-hidden="true" tabindex="-1"></a>Based on how you conducted this meeting, Alex is likely to:</span>
-<span id="cb4-290"><a href="#cb4-290" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-291"><a href="#cb4-291" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Feel that the process was fair, even though it's stressful</span>
-<span id="cb4-292"><a href="#cb4-292" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Engage constructively with the PIP rather than resist or disengage</span>
-<span id="cb4-293"><a href="#cb4-293" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Utilise the flexible schedule accommodation</span>
-<span id="cb4-294"><a href="#cb4-294" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Have a reasonable chance of meeting the performance standards during the 60-day period</span>
-<span id="cb4-295"><a href="#cb4-295" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-296"><a href="#cb4-296" aria-hidden="true" tabindex="-1"></a>**Why:**</span>
-<span id="cb4-297"><a href="#cb4-297" aria-hidden="true" tabindex="-1"></a>You established psychological safety (Alex felt safe disclosing personal information), you demonstrated empathy without compromising standards, and you offered concrete support. This is exactly the balance effective HR professionals must strike.</span>
-<span id="cb4-298"><a href="#cb4-298" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-299"><a href="#cb4-299" aria-hidden="true" tabindex="-1"></a>**One Risk to Watch:**</span>
-<span id="cb4-300"><a href="#cb4-300" aria-hidden="true" tabindex="-1"></a>Ensure that the flexible schedule accommodation is documented and approved by the manager. If the manager later claims they weren't consulted or don't agree, this could create conflict. Always confirm that proposed accommodations are feasible with all stakeholders before committing to them in a meeting.</span>
-<span id="cb4-301"><a href="#cb4-301" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-302"><a href="#cb4-302" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-303"><a href="#cb4-303" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-304"><a href="#cb4-304" aria-hidden="true" tabindex="-1"></a>**FINAL SCORE: 36/40 (90%)**</span>
-<span id="cb4-305"><a href="#cb4-305" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-306"><a href="#cb4-306" aria-hidden="true" tabindex="-1"></a>This was a highly competent performance. You demonstrated strong communication skills, applied HR principles effectively, and handled a complex, emotionally charged situation with professionalism and empathy. The areas for improvement are minor and relate to documentation and collaborative goal-setting---both easily addressed in your follow-up meeting.</span>
-<span id="cb4-307"><a href="#cb4-307" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-308"><a href="#cb4-308" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-309"><a href="#cb4-309" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-310"><a href="#cb4-310" aria-hidden="true" tabindex="-1"></a><span class="fu">## What Makes This Critique Valuable</span></span>
-<span id="cb4-311"><a href="#cb4-311" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-312"><a href="#cb4-312" aria-hidden="true" tabindex="-1"></a>Notice what the AI's critique provides:</span>
-<span id="cb4-313"><a href="#cb4-313" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-314"><a href="#cb4-314" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Specific feedback tied to theory** (procedural fairness, motivational theory, goal-setting theory)</span>
-<span id="cb4-315"><a href="#cb4-315" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Direct quotes from the student's performance** (not vague generalisations)</span>
-<span id="cb4-316"><a href="#cb4-316" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Clear scores** for each criterion (makes assessment transparent)</span>
-<span id="cb4-317"><a href="#cb4-317" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Actionable suggestions** (not just "do better," but *how* to do better)</span>
-<span id="cb4-318"><a href="#cb4-318" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Predictive analysis** (what would likely happen next in the real world)</span>
-<span id="cb4-319"><a href="#cb4-319" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-320"><a href="#cb4-320" aria-hidden="true" tabindex="-1"></a>This level of detailed, personalised feedback would take a lecturer 20-30 minutes per student to write manually. The AI generates it in seconds, and it's consistent across all students.</span>
-<span id="cb4-321"><a href="#cb4-321" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-322"><a href="#cb4-322" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-323"><a href="#cb4-323" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-324"><a href="#cb4-324" aria-hidden="true" tabindex="-1"></a><span class="fu">## How to Use This as an Assessment</span></span>
-<span id="cb4-325"><a href="#cb4-325" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-326"><a href="#cb4-326" aria-hidden="true" tabindex="-1"></a>You have several options for how to structure this as a graded assignment:</span>
-<span id="cb4-327"><a href="#cb4-327" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-328"><a href="#cb4-328" aria-hidden="true" tabindex="-1"></a><span class="fu">### Option 1: Simulation + Critique Submission</span></span>
-<span id="cb4-329"><a href="#cb4-329" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-330"><a href="#cb4-330" aria-hidden="true" tabindex="-1"></a>**Student Requirements:**</span>
-<span id="cb4-331"><a href="#cb4-331" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Conduct the simulation (submit the full transcript)</span>
-<span id="cb4-332"><a href="#cb4-332" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Generate the AI critique using the provided prompt</span>
-<span id="cb4-333"><a href="#cb4-333" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Write a 500-word reflective response addressing:</span>
-<span id="cb4-334"><a href="#cb4-334" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Do you agree with the AI's critique? Why or why not?</span>
-<span id="cb4-335"><a href="#cb4-335" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Choose one piece of critical feedback from the AI. How would you apply this in your next attempt?</span>
-<span id="cb4-336"><a href="#cb4-336" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Identify one HR theory or legal principle that guided your approach. Did you apply it effectively?</span>
-<span id="cb4-337"><a href="#cb4-337" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-338"><a href="#cb4-338" aria-hidden="true" tabindex="-1"></a>**What You Grade:**</span>
-<span id="cb4-339"><a href="#cb4-339" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quality of the conversation (did they demonstrate the required skills?)</span>
-<span id="cb4-340"><a href="#cb4-340" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Depth of reflection (do they show genuine self-assessment and learning?)</span>
-<span id="cb4-341"><a href="#cb4-341" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Theoretical integration (can they connect practice to theory?)</span>
-<span id="cb4-342"><a href="#cb4-342" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-343"><a href="#cb4-343" aria-hidden="true" tabindex="-1"></a><span class="fu">### Option 2: Simulation + Re-Do + Comparison</span></span>
-<span id="cb4-344"><a href="#cb4-344" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-345"><a href="#cb4-345" aria-hidden="true" tabindex="-1"></a>**Student Requirements:**</span>
-<span id="cb4-346"><a href="#cb4-346" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Conduct the simulation (first attempt)</span>
-<span id="cb4-347"><a href="#cb4-347" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Generate the AI critique</span>
-<span id="cb4-348"><a href="#cb4-348" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Conduct the same simulation again, incorporating the feedback</span>
-<span id="cb4-349"><a href="#cb4-349" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Write a comparative analysis: What changed between attempt 1 and attempt 2? What did you learn?</span>
-<span id="cb4-350"><a href="#cb4-350" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-351"><a href="#cb4-351" aria-hidden="true" tabindex="-1"></a>**What You Grade:**</span>
-<span id="cb4-352"><a href="#cb4-352" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Evidence of improvement between attempts</span>
-<span id="cb4-353"><a href="#cb4-353" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ability to integrate feedback</span>
-<span id="cb4-354"><a href="#cb4-354" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quality of self-directed learning</span>
-<span id="cb4-355"><a href="#cb4-355" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-356"><a href="#cb4-356" aria-hidden="true" tabindex="-1"></a><span class="fu">### Option 3: Student-Designed Simulation</span></span>
-<span id="cb4-357"><a href="#cb4-357" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-358"><a href="#cb4-358" aria-hidden="true" tabindex="-1"></a>**Student Requirements:**</span>
-<span id="cb4-359"><a href="#cb4-359" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Design your own simulation scenario (write the setup prompt for a different HR situation)</span>
-<span id="cb4-360"><a href="#cb4-360" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Justify why this scenario targets specific learning objectives</span>
-<span id="cb4-361"><a href="#cb4-361" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Conduct the simulation</span>
-<span id="cb4-362"><a href="#cb4-362" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Generate and respond to the critique</span>
-<span id="cb4-363"><a href="#cb4-363" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-364"><a href="#cb4-364" aria-hidden="true" tabindex="-1"></a>**What You Grade:**</span>
-<span id="cb4-365"><a href="#cb4-365" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quality of scenario design (does it create a meaningful learning challenge?)</span>
-<span id="cb4-366"><a href="#cb4-366" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Performance in the simulation</span>
-<span id="cb4-367"><a href="#cb4-367" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Reflective analysis</span>
-<span id="cb4-368"><a href="#cb4-368" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-369"><a href="#cb4-369" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-370"><a href="#cb4-370" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-371"><a href="#cb4-371" aria-hidden="true" tabindex="-1"></a><span class="fu">## Adapting This for Different Conversational Skills</span></span>
-<span id="cb4-372"><a href="#cb4-372" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-373"><a href="#cb4-373" aria-hidden="true" tabindex="-1"></a>The three-phase system works for any high-stakes conversation in business. Below are examples across different skills and disciplines:</span>
-<span id="cb4-374"><a href="#cb4-374" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-375"><a href="#cb4-375" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Skill Area <span class="pp">|</span> Simulation Scenario <span class="pp">|</span> Key Learning Focus <span class="pp">|</span></span>
-<span id="cb4-376"><a href="#cb4-376" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
-<span id="cb4-377"><a href="#cb4-377" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **HR: Recruitment** <span class="pp">|</span> AI plays a candidate with vague answers <span class="pp">|</span> Behavioural interviewing--- probing--- bias awareness <span class="pp">|</span></span>
-<span id="cb4-378"><a href="#cb4-378" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **HR: Conflict Resolution** <span class="pp">|</span> AI plays employee making complaint <span class="pp">|</span> Investigation--- empathy--- impartiality--- documentation <span class="pp">|</span></span>
-<span id="cb4-379"><a href="#cb4-379" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **HR: Negotiation** <span class="pp">|</span> AI plays union representative <span class="pp">|</span> Interest-based negotiation--- legal boundaries--- compromise <span class="pp">|</span></span>
-<span id="cb4-380"><a href="#cb4-380" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Management: Change Leadership** <span class="pp">|</span> AI plays resistant manager <span class="pp">|</span> Communication--- stakeholder management--- emotional intelligence <span class="pp">|</span></span>
-<span id="cb4-381"><a href="#cb4-381" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Marketing: Client Negotiation** <span class="pp">|</span> AI plays demanding client <span class="pp">|</span> Persuasion--- objection handling--- value communication <span class="pp">|</span></span>
-<span id="cb4-382"><a href="#cb4-382" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Supply Chain: Supplier Crisis** <span class="pp">|</span> AI plays supplier announcing delay <span class="pp">|</span> Problem-solving--- negotiation--- relationship management <span class="pp">|</span></span>
-<span id="cb4-383"><a href="#cb4-383" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Information Systems: Implementation** <span class="pp">|</span> AI plays resistant end-user <span class="pp">|</span> Change management--- technical communication--- adoption strategies <span class="pp">|</span></span>
-<span id="cb4-384"><a href="#cb4-384" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Accounting: Audit Findings** <span class="pp">|</span> AI plays finance manager <span class="pp">|</span> Compliance communication--- relationship management--- remediation planning <span class="pp">|</span></span>
-<span id="cb4-385"><a href="#cb4-385" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Business: Board Presentation** <span class="pp">|</span> AI plays questioning board member <span class="pp">|</span> Executive communication--- strategic thinking--- confidence <span class="pp">|</span></span>
-<span id="cb4-386"><a href="#cb4-386" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-387"><a href="#cb4-387" aria-hidden="true" tabindex="-1"></a>For each scenario, you simply adjust:</span>
-<span id="cb4-388"><a href="#cb4-388" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>The persona and context in the **Setup Prompt**</span>
-<span id="cb4-389"><a href="#cb4-389" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>The evaluation criteria in the **Critique Prompt**</span>
-<span id="cb4-390"><a href="#cb4-390" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>The learning objectives you're targeting</span>
-<span id="cb4-391"><a href="#cb4-391" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-392"><a href="#cb4-392" aria-hidden="true" tabindex="-1"></a>The three-phase structure remains the same.</span>
-<span id="cb4-393"><a href="#cb4-393" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-394"><a href="#cb4-394" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-395"><a href="#cb4-395" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-396"><a href="#cb4-396" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cross-Discipline Applications: Flight Simulator Adaptations</span></span>
-<span id="cb4-397"><a href="#cb4-397" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-398"><a href="#cb4-398" aria-hidden="true" tabindex="-1"></a>The flight simulator technique can be adapted for conversational skills in any business discipline. Below are examples showing how the three-phase system applies to different professional contexts.</span>
-<span id="cb4-399"><a href="#cb4-399" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-400"><a href="#cb4-400" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip title="Example: Tourism &amp; Hospitality — Guest Complaint Resolution"}</span>
-<span id="cb4-401"><a href="#cb4-401" aria-hidden="true" tabindex="-1"></a>**Context:** A hotel manager must handle a serious guest complaint about service quality.</span>
-<span id="cb4-402"><a href="#cb4-402" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-403"><a href="#cb4-403" aria-hidden="true" tabindex="-1"></a>**Setup Prompt Example:**</span>
-<span id="cb4-404"><a href="#cb4-404" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-405"><a href="#cb4-405" aria-hidden="true" tabindex="-1"></a><span class="in">You are Sarah Thompson, a 32-year-old front office manager at LuxuryResort. You've managed the front desk for 3 years, but recent guest feedback surveys show declining satisfaction scores, particularly around check-in processes.</span></span>
-<span id="cb4-406"><a href="#cb4-406" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-407"><a href="#cb4-407" aria-hidden="true" tabindex="-1"></a><span class="in">BACKGROUND CONTEXT:</span></span>
-<span id="cb4-408"><a href="#cb4-408" aria-hidden="true" tabindex="-1"></a><span class="in">- Guest satisfaction scores dropped from 4.8 to 3.9 out of 5</span></span>
-<span id="cb4-409"><a href="#cb4-409" aria-hidden="true" tabindex="-1"></a><span class="in">- Three formal complaints about rude staff behaviour in past month</span></span>
-<span id="cb4-410"><a href="#cb4-410" aria-hidden="true" tabindex="-1"></a><span class="in">- Check-in wait times averaging 45 minutes (target is 15 minutes)</span></span>
-<span id="cb4-411"><a href="#cb4-411" aria-hidden="true" tabindex="-1"></a><span class="in">- You received informal feedback about team morale issues 6 weeks ago</span></span>
-<span id="cb4-412"><a href="#cb4-412" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-413"><a href="#cb4-413" aria-hidden="true" tabindex="-1"></a><span class="in">YOUR PERSONA AND behaviour:</span></span>
-<span id="cb4-414"><a href="#cb4-414" aria-hidden="true" tabindex="-1"></a><span class="in">- You're defensive and believe guest expectations are unrealistic</span></span>
-<span id="cb4-415"><a href="#cb4-415" aria-hidden="true" tabindex="-1"></a><span class="in">- You're dealing with high staff turnover and understaffing</span></span>
-<span id="cb4-416"><a href="#cb4-416" aria-hidden="true" tabindex="-1"></a><span class="in">- You feel caught between corporate standards and local service culture</span></span>
-<span id="cb4-417"><a href="#cb4-417" aria-hidden="true" tabindex="-1"></a><span class="in">- You'll initially blame external factors but open up with empathetic listening</span></span>
-<span id="cb4-418"><a href="#cb4-418" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-419"><a href="#cb4-419" aria-hidden="true" tabindex="-1"></a><span class="in">THE MEETING:</span></span>
-<span id="cb4-420"><a href="#cb4-420" aria-hidden="true" tabindex="-1"></a><span class="in">I am the resort general manager addressing recent guest satisfaction declines and service quality concerns.</span></span>
-<span id="cb4-421"><a href="#cb4-421" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-422"><a href="#cb4-422" aria-hidden="true" tabindex="-1"></a><span class="in">Stay in character. Begin by responding to my opening statement.</span></span>
-<span id="cb4-423"><a href="#cb4-423" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-424"><a href="#cb4-424" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-425"><a href="#cb4-425" aria-hidden="true" tabindex="-1"></a>**Key Learning Focus:**</span>
-<span id="cb4-426"><a href="#cb4-426" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Managing guest expectations vs. operational constraints</span>
-<span id="cb4-427"><a href="#cb4-427" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Addressing service quality issues in hospitality settings</span>
-<span id="cb4-428"><a href="#cb4-428" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Balancing customer satisfaction with staff well-being</span>
-<span id="cb4-429"><a href="#cb4-429" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-430"><a href="#cb4-430" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-431"><a href="#cb4-431" aria-hidden="true" tabindex="-1"></a><span class="fu">## Implementation Across Disciplines</span></span>
-<span id="cb4-432"><a href="#cb4-432" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-433"><a href="#cb4-433" aria-hidden="true" tabindex="-1"></a><span class="fu">### Adapting the Critique Phase</span></span>
-<span id="cb4-434"><a href="#cb4-434" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-435"><a href="#cb4-435" aria-hidden="true" tabindex="-1"></a>For each discipline, adjust the critique prompt to focus on discipline-specific competencies:</span>
-<span id="cb4-436"><a href="#cb4-436" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-437"><a href="#cb4-437" aria-hidden="true" tabindex="-1"></a>**Marketing Critique Focus:**</span>
-<span id="cb4-438"><a href="#cb4-438" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Brand alignment and messaging consistency</span>
-<span id="cb4-439"><a href="#cb4-439" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Data-driven decision making</span>
-<span id="cb4-440"><a href="#cb4-440" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Stakeholder communication effectiveness</span>
-<span id="cb4-441"><a href="#cb4-441" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-442"><a href="#cb4-442" aria-hidden="true" tabindex="-1"></a>**Accounting Critique Focus:**</span>
-<span id="cb4-443"><a href="#cb4-443" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Regulatory compliance and risk management</span>
-<span id="cb4-444"><a href="#cb4-444" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Documentation and audit trail requirements</span>
-<span id="cb4-445"><a href="#cb4-445" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Financial accuracy and transparency</span>
-<span id="cb4-446"><a href="#cb4-446" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-447"><a href="#cb4-447" aria-hidden="true" tabindex="-1"></a>**Business Analytics Critique Focus:**</span>
-<span id="cb4-448"><a href="#cb4-448" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Data integrity and validation processes</span>
-<span id="cb4-449"><a href="#cb4-449" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Analytical methodology and assumptions</span>
-<span id="cb4-450"><a href="#cb4-450" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Business impact communication</span>
-<span id="cb4-451"><a href="#cb4-451" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-452"><a href="#cb4-452" aria-hidden="true" tabindex="-1"></a>**Tourism &amp; Hospitality Critique Focus:**</span>
-<span id="cb4-453"><a href="#cb4-453" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Service excellence and customer experience</span>
-<span id="cb4-454"><a href="#cb4-454" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Operational efficiency vs. service quality balance</span>
-<span id="cb4-455"><a href="#cb4-455" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Cultural sensitivity and local market understanding</span>
-<span id="cb4-456"><a href="#cb4-456" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-457"><a href="#cb4-457" aria-hidden="true" tabindex="-1"></a>**Information Systems Critique Focus:**</span>
-<span id="cb4-458"><a href="#cb4-458" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Change management and user adoption strategies</span>
-<span id="cb4-459"><a href="#cb4-459" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Technical requirements vs. business needs alignment</span>
-<span id="cb4-460"><a href="#cb4-460" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Risk assessment and mitigation planning</span>
-<span id="cb4-461"><a href="#cb4-461" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-462"><a href="#cb4-462" aria-hidden="true" tabindex="-1"></a>**Management Critique Focus:**</span>
-<span id="cb4-463"><a href="#cb4-463" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Leadership style and team motivation</span>
-<span id="cb4-464"><a href="#cb4-464" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Strategic alignment and goal setting</span>
-<span id="cb4-465"><a href="#cb4-465" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Organisational change management</span>
-<span id="cb4-466"><a href="#cb4-466" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-467"><a href="#cb4-467" aria-hidden="true" tabindex="-1"></a><span class="fu">### Assessment Integration</span></span>
-<span id="cb4-468"><a href="#cb4-468" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-469"><a href="#cb4-469" aria-hidden="true" tabindex="-1"></a>Use the same assessment options (simulation + critique, re-do + comparison, student-designed scenarios) across all disciplines, adjusting the evaluation criteria to match discipline-specific competencies and professional standards.</span>
-<span id="cb4-470"><a href="#cb4-470" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-471"><a href="#cb4-471" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-472"><a href="#cb4-472" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-473"><a href="#cb4-473" aria-hidden="true" tabindex="-1"></a><span class="fu">## Common Questions</span></span>
-<span id="cb4-474"><a href="#cb4-474" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-475"><a href="#cb4-475" aria-hidden="true" tabindex="-1"></a>**Q: Won't students just keep trying until the AI gives them a good score?**</span>
-<span id="cb4-476"><a href="#cb4-476" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-477"><a href="#cb4-477" aria-hidden="true" tabindex="-1"></a>A: That's actually a *feature*, not a bug. In professional development, repetition until competence is exactly what we want. However, you can require students to submit *all* attempts, not just their best one. This shows their learning journey and prevents gaming the system.</span>
-<span id="cb4-478"><a href="#cb4-478" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-479"><a href="#cb4-479" aria-hidden="true" tabindex="-1"></a>**Q: What if students share their transcripts and just copy each other's approach?**</span>
-<span id="cb4-480"><a href="#cb4-480" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-481"><a href="#cb4-481" aria-hidden="true" tabindex="-1"></a>A: Design the scenarios with variability. Give each student a slightly different context (different employee persona, different performance issue, different complicating factor). The skills they're practicing remain the same, but the conversations will be unique.</span>
-<span id="cb4-482"><a href="#cb4-482" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-483"><a href="#cb4-483" aria-hidden="true" tabindex="-1"></a>**Q: How do I know the AI's critique is accurate?**</span>
-<span id="cb4-484"><a href="#cb4-484" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-485"><a href="#cb4-485" aria-hidden="true" tabindex="-1"></a>A: You should review a sample of critiques initially to ensure quality. However, because *you* write the critique prompt with specific criteria tied to your learning objectives, the AI's assessment will align with your rubric. You're essentially scaling your own assessment criteria.</span>
-<span id="cb4-486"><a href="#cb4-486" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-487"><a href="#cb4-487" aria-hidden="true" tabindex="-1"></a>**Q: Can students do this with voice instead of text?**</span>
-<span id="cb4-488"><a href="#cb4-488" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-489"><a href="#cb4-489" aria-hidden="true" tabindex="-1"></a>A: Yes! Many AI tools now support voice conversation mode. Students can literally *speak* their way through the simulation, making it even more realistic. The conversation can then be transcribed for the critique phase.</span>
-<span id="cb4-490"><a href="#cb4-490" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-491"><a href="#cb4-491" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb4-492"><a href="#cb4-492" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-493"><a href="#cb4-493" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your Action Step</span></span>
-<span id="cb4-494"><a href="#cb4-494" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-495"><a href="#cb4-495" aria-hidden="true" tabindex="-1"></a>Before moving to the next chapter, try this:</span>
-<span id="cb4-496"><a href="#cb4-496" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-497"><a href="#cb4-497" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Choose one difficult conversation** from your curriculum (in your discipline)</span>
-<span id="cb4-498"><a href="#cb4-498" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Write a setup prompt** that creates a realistic scenario (use the examples in this chapter as templates)</span>
-<span id="cb4-499"><a href="#cb4-499" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Test it yourself**---have the conversation with the AI</span>
-<span id="cb4-500"><a href="#cb4-500" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Generate a critique** of your own performance</span>
-<span id="cb4-501"><a href="#cb4-501" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Reflect:** Would this be valuable for your students?</span>
-<span id="cb4-502"><a href="#cb4-502" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-503"><a href="#cb4-503" aria-hidden="true" tabindex="-1"></a>Once you've experienced the full cycle yourself, you'll be ready to introduce it to your class.</span>
-<span id="cb4-504"><a href="#cb4-504" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-505"><a href="#cb4-505" aria-hidden="true" tabindex="-1"></a>---</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># The Flight Simulator: Bounded Conversation Practice {#sec-simulator}</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; A simulation is useful when its limits are visible and its feedback can be checked.</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Brief, practise, debrief</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>A conversation simulation gives students a chance to try questions, encounter</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>resistance and revise their approach. It can supplement peer role-play and</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>observed practice. It is not a faithful model of every workplace or a substitute</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>for disciplinary teaching.</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>Use three phases: establish the case and boundaries, practise the interaction,</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>then review the decisions against evidence. A model can play a role or propose</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>feedback, but the educator retains responsibility for the scenario and criteria.</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>The <span class="co">[</span><span class="ot">critique toolkit</span><span class="co">](critique-toolkit.qmd)</span> comes first because learners need</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>a way to evaluate feedback before receiving it. A confident critique is itself</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>an output requiring review.</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Prepare the scenario</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>Use P1-D1 through P1-D5 in the <span class="co">[</span><span class="ot">pilot pack</span><span class="co">](../appendices/pilot-pack.qmd)</span>.</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>Alex's manager has proposed a performance plan. The junior adviser is gathering</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>information, not issuing an approved decision. The pack supplies the dates,</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>records and limits of authority.</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>Explain the capability: plan and justify a fair first response. If your unit</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>also assesses live communication, add an appropriate observed interaction.</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>Do not infer that skill solely from a typed conversation.</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>Give advance notice of the employment topic. Students can stop, take a break</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>or use an agreed neutral scenario. The task does not require personal disclosure.</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>The model or peer actor should not pressure the learner, introduce abuse or</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>reward extraction of private details.</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="fu">### Setup for a peer or approved model</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="in">```text</span></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="in">Use the fictional PDP-2026.1 P1 source cards.</span></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="in">You are Alex. Use P1-D4 as your opening position.</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="in">Do not invent evidence or legal obligations.</span></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="in">If asked about missing facts, say they are not</span></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="in">provided. You may disagree or ask a question.</span></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="in">You need not disclose private information.</span></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a><span class="in">Stop after six exchanges or when I say STOP.</span></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="in">Do not score the adviser or decide the case.</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>In the paper route, the fixed exchange below provides the role's responses.</span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>In a paired route, the partner reads the same cards. With a model, check any</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>new claim against the pack and discard inventions. Similar instructions do not</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>guarantee similar difficulty across products or runs.</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## A worked exchange</span></span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>This dialogue is an **authored fictional example**, not a captured student</span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>performance or evidence that a model behaves consistently.</span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>**Adviser:** Alex, the delivery extract lists three late milestones. Before I</span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>recommend a next step, I want to understand the dependencies and your account.</span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a>The formal plan is a proposal at this stage.</span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>**Alex:** I know some work was late. Two projects depended on reviews I could</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>not complete myself. I also need to discuss starting later on two mornings.</span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>**Adviser:** Which delivery records would help us check the dependencies?</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>We can discuss the work adjustment without collecting private family or medical</span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>details. I can refer the request, but cannot approve it myself.</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>**Alex:** I do not want to explain the appointments. I also want to know whether</span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>this meeting means the plan is already decided.</span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>**Adviser:** You do not need to explain those details to me. The decision is</span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>not made. I propose checking the records and the earlier contact note, then</span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>arranging a follow-up after the people manager reviews the request.</span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>**Alex:** Who will receive the notes?</span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>**Adviser:** I will explain the authorised sharing arrangements before sharing</span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>the relevant work-related record. I should not promise complete confidentiality</span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>without checking the process. We can pause if that needs clarification first.</span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>The exchange ends with work to do. That is appropriate: the missing evidence</span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>has not become available merely because the conversation went well.</span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a><span class="fu">## Inspect the decisions</span></span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a>The opening distinguishes the delivery record from a conclusion about fault.</span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a>The adviser does not invent the earlier warning, refers the support request</span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a>within authority and, in the final answer, avoids a confidentiality guarantee.</span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a>There are also limits. No dependency record has been examined, no support</span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a>arrangement approved and no finding reached. A reader should not label the case</span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a>resolved or legally compliant.</span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a>Try a different opening: “Your manager warned you in April, so the plan is now</span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a>required.” The error is not just tone. P1-D3 does not supply an April warning,</span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a>and P1-D1/D5 do not permit the adviser to announce the decision. Rephrasing it</span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a>more empathetically would leave the substantive defect intact.</span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a><span class="fu">## Debrief before scoring</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a>Ask the learner to select two decisions and explain:</span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What evidence was available.</span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What they chose to do.</span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Why that was within the task's criteria.</span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What they would check next or change after new information.</span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a>A useful model-feedback request is deliberately bounded:</span>
+<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a><span class="in">```text</span></span>
+<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a><span class="in">Review the selected response using the supplied</span></span>
+<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a><span class="in">P1 cards and five rubric criteria.</span></span>
+<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a><span class="in">Quote the response accurately.</span></span>
+<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a><span class="in">For each comment, identify a card or criterion.</span></span>
+<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a><span class="in">Separate observed wording from inferred outcomes.</span></span>
+<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a><span class="in">Flag insufficient evidence.</span></span>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a><span class="in">Do not give legal assurances or predict Alex's</span></span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a><span class="in">real-world behaviour. Your feedback is provisional.</span></span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a>The learner checks the feedback rather than submitting it as the final word.</span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a>A rubric prompt does not ensure accurate application of the rubric.</span>
+<span id="cb3-125"><a href="#cb3-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-126"><a href="#cb3-126" aria-hidden="true" tabindex="-1"></a>The pack includes P1-F, an intentionally flawed simulated critique awarding</span>
+<span id="cb3-127"><a href="#cb3-127" aria-hidden="true" tabindex="-1"></a>90% to weak work. The educator correction scores that response 4/20 against</span>
+<span id="cb3-128"><a href="#cb3-128" aria-hidden="true" tabindex="-1"></a>the supplied criteria. The point is the traceable correction, not a claim that</span>
+<span id="cb3-129"><a href="#cb3-129" aria-hidden="true" tabindex="-1"></a>one human score is universally correct. Marking teams should calibrate</span>
+<span id="cb3-130"><a href="#cb3-130" aria-hidden="true" tabindex="-1"></a>disagreements using the evidence.</span>
+<span id="cb3-131"><a href="#cb3-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-132"><a href="#cb3-132" aria-hidden="true" tabindex="-1"></a><span class="fu">## Rehearsal and transfer are different</span></span>
+<span id="cb3-133"><a href="#cb3-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-134"><a href="#cb3-134" aria-hidden="true" tabindex="-1"></a>Repeating P1 can help a learner practise an improved response. It can also</span>
+<span id="cb3-135"><a href="#cb3-135" aria-hidden="true" tabindex="-1"></a>teach the learner to reproduce a familiar script. Follow it with P2, where</span>
+<span id="cb3-136"><a href="#cb3-136" aria-hidden="true" tabindex="-1"></a>the manager's alleged retaliation changes the referral decision.</span>
+<span id="cb3-137"><a href="#cb3-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-138"><a href="#cb3-138" aria-hidden="true" tabindex="-1"></a>Compare the explanations, not the number of attempts or the model's willingness</span>
+<span id="cb3-139"><a href="#cb3-139" aria-hidden="true" tabindex="-1"></a>to cooperate. A respectful question may still receive resistance. A flawed</span>
+<span id="cb3-140"><a href="#cb3-140" aria-hidden="true" tabindex="-1"></a>question may receive a friendly response. Persona behaviour is not a scoring key.</span>
+<span id="cb3-141"><a href="#cb3-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-142"><a href="#cb3-142" aria-hidden="true" tabindex="-1"></a>For solo practice, write a response to Alex's question about the notes, compare</span>
+<span id="cb3-143"><a href="#cb3-143" aria-hidden="true" tabindex="-1"></a>it with D1/D5, and explain a limitation. For paired practice, swap adviser and</span>
+<span id="cb3-144"><a href="#cb3-144" aria-hidden="true" tabindex="-1"></a>actor roles, then compare decision notes. Both can prepare the same target</span>
+<span id="cb3-145"><a href="#cb3-145" aria-hidden="true" tabindex="-1"></a>capability without a model.</span>
+<span id="cb3-146"><a href="#cb3-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-147"><a href="#cb3-147" aria-hidden="true" tabindex="-1"></a><span class="fu">## Three ways to use the activity</span></span>
+<span id="cb3-148"><a href="#cb3-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-149"><a href="#cb3-149" aria-hidden="true" tabindex="-1"></a>**Practice only:** students rehearse, identify one checked improvement and</span>
+<span id="cb3-150"><a href="#cb3-150" aria-hidden="true" tabindex="-1"></a>retain their notes privately. No model score enters the grade.</span>
+<span id="cb3-151"><a href="#cb3-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-152"><a href="#cb3-152" aria-hidden="true" tabindex="-1"></a>**Guided formative task:** students submit two selected decision extracts and</span>
+<span id="cb3-153"><a href="#cb3-153" aria-hidden="true" tabindex="-1"></a>a short revision explanation. The educator gives feedback against the rubric.</span>
+<span id="cb3-154"><a href="#cb3-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-155"><a href="#cb3-155" aria-hidden="true" tabindex="-1"></a>**Assessment component:** use published criteria, appropriate data handling,</span>
+<span id="cb3-156"><a href="#cb3-156" aria-hidden="true" tabindex="-1"></a>an independent demonstration and moderation. See the</span>
+<span id="cb3-157"><a href="#cb3-157" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">assessment chapter</span><span class="co">](assessment.qmd)</span>. Do not convert a practice tool into a</span>
+<span id="cb3-158"><a href="#cb3-158" aria-hidden="true" tabindex="-1"></a>high-stakes assessment merely by assigning a percentage.</span>
+<span id="cb3-159"><a href="#cb3-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-160"><a href="#cb3-160" aria-hidden="true" tabindex="-1"></a>Do not require all private attempts “to prevent gaming”. Collect only the</span>
+<span id="cb3-161"><a href="#cb3-161" aria-hidden="true" tabindex="-1"></a>evidence necessary for the stated assessment purpose under the institution's</span>
+<span id="cb3-162"><a href="#cb3-162" aria-hidden="true" tabindex="-1"></a>retention rules. Process records can be fabricated and should not be treated</span>
+<span id="cb3-163"><a href="#cb3-163" aria-hidden="true" tabindex="-1"></a>as conclusive proof of independent performance.</span>
+<span id="cb3-164"><a href="#cb3-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-165"><a href="#cb3-165" aria-hidden="true" tabindex="-1"></a><span class="fu">## Adapt the challenge, not just the persona name</span></span>
+<span id="cb3-166"><a href="#cb3-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-167"><a href="#cb3-167" aria-hidden="true" tabindex="-1"></a>For a supplier conversation, give the actor the S1 capacity limit and a clear</span>
+<span id="cb3-168"><a href="#cb3-168" aria-hidden="true" tabindex="-1"></a>authority boundary. A confident promise to supply 200 units is not supported</span>
+<span id="cb3-169"><a href="#cb3-169" aria-hidden="true" tabindex="-1"></a>when the offer says 160. Practise asking for clarification and explaining a</span>
+<span id="cb3-170"><a href="#cb3-170" aria-hidden="true" tabindex="-1"></a>constraint.</span>
+<span id="cb3-171"><a href="#cb3-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-172"><a href="#cb3-172" aria-hidden="true" tabindex="-1"></a>For a marketing discussion, use M1's audience and cost limitations. The actor</span>
+<span id="cb3-173"><a href="#cb3-173" aria-hidden="true" tabindex="-1"></a>can ask why the learner refuses to call the campaign more profitable. The</span>
+<span id="cb3-174"><a href="#cb3-174" aria-hidden="true" tabindex="-1"></a>learner should distinguish a calculable rate from an unsupported business claim.</span>
+<span id="cb3-175"><a href="#cb3-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-176"><a href="#cb3-176" aria-hidden="true" tabindex="-1"></a>Those adaptations change the evidence and criteria. They are more instructive</span>
+<span id="cb3-177"><a href="#cb3-177" aria-hidden="true" tabindex="-1"></a>than replacing “employee” with “customer” in an unchanged HR script.</span>
+<span id="cb3-178"><a href="#cb3-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-179"><a href="#cb3-179" aria-hidden="true" tabindex="-1"></a><span class="fu">## Activity: debrief an unresolved exchange</span></span>
+<span id="cb3-180"><a href="#cb3-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-181"><a href="#cb3-181" aria-hidden="true" tabindex="-1"></a>**Allow 12 minutes; paper or paired route available.** Use the worked exchange,</span>
+<span id="cb3-182"><a href="#cb3-182" aria-hidden="true" tabindex="-1"></a>stop before the final adviser response and write your own. Explain what you</span>
+<span id="cb3-183"><a href="#cb3-183" aria-hidden="true" tabindex="-1"></a>would record, what permission or process you must check and why the outcome</span>
+<span id="cb3-184"><a href="#cb3-184" aria-hidden="true" tabindex="-1"></a>remains open.</span>
+<span id="cb3-185"><a href="#cb3-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-186"><a href="#cb3-186" aria-hidden="true" tabindex="-1"></a>A sound response stays within authority, avoids unnecessary disclosure and</span>
+<span id="cb3-187"><a href="#cb3-187" aria-hidden="true" tabindex="-1"></a>identifies a next step. It need not secure Alex's agreement or close the case.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

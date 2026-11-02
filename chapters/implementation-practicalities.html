@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -78,14 +81,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-37a0ccb6f5b9899fcb884e11bb6f7458.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,6 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="../book-design.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -318,14 +322,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Copyright</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copyright</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -337,7 +341,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction - Why AI Matters for Business Education</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: A Defensible Classroom Pilot</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -348,74 +352,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/getting-started.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started — Your First AI Conversation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Getting Started: Your First AI Conversation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/seven-techniques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/managing-context.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing Context: A Checked Handoff</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/critique-toolkit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Critique Toolkit: Check the Recommendation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rethinking Assessment: Process Over Product</span></span></a>
+  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator: Bounded Conversation Practice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/self-assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Self-Assessment: Judge Before Receiving Feedback</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Virtual Company Simulation (Future Horizon)</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Designing an AI-Integrated Unit</span></span></a>
+  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Assessing Learning: Process, Product and Independent Capability</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/transforming-content.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Transforming Content with AI</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Transforming Content: Keep the Learning Decision Visible</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Virtual Company: Keep a Shared Record</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Designing an AI-Supported Unit</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/global-perspectives.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Global Perspectives and Adaptation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Adapting to a Different Teaching Context</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -427,7 +431,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Make the Next Decision</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -441,32 +445,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../appendices/pilot-pack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Educator Pilot Pack: PDP-2026.1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/prompt-library.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Library</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Workshop Guide</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../appendices/institutional-alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Aligning AI Integration with Institutional Learning Outcomes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Aligning the Activity with Institutional Outcomes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/rubric-system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">A Calibrated Assessment Rubric</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/stress-test-sequence.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Assessment AI Stress Test: A Prompt Sequence</span></span></a>
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Stress-Test the Assessment</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/further-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -479,7 +501,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>Paperback ISBN 979-8-2542-3619-1<br> <a href="https://www.amazon.com.au/s?k=9798254236191">Support the open edition</a></p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -487,23 +511,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#when-things-go-wrong" id="toc-when-things-go-wrong" class="nav-link active" data-scroll-target="#when-things-go-wrong"><span class="header-section-number">15.1</span> When Things Go Wrong</a>
-  <ul class="collapse">
-  <li><a href="#the-essential-preparations" id="toc-the-essential-preparations" class="nav-link" data-scroll-target="#the-essential-preparations"><span class="header-section-number">15.1.1</span> The Essential Preparations</a></li>
-  <li><a href="#common-issues-and-quick-fixes" id="toc-common-issues-and-quick-fixes" class="nav-link" data-scroll-target="#common-issues-and-quick-fixes"><span class="header-section-number">15.1.2</span> Common Issues and Quick Fixes</a></li>
-  <li><a href="#risk-assessment" id="toc-risk-assessment" class="nav-link" data-scroll-target="#risk-assessment"><span class="header-section-number">15.1.3</span> Risk Assessment</a></li>
-  </ul></li>
-  <li><a href="#accessibility-and-inclusion" id="toc-accessibility-and-inclusion" class="nav-link" data-scroll-target="#accessibility-and-inclusion"><span class="header-section-number">15.2</span> Accessibility and Inclusion</a>
-  <ul class="collapse">
-  <li><a href="#the-digital-divide" id="toc-the-digital-divide" class="nav-link" data-scroll-target="#the-digital-divide"><span class="header-section-number">15.2.1</span> The Digital Divide</a></li>
-  <li><a href="#universal-design-principles" id="toc-universal-design-principles" class="nav-link" data-scroll-target="#universal-design-principles"><span class="header-section-number">15.2.2</span> Universal Design Principles</a></li>
-  <li><a href="#specific-accommodations" id="toc-specific-accommodations" class="nav-link" data-scroll-target="#specific-accommodations"><span class="header-section-number">15.2.3</span> Specific Accommodations</a></li>
-  <li><a href="#the-process-assessment-safeguard" id="toc-the-process-assessment-safeguard" class="nav-link" data-scroll-target="#the-process-assessment-safeguard"><span class="header-section-number">15.2.4</span> The Process Assessment Safeguard</a></li>
-  <li><a href="#course-design-checklist" id="toc-course-design-checklist" class="nav-link" data-scroll-target="#course-design-checklist"><span class="header-section-number">15.2.5</span> Course Design Checklist</a></li>
-  </ul></li>
-  <li><a href="#your-action-step" id="toc-your-action-step" class="nav-link" data-scroll-target="#your-action-step"><span class="header-section-number">15.3</span> Your Action Step</a></li>
+  <li><a href="#check-readiness" id="toc-check-readiness" class="nav-link active" data-scroll-target="#check-readiness"><span class="header-section-number">15.1</span> Check readiness</a></li>
+  <li><a href="#a-capability-matched-fallback" id="toc-a-capability-matched-fallback" class="nav-link" data-scroll-target="#a-capability-matched-fallback"><span class="header-section-number">15.2</span> A capability-matched fallback</a></li>
+  <li><a href="#access-is-more-than-account-availability" id="toc-access-is-more-than-account-availability" class="nav-link" data-scroll-target="#access-is-more-than-account-availability"><span class="header-section-number">15.3</span> Access is more than account availability</a></li>
+  <li><a href="#student-wellbeing" id="toc-student-wellbeing" class="nav-link" data-scroll-target="#student-wellbeing"><span class="header-section-number">15.4</span> Student wellbeing</a></li>
+  <li><a href="#budget-the-whole-task" id="toc-budget-the-whole-task" class="nav-link" data-scroll-target="#budget-the-whole-task"><span class="header-section-number">15.5</span> Budget the whole task</a></li>
+  <li><a href="#keep-an-approved-activity-record" id="toc-keep-an-approved-activity-record" class="nav-link" data-scroll-target="#keep-an-approved-activity-record"><span class="header-section-number">15.6</span> Keep an approved activity record</a></li>
+  <li><a href="#evaluate-the-pilot" id="toc-evaluate-the-pilot" class="nav-link" data-scroll-target="#evaluate-the-pilot"><span class="header-section-number">15.7</span> Evaluate the pilot</a></li>
+  <li><a href="#activity-rehearse-failure" id="toc-activity-rehearse-failure" class="nav-link" data-scroll-target="#activity-rehearse-failure"><span class="header-section-number">15.8</span> Activity: rehearse failure</a></li>
   </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="../llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="../tools/prompt-library.md"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="../tools/workshop-guide.md"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="/partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="/partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="/llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="/appendices/prompt-library.html"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="/appendices/workshop-guide.html"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -511,7 +528,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Implementation Practicalities</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-implementation" class="quarto-section-identifier"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Implementation Practicalities</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -529,23 +546,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <blockquote class="blockquote">
-<p>Plan for the tool to fail. The pedagogy should work even when the technology does not.</p>
+<p>Plan the fallback before the activity needs it.</p>
 </blockquote>
-<blockquote class="blockquote">
-<p>If AI integration only works for some students, it is not integration. It is exclusion with better technology.</p>
-</blockquote>
-<section id="when-things-go-wrong" class="level2" data-number="15.1">
-<h2 data-number="15.1" class="anchored" data-anchor-id="when-things-go-wrong"><span class="header-section-number">15.1</span> When Things Go Wrong</h2>
-<p>AI tools are powerful but not infallible. When implementing AI-enhanced teaching, technical issues are inevitable. The question is not whether something will fail, but whether you have a plan when it does.</p>
-<section id="the-essential-preparations" class="level3" data-number="15.1.1">
-<h3 data-number="15.1.1" class="anchored" data-anchor-id="the-essential-preparations"><span class="header-section-number">15.1.1</span> The Essential Preparations</h3>
-<p><strong>Have backup platforms.</strong> If your primary tool goes down, students should be able to switch to an alternative. Design assignments that work with any AI tool — ChatGPT, Claude, Gemini, Copilot — rather than depending on one. Specify this in your assignment instructions.</p>
-<p><strong>Build in deadline flexibility.</strong> Include a clear policy: if the AI platform is unavailable during the assignment period, students can request an extension. This removes anxiety and prevents a wave of panicked emails.</p>
-<p><strong>Prepare offline alternatives.</strong> For any AI-enhanced activity, have a non-AI version ready. A conversation simulation can fall back to a written case analysis. An interactive exercise can fall back to a paper worksheet. The learning objectives should be achievable either way.</p>
-<p><strong>Test before you launch.</strong> Run every prompt yourself before assigning it to students. Check that the AI stays in character, produces useful output, and handles edge cases. A prompt that works for you in a calm office may fail when 80 students use slightly different wording.</p>
+<section id="check-readiness" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="check-readiness"><span class="header-section-number">15.1</span> Check readiness</h2>
+<p>Before introducing a student-facing activity, confirm the capability, criteria, permitted data, approved tool or non-AI route, support arrangements and expected time. Test the material against contrasting responses, including a plausible but unsafe answer.</p>
+<p>A prompt that worked once in your office is not evidence that it will behave consistently for a cohort. Keep fixed source cards and answer checks so that the activity survives a failed model response.</p>
+<p>The <a href="../chapters/ethics-integrity.html">data gate</a> should appear in the student instructions, not only in the lecturer’s planning notes.</p>
 </section>
-<section id="common-issues-and-quick-fixes" class="level3" data-number="15.1.2">
-<h3 data-number="15.1.2" class="anchored" data-anchor-id="common-issues-and-quick-fixes"><span class="header-section-number">15.1.2</span> Common Issues and Quick Fixes</h3>
+<section id="a-capability-matched-fallback" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="a-capability-matched-fallback"><span class="header-section-number">15.2</span> A capability-matched fallback</h2>
+<p>For the pilot’s planning-and-justification task, students can use the printed records and write or explain a response. For an outcome requiring live communication, offer an appropriate peer/facilitator interaction with access adjustments. A written case analysis alone cannot demonstrate every aspect of a spoken consultation.</p>
+<p>Do not switch confidential material to an unapproved platform during an outage. Use a previously approved alternative or the offline route. If neither supports the assessment conditions, pause and apply the institution’s extension or alternative-assessment process.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -554,132 +566,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <thead>
 <tr class="header">
 <th>Problem</th>
-<th>Response</th>
+<th>Bounded response</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Platform is down</td>
-<td>Switch to alternative tool. Extend deadline if needed.</td>
+<td>Tool unavailable</td>
+<td>Use approved fallback or pause; do not improvise a new data destination</td>
 </tr>
 <tr class="even">
-<td>AI not staying in character</td>
-<td>Start a fresh conversation. Check full prompt was copied.</td>
+<td>Persona invents facts</td>
+<td>Discard invention; return to source cards</td>
 </tr>
 <tr class="odd">
-<td>AI giving inconsistent quality</td>
-<td>Try a different model or platform. Simplify the task.</td>
+<td>Feedback conflicts with criteria</td>
+<td>Check against records; seek educator review</td>
 </tr>
 <tr class="even">
-<td>Student cannot access tool</td>
-<td>Offer office hours to run it together. Provide alternative.</td>
+<td>Save/export fails</td>
+<td>Use local notes or printed response sheet; avoid unnecessary screenshots</td>
 </tr>
 <tr class="odd">
-<td>Student says “is this cheating?”</td>
-<td>“This IS the assignment. You’re graded on critical use, not avoidance.”</td>
+<td>Student needs an adjustment</td>
+<td>Arrange equivalent capability evidence through the appropriate process</td>
 </tr>
 <tr class="even">
-<td>Conversation gets too long and degrades</td>
-<td>Start a new conversation. Restate key context explicitly.</td>
+<td>Sensitive information entered</td>
+<td>Stop further sharing and follow incident-reporting procedures</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="risk-assessment" class="level3" data-number="15.1.3">
-<h3 data-number="15.1.3" class="anchored" data-anchor-id="risk-assessment"><span class="header-section-number">15.1.3</span> Risk Assessment</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Risk</th>
-<th>Probability</th>
-<th>Impact</th>
-<th>Mitigation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Service outage</td>
-<td>Medium</td>
-<td>High</td>
-<td>Multiple platforms, offline alternatives</td>
-</tr>
-<tr class="even">
-<td>Quality degradation</td>
-<td>High</td>
-<td>Medium</td>
-<td>Benchmark testing, platform switching</td>
-</tr>
-<tr class="odd">
-<td>Data loss</td>
-<td>Medium</td>
-<td>High</td>
-<td>Local backups, screenshot important outputs</td>
-</tr>
-<tr class="even">
-<td>Security/privacy incident</td>
-<td>Low</td>
-<td>Critical</td>
-<td>Enterprise tools, data sanitisation</td>
-</tr>
-</tbody>
-</table>
+<section id="access-is-more-than-account-availability" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="access-is-more-than-account-availability"><span class="header-section-number">15.3</span> Access is more than account availability</h2>
+<p>Check mobile and desktop use, keyboard navigation, assistive technology, language support and the time needed to complete the task. A free service can still have limits that make an assessment unreliable.</p>
+<p>Do not require a personal account or paid upgrade when an equivalent route can meet the outcome. Where AI use itself is assessed, provide suitable approved access and explain the requirement in advance.</p>
+<p>Offer clear instructions, a short demonstration and a fixed worked example. Students should not have to discover the task’s hidden expectations by repeatedly asking a chatbot what the lecturer wants.</p>
+<p>For a spoken response, assess the relevant reasoning or communication outcome, not eye contact, accent, speed or confidence unless a particular feature is genuinely part of the stated professional capability and assessed fairly.</p>
 </section>
+<section id="student-wellbeing" class="level2" data-number="15.4">
+<h2 data-number="15.4" class="anchored" data-anchor-id="student-wellbeing"><span class="header-section-number">15.4</span> Student wellbeing</h2>
+<p>Give advance notice of complaint, discrimination or performance scenarios. Use fictional data, a stop instruction and an agreed neutral alternative. Do not ask students to disclose their own experiences to make the activity authentic.</p>
+<p>A role-player may disagree, pause or ask a question. The exercise should not escalate emotional pressure merely to make the learner “work harder”. Debrief the decisions and evidence, not whether the student persuaded the persona to become agreeable.</p>
 </section>
-<section id="accessibility-and-inclusion" class="level2" data-number="15.2">
-<h2 data-number="15.2" class="anchored" data-anchor-id="accessibility-and-inclusion"><span class="header-section-number">15.2</span> Accessibility and Inclusion</h2>
-<p>AI integration creates new opportunities but also new barriers. If you design only for students with reliable internet, modern devices, and strong English skills, you are excluding a significant portion of your cohort.</p>
-<section id="the-digital-divide" class="level3" data-number="15.2.1">
-<h3 data-number="15.2.1" class="anchored" data-anchor-id="the-digital-divide"><span class="header-section-number">15.2.1</span> The Digital Divide</h3>
-<p>Not all students have equal access to technology. Before assigning AI-enhanced work, consider:</p>
-<ul>
-<li><strong>Device availability.</strong> Some students access coursework only through phones or shared computers. Design activities that work on mobile browsers, not just desktops.</li>
-<li><strong>Internet reliability.</strong> Rural and low-income students may have poor connectivity. Allow activities to be completed in short sessions rather than requiring extended online time. Provide campus lab time as an option.</li>
-<li><strong>Cost barriers.</strong> Free-tier tools have usage limits. Design assignments around freely available platforms. If your institution provides enterprise AI access, make sure students know how to use it.</li>
-<li><strong>Digital literacy.</strong> Not all students arrive with the same comfort level. A five-minute demo of “here is where you paste the prompt” removes a barrier that feels obvious to you but is not obvious to everyone.</li>
-</ul>
+<section id="budget-the-whole-task" class="level2" data-number="15.5">
+<h2 data-number="15.5" class="anchored" data-anchor-id="budget-the-whole-task"><span class="header-section-number">15.5</span> Budget the whole task</h2>
+<p>Record design, testing, support, moderation and marking time separately. An initial prompt takes little time; a defensible teaching activity takes more.</p>
+<p>For 24 students, eight minutes of review per submission is 192 minutes. A 30-minute moderation discussion brings that illustrative marking budget to 222 minutes, or 3 hours 42 minutes. Setup and student support are additional. Replace these assumptions with observed times after a pilot.</p>
+<p>For 100 students, a five-minute individual check takes 8 hours 20 minutes before administration. A sustainable design may distribute checks across tutorials, use several staff or choose another appropriate assurance format.</p>
+<p>Do not offset those costs with an invented claim that AI always saves a fixed number of minutes per learner. Measure the actual task.</p>
 </section>
-<section id="universal-design-principles" class="level3" data-number="15.2.2">
-<h3 data-number="15.2.2" class="anchored" data-anchor-id="universal-design-principles"><span class="header-section-number">15.2.2</span> Universal Design Principles</h3>
-<p>Design AI activities that work for the widest range of students:</p>
-<p><strong>Multiple means of engagement.</strong> Offer text-based, voice-based, and visual interaction options where possible. Allow students to pace interactions at their own speed.</p>
-<p><strong>Multiple means of expression.</strong> Let students demonstrate learning in different ways — written reflection, verbal explanation, visual presentation, or process documentation. A student who struggles with written English may demonstrate excellent critical thinking verbally.</p>
-<p><strong>Multiple means of representation.</strong> Request AI output in different formats — text summaries, bullet points, step-by-step breakdowns — so students can choose what works for their learning style.</p>
+<section id="keep-an-approved-activity-record" class="level2" data-number="15.6">
+<h2 data-number="15.6" class="anchored" data-anchor-id="keep-an-approved-activity-record"><span class="header-section-number">15.6</span> Keep an approved activity record</h2>
+<p>Save the scenario version, student brief, rubric, tested examples, permitted routes, access arrangements and known limitations. Record material changes between cohorts.</p>
+<p>For model-supported use, note the product/account and relevant features tested. A later tool change may require rechecking the activity. Do not assume a well-worded prompt remains equally reliable across every model.</p>
+<p>Keep student evidence only for the authorised purpose and retention period. An audit trail does not require retaining every private conversation indefinitely.</p>
 </section>
-<section id="specific-accommodations" class="level3" data-number="15.2.3">
-<h3 data-number="15.2.3" class="anchored" data-anchor-id="specific-accommodations"><span class="header-section-number">15.2.3</span> Specific Accommodations</h3>
-<p><strong>Students with visual impairments.</strong> Prioritise text-based AI tools with strong screen reader support. Ask AI to provide structured, hierarchical responses rather than visual content. Avoid prompts that depend on “see above” or visual references.</p>
-<p><strong>Students with hearing impairments.</strong> Ensure all AI interactions are available in text. If using voice-based AI features, provide text alternatives.</p>
-<p><strong>Neurodivergent students.</strong> AI conversations can be overwhelming. Allow breaks, provide templates that structure the interaction, and keep prompts focused on one task at a time. The “one prompt, one job” principle from CRAFT is especially important here.</p>
-<p><strong>Non-native English speakers.</strong> AI tools are primarily trained on English. Allow students to work in their preferred language where possible. Include cultural context in prompts to avoid Western-centric examples.</p>
+<section id="evaluate-the-pilot" class="level2" data-number="15.7">
+<h2 data-number="15.7" class="anchored" data-anchor-id="evaluate-the-pilot"><span class="header-section-number">15.7</span> Evaluate the pilot</h2>
+<p>Use P3 in the <a href="../appendices/pilot-pack.html">pilot pack</a>. Compare the baseline and independent response cautiously, examine errors and record obstacles.</p>
+<p>Separate satisfaction, task completion, output quality and learning evidence. Students may enjoy an activity that does not improve transfer, or find a challenging activity useful despite lower satisfaction. Neither result should be simplified into a universal endorsement.</p>
+<p>A reasonable decision can be to continue, revise, pause or stop. If a model repeatedly invents case facts, use the fixed route while redesigning. If a particular group cannot access the task, fix the access problem before increasing its stakes.</p>
 </section>
-<section id="the-process-assessment-safeguard" class="level3" data-number="15.2.4">
-<h3 data-number="15.2.4" class="anchored" data-anchor-id="the-process-assessment-safeguard"><span class="header-section-number">15.2.4</span> The Process Assessment Safeguard</h3>
-<p>The process-over-product assessment approach described in the Assessment chapter has a built-in accessibility benefit: the process component should not require AI use. A student who keeps a research journal, annotates readings, or documents their decision-making in any form should be able to submit equivalent process evidence. The assessment measures engaged thinking, not AI use. This ensures students with limited access, disability-related barriers, or personal preferences against AI can demonstrate the same learning through alternative means.</p>
-</section>
-<section id="course-design-checklist" class="level3" data-number="15.2.5">
-<h3 data-number="15.2.5" class="anchored" data-anchor-id="course-design-checklist"><span class="header-section-number">15.2.5</span> Course Design Checklist</h3>
-<p>Before launching any AI-enhanced activity:</p>
-<ul class="task-list">
-<li><label><input type="checkbox">Are chosen AI tools accessible on mobile and desktop?</label></li>
-<li><label><input type="checkbox">Can students participate using free-tier tools?</label></li>
-<li><label><input type="checkbox">Are alternative (non-AI) pathways available?</label></li>
-<li><label><input type="checkbox">Is campus lab time available for students without reliable home access?</label></li>
-<li><label><input type="checkbox">Are instructions clear enough for students with no prior AI experience?</label></li>
-<li><label><input type="checkbox">Are timing accommodations built in for students who need extended time?</label></li>
-<li><label><input type="checkbox">Does the activity work for students using screen readers or assistive technology?</label></li>
-<li><label><input type="checkbox">Are examples culturally diverse rather than Western-centric?</label></li>
-</ul>
-</section>
-</section>
-<section id="your-action-step" class="level2" data-number="15.3">
-<h2 data-number="15.3" class="anchored" data-anchor-id="your-action-step"><span class="header-section-number">15.3</span> Your Action Step</h2>
-<p>Pick one AI-enhanced activity you are planning. Run through the checklist above. Identify the two biggest accessibility gaps and fix them before launching. Then ask yourself: if the AI platform went down the night before, what would students do? If you do not have a good answer, create the backup plan now.</p>
+<section id="activity-rehearse-failure" class="level2" data-number="15.8">
+<h2 data-number="15.8" class="anchored" data-anchor-id="activity-rehearse-failure"><span class="header-section-number">15.8</span> Activity: rehearse failure</h2>
+<p><strong>Allow ten minutes; no AI required.</strong> Imagine the service fails halfway through your activity. Write what students do next, which evidence remains assessable, how they save their work and who approves a changed assessment condition.</p>
+<p>Then try the fallback yourself. Check that it preserves the capability, does not send data somewhere new and does not penalise students for the outage. That rehearsal belongs before the first graded use.</p>
 
 
 <!-- -->
@@ -794,16 +746,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
     function toggleCodeHandler(show) {
       return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
           if (show) {
             details.open = true;
           } else {
             details.removeAttribute("open");
           }
         }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
         const fromCls = show ? "hidden" : "unhidden";
         const toCls = show ? "unhidden" : "hidden";
         for (let i=0; i<cellCodeDivs.length; i++) {
@@ -1155,109 +1107,140 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/global-perspectives.html" class="pagination-link" aria-label="Global Perspectives and Adaptation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Global Perspectives and Adaptation</span></span>
+      <a href="../chapters/global-perspectives.html" class="pagination-link" aria-label="Adapting to a Different Teaching Context">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Adapting to a Different Teaching Context</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/conclusion.html" class="pagination-link" aria-label="Conclusion: Where Do We Go From Here?">
-        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/conclusion.html" class="pagination-link" aria-label="Conclusion: Make the Next Decision">
+        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Make the Next Decision</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Implementation Practicalities</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Implementation Practicalities {#sec-implementation}</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Plan for the tool to fail. The pedagogy should work even when the technology does not.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Plan the fallback before the activity needs it.</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; If AI integration only works for some students, it is not integration. It is exclusion with better technology.</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Check readiness</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## When Things Go Wrong</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>AI tools are powerful but not infallible. When implementing AI-enhanced teaching, technical issues are inevitable. The question is not whether something will fail, but whether you have a plan when it does.</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Essential Preparations</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>**Have backup platforms.** If your primary tool goes down, students should be able to switch to an alternative. Design assignments that work with any AI tool — ChatGPT, Claude, Gemini, Copilot — rather than depending on one. Specify this in your assignment instructions.</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>**Build in deadline flexibility.** Include a clear policy: if the AI platform is unavailable during the assignment period, students can request an extension. This removes anxiety and prevents a wave of panicked emails.</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>**Prepare offline alternatives.** For any AI-enhanced activity, have a non-AI version ready. A conversation simulation can fall back to a written case analysis. An interactive exercise can fall back to a paper worksheet. The learning objectives should be achievable either way.</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Before introducing a student-facing activity, confirm the capability, criteria,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>permitted data, approved tool or non-AI route, support arrangements and expected</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>time. Test the material against contrasting responses, including a plausible</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>but unsafe answer.</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>A prompt that worked once in your office is not evidence that it will behave</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>consistently for a cohort. Keep fixed source cards and answer checks so that</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>the activity survives a failed model response.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>The <span class="co">[</span><span class="ot">data gate</span><span class="co">](ethics-integrity.qmd)</span> should appear in the student instructions,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>not only in the lecturer's planning notes.</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>**Test before you launch.** Run every prompt yourself before assigning it to students. Check that the AI stays in character, produces useful output, and handles edge cases. A prompt that works for you in a calm office may fail when 80 students use slightly different wording.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## A capability-matched fallback</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common Issues and Quick Fixes</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Problem <span class="pp">|</span> Response <span class="pp">|</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Platform is down <span class="pp">|</span> Switch to alternative tool. Extend deadline if needed. <span class="pp">|</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> AI not staying in character <span class="pp">|</span> Start a fresh conversation. Check full prompt was copied. <span class="pp">|</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> AI giving inconsistent quality <span class="pp">|</span> Try a different model or platform. Simplify the task. <span class="pp">|</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Student cannot access tool <span class="pp">|</span> Offer office hours to run it together. Provide alternative. <span class="pp">|</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Student says "is this cheating?" <span class="pp">|</span> "This IS the assignment. You're graded on critical use, not avoidance." <span class="pp">|</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Conversation gets too long and degrades <span class="pp">|</span> Start a new conversation. Restate key context explicitly. <span class="pp">|</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>For the pilot's planning-and-justification task, students can use the printed</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>records and write or explain a response. For an outcome requiring live</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>communication, offer an appropriate peer/facilitator interaction with access</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>adjustments. A written case analysis alone cannot demonstrate every aspect</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>of a spoken consultation.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>Do not switch confidential material to an unapproved platform during an outage.</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>Use a previously approved alternative or the offline route. If neither supports</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>the assessment conditions, pause and apply the institution's extension or</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>alternative-assessment process.</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">### Risk Assessment</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Risk <span class="pp">|</span> Probability <span class="pp">|</span> Impact <span class="pp">|</span> Mitigation <span class="pp">|</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|---|</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Service outage <span class="pp">|</span> Medium <span class="pp">|</span> High <span class="pp">|</span> Multiple platforms, offline alternatives <span class="pp">|</span></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Quality degradation <span class="pp">|</span> High <span class="pp">|</span> Medium <span class="pp">|</span> Benchmark testing, platform switching <span class="pp">|</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Data loss <span class="pp">|</span> Medium <span class="pp">|</span> High <span class="pp">|</span> Local backups, screenshot important outputs <span class="pp">|</span></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Security/privacy incident <span class="pp">|</span> Low <span class="pp">|</span> Critical <span class="pp">|</span> Enterprise tools, data sanitisation <span class="pp">|</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Problem <span class="pp">|</span> Bounded response <span class="pp">|</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Tool unavailable <span class="pp">|</span> Use approved fallback or pause; do not improvise a new data destination <span class="pp">|</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Persona invents facts <span class="pp">|</span> Discard invention; return to source cards <span class="pp">|</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Feedback conflicts with criteria <span class="pp">|</span> Check against records; seek educator review <span class="pp">|</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Save/export fails <span class="pp">|</span> Use local notes or printed response sheet; avoid unnecessary screenshots <span class="pp">|</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Student needs an adjustment <span class="pp">|</span> Arrange equivalent capability evidence through the appropriate process <span class="pp">|</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Sensitive information entered <span class="pp">|</span> Stop further sharing and follow incident-reporting procedures <span class="pp">|</span></span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">## Accessibility and Inclusion</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">## Access is more than account availability</span></span>
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>AI integration creates new opportunities but also new barriers. If you design only for students with reliable internet, modern devices, and strong English skills, you are excluding a significant portion of your cohort.</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Digital Divide</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>Check mobile and desktop use, keyboard navigation, assistive technology, language</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>support and the time needed to complete the task. A free service can still have</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>limits that make an assessment unreliable.</span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Not all students have equal access to technology. Before assigning AI-enhanced work, consider:</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Device availability.** Some students access coursework only through phones or shared computers. Design activities that work on mobile browsers, not just desktops.</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Internet reliability.** Rural and low-income students may have poor connectivity. Allow activities to be completed in short sessions rather than requiring extended online time. Provide campus lab time as an option.</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Cost barriers.** Free-tier tools have usage limits. Design assignments around freely available platforms. If your institution provides enterprise AI access, make sure students know how to use it.</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Digital literacy.** Not all students arrive with the same comfort level. A five-minute demo of "here is where you paste the prompt" removes a barrier that feels obvious to you but is not obvious to everyone.</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="fu">### Universal Design Principles</span></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>Design AI activities that work for the widest range of students:</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>**Multiple means of engagement.** Offer text-based, voice-based, and visual interaction options where possible. Allow students to pace interactions at their own speed.</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>**Multiple means of expression.** Let students demonstrate learning in different ways — written reflection, verbal explanation, visual presentation, or process documentation. A student who struggles with written English may demonstrate excellent critical thinking verbally.</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>**Multiple means of representation.** Request AI output in different formats — text summaries, bullet points, step-by-step breakdowns — so students can choose what works for their learning style.</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="fu">### Specific Accommodations</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Do not require a personal account or paid upgrade when an equivalent route can</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>meet the outcome. Where AI use itself is assessed, provide suitable approved</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>access and explain the requirement in advance.</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>Offer clear instructions, a short demonstration and a fixed worked example.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>Students should not have to discover the task's hidden expectations by repeatedly</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>asking a chatbot what the lecturer wants.</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>For a spoken response, assess the relevant reasoning or communication outcome,</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>not eye contact, accent, speed or confidence unless a particular feature is</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>genuinely part of the stated professional capability and assessed fairly.</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">## Student wellbeing</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>Give advance notice of complaint, discrimination or performance scenarios.</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>Use fictional data, a stop instruction and an agreed neutral alternative.</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>Do not ask students to disclose their own experiences to make the activity</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>authentic.</span>
 <span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>**Students with visual impairments.** Prioritise text-based AI tools with strong screen reader support. Ask AI to provide structured, hierarchical responses rather than visual content. Avoid prompts that depend on "see above" or visual references.</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>**Students with hearing impairments.** Ensure all AI interactions are available in text. If using voice-based AI features, provide text alternatives.</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>**Neurodivergent students.** AI conversations can be overwhelming. Allow breaks, provide templates that structure the interaction, and keep prompts focused on one task at a time. The "one prompt, one job" principle from CRAFT is especially important here.</span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>**Non-native English speakers.** AI tools are primarily trained on English. Allow students to work in their preferred language where possible. Include cultural context in prompts to avoid Western-centric examples.</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Process Assessment Safeguard</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>A role-player may disagree, pause or ask a question. The exercise should not</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>escalate emotional pressure merely to make the learner “work harder”.</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>Debrief the decisions and evidence, not whether the student persuaded the persona</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>to become agreeable.</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="fu">## Budget the whole task</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>Record design, testing, support, moderation and marking time separately.</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>An initial prompt takes little time; a defensible teaching activity takes more.</span>
 <span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>The process-over-product assessment approach described in the Assessment chapter has a built-in accessibility benefit: the process component should not require AI use. A student who keeps a research journal, annotates readings, or documents their decision-making in any form should be able to submit equivalent process evidence. The assessment measures engaged thinking, not AI use. This ensures students with limited access, disability-related barriers, or personal preferences against AI can demonstrate the same learning through alternative means.</span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">### Course Design Checklist</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>Before launching any AI-enhanced activity:</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Are chosen AI tools accessible on mobile and desktop?</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Can students participate using free-tier tools?</span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Are alternative (non-AI) pathways available?</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Is campus lab time available for students without reliable home access?</span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Are instructions clear enough for students with no prior AI experience?</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Are timing accommodations built in for students who need extended time?</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Does the activity work for students using screen readers or assistive technology?</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Are examples culturally diverse rather than Western-centric?</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your Action Step</span></span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>Pick one AI-enhanced activity you are planning. Run through the checklist above. Identify the two biggest accessibility gaps and fix them before launching. Then ask yourself: if the AI platform went down the night before, what would students do? If you do not have a good answer, create the backup plan now.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>For 24 students, eight minutes of review per submission is 192 minutes.</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>A 30-minute moderation discussion brings that illustrative marking budget to</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>222 minutes, or 3 hours 42 minutes. Setup and student support are additional.</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>Replace these assumptions with observed times after a pilot.</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>For 100 students, a five-minute individual check takes 8 hours 20 minutes before</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>administration. A sustainable design may distribute checks across tutorials,</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>use several staff or choose another appropriate assurance format.</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>Do not offset those costs with an invented claim that AI always saves a fixed</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>number of minutes per learner. Measure the actual task.</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="fu">## Keep an approved activity record</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>Save the scenario version, student brief, rubric, tested examples, permitted</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>routes, access arrangements and known limitations. Record material changes</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>between cohorts.</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>For model-supported use, note the product/account and relevant features tested.</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>A later tool change may require rechecking the activity. Do not assume a</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>well-worded prompt remains equally reliable across every model.</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>Keep student evidence only for the authorised purpose and retention period.</span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>An audit trail does not require retaining every private conversation indefinitely.</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="fu">## Evaluate the pilot</span></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>Use P3 in the <span class="co">[</span><span class="ot">pilot pack</span><span class="co">](../appendices/pilot-pack.qmd)</span>. Compare the baseline</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>and independent response cautiously, examine errors and record obstacles.</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>Separate satisfaction, task completion, output quality and learning evidence.</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>Students may enjoy an activity that does not improve transfer, or find a</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>challenging activity useful despite lower satisfaction. Neither result should</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>be simplified into a universal endorsement.</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>A reasonable decision can be to continue, revise, pause or stop. If a model</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>repeatedly invents case facts, use the fixed route while redesigning. If a</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>particular group cannot access the task, fix the access problem before increasing</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>its stakes.</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="fu">## Activity: rehearse failure</span></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>**Allow ten minutes; no AI required.** Imagine the service fails halfway through</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>your activity. Write what students do next, which evidence remains assessable,</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>how they save their work and who approves a changed assessment condition.</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>Then try the fallback yourself. Check that it preserves the capability, does</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>not send data somewhere new and does not penalise students for the outage.</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>That rehearsal belongs before the first graded use.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

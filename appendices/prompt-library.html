@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
+
+<title>Appendix B — Prompt Library – Partner, Don’t Police: AI in the Business Classroom</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../appendices/workshop-guide.html" rel="next">
+<link href="../appendices/pilot-pack.html" rel="prev">
+<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-37a0ccb6f5b9899fcb884e11bb6f7458.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../book-design.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/pilot-pack.html">Appendices</a></li><li class="breadcrumb-item"><a href="../appendices/prompt-library.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Partner, Don’t Police: AI in the Business Classroom</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copyright</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../acknowledgments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acknowledgments</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: A Defensible Classroom Pilot</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/understanding-ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Understanding AI and Large Language Models</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/getting-started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Getting Started: Your First AI Conversation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/seven-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/managing-context.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing Context: A Checked Handoff</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/critique-toolkit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Critique Toolkit: Check the Recommendation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator: Bounded Conversation Practice</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/self-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Self-Assessment: Judge Before Receiving Feedback</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Assessing Learning: Process, Product and Independent Capability</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/transforming-content.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Transforming Content: Keep the Learning Decision Visible</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Virtual Company: Keep a Shared Record</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Designing an AI-Supported Unit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/global-perspectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Adapting to a Different Teaching Context</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/implementation-practicalities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Implementation Practicalities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Make the Next Decision</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/pilot-pack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Educator Pilot Pack: PDP-2026.1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/prompt-library.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Library</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Workshop Guide</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/institutional-alignment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Aligning the Activity with Institutional Outcomes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/rubric-system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">A Calibrated Assessment Rubric</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/stress-test-sequence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Stress-Test the Assessment</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/further-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about-author.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Author</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>Paperback ISBN 979-8-2542-3619-1<br> <a href="https://www.amazon.com.au/s?k=9798254236191">Support the open edition</a></p>
+</div></div></nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#before-any-prompt" id="toc-before-any-prompt" class="nav-link active" data-scroll-target="#before-any-prompt"><span class="header-section-number">B.1</span> Before any prompt</a></li>
+  <li><a href="#starting-framework-craft-specify-a-bounded-task" id="toc-starting-framework-craft-specify-a-bounded-task" class="nav-link" data-scroll-target="#starting-framework-craft-specify-a-bounded-task"><span class="header-section-number">B.2</span> Starting framework: CRAFT: specify a bounded task</a></li>
+  <li><a href="#reverse-prompting-ask-for-essential-inputs" id="toc-reverse-prompting-ask-for-essential-inputs" class="nav-link" data-scroll-target="#reverse-prompting-ask-for-essential-inputs"><span class="header-section-number">B.3</span> 1. Reverse prompting: ask for essential inputs</a></li>
+  <li><a href="#pros-and-cons-check-rather-than-oppose" id="toc-pros-and-cons-check-rather-than-oppose" class="nav-link" data-scroll-target="#pros-and-cons-check-rather-than-oppose"><span class="header-section-number">B.4</span> 2. Pros and cons: check rather than oppose</a></li>
+  <li><a href="#debating-distinguish-arguments-from-evidence" id="toc-debating-distinguish-arguments-from-evidence" class="nav-link" data-scroll-target="#debating-distinguish-arguments-from-evidence"><span class="header-section-number">B.5</span> 5. Debating: distinguish arguments from evidence</a></li>
+  <li><a href="#stepwise-tutoring-make-the-learner-attempt" id="toc-stepwise-tutoring-make-the-learner-attempt" class="nav-link" data-scroll-target="#stepwise-tutoring-make-the-learner-attempt"><span class="header-section-number">B.6</span> 3. Stepwise tutoring: make the learner attempt</a></li>
+  <li><a href="#additional-pattern-socratic-questioning-probe-a-decision" id="toc-additional-pattern-socratic-questioning-probe-a-decision" class="nav-link" data-scroll-target="#additional-pattern-socratic-questioning-probe-a-decision"><span class="header-section-number">B.7</span> Additional pattern: Socratic questioning: probe a decision</a></li>
+  <li><a href="#role-play-a-bounded-exchange" id="toc-role-play-a-bounded-exchange" class="nav-link" data-scroll-target="#role-play-a-bounded-exchange"><span class="header-section-number">B.8</span> 4. Role-play: a bounded exchange</a></li>
+  <li><a href="#generated-perspectives-inspect-alternatives" id="toc-generated-perspectives-inspect-alternatives" class="nav-link" data-scroll-target="#generated-perspectives-inspect-alternatives"><span class="header-section-number">B.9</span> 7. Generated perspectives: inspect alternatives</a></li>
+  <li><a href="#additional-pattern-critique-and-revision-test-consequential-claims" id="toc-additional-pattern-critique-and-revision-test-consequential-claims" class="nav-link" data-scroll-target="#additional-pattern-critique-and-revision-test-consequential-claims"><span class="header-section-number">B.10</span> Additional pattern: critique and revision: test consequential claims</a></li>
+  <li><a href="#formative-practice-and-feedback" id="toc-formative-practice-and-feedback" class="nav-link" data-scroll-target="#formative-practice-and-feedback"><span class="header-section-number">B.11</span> 6. Formative practice and feedback</a></li>
+  <li><a href="#context-handover" id="toc-context-handover" class="nav-link" data-scroll-target="#context-handover"><span class="header-section-number">B.12</span> Context handover</a></li>
+  <li><a href="#a-small-content-transformation" id="toc-a-small-content-transformation" class="nav-link" data-scroll-target="#a-small-content-transformation"><span class="header-section-number">B.13</span> A small content transformation</a></li>
+  <li><a href="#assessment-design-support" id="toc-assessment-design-support" class="nav-link" data-scroll-target="#assessment-design-support"><span class="header-section-number">B.14</span> Assessment design support</a></li>
+  <li><a href="#research-and-sensitive-material" id="toc-research-and-sensitive-material" class="nav-link" data-scroll-target="#research-and-sensitive-material"><span class="header-section-number">B.15</span> Research and sensitive material</a></li>
+  <li><a href="#record-a-usable-prompt" id="toc-record-a-usable-prompt" class="nav-link" data-scroll-target="#record-a-usable-prompt"><span class="header-section-number">B.16</span> Record a usable prompt</a></li>
+  </ul>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="/partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="/partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="/llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="/appendices/prompt-library.html"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="/appendices/workshop-guide.html"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/pilot-pack.html">Appendices</a></li><li class="breadcrumb-item"><a href="../appendices/prompt-library.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Appendix B — Prompt Library</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Use these patterns with the <a href="../chapters/ethics-integrity.html#sec-data-gate">ethics and data gate</a>. Replace bracketed fields with approved material. A role instruction is not a privacy control, a source of professional authority or a guarantee of factual accuracy.</p>
+<p>The examples refer to the fictional <a href="../appendices/pilot-pack.html">PDP-2026.1 pack</a>. With no AI access, use its fixed responses and have a partner read the bounded role card. Keep the same outcome, sources and assessment criteria.</p>
+<section id="before-any-prompt" class="level2" data-number="B.1">
+<h2 data-number="B.1" class="anchored" data-anchor-id="before-any-prompt"><span class="header-section-number">B.1</span> Before any prompt</h2>
+<p>Write down the capability students should demonstrate, permitted assistance, allowed source records and a stopping condition. Decide how feedback will be checked and what the learner will subsequently do without that assistance.</p>
+<p>Use this common boundary where relevant:</p>
+<pre class="text"><code>This is a fictional teaching exercise.
+Use only the supplied case records.
+Separate recorded facts, inference and missing information.
+Do not invent records, policy, quotations or observed outcomes.
+Ask for a missing essential input instead of filling it in.
+Do not request personal, medical or confidential information.
+Your response is provisional material for educator review.</code></pre>
+<p>This instruction can reduce ambiguity but cannot enforce compliance. Inspect the response before showing it to learners. Do not include real sensitive data simply because the instruction says it is fictional.</p>
+</section>
+<section id="starting-framework-craft-specify-a-bounded-task" class="level2" data-number="B.2">
+<h2 data-number="B.2" class="anchored" data-anchor-id="starting-framework-craft-specify-a-bounded-task"><span class="header-section-number">B.2</span> Starting framework: CRAFT: specify a bounded task</h2>
+<p>CRAFT stands for Context, Role, Action, Format and Tone/Target. It organises a request; it does not certify the answer.</p>
+<pre class="text"><code>Context: fictional supplier task S1.
+We need 200 units within five working days and have $4,000.
+Use the attached S1 offers, with no additional assumptions.
+
+Role: a drafting assistant, not the purchasing approver.
+Action: compare full-quantity cost and stated capacity.
+Format: a short calculation for each offer,
+then one recommendation and one unresolved check.
+Tone/Target: plain language for a junior procurement colleague.
+
+Do not assume a cheaper offer can supply missing units.</code></pre>
+<p><strong>Check:</strong> A costs $3,800, B’s 200-unit price would be $3,500 but exceeds its stated capacity by 40 units, and C costs $4,000. The recommendation must respect both price and capacity. Consult the actual S1 card for all task constraints.</p>
+<p><strong>No-AI route:</strong> calculate these figures and exchange recommendations for checking.</p>
+</section>
+<section id="reverse-prompting-ask-for-essential-inputs" class="level2" data-number="B.3">
+<h2 data-number="B.3" class="anchored" data-anchor-id="reverse-prompting-ask-for-essential-inputs"><span class="header-section-number">B.3</span> 1. Reverse prompting: ask for essential inputs</h2>
+<pre class="text"><code>I am designing a practice activity for [outcome].
+Before proposing the activity, ask up to four questions
+about the sources, permitted assistance, access needs
+and independent task. Ask one at a time.
+Do not request student identities or actual private records.
+If I cannot answer, record the gap rather than inventing it.</code></pre>
+<p><strong>Check:</strong> useful questions concern the proposed learning task. A request to upload a complete student file is not necessary merely because the model asked for it. Answer with fictional or approved information, or stop.</p>
+<p><strong>No-AI route:</strong> use the four categories as a planning checklist with a colleague.</p>
+</section>
+<section id="pros-and-cons-check-rather-than-oppose" class="level2" data-number="B.4">
+<h2 data-number="B.4" class="anchored" data-anchor-id="pros-and-cons-check-rather-than-oppose"><span class="header-section-number">B.4</span> 2. Pros and cons: check rather than oppose</h2>
+<pre class="text"><code>Compare offers A, B and C in S1 against the given
+quantity, deadline and budget.
+State one supported advantage and constraint for each.
+Do not add an invented disadvantage for symmetry.
+Wait while I check your arithmetic and recommendation.</code></pre>
+<p><strong>Check:</strong> a learner may agree with the recommendation after checking it. Use the fixed offers on paper for the same comparison.</p>
+</section>
+<section id="debating-distinguish-arguments-from-evidence" class="level2" data-number="B.5">
+<h2 data-number="B.5" class="anchored" data-anchor-id="debating-distinguish-arguments-from-evidence"><span class="header-section-number">B.5</span> 5. Debating: distinguish arguments from evidence</h2>
+<pre class="text"><code>Using the supplied fictional teaching sources,
+draft two competing recommendations on [decision].
+For each, identify the supporting record, trade-off
+and missing fact. Label this as a generated debate.
+Do not invent citations or declare a consensus.
+Ask me to justify which recommendation, if either, I retain.</code></pre>
+<p><strong>Check:</strong> model-generated disagreement is not evidence of real stakeholder disagreement. On paper, write the strongest supported alternative to your first recommendation and explain your decision.</p>
+</section>
+<section id="stepwise-tutoring-make-the-learner-attempt" class="level2" data-number="B.6">
+<h2 data-number="B.6" class="anchored" data-anchor-id="stepwise-tutoring-make-the-learner-attempt"><span class="header-section-number">B.6</span> 3. Stepwise tutoring: make the learner attempt</h2>
+<pre class="text"><code>Use the supplied M1 marketing figures.
+Ask me to calculate campaign A's click-through rate.
+Wait for my calculation and explanation.
+Check it against the supplied numerator and denominator.
+If wrong, give a small hint and ask me to try again.
+Then ask for B's rate and what comparison is justified.
+Do not treat "next" as evidence that I understand.
+Do not infer profit or causal impact from these records.
+Stop after four learner attempts or when I say STOP.</code></pre>
+<p><strong>Check:</strong> the rates are 4% and 5%; both campaigns have 20 recorded purchases. Different audiences and weeks prevent a clean causal conclusion. If the model praises a wrong denominator, correct the feedback.</p>
+<p><strong>No-AI route:</strong> use a worksheet with the calculations covered until the learner has attempted them.</p>
+</section>
+<section id="additional-pattern-socratic-questioning-probe-a-decision" class="level2" data-number="B.7">
+<h2 data-number="B.7" class="anchored" data-anchor-id="additional-pattern-socratic-questioning-probe-a-decision"><span class="header-section-number">B.7</span> Additional pattern: Socratic questioning: probe a decision</h2>
+<pre class="text"><code>I recommend [decision] using [approved source IDs].
+Ask one question about the weakest supported assumption.
+Wait for my answer, then ask one question about authority
+or a missing record. Do not imply I must reverse my view.
+After two questions, summarise what remains unresolved.
+Do not supply the independent assessment answer.</code></pre>
+<p><strong>Check:</strong> questioning should expose an actual gap, not pressure learners into disagreement. A justified decision may remain unchanged.</p>
+<p><strong>No-AI route:</strong> partners take turns asking “Which record supports that?” and “What would change your decision?”</p>
+</section>
+<section id="role-play-a-bounded-exchange" class="level2" data-number="B.8">
+<h2 data-number="B.8" class="anchored" data-anchor-id="role-play-a-bounded-exchange"><span class="header-section-number">B.8</span> 4. Role-play: a bounded exchange</h2>
+<pre class="text"><code>Play Alex using only P1-D4.
+I am the junior adviser whose authority is in P1-D5.
+The exercise concerns the first response, not a final ruling.
+Begin with Alex's stated concern about dependencies.
+Do not add private history, new policy or unseen evidence.
+If asked for an absent fact, say the exercise does not supply it.
+Stop after six exchanges or immediately on STOP.
+Do not score me, diagnose anyone or demand personal disclosure.</code></pre>
+<p><strong>Check:</strong> review the dialogue against P1-D1–D5. A plausible invented fact changes the case and should not silently become evidence. Debrief the response separately using the educator rubric.</p>
+<p><strong>No-AI route:</strong> a partner reads the role card, or the learner responds to the fixed statement in the pack.</p>
+</section>
+<section id="generated-perspectives-inspect-alternatives" class="level2" data-number="B.9">
+<h2 data-number="B.9" class="anchored" data-anchor-id="generated-perspectives-inspect-alternatives"><span class="header-section-number">B.9</span> 7. Generated perspectives: inspect alternatives</h2>
+<pre class="text"><code>Using only InnovateCo I1-D1 to I1-D5 and its four role cards,
+draft one concern each for Jamie, Priya, David and Sarah.
+Label these as generated perspectives, not interviews.
+For each, identify a supporting record and an unknown.
+Do not add facts or treat agreement as corroboration.
+Finish with two questions for a real decision-maker to resolve.</code></pre>
+<p><strong>Check:</strong> four outputs from one model are not four independent witnesses or experts. Compare each assertion with the role cards. Keep unresolved matters open.</p>
+<p><strong>No-AI route:</strong> distribute the four cards among a group, or compare their fixed statements individually.</p>
+</section>
+<section id="additional-pattern-critique-and-revision-test-consequential-claims" class="level2" data-number="B.10">
+<h2 data-number="B.10" class="anchored" data-anchor-id="additional-pattern-critique-and-revision-test-consequential-claims"><span class="header-section-number">B.10</span> Additional pattern: critique and revision: test consequential claims</h2>
+<pre class="text"><code>Here is response P1-A and the P1 records.
+List up to three consequential claims in the response.
+For each, give the exact source ID or say "unsupported".
+Identify any decision beyond the junior adviser's authority.
+Do not assign a mark or invent a missing policy.
+Wait while I decide which changes to make.</code></pre>
+<p><strong>Check:</strong> P1-A invents an April warning, presumes a performance plan, approves hours and asks for unnecessary family details. An AI critique that misses these is incomplete, even if its prose is fluent.</p>
+<p><strong>No-AI route:</strong> annotate P1-A directly and compare with the educator notes only after completing your own analysis.</p>
+</section>
+<section id="formative-practice-and-feedback" class="level2" data-number="B.11">
+<h2 data-number="B.11" class="anchored" data-anchor-id="formative-practice-and-feedback"><span class="header-section-number">B.11</span> 6. Formative practice and feedback</h2>
+<p>Use after the learner has made an initial judgement:</p>
+<pre class="text"><code>Compare my draft with the five supplied practice criteria.
+For each concern, quote the relevant phrase from my draft
+and identify the case record or criterion involved.
+Distinguish an error from a stylistic preference.
+Do not award a grade, predict an official result
+or assume all your suggestions should be accepted.
+End with one question for my own revision decision.</code></pre>
+<p><strong>Check:</strong> the author-created flawed feedback P1-F awards 90% to a response the illustrative educator calibration scores 4/20. Students should show why feedback is retained, revised or rejected. Do not teach automatic opposition.</p>
+</section>
+<section id="context-handover" class="level2" data-number="B.12">
+<h2 data-number="B.12" class="anchored" data-anchor-id="context-handover"><span class="header-section-number">B.12</span> Context handover</h2>
+<pre class="text"><code>Draft a handover for the next practice session:
+task and capability; source version and IDs;
+confirmed facts; proposals not yet approved;
+missing records; limits of authority; next question.
+Keep it under 200 words.
+Do not convert a suggestion into an agreed action.
+I will check and approve it before reuse.</code></pre>
+<p><strong>Check:</strong> compare the handover against the source records, not just the previous generated summary. Carry the approved source pack forward too. Context size and product memory do not ensure faithful recall.</p>
+</section>
+<section id="a-small-content-transformation" class="level2" data-number="B.13">
+<h2 data-number="B.13" class="anchored" data-anchor-id="a-small-content-transformation"><span class="header-section-number">B.13</span> A small content transformation</h2>
+<pre class="text"><code>Turn the supplied M1 exercise into a self-contained HTML page.
+Keep every figure unchanged.
+Use headings, visible labels and ordinary text areas.
+Include the task, source figures and three response fields:
+claim, numerical check and justified next decision.
+Use no external scripts, fonts, analytics or network calls.
+Do not claim LMS submission, persistent saving
+or accessibility certification.
+Explain how an educator can test export and printing.</code></pre>
+<p><strong>Check:</strong> compare a generated page with <a href="../tools/decision-sheet.html">the supplied decision sheet</a>. Verify calculations, keyboard use, readable print and the actual exported file. A useful static page still needs device and LMS testing before adoption.</p>
+</section>
+<section id="assessment-design-support" class="level2" data-number="B.14">
+<h2 data-number="B.14" class="anchored" data-anchor-id="assessment-design-support"><span class="header-section-number">B.14</span> Assessment design support</h2>
+<pre class="text"><code>Here is my outcome, specimen task and marking guide.
+Identify where assistance could produce a good submission
+without showing the learner's independent capability.
+Propose one changed task that tests the same outcome
+under the stated permitted conditions.
+List new access and workload risks.
+Do not claim the redesign is cheat-proof or accredited.</code></pre>
+<p><strong>Check:</strong> an educator must attempt the changed task, moderate specimen responses and review reasonable adjustments. A model’s confidence is not assurance. Follow the <a href="../appendices/stress-test-sequence.html">stress-test sequence</a>.</p>
+</section>
+<section id="research-and-sensitive-material" class="level2" data-number="B.15">
+<h2 data-number="B.15" class="anchored" data-anchor-id="research-and-sensitive-material"><span class="header-section-number">B.15</span> Research and sensitive material</h2>
+<p>This library is not a research ethics protocol or a method for automated thematic analysis. Do not paste participant transcripts, student records or confidential workplace material into a tool on the basis of these examples. For an approved research use, agree the method, consent or other authority, data handling, access controls and analysis responsibilities first.</p>
+<p>For locating reading, ask a tool for <strong>search terms</strong>, then retrieve and read the original works yourself. Do not treat generated citations, summaries or consensus among generated personas as verified literature.</p>
+</section>
+<section id="record-a-usable-prompt" class="level2" data-number="B.16">
+<h2 data-number="B.16" class="anchored" data-anchor-id="record-a-usable-prompt"><span class="header-section-number">B.16</span> Record a usable prompt</h2>
+<p>Keep a short teaching record: activity/version, intended capability, supplied source IDs, approved product and date if used, important observed failures, checked feedback and the next independent task. Record only what is necessary under the approved retention arrangement. A prompt without its sources and checks is not a reproducible activity.</p>
+
+
+<!-- -->
+
+</section>
+
+</main> <!-- /main -->
+<script data-embed-id="deabab89-b1b2-4102-b42e-a99593976984" data-base-api-url="https://chat.eduserver.au/api/embed" src="https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js">
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../appendices/pilot-pack.html" class="pagination-link" aria-label="Educator Pilot Pack: PDP-2026.1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Educator Pilot Pack: PDP-2026.1</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../appendices/workshop-guide.html" class="pagination-link" aria-label="Workshop Guide">
+        <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Workshop Guide</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Prompt Library</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../tools/prompt-library.md &gt;}}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

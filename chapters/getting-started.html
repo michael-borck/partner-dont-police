@@ -2,21 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="A practical guide for business educators on integrating AI as a teaching partner across disciplines, with ready-to-use prompts, assessment frameworks, and discipline-specific examples.">
 
-<title>3&nbsp; Getting Started — Your First AI Conversation – Partner, Don't Police: AI in the Business Classroom</title>
+<title>4&nbsp; Getting Started: Your First AI Conversation – Partner, Don't Police: AI in the Business Classroom</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -70,7 +73,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../chapters/seven-techniques.html" rel="next">
-<link href="../chapters/understanding-ai.html" rel="prev">
+<link href="../chapters/ethics-integrity.html" rel="prev">
 <link href="../favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -78,14 +81,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-37a0ccb6f5b9899fcb884e11bb6f7458.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,6 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="../book-design.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -288,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/getting-started.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started — Your First AI Conversation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/getting-started.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Getting Started: Your First AI Conversation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -318,14 +322,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Copyright</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+  <a href="../copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copyright</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -337,7 +341,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction - Why AI Matters for Business Education</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: A Defensible Classroom Pilot</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -348,74 +352,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/getting-started.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started — Your First AI Conversation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Getting Started: Your First AI Conversation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/seven-techniques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/managing-context.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Managing LLM Context: Working Smarter with AI Conversations</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Flight Simulator - Conversation Simulations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing Context: A Checked Handoff</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/critique-toolkit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The AI Critique Toolkit - Becoming a Smart Business Professional</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Critique Toolkit: Check the Recommendation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ethics-integrity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rethinking Assessment: Process Over Product</span></span></a>
+  <a href="../chapters/flight-simulator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Flight Simulator: Bounded Conversation Practice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/self-assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI as Study Buddy - Self-Assessment Tool</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Self-Assessment: Judge Before Receiving Feedback</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Virtual Company Simulation (Future Horizon)</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Designing an AI-Integrated Unit</span></span></a>
+  <a href="../chapters/assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Assessing Learning: Process, Product and Independent Capability</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/transforming-content.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Transforming Content with AI</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Transforming Content: Keep the Learning Decision Visible</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/virtual-company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Virtual Company: Keep a Shared Record</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/unit-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Designing an AI-Supported Unit</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/global-perspectives.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Global Perspectives and Adaptation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Adapting to a Different Teaching Context</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -427,7 +431,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Where Do We Go From Here?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion: Make the Next Decision</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -441,32 +445,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../appendices/pilot-pack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Educator Pilot Pack: PDP-2026.1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/prompt-library.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Library</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/workshop-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Workshop Guide</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../appendices/institutional-alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Aligning AI Integration with Institutional Learning Outcomes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Aligning the Activity with Institutional Outcomes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/rubric-system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">AI-Integrated Assessment Rubric System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">A Calibrated Assessment Rubric</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/stress-test-sequence.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Assessment AI Stress Test: A Prompt Sequence</span></span></a>
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Stress-Test the Assessment</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/further-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Further Reading</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -479,7 +501,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>Paperback ISBN 979-8-2542-3619-1<br> <a href="https://www.amazon.com.au/s?k=9798254236191">Support the open edition</a></p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -487,15 +511,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#accessing-an-ai-tool" id="toc-accessing-an-ai-tool" class="nav-link active" data-scroll-target="#accessing-an-ai-tool"><span class="header-section-number">3.1</span> Accessing an AI Tool</a></li>
-  <li><a href="#your-first-prompt-the-weak-version" id="toc-your-first-prompt-the-weak-version" class="nav-link" data-scroll-target="#your-first-prompt-the-weak-version"><span class="header-section-number">3.2</span> Your First Prompt: The Weak Version</a></li>
-  <li><a href="#your-second-prompt-the-powerful-version" id="toc-your-second-prompt-the-powerful-version" class="nav-link" data-scroll-target="#your-second-prompt-the-powerful-version"><span class="header-section-number">3.3</span> Your Second Prompt: The Powerful Version</a></li>
-  <li><a href="#the-craft-framework" id="toc-the-craft-framework" class="nav-link" data-scroll-target="#the-craft-framework"><span class="header-section-number">3.4</span> The CRAFT Framework</a></li>
-  <li><a href="#conversation-not-one-shot" id="toc-conversation-not-one-shot" class="nav-link" data-scroll-target="#conversation-not-one-shot"><span class="header-section-number">3.5</span> Conversation, Not One-Shot</a></li>
-  <li><a href="#discover-your-strategy-using-ai-to-help-you-use-ai" id="toc-discover-your-strategy-using-ai-to-help-you-use-ai" class="nav-link" data-scroll-target="#discover-your-strategy-using-ai-to-help-you-use-ai"><span class="header-section-number">3.6</span> Discover Your Strategy: Using AI to Help You Use AI</a></li>
-  <li><a href="#the-foundation" id="toc-the-foundation" class="nav-link" data-scroll-target="#the-foundation"><span class="header-section-number">3.7</span> The Foundation</a></li>
+  <li><a href="#choose-a-safe-route-first" id="toc-choose-a-safe-route-first" class="nav-link active" data-scroll-target="#choose-a-safe-route-first"><span class="header-section-number">4.1</span> Choose a safe route first</a></li>
+  <li><a href="#your-first-prompt-the-weak-version" id="toc-your-first-prompt-the-weak-version" class="nav-link" data-scroll-target="#your-first-prompt-the-weak-version"><span class="header-section-number">4.2</span> Your First Prompt: The Weak Version</a></li>
+  <li><a href="#your-second-prompt-a-more-specific-version" id="toc-your-second-prompt-a-more-specific-version" class="nav-link" data-scroll-target="#your-second-prompt-a-more-specific-version"><span class="header-section-number">4.3</span> Your Second Prompt: A More Specific Version</a></li>
+  <li><a href="#the-craft-framework" id="toc-the-craft-framework" class="nav-link" data-scroll-target="#the-craft-framework"><span class="header-section-number">4.4</span> The CRAFT Framework</a></li>
+  <li><a href="#conversation-not-one-shot" id="toc-conversation-not-one-shot" class="nav-link" data-scroll-target="#conversation-not-one-shot"><span class="header-section-number">4.5</span> Conversation, Not One-Shot</a></li>
+  <li><a href="#discover-your-strategy-using-ai-to-help-you-use-ai" id="toc-discover-your-strategy-using-ai-to-help-you-use-ai" class="nav-link" data-scroll-target="#discover-your-strategy-using-ai-to-help-you-use-ai"><span class="header-section-number">4.6</span> Discover Your Strategy: Using AI to Help You Use AI</a></li>
+  <li><a href="#activity-inspect-the-proposed-task" id="toc-activity-inspect-the-proposed-task" class="nav-link" data-scroll-target="#activity-inspect-the-proposed-task"><span class="header-section-number">4.7</span> Activity: inspect the proposed task</a></li>
   </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="../llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="../tools/prompt-library.md"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="../tools/workshop-guide.md"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="/partner-dont-police.pdf"><i class="bi bi-file-pdf"></i>Download PDF</a></li><li><a href="/partner-dont-police.epub"><i class="bi bi-book"></i>Download EPUB</a></li><li><a href="/llm.txt"><i class="bi bi-robot"></i>Download llm.txt</a></li><li><a href="https://github.com/michael-borck/partner-dont-police"><i class="bi bi-github"></i>GitHub</a></li><li><a href="https://deepwiki.com/michael-borck/partner-dont-police"><i class="bi bi-search"></i>DeepWiki</a></li><li><a href="https://books.borck.education"><i class="bi bi-collection"></i>All Books</a></li><li><a href="https://www.amazon.com.au/s?k=9798254236191"><i class="bi bi-cart"></i>Amazon</a></li><li><a href="/appendices/prompt-library.html"><i class="bi bi-list-task"></i>Prompt Library</a></li><li><a href="/appendices/workshop-guide.html"><i class="bi bi-easel"></i>Workshop Guide</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -503,7 +527,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started — Your First AI Conversation</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Getting Started: Your First AI Conversation</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -521,22 +545,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <blockquote class="blockquote">
-<p>The best way to understand AI is to use it. Not to read about it, not to watch a demo, but to sit down and have a conversation.</p>
+<p>Begin with a task you can inspect and evidence you can check.</p>
 </blockquote>
-<section id="accessing-an-ai-tool" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="accessing-an-ai-tool"><span class="header-section-number">3.1</span> Accessing an AI Tool</h2>
-<p>Many institutions now provide enterprise AI tools through existing software agreements — commonly MS Copilot Enterprise (through Microsoft 365) or Google Gemini (through Google Workspace for Education). Check with your IT department first, because enterprise tools keep your data within institutional boundaries.</p>
-<p>If your institution does not provide one, several free tools are available: ChatGPT (chat.openai.com), Claude (claude.ai), and Google Gemini (gemini.google.com). All work directly in your web browser — no installation, no configuration. Create a free account and you will see a text box waiting for your instructions.</p>
-<p>For institutional work involving student data or course materials, use your enterprise tool. For general exploration and learning, any tool works — they all have similar core capabilities.</p>
+<section id="choose-a-safe-route-first" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="choose-a-safe-route-first"><span class="header-section-number">4.1</span> Choose a safe route first</h2>
+<p>Complete the <a href="../chapters/ethics-integrity.html">first-use data gate</a> before opening a tool. Use only the fictional pilot materials or your own non-sensitive invented example. Institutional approval must cover the account, features and intended use; an enterprise label alone is not permission to upload course or student data.</p>
+<p>The exercise works in a browser-based approved service if available. Otherwise, compare the supplied responses below on paper. You do not need a paid account to learn how context and criteria change the usefulness of a request.</p>
 </section>
-<section id="your-first-prompt-the-weak-version" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="your-first-prompt-the-weak-version"><span class="header-section-number">3.2</span> Your First Prompt: The Weak Version</h2>
-<p>Open your chosen AI tool and type this exactly:</p>
+<section id="your-first-prompt-the-weak-version" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="your-first-prompt-the-weak-version"><span class="header-section-number">4.2</span> Your First Prompt: The Weak Version</h2>
+<p>If you have an approved tool, try this request. Otherwise use the authored excerpt below:</p>
 <pre><code>Write a case study about business.</code></pre>
-<p>You will receive something generic — maybe a story about a marketing campaign or a financial decision. It is fine, but it is not useful for your specific teaching needs. “Business” covers everything. “A case study” could be 100 words or 5,000. The AI had to guess what you wanted.</p>
+<p>The response may be generic, such as a story about a marketing campaign or financial decision. The request supplies little basis for meeting your specific teaching needs. “Business” covers everything. “A case study” could be 100 words or 5,000. The AI had to guess what you wanted.</p>
 </section>
-<section id="your-second-prompt-the-powerful-version" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="your-second-prompt-the-powerful-version"><span class="header-section-number">3.3</span> Your Second Prompt: The Powerful Version</h2>
+<section id="your-second-prompt-a-more-specific-version" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="your-second-prompt-a-more-specific-version"><span class="header-section-number">4.3</span> Your Second Prompt: A More Specific Version</h2>
 <p>Now try this instead:</p>
 <pre class="text"><code>You are an expert marketing lecturer at a
 university level.
@@ -558,11 +581,14 @@ Here are the requirements:
   positioning
 
 Begin.</code></pre>
-<p>The output should be dramatically more useful. The difference is that you told the AI who you are, what you need, what constraints matter, and what format to use. The AI did not get smarter between your first prompt and your second. You got clearer.</p>
+<p>The second request gives a clearer task. It may produce more relevant material, but still needs checking. Here are two <strong>authored illustrative excerpts</strong>, not outputs from a measured comparison:</p>
+<p><strong>Generic excerpt:</strong> “A business wants to increase sales. It launches a new product. Discuss the marketing strategy.”</p>
+<p><strong>More specific excerpt:</strong> “A small drink producer can fund only one launch channel. Retail buyers want discounts; direct sales need fulfilment capacity. The producer has no reliable repeat-purchase estimate. Which evidence would you request before choosing a channel?”</p>
+<p>The second creates a decision and missing information. It still needs enough supplied data and a criterion for evaluating the student’s response. Do not mistake a more detailed story for a complete classroom activity.</p>
 </section>
-<section id="the-craft-framework" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="the-craft-framework"><span class="header-section-number">3.4</span> The CRAFT Framework</h2>
-<p>What made that second prompt powerful? It included five elements that you can remember with the acronym <strong>CRAFT</strong>:</p>
+<section id="the-craft-framework" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="the-craft-framework"><span class="header-section-number">4.4</span> The CRAFT Framework</h2>
+<p>What made that second prompt more specific? It included five elements that you can remember with the acronym <strong>CRAFT</strong>:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -580,37 +606,37 @@ Begin.</code></pre>
 <tr class="odd">
 <td><strong>C</strong></td>
 <td><strong>Context</strong></td>
-<td>Sets the situation — your course, your students, their level</td>
+<td>Sets the situation: your course, your students, their level</td>
 </tr>
 <tr class="even">
 <td><strong>R</strong></td>
 <td><strong>Role</strong></td>
-<td>Defines the AI’s perspective — expert lecturer, consultant, practitioner</td>
+<td>Defines the AI’s perspective: expert lecturer, consultant, practitioner</td>
 </tr>
 <tr class="odd">
 <td><strong>A</strong></td>
 <td><strong>Action</strong></td>
-<td>Specifies the task — create, analyse, critique, explain</td>
+<td>Specifies the task: create, analyse, critique, explain</td>
 </tr>
 <tr class="even">
 <td><strong>F</strong></td>
 <td><strong>Format</strong></td>
-<td>Describes the structure — word count, number of questions, table format</td>
+<td>Describes the structure: word count, number of questions, table format</td>
 </tr>
 <tr class="odd">
 <td><strong>T</strong></td>
 <td><strong>Tone/Target</strong></td>
-<td>Sets the style and level — professional, introductory, sophisticated</td>
+<td>Sets the style and level: professional, introductory, sophisticated</td>
 </tr>
 </tbody>
 </table>
 <p>You do not need every element every time. But when a prompt gives you something vague or generic, check which CRAFT elements are missing. The answer is usually context or format.</p>
-<p><strong>CRAFT is not the only prompting framework.</strong> The companion book <em>Conversation, Not Delegation</em> (available free at books.borck.education) compares several frameworks side by side. The goal is not to follow CRAFT rigidly — it is to think intentionally about what you are asking the AI to do.</p>
+<p><strong>CRAFT is not the only prompting framework.</strong> The companion book <em>Conversation, Not Delegation</em> (available free at books.borck.education) compares several frameworks side by side. Use CRAFT to think intentionally about what you are asking the AI to do, rather than as a rigid formula.</p>
 </section>
-<section id="conversation-not-one-shot" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="conversation-not-one-shot"><span class="header-section-number">3.5</span> Conversation, Not One-Shot</h2>
-<p>Here is the most important idea in this chapter: <strong>CRAFT is your first message, not your only message.</strong></p>
-<p>When you send one prompt and take the output as-is, you get generic content that could work for anyone. The AI produces safe, middle-ground responses. It misses your specific teaching voice and context.</p>
+<section id="conversation-not-one-shot" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="conversation-not-one-shot"><span class="header-section-number">4.5</span> Conversation, Not One-Shot</h2>
+<p><strong>CRAFT is your first message, not your only message.</strong></p>
+<p>An initial response may miss your teaching context or contain unsupported assumptions. Check it before deciding whether another exchange would help.</p>
 <p>The solution is to have a conversation:</p>
 <pre><code>PROMPT 1 (CRAFT):
 "You are an experienced marketing director.
@@ -635,11 +661,11 @@ PROMPT 4 (Repurpose):
 "Turn this into a 10-minute classroom activity
 with a 2-minute intro, 5-minute group task,
 and 3-minute discussion."</code></pre>
-<p>You did not write four prompts from scratch. You had a conversation where each follow-up built on what was working. This is what <em>conversation, not delegation</em> looks like in practice.</p>
+<p>You had a conversation in which each follow-up built on what was working, which is what <em>conversation, not delegation</em> means in practice.</p>
 </section>
-<section id="discover-your-strategy-using-ai-to-help-you-use-ai" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="discover-your-strategy-using-ai-to-help-you-use-ai"><span class="header-section-number">3.6</span> Discover Your Strategy: Using AI to Help You Use AI</h2>
-<p>Here is something most tools cannot do: <strong>AI can teach you how to use itself.</strong></p>
+<section id="discover-your-strategy-using-ai-to-help-you-use-ai" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="discover-your-strategy-using-ai-to-help-you-use-ai"><span class="header-section-number">4.6</span> Discover Your Strategy: Using AI to Help You Use AI</h2>
+<p>A model can suggest ways to use a tool, but its advice about current features or policy may be wrong. Check those claims against the product’s documentation and your institution’s rules.</p>
 <p>Instead of reading generic advice, you can have a personalised consultation where AI interviews you about your teaching context and then recommends both obvious and unexpected applications. Copy this prompt and try it now:</p>
 <pre><code>You're an AI expert consultant for business
 educators. I'd love your help discovering
@@ -647,7 +673,9 @@ how I could better use AI in my teaching.
 
 Please ask me one question at a time. I'll
 answer, then you'll ask the next question.
-Keep asking until you understand:
+Ask at most five questions using fictional or
+non-sensitive context. Stop if I say STOP.
+Focus on:
 
 - My discipline and the students I teach
 - My main teaching challenges
@@ -669,7 +697,7 @@ Format your recommendations clearly with
 implementation tips for each.
 
 Please start by asking your first question.</code></pre>
-<p>Spend 10-15 minutes answering honestly. The value is not just in the AI’s recommendations — it is in the clarity you gain about your own teaching by having to explain it. Educators consistently report that articulating their teaching philosophy to an AI helped them see how AI could enhance it, not replace it.</p>
+<p>Spend 10-15 minutes answering honestly. The recommendations are only part of the value; you also learn about your own teaching by having to explain it. Writing down those constraints can clarify the task whether you discuss them with a model, a colleague or on paper. Treat the model’s recommendations as proposals to evaluate.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Try this (15 minutes)">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -680,14 +708,14 @@ Please start by asking your first question.</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Run the consultation prompt above. Answer the questions honestly — don’t polish your responses. Then pick one obvious recommendation and one non-obvious recommendation to try this semester. Return to the same conversation after you have tried them and report what happened. The AI will help you iterate.</p>
+<p>Run the consultation prompt above. Answer the questions honestly, and don’t polish your responses. Choose one proposal to evaluate against the outcome, data gate, access requirements and staff time. Trying it in class is a separate decision. You can carry out the same planning exercise on paper.</p>
 </div>
 </div>
 </section>
-<section id="the-foundation" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="the-foundation"><span class="header-section-number">3.7</span> The Foundation</h2>
-<p>If you have followed along, you have accessed an AI tool, written a structured prompt, had a conversation that refined the output, and discovered personalised recommendations for your teaching. That is not a small thing. Everything else in this book builds on this foundation.</p>
-<p>The quality of what you get from AI depends almost entirely on how you work with it. Give it a vague instruction and you get a generic response. Work with it through a structured conversation and you get something genuinely useful. The tools will change. This skill transfers to all of them.</p>
+<section id="activity-inspect-the-proposed-task" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="activity-inspect-the-proposed-task"><span class="header-section-number">4.7</span> Activity: inspect the proposed task</h2>
+<p><strong>Allow ten minutes; no AI required.</strong> Compare the two supplied excerpts. Name one decision the learner must make, one missing input and one criterion you would use to assess the response. Then adapt the stronger request to your own discipline without adding real personal or confidential information.</p>
+<p>The <a href="../appendices/pilot-pack.html">pilot pack</a> supplies the next step: fixed inputs and worked checks. A usable prompt is only the beginning of a usable learning activity.</p>
 
 
 <!-- -->
@@ -802,16 +830,16 @@ Please start by asking your first question.</code></pre>
     }
     function toggleCodeHandler(show) {
       return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
           if (show) {
             details.open = true;
           } else {
             details.removeAttribute("open");
           }
         }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
         const fromCls = show ? "hidden" : "unhidden";
         const toCls = show ? "unhidden" : "hidden";
         for (let i=0; i<cellCodeDivs.length; i++) {
@@ -1163,167 +1191,191 @@ Please start by asking your first question.</code></pre>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/understanding-ai.html" class="pagination-link" aria-label="Understanding AI and Large Language Models">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Understanding AI and Large Language Models</span></span>
+      <a href="../chapters/ethics-integrity.html" class="pagination-link" aria-label="Ethics, Data Governance &amp; Integrity">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ethics, Data Governance &amp; Integrity</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../chapters/seven-techniques.html" class="pagination-link" aria-label="Seven Essential Prompt Techniques for Business Teaching">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Seven Essential Prompt Techniques for Business Teaching</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Getting Started — Your First AI Conversation</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Getting Started: Your First AI Conversation</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; The best way to understand AI is to use it. Not to read about it, not to watch a demo, but to sit down and have a conversation.</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Begin with a task you can inspect and evidence you can check.</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Accessing an AI Tool</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Choose a safe route first</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>Many institutions now provide enterprise AI tools through existing software agreements — commonly MS Copilot Enterprise (through Microsoft 365) or Google Gemini (through Google Workspace for Education). Check with your IT department first, because enterprise tools keep your data within institutional boundaries.</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>If your institution does not provide one, several free tools are available: ChatGPT (chat.openai.com), Claude (claude.ai), and Google Gemini (gemini.google.com). All work directly in your web browser — no installation, no configuration. Create a free account and you will see a text box waiting for your instructions.</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>For institutional work involving student data or course materials, use your enterprise tool. For general exploration and learning, any tool works — they all have similar core capabilities.</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your First Prompt: The Weak Version</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>Open your chosen AI tool and type this exactly:</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="in">Write a case study about business.</span></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>You will receive something generic — maybe a story about a marketing campaign or a financial decision. It is fine, but it is not useful for your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.</span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your Second Prompt: The Powerful Version</span></span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>Now try this instead:</span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="in">```text</span></span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="in">You are an expert marketing lecturer at a</span></span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="in">university level.</span></span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="in">I need you to create a case study for my</span></span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="in">undergraduate students that will help them</span></span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="in">practice strategic market analysis and</span></span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="in">competitive positioning.</span></span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="in">Here are the requirements:</span></span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should involve a product launch</span></span>
-<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="in">  decision where the company faces competitive</span></span>
-<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="in">  threats</span></span>
-<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="in">- Include enough detail that students need to</span></span>
-<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="in">  identify which market analysis principles apply</span></span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should be 300-400 words</span></span>
-<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="in">- End with three discussion questions requiring</span></span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="in">  students to analyse the market strategy and</span></span>
-<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="in">  positioning</span></span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="in">Begin.</span></span>
-<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>Complete the <span class="co">[</span><span class="ot">first-use data gate</span><span class="co">](ethics-integrity.qmd)</span> before opening a tool.</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>Use only the fictional pilot materials or your own non-sensitive invented</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>example. Institutional approval must cover the account, features and intended</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>use; an enterprise label alone is not permission to upload course or student data.</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>The exercise works in a browser-based approved service if available. Otherwise,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>compare the supplied responses below on paper. You do not need a paid account</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>to learn how context and criteria change the usefulness of a request.</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your First Prompt: The Weak Version</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>If you have an approved tool, try this request. Otherwise use the authored excerpt below:</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="in">Write a case study about business.</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>The response may be generic, such as a story about a marketing campaign or financial decision. The request supplies little basis for meeting your specific teaching needs. "Business" covers everything. "A case study" could be 100 words or 5,000. The AI had to guess what you wanted.</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your Second Prompt: A More Specific Version</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>Now try this instead:</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a><span class="in">```text</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="in">You are an expert marketing lecturer at a</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="in">university level.</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="in">I need you to create a case study for my</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="in">undergraduate students that will help them</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="in">practice strategic market analysis and</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="in">competitive positioning.</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="in">Here are the requirements:</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should involve a product launch</span></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="in">  decision where the company faces competitive</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a><span class="in">  threats</span></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="in">- Include enough detail that students need to</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="in">  identify which market analysis principles apply</span></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="in">- The scenario should be 300-400 words</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a><span class="in">- End with three discussion questions requiring</span></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="in">  students to analyse the market strategy and</span></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="in">  positioning</span></span>
 <span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>The output should be dramatically more useful. The difference is that you told the AI who you are, what you need, what constraints matter, and what format to use. The AI did not get smarter between your first prompt and your second. You got clearer.</span>
-<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="fu">## The CRAFT Framework</span></span>
-<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>What made that second prompt powerful? It included five elements that you can remember with the acronym **CRAFT**:</span>
-<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Letter <span class="pp">|</span> Element <span class="pp">|</span> What it does <span class="pp">|</span></span>
-<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a><span class="pp">|--------|---------|--------------|</span></span>
-<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **C** | **Context** <span class="pp">|</span> Sets the situation — your course, your students, their level <span class="pp">|</span></span>
-<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **R** | **Role** <span class="pp">|</span> Defines the AI's perspective — expert lecturer, consultant, practitioner <span class="pp">|</span></span>
-<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **A** | **Action** <span class="pp">|</span> Specifies the task — create, analyse, critique, explain <span class="pp">|</span></span>
-<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **F** | **Format** <span class="pp">|</span> Describes the structure — word count, number of questions, table format <span class="pp">|</span></span>
-<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **T** | **Tone/Target** <span class="pp">|</span> Sets the style and level — professional, introductory, sophisticated <span class="pp">|</span></span>
-<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>You do not need every element every time. But when a prompt gives you something vague or generic, check which CRAFT elements are missing. The answer is usually context or format.</span>
-<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. The goal is not to follow CRAFT rigidly — it is to think intentionally about what you are asking the AI to do.</span>
-<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conversation, Not One-Shot</span></span>
-<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>Here is the most important idea in this chapter: **CRAFT is your first message, not your only message.**</span>
-<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>When you send one prompt and take the output as-is, you get generic content that could work for anyone. The AI produces safe, middle-ground responses. It misses your specific teaching voice and context.</span>
-<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>The solution is to have a conversation:</span>
-<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 1 (CRAFT):</span></span>
-<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a><span class="in">"You are an experienced marketing director.</span></span>
-<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a><span class="in">Create a market analysis case study for my</span></span>
-<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a><span class="in">second-year students. 500 words with 4</span></span>
-<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a><span class="in">discussion questions."</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a><span class="in">Begin.</span></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>The second request gives a clearer task. It may produce more relevant material,</span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>but still needs checking. Here are two **authored illustrative excerpts**, not</span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>outputs from a measured comparison:</span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>**Generic excerpt:** “A business wants to increase sales. It launches a new</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>product. Discuss the marketing strategy.”</span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>**More specific excerpt:** “A small drink producer can fund only one launch</span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>channel. Retail buyers want discounts; direct sales need fulfilment capacity.</span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>The producer has no reliable repeat-purchase estimate. Which evidence would</span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>you request before choosing a channel?”</span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>The second creates a decision and missing information. It still needs enough</span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>supplied data and a criterion for evaluating the student's response. Do not</span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>mistake a more detailed story for a complete classroom activity.</span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a><span class="fu">## The CRAFT Framework</span></span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a>What made that second prompt more specific? It included five elements that you can remember with the acronym **CRAFT**:</span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Letter <span class="pp">|</span> Element <span class="pp">|</span> What it does <span class="pp">|</span></span>
+<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a><span class="pp">|--------|---------|--------------|</span></span>
+<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **C** | **Context** <span class="pp">|</span> Sets the situation: your course, your students, their level <span class="pp">|</span></span>
+<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **R** | **Role** <span class="pp">|</span> Defines the AI's perspective: expert lecturer, consultant, practitioner <span class="pp">|</span></span>
+<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **A** | **Action** <span class="pp">|</span> Specifies the task: create, analyse, critique, explain <span class="pp">|</span></span>
+<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **F** | **Format** <span class="pp">|</span> Describes the structure: word count, number of questions, table format <span class="pp">|</span></span>
+<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **T** | **Tone/Target** <span class="pp">|</span> Sets the style and level: professional, introductory, sophisticated <span class="pp">|</span></span>
+<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a>You do not need every element every time. But when a prompt gives you something vague or generic, check which CRAFT elements are missing. The answer is usually context or format.</span>
 <span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a><span class="in">[AI produces a case study]</span></span>
+<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>**CRAFT is not the only prompting framework.** The companion book *Conversation, Not Delegation* (available free at books.borck.education) compares several frameworks side by side. Use CRAFT to think intentionally about what you are asking the AI to do, rather than as a rigid formula.</span>
 <span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 2 (Refine):</span></span>
-<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a><span class="in">"Good. Make the discussion questions more</span></span>
-<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a><span class="in">specific — ask students to identify which</span></span>
-<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a><span class="in">of Porter's Five Forces apply and what data</span></span>
-<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a><span class="in">they would need to support their recommendation."</span></span>
+<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conversation, Not One-Shot</span></span>
+<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>**CRAFT is your first message, not your only message.**</span>
+<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a>An initial response may miss your teaching context or contain unsupported assumptions. Check it before deciding whether another exchange would help.</span>
 <span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 3 (Expand):</span></span>
-<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a><span class="in">"Add a section comparing three analytical</span></span>
-<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a><span class="in">frameworks and how each leads to different</span></span>
-<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a><span class="in">conclusions."</span></span>
-<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 4 (Repurpose):</span></span>
-<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a><span class="in">"Turn this into a 10-minute classroom activity</span></span>
-<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a><span class="in">with a 2-minute intro, 5-minute group task,</span></span>
-<span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a><span class="in">and 3-minute discussion."</span></span>
-<span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a>The solution is to have a conversation:</span>
+<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 1 (CRAFT):</span></span>
+<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a><span class="in">"You are an experienced marketing director.</span></span>
+<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a><span class="in">Create a market analysis case study for my</span></span>
+<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a><span class="in">second-year students. 500 words with 4</span></span>
+<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a><span class="in">discussion questions."</span></span>
+<span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a><span class="in">[AI produces a case study]</span></span>
 <span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a>You did not write four prompts from scratch. You had a conversation where each follow-up built on what was working. This is what *conversation, not delegation* looks like in practice.</span>
-<span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a><span class="fu">## Discover Your Strategy: Using AI to Help You Use AI</span></span>
-<span id="cb5-105"><a href="#cb5-105" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-106"><a href="#cb5-106" aria-hidden="true" tabindex="-1"></a>Here is something most tools cannot do: **AI can teach you how to use itself.**</span>
+<span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 2 (Refine):</span></span>
+<span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a><span class="in">"Good. Make the discussion questions more</span></span>
+<span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a><span class="in">specific — ask students to identify which</span></span>
+<span id="cb5-105"><a href="#cb5-105" aria-hidden="true" tabindex="-1"></a><span class="in">of Porter's Five Forces apply and what data</span></span>
+<span id="cb5-106"><a href="#cb5-106" aria-hidden="true" tabindex="-1"></a><span class="in">they would need to support their recommendation."</span></span>
 <span id="cb5-107"><a href="#cb5-107" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a>Instead of reading generic advice, you can have a personalised consultation where AI interviews you about your teaching context and then recommends both obvious and unexpected applications. Copy this prompt and try it now:</span>
-<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a><span class="in">You're an AI expert consultant for business</span></span>
-<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a><span class="in">educators. I'd love your help discovering</span></span>
-<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a><span class="in">how I could better use AI in my teaching.</span></span>
-<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a><span class="in">Please ask me one question at a time. I'll</span></span>
-<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a><span class="in">answer, then you'll ask the next question.</span></span>
-<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a><span class="in">Keep asking until you understand:</span></span>
+<span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 3 (Expand):</span></span>
+<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a><span class="in">"Add a section comparing three analytical</span></span>
+<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a><span class="in">frameworks and how each leads to different</span></span>
+<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a><span class="in">conclusions."</span></span>
+<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a><span class="in">PROMPT 4 (Repurpose):</span></span>
+<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a><span class="in">"Turn this into a 10-minute classroom activity</span></span>
+<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a><span class="in">with a 2-minute intro, 5-minute group task,</span></span>
+<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a><span class="in">and 3-minute discussion."</span></span>
+<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb5-118"><a href="#cb5-118" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a><span class="in">- My discipline and the students I teach</span></span>
-<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a><span class="in">- My main teaching challenges</span></span>
-<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a><span class="in">- My key teaching goals</span></span>
-<span id="cb5-122"><a href="#cb5-122" aria-hidden="true" tabindex="-1"></a><span class="in">- My constraints (time, resources, skills)</span></span>
-<span id="cb5-123"><a href="#cb5-123" aria-hidden="true" tabindex="-1"></a><span class="in">- What I've already tried with AI</span></span>
+<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a>You had a conversation in which each follow-up built on what was working, which is what *conversation, not delegation* means in practice.</span>
+<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a><span class="fu">## Discover Your Strategy: Using AI to Help You Use AI</span></span>
+<span id="cb5-122"><a href="#cb5-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-123"><a href="#cb5-123" aria-hidden="true" tabindex="-1"></a>A model can suggest ways to use a tool, but its advice about current features or policy may be wrong. Check those claims against the product's documentation and your institution's rules.</span>
 <span id="cb5-124"><a href="#cb5-124" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-125"><a href="#cb5-125" aria-hidden="true" tabindex="-1"></a><span class="in">Once you have enough context, provide TWO</span></span>
-<span id="cb5-126"><a href="#cb5-126" aria-hidden="true" tabindex="-1"></a><span class="in">types of recommendations:</span></span>
-<span id="cb5-127"><a href="#cb5-127" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-128"><a href="#cb5-128" aria-hidden="true" tabindex="-1"></a><span class="in">1. OBVIOUS OPPORTUNITIES: Clear, straightforward</span></span>
-<span id="cb5-129"><a href="#cb5-129" aria-hidden="true" tabindex="-1"></a><span class="in">   AI applications most educators think of</span></span>
-<span id="cb5-130"><a href="#cb5-130" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-131"><a href="#cb5-131" aria-hidden="true" tabindex="-1"></a><span class="in">2. NON-OBVIOUS OPPORTUNITIES: Unexpected or</span></span>
-<span id="cb5-132"><a href="#cb5-132" aria-hidden="true" tabindex="-1"></a><span class="in">   creative uses specific to my discipline</span></span>
-<span id="cb5-133"><a href="#cb5-133" aria-hidden="true" tabindex="-1"></a><span class="in">   that I might not have considered</span></span>
-<span id="cb5-134"><a href="#cb5-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-135"><a href="#cb5-135" aria-hidden="true" tabindex="-1"></a><span class="in">Format your recommendations clearly with</span></span>
-<span id="cb5-136"><a href="#cb5-136" aria-hidden="true" tabindex="-1"></a><span class="in">implementation tips for each.</span></span>
+<span id="cb5-125"><a href="#cb5-125" aria-hidden="true" tabindex="-1"></a>Instead of reading generic advice, you can have a personalised consultation where AI interviews you about your teaching context and then recommends both obvious and unexpected applications. Copy this prompt and try it now:</span>
+<span id="cb5-126"><a href="#cb5-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-127"><a href="#cb5-127" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-128"><a href="#cb5-128" aria-hidden="true" tabindex="-1"></a><span class="in">You're an AI expert consultant for business</span></span>
+<span id="cb5-129"><a href="#cb5-129" aria-hidden="true" tabindex="-1"></a><span class="in">educators. I'd love your help discovering</span></span>
+<span id="cb5-130"><a href="#cb5-130" aria-hidden="true" tabindex="-1"></a><span class="in">how I could better use AI in my teaching.</span></span>
+<span id="cb5-131"><a href="#cb5-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-132"><a href="#cb5-132" aria-hidden="true" tabindex="-1"></a><span class="in">Please ask me one question at a time. I'll</span></span>
+<span id="cb5-133"><a href="#cb5-133" aria-hidden="true" tabindex="-1"></a><span class="in">answer, then you'll ask the next question.</span></span>
+<span id="cb5-134"><a href="#cb5-134" aria-hidden="true" tabindex="-1"></a><span class="in">Ask at most five questions using fictional or</span></span>
+<span id="cb5-135"><a href="#cb5-135" aria-hidden="true" tabindex="-1"></a><span class="in">non-sensitive context. Stop if I say STOP.</span></span>
+<span id="cb5-136"><a href="#cb5-136" aria-hidden="true" tabindex="-1"></a><span class="in">Focus on:</span></span>
 <span id="cb5-137"><a href="#cb5-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-138"><a href="#cb5-138" aria-hidden="true" tabindex="-1"></a><span class="in">Please start by asking your first question.</span></span>
-<span id="cb5-139"><a href="#cb5-139" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-140"><a href="#cb5-140" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-141"><a href="#cb5-141" aria-hidden="true" tabindex="-1"></a>Spend 10-15 minutes answering honestly. The value is not just in the AI's recommendations — it is in the clarity you gain about your own teaching by having to explain it. Educators consistently report that articulating their teaching philosophy to an AI helped them see how AI could enhance it, not replace it.</span>
-<span id="cb5-142"><a href="#cb5-142" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-143"><a href="#cb5-143" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip title="Try this (15 minutes)"}</span>
-<span id="cb5-144"><a href="#cb5-144" aria-hidden="true" tabindex="-1"></a>Run the consultation prompt above. Answer the questions honestly — don't polish your responses. Then pick one obvious recommendation and one non-obvious recommendation to try this semester. Return to the same conversation after you have tried them and report what happened. The AI will help you iterate.</span>
-<span id="cb5-145"><a href="#cb5-145" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb5-138"><a href="#cb5-138" aria-hidden="true" tabindex="-1"></a><span class="in">- My discipline and the students I teach</span></span>
+<span id="cb5-139"><a href="#cb5-139" aria-hidden="true" tabindex="-1"></a><span class="in">- My main teaching challenges</span></span>
+<span id="cb5-140"><a href="#cb5-140" aria-hidden="true" tabindex="-1"></a><span class="in">- My key teaching goals</span></span>
+<span id="cb5-141"><a href="#cb5-141" aria-hidden="true" tabindex="-1"></a><span class="in">- My constraints (time, resources, skills)</span></span>
+<span id="cb5-142"><a href="#cb5-142" aria-hidden="true" tabindex="-1"></a><span class="in">- What I've already tried with AI</span></span>
+<span id="cb5-143"><a href="#cb5-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-144"><a href="#cb5-144" aria-hidden="true" tabindex="-1"></a><span class="in">Once you have enough context, provide TWO</span></span>
+<span id="cb5-145"><a href="#cb5-145" aria-hidden="true" tabindex="-1"></a><span class="in">types of recommendations:</span></span>
 <span id="cb5-146"><a href="#cb5-146" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-147"><a href="#cb5-147" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Foundation</span></span>
-<span id="cb5-148"><a href="#cb5-148" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-149"><a href="#cb5-149" aria-hidden="true" tabindex="-1"></a>If you have followed along, you have accessed an AI tool, written a structured prompt, had a conversation that refined the output, and discovered personalised recommendations for your teaching. That is not a small thing. Everything else in this book builds on this foundation.</span>
-<span id="cb5-150"><a href="#cb5-150" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-151"><a href="#cb5-151" aria-hidden="true" tabindex="-1"></a>The quality of what you get from AI depends almost entirely on how you work with it. Give it a vague instruction and you get a generic response. Work with it through a structured conversation and you get something genuinely useful. The tools will change. This skill transfers to all of them.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb5-147"><a href="#cb5-147" aria-hidden="true" tabindex="-1"></a><span class="in">1. OBVIOUS OPPORTUNITIES: Clear, straightforward</span></span>
+<span id="cb5-148"><a href="#cb5-148" aria-hidden="true" tabindex="-1"></a><span class="in">   AI applications most educators think of</span></span>
+<span id="cb5-149"><a href="#cb5-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-150"><a href="#cb5-150" aria-hidden="true" tabindex="-1"></a><span class="in">2. NON-OBVIOUS OPPORTUNITIES: Unexpected or</span></span>
+<span id="cb5-151"><a href="#cb5-151" aria-hidden="true" tabindex="-1"></a><span class="in">   creative uses specific to my discipline</span></span>
+<span id="cb5-152"><a href="#cb5-152" aria-hidden="true" tabindex="-1"></a><span class="in">   that I might not have considered</span></span>
+<span id="cb5-153"><a href="#cb5-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-154"><a href="#cb5-154" aria-hidden="true" tabindex="-1"></a><span class="in">Format your recommendations clearly with</span></span>
+<span id="cb5-155"><a href="#cb5-155" aria-hidden="true" tabindex="-1"></a><span class="in">implementation tips for each.</span></span>
+<span id="cb5-156"><a href="#cb5-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-157"><a href="#cb5-157" aria-hidden="true" tabindex="-1"></a><span class="in">Please start by asking your first question.</span></span>
+<span id="cb5-158"><a href="#cb5-158" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-159"><a href="#cb5-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-160"><a href="#cb5-160" aria-hidden="true" tabindex="-1"></a>Spend 10-15 minutes answering honestly. The recommendations are only part of the value; you also learn about your own teaching by having to explain it. Writing down those constraints can clarify the task whether you discuss them with a model, a colleague or on paper. Treat the model's recommendations as proposals to evaluate.</span>
+<span id="cb5-161"><a href="#cb5-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-162"><a href="#cb5-162" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip title="Try this (15 minutes)"}</span>
+<span id="cb5-163"><a href="#cb5-163" aria-hidden="true" tabindex="-1"></a>Run the consultation prompt above. Answer the questions honestly, and don't polish your responses. Choose one proposal to evaluate against the outcome, data gate, access requirements and staff time. Trying it in class is a separate decision. You can carry out the same planning exercise on paper.</span>
+<span id="cb5-164"><a href="#cb5-164" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb5-165"><a href="#cb5-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-166"><a href="#cb5-166" aria-hidden="true" tabindex="-1"></a><span class="fu">## Activity: inspect the proposed task</span></span>
+<span id="cb5-167"><a href="#cb5-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-168"><a href="#cb5-168" aria-hidden="true" tabindex="-1"></a>**Allow ten minutes; no AI required.** Compare the two supplied excerpts.</span>
+<span id="cb5-169"><a href="#cb5-169" aria-hidden="true" tabindex="-1"></a>Name one decision the learner must make, one missing input and one criterion</span>
+<span id="cb5-170"><a href="#cb5-170" aria-hidden="true" tabindex="-1"></a>you would use to assess the response. Then adapt the stronger request to your</span>
+<span id="cb5-171"><a href="#cb5-171" aria-hidden="true" tabindex="-1"></a>own discipline without adding real personal or confidential information.</span>
+<span id="cb5-172"><a href="#cb5-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a>The <span class="co">[</span><span class="ot">pilot pack</span><span class="co">](../appendices/pilot-pack.qmd)</span> supplies the next step: fixed</span>
+<span id="cb5-174"><a href="#cb5-174" aria-hidden="true" tabindex="-1"></a>inputs and worked checks. A usable prompt is only the beginning of a usable</span>
+<span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a>learning activity.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
