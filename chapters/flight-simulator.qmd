@@ -125,7 +125,7 @@ A rubric prompt does not ensure accurate application of the rubric.
 
 The pack includes P1-F, an intentionally flawed simulated critique awarding
 90% to weak work. The educator correction scores that response 4/20 against
-the supplied criteria. The point is the traceable correction, not a claim that
+the supplied criteria. The traceable correction matters more than a claim that
 one human score is universally correct. Marking teams should calibrate
 disagreements using the evidence.
 

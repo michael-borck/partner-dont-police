@@ -40,3 +40,5 @@ The downloadable `llm.txt` can support local search or an approved AI workflow. 
 This revision was prepared in September 2026. Product capabilities, institutional rules and legal requirements can change; check the relevant current authority before implementation. Australian examples require local adaptation elsewhere. Nothing here replaces institution-specific approval or professional advice about a real case.
 
 *Conversation, Not Delegation* explains the wider methodology; this book includes the recap needed to work independently. Find the companion and other open books at [books.borck.education](https://books.borck.education).
+
+The series trunk is *Conversation, Not Delegation* for method and *The Human Edge* for professional judgement. This book is the branch for teaching with AI.
