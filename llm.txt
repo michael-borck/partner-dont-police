@@ -12,6 +12,8 @@ This book is for business educators deciding where AI-supported practice belongs
 
 You do not need a paid AI account to use the book. The worked examples and activities include paper or paired routes. An institution may reasonably decide that a particular tool, dataset or activity is unsuitable.
 
+The methodology earns your trust the same way any tool does: through evidence, not confidence.
+
 ## Reading routes
 
 The sixteen chapters follow four stages:
