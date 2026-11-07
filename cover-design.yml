@@ -2,12 +2,12 @@ version: 1
 style: editorial-c
 art: cover-art.png
 family: EDUCATION / TEACHING WITH AI
-accent: '#806132'
-background: '#F0E7D5'
+accent: '#F59E0B'
+background: '#78350F'
 title_lines:
 - Partner,
 - Don't Police
-dark: false
+dark: true
 pixel: false
 scene: teaching
 art_origin: Locally constructed editable vector illustration.
